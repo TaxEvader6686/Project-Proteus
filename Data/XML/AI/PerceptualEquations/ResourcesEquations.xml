@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<!-- Equations that define perception functions -->
+<Equations>
+<!-- Ground: Economy -->
+	<Tax_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Tax_Agency", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</Tax_Count>
+
+	<Mines_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Mining_Facility_Minerals_Ground",
+									Parameter_Type = "Mining_Facility_Tibanna_Ground",
+									Parameter_Type = "Mining_Facility_Spice_Ground",
+									Parameter_Type = "Mining_Facility_Minerals_Space",
+									Parameter_Type = "Mining_Facility_Tibanna_Space",
+									Parameter_Type = "Mining_Facility_Spice_Space",
+									Parameter_Only_Consider_Complete = 1.0}
+	</Mines_Count>
+
+	<Capital_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Empire_Capital",
+									Parameter_Type = "Republic_Capital",
+									Parameter_Type = "PA_Capital",
+									Parameter_Type = "Maldrood_Capital",
+									Parameter_Type = "Eriadu_Capital",
+									Parameter_Type = "NewRep_Capital",
+									Parameter_Type = "CIS_Capital",
+									Parameter_Type = "Sith_Capital",
+									Parameter_Type = "Rancor_Base",
+									Parameter_Type = "ZE_Capital_Alternate",
+									Parameter_Type = "Imperial_Proteus_Capital",
+									Parameter_Type = "CSA_Capital",
+									Parameter_Type = "Yevetha_Capital",
+									Parameter_Type = "EOTH_Capital",
+									Parameter_Type = "Chiss_Capital",
+									Parameter_Type = "Hapan_Capital",
+									Parameter_Type = "Mando_Capital",
+									Parameter_Type = "Republic_Sector_Capital",
+									Parameter_Type = "Shadow_Collective_Capital",
+									Parameter_Type = "CIS_Sector_Capital",
+									Parameter_Type = "Techno_Union_Capital",
+									Parameter_Type = "Hutt_Capital",
+									Parameter_Type = "Revolt_Rural_Capital",
+									Parameter_Type = "Revolt_Urban_Capital",
+									Parameter_Type = "Revolt_Mercenary_Capital",
+									Parameter_Type = "Revolt_Corporate_Capital",
+									Parameter_Type = "Tierfon_Shipyard_Capital",
+									Parameter_Only_Consider_Complete = 1.0}
+	</Capital_Count>
+
+	<NavalAcademy_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Naval_Academy",
+									Parameter_Only_Consider_Complete = 1.0}
+	</NavalAcademy_Count>
+
+	<UniqueAcademy_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Carida_Academy",
+									Parameter_Type = "Anaxes_War_College",
+									Parameter_Type = "Tactical_Droid_Factory",
+									Parameter_Only_Consider_Complete = 1.0}
+	</UniqueAcademy_Count>
+
+	<CloningFacility_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Cloning_HQ", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</CloningFacility_Count>
+
+	<Colony1_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Golan_Colony_One", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</Colony1_Count>
+
+	<Colony2_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Golan_Colony_Two", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</Colony2_Count>
+
+	<Cantina_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Smuggler_Cantina", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</Cantina_Count>
+
+	<Smuggler_Limit_Structures_Count>
+		Variable_Self.StructureCount {Parameter_Type = "Hutt_Capital",
+									Parameter_Type = "Shadow_Collective_Capital",
+									Parameter_Type = "Smuggler_Cantina", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</Smuggler_Limit_Structures_Count>
+
+<!-- Ground: Production -->
+	<LightFactory_Count>
+		Variable_Self.StructureCount {Parameter_Type = "E_Ground_Light_Vehicle_Factory", 
+									Parameter_Type = "A_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "T_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "Z_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "P_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "Y_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "I_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "R_Ground_Light_Vehicle_Factory", 
+									Parameter_Type = "C_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "EOTH_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "HC_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "M_Ground_Light_Vehicle_Factory",
+									Parameter_Type = "H_Ground_Light_Vehicle_Factory",
+									Parameter_Only_Consider_Complete = 1.0}
+	</LightFactory_Count>
+
+	<HeavyFactory_Count>
+		Variable_Self.StructureCount {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "A_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "T_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "Z_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "P_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "Y_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "I_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "R_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "C_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "EOTH_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "HC_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "M_Ground_Heavy_Vehicle_Factory",
+									Parameter_Type = "H_Ground_Heavy_Vehicle_Factory",
+									Parameter_Only_Consider_Complete = 1.0}
+	</HeavyFactory_Count>
+
+	<AdvFactory_Count>
+		Variable_Self.StructureCount {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "A_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "T_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "Z_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "P_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "Y_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "I_Ground_Advanced_Vehicle_Factory",
+									Parameter_Type = "R_Ground_Advanced_Vehicle_Factory",
+									Parameter_Only_Consider_Complete = 1.0}
+	</AdvFactory_Count>
+
+<!-- Space: Economic -->
+	<Tradestation_Count>
+		Variable_Self.StructureCount {Parameter_Type = "TradeStation", 
+									Parameter_Only_Consider_Complete = 1.0}
+	</Tradestation_Count>
+
+<!-- Infrastructure Slots -->
+	<Infrastructure_Score>
+		(
+			Function_GroundbaseLevel.Evaluate
+			-
+			Function_Open_Ground_Structure_Slots.Evaluate
+		)
+		+
+		(
+			2 * Function_StarbaseLevel.Evaluate
+			-
+			Function_MaxStarbaseLevel.Evaluate
+		)
+		+
+		(
+			Function_Planet_Has_Shipyard.Evaluate
+			+
+			Function_Planet_Has_Ground_Company.Evaluate
+			+
+			Function_Planet_Has_Space_Company.Evaluate
+			+
+			Function_Planet_Has_Local_Infrastructure_Building.Evaluate
+		)
+	</Infrastructure_Score>
+
+	<Total_Slots>
+		Function_MaxGroundbaseLevel.Evaluate + Function_MaxStarbaseLevel.Evaluate
+	</Total_Slots>
+
+	<Open_Slots>
+		Function_Open_Ground_Structure_Slots.Evaluate + Function_MaxStarbaseLevel.Evaluate - Function_StarbaseLevel.Evaluate
+	</Open_Slots>
+</Equations>

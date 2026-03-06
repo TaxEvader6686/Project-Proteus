@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "VENGEANCE_STAR_DREADNOUGHT"}
+}

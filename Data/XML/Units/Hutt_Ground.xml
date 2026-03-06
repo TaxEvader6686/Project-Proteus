@@ -1,0 +1,2278 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Hutt_Ground_Companies>
+
+	<!-- Barracks -->
+
+	<GroundVehicle Name="Hutt_Speed_Scooter">
+
+		<Text_ID>TEXT_UNIT_SPEED_SCOOTER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER_BIKE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SPEED_SCOOTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SPEED_SCOOTER_HEALTH
+		TEXT_TOOLTIP_SPEED_SCOOTER_MOVE
+		TEXT_TOOLTIP_SPEED_SCOOTER_WEAP1
+		TEXT_TOOLTIP_SPEED_SCOOTER_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SPEED_SCOOTER.TGA</Icon_Name>
+
+		<Land_Model_Name>Hutt_Speed_Scooter.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>38</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>25</Size_Value>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 3.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
+		<Walk_Animation_Speed>1.0</Walk_Animation_Speed>
+		<Crouch_Animation_Speed>1.0</Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>4.0</Max_Speed>
+		<OverrideAcceleration>0.2666666667</OverrideAcceleration>
+		<OverrideDeceleration>0.8</OverrideDeceleration>
+		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Speeder </Armor_Type>
+		<Tactical_Health>30</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>5</Damage>
+		<AI_Combat_Power>16</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<Weather_Category>Hover</Weather_Category>
+		<Deploys>No</Deploys>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>no</Create_Team>
+
+		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, WIND_DISTURBANCE, DAMAGE_TRACKING, AMBIENT_SFX, SURFACE_FX, AFFECTED_BY_SHIELD, GARRISON_UNIT</LandBehavior>
+
+		<HardPoints> HP_Speed_Scooter, HP_A280_Rifle_Hand </HardPoints>
+
+		<Garrison_Category>Vehicle</Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Target_Bones> TARGET_00, TARGET_01, BODY </Target_Bones>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Guard</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Guard</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Guard</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Hutt_Guard </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Hutt_Guard </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Guard</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Speeder_Bike_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_SpeederBike_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Engine_Idle_Loop> Unit_SpeederBike_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_SpeederBike_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_SpeederBike_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 12 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<MovementClass> LightHover </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .75 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>40</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>true</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius>1.0</Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>18.0, 7.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>3</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Lua_Script>SpeederBike</Lua_Script>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		<LateralAcceleration> .15 </LateralAcceleration>
+		<Min_Speed_Fraction_For_Turn> 0 </Min_Speed_Fraction_For_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		
+		<Energy_Capacity>200</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>1.5f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Land</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_VEHICLE_OVERCLOCK</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_VEHICLE_OVERCLOCK_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_FIRE_ENERGY_WEAPON.tga</Alternate_Icon_Name>
+				<Expiration_Seconds> 6.0 </Expiration_Seconds>
+				<Recharge_Seconds> 90.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.66f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.1</Damage_Percent_When_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundVehicle Name="Hutt_Speed_Scooter_Company_Dummy">
+		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Hutt_Speed_Scooter.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_SPEED_SCOOTER.tga</Icon_Name>
+		<AI_Combat_Power>130.09</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Alternate_Icon_Name>I_SA_FIRE_ENERGY_WEAPON.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="Hutt_Speed_Scooter_Company">
+
+		<Text_ID>TEXT_UNIT_SPEED_SCOOTER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER_BIKE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SPEED_SCOOTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SPEED_SCOOTER_COMPANY
+		TEXT_TOOLTIP_SPEED_SCOOTER_HEALTH
+		TEXT_TOOLTIP_SPEED_SCOOTER_MOVE
+		TEXT_TOOLTIP_SPEED_SCOOTER_WEAP1
+		TEXT_TOOLTIP_SPEED_SCOOTER_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SPEED_SCOOTER.TGA</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>325</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Barracks</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Guard</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units> Hutt_Speed_Scooter_Company_Dummy </Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>335</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundVehicle Name="Hutt_Flare_S">
+		<Variant_Of_Existing_Type> Flare_S </Variant_Of_Existing_Type>
+		
+		<Icon_Name>I_BUTTON_FLARE_S_HUTT.tga</Icon_Name>
+		<Land_Model_Name>Hutt_FlareS.ALO</Land_Model_Name>
+		<Affiliation>Hutt_Cartels</Affiliation>
+	</GroundVehicle>
+
+	<GroundVehicle Name="Hutt_Flare_S_Company_Dummy">
+		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Hutt_FlareS.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_FLARE_S.tga</Icon_Name>
+		<AI_Combat_Power>126.06</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="Hutt_Flare_S_Company">
+		<Variant_Of_Existing_Type>Flare_S_Company</Variant_Of_Existing_Type>
+
+
+		<Required_Special_Structures>H_Ground_Barracks</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Soldier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Soldier</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units> Hutt_Flare_S_Company_Dummy </Company_Units>
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>355</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+
+	<!-- Light Vehicle Factory -->
+
+	<GroundVehicle Name="Hutt_Desert_Sail20">
+
+		<Text_ID>TEXT_UNIT_DESERT_SAIL20</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DESERT_SAIL20
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DESERT_SAIL20_HEALTH
+		TEXT_TOOLTIP_DESERT_SAIL20_MOVE
+		TEXT_TOOLTIP_DESERT_SAIL20_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_DESERT_SAIL20.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_DesertSail20.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping>
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>38</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>25</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 3.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
+		<Walk_Animation_Speed>1.0</Walk_Animation_Speed>
+		<Crouch_Animation_Speed>1.0</Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>3.0</Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.6</OverrideDeceleration>
+		<Max_Rate_Of_Turn>6</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Speeder </Armor_Type>
+		<Tactical_Health>70</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>5</Damage>
+		<AI_Combat_Power>22</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>
+		<Weather_Category>Hover</Weather_Category>
+		<Deploys>No</Deploys>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>no</Create_Team>
+
+		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
+
+		<LandBehavior>ABILITY_COUNTDOWN, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, WIND_DISTURBANCE, DAMAGE_TRACKING, AMBIENT_SFX, SURFACE_FX, AFFECTED_BY_SHIELD, GARRISON_UNIT</LandBehavior>
+
+		<HardPoints>HP_Desert_Sail20</HardPoints>
+
+		<Garrison_Category>Infantry</Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Target_Bones>BODY</Target_Bones>
+		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Scout_Trooper</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Scout_Trooper</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Death_SFXEvent_Start_Die>Unit_Speeder_Bike_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Ambient_Moving> Unit_Speederbike_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Engine_Moving_Loop> Unit_SpeederBike_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 12 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_SpeederBike_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<MovementClass> LightHover </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .75 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>40</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>true</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius>1.0</Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>18.0, 7.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>3</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Behavior> SELECTABLE </Behavior>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		<LateralAcceleration> .15 </LateralAcceleration>
+		<Min_Speed_Fraction_For_Turn> 0 </Min_Speed_Fraction_For_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		
+		<Energy_Capacity>200</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+		
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>1.5f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Land</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Vehicle_Thief_Inside_Clone>Hutt_Desert_Sail20_Captured</Vehicle_Thief_Inside_Clone>
+
+		<Death_Clone>Damage_Force_Telekinesis, Small_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Small_Explosion_Land</Death_Clone>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb_Concussion</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>2</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_DROP_BOMB2.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Desert_Sail_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Hutt_Desert_Sail20</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundVehicle>
+
+	<GroundVehicle Name="Hutt_Desert_Sail20_Captured">
+		<Variant_Of_Existing_Type>Hutt_Desert_Sail20</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Speeder_Bomb_Concussion</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>2</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_UNTARGETED_STICKY_BOMBC_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_DROP_BOMB2.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="Hutt_Desert_Sail20_Company">
+
+		<Text_ID>TEXT_UNIT_DESERT_SAIL20_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DESERT_SAIL20
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_DESERT_SAIL20_COMPANY
+		TEXT_TOOLTIP_DESERT_SAIL20_HEALTH
+		TEXT_TOOLTIP_DESERT_SAIL20_MOVE
+		TEXT_TOOLTIP_DESERT_SAIL20_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_DESERT_SAIL20.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>525</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Light_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Skiff</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_Desert_Sail20, Hutt_Desert_Sail20, Hutt_Desert_Sail20, Hutt_Desert_Sail20, Hutt_Desert_Sail20, Hutt_Desert_Sail20</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>380</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_Personnel_Skiff_IV_Company">
+
+		<Text_ID>TEXT_UNIT_PERSONNEL_SKIFF_IV_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PERSONNEL_SKIFF_IV
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_COMPANY
+		TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_HEALTH
+		TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_MOVE
+		TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_INFANTRY_HEAL_3X
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_PERSONNEL_SKIFF.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>675</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Light_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels, Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Skiff</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_Personnel_Skiff_IV, Hutt_Personnel_Skiff_IV, Hutt_Personnel_Skiff_IV</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>455</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_Bantha_II_Skiff_Company">
+
+		<Text_ID>TEXT_UNIT_BANTHA_II_SKIFF_HUTT_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BANTHA_II_SKIFF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_HUTT_COMPANY
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_HEALTH
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_MOVE 
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_HUTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_BANTHA2_SKIFF.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Light_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Skiff</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_Bantha_II_Skiff, Hutt_Bantha_II_Skiff, Hutt_Bantha_II_Skiff, Hutt_Bantha_II_Skiff, Hutt_Bantha_II_Skiff, Hutt_Bantha_II_Skiff</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_SuperHaul_II_Skiff_Company">
+
+		<Text_ID>TEXT_UNIT_SUPERHAUL_II_SKIFF_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_COMPANY
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_HEALTH
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_MOVE
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SUPERHAUL_II.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Light_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Skiff</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>SuperHaul_II_Skiff, SuperHaul_II_Skiff, SuperHaul_II_Skiff, SuperHaul_II_Skiff</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>490</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="Hutt_AA_Skiff_Company">
+
+		<Text_ID>TEXT_UNIT_HUTT_AA_SKIFF_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_AA_SKIFF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_AA_SKIFF_COMPANY
+		TEXT_TOOLTIP_HUTT_AA_SKIFF_HEALTH
+		TEXT_TOOLTIP_HUTT_AA_SKIFF_MOVE
+		TEXT_TOOLTIP_HUTT_AA_SKIFF_WEAP1
+		TEXT_TOOLTIP_HUTT_AA_SKIFF_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_AA_SKIFF.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Skiff</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_AA_Skiff, Hutt_AA_Skiff, Hutt_AA_Skiff</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>190</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundVehicle Name="Hutt_AST5">
+
+		<Text_ID>TEXT_UNIT_AST5</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_AIRSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AST5
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AST5_HEALTH
+		TEXT_TOOLTIP_AST5_MOVE
+		TEXT_TOOLTIP_AST5_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_AST5.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_AST5.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>5.0</Select_Box_Z_Adjust>
+		<Size_Value>15</Size_Value>
+
+		<Mass>0.985</Mass>
+		<Max_Speed>3.5</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> .23 </OverrideAcceleration>
+		<OverrideDeceleration> 0.7 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>4.5</Stopped_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Speeder </Armor_Type>
+		<Tactical_Health>70</Tactical_Health>
+
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>8</Damage>
+		<AI_Combat_Power>37</AI_Combat_Power>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Type>Hover</Type>
+		<CategoryMask> AirGunship | AntiInfantry </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags/>
+		<Weather_Category>Flying</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>525</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>50</Score_Cost_Credits>
+
+		<LandBehavior> SELECTABLE, AMBIENT_SFX, IDLE, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, WEAPON, POWERED, UNIT_AI,TARGETING, TURRET, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, SURFACE_FX, HUNT</LandBehavior>
+
+		<HardPoints>
+			HP_AST5
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, BODY </Target_Bones>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_Gunship</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gunship</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gunship</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gunship</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Gunship</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_LAAT_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Idle_Loop> Unit_LAAT_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_LAAT_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_LAAT_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_T47_Airspeeder_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Land</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+
+		<MovementClass> Lancet </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>3.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>3.0</Custom_Hard_YExtent>
+		<FormationSpacing> 3.0 </FormationSpacing>
+		<FormationOrder>1</FormationOrder>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationRaggedness>0.75</FormationRaggedness>
+		<MaxJiggleDistance>3.5</MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>0.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>0.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>0.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>500</SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>3.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>100</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
+
+		<Movement_Animation_Speed> 2.0</Movement_Animation_Speed>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Min_Speed>0.0</Min_Speed>
+		<Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
+		<Max_Lift>3.5</Max_Lift>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<FormationGrouping> Solo </FormationGrouping>
+		<PathFrameDelay> 4 </PathFrameDelay>
+		<Hover_Height>100.0</Hover_Height>
+		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
+		<Behavior>SELECTABLE, POWERED</Behavior>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Deploys>Yes</Deploys>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+		<Damaged_Smoke_Asset_Name/>
+
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<FormationGrouping> Solo </FormationGrouping>
+		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!-- Half usual repair kit effect for air -->
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="AST5_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.025 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Hutt_AST5</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Vehicle_Repair_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundVehicle>
+
+	<GroundCompany Name="Hutt_AST5_Company">
+
+		<Text_ID>TEXT_UNIT_AST5_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_AIRSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AST5
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_AST5_COMPANY
+		TEXT_TOOLTIP_AST5_HEALTH
+		TEXT_TOOLTIP_AST5_MOVE
+		TEXT_TOOLTIP_AST5_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_AST5.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>TZ86_Vehicle_Transport_Air</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Gunship</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gunship</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_AST5, Hutt_AST5, Hutt_AST5, Hutt_AST5</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>520</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<!-- Heavy Vehicle Factory -->
+	<GroundCompany Name="Luxury_Barge_Company">
+
+		<Text_ID>TEXT_UNIT_LUXURY_BARGE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_LUXURY_BARGE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_LUXURY_BARGE_COMPANY
+		TEXT_TOOLTIP_LUXURY_BARGE_HEALTH
+		TEXT_TOOLTIP_LUXURY_BARGE_MOVE
+		TEXT_TOOLTIP_LUXURY_BARGE_WEAP1
+		TEXT_TOOLTIP_LUXURY_BARGE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_LUXURY_BARGE.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Heavy_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gozanti_Heavy_Transport_Landing_Craft_Heavy</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Luxury_Barge</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Luxury_Barge</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Luxury_Barge</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>755</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundVehicle Name="Hutt_Pod_Walker">
+
+		<Text_ID>TEXT_UNIT_HUTT_POD_WALKER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_POD_WALKER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HUTT_POD_WALKER_HEALTH 
+		TEXT_TOOLTIP_HUTT_POD_WALKER_MOVE
+		TEXT_TOOLTIP_HUTT_POD_WALKER_WEAP1 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_POD_WALKER.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_PodWalker.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>80</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>150</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed> 0.75 </Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration>0.75</OverrideAcceleration>
+		<OverrideDeceleration>0.75</OverrideDeceleration>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_MediumVehicle </Armor_Type>
+		<Tactical_Health>200</Tactical_Health>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>20</Damage>
+		<AI_Combat_Power>52</AI_Combat_Power>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags>GoodInfantryCrusher</Property_Flags>
+		<Weather_Category>Walker</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>300</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>333</Score_Cost_Credits>
+		
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, TURRET, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, SQUASH</LandBehavior>
+
+		<HardPoints>
+				HP_Pod_Walker_AV
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> Body, Turret_00, Barrel_00, Target_00  </Target_Bones>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>No</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation,SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_Pod_Walker</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Pod_Walker</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pod_Walker</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Pod_Walker</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Pod_Walker</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Pod_Walker </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pod_Walker</SFXEvent_Assist_Attack>
+
+		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, null</SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop/>
+		<SFXEvent_Engine_Moving_Loop/>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+
+		<MovementClass>Walker</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Large Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 8.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 8.0 </Custom_Hard_YExtent>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 4 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness>2.5</FormationRaggedness>
+		<MaxJiggleDistance>5</MaxJiggleDistance>
+		<MinimumPushReturnDistance> 60 </MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>0.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>0.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>0.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>500</SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>550.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>20.0</Overall_Length>
+		<Overall_Width>0.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name/>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>125.0, 75.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+
+		<LOD_Bias>1</LOD_Bias>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 1.5 </Rotation_Animation_Speed>
+		<Stopped_Rate_Of_Turn>1.75</Stopped_Rate_Of_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Min_Speed_Fraction_For_Turn> .4 </Min_Speed_Fraction_For_Turn>
+		<MovementPredictionInterval> 12 </MovementPredictionInterval>
+		<Close_Enough_Angle_For_Move_Start> 45 </Close_Enough_Angle_For_Move_Start>
+		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
+		
+		<Deploys>Yes</Deploys>
+		<Auto_Deploys>Yes</Auto_Deploys>
+		<Deployment_Anim_Rate>2.0</Deployment_Anim_Rate>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
+		<Turret_Rotate_Extent_Degrees>180</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Deployed_Rest_Angle>0.0, 0.0, 0.0</Turret_Deployed_Rest_Angle>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>0</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
+		
+		<Vehicle_Thief_Inside_Clone>Hutt_Pod_Walker_Captured</Vehicle_Thief_Inside_Clone>
+
+		<!-- Enhanced sensors capability -->
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		
+        <Death_Clone>Damage_Normal, Hutt_Pod_Walker_Walker_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Normal, Hutt_Pod_Walker_Walker_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Normal, Hutt_Pod_Walker_Walker_Death_Clone_02</Death_Clone>
+		<Death_Clone>Damage_Normal, Hutt_Pod_Walker_Walker_Death_Clone_03</Death_Clone>
+		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundVehicle Name="Hutt_Pod_Walker_Captured">
+		<Variant_Of_Existing_Type>Hutt_Pod_Walker</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<Death_Clone Name="Hutt_Pod_Walker_Walker_Death_Clone_00">
+		<Variant_Of_Existing_Type>Hutt_Pod_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>150.0</Presence_Range>
+	</Death_Clone>
+
+	<Death_Clone Name="Hutt_Pod_Walker_Walker_Death_Clone_01">
+		<Variant_Of_Existing_Type>Hutt_Pod_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>150.0</Presence_Range>
+	</Death_Clone>
+
+	<Death_Clone Name="Hutt_Pod_Walker_Walker_Death_Clone_02">
+		<Variant_Of_Existing_Type>Hutt_Pod_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>150.0</Presence_Range>
+	</Death_Clone>
+
+	<Death_Clone Name="Hutt_Pod_Walker_Walker_Death_Clone_03">
+		<Variant_Of_Existing_Type>Hutt_Pod_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 3 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>150.0</Presence_Range>
+	</Death_Clone>
+
+	<GroundCompany Name="Hutt_Pod_Walker_Company">
+
+		<Text_ID>TEXT_UNIT_HUTT_POD_WALKER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HUTT_POD_WALKER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_HUTT_POD_WALKER_COMPANY
+		TEXT_TOOLTIP_HUTT_POD_WALKER_HEALTH
+		TEXT_TOOLTIP_HUTT_POD_WALKER_MOVE
+		TEXT_TOOLTIP_HUTT_POD_WALKER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HUTT_POD_WALKER.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>725</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>I_Ground_Heavy_Vehicle_Factory | H_Ground_Heavy_Vehicle_Factory </Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels, Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>TZ86_Vehicle_Transport_Heavy</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pod_Walker</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pod_Walker</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_Pod_Walker, Hutt_Pod_Walker, Hutt_Pod_Walker, Hutt_Pod_Walker</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1515</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="WLO5_Tank_Company">
+
+		<Text_ID>TEXT_UNIT_WLO5_TANK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_WLO5_TANK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_WLO5_TANK_COMPANY
+		TEXT_TOOLTIP_WLO5_TANK_HEALTH
+		TEXT_TOOLTIP_WLO5_TANK_MOVE
+		TEXT_TOOLTIP_WLO5_TANK_WEAP1
+		TEXT_TOOLTIP_WLO5_TANK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_WLO5.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>850</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Heavy_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>TZ86_Vehicle_Transport_Tanks</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_2M_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>WLO5_Tank, WLO5_Tank, WLO5_Tank</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>755</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="MAL_Rocket_Vehicle_Company">
+
+		<Text_ID>TEXT_UNIT_MAL_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MAL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MAL_COMPANY
+		TEXT_TOOLTIP_MAL_HEALTH
+		TEXT_TOOLTIP_MAL_SHIELD
+		TEXT_TOOLTIP_MAL_MOVE 
+		TEXT_TOOLTIP_MAL_WEAP1
+		TEXT_TOOLTIP_MAL_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_mal.tga</Icon_Name>
+
+		<Damage>20</Damage>
+
+		<Ship_Class>artillery</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>875</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits />
+		<Required_Special_Structures>H_Ground_Heavy_Vehicle_Factory | I_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>180</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control />
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type />
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>TZ86_Vehicle_Transport_Artillery</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Missile_Launcher</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Missile_Launcher</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets />
+		<Company_Units>MAL_Rocket_Vehicle</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>665</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundVehicle Name="Hutt_Guardian_5E_Speeder">
+
+		<Text_ID>TEXT_UNIT_GUARDIAN_5E_SPEEDER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_AIRSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_HEALTH
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_MOVE
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_DEPLOY
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_5E_SPEEDER.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_Guardian5eSpeeder.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>5.0</Select_Box_Z_Adjust>
+		<Size_Value>15</Size_Value>
+
+		<Mass>0.985</Mass>
+		<Max_Speed>5</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> .333 </OverrideAcceleration>
+		<OverrideDeceleration> 1 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>5.0</Stopped_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Speeder </Armor_Type>
+		<Tactical_Health>225</Tactical_Health>
+
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>8</Damage>
+		<AI_Combat_Power>53</AI_Combat_Power>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Type>Hover</Type>
+		<CategoryMask> AirGunship | AntiInfantry </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags/>
+		<Weather_Category>Flying</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>525</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>50</Score_Cost_Credits>
+
+		<LandBehavior> ABILITY_COUNTDOWN, DEPLOY_TROOPERS, AMBIENT_SFX, IDLE, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, WEAPON,POWERED, UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX</LandBehavior>
+
+		<HardPoints>
+			HP_Guardian_5e
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> BODY </Target_Bones>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_Assault_Speeder</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Assault_Speeder</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Assault_Speeder</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Assault_Speeder</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Assault_Speeder</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Assault_Speeder</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_T47_Airspeeder_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_T47_Airspeeder_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_T47_Airspeeder_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass> Lancet </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>3.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>3.0</Custom_Hard_YExtent>
+		<FormationSpacing> 3.0 </FormationSpacing>
+		<FormationOrder>1</FormationOrder>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationRaggedness>0.75</FormationRaggedness>
+		<MaxJiggleDistance>3.5</MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>0.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>0.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>0.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>500</SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>3.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>100</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
+
+		<Movement_Animation_Speed> 2.0</Movement_Animation_Speed>
+		<Min_Speed>0.0</Min_Speed>
+		<Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
+		<Max_Lift>3.5</Max_Lift>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<FormationGrouping> Solo </FormationGrouping>
+		<PathFrameDelay> 4 </PathFrameDelay>
+		<Hover_Height>100.0</Hover_Height>
+		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
+		<Behavior>SELECTABLE, POWERED</Behavior>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Deploys>Yes</Deploys>
+		<Auto_Deploys>No</Auto_Deploys>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+		<Damaged_Smoke_Asset_Name/>
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Explosion_Land</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<FormationGrouping> Solo </FormationGrouping>
+		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Spawned_Object_Type>Hutt_Guardian_E2_Speeder_Company</Spawned_Object_Type>
+				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects>
+				<Owner_Attachment_Bone> Bike_Attach </Owner_Attachment_Bone>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_ABILITY_DEPLOY_SPEEDER</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_SPEEDER_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="Hutt_Guardian_5E_Speeder_Company">
+
+		<Text_ID>TEXT_UNIT_GUARDIAN_5E_SPEEDER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_AIRSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_COMPANY
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_HEALTH
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_MOVE
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_GUARDIAN_5E_SPEEDER_DEPLOY
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_5E_SPEEDER.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>H_Ground_Heavy_Vehicle_Factory | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>TZ86_Vehicle_Transport_Air</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Assault_Speeder</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Hutt_Guardian_5E_Speeder, Hutt_Guardian_5E_Speeder</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>885</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+	</GroundCompany>
+
+	<!-- Tactical spawns-only -->
+	<GroundVehicle Name="Hutt_Guardian_E2_Speeder">
+
+		<Text_ID>TEXT_UNIT_GUARDIAN_E2_SPEEDER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER_BIKE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_HEALTH
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_MOVE
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_E2_BIKE.tga</Icon_Name>
+
+		<Land_Model_Name>Hutt_GuardianE2Bike.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping>
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>38</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>25</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 3.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
+		<Walk_Animation_Speed>1.0</Walk_Animation_Speed>
+		<Crouch_Animation_Speed>1.0</Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>4.75</Max_Speed>
+		<OverrideAcceleration>0.31</OverrideAcceleration>
+		<OverrideDeceleration>0.95</OverrideDeceleration>
+		<Max_Rate_Of_Turn>8</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Speeder </Armor_Type>
+		<Tactical_Health>30</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>5</Damage>
+		<AI_Combat_Power>16</AI_Combat_Power>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>
+		<Weather_Category>Hover</Weather_Category>
+		<Deploys>No</Deploys>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>no</Create_Team>
+
+		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
+
+		<LandBehavior>ABILITY_COUNTDOWN, LANDING, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, WIND_DISTURBANCE,DAMAGE_TRACKING, AMBIENT_SFX, SURFACE_FX, AFFECTED_BY_SHIELD, HUNT, GARRISON_UNIT </LandBehavior>
+
+		<HardPoints>HP_Guardian_E2</HardPoints>
+
+		<Garrison_Category>Infantry</Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Target_Bones>BODY</Target_Bones>
+		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Scout_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Scout_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Scout_Trooper</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Scout_Trooper</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Death_SFXEvent_Start_Die>Unit_Speeder_Bike_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Ambient_Moving> Unit_Speederbike_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Engine_Moving_Loop> Unit_SpeederBike_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 12 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_SpeederBike_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<MovementClass> LightHover </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .75 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>40</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>550.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>true</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius>1.0</Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>18.0, 7.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>3</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Lua_Script>SpeederBike</Lua_Script>
+		<Behavior> SELECTABLE </Behavior>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		<LateralAcceleration> .15 </LateralAcceleration>
+		<Min_Speed_Fraction_For_Turn> 0 </Min_Speed_Fraction_For_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>200</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+		
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>1.5f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Land</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Guardian_E2_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Hutt_Guardian_E2_Speeder</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundVehicle>
+
+	<GroundCompany Name="Hutt_Guardian_E2_Speeder_Company">
+		<Variant_Of_Existing_Type>Hutt_Guardian_5E_Speeder_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GUARDIAN_E2_SPEEDER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER_BIKE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_HEALTH
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_MOVE
+		TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_GUARDIAN_E2_BIKE.tga</Icon_Name>
+		<Company_Units>Hutt_Guardian_E2_Speeder</Company_Units>
+		<Tech_Level>99</Tech_Level>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>270</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	</GroundCompany>
+
+</Hutt_Ground_Companies>

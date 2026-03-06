@@ -1,0 +1,2265 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Hutt_Space_Units>
+
+	<SpecialStructure Name="Hutt_Pirate_Asteroid_Base">
+		<Text_ID>TEXT_PIRATE_STAR_BASE_1</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Space_Model_Name>W_PirateAsteroidBase.ALO</Space_Model_Name>
+		<Icon_Name>i_button_asteroid_base.tga</Icon_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+
+		<Select_Box_Scale>1200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<AI_Combat_Power>6000</AI_Combat_Power>
+		<Size_Value>10</Size_Value>
+		<Tech_Level>99</Tech_Level>
+		<CategoryMask> Structure | AntiCorvette | AntiFighter </CategoryMask>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET, SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+ 		<Tactical_Health>1800</Tactical_Health>
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+		<Shield_Points>3200</Shield_Points>
+		<Shield_Refresh_Rate>32</Shield_Refresh_Rate>
+ 
+		<AI_Combat_Power>458</AI_Combat_Power>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>IPV1, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>IPV1, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Interceptor_IV_Frigate, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Interceptor_IV_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Damage>35</Damage>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCorvette</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<HardPoints>
+			HP_Pirate_Base_Fighter_Bay_00,
+			HP_Pirate_Base_Heavy_Turret_00,
+			HP_Pirate_Base_Heavy_Turret_01,
+			HP_Pirate_Base_Turbolaser_00,
+			HP_Pirate_Base_Turbolaser_01,
+			HP_Pirate_Base_Turbolaser_02,
+			HP_Pirate_Base_Turbolaser_03,
+			HP_Pirate_Base_Laser_Cannon_00,
+			HP_Pirate_Base_Laser_Cannon_01
+		</HardPoints>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_PIRATE_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PIRATE_BASE_HULL
+		TEXT_TOOLTIP_PIRATE_BASE_SHIELD 
+		TEXT_TOOLTIP_PIRATE_BASE_WEAP1
+		TEXT_TOOLTIP_PIRATE_BASE_WEAP2
+		TEXT_TOOLTIP_PIRATE_BASE_WEAP3 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Normal, Asteroid_Field_Large_Death</Death_Clone>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_station1_p.tga</Radar_Icon_Name>
+		<Score_Cost_Credits> 1500</Score_Cost_Credits>
+	</SpecialStructure>
+
+	<!-- Corvettes/Frigates/Tier 1 -->
+
+	<SpaceUnit Name="Warlord_Cruiser">
+
+		<Text_ID>TEXT_UNIT_WARLORD</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 12</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_WARLORD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_WARLORD_HULL
+		TEXT_TOOLTIP_WARLORD_SHIELD
+		TEXT_TOOLTIP_WARLORD_MOVE 
+		TEXT_TOOLTIP_WARLORD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_WARLORD_PD
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_WARLORD_CORVETTE.tga</Icon_Name>
+
+		<Space_Model_Name>Warlord-class_corvette.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>220</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.9995</Mass>
+		<Max_Speed>5.6</Max_Speed>
+		<Max_Thrust>1.5</Max_Thrust>
+		<OverrideAcceleration>0.25</OverrideAcceleration>
+		<OverrideDeceleration>0.5</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>1.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Corvette</Shield_Armor_Type>
+		<Shield_Points>550</Shield_Points>
+		<Shield_Refresh_Rate>11</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Corvette </Armor_Type>
+		<Tactical_Health>650</Tactical_Health>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>111</AI_Combat_Power>
+		<Damage>40</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Override_Bounty_SP>5</Override_Bounty_SP>
+		<Maintenance_Cost>2</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags/>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Squadron_Capacity>12</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<Build_Cost_Credits>240</Build_Cost_Credits>
+		<Build_Time_Seconds>4</Build_Time_Seconds>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>320</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Warlord_Cruiser_Laser_01, HP_Warlord_Cruiser_Laser_02, HP_Warlord_Cruiser_Laser_03, HP_Warlord_Cruiser_Laser_04
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Warlord</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.8, 0.5</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, null, null</Land_Damage_SFX>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Warlord</SFXEvent_Build_Complete>
+
+		<SFXEvent_Select>Unit_Select_Warlord</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Warlord</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Warlord</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Warlord</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Warlord</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Warlord</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Warlord</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_AttackGuns_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_AttackEngines_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_AttackHangar_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Warlord </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiBomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-210.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>1.0</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>1.5f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.85f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    -1f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Warlord</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	   
+		<Abilities SubObjectList="Yes">
+
+			<Laser_Defense_Ability Name="Warlord_Laser_Defense">
+                <Activation_Style> Space_Automatic </Activation_Style>
+                <Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+                <Laser_Color>134, 255, 134, 255</Laser_Color>
+                <Bone_Names>WEAP_RAPID_LASER_00_165_FP00, WEAP_RAPID_LASER_00_165_FP01, WEAP_RAPID_LASER_01_165_FP00, WEAP_RAPID_LASER_01_165_FP01, WEAP_RAPID_LASER_02_190_FP00, WEAP_RAPID_LASER_02_190_FP01, WEAP_RAPID_LASER_03_190_FP00, WEAP_RAPID_LASER_03_190_FP01</Bone_Names>
+                <Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+                <Protection_Radius>875.0</Protection_Radius>
+                <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                <Laser_Beam_Width>4</Laser_Beam_Width>
+                <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                <Recharge_Time_In_Secs>0.47</Recharge_Time_In_Secs>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+            </Laser_Defense_Ability>
+
+		</Abilities>
+		<Death_Clone/>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Raka_Freighter_Tender">
+		<Variant_Of_Existing_Type>Template_Raka_Freighter_Tender</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Heavy_Minstrel_Yacht">
+		<Variant_Of_Existing_Type>Template_Heavy_Minstrel_Yacht</Variant_Of_Existing_Type>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_HULL 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_SHIELD 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_MOVE
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_SQUADRON
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_GCW_WEAP1 
+		TEXT_TOOLTIP_MINSTREL_YACHT_HEAVY_GCW_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+		
+		<CategoryMask>Corvette | AntiCorvette</CategoryMask>
+
+		<AI_Combat_Power>200</AI_Combat_Power>
+
+		<Build_Cost_Credits>450</Build_Cost_Credits>
+
+		<HardPoints>
+			HP_Minstrel_Heavy_GCW_Turbo_01, HP_Minstrel_Heavy_GCW_Turbo_02, HP_Minstrel_Heavy_GCW_Ion_01, HP_Minstrel_Heavy_GCW_Ion_02, HP_Minstrel_Heavy_Hangar
+		</HardPoints>
+
+		<Targeting_Max_Attack_Distance>2400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCorvette</Targeting_Priority_Set>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Tactical_Build_Cost_Multiplayer>335</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Ubrikkian_Frigate">
+
+		<Text_ID>TEXT_UNIT_UBRIKKIAN_FRIGATE</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 30</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_UBRIKKIAN_FRIGATE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_HULL
+		TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_SHIELD
+		TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_MOVE 
+		TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_PD
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_Ubrikkian_frigate.tga</Icon_Name>
+
+		<Space_Model_Name>Ubrikkian_escort_frigate.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>325</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.9995</Mass>
+		<Max_Speed>2.8</Max_Speed>
+		<Max_Thrust>1.5</Max_Thrust>
+		<OverrideAcceleration>0.15</OverrideAcceleration>
+		<OverrideDeceleration>0.3</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.55</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>1.1</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Corvette</Shield_Armor_Type>
+		<Shield_Points>800</Shield_Points>
+		<Shield_Refresh_Rate>16</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+		<Tactical_Health>1000</Tactical_Health>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>266</AI_Combat_Power>
+		<Damage>40</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Override_Bounty_SP>5</Override_Bounty_SP>
+		<Maintenance_Cost>7</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags/>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Squadron_Capacity>12</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>460</Build_Cost_Credits>
+		<Build_Time_Seconds>11</Build_Time_Seconds>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>635</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		<Population_Value>3</Population_Value>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<Space_Override_Population_Value/>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			 HP_Ubrikkian_Frigate_Laser_01, HP_Ubrikkian_Frigate_Laser_02, HP_Ubrikkian_Frigate_Laser_03, HP_Ubrikkian_Frigate_Laser_04, HP_Ubrikkian_Frigate_Laser_05, HP_Ubrikkian_Frigate_Laser_06
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Root</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.8, 0.5</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, null, null</Land_Damage_SFX>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Lancer</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target/>
+		<SFXEvent_Bombard_Incoming/>
+
+		<SFXEvent_Select>Unit_Select_Lancer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lancer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Lancer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lancer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Lancer</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Lancer</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Lancer</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_AttackEngines_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_AttackHangar_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Lancer </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>1450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiBomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-180.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>1.0</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>1.5f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>0</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        0.01f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_ABILITY_RETREAT</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_RETREAT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_FORCE_CONFUSE.TGA</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Activated>UHD_Retreat_Started_Space</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	   
+		<Abilities SubObjectList="Yes">
+
+			<Laser_Defense_Ability Name="Ubrikkian_Frigate_Laser_Defense">
+                <Activation_Style> Space_Automatic </Activation_Style>
+                <Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+                <Laser_Color>134, 255, 134, 255</Laser_Color>
+                <Bone_Names>WEAP_LASER_LQ_01_360_FP00, WEAP_LASER_LQ_01_360_FP01, WEAP_LASER_LQ_02_200_FP00, WEAP_LASER_LQ_02_200_FP01, WEAP_LASER_LQ_03_200_FP00, WEAP_LASER_LQ_03_200_FP01, WEAP_LASER_LQ_04_200_FP00, WEAP_LASER_LQ_04_200_FP01, WEAP_LASER_LQ_05_200_FP00, WEAP_LASER_LQ_05_200_FP01, WEAP_LASER_LQ_06_360_FP00, WEAP_LASER_LQ_06_360_FP01</Bone_Names>
+                <Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+                <Protection_Radius>625.0</Protection_Radius>
+                <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                <Laser_Beam_Width>4</Laser_Beam_Width>
+                <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                <Recharge_Time_In_Secs>0.12</Recharge_Time_In_Secs>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+            </Laser_Defense_Ability>
+
+		</Abilities>
+		<Death_Clone/>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Kaloth_Battlecruiser">
+		<Variant_Of_Existing_Type>Template_Kaloth_Battlecruiser</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Juvard_Frigate">
+		<Variant_Of_Existing_Type>Template_Juvard_Frigate</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Hutt_Galleon">
+		<Variant_Of_Existing_Type>Template_Hutt_Galleon</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>Dunelizard_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Dunelizard_Fighter_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Barabbula_Frigate">
+		<Variant_Of_Existing_Type>Template_Barabbula_Frigate</Variant_Of_Existing_Type>
+		<Affiliation> Hutt_Cartels </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<!-- move back to units_corvettes later -->
+	<SpaceUnit Name="Super_Transport_VII_Interdictor">
+		<Variant_Of_Existing_Type>Template_Super_Transport_VII_Interdictor</Variant_Of_Existing_Type>
+
+		<Affiliation> Hutt_Cartels, Imperial_Proteus </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Planets/>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 2</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Kossak_Frigate">
+		<Variant_Of_Existing_Type>Template_Kossak_Frigate</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Tarrada_Frigate">
+		<Text_ID>TEXT_UNIT_TARRADA</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 89</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TARRADA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TARRADA_HULL
+		TEXT_TOOLTIP_TARRADA_SHIELD
+		TEXT_TOOLTIP_TARRADA_MOVE
+		TEXT_TOOLTIP_TARRADA_SQUADRON
+		TEXT_TOOLTIP_TARRADA_WEAP1
+		TEXT_TOOLTIP_TARRADA_WEAP2
+		TEXT_TOOLTIP_TARRADA_WEAP3
+		TEXT_TOOLTIP_TARRADA_WEAP4
+		TEXT_TOOLTIP_TARRADA_WEAP5
+		TEXT_TOOLTIP_TARRADA_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_TARRADA_PD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_BOOTANA_HUTTA
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_tarrada.tga</Icon_Name>
+
+		<Space_Model_Name>Tarrada-class_frigate.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>500</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>4.9</Max_Speed>
+		<Max_Thrust>0.3</Max_Thrust>
+		<OverrideAcceleration>0.175</OverrideAcceleration>
+		<OverrideDeceleration>0.35</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.7</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.05</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Frigate</Shield_Armor_Type>
+		<Shield_Points>1800</Shield_Points>
+		<Shield_Refresh_Rate>27.0</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+		<Tactical_Health>1400</Tactical_Health>
+
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>628</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Override_Bounty_SP>15</Override_Bounty_SP>
+		<Maintenance_Cost>13</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | AntiFrigate | AntiFighter | AntiBomber </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags> Carrier | DoKite </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1400</Build_Cost_Credits>
+		<Build_Time_Seconds>21</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>765</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>45000</Score_Cost_Credits>
+		<Population_Value>6</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Tarrada_HTL_01, HP_Tarrada_HTL_02, HP_Tarrada_HTL_03, HP_Tarrada_MTL_01, HP_Tarrada_LTL_01, HP_Tarrada_LTL_02, HP_Tarrada_LTL_03, HP_Tarrada_LTL_04, HP_Tarrada_Ion_01, HP_Tarrada_Laser_01, HP_Tarrada_Laser_02, HP_Tarrada_Conc_01, HP_Tarrada_Hangar_00
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_HALF, 1</Starting_Spawned_Units_Tech_0>
+
+		<Target_Bones>ROOT, TARGET_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Szajin</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Szajin</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Szajin</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Szajin</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Szajin</SFXEvent_Attack>
+		<SFXEvent_Move_Into_Nebula>Unit_Move_Szajin</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Szajin</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Target_Hardpoint_1_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Target_Hardpoint_2_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Target_Hardpoint_2_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Target_Hardpoint_1_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Target_Hardpoint_3_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Target_Hardpoint_3_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Target_Hardpoint_3_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Target_Hardpoint_2_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Target_Hardpoint_1_Szajin </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, null </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_bac.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>2450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Frigate</Space_Layer>
+		<Layer_Z_Adjust>-160.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Death_Clone/>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Fleet_Move_Szajin</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Laser_Defense_Ability Name="Tarrada_Laser_Defense">
+                <Activation_Style> Space_Automatic </Activation_Style>
+                <Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+                <Laser_Color>134, 255, 134, 255</Laser_Color>
+                <Bone_Names>Weap_Laser_HD_01_180_FP00, Weap_Laser_HD_01_180_FP01, Weap_Laser_HD_02_180_FP00, Weap_Laser_HD_02_180_FP01</Bone_Names>
+                <Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+                <Protection_Radius>875.0</Protection_Radius>
+                <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                <Laser_Beam_Width>4</Laser_Beam_Width>
+                <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                <Recharge_Time_In_Secs>0.47</Recharge_Time_In_Secs>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+            </Laser_Defense_Ability>
+		</Abilities>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Hutt_Boarding_Shuttle">
+		<Variant_Of_Existing_Type>Template_Boarding_Shuttle</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Space_Model_Name>UV_RZ-52BoardingShip.ALO</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+		<Icon_Name>I_BUTTON_RZ52_TRANSPORT.tga</Icon_Name>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_One | Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Gallofree</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+		
+		<SFXEvent_Select>Unit_Select_UVT_Transport</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_UVT_Transport</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_UVT_Transport</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_UVT_Transport</SFXEvent_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Strike </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Gallofree </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.1f</Mod_Multiplier>
+				<Alternate_Icon_Name>I_SA_CAPTURE_VEHICLES.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_ABILITY_BOARD</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_BOARD_DESCRIPTION</Alternate_Description_Text>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_GR_75</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_Target_Ability> Unit_Ability_GR_75 </SFXEvent_Target_Ability> 
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>INVULNERABILITY</Type>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.0f</Mod_Multiplier> <!-- completely invulnerabe -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Invulnerable_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<!-- Heavy Frigates/Tier 2 -->
+
+	<SpaceUnit Name="Ubrikkian_Cruiser_GCW">
+		<Variant_Of_Existing_Type>Template_Ubrikkian_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Tempest_Cruiser">
+		<Variant_Of_Existing_Type>Template_Tempest_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>Scurrg_H6_Squadron_half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cloakshape_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Scurrg_H6_Squadron_half, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Cloakshape_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Batil_Carrier">
+		<Text_ID>TEXT_UNIT_BATIL</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 230</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BATIL
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BATIL_HULL
+		TEXT_TOOLTIP_BATIL_SHIELD
+		TEXT_TOOLTIP_BATIL_MOVE
+		TEXT_TOOLTIP_BATIL_SQUADRON
+		TEXT_TOOLTIP_BATIL_WEAP1
+		TEXT_TOOLTIP_BATIL_WEAP2
+		TEXT_TOOLTIP_BATIL_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_BOOTANA_HUTTA
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_batil.tga</Icon_Name>
+
+		<Space_Model_Name>Batil-class_carrier.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>1450</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>4.55</Max_Speed>
+		<Max_Thrust>0.3</Max_Thrust>
+		<OverrideAcceleration>0.15</OverrideAcceleration>
+		<OverrideDeceleration>0.3</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.7</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.05</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+		<Shield_Points>3000</Shield_Points>
+		<Shield_Refresh_Rate>37.5</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
+		<Tactical_Health>3160</Tactical_Health>
+
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>1147</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Override_Bounty_SP>55</Override_Bounty_SP>
+		<Maintenance_Cost>42</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | AntiFrigate </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags> Carrier | DoKite | Boardable </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>3800</Build_Cost_Credits>
+		<Build_Time_Seconds>70</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>1295</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>45000</Score_Cost_Credits>
+		<Population_Value>20</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Batil_Turbo_HD_01, HP_Batil_Turbo_HD_02,
+			HP_Batil_Ion_LS_01, HP_Batil_Ion_LS_02,
+			HP_Batil_Laser_MQ_01, HP_Batil_Laser_MQ_02,
+			HP_Batil_Hangar, 
+			HP_Batil_Engine
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 2</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Target_Bones>Batil_Carrier</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Escort</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Escort</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Escort</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Escort</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Escort</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Escort</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Escort </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Escort </SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Escort </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_LoseShields_Escort </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_LoseEngines_Escort </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_LoseHangar_Escort </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_bac.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Frigate</Space_Layer>
+		<Layer_Z_Adjust>-180.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Death_Clone/>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Szajin_Cruiser">
+		<Variant_Of_Existing_Type>Template_Szajin_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Karagga_Destroyer">
+		<Variant_Of_Existing_Type>Template_Karagga_Destroyer</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron_Double, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Chelandion_Cruiser">
+		<Text_ID>TEXT_UNIT_CHELANDION</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 170</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CHELANDION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CHELANDION_HULL
+		TEXT_TOOLTIP_CHELANDION_SHIELD
+		TEXT_TOOLTIP_CHELANDION_MOVE 
+		TEXT_TOOLTIP_CHELANDION_WEAP1
+		TEXT_TOOLTIP_CHELANDION_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_BOOTANA_HUTTA
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_chelandion.tga</Icon_Name>
+
+		<Space_Model_Name>Chelandion-class_Cruiser.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>1250</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>3.85</Max_Speed>
+		<Max_Thrust>0.3</Max_Thrust>
+		<OverrideAcceleration>0.05</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.4</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.05</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+		<Shield_Points>2900</Shield_Points>
+		<Shield_Refresh_Rate>36.25</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
+		<Tactical_Health>4005</Tactical_Health>
+
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>1511</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Override_Bounty_SP>40</Override_Bounty_SP>
+		<Maintenance_Cost>32</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | AntiFrigate </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags> Boardable </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>3050</Build_Cost_Credits>
+		<Build_Time_Seconds>53</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Two | Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>1785</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>45000</Score_Cost_Credits>
+		<Population_Value>15</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Chelandion_Turbo_HS_01, HP_Chelandion_Turbo_HS_02, HP_Chelandion_Turbo_HS_03, HP_Chelandion_Turbo_HS_04, HP_Chelandion_Turbo_HS_05, HP_Chelandion_Turbo_HS_06,
+			HP_Chelandion_Missile_AC_01,HP_Chelandion_Missile_AC_02,
+			HP_Chelandion_Engine
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Chelandion</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Acclamator </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Acclamator </SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Bay_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_bac.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Frigate</Space_Layer>
+		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Death_Clone/>
+	</SpaceUnit>
+
+	<!-- Capitals/Tier 3 -->
+
+	<SpaceUnit Name="Vontor_Destroyer">
+		<Variant_Of_Existing_Type>Template_Vontor_Destroyer</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Property_Flags>Boardable</Property_Flags>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Krayt_Gunship_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>KIMOGILA_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Krayt_Gunship_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>KIMOGILA_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Voracious_Carrier">
+		<Variant_Of_Existing_Type>Template_Voracious_Carrier</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Property_Flags>Boardable</Property_Flags>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 3</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 3</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Karabos_Destroyer">
+		<Text_ID>TEXT_UNIT_KARABOS</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 350</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_KARABOS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_KARABOS_HULL
+		TEXT_TOOLTIP_KARABOS_SHIELD
+		TEXT_TOOLTIP_KARABOS_MOVE
+		TEXT_TOOLTIP_KARABOS_WEAP1
+		TEXT_TOOLTIP_KARABOS_WEAP2
+		TEXT_TOOLTIP_KARABOS_WEAP3
+		TEXT_TOOLTIP_KARABOS_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_BOOTANA_HUTTA
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_karabos.tga</Icon_Name>
+
+		<Space_Model_Name>Karabos-class_destroyer.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>1950</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>3.85</Max_Speed>
+		<Max_Thrust>0.3</Max_Thrust>
+		<OverrideAcceleration>0.05</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.3</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.05</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>10</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Points>7200</Shield_Points>
+		<Shield_Refresh_Rate>36</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Tactical_Health>9215</Tactical_Health>
+
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>3241</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Override_Bounty_SP>95</Override_Bounty_SP>
+		<Maintenance_Cost>67</Maintenance_Cost>
+
+		<Ship_Class>capital</Ship_Class>
+		<CategoryMask> Capital | AntiCapital </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags> Boardable </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Build_Time_Seconds>112</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>3940</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>45000</Score_Cost_Credits>
+		<Population_Value>32</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Karabos_Turbo_01, HP_Karabos_Turbo_02, HP_Karabos_Turbo_03, HP_Karabos_Turbo_04, HP_Karabos_Turbo_05, HP_Karabos_Turbo_06, HP_Karabos_Turbo_07, HP_Karabos_Turbo_08, HP_Karabos_Turbo_09, HP_Karabos_Turbo_10,
+			HP_Karabos_Turbo_Dual_01, HP_Karabos_Turbo_Dual_02, HP_Karabos_Turbo_Dual_03,
+			HP_Karabos_Ion_01, HP_Karabos_Ion_02,
+			HP_Karabos_Missile_01, HP_Karabos_Missile_02, HP_Karabos_Missile_03,
+			HP_Karabos_Engine
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Karabos</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Warship</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Warship</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Warship</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Warship</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Warship</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Warship</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula>Unit_Move_Hutt_Warship</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Hutt_Warship</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>3100.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Capital</Space_Layer>
+		<Layer_Z_Adjust>-300.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Death_Clone/>
+	</SpaceUnit>
+
+	<!-- Dreadnoughts/Tier 4 -->
+
+	<SpaceUnit Name="DorBulla_Warship">
+		<Variant_Of_Existing_Type>Template_DorBulla_Warship</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<GUI_Row> 0 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>KIMOGILA_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 7</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>KIMOGILA_SQUADRON, 3</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Darksaber">
+		<Text_ID>TEXT_UNIT_DARKSABER</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,900</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DARKSABER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DARKSABER_HULL
+		TEXT_TOOLTIP_DARKSABER_SHIELD
+		TEXT_TOOLTIP_DARKSABER_MOVE
+		TEXT_TOOLTIP_DARKSABER_SQUADRON
+		TEXT_TOOLTIP_DARKSABER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_DARKSABER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FIGHTER_POOL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_DARKSABER_BONUS_SHODDY_WORKMANSHIP
+		TEXT_TOOLTIP_BONUS_DEATH_EXPLOSION
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_DARKSABER
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_darksaber.tga</Icon_Name>
+
+		<Space_Model_Name>Hutt_Darksaber.ALO</Space_Model_Name>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>360</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+
+		<Mass>0.995</Mass>
+		<Max_Speed>2.1</Max_Speed>
+		<Max_Thrust>0.2</Max_Thrust>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.2</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_SuperCapital</Shield_Armor_Type>
+		<Shield_Points>31250</Shield_Points>
+		<Shield_Refresh_Rate>156.25</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_SuperCapital </Armor_Type>
+		<Tactical_Health>30040</Tactical_Health>
+
+		<Energy_Capacity>80000</Energy_Capacity>
+		<Energy_Refresh_Rate>80000</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>4906</AI_Combat_Power>
+		<Damage>60</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Political_Control/>
+		<Override_Bounty_SP>150</Override_Bounty_SP>
+		<Maintenance_Cost>103</Maintenance_Cost>
+
+		<Ship_Class>capital</Ship_Class>
+		<CategoryMask> SuperCapital | AntiCapital </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags>  </Property_Flags>
+		<Formation_Priority>5</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>9750</Build_Cost_Credits>
+		<Build_Time_Seconds>172</Build_Time_Seconds>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>100000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
+		<Population_Value>49</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Darksaber_UltraTurbo, HP_Darksaber_Hangar_01
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Root</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Warship</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Warship</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Warship</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Warship</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Warship</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Warship</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula>Unit_Move_Hutt_Warship</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Hutt_Warship</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Star_Destroyer_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Star_Destroyer_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+		<Destruction_Survivors>
+			Darksaber_Explosion_Dummy, 1
+		</Destruction_Survivors>
+
+		<Starting_Spawned_Units_Tech_0>Rihkxyrk_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rihkxyrk_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_Darksaber.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.2  0.2</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>250000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>4500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>-490.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Political_Faction>Empire</Political_Faction>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name>Super_Laser_Attack_Ability</GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>180</Recharge_Seconds>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SUPER_LASER_DARKSABER_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Super_Laser_Ability Name="Super_Laser_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> SpaceHero | SuperCapital | Capital | Frigate | Structure | SpaceStructure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+                <Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>20000</Activation_Max_Range>
+				<Damage_Per_Frame>750</Damage_Per_Frame>
+				<Fire_Frame>106</Fire_Frame>
+				<Beam_Texture_Name>tractor_beam01.tga</Beam_Texture_Name>
+				<Num_Anim_Frames>5</Num_Anim_Frames>
+				<Line_Width>45</Line_Width>
+				<Line_Color>0 237 119 255</Line_Color>
+			</Super_Laser_Ability>
+		</Abilities>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="BouHalec_Star_Dreadnought">
+
+		<Text_ID>TEXT_UNIT_BOUHALEC</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BOUHALEC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BOUHALEC_HULL
+		TEXT_TOOLTIP_BOUHALEC_SHIELD
+		TEXT_TOOLTIP_BOUHALEC_MOVE 
+		TEXT_TOOLTIP_BOUHALEC_SQUADRON
+		TEXT_TOOLTIP_BOUHALEC_WEAP1
+		TEXT_TOOLTIP_BOUHALEC_WEAP2 
+		TEXT_TOOLTIP_BOUHALEC_WEAP3
+		TEXT_TOOLTIP_BOUHALEC_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_BOUHALEC_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_BOUHALEC
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_BOUHALEC.tga</Icon_Name>
+
+		<Space_Model_Name>BouHalec.alo</Space_Model_Name>
+		<No_Colorization_Color />
+		<Scale_Factor>0.3333</Scale_Factor>
+		<Select_Box_Scale>2800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>360</Size_Value>
+		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+		<Galactic_Fleet_Override_Model_Name>Fleet_SSD_Generic.alo</Galactic_Fleet_Override_Model_Name>
+		<Galactic_Fleet_Override_Icon_Index> 10 </Galactic_Fleet_Override_Icon_Index> <!-- Override for seeing icon as fleet icon in Galactic mode -->
+
+		<Mass>0.995</Mass>
+		<Max_Speed>1.75</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.2</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.2</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_SuperCapital</Shield_Armor_Type>
+		<Shield_Points>58000</Shield_Points>
+		<Shield_Refresh_Rate>145</Shield_Refresh_Rate>
+		<Armor_Type>ArmourS_SuperCapital</Armor_Type>
+		<Tactical_Health>97595</Tactical_Health>
+
+		<Energy_Capacity>100000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>20377</AI_Combat_Power>
+		<Damage>90</Damage>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Override_Bounty_SP>720</Override_Bounty_SP>
+		<Maintenance_Cost>240</Maintenance_Cost>
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Ship_Class>Capital</Ship_Class>
+		<CategoryMask>SuperCapital | AntiCapital</CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags />
+		<Formation_Priority>5</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity />
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets />
+
+		<GUI_Row>0</GUI_Row>
+		<Build_Cost_Credits>39000</Build_Cost_Credits>
+		<Build_Time_Seconds>400</Build_Time_Seconds>
+		<Slice_Cost_Credits />
+		<Required_Special_Structures>
+		Hutt_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>9870</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>31</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>41570</Score_Cost_Credits>
+		<Population_Value>203</Population_Value>
+		<Space_Override_Population_Value />
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+
+		<HardPoints>
+			HP_BouHalec_HTL_01, HP_BouHalec_HTL_02, HP_BouHalec_HTL_03, HP_BouHalec_HTL_04, HP_BouHalec_HTL_05, HP_BouHalec_HTL_06, HP_BouHalec_HTL_07, HP_BouHalec_HTL_08, HP_BouHalec_HTL_09, HP_BouHalec_HTL_10, HP_BouHalec_HTL_11, HP_BouHalec_HTL_12, HP_BouHalec_HTL_13, HP_BouHalec_HTL_14, HP_BouHalec_HTL_15, HP_BouHalec_HTL_16, HP_BouHalec_HTL_17, HP_BouHalec_HTL_18, HP_BouHalec_HTL_19, HP_BouHalec_HTL_20, HP_BouHalec_HTL_21, HP_BouHalec_HTL_22, HP_BouHalec_HTL_23, HP_BouHalec_HTL_24, HP_BouHalec_HTL_25, HP_BouHalec_HTL_26, HP_BouHalec_HTL_27, HP_BouHalec_HTL_28, HP_BouHalec_HTL_29, HP_BouHalec_HTL_30, HP_BouHalec_HTL_31, HP_BouHalec_HTL_32, HP_BouHalec_HTL_33, HP_BouHalec_HTL_34, HP_BouHalec_HTL_35, HP_BouHalec_HTL_36, HP_BouHalec_HTL_37, HP_BouHalec_HTL_38, HP_BouHalec_HTL_39, HP_BouHalec_HTL_40,  
+			HP_BouHalec_MTL_01, HP_BouHalec_MTL_02, HP_BouHalec_MTL_03, HP_BouHalec_MTL_04, HP_BouHalec_MTL_05, HP_BouHalec_MTL_06, HP_BouHalec_MTL_07, HP_BouHalec_MTL_08, HP_BouHalec_MTL_09, HP_BouHalec_MTL_10, HP_BouHalec_MTL_11, HP_BouHalec_MTL_12, HP_BouHalec_MTL_13, HP_BouHalec_MTL_14, HP_BouHalec_MTL_15, HP_BouHalec_MTL_16, HP_BouHalec_MTL_17, HP_BouHalec_MTL_18, HP_BouHalec_MTL_19, HP_BouHalec_MTL_20, HP_BouHalec_MTL_21, HP_BouHalec_MTL_22, HP_BouHalec_MTL_23, HP_BouHalec_MTL_24, HP_BouHalec_MTL_25, HP_BouHalec_MTL_26, HP_BouHalec_MTL_27, HP_BouHalec_MTL_28, HP_BouHalec_MTL_29, HP_BouHalec_MTL_30, HP_BouHalec_MTL_31, HP_BouHalec_MTL_32, HP_BouHalec_MTL_33, HP_BouHalec_MTL_34, HP_BouHalec_MTL_35, HP_BouHalec_MTL_36, HP_BouHalec_MTL_37, HP_BouHalec_MTL_38, HP_BouHalec_MTL_39, HP_BouHalec_MTL_40,  
+			HP_BouHalec_LTL_01, HP_BouHalec_LTL_02, HP_BouHalec_LTL_03, HP_BouHalec_LTL_04, HP_BouHalec_LTL_05, HP_BouHalec_LTL_06, HP_BouHalec_LTL_07, HP_BouHalec_LTL_08, HP_BouHalec_LTL_09, HP_BouHalec_LTL_10, HP_BouHalec_LTL_11, HP_BouHalec_LTL_12, HP_BouHalec_LTL_13, HP_BouHalec_LTL_14, HP_BouHalec_LTL_15, HP_BouHalec_LTL_16, HP_BouHalec_LTL_17, HP_BouHalec_LTL_18, HP_BouHalec_LTL_19, HP_BouHalec_LTL_20, HP_BouHalec_LTL_21, HP_BouHalec_LTL_22, HP_BouHalec_LTL_23, HP_BouHalec_LTL_24, HP_BouHalec_LTL_25, HP_BouHalec_LTL_26, HP_BouHalec_LTL_27, HP_BouHalec_LTL_28, HP_BouHalec_LTL_29, HP_BouHalec_LTL_30, HP_BouHalec_LTL_31, HP_BouHalec_LTL_32, HP_BouHalec_LTL_33, HP_BouHalec_LTL_34, HP_BouHalec_LTL_35, HP_BouHalec_LTL_36, HP_BouHalec_LTL_37, HP_BouHalec_LTL_38, HP_BouHalec_LTL_39, HP_BouHalec_LTL_40,  
+			HP_BouHalec_Conc_01, HP_BouHalec_Conc_02, HP_BouHalec_Conc_03, HP_BouHalec_Conc_04, HP_BouHalec_Conc_05, HP_BouHalec_Conc_06, HP_BouHalec_Conc_07, HP_BouHalec_Conc_08, HP_BouHalec_Conc_09, HP_BouHalec_Conc_10, HP_BouHalec_Conc_11, HP_BouHalec_Conc_12, HP_BouHalec_Conc_13, HP_BouHalec_Conc_14, HP_BouHalec_Conc_15, HP_BouHalec_Conc_16, HP_BouHalec_Conc_17, HP_BouHalec_Conc_18, HP_BouHalec_Conc_19, HP_BouHalec_Conc_20, HP_BouHalec_Conc_21, HP_BouHalec_Conc_22, HP_BouHalec_Conc_23, HP_BouHalec_Conc_24, HP_BouHalec_Conc_25
+			HP_BouHalec_Engines_01, HP_BouHalec_Engines_02, HP_BouHalec_Engines_03, HP_BouHalec_Engines_04, HP_BouHalec_Bay
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>Bou'HaleK</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions></Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hutt_Warship</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>UHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>UHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Hutt_Warship</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Warship</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Warship</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Warship</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Warship</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula>Unit_Move_Hutt_Warship</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Hutt_Warship</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Hutt_Warship </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>I_RADAR_BOUHALEC.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.23  0.23</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>3450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiSuperCapital</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>SuperCapital</Space_Layer>
+		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>true</Has_Space_Evaluator>
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+		
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_FIGHTER_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>KRAYT_GUNSHIP_SQUADRON_DOUBLE, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>DUNELIZARD_FIGHTER_SQUADRON_DOUBLE, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>DUNELIZARD_INTERCEPTOR_SQUADRON_DOUBLE, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>KIMOGILA_SQUADRON_DOUBLE, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>KRAYT_GUNSHIP_SQUADRON_DOUBLE, 3</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name>Super_Laser_Attack_Ability</GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>180</Recharge_Seconds>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Super_Laser_Ability Name="Super_Laser_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> SpaceHero | SuperCapital | Capital | Frigate | Structure | SpaceStructure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+                <Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>20000</Activation_Max_Range>
+				<Damage_Per_Frame>750</Damage_Per_Frame>
+				<Fire_Frame>106</Fire_Frame>
+				<Beam_Texture_Name>tractor_beam01.tga</Beam_Texture_Name>
+				<Num_Anim_Frames>5</Num_Anim_Frames>
+				<Line_Width>45</Line_Width>
+				<Line_Color>0 237 119 255</Line_Color>
+			</Super_Laser_Ability>
+		</Abilities>
+	</SpaceUnit>
+	
+</Hutt_Space_Units>

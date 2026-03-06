@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Corellians_Space_Units>
+
+	<SpaceUnit Name="CEC_Light_Cruiser">
+		<Variant_Of_Existing_Type>Template_CEC_Light_Cruiser</Variant_Of_Existing_Type>
+
+		<Affiliation>Corellia, Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Tactical_Build_Cost_Multiplayer>1170</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
+		Corellia_Shipyard_Level_One | Corellia_Shipyard_Level_Two | Corellia_Shipyard_Level_Three | Corellia_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/> 
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Starfighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Starfighter_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="Starbolt">
+		<Variant_Of_Existing_Type>Template_Starbolt</Variant_Of_Existing_Type>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Affiliation>Corellia, Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Tactical_Build_Cost_Multiplayer>1170</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/> 
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>BTLS1_Y_Wing_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Half, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>BTLS1_Y_Wing_Squadron_Half, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="Proficient_Tender">
+
+		<Text_ID>TEXT_UNIT_PROFICIENT_TENDER</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 185</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PROFICIENT_TENDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PROFICIENT_TENDER_HULL
+		TEXT_TOOLTIP_PROFICIENT_TENDER_SHIELD
+		TEXT_TOOLTIP_PROFICIENT_MOVE 
+		TEXT_TOOLTIP_PROFICIENT_TENDER_SQUADRON
+		TEXT_TOOLTIP_PROFICIENT_WEAP1 
+		TEXT_TOOLTIP_PROFICIENT_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_PROFICIENT_FLEET_TENDER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_proficient_tender.tga</Icon_Name>
+
+		<Space_Model_Name>Proficient-class_tender.alo</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.9995</Mass>
+		<Max_Speed>5.6</Max_Speed>
+		<Max_Thrust>1.5</Max_Thrust>
+		<OverrideAcceleration>0.25</OverrideAcceleration>
+		<OverrideDeceleration>0.5</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.6</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+		<Shield_Points>2800</Shield_Points>
+		<Shield_Refresh_Rate>42</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
+		<Tactical_Health>2800</Tactical_Health>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>1360</AI_Combat_Power>
+		<Damage>30</Damage>
+
+		<Affiliation>Corellia, Imperial_Proteus</Affiliation>
+		<Override_Bounty_SP>40</Override_Bounty_SP>
+		<Maintenance_Cost>29</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | Antifrigate </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags>Boardable</Property_Flags>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Squadron_Capacity>10</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>2750</Build_Cost_Credits>
+		<Build_Time_Seconds>49</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Corellia_Shipyard_Level_Two | Corellia_Shipyard_Level_Three | Corellia_Shipyard_Level_Four |
+        Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer></Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds></Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 1800</Score_Cost_Credits>
+		<Population_Value>14</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Proficient_Tender_Hangar, HP_Proficient_Tender_Engine, HP_Proficient_Tender_Turbo_01, HP_Proficient_Tender_Turbo_02, HP_Proficient_Tender_Ion_01, HP_Proficient_Tender_Ion_02, HP_Proficient_Tender_Ion_03, HP_Proficient_Tender_Ion_04
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Target_Bones>PROFICIENTTENDER</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Acclamator </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Acclamator </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning/>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Bay_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Corellian_Cruiser_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Corellian_Cruiser_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Corellian_Cruiser_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-120.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Transport_Capacity>8</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Death_Clone>Damage_Normal, Medium_Explosion_Space</Death_Clone>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			  <Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Fleet_Tender_Fighter_Heal</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Force_Area_Heal</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FLEET_TENDER_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_repair_vehicle.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			  </Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+
+			<Force_Healing_Ability Name="Proficient_Fleet_Tender">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>1350.0</Heal_Range>
+				<Heal_Amount> 100.0 </Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Space_Repair_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Gunship, Corvette, Frigate, Capital, SuperCapital, SpaceHero, Transport</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="Proficient">
+
+		<Text_ID>TEXT_UNIT_PROFICIENT</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 185</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PROFICIENT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PROFICIENT_HULL
+		TEXT_TOOLTIP_PROFICIENT_SHIELD
+		TEXT_TOOLTIP_PROFICIENT_MOVE 
+		TEXT_TOOLTIP_PROFICIENT_SQUADRON
+		TEXT_TOOLTIP_PROFICIENT_WEAP1 
+		TEXT_TOOLTIP_PROFICIENT_WEAP2 
+		TEXT_TOOLTIP_PROFICIENT_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_proficient.tga</Icon_Name>
+
+		<Space_Model_Name>Proficient-class_cruiser.alo</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.9995</Mass>
+		<Max_Speed>5.6</Max_Speed>
+		<Max_Thrust>1.5</Max_Thrust>
+		<OverrideAcceleration>0.25</OverrideAcceleration>
+		<OverrideDeceleration>0.5</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.6</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
+		<Shield_Points>3000</Shield_Points>
+		<Shield_Refresh_Rate>45</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
+		<Tactical_Health>3330</Tactical_Health>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>1058</AI_Combat_Power>
+		<Damage>30</Damage>
+
+		<Affiliation>Corellia, Imperial_Proteus</Affiliation>
+		<Override_Bounty_SP>35</Override_Bounty_SP>
+		<Maintenance_Cost>28</Maintenance_Cost>
+
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | Antifrigate </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags>Boardable</Property_Flags>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Squadron_Capacity>10</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>2550</Build_Cost_Credits>
+		<Build_Time_Seconds>46</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Corellia_Shipyard_Level_Two | Corellia_Shipyard_Level_Three | Corellia_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer></Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds></Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits> 1800</Score_Cost_Credits>
+		<Population_Value>13</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_Proficient_Hangar, HP_Proficient_Engine, HP_Proficient_Turbo_01, HP_Proficient_Turbo_02, HP_Proficient_Ion_01, HP_Proficient_Ion_02, HP_Proficient_Ion_03, HP_Proficient_Ion_04, HP_Proficien_Proton_01
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>X_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>BTLS1_Y_Wing_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>BTLS1_Y_Wing_Squadron_Half, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Target_Bones>PROFICIENT</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Acclamator </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Acclamator </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Health_Low_Warning/>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Bay_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_Grav_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Acclamator </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Corellian_Cruiser_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Corellian_Cruiser_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Corellian_Cruiser_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-160.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Transport_Capacity>8</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Death_Clone>Damage_Normal, Medium_Explosion_Space</Death_Clone>
+	</SpaceUnit>
+</Corellians_Space_Units>

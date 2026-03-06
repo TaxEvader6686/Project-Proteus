@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<Projectiles>
+
+
+<!-- ************************************************************************************** -->
+<!-- ********************                  FotR Blue TR Red Stuff            ************** -->
+<!-- ************************************************************************************** -->
+
+	<!-- Normal Anti Infantry: -->
+
+	<Projectile Name="Proj_Light_AI_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Light_AI_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AI_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AI_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Heavy_AI_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Heavy_AI_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+
+	<!-- Splash Anti Infantry: -->
+
+	<Projectile Name="Proj_AOE_AI_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AOE_AI_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AOE_Heavy_AI_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AOE_Heavy_AI_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+	<!-- Normal Anti Vehicle: -->
+
+	<Projectile Name="Proj_Light_AV_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Light_AV_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_VeryLight_AV_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_VeryLight_AV_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AV_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AV_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Heavy_AV_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Heavy_AV_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_SuperHeavy_AV_Blaster_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_SuperHeavy_AV_Blaster_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+
+	<!-- Turbolaser: -->
+
+	<Projectile Name="Proj_AV_Turbolaser_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AV_Turbolaser_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+	<!-- Beams: -->
+
+	<Projectile Name="Proj_AV_Beam_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AV_Beam_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AI_Beam_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_AI_Beam_Red</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+<!-- ************************************************************************************** -->
+<!-- ********************                  FotR Blue TR Green Stuff          ************** -->
+<!-- ************************************************************************************** -->
+
+	<!-- Normal Anti Infantry: -->
+
+	<Projectile Name="Proj_Light_AI_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_Light_AI_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AI_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AI_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Heavy_AI_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_Heavy_AI_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+	<!-- Splash Anti Infantry: -->
+
+	<Projectile Name="Proj_AOE_AI_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AOE_AI_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AOE_Heavy_AI_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AOE_Heavy_AI_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+
+	<!-- Normal Anti Vehicle: -->
+
+	<Projectile Name="Proj_Light_AV_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_Light_AV_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_VeryLight_AV_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_VeryLight_AV_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AV_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AV_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Heavy_AV_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_Heavy_AV_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_SuperHeavy_AV_Blaster_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_SuperHeavy_AV_Blaster_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+
+	<!-- Turbolaser: -->
+
+	<Projectile Name="Proj_AV_Turbolaser_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AV_Turbolaser_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+	<!-- Beams: -->
+
+	<Projectile Name="Proj_AV_Beam_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AV_Beam_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_AI_Beam_Green_Blue">
+		<Variant_Of_Existing_Type>Proj_AI_Beam_Green</Variant_Of_Existing_Type>
+	</Projectile>
+
+
+<!-- ************************************************************************************** -->
+<!-- ********************                Mass Drivers                        ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Light_Mass_Driver_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Light_Mass_Driver</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Mass_Driver_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Mass_Driver</Variant_Of_Existing_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Heavy_Mass_Driver_Red_Blue">
+		<Variant_Of_Existing_Type>Proj_Heavy_Mass_Driver</Variant_Of_Existing_Type>
+	</Projectile>
+	
+	<Projectile Name="Proj_SuperHeavy_AV_Ion_Cannon">
+		<Variant_Of_Existing_Type>Proj_SuperHeavy_AV_Blaster_Red</Variant_Of_Existing_Type>
+
+		<Land_Model_Name>PROJ_LASER_ION_INF.ALO</Land_Model_Name>
+
+		<Damage_Type> DamageL_Ion </Damage_Type>
+		<Max_Speed>20.0</Max_Speed>		
+		<Projectile_Damage>50.0</Projectile_Damage>
+
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Blue</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Turbohit_Blue</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle></Projectile_Ground_Detonation_Particle>
+	</Projectile>
+
+</Projectiles>

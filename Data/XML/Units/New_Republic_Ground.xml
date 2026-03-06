@@ -1,0 +1,2846 @@
+<?xml version='1.0' encoding='ASCII'?>
+<New_Republic_Ground>
+
+	<!-- Barracks -->
+
+	<!-- NR Armytrooper -->
+
+	<GroundInfantry Name="New_Republic_Army_Trooper_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>NRA_Trooper.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>MilitiaInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_NRI_ARMY.tga</Icon_Name>
+		<AI_Combat_Power>139.60</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="New_Republic_Army_Trooper_Company">
+
+		<Text_ID>TEXT_UNIT_NRARMY_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_COMPANY
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_COMPANY_WEAP1
+		TEXT_TOOLTIP_NRARMY_COMPANY_WEAP2
+		TEXT_TOOLTIP_NRARMY_COMPANY_WEAP3
+		TEXT_TOOLTIP_NRARMY_COMPANY_WEAP4
+		TEXT_TOOLTIP_NRARMY_COMPANY_WEAP5
+		TEXT_TOOLTIP_NRARMY_COMPANY_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY.TGA</Icon_Name>
+
+		<Damage>15</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>260</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> New_Republic_Army_Trooper_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Nova_Courier_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Freedom_Fighter</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Freedom_Fighter</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>170</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Army_Trooper_Main_Squad">
+		<Text_ID>TEXT_UNIT_NRARMY_HEAVY_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP1
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP2
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP3
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY_HEAVY.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> New_Republic_Army_Trooper_Heavy_Container </Create_Team_Type>
+		<Max_Squad_Size> 10 </Max_Squad_Size>
+		<Company_Units> New_Republic_Army_Trooper_Grenadier, New_Republic_Army_Trooper_Plex, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper_Plex, New_Republic_Army_Trooper_Grenadier, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper_Gunner_Light, New_Republic_Army_Trooper_Captain </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Army_Trooper_Heavy_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Army_Trooper_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> New_Republic_Army_Trooper, New_Republic_Army_Trooper_Grenadier, New_Republic_Army_Trooper_Plex, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper_Grenadier, New_Republic_Army_Trooper_Plex, New_Republic_Army_Trooper, New_Republic_Army_Trooper_Sergeant, New_Republic_Army_Trooper_Gunner_Light </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Army_Trooper_Assault_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Army_Trooper_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NRARMY_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_SQUAD1_WEAP1
+		TEXT_TOOLTIP_NRARMY_SQUAD1_WEAP2
+		TEXT_TOOLTIP_NRARMY_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY_ASSAULT.TGA</Icon_Name>
+
+		<Create_Team_Type> New_Republic_Army_Trooper_Assault_Container </Create_Team_Type>
+		<Company_Units> New_Republic_Army_Trooper_Carbine, New_Republic_Army_Trooper_Carbine_Grenadier, New_Republic_Army_Trooper_RPS, New_Republic_Army_Trooper_Carbine, New_Republic_Army_Trooper_Carbine, New_Republic_Army_Trooper_Carbine, New_Republic_Army_Trooper_Carbine_Grenadier, New_Republic_Army_Trooper_Carbine, New_Republic_Army_Trooper_Carbine_Sergeant, New_Republic_Army_Trooper_RPS </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Army_Trooper_Medic_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Army_Trooper_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NRARMY_SUPPORT_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_SQUAD_MEDIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY_SUPPORT.TGA</Icon_Name>
+
+		<Create_Team_Type> New_Republic_Army_Trooper_Medic_Container </Create_Team_Type>
+		<Company_Units> New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper_Medic, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper, New_Republic_Army_Trooper </Company_Units>
+	</GroundCompany>
+
+	<Container Name="New_Republic_Army_Trooper_Heavy_Container">
+
+		<Text_ID>TEXT_UNIT_NRARMY_HEAVY_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP1
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP2
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP3
+		TEXT_TOOLTIP_NRARMY_SQUAD2_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY_HEAVY.TGA</Icon_Name>
+
+		<!-- Placeholder model until RI_Rifleman is rigged properly -->
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="New_Republic_Army_Trooper_Assault_Container">
+
+		<Text_ID>TEXT_UNIT_NRARMY_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_SQUAD1_WEAP1
+		TEXT_TOOLTIP_NRARMY_SQUAD1_WEAP2
+		TEXT_TOOLTIP_NRARMY_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY_ASSAULT.TGA</Icon_Name>
+
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>250.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="New_Republic_Army_Trooper_Medic_Container">
+
+		<Text_ID>TEXT_UNIT_NRARMY_SUPPORT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRARMY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRARMY_SQUAD
+		TEXT_TOOLTIP_NRARMY_HEALTH
+		TEXT_TOOLTIP_NRARMY_MOVE
+		TEXT_TOOLTIP_NRARMY_SQUAD_MEDIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_ARMY_SUPPORT.TGA</Icon_Name>
+
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>250.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+	
+	<!-- NR Fleet Trooper -->
+
+	<GroundInfantry Name="New_Republic_Fleet_Trooper_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>NR_FleetTrooper.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>MilitiaInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_NR_FLEET_TROOPER.tga</Icon_Name>
+		<AI_Combat_Power>176.52</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="New_Republic_Fleet_Trooper_Company">
+
+		<Text_ID>TEXT_UNIT_NR_FLEET_TROOPER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NR_FLEET_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_COMPANY
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_HEALTH
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_MOVE
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_COMPANY_WEAP1
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_COMPANY_WEAP2
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_COMPANY_WEAP3
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_COMPANY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_FLEET_TROOPER.TGA</Icon_Name>
+
+		<Damage>15</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>260</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> New_Republic_Fleet_Trooper_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Nova_Courier_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>170</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Fleet_Trooper_Main_Squad">
+		<Text_ID>TEXT_UNIT_NR_FLEET_TROOPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_NR_FLEET_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_HEALTH
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_MOVE
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP1
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP2
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP3
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_FLEET_TROOPER.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> New_Republic_Fleet_Trooper_Container </Create_Team_Type>
+		<Max_Squad_Size> 15 </Max_Squad_Size>
+		<Company_Units> New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper_Grenadier, New_Republic_Fleet_Trooper_HAT, New_Republic_Fleet_Trooper_Sergeant, New_Republic_Fleet_Trooper_Lieutenant </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Fleet_Trooper_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Fleet_Trooper_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper, New_Republic_Fleet_Trooper_Grenadier, New_Republic_Fleet_Trooper_HAT, New_Republic_Fleet_Trooper_Sergeant </Company_Units>
+	</GroundCompany>
+
+	<Container Name="New_Republic_Fleet_Trooper_Container">
+
+		<Text_ID>TEXT_UNIT_NR_FLEET_TROOPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NR_FLEET_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_HEALTH
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_MOVE
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP1
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP2
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP3
+		TEXT_TOOLTIP_NR_FLEET_TROOPER_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_FLEET_TROOPER.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+
+	<!-- NR DF -->
+
+	<GroundInfantry Name="New_Republic_Defense_Trooper_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>RI_defense_trooper.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>ri_marine.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_NRI_DEFENSE.tga</Icon_Name>
+		<AI_Combat_Power>146.06</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="New_Republic_Defense_Trooper_Company">
+
+		<Text_ID>TEXT_UNIT_NRDF_TROOPER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRDF_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRDF_TROOPER_COMPANY
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD
+		TEXT_TOOLTIP_NRDF_TROOPER_HEALTH
+		TEXT_TOOLTIP_NRDF_TROOPER_MOVE
+		TEXT_TOOLTIP_NRDF_TROOPER_COMPANY_WEAP1
+		TEXT_TOOLTIP_NRDF_TROOPER_COMPANY_WEAP2
+		TEXT_TOOLTIP_NRDF_TROOPER_COMPANY_WEAP3
+		TEXT_TOOLTIP_NRDF_TROOPER_COMPANY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_DEFENSE.TGA</Icon_Name>
+
+		<Damage>15</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>310</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> New_Republic_Defense_Trooper_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Nova_Courier_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>210</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Defense_Trooper_Main_Squad">
+		<Text_ID>TEXT_UNIT_NRDF_TROOPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_NRDF_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD
+		TEXT_TOOLTIP_NRDF_TROOPER_HEALTH
+		TEXT_TOOLTIP_NRDF_TROOPER_MOVE
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP1
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP2
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP3
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_DEFENSE.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> New_Republic_Defense_Trooper_Container </Create_Team_Type>
+		<Max_Squad_Size> 10 </Max_Squad_Size>
+		<Company_Units> New_Republic_Defense_Trooper, New_Republic_Defense_Trooper_Grenadier, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper_Plex, New_Republic_Defense_Trooper_Gunner, New_Republic_Defense_Trooper_Grenadier, New_Republic_Defense_Trooper_Plex, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper_Captain </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Defense_Trooper_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Defense_Trooper_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> New_Republic_Defense_Trooper_Plex, New_Republic_Defense_Trooper_Grenadier, New_Republic_Defense_Trooper_Plex, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper_Gunner, New_Republic_Defense_Trooper_Grenadier, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper_Sergeant </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Defense_Trooper_Medic_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Defense_Trooper_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NRDF_TROOPER_SUPPORT_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRDF_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD
+		TEXT_TOOLTIP_NRDF_TROOPER_HEALTH
+		TEXT_TOOLTIP_NRDF_TROOPER_MOVE
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_MEDIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_DEFENSE_SUPPORT.TGA</Icon_Name>
+
+		<Create_Team_Type> New_Republic_Defense_Trooper_Medic_Container </Create_Team_Type>
+		<Company_Units> New_Republic_Defense_Trooper, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper_Medic, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper, New_Republic_Defense_Trooper </Company_Units>
+	</GroundCompany>
+
+	<Container Name="New_Republic_Defense_Trooper_Container">
+
+		<Text_ID>TEXT_UNIT_NRDF_TROOPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRDF_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD
+		TEXT_TOOLTIP_NRDF_TROOPER_HEALTH
+		TEXT_TOOLTIP_NRDF_TROOPER_MOVE
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP1
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP2
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP3
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_DEFENSE.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 0.9 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="New_Republic_Defense_Trooper_Medic_Container">
+
+		<Text_ID>TEXT_UNIT_NRDF_TROOPER_SUPPORT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRDF_TROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD
+		TEXT_TOOLTIP_NRDF_TROOPER_HEALTH
+		TEXT_TOOLTIP_NRDF_TROOPER_MOVE
+		TEXT_TOOLTIP_NRDF_TROOPER_SQUAD_MEDIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_DEFENSE_SUPPORT.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 0.9 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<!-- Specforce-based NR Marines - Eventually Era-replace with Battle Troopers - NYI-->
+
+	<GroundInfantry Name="New_Republic_Marine_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>ri_marine.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_NRI_MARINE.tga</Icon_Name>
+		<AI_Combat_Power>160.50</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="New_Republic_Marine_Company">
+
+		<Text_ID>TEXT_UNIT_NRMARINE_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRMARINE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRMARINE_COMPANY
+		TEXT_TOOLTIP_NRMARINE_SQUAD
+		TEXT_TOOLTIP_NRMARINE_HEALTH
+		TEXT_TOOLTIP_NRMARINE_MOVE
+		TEXT_TOOLTIP_NRMARINE_COMPANY_WEAP1
+		TEXT_TOOLTIP_NRMARINE_COMPANY_WEAP2
+		TEXT_TOOLTIP_NRMARINE_COMPANY_WEAP3
+		TEXT_TOOLTIP_NRMARINE_COMPANY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_MARINE.TGA</Icon_Name>
+
+		<Damage>15</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>330</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> New_Republic_Marine_Company_Dummy</Company_Units>
+		<Company_Transport_Unit>Nova_Courier_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Heavy_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Heavy_Trooper</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>260</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Marine_Main_Squad">
+		<Text_ID>TEXT_UNIT_NRMARINE_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_NRMARINE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRMARINE_SQUAD
+		TEXT_TOOLTIP_NRMARINE_HEALTH
+		TEXT_TOOLTIP_NRMARINE_MOVE
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP1
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP2
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP3
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_MARINE.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> New_Republic_Marine_Container </Create_Team_Type>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Company_Units> New_Republic_Marine_Grenadier, New_Republic_Marine, New_Republic_Marine, New_Republic_Marine, New_Republic_Marine_Grenadier, New_Republic_Marine, New_Republic_Marine_Flamer, New_Republic_Marine, New_Republic_Marine_Lt </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Marine_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Marine_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> New_Republic_Marine, New_Republic_Marine_Grenadier, New_Republic_Marine, New_Republic_Marine, New_Republic_Marine_Gunner, New_Republic_Marine_Grenadier, New_Republic_Marine, New_Republic_Marine_Flamer, New_Republic_Marine </Company_Units>
+	</GroundCompany>
+
+	<Container Name="New_Republic_Marine_Container">
+
+		<Text_ID>TEXT_UNIT_NRMARINE_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NRMARINE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NRMARINE_SQUAD
+		TEXT_TOOLTIP_NRMARINE_HEALTH
+		TEXT_TOOLTIP_NRMARINE_MOVE
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP1
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP2
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP3
+		TEXT_TOOLTIP_NRMARINE_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NRI_MARINE.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.1 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> .5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+   <!-- Field Base and Reward and Skirmish Unit - Locked Default -->
+
+	<GroundInfantry Name="New_Republic_Infiltrator_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Alliance_SpecForce_Infiltrator.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_NR_INFILTRATOR.tga</Icon_Name>
+		<AI_Combat_Power>105.64</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Alternate_Icon_Name>I_SA_CLUSTER_BOMB.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="New_Republic_Infiltrator_Company">
+
+		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP1
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP2
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP3
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP4
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP5
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP6
+		TEXT_TOOLTIP_INFILTRATOR_COMPANY_WEAP7
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_INFILTRATOR.TGA</Icon_Name>
+
+		<Damage>15</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> New_Republic_Infiltrator_Company_Dummy</Company_Units>
+		<Company_Transport_Unit>Nova_Courier_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>225</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Infiltrator_Assault_Squad">
+		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP1
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP2
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP3
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP4
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_INFILTRATOR_ASSAULT.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> New_Republic_Infiltrator_Assault_Container </Create_Team_Type>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Company_Units> New_Republic_Infiltrator_Light_Gunner, New_Republic_Infiltrator_Grenadier, New_Republic_Infiltrator_Special, New_Republic_Infiltrator_Light_Gunner, New_Republic_Infiltrator_Sergeant </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Infiltrator_Sniper_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Infiltrator_Assault_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR_SNIPER_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD2_WEAP1
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD2_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_INFILTRATOR_SNIPER.tga</Icon_Name>
+
+		<Create_Team_Type> New_Republic_Infiltrator_Sniper_Container </Create_Team_Type>
+		<Company_Units> New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper_Sgt</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Infiltrator_Sniper_Medium_Squad">
+		<Variant_Of_Existing_Type>New_Republic_Infiltrator_Sniper_Squad</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD2
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD3_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Create_Team_Type> New_Republic_Infiltrator_Sniper_Medium_Container </Create_Team_Type>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Company_Units> New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper, New_Republic_Infiltrator_Sniper</Company_Units>
+	</GroundCompany>
+
+	<Container Name="New_Republic_Infiltrator_Assault_Container">
+
+		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP1
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP2
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP3
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP4
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD1_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_INFILTRATOR_ASSAULT.tga</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.3 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+
+		<!-- 12 frag mines per partial company on infils -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+                <Type>STEALTH</Type>
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="NR_Infil_Proximity_Mines_Frag">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Fragmentation</Mine_Type>
+				<Trigger_Radius>10</Trigger_Radius>
+				<Number_Of_Mines>12</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+	</Container>
+
+	<Container Name="New_Republic_Infiltrator_Sniper_Container">
+
+		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR_SNIPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD2_WEAP1
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD2_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NR_INFILTRATOR_SNIPER.tga</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.3 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+
+		<!-- 12 frag mines per partial company on infils -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+                <Type>STEALTH</Type>
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="NR_Infil_Proximity_Mines_Frag">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Fragmentation</Mine_Type>
+				<Trigger_Radius>10</Trigger_Radius>
+				<Number_Of_Mines>12</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+	</Container>
+
+	<Container Name="New_Republic_Infiltrator_Sniper_Medium_Container">
+		<Variant_Of_Existing_Type>New_Republic_Infiltrator_Sniper_Container</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_INFILTRATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD2
+		TEXT_TOOLTIP_INFILTRATOR_HEALTH
+		TEXT_TOOLTIP_INFILTRATOR_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_SQUAD3_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+	</Container>
+
+	<GroundVehicle Name="New_Republic_Overracer_Speeder_Bike">
+		<Variant_Of_Existing_Type>Overracer_Speeder_Bike</Variant_Of_Existing_Type>
+		
+		<Land_Model_Name>RV_OverRacer.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			RV_OverRacer.ALO,
+			Urban, 				RV_OverRacer.ALO,
+			Arctic, 			RV_OverRacer_Arctic.ALO,
+			Volcanic, 			RV_OverRacer_Volcanic.ALO,
+			Desert, 			RV_OverRacer_Desert.ALO,
+			Forest, 			RV_OverRacer_Forest.ALO,
+			Swamp, 				RV_OverRacer_Jungle.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>NV_OverRacer.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>i_button_overracer.tga</Icon_Name> <!-- Placeholder -->
+
+		<Affiliation>Rebel</Affiliation>
+
+
+	</GroundVehicle>
+
+	<GroundVehicle Name="New_Republic_Overracer_Speeder_Bike_Company_Dummy">
+		<Variant_Of_Existing_Type> Vehicle_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>RV_OverRacer.ALO</Land_Model_Name>
+		<Icon_Name>i_button_overracer.tga</Icon_Name> <!-- Placeholder -->
+		<AI_Combat_Power>120.27</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Alternate_Icon_Name>I_SA_DROP_BOMB2.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="New_Republic_Overracer_Speeder_Bike_Company">
+
+		<Text_ID>TEXT_UNIT_OVERRACER_BIKE_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER_BIKE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_OVERRACER_BIKE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_OVERRACER_BIKE_COMPANY 
+		TEXT_TOOLTIP_OVERRACER_BIKE_HEALTH
+		TEXT_TOOLTIP_OVERRACER_BIKE_MOVE
+		TEXT_TOOLTIP_OVERRACER_BIKE_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_overracer.tga</Icon_Name> <!-- Placeholder -->
+
+		<Damage>10</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Barracks | I_Ground_Barracks</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>150</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>ABILITY_COUNTDOWN, DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> New_Republic_Overracer_Speeder_Bike_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Nova_Courier_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Scout_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>270</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+	
+	<!-- Jedi -->
+	
+	<GroundInfantry Name="New_Republic_Jedi_Knight_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>CoreSaga_Jedi_Human_Mixed.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_JEDI_GUARDIAN.tga</Icon_Name>
+		<AI_Combat_Power>329.61</AI_Combat_Power>
+		<Affiliation>Empire</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>AREA_EFFECT_HEAL</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>FORCE_CLOAK</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="New_Republic_Jedi_Knight_Company">
+
+		<Text_ID>TEXT_UNIT_JEDI_KNIGHT_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_JEDI_KNIGHT_COMPANY
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_UNIT_JEDI_CONSULAR
+		TEXT_TOOLTIP_JEDI_CONSULAR_HEALTH
+		TEXT_TOOLTIP_JEDI_CONSULAR_MOVE
+		TEXT_TOOLTIP_JEDI_CONSULAR_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_UNIT_JEDI_GUARDIAN
+		TEXT_TOOLTIP_JEDI_GUARDIAN_HEALTH
+		TEXT_TOOLTIP_JEDI_GUARDIAN_MOVE
+		TEXT_TOOLTIP_JEDI_GUARDIAN_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_UNIT_JEDI_SENTINEL
+		TEXT_TOOLTIP_JEDI_SENTINEL_HEALTH
+		TEXT_TOOLTIP_JEDI_SENTINEL_MOVE
+		TEXT_TOOLTIP_JEDI_SENTINEL_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
+		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_JEDI_GUARDIAN.tga</Icon_Name>
+
+		<Damage>15</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Required_Special_Structures>Jedi_Temple</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> New_Republic_Jedi_Knight_Company_Dummy </Company_Units>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Jedi</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>220</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+	
+	<!-- Leia CoS unlock post-Thrawn defeat -->
+	
+	<GroundInfantry Name="Noghri_Bodyguard_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Rukh.ALO</Land_Model_Name>
+		<Icon_Name>i_button_noghri_assassin.tga</Icon_Name>
+		<AI_Combat_Power>99.11</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+            </Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Noghri_Bodyguard_Company">
+		<Variant_Of_Existing_Type>Noghri_Assassin_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOGHRI_BODYGUARD_PLATOON</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD_COMPANY 
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD_SQUAD
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_HEALTH
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_MOVE
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_COMPANY_WEAP1
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_COMPANY_WEAP2
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_COMPANY_WEAP3
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_COMPANY_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		
+		<Required_Special_Structures>R_Ground_Barracks | Cloning_HQ, DUMMY_CHIEFOFSTATE_ORGANA_SOLO</Required_Special_Structures>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		
+		<Affiliation>Rebel</Affiliation>
+		
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		
+		<Required_Planets>Honoghr</Required_Planets>
+		<Company_Units>Noghri_Bodyguard_Company_Dummy</Company_Units>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	</GroundCompany>
+
+	<GroundCompany Name="Noghri_Bodyguard_Squad">
+		<Variant_Of_Existing_Type>Noghri_Bodyguard_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOGHRI_BODYGUARD_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD_SQUAD
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_HEALTH
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_MOVE
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD1_WEAP1
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD1_WEAP2
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		
+		<Create_Team_Type> Noghri_Bodyguard_Container </Create_Team_Type>
+	
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Population_Value>0</Population_Value>
+		<Company_Units> Noghri_Bodyguard_Disruptor, Noghri_Bodyguard_Disruptor, Noghri_Bodyguard_Leader </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Noghri_Bodyguard_Sniper_Squad">
+		<Variant_Of_Existing_Type>Noghri_Bodyguard_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOGHRI_BODYGUARD_SNIPER_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD_SQUAD
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_HEALTH
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_MOVE
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD2_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_noghri_assassin_sniper.tga</Icon_Name>
+		
+		<Create_Team_Type> Noghri_Bodyguard_Sniper_Container </Create_Team_Type>
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Population_Value>0</Population_Value>
+		<Company_Units>Noghri_Bodyguard_Sniper, Noghri_Bodyguard_Sniper, Noghri_Bodyguard_Sniper_Leader</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Noghri_Bodyguard_Container">
+		<Variant_Of_Existing_Type>Noghri_Assassin_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOGHRI_BODYGUARD_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD_SQUAD
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_HEALTH
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_MOVE
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD1_WEAP1
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD1_WEAP2
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+            </Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="Noghri_Bodyguard_Sniper_Container">
+		<Variant_Of_Existing_Type>Noghri_Assassin_Sniper_Container</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOGHRI_BODYGUARD_SNIPER_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NOGHRI_BODYGUARD_SQUAD
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_HEALTH
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_MOVE
+		TEXT_TOOLTIP_NOGHRI_ASSASSIN_SQUAD2_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+            </Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+
+	<!-- Light Vehicle Factory -->
+
+	<GroundCompany Name="New_Republic_AAC_2_Company">
+
+		<Text_ID>TEXT_UNIT_AAC_2_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AAC_2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AAC_2_COMPANY
+		TEXT_TOOLTIP_AAC_HEALTH 
+		TEXT_TOOLTIP_AAC_2_SHIELD
+		TEXT_TOOLTIP_AAC_2_MOVE
+		TEXT_TOOLTIP_AAC_WEAP1
+		TEXT_TOOLTIP_AAC_WEAP2
+		TEXT_TOOLTIP_AAC_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_aac_2.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory | SoroSuub_HQ | SoroSuub_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Artillery</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> Unit_Complete_AAC </SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move> Unit_Fleet_Move_AAC </SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>AAC_2, AAC_2, AAC_2, AAC_2</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>430</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_T1B_Company">
+
+		<Text_ID>TEXT_UNIT_T1B_HOVERTANK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_T1B_HOVERTANK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_T1B_HOVERTANK_COMPANY
+		TEXT_TOOLTIP_T1B_HOVERTANK_HEALTH 
+		TEXT_TOOLTIP_T1B_HOVERTANK_SHIELD
+		TEXT_TOOLTIP_T1B_HOVERTANK_MOVE
+		TEXT_TOOLTIP_T1B_HOVERTANK_WEAP1
+		TEXT_TOOLTIP_T1B_HOVERTANK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_t1b.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory | Yutrane_Trackata_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hovertank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hovertank</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>T1B_Tank, T1B_Tank, T1B_Tank, T1B_Tank</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>310</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_AA5_Company">
+
+		<Text_ID>TEXT_UNIT_AA5_TRUCK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TRANSPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AA5_TRUCK 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AA5_TRUCK_COMPANY
+		TEXT_TOOLTIP_AA5_TRUCK_HEALTH 
+		TEXT_TOOLTIP_AA5_TRUCK_MOVE
+		TEXT_TOOLTIP_AA5_TRUCK_WEAP1
+		TEXT_TOOLTIP_AA5_TRUCK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_aa5_truck.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory | I_Ground_Light_Vehicle_Factory | TaggeCo_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Hover_Transport</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hover_Transport</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>AA5_Truck, AA5_Truck</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>615</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_SRV1_Company">
+
+		<Text_ID>TEXT_UNIT_SRV1_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SRV1
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SRV1_COMPANY
+		TEXT_TOOLTIP_SRV1_HEALTH
+		TEXT_TOOLTIP_SRV1_MOVE
+		TEXT_TOOLTIP_SRV1_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_SRV1_INFANTRY_HEAL_3X
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_SRV1.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Chariot_LAV</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Chariot_LAV</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>SRV1, SRV1, SRV1</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>540</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_T47_Airspeeder_Company">
+
+		<Text_ID>TEXT_UNIT_T47_AIRSPEEDER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_AIRSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_T47_AIRSPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_T47_AIRSPEEDER_COMPANY
+		TEXT_TOOLTIP_T47_AIRSPEEDER_HEALTH 
+		TEXT_TOOLTIP_T47_AIRSPEEDER_MOVE 
+		TEXT_TOOLTIP_T47_AIRSPEEDER_WEAP1
+		TEXT_TOOLTIP_T47_AIRSPEEDER_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_speeder.tga</Icon_Name>
+
+		<Damage>24</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory | Incom_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>225</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Air</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Assault_Speeder</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Formation_Prority>1</Formation_Prority>
+		<Company_Units>T47_Airspeeder, T47_Airspeeder, T47_Airspeeder, T47_Airspeeder</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>620</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_T2B_Company">
+
+		<Text_ID>TEXT_UNIT_T2_TANK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_T2B
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_T2B_COMPANY 
+		TEXT_TOOLTIP_T2B_HEALTH 
+		TEXT_TOOLTIP_T2B_SHIELD 
+		TEXT_TOOLTIP_T2B_MOVE 
+		TEXT_TOOLTIP_T2B_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_t-1b_repulsor_Tank.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>850</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory | Yutrane_Trackata_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_T2B_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T2B_Tank</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>T2B_Tank, T2B_Tank, T2B_Tank, T2B_Tank</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<!-- Heavy Vehicle Factory -->
+
+	<GroundCompany Name="New_Republic_Heavy_Tracker_Company">
+
+		<Text_ID>TEXT_UNIT_TRACKER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TRACKER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRACKER_COMPANY
+		TEXT_TOOLTIP_TRACKER_HEALTH 
+		TEXT_TOOLTIP_TRACKER_MOVE
+		TEXT_TOOLTIP_TRACKER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_tracker.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>625</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits>1800</Slice_Cost_Credits>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | Mekuun_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Heavy</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>GUI_R_Field_Commander_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Field</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Heavy_Tracker</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1080</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_MPTL_Company">
+
+		<Text_ID>TEXT_UNIT_MPTL_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_ARTILLERY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MPTL 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MPTL_COMPANY
+		TEXT_TOOLTIP_MPTL_HEALTH
+		TEXT_TOOLTIP_MPTL_MOVE
+		TEXT_TOOLTIP_MPTL_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MPTL_Tank.tga</Icon_Name>
+
+		<Damage>50</Damage>
+
+		<Ship_Class>artillery</Ship_Class>
+		<Formation_Priority>6</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | I_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>550</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Artillery</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_MPTL</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_MPTL</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>MPTL</Company_Units>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Ignore_For_Reoptimization>MPTL_Spotter</Ignore_For_Reoptimization>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>615</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="V_Wing_Airspeeder_Company">
+
+		<Text_ID>TEXT_UNIT_V_WING_SPEEDER_WING</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_AIRSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_V_WING_SPEEDER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_V_WING_SPEEDER_COMPANY
+		TEXT_TOOLTIP_V_WING_SPEEDER_HEALTH
+		TEXT_TOOLTIP_V_WING_SPEEDER_MOVE
+		TEXT_TOOLTIP_V_WING_SPEEDER_WEAP1
+		TEXT_TOOLTIP_V_WING_SPEEDER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_vwing.tga</Icon_Name>
+
+		<Damage>24</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>775</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | Slayn_Korpil </Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>225</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Air</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Assault_Speeder</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Formation_Prority>1</Formation_Prority>
+		<Company_Units>V_Wing_Airspeeder, V_Wing_Airspeeder, V_Wing_Airspeeder</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>730</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="AAC_3_Company">
+
+		<Text_ID>TEXT_UNIT_AAC_3_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AAC_3
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AAC_3_COMPANY
+		TEXT_TOOLTIP_AAC_3_HEALTH 
+		TEXT_TOOLTIP_AAC_3_MOVE
+		TEXT_TOOLTIP_AAC_3_WEAP1
+		TEXT_TOOLTIP_AAC_3_WEAP2
+		TEXT_TOOLTIP_AAC_3_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_15
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_aac_3.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>875</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | SoroSuub_HQ | SoroSuub_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Artillery</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete> Unit_Complete_AAC </SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move> Unit_Fleet_Move_AAC </SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>AAC_3, AAC_3, AAC_3</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>695</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_T3B_Company">
+
+		<Text_ID>TEXT_UNIT_T3_TANK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_T3B_TRACKEDTANK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_T3B_COMPANY
+		TEXT_TOOLTIP_T3B_HEALTH
+		TEXT_TOOLTIP_T3B_SHIELD
+		TEXT_TOOLTIP_T3B_MOVE
+		TEXT_TOOLTIP_T3B_WEAP1
+		TEXT_TOOLTIP_T3B_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_t-3b.tga</Icon_Name>
+
+		<Damage>60</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>950</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | Yutrane_Trackata_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Tanks</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Attack_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Attack_Tank</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>T3B_Tank, T3B_Tank</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>790</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Gallofree_HTT_Company">
+
+		<Text_ID>TEXT_UNIT_G-HTT_TRANSPORT_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TRANSPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_G-HTT_TRANSPORT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_G-HTT_TRANSPORT_COMPANY
+		TEXT_TOOLTIP_G-HTT_TRANSPORT_HEALTH
+		TEXT_TOOLTIP_G-HTT_TRANSPORT_SHIELD
+		TEXT_TOOLTIP_G-HTT_TRANSPORT_MOVE 
+		TEXT_TOOLTIP_G-HTT_TRANSPORT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_gallofree_htt.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits>1800</Slice_Cost_Credits>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Heavy</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Gallofree_HTT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree_HTT</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Gallofree_HTT_Transport, Gallofree_HTT_Transport</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>565</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_Freerunner_Company">
+
+		<Text_ID>TEXT_UNIT_FREERUNNER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_SKIFF</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_FREERUNNER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_FREERUNNER_COMPANY
+		TEXT_TOOLTIP_FREERUNNER_HEALTH
+		TEXT_TOOLTIP_FREERUNNER_SHIELD 
+		TEXT_TOOLTIP_FREERUNNER_MOVE
+		TEXT_TOOLTIP_FREERUNNER_WEAP1
+		TEXT_TOOLTIP_FREERUNNER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_freerunner.tga</Icon_Name>
+
+		<Damage>30</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Tanks</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Mobile_Defense</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mobile_Defense</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Freerunner, Freerunner, Freerunner</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>920</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="New_Republic_T4B_Company">
+
+		<Text_ID>TEXT_UNIT_T4B_TANK_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_T4B 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_T4B_COMPANY
+		TEXT_TOOLTIP_T4B_HEALTH
+		TEXT_TOOLTIP_T4B_MOVE
+		TEXT_TOOLTIP_T4B_WEAP1 
+		TEXT_TOOLTIP_T4B_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_T-4B.tga</Icon_Name>
+
+		<Damage>60</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | Yutrane_Trackata_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Tanks</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_T4B_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>T4B_Tank, T4B_Tank</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1130</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	</GroundCompany>
+
+	<GroundCompany Name="MAS_2xB_Company">
+
+		<Text_ID>TEXT_UNIT_MAS_2XB</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_GUNSHIP</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MAS_2XB
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MAS_2XB_COMPANY
+		TEXT_TOOLTIP_MAS_2XB_HEALTH 
+		TEXT_TOOLTIP_MAS_2XB_SHIELD
+		TEXT_TOOLTIP_MAS_2XB_MOVE 
+		TEXT_TOOLTIP_MAS_2XB_WEAP1
+		TEXT_TOOLTIP_MAS_2XB_WEAP2 
+		TEXT_TOOLTIP_MAS_2XB_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_MAS_2xB.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>500</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>2</Population_Value>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Imperial_Titan_Barge_Super</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Gallofree_HTT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree_HTT</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>MAS_2xB</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
+	</GroundCompany>
+
+</New_Republic_Ground>

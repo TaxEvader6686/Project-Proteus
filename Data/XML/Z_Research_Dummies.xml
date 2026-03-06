@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Z_Research_Dummies>
+
+	<DummyStructure Name="Z_Research_MB">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_MISSILE_BOAT_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_MISSILE_BOAT.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Bothawui, Nal_Hutta, Nirauan</Required_Planets>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Lua_Script>ResearchMissileBoat</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Z_Research_Scimitar">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_SCIMITAR_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_SCIMITAR_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_SCIMITAR.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Byblos, Corulag, Fondor, Jaemus, Lianna, Raxus, Ryloth</Required_Planets>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Lua_Script>ResearchScimitar</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Z_Research_Corona">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_CORONA_RESEARCH</Text_ID>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_CORONA_RESEARCH</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_corona_research.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kuat, Gyndine, Jaemus, Balmorra, Rothana, Xa_Fel</Required_Planets>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Z_Research_Gorath">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_GORATH_RESEARCH</Text_ID>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_GORATH_RESEARCH</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_strike_gorath_research.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Antemeridias, Corellia, Denon, Loronar, Mon_Calamari</Required_Planets>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Z_Research_AF2">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_AF2_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_AF2_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_ASSFRIG_MK2.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Rendili, Sluis_Van, Mon_Calamari</Required_Planets>
+		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Z_Research_MTC">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_MTC_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_MTC_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_MTC_SENSOR.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Brentaal, Bonadan, Lantillies, Druckenwell, Tepasi, Tisssharl</Required_Planets>
+		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<DummyStructure Name="Z_Research_Glory">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>Z_TEXT_UNIT_GLORY_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> Z_TEXT_TOOLTIP_GLORY_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_GLORY_DESTROYER.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Planets>Kuat</Required_Planets>
+		<Build_Cost_Credits>20000</Build_Cost_Credits>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+	
+</Z_Research_Dummies>

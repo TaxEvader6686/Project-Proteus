@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "BELLATOR_STAR_DREADNOUGHT"}
+}

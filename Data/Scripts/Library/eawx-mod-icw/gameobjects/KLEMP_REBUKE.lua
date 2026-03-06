@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "ACCLAMATOR_I_SUPERCRUISER"}
+}

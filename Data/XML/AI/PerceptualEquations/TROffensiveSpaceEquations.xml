@@ -1,0 +1,472 @@
+<?xml version="1.0" ?>
+
+<Equations>
+
+	<Distance_To_Nearest_Friendly_Starbase>
+	Variable_Target.DistanceToNearestFriendly {	Parameter_Type = "Rebel_Star_Base_1",
+												Parameter_Type = "Rebel_Star_Base_2",
+												Parameter_Type = "Rebel_Star_Base_3",
+												Parameter_Type = "Rebel_Star_Base_4",
+												Parameter_Type = "Rebel_Star_Base_5",
+												Parameter_Type = "Empire_Star_Base_1",
+												Parameter_Type = "Empire_Star_Base_2",
+												Parameter_Type = "Empire_Star_Base_3",
+												Parameter_Type = "Empire_Star_Base_4",
+												Parameter_Type = "Empire_Star_Base_5",
+												Parameter_Type = "CSA_Star_Base_1",
+												Parameter_Type = "CSA_Star_Base_2",
+												Parameter_Type = "CSA_Star_Base_3",
+												Parameter_Type = "CSA_Star_Base_4",
+												Parameter_Type = "CSA_Star_Base_5",
+												Parameter_Type = "EotH_Star_Base_1",
+												Parameter_Type = "EotH_Star_Base_2",
+												Parameter_Type = "EotH_Star_Base_3",
+												Parameter_Type = "EotH_Star_Base_4",
+												Parameter_Type = "EotH_Star_Base_5",
+												Parameter_Type = "Hapan_Star_Base_1",
+												Parameter_Type = "Hapan_Star_Base_2",
+												Parameter_Type = "Hapan_Star_Base_3",
+												Parameter_Type = "Hapan_Star_Base_4",
+												Parameter_Type = "Hapan_Star_Base_5",
+												Parameter_Type = "Hutt_Star_Base_1",
+												Parameter_Type = "Hutt_Star_Base_2",
+												Parameter_Type = "Hutt_Star_Base_3",
+												Parameter_Type = "Hutt_Star_Base_4",
+												Parameter_Type = "Hutt_Star_Base_5",
+												Parameter_Type = "Skirmish_NR_Star_Base_1",
+												Parameter_Type = "Skirmish_NR_Star_Base_Early",
+												Parameter_Type = "Skirmish_NR_Star_Base_Late",
+												Parameter_Type = "Skirmish_Empire_Star_Base_1",
+												Parameter_Type = "Skirmish_EotH_Star_Base_1",
+												Parameter_Type = "Skirmish_Eriadu_Authority_Star_Base_1",
+												Parameter_Type = "Skirmish_Pentastar_Star_Base_1",
+												Parameter_Type = "Skirmish_Zsinj_Star_Base_1",
+												Parameter_Type = "Skirmish_CSA_Star_Base_1",
+												Parameter_Type = "Skirmish_Greater_Maldrood_Star_Base_1",
+												Parameter_Type = "Skirmish_Hapan_Star_Base_1",
+												Parameter_Type = "Skirmish_Hutt_Star_Base_1",
+												Parameter_Type = "Skirmish_NR_Flagship_1",
+												Parameter_Type = "Skirmish_NR_Flagship_2",
+												Parameter_Type = "Skirmish_NR_Flagship_3",
+												Parameter_Type = "Skirmish_NR_Flagship_4",
+												Parameter_Type = "Skirmish_NR_Flagship_5",
+												Parameter_Type = "Skirmish_Empire_Flagship_1",
+												Parameter_Type = "Skirmish_Empire_Flagship_2",
+												Parameter_Type = "Skirmish_Empire_Flagship_3",
+												Parameter_Type = "Skirmish_Empire_Flagship_4",
+												Parameter_Type = "Skirmish_Empire_Flagship_5",
+												Parameter_Type = "Skirmish_CSA_Flagship_1",
+												Parameter_Type = "Skirmish_CSA_Flagship_2",
+												Parameter_Type = "Skirmish_CSA_Flagship_3",
+												Parameter_Type = "Skirmish_CSA_Flagship_4",
+												Parameter_Type = "Skirmish_CSA_Flagship_5",
+												Parameter_Type = "Skirmish_EOTH_Flagship_1",
+												Parameter_Type = "Skirmish_EOTH_Flagship_2",
+												Parameter_Type = "Skirmish_EOTH_Flagship_3",
+												Parameter_Type = "Skirmish_EOTH_Flagship_4",
+												Parameter_Type = "Skirmish_EOTH_Flagship_5",
+												Parameter_Type = "Skirmish_EA_Flagship_1",
+												Parameter_Type = "Skirmish_EA_Flagship_2",
+												Parameter_Type = "Skirmish_EA_Flagship_3",
+												Parameter_Type = "Skirmish_EA_Flagship_4",
+												Parameter_Type = "Skirmish_EA_Flagship_5",
+												Parameter_Type = "Skirmish_GM_Flagship_1",
+												Parameter_Type = "Skirmish_GM_Flagship_2",
+												Parameter_Type = "Skirmish_GM_Flagship_3",
+												Parameter_Type = "Skirmish_GM_Flagship_4",
+												Parameter_Type = "Skirmish_GM_Flagship_5",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_1",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_2",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_3",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_4",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_5",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_1",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_2",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_3",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_4",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_5",
+												Parameter_Type = "Skirmish_Hapan_Flagship_1",
+												Parameter_Type = "Skirmish_Hapan_Flagship_2",
+												Parameter_Type = "Skirmish_Hapan_Flagship_3",
+												Parameter_Type = "Skirmish_Hapan_Flagship_4",
+												Parameter_Type = "Skirmish_Hapan_Flagship_5",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_1",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_2",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_3",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_4",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_5"
+												}
+	</Distance_To_Nearest_Friendly_Starbase>
+
+	<Distance_To_Nearest_Enemy_Starbase>
+	Variable_Target.DistanceToNearestEnemy {	Parameter_Type = "Rebel_Star_Base_1",
+												Parameter_Type = "Rebel_Star_Base_2",
+												Parameter_Type = "Rebel_Star_Base_3",
+												Parameter_Type = "Rebel_Star_Base_4",
+												Parameter_Type = "Rebel_Star_Base_5",
+												Parameter_Type = "Empire_Star_Base_1",
+												Parameter_Type = "Empire_Star_Base_2",
+												Parameter_Type = "Empire_Star_Base_3",
+												Parameter_Type = "Empire_Star_Base_4",
+												Parameter_Type = "Empire_Star_Base_5",
+												Parameter_Type = "CSA_Star_Base_1",
+												Parameter_Type = "CSA_Star_Base_2",
+												Parameter_Type = "CSA_Star_Base_3",
+												Parameter_Type = "CSA_Star_Base_4",
+												Parameter_Type = "CSA_Star_Base_5",
+												Parameter_Type = "EotH_Star_Base_1",
+												Parameter_Type = "EotH_Star_Base_2",
+												Parameter_Type = "EotH_Star_Base_3",
+												Parameter_Type = "EotH_Star_Base_4",
+												Parameter_Type = "EotH_Star_Base_5",
+												Parameter_Type = "Hapan_Star_Base_1",
+												Parameter_Type = "Hapan_Star_Base_2",
+												Parameter_Type = "Hapan_Star_Base_3",
+												Parameter_Type = "Hapan_Star_Base_4",
+												Parameter_Type = "Hapan_Star_Base_5",
+												Parameter_Type = "Hutt_Star_Base_1",
+												Parameter_Type = "Hutt_Star_Base_2",
+												Parameter_Type = "Hutt_Star_Base_3",
+												Parameter_Type = "Hutt_Star_Base_4",
+												Parameter_Type = "Hutt_Star_Base_5",
+												Parameter_Type = "Skirmish_NR_Star_Base_1",
+												Parameter_Type = "Skirmish_NR_Star_Base_Early",
+												Parameter_Type = "Skirmish_NR_Star_Base_Late",
+												Parameter_Type = "Skirmish_Empire_Star_Base_1",
+												Parameter_Type = "Skirmish_EotH_Star_Base_1",
+												Parameter_Type = "Skirmish_Eriadu_Authority_Star_Base_1",
+												Parameter_Type = "Skirmish_Pentastar_Star_Base_1",
+												Parameter_Type = "Skirmish_Zsinj_Star_Base_1",
+												Parameter_Type = "Skirmish_CSA_Star_Base_1",
+												Parameter_Type = "Skirmish_Greater_Maldrood_Star_Base_1",
+												Parameter_Type = "Skirmish_Hapan_Star_Base_1",
+												Parameter_Type = "Skirmish_Hutt_Star_Base_1",
+												Parameter_Type = "Skirmish_NR_Flagship_1",
+												Parameter_Type = "Skirmish_NR_Flagship_2",
+												Parameter_Type = "Skirmish_NR_Flagship_3",
+												Parameter_Type = "Skirmish_NR_Flagship_4",
+												Parameter_Type = "Skirmish_NR_Flagship_5",
+												Parameter_Type = "Skirmish_Empire_Flagship_1",
+												Parameter_Type = "Skirmish_Empire_Flagship_2",
+												Parameter_Type = "Skirmish_Empire_Flagship_3",
+												Parameter_Type = "Skirmish_Empire_Flagship_4",
+												Parameter_Type = "Skirmish_Empire_Flagship_5",
+												Parameter_Type = "Skirmish_CSA_Flagship_1",
+												Parameter_Type = "Skirmish_CSA_Flagship_2",
+												Parameter_Type = "Skirmish_CSA_Flagship_3",
+												Parameter_Type = "Skirmish_CSA_Flagship_4",
+												Parameter_Type = "Skirmish_CSA_Flagship_5",
+												Parameter_Type = "Skirmish_EOTH_Flagship_1",
+												Parameter_Type = "Skirmish_EOTH_Flagship_2",
+												Parameter_Type = "Skirmish_EOTH_Flagship_3",
+												Parameter_Type = "Skirmish_EOTH_Flagship_4",
+												Parameter_Type = "Skirmish_EOTH_Flagship_5",
+												Parameter_Type = "Skirmish_EA_Flagship_1",
+												Parameter_Type = "Skirmish_EA_Flagship_2",
+												Parameter_Type = "Skirmish_EA_Flagship_3",
+												Parameter_Type = "Skirmish_EA_Flagship_4",
+												Parameter_Type = "Skirmish_EA_Flagship_5",
+												Parameter_Type = "Skirmish_GM_Flagship_1",
+												Parameter_Type = "Skirmish_GM_Flagship_2",
+												Parameter_Type = "Skirmish_GM_Flagship_3",
+												Parameter_Type = "Skirmish_GM_Flagship_4",
+												Parameter_Type = "Skirmish_GM_Flagship_5",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_1",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_2",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_3",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_4",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_5",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_1",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_2",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_3",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_4",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_5",
+												Parameter_Type = "Skirmish_Hapan_Flagship_1",
+												Parameter_Type = "Skirmish_Hapan_Flagship_2",
+												Parameter_Type = "Skirmish_Hapan_Flagship_3",
+												Parameter_Type = "Skirmish_Hapan_Flagship_4",
+												Parameter_Type = "Skirmish_Hapan_Flagship_5",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_1",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_2",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_3",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_4",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_5"
+												}
+	</Distance_To_Nearest_Enemy_Starbase>
+
+	<Is_Starbase>
+			Variable_Target.Type.IsType {	Parameter_Type = "Rebel_Star_Base_1",
+												Parameter_Type = "Rebel_Star_Base_2",
+												Parameter_Type = "Rebel_Star_Base_3",
+												Parameter_Type = "Rebel_Star_Base_4",
+												Parameter_Type = "Rebel_Star_Base_5",
+												Parameter_Type = "Empire_Star_Base_1",
+												Parameter_Type = "Empire_Star_Base_2",
+												Parameter_Type = "Empire_Star_Base_3",
+												Parameter_Type = "Empire_Star_Base_4",
+												Parameter_Type = "Empire_Star_Base_5",
+												Parameter_Type = "CSA_Star_Base_1",
+												Parameter_Type = "CSA_Star_Base_2",
+												Parameter_Type = "CSA_Star_Base_3",
+												Parameter_Type = "CSA_Star_Base_4",
+												Parameter_Type = "CSA_Star_Base_5",
+												Parameter_Type = "EotH_Star_Base_1",
+												Parameter_Type = "EotH_Star_Base_2",
+												Parameter_Type = "EotH_Star_Base_3",
+												Parameter_Type = "EotH_Star_Base_4",
+												Parameter_Type = "EotH_Star_Base_5",
+												Parameter_Type = "Hapan_Star_Base_1",
+												Parameter_Type = "Hapan_Star_Base_2",
+												Parameter_Type = "Hapan_Star_Base_3",
+												Parameter_Type = "Hapan_Star_Base_4",
+												Parameter_Type = "Hapan_Star_Base_5",
+												Parameter_Type = "Hutt_Star_Base_1",
+												Parameter_Type = "Hutt_Star_Base_2",
+												Parameter_Type = "Hutt_Star_Base_3",
+												Parameter_Type = "Hutt_Star_Base_4",
+												Parameter_Type = "Hutt_Star_Base_5",
+												Parameter_Type = "Skirmish_NR_Star_Base_1",
+												Parameter_Type = "Skirmish_NR_Star_Base_Early",
+												Parameter_Type = "Skirmish_NR_Star_Base_Late",
+												Parameter_Type = "Skirmish_Empire_Star_Base_1",
+												Parameter_Type = "Skirmish_EotH_Star_Base_1",
+												Parameter_Type = "Skirmish_Eriadu_Authority_Star_Base_1",
+												Parameter_Type = "Skirmish_Pentastar_Star_Base_1",
+												Parameter_Type = "Skirmish_Zsinj_Star_Base_1",
+												Parameter_Type = "Skirmish_CSA_Star_Base_1",
+												Parameter_Type = "Skirmish_Greater_Maldrood_Star_Base_1",
+												Parameter_Type = "Skirmish_Hapan_Star_Base_1",
+												Parameter_Type = "Skirmish_Hutt_Star_Base_1",
+												Parameter_Type = "Skirmish_NR_Flagship_1",
+												Parameter_Type = "Skirmish_NR_Flagship_2",
+												Parameter_Type = "Skirmish_NR_Flagship_3",
+												Parameter_Type = "Skirmish_NR_Flagship_4",
+												Parameter_Type = "Skirmish_NR_Flagship_5",
+												Parameter_Type = "Skirmish_Empire_Flagship_1",
+												Parameter_Type = "Skirmish_Empire_Flagship_2",
+												Parameter_Type = "Skirmish_Empire_Flagship_3",
+												Parameter_Type = "Skirmish_Empire_Flagship_4",
+												Parameter_Type = "Skirmish_Empire_Flagship_5",
+												Parameter_Type = "Skirmish_CSA_Flagship_1",
+												Parameter_Type = "Skirmish_CSA_Flagship_2",
+												Parameter_Type = "Skirmish_CSA_Flagship_3",
+												Parameter_Type = "Skirmish_CSA_Flagship_4",
+												Parameter_Type = "Skirmish_CSA_Flagship_5",
+												Parameter_Type = "Skirmish_EOTH_Flagship_1",
+												Parameter_Type = "Skirmish_EOTH_Flagship_2",
+												Parameter_Type = "Skirmish_EOTH_Flagship_3",
+												Parameter_Type = "Skirmish_EOTH_Flagship_4",
+												Parameter_Type = "Skirmish_EOTH_Flagship_5",
+												Parameter_Type = "Skirmish_EA_Flagship_1",
+												Parameter_Type = "Skirmish_EA_Flagship_2",
+												Parameter_Type = "Skirmish_EA_Flagship_3",
+												Parameter_Type = "Skirmish_EA_Flagship_4",
+												Parameter_Type = "Skirmish_EA_Flagship_5",
+												Parameter_Type = "Skirmish_GM_Flagship_1",
+												Parameter_Type = "Skirmish_GM_Flagship_2",
+												Parameter_Type = "Skirmish_GM_Flagship_3",
+												Parameter_Type = "Skirmish_GM_Flagship_4",
+												Parameter_Type = "Skirmish_GM_Flagship_5",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_1",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_2",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_3",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_4",
+												Parameter_Type = "Skirmish_Pentastar_Flagship_5",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_1",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_2",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_3",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_4",
+												Parameter_Type = "Skirmish_Hutt_Cartels_Flagship_5",
+												Parameter_Type = "Skirmish_Hapan_Flagship_1",
+												Parameter_Type = "Skirmish_Hapan_Flagship_2",
+												Parameter_Type = "Skirmish_Hapan_Flagship_3",
+												Parameter_Type = "Skirmish_Hapan_Flagship_4",
+												Parameter_Type = "Skirmish_Hapan_Flagship_5",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_1",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_2",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_3",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_4",
+												Parameter_Type = "Skirmish_Zsinj_Flagship_5"
+												}
+	</Is_Starbase>
+
+	<EnemyForce_No_Shipyard>
+		(Variable_Self.EnemyForceUnnormalized {Parameter_Attenuator = 1.0} + Variable_Enemy.ReinforcementsUnnormalized)
+		-
+		(
+		1500 
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "NewRepublic_Shipyard_Level_One",
+								Parameter_Type = "Empire_Shipyard_Level_One",
+								Parameter_Type = "Pentastar_Shipyard_Level_One",
+								Parameter_Type = "Zsinj_Shipyard_Level_One",
+								Parameter_Type = "Eriadu_Shipyard_Level_One",
+								Parameter_Type = "Greater_Maldrood_Shipyard_Level_One",
+								Parameter_Type = "CSA_Shipyard_Level_One",
+								Parameter_Type = "Chiss_Shipyard_Level_One",
+								Parameter_Type = "EotH_Shipyard_Level_One",
+								Parameter_Type = "Hutt_Shipyard_Level_One",
+								Parameter_Type = "Yevetha_Shipyard_Level_One",
+								Parameter_Type = "Imperial_Proteus_Shipyard_Level_One"}
+		+
+		2500
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "NewRepublic_Shipyard_Level_Two",
+								Parameter_Type = "Empire_Shipyard_Level_Two",
+								Parameter_Type = "Pentastar_Shipyard_Level_Two",
+								Parameter_Type = "Zsinj_Shipyard_Level_Two",
+								Parameter_Type = "Pirate_Base",
+								Parameter_Type = "Eriadu_Shipyard_Level_Two",
+								Parameter_Type = "Greater_Maldrood_Shipyard_Level_Two",
+								Parameter_Type = "CSA_Shipyard_Level_Two",
+								Parameter_Type = "Chiss_Shipyard_Level_Two",
+								Parameter_Type = "EotH_Shipyard_Level_Two",
+								Parameter_Type = "Hutt_Shipyard_Level_Two",
+								Parameter_Type = "Yevetha_Shipyard_Level_Two",
+								Parameter_Type = "Imperial_Proteus_Shipyard_Level_Two"}
+		+
+		6000
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "NewRepublic_Shipyard_Level_Three",
+								Parameter_Type = "Empire_Shipyard_Level_Three",
+								Parameter_Type = "Pentastar_Shipyard_Level_Three",
+								Parameter_Type = "Zsinj_Shipyard_Level_Three",
+								Parameter_Type = "Eriadu_Shipyard_Level_Three",
+								Parameter_Type = "Greater_Maldrood_Shipyard_Level_Three",
+								Parameter_Type = "CSA_Shipyard_Level_Three",
+								Parameter_Type = "CSA_Ship_Market",
+								Parameter_Type = "Chiss_Shipyard_Level_Three",
+								Parameter_Type = "EotH_Shipyard_Level_Three",
+								Parameter_Type = "Hutt_Shipyard_Level_Three",
+								Parameter_Type = "Yevetha_Shipyard_Level_Three",
+								Parameter_Type = "Imperial_Proteus_Shipyard_Level_Three"}
+		+
+		8500
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "NewRepublic_Shipyard_Level_Four",
+								Parameter_Type = "Empire_Shipyard_Level_Four",
+								Parameter_Type = "Pentastar_Shipyard_Level_Four",
+								Parameter_Type = "Zsinj_Shipyard_Level_Four",
+								Parameter_Type = "Rancor_Base",
+								Parameter_Type = "Eriadu_Shipyard_Level_Four",
+								Parameter_Type = "Greater_Maldrood_Shipyard_Level_Four",
+								Parameter_Type = "CSA_Shipyard_Level_Four",
+								Parameter_Type = "Chiss_Shipyard_Level_Four",
+								Parameter_Type = "EotH_Shipyard_Level_Four",
+								Parameter_Type = "Hutt_Shipyard_Level_Four",
+								Parameter_Type = "Yevetha_Shipyard_Level_Four",
+								Parameter_Type = "Imperial_Proteus_Shipyard_Level_Four",
+								Parameter_Type = "Tierfon_Shipyard_Capital"}
+		+
+		5000
+		*
+		Variable_Enemy.HasUnit {Parameter_Type = "Hapan_Shipyard_Royal",
+								Parameter_Type = "Hapan_Shipyard_Requud",
+								Parameter_Type = "Hapan_Shipyard_AlGray",
+								Parameter_Type = "Hapan_Shipyard_Galney",
+								Parameter_Type = "Hapan_Shipyard_Thane",
+								Parameter_Type = "Hapan_Shipyard_Corr",
+								Parameter_Type = "Hapan_Shipyard_Maluri"}
+		)
+	</EnemyForce_No_Shipyard>
+
+	<Is_Space_Structure_Indestructable>
+		Variable_Target.Type.IsType { Parameter_Type = "N_Orbital_Construction_Pod"
+									,Parameter_Type = "N_Remote_Sensor_Pod"
+									,Parameter_Type = "Asteroid Huge" 
+									,Parameter_Type = "Asteroid Medium" 
+									,Parameter_Type = "Asteroid Large"
+									,Parameter_Type = "InstantAction_Marker_Chiss"
+									,Parameter_Type = "InstantAction_Marker_Corellia"
+									,Parameter_Type = "InstantAction_Marker_Corporate_Sector"
+									,Parameter_Type = "InstantAction_Marker_Empire"
+									,Parameter_Type = "InstantAction_Marker_Empire2"
+									,Parameter_Type = "InstantAction_Marker_Empire3"
+									,Parameter_Type = "InstantAction_Marker_Empire4"
+									,Parameter_Type = "InstantAction_Marker_Empire5"
+									,Parameter_Type = "InstantAction_Marker_Empire6"
+									,Parameter_Type = "InstantAction_Marker_EmpireoftheHand"
+									,Parameter_Type = "InstantAction_Marker_Extra"
+									,Parameter_Type = "InstantAction_Marker_Hapes_Consortium"
+									,Parameter_Type = "InstantAction_Marker_Hutt_Cartels"
+									,Parameter_Type = "InstantAction_Marker_Hutt_Cartels2"
+									,Parameter_Type = "InstantAction_Marker_Independent_Forces"
+									,Parameter_Type = "InstantAction_Marker_Independent_Forces2"
+									,Parameter_Type = "InstantAction_Marker_Rebel"
+									,Parameter_Type = "InstantAction_Marker_Rebel2"
+									,Parameter_Type = "InstantAction_Marker_Yevetha"
+									,Parameter_Type = "InstantAction_Marker_Target"
+									,Parameter_Type = "InstantAction_Marker_Faction"
+									}
+	</Is_Space_Structure_Indestructable>
+
+	<Has_Defense_Stations>
+		Variable_Self.HasUnit {
+			Parameter_Type = "Secondary_Golan_One",
+			Parameter_Type = "Secondary_Golan_Two",
+			Parameter_Type = "Secondary_Golan_Three",
+			Parameter_Type = "Secondary_Valor",
+			Parameter_Type = "Secondary_Epineio",
+			Parameter_Type = "Secondary_Teichos",
+			Parameter_Type = "Secondary_Brask",
+			Parameter_Type = "Secondary_Iero",
+			Parameter_Type = "Secondary_Etymos",
+			Parameter_Type = "Secondary_Visvia",
+			Parameter_Type = "Secondary_Meridian_I",
+			Parameter_Type = "Secondary_Meridian_II",
+			Parameter_Type = "Secondary_Meridian_III",
+			Parameter_Type = "Secondary_Meridian_IV"
+		}
+	</Has_Defense_Stations>
+
+	<Has_Interdictor>
+		Variable_Enemy.HasUnit {
+			Parameter_Type = "Interdiction_Minefield",
+			Parameter_Type = "Super_Transport_VII_Interdictor",
+			Parameter_Type = "Prolipsi",
+			Parameter_Type = "Coronal_Fleet_Tender",
+			Parameter_Type = "Interdiction_Minefield_Hapes",
+			Parameter_Type = "Interdictor_Star_Destroyer",
+			Parameter_Type = "Mothma_Star_Destroyer",
+			Parameter_Type = "Sovereign_Star_Dreadnought",
+			Parameter_Type = "Eclipse_Star_Dreadnought",
+			Parameter_Type = "CC7700",
+			Parameter_Type = "CC7700_E",
+			Parameter_Type = "Strike_Interdictor",
+			Parameter_Type = "Immobilizer_418",
+			Parameter_Type = "Immobilizer_418_Refit",
+			Parameter_Type = "Immobilizer_Twin_Well",
+			Parameter_Type = "Isolder_Song_of_War",
+			Parameter_Type = "Alyssia_Starsong",
+			Parameter_Type = "Chelik_Dangerous_Dance",
+			Parameter_Type = "Astarta_Siren_Star",
+			Parameter_Type = "Gray_Kendall",
+			Parameter_Type = "Lovett_Riverlord",
+			Parameter_Type = "Dezon_Constrainer",
+			Parameter_Type = "Phulik_Binder",
+			Parameter_Type = "Wellam_Eternal_Wrath",
+			Parameter_Type = "Iblis_Bail_Organa",
+			Parameter_Type = "Iillor_Corusca_Rainbow",
+			Parameter_Type = "Voota_Splendor",
+			Parameter_Type = "Kaerobani_Interdictor",
+			Parameter_Type = "Lon_Donell_Detainer",
+			Parameter_Type = "Valles_Interdictor",
+			Parameter_Type = "Krieg_Immobilizer",
+			Parameter_Type = "Commander_III_Interdictor_Star_Destroyer"
+			}
+	</Has_Interdictor>
+
+	<Allowed_To_Retreat_From_Space>
+		Game.IsCampaignGame
+		*
+		Variable_Self.CanRetreat
+		*
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Hostile", 
+										Parameter_Faction = "Warlords", 
+										Parameter_Faction = "Independent_Forces",
+										Parameter_Faction = "Mandalorians" <!-- FOTR/TR only; Rev Mandos are Underworld-->
+									   }
+		)
+	</Allowed_To_Retreat_From_Space>
+
+</Equations>
