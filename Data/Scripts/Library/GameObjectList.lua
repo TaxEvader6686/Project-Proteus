@@ -887,7 +887,7 @@ return {
 ["PELTA_ASSAULT"] = true,
 ["PRAETOR_I_BATTLECRUISER"] = true,
 ["PROCURATOR_STAR_DESTROYER"] = true,
--- Zerp Command
+-- Zero Command
 ["HARRSK_MEGADOR"] = true,
 ["HARRSK_MEGADOR_DUMMY_1"] = true,
 ["HARRSK_MEGADOR_DUMMY_2"] = true,
@@ -895,5 +895,6 @@ return {
 ["DESANNE_DOMINION_DUMMY"] = true,
 --
 ["KLEMP_REBUKE"] = true,
+["VICTORY_II_CARRIER"] = true,
 
 }

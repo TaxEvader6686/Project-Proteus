@@ -321,6 +321,12 @@ TEXT_TOOLTIP_VENATOR_8X_WEAP2,2x Medium Turbolasers: 2 / 1.67s / 6.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP3,2x Light Dual Turbolasers: 2 / 5.0s / 5.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP4,2x Heavy Dual Ion Cannons: 1 / 5.0s / 6.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP5,2x Proton Torpedoes: 2 / 20.0s / 5.2km
+TEXT_TOOLTIP_VICTORY2_CARRIER,A refitted star destroyer for system patrol and anti-piracy duties in remote sectors using the common Victory II-Class hull as a base. With much of the onboard cargo capacity converted to housing fighter craft and support systems, the operational range is lower than usual for patrol ships, so they mostly guard Imperial outposts and transit hubs. While the firepower is scaled back to accommodate the increased power usage of the command and control systems, this variant can still defend itself well from attackers in a lower weight class while supporting allied forces with its complement.
+TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER,Shields: 3000 / [40/R] (Heavy Frigate)
+TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER,Fighters: 2 / 4 | Bombers: 1 / 2
+TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER,4x Light Dual Turbolasers: 2 / 2.0s / 5.2km
+TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER,4x Light Ion Cannons: 2 / 1.0s / 5.2km
+TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
@@ -385,6 +391,7 @@ TEXT_UNIT_TIE_FIGHTER_MISSILE,Missile Refit TIE Fighter
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_UT_AT,UT-AT
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
+TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's failed Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate, retires Nebulon-B.
 Z_TEXT_TOOLTIP_GLORY_RESEARCH,Acquire the schematics for KDY's prototype star destroyer design and reverse-engineer the vessel for our own purposes. Unlocks Glory-class Star Destroyer.

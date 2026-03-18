@@ -1583,7 +1583,7 @@
 		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
 		<CategoryMask> Frigate | AntiCapital </CategoryMask>
 
-		<Death_Clone> Damage_Normal, Victory_I_Fleet_Destroyer_Death_Clone</Death_Clone>
+		<Death_Clone> Damage_Normal, Victory_I_Destroyer_Death_Clone</Death_Clone>
 
 		<!-- Survival -->
 		<Tactical_Build_Cost_Multiplayer>1920</Tactical_Build_Cost_Multiplayer>
@@ -4416,7 +4416,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<HardPoints> HP_TIE_Interceptor_Ion_00, HP_TIE_Interceptor_Ion_01, HP_Ion_Interceptor_00</HardPoints>
+		<HardPoints> HP_TIE_Interceptor_00, HP_TIE_Interceptor_01, HP_Ion_Interceptor_00</HardPoints>
 	</SpaceUnit>
 
 	<Squadron Name="TIE_Interceptor_Ion_Squadron">

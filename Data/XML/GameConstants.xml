@@ -2437,7 +2437,7 @@
 	<!-- Project Proteus units -->
 	<ShipNameTextFiles>
 		Proteus_Cargo_Ship, 							Data\ShipNames\Imperial_Cargo_Ship.txt,
-		Z_Glory_Star_Destroyer, 						Data\ShipNames\ISD_G.txt,
+		Glory_Star_Destroyer, 						Data\ShipNames\ISD_G.txt,
 		Shadow_Customs_Corvette, 						Data\ShipNames\shadow_Customs_Corvette.txt,
 		Shadow_Vigil, 									Data\ShipNames\shadow_Vigil.txt,
 		Shadow_Acclamator_I_Carrier, 					Data\ShipNames\shadow_acclamator_I.txt,

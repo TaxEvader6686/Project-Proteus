@@ -2296,7 +2296,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, "New_Republic_Overracer_Speeder_Bike_Company" 
+				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -2306,7 +2306,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, "New_Republic_Overracer_Speeder_Bike_Company"  
+				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>

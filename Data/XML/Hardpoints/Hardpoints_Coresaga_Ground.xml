@@ -8539,19 +8539,4 @@
 		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-	<Projectile Name="Proj_SuperHeavy_AV_Ion_Cannon">
-		<Variant_Of_Existing_Type>Proj_SuperHeavy_AV_Blaster_Red</Variant_Of_Existing_Type>
-
-		<Land_Model_Name>PROJ_LASER_ION_INF.ALO</Land_Model_Name>
-
-		<Damage_Type> DamageL_Ion </Damage_Type>
-		<Max_Speed>20.0</Max_Speed>		
-		<Projectile_Damage>50.0</Projectile_Damage>
-
-		<Projectile_Lifetime_Detonation_Particle>Turbohit_Blue</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Object_Detonation_Particle>Turbohit_Blue</Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle></Projectile_Ground_Detonation_Particle>
-	</Projectile>
-
 </HardPoints>

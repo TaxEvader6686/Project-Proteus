@@ -6285,6 +6285,64 @@
 
 	</SpaceUnit>
 
+<!--Carrier VSD-->
+
+	<SpaceUnit Name="Victory_II_Carrier">
+		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 200</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VICTORY2_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VICTORY2_HULL
+		TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER
+		TEXT_TOOLTIP_VICTORY2_MOVE
+		TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
+
+		<Shield_Points>3000</Shield_Points>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Cost_Credits>3300</Build_Cost_Credits>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four | Tierfon_Shipyard_Capital,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
+		</Required_Special_Structures>
+		
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<HardPoints>
+		HP_Victory2_Carrier_LQLC_01, HP_Victory2_Carrier_LQLC_02,
+		HP_Victory2_Carrier_LSIC_01, HP_Victory2_Carrier_LSIC_02, HP_Victory2_Carrier_LSIC_03, HP_Victory2_Carrier_LSIC_04,
+		HP_Victory2_Carrier_LDTL_01, HP_Victory2_Carrier_LDTL_02, HP_Victory2_Carrier_LDTL_03, HP_Victory2_Carrier_LDTL_04,
+		HP_Victory2_Destroyer_Engines, HP_Victory2_Destroyer_Fighter_Bay
+        </HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Victory_II_Destroyer_Death_Clone</Death_Clone>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>1925</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+	</SpaceUnit>
+
 	<!-- Legitimacy reward for all except Greater_Maldrood -->
 	<SpaceUnit Name="Crimson_Victory_II_Star_Destroyer">
 		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>

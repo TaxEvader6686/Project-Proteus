@@ -83,5 +83,8 @@ return {
 		"ULAV_Early_Company", "Skyhopper_Company",
 		--The Quintad added units
 		"Gozanti_Cruiser_Group", "LAC", "Procurator_Battlecruiser",
-		"PDF_Tactical_Unit_Company", 
+		"PDF_Tactical_Unit_Company",
+
+		--idk for what group
+		"Victory_II_Carrier",
 }

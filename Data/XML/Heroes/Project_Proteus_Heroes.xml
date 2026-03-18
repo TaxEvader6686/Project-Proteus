@@ -1104,7 +1104,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
 				<Applicable_Unit_Types>Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, "New_Republic_Overracer_Speeder_Bike_Company"</Applicable_Unit_Types>
+				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
@@ -1112,7 +1112,7 @@
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
 				<Applicable_Unit_Types>Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, "New_Republic_Overracer_Speeder_Bike_Company" </Applicable_Unit_Types>
+				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

@@ -3637,35 +3637,6 @@
 		<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-	<HardPoint Name="HP_Ion_Interceptor_00">
-		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Fighter</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
-		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-
-		<Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Gunship, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
-	</HardPoint>
-
 	<HardPoint Name="HP_TIE_AFCM_01">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>No</Is_Targetable>
