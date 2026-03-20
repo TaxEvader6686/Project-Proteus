@@ -615,6 +615,7 @@ Z_TEXT_TOOLTIP_GLORY_RESEARCH,Acquire the schematics for KDY's prototype star de
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.
 Z_TEXT_TOOLTIP_MISSILE_BOAT_RESEARCH,Recover the schematics for Thrawn's Missile Boats and secure our starfighter supremacy. Replaces all Alpha-class XG-1 Starwing spawns with Missile Boats.
 Z_TEXT_TOOLTIP_MTC_RESEARCH,Seize the schematics for TaggeCo's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Modular Taskforce Sensor Cruiser.
+Z_TEXT_TOOLTIP_SCIMITAR_RESEARCH,Use your powers of persuasion to coax the schematics for Tomax Bren's TIE Bomber Mark 2 out of Sienar's Engineers. Replaces all TIE Avenger Bomber spawns with Scimitar Assault Bombers.
 Z_TEXT_TOOLTIP_STAR_DESTROYER_GLORY,Reverse-engineered specialist Imperial-class derivative named after the flagship of Grand Admiral Demetrius Zaarin. Heavy line interdiction craft that features next-generation projectors without the visible bulbs found on other interdictors. Allows a similar combat capacity to an Imperial-I star destroyer with a weapons load based on its forerunner variants.
 Z_TEXT_UNIT_AF2_RESEARCH,Reverse-engineer the Assault Frigate-II
 Z_TEXT_UNIT_CORONA_RESEARCH,Reverse-engineer the Corona Frigate
