@@ -80,6 +80,7 @@ return {
 
     ["ECONOMIC"] = {
         "TRADESTATION",
+        "DASTA_TRADESTATION",
         "GOLAN_COLONY_ONE",
         "GOLAN_COLONY_TWO",
         "MINING_FACILITY_MINERALS_SPACE",

@@ -504,6 +504,7 @@
 									Parameter_Type = "Yutrane_Trackata_HQ",
 									Parameter_Type = "zZip_HQ",
 									Parameter_Type = "Biscuit_Baron",
+									Parameter_Type = "Ubiqtorate_Base",
 									Parameter_Only_Consider_Complete = 1.0
 									}
 	</Planet_Has_Ground_Company>
@@ -598,6 +599,7 @@
 									Parameter_Type = "Yutrane_Trackata_HQ",
 									Parameter_Type = "zZip_HQ",
 									Parameter_Type = "Biscuit_Baron",
+									Parameter_Type = "Ubiqtorate_Base",
 									Parameter_Only_Consider_Complete = 1.0
 									}
 	</Player_Has_Ground_Company>
@@ -1326,6 +1328,7 @@
 	
 	<Planet_Has_Trade_Station>
 		Variable_Target.StructureCount {Parameter_Type = "TradeStation",
+										Parameter_Type = "Dasta_TradeStation",
 									Parameter_Only_Consider_Complete = 1.0
 									}
 	</Planet_Has_Trade_Station>

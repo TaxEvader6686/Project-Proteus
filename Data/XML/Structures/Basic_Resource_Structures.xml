@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<Ground_Structures>
+
+	<SpecialStructure Name="Naval_Academy">
+		<Variant_Of_Existing_Type>Template_Naval_Academy</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Military_Soldier_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Local_Infrastructure">
+		<Variant_Of_Existing_Type>Template_Local_Infrastructure</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Tax_Agency">
+		<Variant_Of_Existing_Type>Template_Tax_Agency</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>Empire_Office | Rebel_Office | EOTH_Office | Pentastar_Office | Maldrood_Office | Eriadu_Office | Zsinj_Office | Kamino_Office | Imperial_Proteus_Office | Yevetha_Office | Hapan_Royal_Office | Hapan_AlGray_Office | Hapan_Corr_Office | Hapan_Galney_Office | Hapan_Maluri_Office | Hapan_Requud_Office | Hapan_Thane_Office | SsiRuuvi_Office | CSA_Office</Required_Special_Structures>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Smuggler_Cantina">
+		<Variant_Of_Existing_Type>Template_Cantina</Variant_Of_Existing_Type>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Required_Special_Structures>Hutt_Office</Required_Special_Structures>
+		<Starting_Spawned_Units_Tech_0>Light_Mercenary_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Bank_Reserve">
+		<Variant_Of_Existing_Type>Template_Bank_Reserve</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Mining_Facility"> <!-- For skirmish? -->
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Ground</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Mining_Facility_Minerals_Ground">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Ground</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+	<SpecialStructure Name="Mining_Facility_Tibanna_Ground">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Tibanna_Ground</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+	<SpecialStructure Name="Mining_Facility_Spice_Ground">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Spice_Ground</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Mining_Facility_Minerals_Space">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Space</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+	<SpecialStructure Name="Mining_Facility_Tibanna_Space">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Tibanna_Space</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+	<SpecialStructure Name="Mining_Facility_Spice_Space">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Spice_Space</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Labour_Camp">
+		<Variant_Of_Existing_Type>Template_Labour_Camp</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Hutt_Cartels, EmpireoftheHand, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Pentastar, Corporate_Sector, Yevetha, Hapes_Consortium, Hutt_Cartels, Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Police_Responder_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+	<SpecialStructure Name="TradeStation">
+		<Variant_Of_Existing_Type>Template_TradeStation</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Dasta_TradeStation">
+		<Variant_Of_Existing_Type>Template_TradeStation</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TRADESTATION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_XQ5_HULL
+		TEXT_TOOLTIP_XQ5_SHIELD 
+		TEXT_TOOLTIP_XQ5_WEAP1 
+		TEXT_TOOLTIP_XQ5_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_TRADESTATION_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INCOME_TRADE_STATION
+		TEXT_TOOLTIP_BONUS_FIGHTER_POOL
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_DASTA_TRADE_STATION
+		</Encyclopedia_Text>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+        <Build_Limit_Current_Per_Player>30</Build_Limit_Current_Per_Player>
+        <Build_Cost_Credits>2500</Build_Cost_Credits>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+
+<!-- needs to be completed -->
+
+	<SpecialStructure Name="Golan_Colony_One">
+		<Variant_Of_Existing_Type>Template_Golan_Colony_One</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+		<Death_Clone>Damage_Normal, Golan_Colony_One_Death_Clone</Death_Clone>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Golan_Colony_Two">
+		<Variant_Of_Existing_Type>Template_Golan_Colony_Two</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+
+	<DummyStructure Name="Trade_Income_Dummy">
+		<Variant_Of_Existing_Type>Template_Trade_Income_Dummy</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</DummyStructure>
+
+	<DummyStructure Name="Trade_Hub_Income_Dummy">
+		<Variant_Of_Existing_Type>Template_Trade_Hub_Income_Dummy</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</DummyStructure>
+
+	<DummyStructure Name="Infrastructure_Surplus">
+		<Variant_Of_Existing_Type>Template_Infrastructure_Surplus</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</DummyStructure>
+
+	<DummyStructure Name="Infrastructure_Deficit_Small">
+		<Variant_Of_Existing_Type>Template_Infrastructure_Deficit_Small</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</DummyStructure>
+
+	<DummyStructure Name="Infrastructure_Deficit_Severe">
+		<Variant_Of_Existing_Type>Template_Infrastructure_Deficit_Severe</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</DummyStructure>
+
+	<DummyStructure Name="Cheat_Dummy_Infra_And_Discount">
+		<Variant_Of_Existing_Type>Template_Cheat_Dummy_Infra_And_Discount</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Warlords, Corporate_Sector, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
+	</DummyStructure>
+</Ground_Structures>

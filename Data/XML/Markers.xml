@@ -142,6 +142,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Marker_For_Specific_Object_Type>
 		TradeStation,
+		Dasta_TradeStation,
 		Golan_Colony_One,
 		Golan_Colony_Two,
 		Mining_Facility_Minerals_Space,

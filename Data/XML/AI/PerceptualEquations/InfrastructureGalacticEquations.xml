@@ -417,7 +417,9 @@
 			+
 			5.0
 			*
-			(Variable_Self.HasStructure {Parameter_Type = "TradeStation", Parameter_Only_Consider_Complete = 1.0} == 0.0)
+			(Variable_Self.HasStructure {Parameter_Type = "TradeStation",
+										 Parameter_Type = "Dasta_TradeStation",
+										 Parameter_Only_Consider_Complete = 1.0} == 0.0)
 			+
 			5.0 * Function_Economic_Personality.Evaluate
 			+
@@ -428,9 +430,13 @@
 		*
 		(0.1 + 0.9 * (Function_Is_Connected_To_Enemy.Evaluate == 0))
 		*
-		(15 > Variable_Self.StructureCount {Parameter_Type = "TradeStation", Parameter_Only_Consider_Complete = 1.0})
+		(15 > Variable_Self.StructureCount {Parameter_Type = "TradeStation",
+											Parameter_Type = "Dasta_TradeStation",
+											Parameter_Only_Consider_Complete = 1.0})
 		*
-		(1 > Variable_Target.StructureCount {Parameter_Type = "TradeStation", Parameter_Only_Consider_Complete = 1.0})
+		(1 > Variable_Target.StructureCount {Parameter_Type = "TradeStation",
+											 Parameter_Type = "Dasta_TradeStation",
+											 Parameter_Only_Consider_Complete = 1.0})
 		*
 		Variable_Target.ActiveTradeRoutes
 	</Needs_Tradestation>

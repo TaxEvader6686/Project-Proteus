@@ -857,6 +857,24 @@ function Get_Hero_Entries(upgrade_object)
 				{"SHADOW_VENGEANCE", Locations = {"SHADOW_VENGEANCE_STAR_DREADNOUGHT"}},
 			}
 		},
+
+		["YARNAR_LOCATION_SET"] = {
+			Hero_Squadron = "YARNAR_SQUADRON",
+			PopupBody = "YARNAR_SELECTOR_BODY",
+			Options = {
+				{"RAGEZ", Locations = {"RAGEZ_DASTA_MARAUDER"}},
+				{"MNISTA", Locations = {"MNISTA_QUASAR"}},
+				{"MANDATOR_III", Locations = {"MANDATOR_III_DREADNOUGHT"}},
+				{"GRUNGER", Locations = {"GRUNGER_AGGRESSOR"}},
+				{"BALAN", Locations = {"BALAN_JAVELIN"}},
+				{"DROMMEL", Locations = {"DROMMEL_GUARDIAN"}},
+				{"GRONN", Locations = {"GRONN_ACULEUS"}},
+				{"KIEZ", Locations = {"KIEZ_WHELM"}},
+				{"COMEG", Locations = {"COMEG_BELLATOR"}},
+				{"X1", Locations = {"X1_EXECUTOR"}},
+				{"THORN", Locations = {"THORN_ASSERTOR"}},
+			}
+		},
 	}
 
 	if upgrade_object ~= nil then

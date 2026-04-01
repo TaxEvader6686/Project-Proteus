@@ -136,8 +136,9 @@
 
 <!-- Space: Economic -->
 	<Tradestation_Count>
-		Variable_Self.StructureCount {Parameter_Type = "TradeStation", 
-									Parameter_Only_Consider_Complete = 1.0}
+		Variable_Self.StructureCount {Parameter_Type = "TradeStation",
+									  Parameter_Type = "Dasta_TradeStation", 
+									  Parameter_Only_Consider_Complete = 1.0}
 	</Tradestation_Count>
 
 <!-- Infrastructure Slots -->

@@ -3059,7 +3059,7 @@
 
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 
-		<Build_Limit_Current_Per_Player> -1 </Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player> 1 </Build_Limit_Current_Per_Player>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Biscuit_Baron_Income_Bonus">
@@ -3071,5 +3071,72 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 	</DummyStructure>
+
+	<SpecialStructure Name="Ubiqtorate_Base">
+		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_COMPANY_UBIQTORATE_BASE</Text_ID>
+
+		<Encyclopedia_Text> 
+		TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_1
+		TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_2
+		TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_3
+		TEXT_TOOLTIP_UBIQTORATE_BASE_GARRISON_4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
+		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_UBIQTORATE_BASE.tga</Icon_Name>
+
+		<Land_Model_Name>W_Uplink_Station.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Starting_Spawned_Units_Tech_0>ISB_Infiltrator_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>ISB_Infiltrator_Stormtrooper_Squad, 6</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>IntSec_Operator_Sniper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>IntSec_Operator_Sniper_Squad, 6</Reserve_Spawned_Units_Tech_0>		
+		
+		<Starting_Spawned_Units_Tech_0>Compforce_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Compforce_Assault_Squad, 6</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Galactic_Influence_Range>300.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>300.0</Hyperspace_Fleet_Reveal_Range>
+
+		<Abilities SubObjectList="Yes">
+			<System_Spy_Ability Name="Ubiqtorate_Base_Network">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>No</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</SpecialStructure>
 	
 </SpecialStructures>

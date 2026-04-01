@@ -12267,4 +12267,145 @@
 		</Unit_Abilities_Data>
 	</Squadron>
 
+	<DummyStructure Name="Yarnar_Location_Set">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>10000</AI_Combat_Power>
+
+		<CategoryMask>Wall</CategoryMask>
+
+		<Text_ID>TEXT_HERO_YARNAR</Text_ID>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Icon_Name>I_BUTTON_YARNAR_SET.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_ASSIGN_HERO_SQUAD
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_TOOLTIP_ASSIGN_LOCATIONS
+        TEXT_HERO_RAGEZ_DASTA
+        TEXT_HERO_MNISTA
+		TEXT_UNIT_MANDATOR3
+		TEXT_HERO_THORN
+		TEXT_HERO_GRUNGER
+		TEXT_HERO_KIEZ
+		TEXT_HERO_COMEG
+		TEXT_HERO_BALAN
+		TEXT_HERO_DROMMEL
+		TEXT_HERO_X1
+		TEXT_HERO_GRONN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+	</DummyStructure>
+    <UniqueUnit Name="Missile_TIE_Fighter_Escort">
+		<Variant_Of_Existing_Type>Missile_TIE_Fighter</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_STATBLOCK_TIE_FIGHTER_ESCORT_BASE
+		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
+		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
+		</Encyclopedia_Text>
+
+		<Tactical_Health>100</Tactical_Health>
+	</UniqueUnit>
+	<UniqueUnit Name="Yarnar">
+		<Variant_Of_Existing_Type>Missile_TIE_Fighter</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_YARNAR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_YARNAR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_CIVE_RASHON_BASE
+		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
+		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PILOT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_YARNAR.tga</Icon_Name>
+
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Tactical_Health>350</Tactical_Health>
+	</UniqueUnit>
+	<Container Name="Yarnar_Squadron_Container">
+		<Variant_Of_Existing_Type>Missile_TIE_Fighter_Squadron_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_YARNAR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_YARNAR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
+		TEXT_STATBLOCK_CIVE_RASHON_BASE
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_FIGHTER_ESCORT_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_FIGHTER_SQUADRON
+		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
+		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PILOT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_YARNAR.tga</Icon_Name>
+
+		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
+	</Container>
+	<Squadron Name="Yarnar_Squadron">
+		<Variant_Of_Existing_Type>Missile_TIE_Fighter_Squadron</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_YARNAR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_YARNAR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
+		TEXT_STATBLOCK_CIVE_RASHON_BASE
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_FIGHTER_ESCORT_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_FIGHTER_SQUADRON
+		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
+		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PILOT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_YARNAR.tga</Icon_Name>
+
+		<Create_Team_Type>Yarnar_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort</Squadron_Units>
+		<Squadron_Units>Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort</Squadron_Units>
+		<Squadron_Units>Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort, Missile_TIE_Fighter_Escort, Yarnar</Squadron_Units>
+	</Squadron>
+
+
+<!-- needs to be completed -->
+
 </Fighter_Heroes>

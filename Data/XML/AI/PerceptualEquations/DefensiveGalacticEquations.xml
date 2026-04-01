@@ -1,0 +1,312 @@
+<?xml version="1.0" ?>
+
+<Equations>
+
+	<Needs_Blockade_Lifted>
+		(Variable_Target.EnemyForce.HasSpaceForce
+		+
+		Variable_Target.EnemyForce.HasGroundForce)
+		*
+		(
+			Function_First_Attack_Allowed.Evaluate
+			+
+			10.0 * Function_Aggressive_Personality.Evaluate
+		)
+		*
+		(
+			30 
+			+
+			(10.0 * Function_GenericPlanetValue.Evaluate)
+		)
+		*
+		(
+			(Function_Need_To_Reconnect_Islands.Evaluate == 0.0) 
+			+
+			Variable_Target.ConnectsLargestIslands
+			+
+			0.1
+		)
+		*
+		(Variable_Target.TimeSinceSpaceConflict > Function_Blockade_Wait_Time.Evaluate)
+	</Needs_Blockade_Lifted>
+
+
+	<Blockade_Wait_Time>
+		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
+		* 40.0
+		+
+		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
+		* 20.0
+		+
+		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
+	</Blockade_Wait_Time>
+
+
+	<DefensiveValue>
+		(1.0 - Variable_Target.EnemyForce.SpaceTotalNBTT) *
+		(Function_GenericPlanetValue.Evaluate + 
+		Variable_Target.ActiveTradeRoutes + 
+		Variable_Target.EnemyForce.NearbyGroundTotal + Variable_Target.EnemyForce.NearbySpaceTotal -
+		Variable_Target.FriendlyForce.GroundTotal - Variable_Target.FriendlyForce.SpaceTotal)
+		+
+		Variable_Target.Hints.Chokepoint
+		+ 
+		Variable_Target.Hints.PriorityTarget
+	</DefensiveValue>
+
+
+	<Defense_Level>
+		Variable_Target.StarbaseLevelUnnormalized
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Golan_One"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Golan_Two"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Golan_Three"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Haven"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_TF_Outpost"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Valor"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Epineio"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Teichos"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Brask"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Iero"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Etymos"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Visvia"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Meridian_I"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Meridian_II"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Meridian_III"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Meridian_IV"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Darknon"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Ronika"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Secondary_Kemplex"}
+
+		+ Variable_Target.HasStructure {Parameter_Type = "Galactic_Turbolaser_Tower_Defenses"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Galactic_Turbolaser_Tower_Defenses_Republic"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Galactic_Turbolaser_Tower_Defenses_CIS"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Ground_Hypervelocity_Gun"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Ground_Ion_Cannon"}
+		+ Variable_Target.HasStructure {Parameter_Type = "Ground_Planetary_Shield"}
+	</Defense_Level>
+
+
+	<Can_Park_Ground_Unit>
+		(Variable_Target.EnemyForce.HasSpaceForce == 0.0) 
+		*
+		(Variable_Target.OpenGroundCompanySlots > 0)
+		*
+		Variable_Target.IsSurfaceAccessible
+	</Can_Park_Ground_Unit>
+
+
+	<Low_Ground_Defense_Score>
+		(1.0 - Variable_Target.FriendlyForce.GroundTotalNBTD)
+		*
+		Function_Can_Park_Ground_Unit.Evaluate
+		-
+		Variable_Target.FriendlyForce.GroundTotal{Parameter_Category = GameObjectCategoryType[InfantryHero | VehicleHero]}
+	</Low_Ground_Defense_Score>
+
+
+	<Low_Space_Defense_Score>
+		(1.0 - Variable_Target.FriendlyForce.SpaceTotalNBTD)
+		*
+		Function_Is_Connected_To_Enemy.Evaluate
+		*
+		Function_Self_Present.Evaluate
+	</Low_Space_Defense_Score>
+
+
+	<Recent_Conversion>
+		(1.0 - (Variable_Target.TimeSinceConversion > 120.0)) * (120.0 - Variable_Target.TimeSinceConversion) / 120.0
+	</Recent_Conversion>
+
+
+	<Ground_Priority_Defense_Score>
+		(
+			Variable_Target.Hints.Chokepoint
+			+
+			Variable_Target.Hints.PriorityTarget
+			+
+			Function_GenericPlanetValue.Evaluate
+			+
+			2.0 * Function_Is_Connected_To_Enemy.Evaluate
+			+
+			2.0 * (1.0 - Variable_Target.ActiveTradeRoutes)
+			+
+			Variable_Target.HasStructure {Parameter_Type = "Ground_Planetary_Shield",
+											Parameter_Type = "Galactic_Turbolaser_Tower_Defenses",
+											Parameter_Type = "Galactic_Turbolaser_Tower_Defenses_Republic",
+											Parameter_Type = "Galactic_Turbolaser_Tower_Defenses_CIS"}
+			+
+			2.0 * Function_Recent_Conversion.Evaluate * Function_Self_Present.Evaluate * Function_Is_Connected_To_Enemy.Evaluate
+			+
+			Function_Recent_Conflict_Ground.Evaluate * Function_Self_Present.Evaluate * Function_Is_Connected_To_Enemy.Evaluate
+			+
+			Function_Recent_Conflict_Space.Evaluate * Function_Self_Present.Evaluate * Function_Is_Connected_To_Enemy.Evaluate
+			+
+			2.0 * Function_Planet_Has_Capital_Building.Evaluate
+		)
+		*
+		Function_Can_Park_Ground_Unit.Evaluate
+	</Ground_Priority_Defense_Score>
+
+	<Ground_Priority_Defense_Score_Hero>
+		(
+			Variable_Target.Hints.Chokepoint
+			+
+			Variable_Target.Hints.PriorityTarget
+			+
+			Function_GenericPlanetValue.Evaluate
+			+
+			Variable_Target.FriendlyForce.GroundTotalNBTD
+			+
+			Variable_Target.FriendlyForce.SpaceTotalNBTD
+			+
+			Variable_Target.HasStructure {Parameter_Type = "Ground_Base_Shield",
+											Parameter_Type = "Ground_Planetary_Shield",
+											Parameter_Type = "Galactic_Turbolaser_Tower_Defenses",
+											Parameter_Type = "Galactic_Turbolaser_Tower_Defenses_Republic",
+											Parameter_Type = "Galactic_Turbolaser_Tower_Defenses_CIS"}
+			+
+			Function_Planet_Has_Capital_Building.Evaluate
+			-
+			10.0 * Variable_Target.FriendlyForce.GroundTotal{Parameter_Category = GameObjectCategoryType[InfantryHero | VehicleHero]}
+		)
+		*
+		Function_Can_Park_Ground_Unit.Evaluate
+	</Ground_Priority_Defense_Score_Hero>
+
+
+	<Space_Priority_Defense_Score>
+		(Variable_Target.Hints.Chokepoint
+		+
+		Variable_Target.Hints.PriorityTarget
+		+
+		2.0 * Function_Is_Connected_To_Enemy.Evaluate
+		+
+		2.0 * (1.0 - Variable_Target.ActiveTradeRoutes)
+		+
+		Function_GenericPlanetValue.Evaluate
+		+
+		Variable_Target.HasStructure {Parameter_Type = "Ground_Ion_Cannon", Parameter_Type = "Ground_Hypervelocity_Gun"}
+		+
+		2.0 * Function_Planet_Has_Capital_Building.Evaluate
+		+
+		(1.0 - Variable_Target.StarbaseLevel)
+		+
+		2.0 * Function_Recent_Conversion.Evaluate * Function_Is_Connected_To_Enemy.Evaluate
+		+
+		Function_Recent_Conflict_Space.Evaluate * Function_Is_Connected_To_Enemy.Evaluate)
+		*
+		Function_Self_Present.Evaluate
+	</Space_Priority_Defense_Score>
+
+	<Space_Priority_Defense_Score_Hero>
+		(Variable_Target.Hints.Chokepoint
+		+
+		Variable_Target.Hints.PriorityTarget
+		+
+		Function_GenericPlanetValue.Evaluate
+		+
+		Variable_Target.FriendlyForce.SpaceTotalNBTD{Parameter_Category = GameObjectCategoryType[Corvette|Frigate|Capital|SuperCapital]}
+		+
+		Variable_Target.HasStructure {Parameter_Type = "Ground_Ion_Cannon", Parameter_Type = "Ground_Hypervelocity_Gun"}
+		+
+		Variable_Target.StarbaseLevel
+		-
+		10.0 * Variable_Target.FriendlyForce.SpaceTotalNBTD{Parameter_Category = GameObjectCategoryType[SpaceHero]})
+		*
+		Function_Self_Present.Evaluate
+	</Space_Priority_Defense_Score_Hero>
+
+
+	<Ground_Staging_Planet>
+		Variable_Target.StarbaseLevelUnnormalized
+		*
+		(1 - Function_Is_Connected_To_Enemy.Evaluate)
+		*
+		Function_Friendly_Space_Unit_Raw_Total.Evaluate
+	</Ground_Staging_Planet>
+
+
+	<Friendly_Space_Unit_Raw_Total>
+		Variable_Target.FriendlyForce.SpaceTotalUnnormalized
+	</Friendly_Space_Unit_Raw_Total>
+
+
+	<Friendly_Global_Space_Unit_Raw_Total>
+		Variable_Self.SpaceTotalUnnormalized
+	</Friendly_Global_Space_Unit_Raw_Total>
+
+
+	<Friendly_Land_Unit_Raw_Total>
+		Variable_Target.FriendlyForce.GroundTotalUnnormalized
+	</Friendly_Land_Unit_Raw_Total>
+
+
+	<Friendly_Global_Land_Unit_Raw_Total>
+		Variable_Self.GroundTotalUnnormalized
+	</Friendly_Global_Land_Unit_Raw_Total>
+
+
+	<Enemy_Global_Space_Unit_Raw_Total>
+		Game.EnemyForce.SpaceTotalUnnormalized
+	</Enemy_Global_Space_Unit_Raw_Total>
+
+
+	<Enemy_Global_Land_Unit_Raw_Total>
+		Game.EnemyForce.GroundTotalUnnormalized
+	</Enemy_Global_Land_Unit_Raw_Total>
+
+
+	<Needs_Defensive_Fleet>
+		(5000 > Function_Friendly_Space_Unit_Raw_Total.Evaluate) 
+		*
+		Function_Is_Connected_To_Enemy.Evaluate
+		*
+		(
+			(Function_GenericPlanetValue.Evaluate > 0.8)
+			+
+			0.5 * Function_Cautious_Personality.Evaluate
+			+
+			2.0 * Function_Isolationist_Personality.Evaluate
+			+
+			Function_Economic_Personality.Evaluate
+			*
+			(
+				Variable_Target.HasStructure {Parameter_Type = "TradeStation", Parameter_Only_Consider_Complete = 1.0}
+				+
+				Variable_Target.HasStructure {Parameter_Type = "Dasta_TradeStation", Parameter_Only_Consider_Complete = 1.0}
+				+
+				Variable_Target.StructureCount {Parameter_Type = "Tax_Agency", Parameter_Only_Consider_Complete = 1.0}
+			)
+			+
+			Function_Planet_Has_Ground_Company.Evaluate
+			+
+			Function_Is_Influence_Unit_Planet.Evaluate
+		)
+		*
+		Function_Is_Connected_To_Me.Evaluate 
+		*
+		(Variable_Target.EnemyForce.HasSpaceForce == 0.0) 
+		*
+		Variable_Target.EnemyForce.NearbySpaceTotal
+		*
+		(0 # 1)
+	</Needs_Defensive_Fleet>
+
+	<Keep_Defensive_Fleet>
+		(5000 > Function_Friendly_Space_Unit_Raw_Total.Evaluate) 
+		*
+		Function_Is_Connected_To_Me.Evaluate
+		*
+		(Variable_Target.EnemyForce.HasSpaceForce == 0.0) 
+	</Keep_Defensive_Fleet>
+
+
+	<Major_Defensive_World>
+		50.0
+		*
+		Function_Planet_Has_Capital_Building.Evaluate
+		*
+		(10000 > Function_Friendly_Space_Unit_Raw_Total.Evaluate) 
+	</Major_Defensive_World>
+
+</Equations>
