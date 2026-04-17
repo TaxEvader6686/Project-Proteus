@@ -22,7 +22,6 @@
 	-----Project Proteus: additional variables -----
 	--ShipyardCapitalOverride gives the faction a space based capital structure, script automatically locks old capital and unlocks new one
 	--CapitalOverride works the same for ground
-	--LegitimacyLock locks specific legitimacy groups, used for Tier1 groups, where the hero is not under HeroList. use "Dummy_Recruit_Group_groupname", supports a single group lock
 
 return {
 		["LAMBDA"] = {
@@ -1068,7 +1067,6 @@ return {
 			FactionOverride = "Mandalorians",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
 			IntroHolo = "Grunger_Loop",
-			LegitimacyLock = "Dummy_Recruit_Group_Grunger"
 		},
 		["THORN"] = {
 			FriendlyName = "Daymon Thorn's Empire",
@@ -1084,7 +1082,6 @@ return {
 			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
-			LegitimacyLock = "Dummy_Recruit_Group_Thorn"
 		},
 		["PRAJI"] = {
 			FriendlyName = "Imperial Kaikielius",

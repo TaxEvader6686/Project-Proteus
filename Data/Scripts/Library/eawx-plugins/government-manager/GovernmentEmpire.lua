@@ -41,7 +41,6 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
 
     self.legitimacy_groups = require("eawx-mod-icw/LegitimacyRewardLibrary")
     self.legitimacy_documentation = {}
-    self.lock_group = nil
 
     self.HighestLegitimacy = "EMPIRE"
     self.LowestLegitimacy = "GREATER_MALDROOD"
@@ -247,7 +246,6 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
     crossplot:subscribe("DARK_EMPIRE_CHEAT_CHOICE_MADE", self.dark_empire_unlock, self)
     crossplot:subscribe("DARK_EMPIRE_CHOICE_MADE", self.dark_empire_choice_made, self)
     crossplot:subscribe("FACTION_DISPLAY_NAME_CHANGE", self.faction_display_name_change, self)
-    crossplot:subscribe("LEGITIMACY_LOCK", self.legitimacy_group_lock, self)
 
     if self.human_is_imperial == true then
         crossplot:subscribe("UPDATE_GOVERNMENT", self.UpdateDisplay, self)
@@ -338,13 +336,6 @@ function GovernmentEmpire:proteus_init(leaders)
          end
      end
     self.ProteusInited = true
-end
-
-function GovernmentEmpire:legitimacy_group_lock(group)
-    --Logger:trace("entering GovernmentEmpire:legitimacy_group_lock")
-    if group ~= nil then
-        self.lock_group = group
-    end
 end
 
 function GovernmentEmpire:initialize_legitimacy()
@@ -458,13 +449,7 @@ function GovernmentEmpire:initialize_legitimacy()
                     end
                 end
             end
-            if self.lock_group ~= nil then
-                if entry.unlocks[1] == self.lock_group then
-                    table.insert(groups_to_remove, 1, i)
-                    doc_entry.state = " / [ " .. GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME") .. " ]"
-                end
-            end
-            if uselocale then
+           if uselocale then
                 local first = true
                 local text = ""
                 for planet, bool in pairs(locale) do

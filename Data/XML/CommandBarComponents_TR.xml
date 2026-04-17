@@ -4735,15 +4735,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_GRUNGER.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_GRUNGER.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_PRAJI.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_PRAJI.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_60</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_PRAJI</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -4767,15 +4767,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_PRAJI.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_PRAJI.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_GRUNGER.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_GRUNGER.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_61</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_PRAJI</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -4787,6 +4787,38 @@
 		<Toggle>False</Toggle>
 		<Tab>True</Tab>
 		<Group>faction_61</Group>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="faction_62">
+		<!-- Faction Select Button 62 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_62</Group>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_THORN</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_62">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_62</Group>
 	</CommandBarComponent>
 <!-- Proteus Selection Menu End -->
 
