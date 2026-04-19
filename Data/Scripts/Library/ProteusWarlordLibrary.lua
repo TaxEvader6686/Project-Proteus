@@ -747,15 +747,19 @@ return {
 			LeaderTable = {["LUMIYA_TEAM"] = {"LUMIYA"}},
 			LeaderEndingNames = {"Dark Lady Lumiya"},
 			HeroList = {{"Lumiya_Team", "Bethrogg_Behemoth", "Valek_Revenant", "Carnor_Jax_Proteus_Team",}, [10] = {"Lumiya_Team", "Bethrogg_Behemoth", "Valek_Revenant", "Namman_Team",}},
-			UnlockList = {{"VT49_Decimator_Group", "Imperial_CR90", "Raider_II_Corvette", "Lancer_Frigate", "Imperial_Nebulon_B", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-			"Immobilizer_418_Refit", "Gladiator_II", "Proteus_Cargo_Ship", "Imperial_II_Frigate", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
-			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer",
-			"Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Impellor_Carrier", "Shadow_Vengeance_Star_Dreadnought",
-			"Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company", "PDF_Force_Cultist_Company",
-			"Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
-			"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
-			"Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
-			"Benjo_Alpha_Location_Set", "Kile_Hannad_Location_Set",
+			UnlockList = {{
+				-- Space
+				"VT49_Decimator_Group", "Imperial_CR90", "Raider_II_Corvette", "Lancer_Frigate", "Imperial_Nebulon_B", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+				"Immobilizer_418_Refit", "Gladiator_II", "Proteus_Cargo_Ship", "Imperial_II_Frigate", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer",
+				"Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Impellor_Carrier", "Shadow_Vengeance_Star_Dreadnought",
+				-- Fighter Hero
+				"Benjo_Alpha_Location_Set", "Kile_Hannad_Location_Set",
+				-- Ground
+				"Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company", "PDF_Force_Cultist_Company",
+				"Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
+				"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
+				"Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
 			},
 			[11] = {
 				-- Space
@@ -1110,14 +1114,16 @@ return {
 			LeaderEndingNames = {"Emperor Thorn"},
 			HeroList = {"Thorn_Team"},
 			UnlockList = {
-		    "Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-		    "Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
-			"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
-			"Impellor_Carrier", "Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought", "Executor_Star_Dreadnought",
-			"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Imperial_74Z_Bike_Company",
-			"PX10_Company", "AT_ST_Company", "PX7_Company",
-			"AT_AA_Walker_Company", "MZ8_Tank_Company", "Imperial_TNT_Company", "SPMAG_Walker_Company", "Talon_Cloud_Car_Company", "Imperial_Dropship_Transport_Company", 
-			"Luxury_Barge_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company", "Heavy_Recovery_Vehicle_Company",
+				-- Space
+			    "Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+			    "Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
+				"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
+				"Impellor_Carrier", "Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought", "Executor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Imperial_74Z_Bike_Company",
+				"PX10_Company", "AT_ST_Company", "PX7_Company",
+				"AT_AA_Walker_Company", "MZ8_Tank_Company", "Imperial_TNT_Company", "SPMAG_Walker_Company", "Talon_Cloud_Car_Company", "Imperial_Dropship_Transport_Company", 
+				"Luxury_Barge_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company", "Heavy_Recovery_Vehicle_Company",
 			},
 			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
