@@ -3035,7 +3035,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Required_Special_Structures>Imperial_Proteus_Office</Required_Special_Structures>
 
@@ -3059,12 +3059,12 @@
 
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 
-		<Build_Limit_Current_Per_Player> 1 </Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player> -1 </Build_Limit_Current_Per_Player>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Biscuit_Baron_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_BISCUIT_BARON</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0.2</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
 				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
