@@ -103,7 +103,7 @@
 		<Variant_Of_Existing_Type>Template_TradeStation</Variant_Of_Existing_Type>
 
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TRADESTATION
+		TEXT_TOOLTIP_DASTATRADESTATION
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_XQ5_HULL
 		TEXT_TOOLTIP_XQ5_SHIELD 
@@ -111,6 +111,7 @@
 		TEXT_TOOLTIP_XQ5_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_TRADESTATION_SQUADRON
+		TEXT_TOOLTIP_DASTATRADESTATION_GARRISON
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_INCOME_TRADE_STATION
 		TEXT_TOOLTIP_BONUS_FIGHTER_POOL
@@ -124,6 +125,9 @@
         <Build_Cost_Credits>2500</Build_Cost_Credits>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
+		
+<Starting_Spawned_Units_Tech_0>Marauder_Picket_Cruiser, 1</Starting_Spawned_Units_Tech_0>
+		
 	</SpecialStructure>
 
 <!-- needs to be completed -->
