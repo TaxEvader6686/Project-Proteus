@@ -2850,8 +2850,8 @@
 
 		<Is_Dummy>Yes</Is_Dummy>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>10000</Build_Cost_Credits>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Build_Limit_Current_Per_Player> 1 </Build_Limit_Current_Per_Player>
 		<Size_Value>50</Size_Value>
@@ -2861,8 +2861,8 @@
 		<Armor_Type> ArmourS_Capital </Armor_Type>
 		<Tactical_Health>7000</Tactical_Health>
 		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
-		<Shield_Points>10000</Shield_Points>
-		<Shield_Refresh_Rate>170</Shield_Refresh_Rate>
+		<Shield_Points>7000</Shield_Points>
+		<Shield_Refresh_Rate>70</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Tech_Level>0</Tech_Level>
@@ -2971,8 +2971,8 @@
 		<Starting_Spawned_Units_Tech_0>Skirmish_Procursator_Star_Destroyer, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Skirmish_Procursator_Star_Destroyer, 0</Reserve_Spawned_Units_Tech_0>
 		
-		<Starting_Spawned_Units_Tech_0>Skirmish_Victory_II_Star_Destroyer, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Skirmish_Victory_II_Star_Destroyer, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Skirmish_Tector_Star_Destroyer, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Skirmish_Tector_Star_Destroyer, 0</Reserve_Spawned_Units_Tech_0>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
