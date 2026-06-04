@@ -1250,6 +1250,14 @@ Z_TEXT_TOOLTIP_SCIMITAR_RESEARCH,Use your powers of persuasion to coax the schem
 Z_TEXT_UNIT_AF2_RESEARCH,Reverse-engineer the Assault Frigate-II
 TEXT_TOOLTIP_DASTATRADESTATION_GARRISON,Marauder Picket Cruiser: 1/0
 TEXT_TOOLTIP_DASTATRADESTATION,Orbital trading post and security platform for the widespread trade network of the D'Astan Family. 
+TEXT_TOOLTIP_SUPERCRUISER,A support Acclamator variant with extensive transport equipment and sensor and ECM suites.
+TEXT_TOOLTIP_SUPERCRUISER_HULL,Hull: 2100 (Frigate)
+TEXT_TOOLTIP_SUPERCRUISER_MOVE,Speed: 4.9 | Accel: 0.2 | Turn: 0.45
+TEXT_TOOLTIP_SUPERCRUISER_SHIELD,Shields: 2000 / [20/R] (Frigate)
+TEXT_TOOLTIP_SUPERCRUISER_SQUADRON,Fighters: 3 / 6 | Bombers: 2 / 4
+TEXT_TOOLTIP_SUPERCRUISER_WEAP1,2x Medium Turbolasers: 2 / 0.83s / 6.3km
+TEXT_TOOLTIP_SUPERCRUISER_WEAP2,2x Concussion Missiles: 2 / 5.0s / 4.1km
+TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
 Z_TEXT_UNIT_CORONA_RESEARCH,Reverse-engineer the Corona Frigate
 Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
