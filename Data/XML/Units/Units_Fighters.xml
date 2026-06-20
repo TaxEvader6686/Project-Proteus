@@ -18119,12 +18119,12 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="Elite_TIE_Raptor_Squadron_Double_Container">
 		<Text_ID>TEXT_ELITE_TIE_RAPTOR_SQUADRON2</Text_ID>
@@ -18282,13 +18282,13 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Squadron_Units>Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor</Squadron_Units>
+		<Squadron_Units>Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor, Elite_TIE_Raptor</Squadron_Units>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="Elite_TIE_Raptor_Squadron_Half_Container">
 		<Text_ID>TEXT_ELITE_TIE_RAPTOR_SQUADRON_HALF</Text_ID>
@@ -19224,7 +19224,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Land_Bomber_Type>TIE_Terror_Bombing_Run</Land_Bomber_Type>
 		<Build_Cost_Credits>30</Build_Cost_Credits>
@@ -19237,7 +19237,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_Terror_Squadron">
 
@@ -19323,13 +19323,13 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>Yes</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Terror_Squadron_Container">
 		<Text_ID>TEXT_TIE_TERROR_SQUADRON</Text_ID>
@@ -19503,13 +19503,13 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>Yes</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Terror_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_TERROR_SQUADRON2</Text_ID>
@@ -19671,14 +19671,14 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>Yes</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Squadron_Units>TIE_Terror, TIE_Terror, TIE_Terror, TIE_Terror, TIE_Terror, TIE_Terror</Squadron_Units>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Terror_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_TERROR_SQUADRON_HALF</Text_ID>
@@ -19904,7 +19904,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Build_Cost_Credits>100</Build_Cost_Credits>
@@ -19918,7 +19918,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_Hunter_Squadron">
 
@@ -20004,12 +20004,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Hunter_Squadron_Container">
 		<Text_ID>TEXT_UNIT_TIE_HUNTER</Text_ID>
@@ -20183,12 +20183,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Hunter_Squadron_Double_Container">
 		<Text_ID>TEXT_UNIT_TIE_HUNTER2</Text_ID>
@@ -20350,12 +20350,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Hunter_Squadron_Half_Container">
 		<Text_ID>TEXT_UNIT_TIE_HUNTER_HALF</Text_ID>
@@ -20580,7 +20580,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -20597,7 +20597,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_Punisher_Squadron">
 
@@ -20687,12 +20687,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Punisher_Squadron_Container">
 		<Text_ID>TEXT_UNIT_TIE_PUNISHER</Text_ID>
@@ -20874,12 +20874,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Punisher_Squadron_Double_Container">
 		<Text_ID>TEXT_UNIT_TIE_PUNISHER2</Text_ID>
@@ -21046,12 +21046,12 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Punisher_Squadron_Half_Container">
 		<Text_ID>TEXT_UNIT_TIE_PUNISHER_HALF</Text_ID>

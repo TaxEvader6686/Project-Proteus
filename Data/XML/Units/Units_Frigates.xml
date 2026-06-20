@@ -7848,7 +7848,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
-		<SpaceUnit Name="Super_Transport_XI_Missile_Pirate">
+	<SpaceUnit Name="Super_Transport_XI_Missile_Pirate">
 		<Variant_Of_Existing_Type>Template_Super_Transport_XI_Missile</Variant_Of_Existing_Type>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
@@ -7864,7 +7864,7 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 	</SpaceUnit>
 
-		<SpaceUnit Name="Refit_Venator_Star_Destroyer_Proteus">
+	<SpaceUnit Name="Refit_Venator_Star_Destroyer_Proteus">
 		<Variant_Of_Existing_Type>Template_Refit_Venator_Star_Destroyer</Variant_Of_Existing_Type>
 
 		<Affiliation>Imperial_Proteus</Affiliation>

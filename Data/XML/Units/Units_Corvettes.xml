@@ -5935,7 +5935,7 @@
 		<AI_Combat_Power>290</AI_Combat_Power>
 		<Damage>40</Damage>
 
-		<Affiliation>Pentastar</Affiliation>
+		<Affiliation>Pentastar, Imperial_Proteus</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>5</Override_Bounty_SP>
 		<Maintenance_Cost>7</Maintenance_Cost>
@@ -6099,8 +6099,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>RHD_Retreat_Started_Space</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
-	   </Unit_Abilities_Data>
-	   
+	   	</Unit_Abilities_Data>  
 	   
 		<Abilities SubObjectList="Yes">
 
