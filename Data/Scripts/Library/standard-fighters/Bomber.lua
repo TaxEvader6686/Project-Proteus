@@ -88,6 +88,7 @@ return {
 					{"GRUSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			THORN = {"TIE_BOMBER_SQUADRON", false},
 			X1 = {"TIE_BOMBER_SQUADRON", false},
+			PRAJI = {"SHIELDED_TIE_BOMBER_SQUADRON", false},
 			BALMORRA = {"Z95_BOMBER_SQUADRON", false},
 		}
 		
