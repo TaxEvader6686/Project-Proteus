@@ -17,5 +17,11 @@ return {
         ["TIE_TERROR_SQUADRON"] = {
             Min_Year = 1, Max_Year = 20, Research = nil
         },
+        ["SKIPRAY_BOMBER_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
+        ["TIE_PUNISHER_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
     },
 }
