@@ -26,5 +26,8 @@ return {
         ["TIE_PHANTOM_SQUADRON"] = {
             Min_Year = 1, Max_Year = 20, Research = nil
         },
+        ["ROYAL_GUARD_INTERCEPTOR_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
     },
 }
