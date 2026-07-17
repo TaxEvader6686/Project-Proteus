@@ -23,8 +23,5 @@ return {
         ["MISSILE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"] = {
             Min_Year = 1, Max_Year = 20, Research = nil
         },
-        ["MISSILE_TIE_INTERCEPTOR_SQUADRON"] = {
-            Min_Year = 1, Max_Year = 20, Research = nil
-        },
     },
 }
