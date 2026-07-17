@@ -19,6 +19,7 @@ return {
         "Victory_II_Carrier",
         "Victory_I_Fleet_Star_Destroyer",
         "Vector_Star_Destroyer",
+		"Victory_I_Star_Destroyer_Patrol",
     }, 
     ["DUMMY_RANDOM_UNIT_RENDILI_DHC"] = {
         "PDF_DHC",
