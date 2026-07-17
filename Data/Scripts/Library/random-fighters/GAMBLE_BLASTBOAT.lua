@@ -9,4 +9,18 @@ return {
         --["OPTION3"] = {Min_Year = X, Max_Year = X, Research = "FighterResearch"},
         --...
     --},
+     ["IMPERIAL_LIANNA"] = {
+        ["EARLY_SKIPRAY_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
+        ["SKIPRAY_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
+        ["ADVANCED_SKIPRAY_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
+        ["SKIPRAY_INTERCEPTOR_SQUADRON"] = {
+            Min_Year = 1, Max_Year = 20, Research = nil
+        },
+     }   
 }
