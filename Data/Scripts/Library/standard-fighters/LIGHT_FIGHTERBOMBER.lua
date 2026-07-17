@@ -43,7 +43,7 @@ return {
 			CATO_NEIMOIDIA = {"TIE_GT_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"TIE_GT_TORPS_SQUADRON", false},
 			DASTA = {"Z95ML_HEADHUNTER_SQUADRON", false,
-					{"DastaFightersImperial", "TIE_GT_TORPS_SQUADRON", false},
+					{"DastaFightersImperial", "TIE_GT_SQUADRON", false},
 					{"DastaFightersRebel", "Z95ML_HEADHUNTER_SQUADRON", false}},
 			ELROOD = {"CLONE_Z95_HEADHUNTER_SQUADRON", false},
 			GAROS = {"Z95ML_HEADHUNTER_SQUADRON", false},
