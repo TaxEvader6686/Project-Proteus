@@ -50,8 +50,8 @@ return {
 			CATO_NEIMOIDIA = {"BELBULLAB24_SQUADRON", false},
 			CIUTRIC_HEGEMONY = {"TIE_BOMBER_SQUADRON", false},
 			DASTA = {"2_WARPOD_SQUADRON", false,
-					{"DastaFightersImperial", "", false},
-					{"DastaFightersRebel", "", false}},
+					{"DastaFightersImperial", "SCIMITAR_SQUADRON", false},
+					{"DastaFightersRebel", "B_WING_SQUADRON", false}},
 			ELROOD = {"TIE_BOMBER_SQUADRON", false,
 					{"ELRSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			GAROS = {"TIE_GT_BOMBER_SQUADRON", false},
