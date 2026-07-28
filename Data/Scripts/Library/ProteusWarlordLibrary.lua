@@ -1091,11 +1091,11 @@ return {
 			UnlockList = {
 				-- Space 
 				"Beta_ETR_3_Group", "IPV1", "Lancer_Frigate", "Marauder_Missile_Cruiser", "Class_C_Frigate", "CC7700_E", 
-				"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
+				"Imperial_DHC", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Captor", "Procursator_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Assault", "Triumph_Star_Destroyer", "Invincible_Cruiser", "Maelstrom_Battlecruiser",  
 				"Bulwark_III", "Mandator_II_Dreadnought",
 				-- Ground
-				"PDF_Tactical_Unit_Company", "Security_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
+				"PDF_Tactical_Unit_Company", "Imperial_Dwarf_Spider_Droid_Company", "Overracer_Speeder_Bike_Company",
 				"AT_ST_Company", "Scorpenek_Sentry_Company", "AAC_1_Company", 
 				"Freerunner_Assault_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Missile_Walker_Company",
 				"Tracked_Mobile_Base_Company", "Imperial_AT_TE_Walker_Company",
@@ -1195,13 +1195,13 @@ return {
 			HeroList = {"Comeg_Ostrander"},
 			UnlockList = {
 				-- Space 
-				"Gozanti_Cruiser_Group", "Customs_Corvette", "Tartan_Patrol_Cruiser", "Carrack_Cruiser",
+				"Gozanti_Cruiser_Group", "Customs_Corvette", "Tartan_Patrol_Cruiser", "Carrack_Cruiser", "CC7700", "Pelta_Support",
 				"Triumph_Star_Destroyer", "Invincible_Cruiser", "Assertor_Star_Dreadnought",
 				-- Ground
-				"Imperial_Army_Guard_Company", "Security_Trooper_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"1L_Tank_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", 
+				"Imperial_Army_Guard_Company", "Army_Special_Missions_Company", "Imperial_Fleet_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"AT_PT_Company", "ULAV_Early_Company", "Imperial_Gaba18_Company", 
 				"008_Speeder_Company", "Imperial_VAAT_Company", "Imperial_Missile_Artillery_Company", "AV_7_Company", "Imperial_UT_AA_Company", 
-				"Teklos_Company", "Aratech_Battle_Platform_Company",
+				"Teklos_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
 				"Dummy_RepublicSD_Rendili", "Dummy_Random_Unit_Rendili_VSD", "Dummy_Random_Unit_Rendili_DHC", "Dummy_Random_Unit_Rendili_NSBC", "Dummy_Random_Unit_Rendili_GSD",
 			},
@@ -1308,7 +1308,7 @@ return {
 			Planets = {"CORUSCANT"},
 			LeaderTable = {"TAXEVADER_SYNTAX_ERROR", "TAXEVADER_DREAM_OF_A_QUIET_LIFE"},
 			LeaderEndingNames = {"The Ever Brilliant TaxEvader"},
-			HeroList = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_Of_A_Quiet_Life", "Destruction1214","Rook_Frostfire", "Supernova_Vibes", "Eleian_BlackHoleSun"}, --(???), Nova, Michael, Coyote
+			HeroList = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_Of_A_Quiet_Life", "Destruction1214","Rook_Frostfire", "Supernova_Vibes", "Eleian_BlackHoleSun"}, --(???), Michael, Coyote
 			-- UnlockList = {
 			-- 	-- Space
 
