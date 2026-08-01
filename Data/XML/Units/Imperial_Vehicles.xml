@@ -745,156 +745,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
-
-	<GroundVehicle Name="AT_KT_Walker">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_UNIT_AT_KT_WALKER</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_ATKT
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ATKT_HEALTH
-		TEXT_TOOLTIP_ATKT_MOVE
-		TEXT_TOOLTIP_ATKT_WEAP1
-		TEXT_TOOLTIP_ATKT_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_CRUSH
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_ATKT.tga</Icon_Name>
-
-		<Land_Model_Name>EV_AT-KT.alo</Land_Model_Name>
-
-		<Max_Speed>1.05</Max_Speed>
-		<OverrideAcceleration>1.05</OverrideAcceleration>
-		<OverrideDeceleration>1.05</OverrideDeceleration>
-		
-		<Tactical_Health>155</Tactical_Health>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-
-		<HardPoints>
-			HP_ATST_Lasers,
-			HP_ATKT_Flechette,
-			HP_ATKT_Side
-		</HardPoints>
-
-		<Death_Clone>Damage_Normal, AT_KT_Walker_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Normal, AT_KT_Walker_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Normal, AT_KT_Walker_Death_Clone_02</Death_Clone>
-
-		<Vehicle_Thief_Inside_Clone>AT_KT_Walker_Captured</Vehicle_Thief_Inside_Clone>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-                <Type>STUN</Type>
-                <Recharge_Seconds>90.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> ATKT_Infantry_Stun </GUI_Activated_Ability_Name>
-                <Effective_Radius> 100.0 </Effective_Radius>
-                <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Attack_AT_ST </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-			<Stun_Ability Name="ATKT_Infantry_Stun">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
-				<Activation_Min_Range>0.0</Activation_Min_Range>
-				<Activation_Max_Range>75.0</Activation_Max_Range>
-				<Stun_Time_In_Secs>5.0</Stun_Time_In_Secs>
-				<Stun_Range>100.0</Stun_Range>
-				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
-				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
-                <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect> 
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>Infantry, InfantryHero</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<SFXEvent_Activate>Unit_Ability_Stun</SFXEvent_Activate>
-				<Owner_Particle_Effect>Stun_Ability_Particles</Owner_Particle_Effect>
-				<Owner_Particle_Bone_Name />
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count />
-			</Stun_Ability>
-		</Abilities>
-	</GroundVehicle>
-
-	<Death_Clone Name="AT_KT_Walker_Death_Clone_00">
-		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
-		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
-		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
-		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
-	<Death_Clone Name="AT_KT_Walker_Death_Clone_01">
-		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Custom_Hard_YExtent_Offset> -15.0 </Custom_Hard_YExtent_Offset>
-		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
-		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
-		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
-	<Death_Clone Name="AT_KT_Walker_Death_Clone_02">
-		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
-		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
-		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
-	<GroundVehicle Name="AT_KT_Walker_Captured">
-		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
-		
-		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-                <Type>STUN</Type>
-                <Recharge_Seconds>90.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> ATKT_Infantry_Stun </GUI_Activated_Ability_Name>
-                <Effective_Radius> 100.0 </Effective_Radius>
-                <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Attack_AT_ST </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-
-			<Unit_Ability>
-				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</GroundVehicle>
-
-    <GroundVehicle Name="1L_Tank">
+  
+  <GroundVehicle Name="1L_Tank">
 
 		<Text_ID>TEXT_UNIT_1L_TANK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
@@ -1175,78 +1027,6 @@
    		<!-- Should be pulling normal ULAV ability -->
   
 		<Vehicle_Thief_Inside_Clone>Imperial_ULAV_Captured</Vehicle_Thief_Inside_Clone>
-	</GroundVehicle>
-
-	<GroundVehicle Name="Shadow_ULAV">
-		<Variant_Of_Existing_Type>ULAV_Early</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_UNIT_SHADOW_ULAV</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SHADOW_ULAV
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ULAV_HEALTH
-		TEXT_TOOLTIP_ULAV_SHIELD
-		TEXT_TOOLTIP_ULAV_MOVE
-		TEXT_TOOLTIP_ULAV_WEAP1
-		TEXT_TOOLTIP_ULAV_WEAP2
-		TEXT_TOOLTIP_ULAV_WEAP3
-		</Encyclopedia_Text>
-
-		<Land_Model_Name>shadow_ulav.alo</Land_Model_Name>
-
-		<Icon_Name>i_button_shadow_ulav.tga</Icon_Name>
-
-		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
-		<Shield_Points>40</Shield_Points>
-		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
-
-		<Max_Speed>4.0</Max_Speed>
-		<OverrideAcceleration> .1333333333 </OverrideAcceleration>
-		<OverrideDeceleration> .8 </OverrideDeceleration>
-
-		<AI_Combat_Power>44</AI_Combat_Power>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-		
-		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, DAMAGE_TRACKING</LandBehavior>
-
-		<HardPoints>
-				HP_ULAV_Lasers,
-				HP_ULAV_Turret,
-				HP_ULAV_Missile
-		</HardPoints>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.0</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>STEALTH</Type>
-				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
-				<Recharge_Seconds>65.0</Recharge_Seconds>
-				<Expiration_Seconds>10.0</Expiration_Seconds>
-				<Active_By_Default>Yes</Active_By_Default>
-				<GUI_Activated_Ability_Name>Shadow_ULAV_Stealth</GUI_Activated_Ability_Name> 
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-			<Stealth_Ability Name="Shadow_ULAV_Stealth">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- <Initially_Enabled>Yes</Initially_Enabled> -->
-				<Stealth_Color>255, 255, 255, 64</Stealth_Color>
-				<Stealth_Transition_Time>.3</Stealth_Transition_Time>
-			</Stealth_Ability>
-		</Abilities>
 	</GroundVehicle>
 
 	<GroundVehicle Name="Imperial_ULAV_Captured">
@@ -2791,7 +2571,7 @@
 
 	<!-- Heavy Vehicle Factory -->
 
-    <GroundVehicle Name="Imperial_Light_Mobile_Artillery">
+  <GroundVehicle Name="Imperial_Light_Mobile_Artillery">
 		<Text_ID>TEXT_UNIT_IMPERIAL_ARTILLERY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -3921,7 +3701,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-    <GroundVehicle Name="Imperial_Heavy_Mobile_Artillery">
+  <GroundVehicle Name="Imperial_Heavy_Mobile_Artillery">
 		<Text_ID>TEXT_UNIT_IMPERIAL_HEAVY_ARTILLERY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -4115,7 +3895,7 @@
 
 	</GroundVehicle>
 
-    <GroundVehicle Name="Imperial_Missile_Artillery">
+  <GroundVehicle Name="Imperial_Missile_Artillery">
 		<Text_ID>TEXT_UNIT_IMPERIAL_MISSILE_ARTILLERY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_ARTILLERY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -4307,7 +4087,7 @@
 
 	</GroundVehicle>
 
-    <GroundVehicle Name="Imperial_APC">
+  <GroundVehicle Name="Imperial_APC">
 
 		<Text_ID>TEXT_UNIT_ROGUE_SQUADRON_APC</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TRANSPORT</Encyclopedia_Unit_Class>
@@ -4536,7 +4316,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-    <GroundVehicle Name="1M_Tank">
+  <GroundVehicle Name="1M_Tank">
 
 		<Text_ID>TEXT_UNIT_1M_TANK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
@@ -6120,7 +5900,7 @@
 		<Presence_Range>1000.0</Presence_Range>
 	</Death_Clone>
 
-    <GroundVehicle Name="1H_Tank">
+  <GroundVehicle Name="1H_Tank">
 		<Text_ID>TEXT_UNIT_1H_TANK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -6360,7 +6140,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-    <GroundVehicle Name="1H_Tank_Green">
+  <GroundVehicle Name="1H_Tank_Green">
 		<Variant_Of_Existing_Type>1H_Tank</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_1h_tank_green.tga</Icon_Name>
 		<Land_Model_Name>EV_1HTank_Green.ALO</Land_Model_Name>
@@ -8807,117 +8587,6 @@
 		<Presence_Range>1000.0</Presence_Range>
 	</Death_Clone>
 
-	<GroundVehicle Name="Shadow_Imperial_AT_AT_Walker">
-		<Variant_Of_Existing_Type>Template_AT_AT_Walker</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_SHADOW_AT_AT_WALKER</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SHADOW_ATAT
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_ATAT_HEALTH
-		TEXT_TOOLTIP_ATAT_MOVE
-		TEXT_TOOLTIP_ATAT_WEAP1
-		TEXT_TOOLTIP_ATAT_WEAP2
-		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
-		TEXT_TOOLTIP_SHADOW_ATAT_DEPLOY
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
-		</Encyclopedia_Text>
-		<Land_Model_Name>shadow_EV_AT-AT.ALO</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EV_AT-AT.ALO</Land_Model_Anim_Override_Name>
-		<Icon_Name>i_button_shadow_atat.tga</Icon_Name>
-		<Death_Clone>Damage_Cable_Attack, Imperial_AT_AT_Walker_Cable_Attack_Death_Clone</Death_Clone>
-		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Normal, Imperial_AT_AT_Walker_Death_Clone_02</Death_Clone>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>DEPLOY_TROOPERS</Type>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Spawned_Object_Type>Shadow_Stormtrooper_Medium_Squad</Spawned_Object_Type>
-				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects>
-				<Owner_Attachment_Bone>B_Trooper_00, B_Trooper_01, B_Trooper_02 </Owner_Attachment_Bone>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_AT_AT</SFXEvent_GUI_Unit_Ability_Activated>
-				<Alternate_Name_Text>TEXT_ABILITY_DEPLOY_SHADOWTROOP</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_SHADOWTROOP_DESCRIPTION</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</GroundVehicle>
-
-	<Death_Clone Name="Shadow_Imperial_AT_AT_Walker_Cable_Attack_Death_Clone">
-		<Variant_Of_Existing_Type>Shadow_Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Specific_Death_Anim_Type>CA_DIE</Specific_Death_Anim_Type>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
-		<Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
-		<Death_Persistence_Duration> 15 </Death_Persistence_Duration>
-		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
-	<Death_Clone Name="Shadow_Imperial_AT_AT_Walker_Death_Clone_00">
-		<Variant_Of_Existing_Type>Shadow_Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Specific_Death_Anim_Type/>
-		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Glory_Cinematics> CAM_ATAT_Death_01.tec, CAM_ATAT_Death_02.tec, CAM_ATAT_Death_03.tec </Glory_Cinematics>
-		<Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
-		<Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
-		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
-		<Death_Persistence_Duration> 15 </Death_Persistence_Duration>
-		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
-	<Death_Clone Name="Shadow_Imperial_AT_AT_Walker_Death_Clone_01">
-		<Variant_Of_Existing_Type>Shadow_Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Specific_Death_Anim_Type/>
-		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Glory_Cinematics> CAM_ATAT_Death_01.tec, CAM_ATAT_Death_02.tec, CAM_ATAT_Death_03.tec </Glory_Cinematics>
-		<Custom_Hard_YExtent_Offset> -24.0 </Custom_Hard_YExtent_Offset>
-		<Custom_Hard_XExtent_Offset> 8.0 </Custom_Hard_XExtent_Offset>
-		<Custom_Hard_XExtent> 33.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 31.0 </Custom_Hard_YExtent>
-		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
-		<Death_Persistence_Duration> 15 </Death_Persistence_Duration>
-		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
-	<Death_Clone Name="Shadow_Imperial_AT_AT_Walker_Death_Clone_02">
-		<Variant_Of_Existing_Type>Shadow_Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
-		<CategoryMask>None</CategoryMask>
-		<Specific_Death_Anim_Type/>
-		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
-		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-		<Glory_Cinematics> CAM_ATAT_Death_01.tec, CAM_ATAT_Death_02.tec, CAM_ATAT_Death_03.tec </Glory_Cinematics>
-		<Custom_Hard_YExtent_Offset> 21.0 </Custom_Hard_YExtent_Offset>
-		<Custom_Hard_XExtent_Offset> 8.0 </Custom_Hard_XExtent_Offset>
-		<Custom_Hard_XExtent> 33.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 36.0 </Custom_Hard_YExtent>
-		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
-		<Death_Persistence_Duration> 15 </Death_Persistence_Duration>
-		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
-		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
-		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-		<Presence_Range>1000.0</Presence_Range>
-	</Death_Clone>
-
 	<GroundVehicle Name="C10_Siege_Tower">
 		<Text_ID>TEXT_UNIT_C10</Text_ID>
 		<Encyclopedia_Text> 
@@ -9277,7 +8946,7 @@
 		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
 	</GroundVehicle>
 
-    <GroundVehicle Name="Heavy_Recovery_Vehicle">
+  <GroundVehicle Name="Heavy_Recovery_Vehicle">
 
 		<Text_ID>TEXT_UNIT_HRV</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
@@ -10529,58 +10198,6 @@
 
 		<Abilities SubObjectList="Yes">
 			<Sensor_Jamming_Ability Name="Mod_LAAT_Sensor_Jamming">
-				<Activation_Style> User_Input </Activation_Style>
-				<Owner_Particle_Effect>Sensor_Jamming_Effect_AT_AA</Owner_Particle_Effect><!-- 150m -->
-			</Sensor_Jamming_Ability>
-		</Abilities>
-	</GroundVehicle>
-
-	<GroundVehicle Name="Imperial_Shadow_LAAT">
-		<Variant_Of_Existing_Type>LAAT</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_UNIT_LAAT_IMPERIAL</Text_ID>
-		<Land_Model_Name>shadow_low_altitude_assault_transport</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>low_altitude_assault_transport.alo</Land_Model_Anim_Override_Name>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_GUNSHIP</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_LAAT_IMPERIAL
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_TOOLTIP_LAAT_HEALTH
-		TEXT_TOOLTIP_LAAT_MOVE
-		TEXT_TOOLTIP_LAAT_WEAP1
-		TEXT_TOOLTIP_LAAT_WEAP2
-		TEXT_TOOLTIP_LAAT_WEAP3
-		TEXT_TOOLTIP_LAAT_WEAP4
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_AA_ACCURACY
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
-		</Encyclopedia_Text>
-		<Icon_Name>i_button_shadow_laat.tga</Icon_Name>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-
-		<LandBehavior> AMBIENT_SFX, IDLE, GARRISON_HOVER, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, WEAPON,POWERED, UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX, ABILITY_COUNTDOWN, SELECTABLE</LandBehavior>
-
-		<Shield_Armor_Type/>
-		<Shield_Points>0</Shield_Points>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> Imperial_Shadow_LAAT_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION_CHARIOT_LAV_COMBAT</Alternate_Description_Text>
-				<Recharge_Seconds>70.0</Recharge_Seconds> 
-				<Expiration_Seconds>10.0</Expiration_Seconds>
-				<Effective_Radius>150.0</Effective_Radius> 
-           		<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-			<Sensor_Jamming_Ability Name="Imperial_Shadow_LAAT_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
 				<Owner_Particle_Effect>Sensor_Jamming_Effect_AT_AA</Owner_Particle_Effect><!-- 150m -->
 			</Sensor_Jamming_Ability>
