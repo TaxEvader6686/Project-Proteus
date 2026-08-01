@@ -99,6 +99,7 @@ return {
 			VEERS = {"SCIMITAR_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_OPPRESSOR_SQUADRON", false},
 			SECOND_IMPERIUM = {"Z95_BOMBER_SQUADRON", false},
+			LANOX = {"Z95_BOMBER_SQUADRON", false},
 		}
 
 		if simpletypes[owner] then

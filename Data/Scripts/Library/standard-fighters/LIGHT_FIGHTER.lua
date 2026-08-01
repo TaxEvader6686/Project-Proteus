@@ -85,6 +85,7 @@ return {
 			VEERS = {"SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_FIGHTER_SQUADRON", false},
 			SECOND_IMPERIUM = {"TIE_FIGHTER_SQUADRON", false},
+			LANOX = {"TIE_DROID_SQUADRON", false},
 		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then

@@ -1176,4 +1176,24 @@ return {
 			["9ABY"] = true
 		}
 	},
+	["LANOX"] = {
+		
+		["FullLarge"] = {
+			["11ABY"] = true
+		     ,["11.5ABY"] = true
+		}
+		,["FullMedium"] = {
+			["11ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["11ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["11ABY"] = true
+		    ,["11.5ABY"] = true
+		}
+		,["KnownSmall"] = {
+		   ["11ABY"] = true
+		}	
+	},
 }

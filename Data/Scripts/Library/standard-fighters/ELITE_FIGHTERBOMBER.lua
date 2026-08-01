@@ -87,6 +87,7 @@ return {
 			VEERS = {"TIE_AVENGER_TORPS_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_AVENGER_TORPS_SQUADRON", false},
 			SECOND_IMPERIUM = {"TIE_AVENGER_TORPS_SQUADRON", false},
+			LANOX = {"TIE_DEFENDER_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

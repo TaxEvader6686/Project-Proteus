@@ -69,6 +69,7 @@ return {
 	["ALLIED_TION"] ="faction_67",
 	["RENDILI"] ="faction_68",
 	["X1"] ="faction_69",
+	["LANOX"] ="faction_70",
 	["SECRET"] ="faction_75",
 	
 
@@ -145,6 +146,7 @@ return {
 		"ALLIED_TION",
 		"RENDILI",
 		"X1",
+		"LANOX",
 		"SECRET",
 	},
 
