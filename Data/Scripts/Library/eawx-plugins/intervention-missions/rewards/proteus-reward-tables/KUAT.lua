@@ -1,0 +1,27 @@
+{
+            {"Security_Trooper_Company", 5},
+            {"Imperial_Stormtrooper_Company", 5},
+            {"Imperial_Army_Guard_Company", 5},
+            {"1M_Tank_Company", 2},
+            {"Captor", 2},
+            {"Class_C_Frigate", 4},
+            {"Auxilia", 3},
+        },
+        {
+            {"Faux_Stormtrooper_Company", 4},
+            {"ISB_Infiltrator_Company", 4},
+            {"Ubrikkian_Frigate", 3},
+            {"Acclamator_I_Support", 2},
+            {"Swift_Assault_5_Company", 3},
+            {"Victory_II_Carrier", 1},
+            {"Maat_Company", 2},
+        },
+        {
+            {"XR85_Company", 2},
+			{"Crimson_Victory_II_Star_Destroyer", 2},
+            {"Imperial_A6_Juggernaut_Company", 1},
+            {"Nova_Stormtrooper_Company", 5},
+            {"Maelstrom_Battlecruiser", 1},
+            {"Procurator_Battlecruiser", 1},
+        }
+    },
