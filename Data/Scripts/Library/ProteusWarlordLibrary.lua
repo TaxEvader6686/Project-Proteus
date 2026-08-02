@@ -1127,4 +1127,27 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
 		},
+		["STORM_COMMANDOS"] = {
+			FriendlyName = "Storm Commandos",
+			Planets = {"TALUS_TRALUS"},
+			LeaderTable= {"STRANG_TEAM"},
+			LeaderEndingNames = {"Emperor Strang"},
+			HeroList = {"Strang_Team", "Weir_Team", "Irlyn_Team"},
+			UnlockList = {
+				-- Space
+		    	"Delta_JV7_Group", "Imperial_CR90", "Imperial_DP20", "CR92A", "CC7700", "Active_Frigate", "Imperial_Escort_Carrier",
+		    	"Proficient", "Proficient_Tender", "Broadside_Cruiser", "Gladiator_II", "Victory_I_Fleet_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer_Command", "Imperial_I_Star_Destroyer_Assault", 
+				"Altor_Replenishment_Ship", "Communications_Battlecruiser",
+				-- Ground
+				"Storm_Commando_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company",
+				"Imperial_AT_PT_Company", "AT_ST_Company", "Chariot_LAV_Company",
+				"1HB_Tank_Company", "Imperial_APC_Company", "AT_AA_Flak_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company", "Imperial_Dropship_Transport_Company", 
+				"A9_Floating_Fortress_Company", "Teklos_Company"
+			},
+			LastYear = 4,
+			FactionOverride = "Corellia",
+			IntroText = "TEXT_CONQUEST_STORM_COMMANDOS",
+			IntroHolo = "Stormtrooper_Officer_Loop",
+		},
 }

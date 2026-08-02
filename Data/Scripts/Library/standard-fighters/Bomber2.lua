@@ -149,6 +149,8 @@ return {
 				--fighter = ""
 			elseif proteus == "THORN" then
 				fighter = "STARWING_SQUADRON"
+			elseif proteus == "STORM_COMMANDOS" then
+				fighter = "SCIMITAR_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

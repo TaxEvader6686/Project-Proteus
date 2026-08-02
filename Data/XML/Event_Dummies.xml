@@ -837,6 +837,21 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
+	<DummyStructure Name="Warlord_Choice_Storm_Commandos">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_STORM_COMMANDOS</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_Weir_SPOOPY.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
 	<!-- Regime Leader Choices -->
 
 	<DummyStructure Name="Regime_Choice_Header">

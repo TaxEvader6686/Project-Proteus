@@ -152,6 +152,8 @@ return {
 				fighter = "TIE_AVENGER_SQUADRON"
 			elseif proteus == "THORN" then
 				fighter = "TIE_AVENGER_SQUADRON"
+			--elseif proteus == "STORM_COMMANDOS" then
+				--fighter = "TIE_AVENGER_ASSAULT_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

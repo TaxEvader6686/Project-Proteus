@@ -62,6 +62,7 @@ return {
 	["PRAJI"] ="faction_60",
 	["GRUNGER"] ="faction_61",
 	["THORN"] ="faction_62",
+	["STORM_COMMANDOS"] ="faction_63",
 
 	["AllFactions"] = {
 		"REBEL", --New Republic
@@ -129,6 +130,7 @@ return {
 		"PRAJI",
 		"GRUNGER",
 		"THORN",
+		"STORM_COMMANDOS",
 	},
 
 	["Era_XML_Nums"] = {

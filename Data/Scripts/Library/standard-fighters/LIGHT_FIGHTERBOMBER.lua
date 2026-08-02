@@ -114,6 +114,8 @@ return {
 				fighter = "SCYK_HEAVY_FIGHTER_SQUADRON"
 			elseif proteus == "THORN" then
 				fighter = "TIE_GT_SQUADRON"
+			elseif proteus == "STORM_COMMANDOS" then
+				fighter = "MISSILE_TIE_INTERCEPTOR_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

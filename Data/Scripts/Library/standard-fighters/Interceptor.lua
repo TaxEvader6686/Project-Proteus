@@ -186,6 +186,8 @@ return {
 				fighter = "SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "THORN" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
+			elseif proteus == "STORM_COMMANDOS" then
+				fighter = "ION_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end
