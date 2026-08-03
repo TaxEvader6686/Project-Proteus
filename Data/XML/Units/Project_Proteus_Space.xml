@@ -5389,7 +5389,14 @@
 		HP_MProcurator_Turbo11,
 		HP_MProcurator_Turbo12,
 		HP_MProcurator_Turbo13,
-		HP_MProcurator_Turbo14
+		HP_MProcurator_Turbo14,
+		HP_Procurator_Proton01,
+		HP_Procurator_Proton02,
+		HP_Procurator_Proton03,
+		HP_Procurator_Proton04,
+		HP_Procurator_Proton05,
+		HP_Procurator_Proton06
+
 		</HardPoints>
 
 		<Required_Special_Structures>

@@ -40,6 +40,7 @@ return {
 	["X1_EXECUTOR_DUMMY"] = {"X1","X1_Executor"},
 	["ROGRISS_AURORA_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Aurora"},
 	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
+	["KALE_MODERNIZED_DUMMY"] = {"Anton_Kale", "Anton_Kale_Modernized"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
@@ -116,4 +117,5 @@ return {
 	["DUMMY_RECRUIT_GROUP_THORN"] = {nil,{"Thorn_Assertor"}},
 	--Unit upgrades for generics
 	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
+	["PROCURATOR_UPGRADE_DUMMY"] = {"Procurator_Battlecruiser","Modernized_Procurator",["location_check"] = true},
 }

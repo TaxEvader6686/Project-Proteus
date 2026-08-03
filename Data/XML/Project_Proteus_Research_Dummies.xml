@@ -113,6 +113,49 @@
 
 		</Unit_Abilities_Data>
 	</DummyStructure>
+
+	<DummyStructure Name="Procurator_Upgrade_Dummy">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>500</AI_Combat_Power>
+
+		<Text_ID>TEXT_UNIT_PROCURATOR_UPGRADE</Text_ID>
+		<Lua_Script>DelayedSelfDelete</Lua_Script>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Icon_Name>I_BUTTON_PROCURATOR_UPGRADE.TGA</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_UPGRADE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_PROCURATOR_HULL
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD
+		TEXT_TOOLTIP_PROCURATOR_MOVE
+		TEXT_TOOLTIP_PROCURATOR_SQUADRON
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3  
+		TEXT_TOOLTIP_PROCURATOR_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+
+		<Required_Special_Structures>Imperial_Proteus_Shipyard_Level_Four, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Required_Orbiting_Units>Procurator_Battlecruiser</Required_Orbiting_Units>
+
+		<Unit_Abilities_Data SubObjectList="No">
+
+		</Unit_Abilities_Data>
+	</DummyStructure>
 	
 	<DummyStructure Name="TAM_Dummy_Research_Scimitar">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>

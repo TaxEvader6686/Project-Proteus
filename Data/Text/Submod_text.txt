@@ -679,6 +679,7 @@ TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
 TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet Light Cruiser, Rintonne's Flame
 TEXT_TOOLTIP_COMMAND_SITHSPAWN,Modified Belbullab-22, Sithspawn
 TEXT_TOOLTIP_COMMAND_STELLARHALO,Procurator Battlecruiser, Stellar Halo
+TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED,Modernized Procurator Battlecruiser, Stellar Halo
 TEXT_TOOLTIP_COMMAND_SUPERNOVA,Modernized DHC, Act on Vibes
 TEXT_TOOLTIP_COMMAND_SYNTAX_ERROR,Modified Glory Star Destroyer, SynTax Error
 TEXT_TOOLTIP_COMMAND_T11,Super Transport VII Garbage Scowl
@@ -690,7 +691,7 @@ TEXT_TOOLTIP_CONSULAR_REFIT,A common armed configuration for the Consular cruise
 TEXT_TOOLTIP_CONSULAR_REFIT_WEAP1,4x Light Turbolasers: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_CONSULAR_REFIT_WEAP2,1x Assault Concussion Missile: 2 / 10.0s / 7.0km
 TEXT_TOOLTIP_CONSULAR_SHIELD,Shields: 400 / [8/R] (Corvette)
-TEXT_TOOLTIP_CORONA_RESEARCH_KUAT, Research the Corona Frigate. Replaces the Nebulon B and Nebulon B Tender with the Corona Frigate and Tender.
+TEXT_TOOLTIP_CORONA_RESEARCH_KUAT,Research the Corona Frigate. Replaces the Nebulon B and Nebulon B Tender with the Corona Frigate and Tender.
 TEXT_TOOLTIP_CORONA_TENDER,Fleet Tender: 50 / 1.0s / 1.4km
 TEXT_TOOLTIP_CORONA_TENDER_DESC,A support-focused variant of the Corona-class frigate equipped with advanced repair and resupply systems. Trading much of the ships hangar capacity and firepower for fleet tending capabilities, it serves as an effective logistical support vessel during prolonged engagements.
 TEXT_TOOLTIP_CORONA_TENDER_PD,Point-Defense: 1 / 0.35 / 1.4km
@@ -885,8 +886,9 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
-TEXT_TOOLTIP_MODERNIZED_PROCURATOR,TODO
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR,The original Procurator hulls were deliberately undergunned to comply with the Ruusan Reformation rules regarding battlecruisers, but following the outbreak of the Clone Wars, some of these older models saw their armament and combat support systems drastically increased, taking full advantage of their for the time advanced reactors. However, the later and bigger Praetor series would see most of the combat assignments during the Clone Wars and the early Imperial period, leaving the Procurator to languish in reserve fleets and Imperial-aligned private arsenals. In the post-Endor period, a number of these older vessels would be reactivated and further upgraded, though they would never achieve prominence owing to their limited production run and aging hulls. While not as powerful as modern battlecruisers, they can deal with most Star Destroyer-level threats.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_UPGRADE,Upgrade the Procurator to a Post-Ruusan Armament.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1,4x Heavy Quad Turbolasers: 2 / 2.0s / 7.5km
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2,4x Heavy Quad Ion Cannons: 2 / 2.0s / 7.5km
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3,14x Medium Turbolasers: 2 / 1.0s / 6.5km
@@ -1318,7 +1320,7 @@ TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
-TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator
+TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator Battlecruiser
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
 TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT
@@ -1346,6 +1348,7 @@ TEXT_UNIT_PHASE_TWO_RIFLEMAN_GRENADIER,Republic Surplus Trooper Rifleman Grenadi
 TEXT_UNIT_PHASE_TWO_SQUAD,Republic Surplus Trooper Squad
 TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
+TEXT_UNIT_PROCURATOR_UPGRADE,Modernize Procurator
 TEXT_UNIT_PROTEUS_A9_RESEARCH,Acquire A-9 Interceptors.
 TEXT_UNIT_REBORN_DARKJEDI,Reborn Dark Jedi
 TEXT_UNIT_REBORN_DARKJEDI_COMPANY,Reborn Dark Jedi Squad

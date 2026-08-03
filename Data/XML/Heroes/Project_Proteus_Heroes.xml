@@ -968,6 +968,9 @@
 		
 		<Tech_Level>99</Tech_Level>
 
+		<SpaceBehavior>LURE, TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -991,14 +994,172 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>150</Recharge_Seconds>
+				<Expiration_Seconds>8</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_CAUTIOUSNESS_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CAUTIOUSNESS_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name>
+				<Effective_Radius>1</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>120</Recharge_Seconds>
 				<Expiration_Seconds>20</Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
-				<Recharge_Seconds>65</Recharge_Seconds>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Cautiousness_Ability_Particle</Particle_Effect>
+
+				<Mod_Multiplier />
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</UniqueUnit>
+
+		<DummyStructure Name="Kale_Modernized_Dummy">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Text_ID>TEXT_HERO_KALE</Text_ID>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Icon_Name>i_button_kale.tga</Icon_Name>
+
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_PROCURATOR_HULL
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD
+		TEXT_TOOLTIP_PROCURATOR_MOVE
+		TEXT_TOOLTIP_PROCURATOR_SQUADRON
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3  
+		TEXT_TOOLTIP_PROCURATOR_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+
+		<Lua_Script></Lua_Script>
+
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Imperial_Proteus_Shipyard_Level_Four</Required_Special_Structures>
+
+		<Required_Orbiting_Units>Anton_Kale</Required_Orbiting_Units>
+		
+		<Population_Value>52</Population_Value>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+	</DummyStructure>
+
+		<UniqueUnit Name="Anton_Kale_Modernized">
+		<Variant_Of_Existing_Type>Modernized_Procurator</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_KALE</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KALE
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK 
+		TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_PROCURATOR_HULL
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD
+		TEXT_TOOLTIP_PROCURATOR_MOVE
+		TEXT_TOOLTIP_PROCURATOR_SQUADRON
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3  
+		TEXT_TOOLTIP_PROCURATOR_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_kale.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->		
+		<Ranking_In_Category>6</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+
+		<SpaceBehavior>LURE, TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>150</Recharge_Seconds>
+				<Expiration_Seconds>8</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>LURE</Type>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_CAUTIOUSNESS_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_CAUTIOUSNESS_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_Cautiousness.tga</Alternate_Icon_Name>
+				<Effective_Radius>1</Effective_Radius>
+
+				<Target_Types />
+
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Cautiousness_Ability_Particle</Particle_Effect>
+
+				<Mod_Multiplier />
+				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
