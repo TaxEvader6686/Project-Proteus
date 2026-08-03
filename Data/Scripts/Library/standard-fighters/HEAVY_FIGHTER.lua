@@ -102,6 +102,8 @@ return {
 			VEERS = {"TIE_AVENGER_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_X2_SQUADRON", false},
 			SECOND_IMPERIUM = {"TOSCAN_GUNSHIP_SQUADRON", false},
+			LANOX = {"TIE_AGGRESSOR_SQUADRON", false},
+			STORM_COMMANDOS = {"TIE_AVENGER_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then

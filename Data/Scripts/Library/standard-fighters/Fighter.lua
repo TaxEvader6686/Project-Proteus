@@ -127,6 +127,8 @@ return {
 			VEERS = {"HLAF_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_POD_SQUADRON", false},
 			SECOND_IMPERIUM = {"TIE_AGGRESSOR_SQUADRON", false},
+			LANOX = {"NIMBUS_V_WING_SQUADRON", false},
+			STORM_COMMANDOS = {"TIE_HUNTER_SQUADRON", false},
 
 		}
 		

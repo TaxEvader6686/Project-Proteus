@@ -7928,7 +7928,7 @@
 
 		<Abilities SubObjectList="Yes"> <!-- Agent_Tier_Agent_02_Spec -->
 			<Reduce_Production_Price_Ability Name="Agent_Tier_Agent_02_Spec_Reduce_Production_Price">
-				<Applicable_Unit_Types>Raider_I_Corvette, Raider_II_Corvette, Venator_Star_Destroyer, Imperial_I_Star_Destroyer, Executor_Star_Dreadnought</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Raider_I_Corvette, Raider_II_Corvette, Venator_Star_Destroyer, Imperial_I_Star_Destroyer, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, ImperiaL_I_Star_Destroyer_Stealth, Shadow_Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Executor_Star_Dreadnought</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>

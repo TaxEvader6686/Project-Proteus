@@ -2697,7 +2697,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		
 		<Shield_Points>2400</Shield_Points>
-		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>24</Shield_Refresh_Rate>
 		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
 		<Tactical_Health>2310</Tactical_Health>
 		
@@ -2725,12 +2725,12 @@
 		
 		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
 
-		<AI_Combat_Power>925</AI_Combat_Power>
-		<Build_Cost_Credits>1800</Build_Cost_Credits>
+		<AI_Combat_Power>992</AI_Combat_Power>
+		<Build_Cost_Credits>1900</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
 		<Maintenance_Cost>8</Maintenance_Cost>
-		<Population_Value>9</Population_Value>
+		<Population_Value>10</Population_Value>
 		
 		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
 
@@ -2771,7 +2771,6 @@
 		TEXT_TOOLTIP_DREADNAUGHT_PICKET_SQUADRON
 		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1
 		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2
-		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3
 		TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
@@ -2784,7 +2783,7 @@
 		
 		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
 
-		<AI_Combat_Power>700</AI_Combat_Power>
+		<AI_Combat_Power>733</AI_Combat_Power>
 		<Build_Cost_Credits>1400</Build_Cost_Credits>
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
@@ -2825,7 +2824,6 @@
 			HP_Dreadnaught_Picket_Weapon_04,
 			HP_Dreadnaught_Picket_Weapon_05,
 			HP_Dreadnaught_Picket_Weapon_06,
-			HP_Dreadnaught_Picket_Weapon_07,
 			HP_Dreadnaught_Picket_Engines,
 			HP_Dreadnaught_Picket_Fighter_Bay
 		</HardPoints>
@@ -2869,9 +2867,9 @@
 		<Shield_Points>1900</Shield_Points>
 		<Shield_Refresh_Rate>19.0</Shield_Refresh_Rate>
 		<Tactical_Health>2100</Tactical_Health>
-		<Build_Cost_Credits>2200</Build_Cost_Credits>
-		<Population_Value>7</Population_Value>
-		<AI_Combat_Power>613</AI_Combat_Power>
+		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<Population_Value>5</Population_Value>
+		<AI_Combat_Power>535</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
@@ -2951,12 +2949,12 @@
 		<Shield_Points>1900</Shield_Points>
 		<Shield_Refresh_Rate>28.5</Shield_Refresh_Rate>
 		<Tactical_Health>1960</Tactical_Health>
-		<Build_Cost_Credits>2400</Build_Cost_Credits>
-		<AI_Combat_Power>1193</AI_Combat_Power>
+		<Build_Cost_Credits>3300</Build_Cost_Credits>
+		<AI_Combat_Power>1221</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<Population_Value>14</Population_Value>
+		<Population_Value>16</Population_Value>
 
 		<HardPoints>
 			HP_Vindicator_C_01, HP_Vindicator_C_02, HP_Vindicator_C_03, HP_Vindicator_C_04, HP_Vindicator_C_05, HP_Vindicator_C_06, HP_Vindicator_C_07, HP_Vindicator_C_Engines, HP_Interdictor_Fighter_Bay
@@ -4231,9 +4229,10 @@
 		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
 
 		<Shield_Points>3000</Shield_Points>
-		<Population_Value>17</Population_Value>
+		<Shield_Refresh_Rate>37.5</Shield_Refresh_Rate>
+		<Population_Value>18</Population_Value>
 		<Build_Cost_Credits>3400</Build_Cost_Credits>
-		<AI_Combat_Power>1217</AI_Combat_Power>
+		<AI_Combat_Power>1269</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
@@ -4401,13 +4400,13 @@
 
 		<Shield_Points>2600</Shield_Points>
 		<Shield_Refresh_Rate>26</Shield_Refresh_Rate>
-		<Build_Cost_Credits>3800</Build_Cost_Credits>
-		<Population_Value>19</Population_Value>
+		<Build_Cost_Credits>4000</Build_Cost_Credits>
+		<Population_Value>20</Population_Value>
 		<Max_Speed>4.0</Max_Speed>
 		
 		<Space_Model_Name>venator_octuple_refit.alo</Space_Model_Name>
 
-		<AI_Combat_Power>1496</AI_Combat_Power>
+		<AI_Combat_Power>1498</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Damage>35</Damage>
@@ -4490,7 +4489,7 @@
 		<Energy_Capacity>3400</Energy_Capacity>
 		<Energy_Refresh_Rate>3400</Energy_Refresh_Rate>
 
-		<AI_Combat_Power>2168</AI_Combat_Power>
+		<AI_Combat_Power>2275</AI_Combat_Power>
 		<Damage>30</Damage>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -4518,7 +4517,7 @@
 		<Required_Planets/>
 
 		<GUI_Row> 0 </GUI_Row>
-		<Build_Cost_Credits>4400</Build_Cost_Credits>
+		<Build_Cost_Credits>4500</Build_Cost_Credits>
 		<Build_Time_Seconds>56</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Required_Special_Structures/>
@@ -4528,7 +4527,7 @@
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>1</Piracy_Value_Credits>
 		<Score_Cost_Credits> 2350</Score_Cost_Credits>
-		<Population_Value>22</Population_Value>
+		<Population_Value>23</Population_Value>
 		<Space_Override_Population_Value/>
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
@@ -4688,8 +4687,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 
-		<AI_Combat_Power>1513</AI_Combat_Power>
-		<AI_Combat_Power>1241</AI_Combat_Power>
+		<AI_Combat_Power>1259</AI_Combat_Power>
 		<Damage>30</Damage>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -4713,7 +4711,7 @@
 		<Required_Planets/>
 
 		<GUI_Row> 0 </GUI_Row>
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Cost_Credits>2600</Build_Cost_Credits>
 		<Build_Cost_Credits>2600</Build_Cost_Credits>
 		<Build_Time_Seconds>56</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
@@ -4727,7 +4725,6 @@
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>1</Piracy_Value_Credits>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
-		<Population_Value>14</Population_Value>
 		<Population_Value>13</Population_Value>
 		<Space_Override_Population_Value/>
 
@@ -5273,6 +5270,232 @@
 		<Death_Clone>Damage_Normal</Death_Clone>
 	</SpaceUnit>
 
+		<SpaceUnit Name="Modernized_Procurator">
+		<Text_ID>TEXT_UNIT_MODERNIZED_PROCURATOR</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 940</Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PROCURATOR_HULL
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD
+		TEXT_TOOLTIP_PROCURATOR_MOVE
+		TEXT_TOOLTIP_PROCURATOR_SQUADRON
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2
+		TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3  
+		TEXT_TOOLTIP_PROCURATOR_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_modernized_procurator.tga</Icon_Name>
+
+		<Space_Model_Name>Procurator-class_battlecruiser.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>2400</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.999</Mass>
+		<Max_Speed>2.45</Max_Speed>
+		<Max_Thrust>0.1</Max_Thrust>
+		<OverrideAcceleration>0.05</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.3</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Points>12000</Shield_Points>
+		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Tactical_Health>13020</Tactical_Health>
+
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>5073 </AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Maintenance_Cost>81</Maintenance_Cost>
+
+		<Ship_Class>capital</Ship_Class>
+		<CategoryMask> SuperCapital | AntiCorvette | AntiFrigate </CategoryMask>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Property_Flags>  </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Squadron_Capacity>40</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>10400</Build_Cost_Credits>
+		<Build_Time_Seconds>135</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 45000</Score_Cost_Credits>
+		<Population_Value>52</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+		HP_Procurator_Hangar,
+		HP_Procurator_Engine01,
+		HP_Procurator_Engine02,
+		HP_MProcurator_HTurbo01,
+		HP_MProcurator_HTurbo02,
+		HP_MProcurator_HTurbo03,
+		HP_MProcurator_HTurbo04,
+		HP_MProcurator_HIon01,
+		HP_MProcurator_HIon02,
+		HP_MProcurator_HIon03,
+		HP_MProcurator_HIon04,
+		HP_MProcurator_Turbo01,
+		HP_MProcurator_Turbo02,
+		HP_MProcurator_Turbo03,
+		HP_MProcurator_Turbo04,
+		HP_MProcurator_Turbo05,
+		HP_MProcurator_Turbo06,
+		HP_MProcurator_Turbo07,
+		HP_MProcurator_Turbo08,
+		HP_MProcurator_Turbo09,
+		HP_MProcurator_Turbo10,
+		HP_MProcurator_Turbo11,
+		HP_MProcurator_Turbo12,
+		HP_MProcurator_Turbo13,
+		HP_MProcurator_Turbo14
+		</HardPoints>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy
+		</Required_Special_Structures>
+
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>V38_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V38_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Jedi_Cruiser</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Imperial_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Imperial_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Imperial_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Imperial_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Imperial_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Imperial_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Imperial_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_Procurator.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.065  0.065</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>40000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.00</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>2650.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiFrigate</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-300.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Death_Clone>Damage_Normal, Procurator_Death_Clone</Death_Clone>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>4220</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
 	<SpaceUnit Name="Procurator_Battlecruiser">
 		<Text_ID>TEXT_UNIT_PROCURATOR</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 940</Encyclopedia_Unit_Class>
@@ -5507,6 +5730,10 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 
+		<Build_Cost_Credits>7600</Build_Cost_Credits>
+		<AI_Combat_Power>3517</AI_Combat_Power>
+		<Population_Value>39</Population_Value>
+
 		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<Death_Clone>Damage_Normal, Star_Destroyer_Two_Death_Clone</Death_Clone>
@@ -5593,9 +5820,9 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		
-		<Build_Cost_Credits>8200</Build_Cost_Credits>
-		<AI_Combat_Power>3689</AI_Combat_Power>
-		<Population_Value>41</Population_Value>
+		<Build_Cost_Credits>8100</Build_Cost_Credits>
+		<AI_Combat_Power>3661</AI_Combat_Power>
+		<Population_Value>40</Population_Value>
 
 		<!-- SURVIVAL -->
 		<Tactical_Build_Cost_Multiplayer>4380</Tactical_Build_Cost_Multiplayer>
@@ -5941,19 +6168,19 @@
 		<Shield_Points>7000</Shield_Points>
 		<Tactical_Health>8580</Tactical_Health>
 
-		<AI_Combat_Power>2884</AI_Combat_Power>
+		<AI_Combat_Power>3076</AI_Combat_Power>
 		<Damage>70</Damage>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<Property_Flags>Boardable</Property_Flags>
-		<Build_Cost_Credits>5800</Build_Cost_Credits>
+		<Build_Cost_Credits>6100</Build_Cost_Credits>
 		<Build_Time_Seconds>105</Build_Time_Seconds>
 		<Required_Special_Structures>
 			Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 			AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>
-		<Population_Value>29</Population_Value>
+		<Population_Value>31</Population_Value>
 
 		<HardPoints>
 			HP_Triumph_Engines,
@@ -5989,6 +6216,10 @@
 		<Shield_Points>8250</Shield_Points>
 		<Shield_Refresh_Rate>41.25</Shield_Refresh_Rate>
 		<Tactical_Health>8250</Tactical_Health>
+
+		<Population_Value>33</Population_Value>
+		<Build_Cost_Credits>6700</Build_Cost_Credits>
+		<AI_Combat_Power>3326</AI_Combat_Power>
 
 		<Tech_Level>99</Tech_Level>
 

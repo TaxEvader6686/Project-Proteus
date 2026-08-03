@@ -4228,7 +4228,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Eriadu_Authority</Affiliation>
+		<Affiliation>Eriadu_Authority, Imperial_Proteus</Affiliation>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 

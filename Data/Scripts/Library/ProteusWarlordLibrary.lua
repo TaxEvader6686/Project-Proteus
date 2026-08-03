@@ -1302,6 +1302,54 @@ return {
 			IntroText = "",
 			IntroHolo = "",
 		},
+	    ["LANOX"] = {
+			FriendlyName = "Imperial Loyalist",
+			Planets = {"MAKEM_TE"},
+		    LeaderTable = {"Lanox_Hazard"},
+			LeaderEndingNames = {"Imperial Regent Lanox"},
+			HeroList = {"Lanox_Hazard"}, 
+			UnlockList = {
+				-- Space 
+				"YE_4_Group", "Imperial_CR90", "CR92A", "Lancer_Frigate", "Quasar", "Carrack_Cruiser_Laser", "Star_Galleon",
+				"Broadside_Cruiser", "DHC_Carrier", "DHC_Interdictor", "DHC_Gunboat", "Vindicator_Cruiser", "Vindicator_Carrier", "Victory_I_Star_Destroyer", "Acclamator_I_Assault",
+				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship", "Triumph_Star_Destroyer",
+				"Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
+				-- Ground
+				"Imperial_Army_Guard_Company", "Imperial_Navy_Trooper_Company", "Imperial_Scout_Trooper_Company", "Imperial_Army_74Z_Bike_Company",
+				"PX10_Company", "AT_ST_A_Company", "Imperial_Gaba18_Company", "Skyhopper_Primitive_Company", "1L_Tank_Company",
+				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "Imperial_TNT_Company", "Swift_Assault_5_Company", "Imperial_Missile_Artillery_Company",
+				"Imperial_A4_Juggernaut_Company", "PX4_Company", "Tracked_Shield_Disabler_Company",
+				-- Research
+			},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
+			StartYear = 11,
+			IntroText = "",
+			IntroHolo = "Imperial_Naval_Officer_Loop"
+		},
+		["STORM_COMMANDOS"] = {
+			FriendlyName = "Storm Commandos",
+			Planets = {"TALUS_TRALUS"},
+			LeaderTable= {"STRANG_TEAM"},
+			LeaderEndingNames = {"Emperor Strang"},
+			HeroList = {"Strang_Team", "Weir_Team", "Irlyn_Team"},
+			UnlockList = {
+				-- Space
+		    	"Delta_JV7_Group", "Imperial_CR90", "Imperial_DP20", "CR92A", "CC7700", "Active_Frigate", "Imperial_Escort_Carrier",
+		    	"Proficient", "Proficient_Tender", "Broadside_Cruiser", "Gladiator_II", "Victory_I_Fleet_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer_Command", "Imperial_I_Star_Destroyer_Assault", 
+				"Altor_Replenishment_Ship", "Communications_Battlecruiser",
+				-- Ground
+				"Storm_Commando_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company",
+				"Imperial_AT_PT_Company", "AT_ST_Company", "Chariot_LAV_Company",
+				"1HB_Tank_Company", "Imperial_APC_Company", "AT_AA_Flak_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company", 
+				"A9_Floating_Fortress_Company", "Teklos_Company"
+			},
+			LastYear = 4,
+			FactionOverride = "Corellia",
+			IntroText = "TEXT_CONQUEST_STORM_COMMANDOS",
+			IntroHolo = "Stormtrooper_Officer_Loop",
+		},
 	-- Secret Dev Faction
 		["SECRET"] = {
 			FriendlyName = "The Coruscant Proteus you were asking for",

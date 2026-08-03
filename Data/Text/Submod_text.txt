@@ -53,6 +53,7 @@ TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Thin
 TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY,Great Leader: You did not think I would be gone, did you? I will always return! Now, there is no time for hesitation! Pledge yourself to me once more, and together we shall crush the rebellion once and for all! You shall lead my armies and my new Dark Knights into battle! Return to your station, my loyal guards will relay further orders soon.
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
 TEXT_CONQUEST_PROTEUS_VEERS,Veers: Delvardus has been driven out from Eriadu, and while I shed no tears for him, our situation remains bleak. The rebels are still in control of much of the core, and most Imperial holdouts are either unwilling or unworthy of my assistance. For now, we will strike out on our own, Commander. We might be all that is left of the Empire we once served, but I will not surrender it to the rebels without a fight!
+TEXT_CONQUEST_STORM_COMMANDOS,Victor Strang: The Emperor tasked us with destroying the Rebel scum. His death does nothing to change this directive, but it does require a change in strategy. On this day and planet, a new counter-rebellion will be born.
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
@@ -97,6 +98,7 @@ TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_EVENT_WARLORD_CHOICE_REBORN,Empire Reborn
 TEXT_EVENT_WARLORD_CHOICE_RENDILI,Imperial Rendili
 TEXT_EVENT_WARLORD_CHOICE_SHADOW_ACADEMY,Second Imperium
+TEXT_EVENT_WARLORD_CHOICE_STORM_COMMANDOS,Storm Commandos
 TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
 TEXT_EVENT_WARLORD_CHOICE_VEERS,Blizzard Force
 TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,Commission a Dreadnaught-class Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
@@ -731,22 +733,22 @@ TEXT_TOOLTIP_DREADNAUGHT_I_WEAP3,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED,A rare, heavily modernized version of the venerable Dreadnaught-Class Cruiser hull featuring crew reduction technologies utilized in Katana- and Imperial refits as well as a drastically changed internal layout and upgraded power plant to accommodate a heavier armament, more modern defenses, and upgraded support systems. Features a wide range of weapons and can engage any target, but is still less effective than modern cruiser designs of a similar weight class.
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_HULL,Hull: 2310 (Heavy Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.375
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD,Shields: 2400 / [25/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SHIELD,Shields: 2400 / [24/R] (Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_SQUADRON,Fighters: 0.5 / 0.5
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP1,2x Heavy Dual Turbolasers: 2 / 4.0s / 7.1km
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3,2x Heavy Quad Laser Cannons: 2 / 0.5s / 4.6km
-TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4,2x Heavy Ion Cannons: 2 / 2.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP3,2x Heavy Ion Cannons: 2 / 2.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP4,2x Heavy Quad Laser Cannons: 2 / 0.5s / 4.6km
 TEXT_TOOLTIP_DREADNAUGHT_MODERNIZED_WEAP5,1x Assault Concussion Missile: 3 / 15.0s / 7.1km
 TEXT_TOOLTIP_DREADNAUGHT_PICKET,A Dreadnaught-Class Heavy Cruiser refitted for picket, escort and customs duties, armed with heavy ion cannons and an improved battery of laser cannons to support other vessels against small attack craft while still being able to engage larger vessels with its ion cannons.
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_HULL,Hull: 2205 (Heavy Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_MOVE,Speed: 3.85 | Accel: 0.175 | Turn: 0.375
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_SHIELD,Shields: 2200 / [22/R] (Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_SQUADRON,Fighters: 0.5 / 0.5
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
-TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP1,2x Light Turbolasers: 2 / 2.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
+TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
 TEXT_TOOLTIP_DREAM_OF_A_QUIET_LIFE_WEAP,25x Missiles Trouts: 4 / 3.0s / 7.2km
 TEXT_TOOLTIP_ELEIAN,TODO
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
@@ -883,6 +885,11 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR,TODO
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP1,4x Heavy Quad Turbolasers: 2 / 2.0s / 7.5km
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP2,4x Heavy Quad Ion Cannons: 2 / 2.0s / 7.5km
+TEXT_TOOLTIP_MODERNIZED_PROCURATOR_WEAP3,14x Medium Turbolasers: 2 / 1.0s / 6.5km
 TEXT_TOOLTIP_MUNIFEX,Also known as the "Class 1000" for setting the modern KDY production batch size. A fragile but over-gunned frigate produced for the Trade Defence Force two centuries before the Clone Wars. Intended to eliminate similar-sized vessels while also being plentiful enough to mass-attack larger cruisers.
 TEXT_TOOLTIP_MUNIFEX_HULL,Hull: 900 (Frigate)
 TEXT_TOOLTIP_MUNIFEX_MOVE,Speed: 3.5 | Accel: 0.175 | Turn: 0.3
@@ -936,9 +943,6 @@ TEXT_TOOLTIP_PROCURATOR_HULL,Hull: 13020 (Capital)
 TEXT_TOOLTIP_PROCURATOR_MOVE,Speed: 2.45 | Accel: 0.05 | Turn: 0.15
 TEXT_TOOLTIP_PROCURATOR_SHIELD,Shields: 9000 / [22.5/R] (Capital)
 TEXT_TOOLTIP_PROCURATOR_SQUADRON,Fighters: 2 / 4
-TEXT_TOOLTIP_PROCURATOR_WEAP1,8x Medium Dual Turbolasers: 2 / 2.0s / 6.5km
-TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
-TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_PROTEUS_A9_RESEARCH,Acquire Kuat's new A-9 Interceptors. Replace the older Interceptors.
 TEXT_TOOLTIP_PROVIDENCE_PIRATE_SQUADRON,Fighters: 1 / 3 | Bombers: 2 / 6  
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
@@ -1201,9 +1205,9 @@ TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that w
 TEXT_TOOLTIP_VECTOR,A rare variant of the Victory-Class Star Destroyer that modifies the design in a similar way the Tector-Class modified the Imperator hull; with increased armor, no fighter launch bay, and a mission loadout much more focused on direct-ship-to-ship combat than the broad assignment profile of most Imperial capital ships. However, unlike the Tector modifying the Imperial I hull, the Vector uses the Victory II's hull as its base, inheriting the model's speed and focus on energy weapons instead of munitions. Although developed shortly after the Clone Wars, the design remained obscure, languishing in deep core reserve fleets until the campaigns of the Reborn Emperor. Very strong at engaging most types of capital ships, and boasts a sizable anti-fighter defense grid, but lacks the offensive versatility of the other variants.
 TEXT_TOOLTIP_VECTOR_HULL,Hull: 4000 (Heavy Frigate)
 TEXT_TOOLTIP_VECTOR_SHIELD,Shields: 4000 / [50/R] (Heavy Frigate)
-TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2 / 2.0s/6.2km
-TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2 / 1.0s/6.2km
-TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2 / 1.0s/4.7km
+TEXT_TOOLTIP_VECTOR_WEAPON1,4x Medium Quad Turbolaser 2 / 2.0s /6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON2,4x Medium Turbolaser 2 / 1.0s / 6.2km
+TEXT_TOOLTIP_VECTOR_WEAPON3,3x Heavy Quad Laser Cannon 2 / 1.0s / 4.7km
 TEXT_TOOLTIP_VENATOR_8X,A refit of the iconic Venator Star Destroyer. This variant sacrifices the original's large fighter wing for more abundant and heavier weaponry, making it more effective in ship to ship combat.
 TEXT_TOOLTIP_VENATOR_8X_MOVE,Speed: 4.0 | Accel: 0.2 | Turn: 0.4
 TEXT_TOOLTIP_VENATOR_8X_SHIELD,Shields: 2600 / [26/R] (Heavy Frigate)
@@ -1215,13 +1219,13 @@ TEXT_TOOLTIP_VENATOR_8X_WEAP4,2x Heavy Dual Ion Cannons: 1 / 5.0s / 6.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP5,2x Proton Torpedoes: 2 / 20.0s / 5.2km
 TEXT_TOOLTIP_VICTORY_PATROL,One of the many post-Clone Wars configurations of the common Victory-Class Star Destroyer. This variant stripped the missiles in favor of a light armament specialized to deal with smaller, lighter enemy craft while being less expensive to maintain and deploy as the fully loaded models. Very popular with garrisons in remote Sectors with limited resources as a result, they provided a way to project power without committing heavy assets. While not as dangerous as most other variants, they were still capable of dealing with most common pirate and rebel threats in backwater regions.
 TEXT_TOOLTIP_VICTORY2_CARRIER,A refitted star destroyer for system patrol and anti-piracy duties in remote sectors using the common Victory II-Class hull as a base. With much of the onboard cargo capacity converted to housing fighter craft and support systems, the operational range is lower than usual for patrol ships, so they mostly guard Imperial outposts and transit hubs. While the firepower is scaled back to accommodate the increased power usage of the command and control systems, this variant can still defend itself well from attackers in a lower weight class while supporting allied forces with its complement.
-TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER,Shields: 3000 / [38/R] (Heavy Frigate)
+TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER,Shields: 3000 / [37.5/R] (Heavy Frigate)
 TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER,Fighters: 2 / 4 | Bombers: 1 / 2
 TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER,4x Light Dual Turbolasers: 2 / 2.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER,4x Light Ion Cannons: 2 / 1.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.7km
 TEXT_TOOLTIP_VICTORYPATROL_WEAP1,2x Medium Ion Cannons: 2 / 2.0s / 6.2km
-TEXT_TOOLTIP_VICTORYPATROL_WEAP3,4x Medium Dual Laser Cannons 2/ 2.0s / 4.2km
+TEXT_TOOLTIP_VICTORYPATROL_WEAP3,4x Medium Dual Laser Cannons 2 / 2.0s / 4.2km
 TEXT_TOOLTIP_VINDICATOR_CARRIER,An alternative variant of the common Vindicator hull which boasted heavier weaponry while at the same time carrying a larger fighter complement. While potent, the vessels sacrificed a lot of their utility and anti-fighter defense capabilities in the process.
 TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL,Hull: 1944 (Frigate)
 TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE,Speed: 3.5 | Accel: 0.125 | Turn: 0.35
@@ -1314,6 +1318,7 @@ TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
+TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
 TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT

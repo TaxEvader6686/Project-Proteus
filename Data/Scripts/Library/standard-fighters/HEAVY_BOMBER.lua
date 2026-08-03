@@ -106,7 +106,8 @@ return {
 			VEERS = {"SCURRG_H6_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_TERROR_SQUADRON", false},
 			SECOND_IMPERIUM = {"TIE_TERROR_SQUADRON", false},
-
+            LANOX = {"FIRESPRAY_BOMBER_SQUADRON", false},
+			STORM_COMMANDOS = {"TIE_TERROR_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
