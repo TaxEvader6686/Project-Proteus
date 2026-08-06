@@ -129,7 +129,7 @@ return {
 			SECOND_IMPERIUM = {"TIE_AGGRESSOR_SQUADRON", false},
 			LANOX = {"NIMBUS_V_WING_SQUADRON", false},
 			STORM_COMMANDOS = {"TIE_HUNTER_SQUADRON", false},
-
+			SECRET = {"X_WING_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

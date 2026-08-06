@@ -222,6 +222,8 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
         ["THORN_ASSERTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THORN",
 		["HARRSK_MEGADOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK",
 		["DESANNE_DOMINION"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE",
+        ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_TAX",
+        ["MICHAEL_TERROR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_MICHAEL",
 		
     }
 
@@ -251,6 +253,7 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
     crossplot:subscribe("DARK_EMPIRE_CHOICE_MADE", self.dark_empire_choice_made, self)
     crossplot:subscribe("FACTION_DISPLAY_NAME_CHANGE", self.faction_display_name_change, self)
     crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
+    crossplot:subscribe("KUAT_BC_CHOICE_OPTION", self.kuat_battlecruisers, self)
 
     if self.human_is_imperial == true then
         crossplot:subscribe("UPDATE_GOVERNMENT", self.UpdateDisplay, self)
@@ -767,6 +770,8 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
 
     if game_object_type_name == "DASTA_PROCURE_FIGHTERS" then
         GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
+    elseif game_object_type_name == "KUAT_CHOOSE_BC" then
+        GenericPopup("KUAT_BC_CHOICE", {"PRAETOR_II_BATTLECRUISER", "PRAETOR_CARRIER_BATTLECRUISER", "COMMUNICATIONS_BATTLECRUISER", "SORANNAN_STAR_DESTROYER"}, "KUAT_BC_CHOICE_OPTION")
     end
 end
 
@@ -776,6 +781,13 @@ function GovernmentEmpire:dasta_fighters(choice)
     option = string.lower(option)
     option = CapitalizeFirstCharacterOfEachSentence(option)
     Set_Fighter_Research("DastaFighters"..option)
+end
+
+function GovernmentEmpire:kuat_battlecruisers(choice)
+    --Logger:trace("entering GovernmentEmpire:kuat_battlecruisers")
+    crossplot:publish("UPDATE_MARKET", "KUAT_BC")
+    local battlecruiser = string.gsub(choice, "KUAT_BC_CHOICE_", "")
+    self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type(battlecruiser))
 end
 
 function GovernmentEmpire:gamble_manager(unit_type, location)

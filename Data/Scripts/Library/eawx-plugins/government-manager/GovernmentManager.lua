@@ -163,7 +163,7 @@ function GovernmentManager:UpdateProteusShipmarketDisplay()
         government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_01")
         for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
             local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
-            if ship_data.amount > 0 then
+            if ship_data.amount > 0 and ship_data.locked == false and ship_data.gc_locked == false then
                 government_display_event.Add_Dialog_Text(ship_data.readable_name .." : "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ]")
             end
         end
@@ -171,7 +171,7 @@ function GovernmentManager:UpdateProteusShipmarketDisplay()
         government_display_event.Add_Dialog_Text("None on the market:")
         for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
             local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
-            if ship_data.amount == 0 then
+            if ship_data.amount == 0 and ship_data.locked == false and ship_data.gc_locked == false then
                 government_display_event.Add_Dialog_Text(ship_data.readable_name .." : [ ".. tostring(ship_data.chance/10) .."%% ]")
             end
         end

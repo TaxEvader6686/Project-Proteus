@@ -142,4 +142,6 @@ return {
 	    "Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700_E", "Aratech_Battle_Platform_Company", "MAL_Rocket_Vehicle_Company", "Modernized_DHC", "Picket_DHC", "Overracer_Speeder_Bike_Company",
 		--Imperial Hutt Space added units
 		"Victory_I_Star_Destroyer_Patrol",
+		--Secret added units
+		"Nebula_Star_Destroyer", "Vontor_Destroyer", "Mediator",
 }

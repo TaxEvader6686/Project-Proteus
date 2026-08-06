@@ -1525,12 +1525,13 @@
 
 	<SpaceUnit Name="Vontor_Destroyer">
 		<Variant_Of_Existing_Type>Template_Vontor_Destroyer</Variant_Of_Existing_Type>
-		<Affiliation>Hutt_Cartels</Affiliation>
+		<Affiliation>Hutt_Cartels, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Property_Flags>Boardable</Property_Flags>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Hutt_Shipyard_Level_Three | Hutt_Shipyard_Level_Four,
 		AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>

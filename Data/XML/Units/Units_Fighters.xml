@@ -10485,8 +10485,8 @@
 
 		<Max_Squad_Size> 6 </Max_Squad_Size>
 		<Create_Team_Type>TIE_X3_Squadron_Half_Container</Create_Team_Type>
-		<Squadron_Units>TIE_X3, TIE_X3, TIE_X3, TIE_X3</Squadron_Units>
-		<Squadron_Units>TIE_X3, TIE_X3, TIE_X3, TIE_X3</Squadron_Units>
+		<Squadron_Units>TIE_X3, TIE_X3, TIE_X3 </Squadron_Units>
+		<Squadron_Units>TIE_X3, TIE_X3, TIE_X3 </Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>

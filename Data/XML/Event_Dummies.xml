@@ -867,6 +867,21 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
+	<DummyStructure Name="Warlord_Choice_X1">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_X1</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_X1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_X1_SITH.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
 	<DummyStructure Name="Warlord_Choice_Veers">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -894,7 +909,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-		<DummyStructure Name="Warlord_Choice_Empire_Reborn">
+	<DummyStructure Name="Warlord_Choice_Empire_Reborn">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_REBORN</Text_ID>
@@ -924,7 +939,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-		<DummyStructure Name="Warlord_Choice_Lanox">
+	<DummyStructure Name="Warlord_Choice_Lanox">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_LANOX</Text_ID>
@@ -950,7 +965,7 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_Weir_SPOOPY.tga</Icon_Name>
+		<Icon_Name>i_button_strang.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 

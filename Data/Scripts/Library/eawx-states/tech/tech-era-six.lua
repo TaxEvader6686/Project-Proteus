@@ -213,7 +213,7 @@ return {
                 end
 				if proteus == "LUMIYA" then
 					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-						"GORATH_RESEARCH_PROTEUS"
+						"Gorath_Research_Proteus"
 					})
 				end
 			end

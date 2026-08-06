@@ -709,7 +709,7 @@
 		<AI_Combat_Power>2888</AI_Combat_Power>
 		<Damage>60</Damage>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
 		<Political_Control/>
 		<Override_Bounty_SP>85</Override_Bounty_SP>
 		<Maintenance_Cost>63</Maintenance_Cost>
@@ -735,6 +735,7 @@
 		<Build_Time_Seconds>105</Build_Time_Seconds>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>
@@ -5246,7 +5247,7 @@
 		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
@@ -5254,6 +5255,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Dreadnought_Category_Dummy
 		</Required_Special_Structures>

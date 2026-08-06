@@ -4903,7 +4903,7 @@
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_65</Group>
-		<Tooltip_Text>WIP - Lanox</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_LANOX</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -4927,8 +4927,8 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_WEIR_SPOOPY.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_WEIR_SPOOPY.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_STRANG.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_STRANG.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
@@ -4936,7 +4936,7 @@
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_66</Group>
 		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_STORM_COMMANDOS</Tooltip_Text>
-		<Scale>0.</Scale>
+		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
 	<CommandBarComponent Name="disabled_faction_66">
@@ -5095,7 +5095,7 @@
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_71</Group>
-		<Tooltip_Text>WIP - X1</Tooltip_Text>
+		<Tooltip_Text>WIP--X1</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 

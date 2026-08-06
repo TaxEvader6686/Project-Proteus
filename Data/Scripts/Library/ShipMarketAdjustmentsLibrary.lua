@@ -23,4 +23,18 @@ return {
 				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "EXECUTOR_STAR_DREADNOUGHT", 30, true},
 			},
 		},
+		["KUAT_BC"] = {
+			lock_lists = {
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "PRAETOR_II_BATTLECRUISER", true},
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "PRAETOR_CARRIER_BATTLECRUISER", true},
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "COMMUNICATIONS_BATTLECRUISER", true},
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "SORANNAN_STAR_DESTROYER", true},
+			},
+			requirement_lists = {
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "PRAETOR_II_BATTLECRUISER", "[ This design has been retired ]"},
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "PRAETOR_CARRIER_BATTLECRUISER", "[ This design has been retired ]"},
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "COMMUNICATIONS_BATTLECRUISER", "[ This design has been retired ]"},
+				{"IMPERIAL_PROTEUS", "SHIP_MARKET", "SORANNAN_STAR_DESTROYER", "[ This design has been retired ]"},
+			}
+		}
 }

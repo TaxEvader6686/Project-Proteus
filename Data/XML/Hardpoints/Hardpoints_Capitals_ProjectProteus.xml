@@ -11508,7 +11508,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_01_270_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>270</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Triple_Medium_Line</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Triple_Medium_Line</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11548,7 +11548,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_02_270_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>270</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Triple_Medium_Line</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Triple_Medium_Line</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11588,7 +11588,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_03_270_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>270</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Triple_Medium_Line</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Triple_Medium_Line</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11628,7 +11628,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_04_210_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>210</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Triple_Medium_Line</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Triple_Medium_Line</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11668,7 +11668,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_05_210_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>210</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Triple_Medium_Line</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Triple_Medium_Line</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11708,7 +11708,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_10_180_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Triple_Medium_Line</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Triple_Medium_Line</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11748,7 +11748,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_06_100_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>100</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad_Heavy</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Quad_Heavy</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11788,7 +11788,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_07_120_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>120</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad_Heavy</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Quad_Heavy</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11828,7 +11828,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_08_100_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>100</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad_Heavy</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Quad_Heavy</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -11868,7 +11868,7 @@
 		<Fire_Bone_B>Weap_Turbo_HD_09_120_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>120</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad_Heavy</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Blue_Quad_Heavy</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -12373,7 +12373,7 @@
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE_RAPID</Tooltip_Text>
 		<Health>256.5</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -12396,14 +12396,14 @@
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Structure, SuperCapital, Capital </Fire_Category_Restrictions>
 	</HardPoint>
 	
 	<HardPoint Name="HP_1214_Missile_AC_Rapid_02">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE_RAPID</Tooltip_Text>
 		<Health>256.5</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -12426,7 +12426,7 @@
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> Structure, SuperCapital, Capital </Fire_Category_Restrictions>
 	</HardPoint>
 	
 	<HardPoint Name="HP_1214_Missile_AC_01">
@@ -12549,7 +12549,7 @@
 		<Damage_Particles>Engine_02</Damage_Particles>
 	</HardPoint>
 
-	  <HardPoint Name="HP_Frostfire_Ion_01">
+	<HardPoint Name="HP_Frostfire_Ion_01">
 		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -12565,11 +12565,6 @@
             
             <Damage_Particles>weap05</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap05_FP00</Fire_Bone_A>
             <Fire_Bone_B>weap05_FP01</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12578,7 +12573,6 @@
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Dual_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>2.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12595,12 +12589,8 @@
 			<Fire_Inaccuracy_Distance> Capital, 9.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> SuperCapital, 4.5 </Fire_Inaccuracy_Distance>      
         
-        
- 
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Ion_02">
 		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12617,11 +12607,6 @@
             
             <Damage_Particles>weap06</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap06_FP00</Fire_Bone_A>
             <Fire_Bone_B>weap06_FP01</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12630,7 +12615,6 @@
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Dual_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>2.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12647,12 +12631,8 @@
 			<Fire_Inaccuracy_Distance> Capital, 9.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> SuperCapital, 4.5 </Fire_Inaccuracy_Distance>      
         
-        
- 
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Turbolaser_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12669,11 +12649,6 @@
             
             <Damage_Particles>weap11</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap11</Fire_Bone_A>
             <Fire_Bone_B>weap11</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12682,7 +12657,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.75</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.75</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>2.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12698,13 +12672,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
-        
-        
- 
+         
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Turbolaser_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12721,11 +12691,6 @@
             
             <Damage_Particles>weap12</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap12</Fire_Bone_A>
             <Fire_Bone_B>weap12</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12734,8 +12699,7 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.75</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.75</Fire_Max_Recharge_Seconds>
-            
-            
+        
             <Fire_Pulse_Count>2.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3150.0</Fire_Range_Distance>
@@ -12751,12 +12715,8 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
         
-        
- 
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Turbolaser_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12773,11 +12733,6 @@
             
             <Damage_Particles>weap13</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap13</Fire_Bone_A>
             <Fire_Bone_B>weap13</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12786,7 +12741,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.75</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.75</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>2.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12803,12 +12757,8 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
         
-        
- 
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Turbolaser_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12825,11 +12775,6 @@
             
             <Damage_Particles>weap14</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap14</Fire_Bone_A>
             <Fire_Bone_B>weap14</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12838,7 +12783,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>0.75</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>0.75</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>2.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12853,14 +12797,9 @@
 			<Fire_Inaccuracy_Distance> Corvette, 22.5 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
-        
-        
- 
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_QuadTurbolaser_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12877,11 +12816,6 @@
             
             <Damage_Particles>Weap03</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>Weap03_FP00</Fire_Bone_A>
             <Fire_Bone_B>Weap03_FP01</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12890,7 +12824,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Quad_Medium_Line2</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>1.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12905,14 +12838,9 @@
 			<Fire_Inaccuracy_Distance> Corvette, 22.5 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
-        
-        
- 
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_QuadTurbolaser_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12929,11 +12857,6 @@
             
             <Damage_Particles>weap02</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap02_FP00</Fire_Bone_A>
             <Fire_Bone_B>weap02_FP01</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12942,7 +12865,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Quad_Medium_Line2</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>1.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -12958,13 +12880,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
-        
-        
- 
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_QuadTurbolaser_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -12981,11 +12898,6 @@
             
             <Damage_Particles>Weap04</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>Weap04_FP00</Fire_Bone_A>
             <Fire_Bone_B>Weap04_FP01</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -12994,7 +12906,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Quad_Medium_Line2</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>1.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -13009,14 +12920,9 @@
 			<Fire_Inaccuracy_Distance> Corvette, 22.5 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
-        
-        
- 
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_QuadTurbolaser_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -13033,11 +12939,6 @@
             
             <Damage_Particles>weap01</Damage_Particles>
             
-            
-            
-        
-            
-            
             <Fire_Bone_A>weap01_FP00</Fire_Bone_A>
             <Fire_Bone_B>weap01_FP01</Fire_Bone_B>
             <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
@@ -13046,7 +12947,6 @@
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Purple_Quad_Medium_Line2</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            
             
             <Fire_Pulse_Count>1.0</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -13061,14 +12961,9 @@
 			<Fire_Inaccuracy_Distance> Corvette, 22.5 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>      
-        
-        
- 
+			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Engines">
 		<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -13084,17 +12979,8 @@
             <Damage_Decal></Damage_Decal>
             
             <Damage_Particles>Engines</Damage_Particles>
-            
-            
-            
-              
-        
-        
- 
     </HardPoint>
 
-    
-    
     <HardPoint Name="HP_Frostfire_Hangar">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -13110,13 +12996,6 @@
             <Damage_Decal></Damage_Decal>
             
             <Damage_Particles>Spawn_00</Damage_Particles>
-            
-            
-            
-              
-        
-        
- 
     </HardPoint>
 
 	<HardPoint Name="HP_SynTax_Error_Missile_Trout_01">
@@ -13148,7 +13027,6 @@
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="HP_SynTax_Error_Missile_Trout_02">
@@ -13179,8 +13057,6 @@
 		<Fire_Range_Distance>7200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
-
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="HP_SynTax_Error_Missile_Trout_03">
@@ -13212,7 +13088,6 @@
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 	</HardPoint>
 
 	<HardPoint Name="HP_Dream_Of_A_Quiet_Life_Missile_Trout_01">
@@ -14142,7 +14017,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_LDTurbo03">
+	<HardPoint Name="HP_Doomgiver_LDTurbo03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -14182,7 +14057,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_LDTurbo04">
+	<HardPoint Name="HP_Doomgiver_LDTurbo04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -14302,7 +14177,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_MTurbo3">
+	<HardPoint Name="HP_Doomgiver_MTurbo3">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -14342,7 +14217,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_MTurbo4">
+	<HardPoint Name="HP_Doomgiver_MTurbo4">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -14382,7 +14257,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_MTurbo5">
+	<HardPoint Name="HP_Doomgiver_MTurbo5">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -14422,7 +14297,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_MTurbo6">
+	<HardPoint Name="HP_Doomgiver_MTurbo6">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -14462,7 +14337,7 @@
 
 	</HardPoint>
 
-		<HardPoint Name="HP_Doomgiver_HSTurbo01">
+	<HardPoint Name="HP_Doomgiver_HSTurbo01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
