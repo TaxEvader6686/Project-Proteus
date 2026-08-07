@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ASCII'?>
 <Project_Proteus_Space>
 
-    <SpaceUnit Name="Manta_Fighter">
+  <SpaceUnit Name="Manta_Fighter">
 
 		<Text_ID>TEXT_UNIT_MANTA_FIGHTER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_INTERCEPTORHEAVY </Encyclopedia_Unit_Class>
@@ -11900,11 +11900,10 @@
 		TEXT_STATBLOCK_SKIPRAYM_WEAP4
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_SKIPRAY_12M_ONE.tga</Icon_Name>
-
-		<!-- Same as unit -->
+    <!-- Same as unit -->
 		<Max_Speed>8.05</Max_Speed>
-		<Min_Speed>1.74</Min_Speed>
-	</Container>
+    <Min_Speed>1.74</Min_Speed>
+  </Container>
 
 	<Squadron Name="Skipray_Interceptor_Squadron_Double">
 		<Variant_Of_Existing_Type>Skipray_Squadron_Double</Variant_Of_Existing_Type>

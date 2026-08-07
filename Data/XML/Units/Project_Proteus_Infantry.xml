@@ -4383,7 +4383,7 @@
 		
 	</GroundInfantry>
 
-		<GroundCompany Name="Reborn_Dark_Jedi_Company">
+	<GroundCompany Name="Reborn_Dark_Jedi_Company">
 		<Text_ID>TEXT_UNIT_REBORN_DARKJEDI_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DARK_JEDI</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
