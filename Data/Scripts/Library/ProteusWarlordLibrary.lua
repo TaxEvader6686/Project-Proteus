@@ -1265,7 +1265,7 @@ return {
 			HeroList = {"Strang_Team", "Weir_Team", "Irlyn_Team"},
 			UnlockList = {
 				-- Space
-		    	"Delta_JV7_Group", "Imperial_CR90", "Imperial_DP20", "CR92A", "CC7700", "Active_Frigate", "Imperial_Escort_Carrier",
+		    	"X4_Gunship_Group", "Imperial_CR90", "Imperial_DP20", "CR92A", "CC7700", "Active_Frigate", "Imperial_Escort_Carrier",
 		    	"Proficient", "Proficient_Tender", "Broadside_Cruiser", "Gladiator_II", "Victory_I_Fleet_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Command", "Imperial_I_Star_Destroyer_Assault", 
 				"Altor_Replenishment_Ship", "Communications_Battlecruiser",

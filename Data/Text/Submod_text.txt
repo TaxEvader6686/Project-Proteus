@@ -1,4 +1,6 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper

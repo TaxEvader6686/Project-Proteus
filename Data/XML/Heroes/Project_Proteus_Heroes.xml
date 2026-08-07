@@ -806,11 +806,12 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
-<!-- 	<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<!--<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Starwing_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Starwing_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
--->
+		-->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
@@ -1005,7 +1006,10 @@
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>
 				<Expiration_Seconds>8</Expiration_Seconds>
@@ -1141,7 +1145,10 @@
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Recharge_Seconds>150</Recharge_Seconds>
 				<Expiration_Seconds>8</Expiration_Seconds>
@@ -7163,5 +7170,94 @@
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
+
+	<UniqueUnit Name="Kiez_Empire">
+		<Variant_Of_Existing_Type>Imperial_II_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_KIEZ</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KIEZ
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_EMPIRE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_WEAP2 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_WEAP3 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_WEAP4 
+		TEXT_TOOLTIP_STAR_DESTROYER_TWO_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_KIEZ_UPGRADE
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_kiez.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Shield_Points>10000</Shield_Points>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		
+		<Ranking_In_Category>3</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>150</Recharge_Seconds>
+				<Expiration_Seconds>8</Expiration_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_AMBUSH_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMBUSH_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_AMBUSH.tga</Alternate_Icon_Name>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>100000</Recharge_Seconds>
+				<Active_By_Default>Yes</Active_By_Default>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    0.8f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,        1.0f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
+			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_06_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
 
 </Project_Proteus_Heroes>
