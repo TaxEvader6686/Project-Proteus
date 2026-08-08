@@ -1,4 +1,5 @@
-﻿TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
+﻿TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
+TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
 D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
@@ -1523,3 +1524,7 @@ TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
 TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
 TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
 TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
+
+TEXT_ENCYCLOPEDIA_CLASS_OUTSPOKEN_MANAGER,Outspoken Manager
+TEXT_HERO_SETI_ASHGAD,
+TEXT_TOOLTIP_SETI_ASHGAD,

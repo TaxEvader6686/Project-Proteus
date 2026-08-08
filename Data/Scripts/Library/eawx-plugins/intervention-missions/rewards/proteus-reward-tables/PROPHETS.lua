@@ -11,9 +11,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -37,9 +37,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -63,9 +63,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -89,9 +89,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -115,9 +115,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -141,9 +141,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -167,9 +167,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -193,9 +193,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -219,9 +219,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -245,9 +245,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -271,9 +271,9 @@ return {
         {
             {"Compforce_Assault_Company", 5},
             {"Sun_Guard_Influence_Company", 5},
-            {"PDF_ULAV_Company", 4},
+            {"ULAV_Early_Company", 4},
             {"Neutron_Star_Mercenary", 3},
-            {"IDT_Company", 3},
+            {"Imperial_Dropship_Transport_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {

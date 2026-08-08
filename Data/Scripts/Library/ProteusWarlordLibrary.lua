@@ -19,9 +19,11 @@
 	--{{"era1_hero"}, [x] = {"erax_hero"...}, [y] = {"era1_hero","eray_hero"}...} where alternate heroes will spawn instead if the year is above x
 	--Or {era1text, [x] = alttext, [y] = alttext2...} where alttext will play instead if the year is above x
 
-	-----Project Proteus: additional variables -----
+	----- Project Proteus: additional variables -----
 	--ShipyardCapitalOverride gives the faction a space based capital structure, put "Imperial_Proteus_Capital" on the LockList and the new one one the UnlockList
 	--CapitalOverride works the same for ground
+	--CustomRewardTable : Allows the group to have its own mission reward pool
+	--CustomFieldBaseSpawn : Same thing for Field Base ; **may not use in the end
 
 	--as part of the UnlockList, putting ' ["TimeGate"] = {{"object1", year}, ...} ' behind the List, will add "object1" to the UnlockList if the Start Year is >= 'year'.
 	--This is a smaller variant of the Era Specific UnlockList (see Line 18-19) supposed to be used for just a handful of Objects, w/o having to duplicate the entire UnlockList for basically no changes.
@@ -47,7 +49,8 @@ return {
 				"A9_Floating_Fortress_Company", "Heavy_Recovery_Vehicle_Company",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ANTEM",
-			IntroHolo = "Tol_Getelles_Loop"
+			IntroHolo = "Tol_Getelles_Loop",
+			CustomRewardTable = true,
 		},
 		["ARDA"] = {
 			FriendlyName = "Imperial Arda",
@@ -74,7 +77,8 @@ return {
 			FactionOverride = "Independent_Forces",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_ARDA",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["BAKURA"] = {
 			FriendlyName = "Imperial Bakura",
@@ -101,7 +105,8 @@ return {
 			LockList = {"Namana_Cruiser_Influence", "Bakura_Destroyer_Influence"},
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BAKURA",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["BRAK"] = {
 			FriendlyName = "Brak Sector",
@@ -175,7 +180,8 @@ return {
 			},
 			FactionOverride = "Empire",
 			IntroText = {"TEXT_CONQUEST_PROTEUS_CIUTRIC_HEGEMONY", [9] = "TEXT_CONQUEST_ISARDSREVENGE_GE_INTRO_ONE"},
-			IntroHolo = "Krennel_Loop"
+			IntroHolo = "Krennel_Loop",
+			CustomRewardTable = true,
 		},
 		["DASTA"] = {
 			FriendlyName = "D'Astan Sector",
@@ -341,7 +347,8 @@ return {
 			},
 			HeroList = {"Gendarr_Reliance", "Lott_Team"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_JARDEEN",
-			IntroHolo = "Arndall_Lott_Loop"
+			IntroHolo = "Arndall_Lott_Loop",
+			CustomRewardTable = true,
 		},
 		["KAARENTH_DISSENSION"] = {
 			FriendlyName = "Kaarenth Dissension",
@@ -421,7 +428,8 @@ return {
 			FactionOverride = "Empire",
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KASHYYYK",
-			IntroHolo = "Darcc_Loop"
+			IntroHolo = "Darcc_Loop",
+			CustomRewardTable = true,
 		},
 		["KUAT"] = {
 			FriendlyName = "Kuat Sector",
@@ -445,7 +453,8 @@ return {
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["LAMBDA"] = {
 			FriendlyName = "Lambda Sector",
@@ -467,7 +476,8 @@ return {
 				"PX4_Company", "B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 			},
 			IntroText = "TEXT_CONQUEST_LAMBDASECTOR_LAMBDA_INTRO_ONE",
-			IntroHolo = "Par_Lankin_Loop"
+			IntroHolo = "Par_Lankin_Loop",
+			CustomRewardTable = true,
 		},
 		["LUMIYA"] = {
 			FriendlyName = "Lumiya's Sith",
@@ -546,7 +556,8 @@ return {
 			LockList = {"GormTalquist_HQ"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_LAMBDASECTOR_NABOO_INTRO_ONE",
-			IntroHolo = "Quarsh_Panaka_Loop"
+			IntroHolo = "Quarsh_Panaka_Loop",
+			CustomRewardTable = true,
 		},
 		["PRAKITH"] = { --Shynne, Voba Dokrett, Ors Dogot, Gegak?
 			FriendlyName = "Protectorate of Prakith",
@@ -596,7 +607,8 @@ return {
 			},
 			LockList = {"GormTalquist_HQ"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRENTIOCH",
-			IntroHolo = "Utoxx_Prentioch_Loop"
+			IntroHolo = "Utoxx_Prentioch_Loop",
+			CustomRewardTable = true,
 		},
 		["PROPHETS"] = {
 			FriendlyName = "Prophets of the Dark Side",
@@ -619,7 +631,8 @@ return {
 			LastYear = 6,
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_PROPHETS",
-			IntroHolo = "Kadann_Loop"
+			IntroHolo = "Kadann_Loop",
+			CustomRewardTable = true,
 		},
 		["PROTECTORATE"] = {
 			FriendlyName = "The Protectorate",
@@ -734,7 +747,7 @@ return {
 			IntroText = {"TEXT_CONQUEST_PROTEUS_RESTORED_EMPIRE", [12] = "TEXT_CONQUEST_PROTEUS_RESTORED_EMPIRE_E7"},
 			IntroHolo = "Ennix_Devian_Loop",
 			PlanetParticle = "Restored_Allies",
-		
+			CustomRewardTable = true,
 		},
 		["SECTOR_5"] = { --Zeven Mallat? ; It's in now
 			FriendlyName = "Sector 5",
@@ -757,7 +770,8 @@ return {
 			FactionOverride = "Empire",
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_SECTOR_5",
-			IntroHolo = "Malfkla_Yzu_Loop"
+			IntroHolo = "Malfkla_Yzu_Loop",
+			CustomRewardTable = true,
 		},
 		["SELLASAS"] = {
 			FriendlyName = "Imperial Sellasas",
@@ -833,7 +847,8 @@ return {
 			FactionOverride2 = "Zsinj_Empire",
 			FactionOverride3 = "Greater_Maldrood",
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAGGE",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["TAMARIN"] = {
 			FriendlyName = "Tamarin Sector",
@@ -981,7 +996,8 @@ return {
 				"CEC_HQ", "TaggeCo_HQ",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_WILD_SPACE",
-			IntroHolo = "Delurin_Loop"
+			IntroHolo = "Delurin_Loop",
+			CustomRewardTable = true,
 		},
 		["ZAARIN_REMNANTS"] = {
 			FriendlyName = "Zaarin Remnants",
@@ -1010,8 +1026,9 @@ return {
 				-- Research
 				"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC", "Z_Research_Scimitar",
 			},
-				IntroText = "TEXT_CONQUEST_PROTEUS_ZAARIN_REMNANTS",
-			IntroHolo = "Raveen_Loop"
+			IntroText = "TEXT_CONQUEST_PROTEUS_ZAARIN_REMNANTS",
+			IntroHolo = "Raveen_Loop",
+			CustomRewardTable = true,
 		},
 		["ZERO_COMMAND"] = {
 			FriendlyName = "Zero Command",
@@ -1101,7 +1118,29 @@ return {
 			FactionOverride2 = "Independent_Forces",
 			StartYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
-			IntroHolo = "Imperial_Army_Officer_Loop"
+			IntroHolo = "Imperial_Army_Officer_Loop",
+			CustomRewardTable = true,
+		},
+		["CARIDA"] = {
+			FriendlyName = "Imperial Carida",
+			Planets = {"CARIDA"},
+			LeaderTable = {""},
+			LeaderEndingNames = {"Supreme Commander Balan"},
+			HeroList = {""},
+			UnlockList = {
+				-- Space 
+				
+				-- Ground
+				
+				-- Research
+				
+			},
+			FactionOverride = "Empire",
+			StartYear = 4,
+			LastYear = 11,
+			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
+			IntroHolo = "Daala_Loop",
+
 		},
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
@@ -1229,7 +1268,7 @@ return {
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_PROTEUS_RENDILI",
 			IntroHolo = "Daala_Loop",
-
+			CustomRewardTable = true,
 		},
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
@@ -1279,6 +1318,7 @@ return {
 			FactionOverride = "Corellia",
 			IntroText = "TEXT_CONQUEST_STORM_COMMANDOS",
 			IntroHolo = "Stormtrooper_Officer_Loop",
+			CustomRewardTable = true,
 		},
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",

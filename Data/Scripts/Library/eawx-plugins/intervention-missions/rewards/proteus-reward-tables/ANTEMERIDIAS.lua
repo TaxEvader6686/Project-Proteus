@@ -77,7 +77,6 @@ return {
 			{"Invincible_Cruiser", 1},
 		}
 	},
-	-- Project Proteus Enhanced ; Era 4 - 6 SPMA-T -> with MAS 2xB
 	Era_4 = {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},

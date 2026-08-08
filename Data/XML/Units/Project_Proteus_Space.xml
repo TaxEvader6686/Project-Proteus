@@ -3,7 +3,7 @@
 	
 <!-- Light Frigate -->
 
-  <SpaceUnit Name="Consular">
+  	<SpaceUnit Name="Consular">
 		<Text_ID>TEXT_UNIT_CONSULAR</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 10</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
@@ -229,7 +229,7 @@
 		</Unit_Abilities_Data>
 	</SpaceUnit>
 
-  <SpaceUnit Name="LAC">
+  	<SpaceUnit Name="LAC">
 
 		<Text_ID>TEXT_UNIT_LAC</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 14</Encyclopedia_Unit_Class>
@@ -458,7 +458,7 @@
 				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 			</Laser_Defense_Ability>
 		</Abilities>
-  </SpaceUnit>
+  	</SpaceUnit>
 
 	<SpaceUnit Name="IPV1_Gunboat_Proteus"> <!-- Not needed for IA -->
 		<Variant_Of_Existing_Type>Template_IPV1_Gunboat</Variant_Of_Existing_Type>
