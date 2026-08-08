@@ -1,6 +1,4 @@
-﻿TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
-TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -95,8 +93,18 @@ TEXT_EVENT_DASTA_FIGHTER_CHOICE_BODY,Procure starfighters from either Imperial o
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_HEADER,Procure Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,Imperial Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,New Republic Starfighters
+TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
+TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
@@ -186,6 +194,7 @@ TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
 TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
 TEXT_PROTEUS_DESCRIPTION_SHADOW_ACADEMY,The Second Imperium was a hardliner faction within the Imperial Remnant, forming alongside but unaffiliated with the Replacement Warlords of the Deep Core. Originally obscure and unimportant, they surged to momentary prominence after the Pellaeon-Gavrisom-Treaty, decrying the peace accords as surrender and urging the Imperial splinters to make war upon the New Republic. To rally support, four royal guards faked the return of Emperor Palpatine and started the Shadow Academy, a mobile cloaked facility for indoctrinating young force-sensitives into dark jedi, and embarked on a campaign of piracy and sabotage to build up forces to assault the Jedi Praxeum on Yavin IV.  
+TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
@@ -845,6 +854,7 @@ TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter c
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by Admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KALE,An Imperial officer stationed on Kuat, Anton Kale firmly believed the Empire was the galaxy's best hope for lasting order. Fascinated by starship engineering and naval design, he personally lobbied for assignment to Kuat so he could oversee the construction and testing of the Empire's most advanced warships. Following Endor, Kale remained committed to defending Imperial rule from the Kuat Sector.
+TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire. Like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.
 TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
 TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
@@ -854,6 +864,7 @@ TEXT_TOOLTIP_KLUCREHULK_RESEARCH,Take inspiration from the old Confederacy and u
 TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegally acquired by Kiara Schmog into production. This upgrade will replace all previous instances of the Drexl with Preybirds and all previous instances of Z-95s with Drexls.
 TEXT_TOOLTIP_KSM_RESEARCH,
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
+TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
 TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
@@ -1119,6 +1130,7 @@ TEXT_TOOLTIP_SP9_HEALTH,Health: 125 (Speeder)
 TEXT_TOOLTIP_SP9_MOVE,Speed: 1.0
 TEXT_TOOLTIP_SP9_WEAP1,1x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
 TEXT_TOOLTIP_STAR_DESTROYER_STEALTH,The Imperial Stealth Destroyer was a rare modification of the standard ISD, adapted for unconventional warfare and covert strike operations. Outfitted with a prototype Hybridium stealth drive, the vessel could mask its emissions and reduce sensor visibility for limited durations, allowing it to reposition undetected and execute sudden, high intensity attacks. Retaining the full armament and intimidation factor of a standard Imperial Star Destroyer, this variant was uniquely suited for hit and run tactics. Though highly effective in ambush operations and rapid strikes against vulnerable targets, the complexity and cost of the stealth systems limited widespread adoption, leaving only a handful of such modified destroyers in service.
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_ION,A variant more focused on taking down shields than crushing hulls, this star destroyer utilizes octuple ion cannons over octuple turbolasers. Despite losing a good amount of lethal firepower, it still is a great danger to encounter on the battlefield.
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY,An adaptation of the Imperial II-Class of Star Destroyers that saw increased usage in warlord arsenals and backwater garrisons after the Battle of Endor. A simplified and lighter weapons loadout makes maintenance easier and offers improved defense against strike craft, making it a good choice when facing enemies relying on small craft like pirates or the New Republic. The lower power draw of the weapons also leaves more power for shields and damage control systems. While not as powerful against capital ships as its base design, this variant is still quite threatening to most opponents.
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_HULL,Hull: 8400 (Capital)
@@ -1330,6 +1342,7 @@ TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specifications of those formerly used by Lord Vader's elite pilots. Adds shields, weapons and SLAM capabilities at the cost of base engine speed.
 TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
+TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
 TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
@@ -1511,15 +1524,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
-TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
-TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
-TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
-TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
-TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
-TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
-TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
