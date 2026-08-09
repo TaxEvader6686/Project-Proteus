@@ -1,7 +1,4 @@
-﻿TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
-TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
-TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
-D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -96,8 +93,18 @@ TEXT_EVENT_DASTA_FIGHTER_CHOICE_BODY,Procure starfighters from either Imperial o
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_HEADER,Procure Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,Imperial Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,New Republic Starfighters
+TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
+TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
+TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
@@ -142,6 +149,7 @@ TEXT_HERO_HSSISSK,Hssissk
 TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_JAEFFIS,Jaeffis
 TEXT_HERO_KALE,Anton Kale
+TEXT_HERO_KASTOR,Kastor
 TEXT_HERO_KILE_HANNAD,Kile Hannad
 TEXT_HERO_KLEMP,Klemp
 TEXT_HERO_LEZNER,Director Lezner
@@ -150,6 +158,7 @@ TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
 TEXT_HERO_MICHAEL,Michael
 TEXT_HERO_NAMMAN,Namman Cha
+TEXT_HERO_POLLUX,Pollux
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_REBUILD_TAX,MPTL
 TEXT_HERO_RED_STAR,Iran Ryad
@@ -162,6 +171,7 @@ TEXT_HERO_SUPERNOVA,Supernova
 TEXT_HERO_T11,T-11
 TEXT_HERO_TAXEVADER,xXTaxEvaderXx
 TEXT_HERO_TEZRIN,Dongal Tezrin
+TEXT_HERO_THARKUS,Tharkus
 TEXT_HERO_THETA,Theta Leader
 TEXT_HERO_YARNAR,Yarnar
 TEXT_HERO_YEORG_CAPTISON,Yeorg Captison
@@ -187,6 +197,7 @@ TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of
 TEXT_PROTEUS_DESCRIPTION_REBORN,The Imperial Procurator of Justice, Lord Hethrir, went underground following the Imperial defeat at Endor, building a network of support in the shadows. After Palpatine's final death, he rechristened his faction 'Empire Reborn' and worked with the Dark Jedi Desann and Admiral Galak Fyyar in creating a new army of force-using soldiers to unleash upon the galaxy.
 TEXT_PROTEUS_DESCRIPTION_RENDILI,The core world of Rendili, a center of shipbuilding and military industry, became an Imperial fortress world after the death of the Emperor, successfully holding out even as most of the core was liberated by the New Republic. Following the end of the Reborn Emperor's campaigns, the Imperial forces on Rendili left and the planet joined the New Republic.
 TEXT_PROTEUS_DESCRIPTION_SHADOW_ACADEMY,The Second Imperium was a hardliner faction within the Imperial Remnant, forming alongside but unaffiliated with the Replacement Warlords of the Deep Core. Originally obscure and unimportant, they surged to momentary prominence after the Pellaeon-Gavrisom-Treaty, decrying the peace accords as surrender and urging the Imperial splinters to make war upon the New Republic. To rally support, four royal guards faked the return of Emperor Palpatine and started the Shadow Academy, a mobile cloaked facility for indoctrinating young force-sensitives into dark jedi, and embarked on a campaign of piracy and sabotage to build up forces to assault the Jedi Praxeum on Yavin IV.  
+TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General Weir of the Storm Commandos was placed in charge of an imperial outpost on Tralus which stockpiled weapons and vehicles and projected imperial power over the Corellia system. Amidst the chaos following the Rebellion's victory at Endor, this outpost would serve as a rallying point for the remaining Storm Commandos and as a staging area for terror attacks and insurgent operations against the New Republic and its sympathizers.
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
@@ -542,6 +553,7 @@ TEXT_TOOLTIP_ACCLAMATOR_DESTROYER_WEAP4,2x Proton Torpedoes: 2 / 7.5s / 5.3km
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in demand for cargo ships and freighters, alongside a post-war surplus of previously mass-produced Acclamators that were no longer needed in peacetime. Thus the remaining military Acclamators were widely converted into cargo ships to meet this new demand, repurposing the vehicle bay into a large cargo bay.
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
 TEXT_TOOLTIP_ARMORED_INTERCEPTOR_RESEARCH_ELROOD,Configure Elroods TIE Interceptors with additional hull plating, granting them improved survivability.
+TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_AS_INTERCEPTOR_ELITE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install some torpedo launchers and upgraded laser cannons with power systems to match. The increased power supply and propulsion systems allow the craft to compensate for its increased mass from all the added systems. The result is a heavy fighter with enormous firepower that retains a stunning nimbleness, at the cost of being expensive and requiring a lot of maintenance. These adaptations represent the apex of what the TIE Interceptor hull can achieve even with extensive modifications, only the purpose-build Royal Guard Interceptors surpass them.
 TEXT_TOOLTIP_AS_INTERCEPTOR_ION,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to replace the chin-mounted secondary laser cannons with ion cannons, with upgraded power and propulsion systems to regain some of the base model's agility despite the additional mass. The result is a capable fighter, able to engage a wide variety of targets, but expensive and difficult to maintain. These adaptations represent the apex of what the TIE Interceptor hull can achieve even with extensive modifications, only the purpose-build Royal Guard Interceptors surpass them.
 TEXT_TOOLTIP_AS_INTERCEPTOR_MISSILE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install internal launchers for small anti-fighter missiles and hardpoints for anti-ship munitions on the wings. In addition, an overhaul of the power and propulsion systems claws back some of the stock model's performance lost to the increased mass. The result is an expensive and maintenance-heavy fighter that is exceptionally versatile and deadly while remaining nimble despite the heavier load and shield generator. These adaptations represent the apex of what the TIE Interceptor hull can achieve even with extensive modifications, only the purpose-build Royal Guard Interceptors surpass them.
@@ -674,10 +686,12 @@ TEXT_TOOLTIP_COMEG_UPGRADE,Upgrade: Bellator
 TEXT_TOOLTIP_COMMAND_1214,Modified Maelstrom Battlecruiser, Rain of Destruction
 TEXT_TOOLTIP_COMMAND_ACROPORA,Tector Star Destroyer, Acropora
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
+TEXT_TOOLTIP_COMMAND_AMBITION,Executor Star Dreadnought, Ambition
 TEXT_TOOLTIP_COMMAND_BADMOTORFINGER,Communications Battlecruiser, Badmotorfinger
 TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
 TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE,Bou'Halec Star Dreadnought, Dream of a Quiet Life
 TEXT_TOOLTIP_COMMAND_FROSTFIRE,Modified Ascendancy Star Destroyer, Frostfire
+TEXT_TOOLTIP_COMMAND_GREED,Imperial-I Star Destroyer, Greed
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
 TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
 TEXT_TOOLTIP_COMMAND_MAHKKAR,Interceptor I-class Frigate
@@ -846,6 +860,8 @@ TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter c
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by Admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KALE,An Imperial officer stationed on Kuat, Anton Kale firmly believed the Empire was the galaxy's best hope for lasting order. Fascinated by starship engineering and naval design, he personally lobbied for assignment to Kuat so he could oversee the construction and testing of the Empire's most advanced warships. Following Endor, Kale remained committed to defending Imperial rule from the Kuat Sector.
+TEXT_TOOLTIP_KASTOR,TODO
+TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire. Like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.
 TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
 TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
@@ -855,6 +871,7 @@ TEXT_TOOLTIP_KLUCREHULK_RESEARCH,Take inspiration from the old Confederacy and u
 TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegally acquired by Kiara Schmog into production. This upgrade will replace all previous instances of the Drexl with Preybirds and all previous instances of Z-95s with Drexls.
 TEXT_TOOLTIP_KSM_RESEARCH,
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
+TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
 TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
@@ -921,6 +938,7 @@ TEXT_TOOLTIP_NAMMAN,Namman Cha was a Human male and an aspiring Dark Jedi in lea
 TEXT_TOOLTIP_NAMMAN_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_NAMMAN_MOVE,Speed: 1.2
 TEXT_TOOLTIP_NAMMAN_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
+TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1,9x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD,Neimoidian soldiers originally drawn into service defending Neimoidia and its purse worlds. These Guard units could be transferred to defending worlds where droids were unusable along with serving as protection for Separatist officials. They are drawn from all aspects of Neimoidian society including mercenaries and convicts given promise of amnesty. The capabilities of these infantry are not to be underestimated; they are heavily armed and highly motivated enough to prove doubtful claims about Neimoidian mettle false.
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY,Company: 24x Neimoidian Guard
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
@@ -949,6 +967,7 @@ TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_HEALTH,Health: 150 (Light Vehicle)
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_MOVE,Speed: 1.25 | Turn: 4.0
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP1,1x AV Beam Cannon: 12 / 1.5s / 320m
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP2,1x Heavy AI Blaster Cannon (AOE): 1 / 0.5s / 240m
+TEXT_TOOLTIP_POLLUX,TODO
 TEXT_TOOLTIP_PRAETOR_I,A large battleship produced before the Clone Wars to be flaunted by wealthy sectors and planets. While the vessels originally had hamstrung hyperdrives due to regulations, wartime conditions saw them upgraded out of necessity as task force leaders and response units. 
 TEXT_TOOLTIP_PRAETOR_I_HULL,Hull: 32940 (Capital)
 TEXT_TOOLTIP_PRAETOR_I_MOVE,Speed: 2.45 | Accel: 0.1 | Turn: 0.175
@@ -1022,6 +1041,7 @@ TEXT_TOOLTIP_ROGRISS_UPGRADE2,Upgrade: Praetor (Requires Kuat and Kuat Minor War
 TEXT_TOOLTIP_ROOK,TODO
 TEXT_TOOLTIP_SCHMONG,Kiara Schmong was a Sullustan arms dealer and spy who constantly switched affiliations, though she most prominently worked for the Kaarenth Dissension. Selling them illegally sourced SoroSuub hardware and scientific secrets stolen from the Brothers Teradoc, she was last seen fleeing New Republic authorities.
 TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber completely.
+TEXT_TOOLTIP_SEPARATOR_DEFAULT_BLOCK,===============DEFAULT GARRISONS===============
 TEXT_TOOLTIP_SHADOW_ACCLAMATOR_I,A large, transgalactic assault vessel that was secretly developed before the Clone Wars. While best known for carrying army groups, it is typically used as a carrier in naval duties. Carries enough turbolasers to threaten other large ships, but is not durable for the size. Coated in black stygian-triprismatic polymer, this vessel was almost impossible to detect at sensor range and nearly invisible to the naked eye in deep space.
 TEXT_TOOLTIP_SHADOW_ATAT,The Shadow AT-AT was an All Terrain Armored Transport walker covered with gleaming black armor. Utilized by the Galactic Empire during the Galactic Civil War fought against the Alliance to Restore the Republic, the Shadow AT-AT was created solely for the purpose of intimidating enemy forces rather than performing stealth operations. The Alliance's soldiers found the Shadow AT-AT to be one of the most frightening specters on the battlefield. 
 TEXT_TOOLTIP_SHADOW_ATAT_COMPANY,Company: 1x Shadow AT-AT Walker
@@ -1120,6 +1140,7 @@ TEXT_TOOLTIP_SP9_HEALTH,Health: 125 (Speeder)
 TEXT_TOOLTIP_SP9_MOVE,Speed: 1.0
 TEXT_TOOLTIP_SP9_WEAP1,1x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
 TEXT_TOOLTIP_STAR_DESTROYER_STEALTH,The Imperial Stealth Destroyer was a rare modification of the standard ISD, adapted for unconventional warfare and covert strike operations. Outfitted with a prototype Hybridium stealth drive, the vessel could mask its emissions and reduce sensor visibility for limited durations, allowing it to reposition undetected and execute sudden, high intensity attacks. Retaining the full armament and intimidation factor of a standard Imperial Star Destroyer, this variant was uniquely suited for hit and run tactics. Though highly effective in ambush operations and rapid strikes against vulnerable targets, the complexity and cost of the stealth systems limited widespread adoption, leaving only a handful of such modified destroyers in service.
+TEXT_TOOLTIP_STAR_DESTROYER_TWO_EMPIRE_SHIELD,Shields: 10000 / [50/R] (Capital)
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_ION,A variant more focused on taking down shields than crushing hulls, this star destroyer utilizes octuple ion cannons over octuple turbolasers. Despite losing a good amount of lethal firepower, it still is a great danger to encounter on the battlefield.
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY,An adaptation of the Imperial II-Class of Star Destroyers that saw increased usage in warlord arsenals and backwater garrisons after the Battle of Endor. A simplified and lighter weapons loadout makes maintenance easier and offers improved defense against strike craft, making it a good choice when facing enemies relying on small craft like pirates or the New Republic. The lower power draw of the weapons also leaves more power for shields and damage control systems. While not as powerful against capital ships as its base design, this variant is still quite threatening to most opponents.
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_SENTRY_HULL,Hull: 8400 (Capital)
@@ -1163,6 +1184,7 @@ TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP3,2x Medium Laser Cannons: 2 / 0.5s / 4.
 TEXT_TOOLTIP_TAXEVADER,fxXTaxEvaderXx was the director of Project Proteus. Following a major political defeat in the Engyneering County Informer of Deer elections TaxEvader fled to a salubrious cove where he claimed the title unopposed. Following the mysterious deaths of various major figures within the cove at the hands of a demonic entity TaxEvader fled to Denmark. There he tricked two factions of a school into fighting each other because they annoyed him. During this time he developed the missile trouts and began planning the early stages of Project Proteus. TaxEvader was presumed dead after accidentally lending his flintlock to a fugitive, the Killer Girl, in one of his schemes. But they were wrong, for he will live forever.
 TEXT_TOOLTIP_TAXEVADER_UPGRADE,Upgrade: Modified Bou'Halec
 TEXT_TOOLTIP_TEZRIN,Dongal Tezrin was the captain of the light cruiser Rintonne's Flame. He was assigned to patrol the Elrood sector during the Galactic Civil War. He was known to be a very irritable person.
+TEXT_TOOLTIP_THARKUS,TODO
 TEXT_TOOLTIP_THETA_ASSAULT_SHUTTLE,A militarized variant of a venerable Cygnus design. While the original transport model is decently armed with lasers, this version packs additional warhead launchers. Famous as a VIP shuttle and a boarding transport for the 501st Stormtrooper Legion.
 TEXT_TOOLTIP_THETA_SQUADRON,TIE Bombers of the Theta Squadron, known for its effectiveness of well timed bombing runs both in space and land engagement. It was under command of Lumiya, Dark Lady of the Sith, following the decimation of her fleet in the Nagai–Tof War and assigned to EF76 Nebulon-B escort frigate "Revenant". Theta Squadron participated in the assault led by Lumiya on the Communications Research space station Epsilon Nine.
 TEXT_TOOLTIP_THORN_HEALTH,Health: 200 [2%/5s] (Hero)
@@ -1269,6 +1291,9 @@ TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
+TEXT_UNIT_ARMYGUARD_MEDIC,Army Guard Medic
+TEXT_UNIT_ARMYGUARD_MEDIC_SQUAD,Army Guard Medic Squad
+TEXT_UNIT_ARMYGUARD_MEDIUM_SQUAD,Army Guard Fireteam
 TEXT_UNIT_AT_ACT_WALKER,AT-ACT Walker
 TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
 TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
@@ -1331,6 +1356,7 @@ TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specifications of those formerly used by Lord Vader's elite pilots. Adds shields, weapons and SLAM capabilities at the cost of base engine speed.
 TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
+TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
 TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
@@ -1342,6 +1368,11 @@ TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator Battlecruiser
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
+TEXT_UNIT_NAVYCOMMANDO_MEDIC,Navy Commando Medic
+TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD,Navy Commando Medic Squad
+TEXT_UNIT_NAVYCOMMANDO_MEDIUM_SQUAD,Navy Commando Fireteam
+TEXT_UNIT_NAVYTROOPER_MEDIC,Navy Trooper Medic
+TEXT_UNIT_NAVYTROOPER_MEDIC_SQUAD,Navy Trooper Medic Squad
 TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
 TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT
 TEXT_UNIT_NEIMOIDIAN_GUARD_GRENADIER,Neimoidian Guard Grenadier

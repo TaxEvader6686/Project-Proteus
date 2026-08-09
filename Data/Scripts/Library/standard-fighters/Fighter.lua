@@ -85,7 +85,7 @@ return {
 			GAROS = {"HOWLRUNNER_SQUADRON", false},
 			HAMMERS = {"HOWLRUNNER_SQUADRON", false},
 			IMPERIAL_LIANNA = {"GAMBLE_FIGHTER", false},
-			ISECTOR = {"HOWLRUNNER_SQUADRON", false},
+			ISECTOR = {"NIMBUS_V_WING_ESK_SQUADRON", false},
 			JARDEEN = {"HOWLRUNNER_SQUADRON", false},
 			KAARENTH_DISSENSION = {"Z95_HEADHUNTER_SQUADRON", false,
 					{"KPreybird", "DREXL_SQUADRON", false}}, --research 1

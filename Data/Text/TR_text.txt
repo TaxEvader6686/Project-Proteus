@@ -6283,7 +6283,7 @@ TEXT_TOOLTIP_COMMAND_EMANCIPATOR,Modified Imperial-I Star Destroyer, Emancipator
 TEXT_TOOLTIP_COMMAND_EMPERORS_TITAN,AT-AT Walker, Emperor's Titan
 TEXT_TOOLTIP_COMMAND_EMPERORSDISCIPLE,Imperial-I Star Destroyer, Emperor's Disciple
 TEXT_TOOLTIP_COMMAND_EMPERORSREVENGE,Imperial-II Star Destroyer, Emperor's Revenge
-TEXT_TOOLTIP_COMMAND_EMPIRE,Imperial-II Star Destroyer, Empire
+TEXT_TOOLTIP_COMMAND_EMPIRE,Imperial-II Star Destroyer Prototype, Empire
 TEXT_TOOLTIP_COMMAND_ENDOFDAYS,Keldabe Battleship, End of Days
 TEXT_TOOLTIP_COMMAND_ENDURANCE,Endurance Star Destroyer, Endurance
 TEXT_TOOLTIP_COMMAND_ENFORCE,Victory-I Star Destroyer, Enforce

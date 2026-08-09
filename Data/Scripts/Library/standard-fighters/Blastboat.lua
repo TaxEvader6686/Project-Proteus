@@ -63,7 +63,7 @@ return {
 			GAROS = {"VCX_820_SQUADRON", false},
 			HAMMERS = {"SKIPRAY_SQUADRON", false},
 			IMPERIAL_LIANNA = {"ADVANCED_SKIPRAY_SQUADRON", false},
-			ISECTOR = {"EARLY_SKIPRAY_SQUADRON", false},
+			ISECTOR = {"FIRESPRAY_GUNSHIP_SQUADRON", false},
 			JARDEEN = {"SKIPRAY_SQUADRON", false},
 			KAARENTH_DISSENSION = {"SKIPRAY_SQUADRON", false,
 					{"SkiprayZeta", "SKIPRAY_ION_SQUADRON", false}}, --research 1

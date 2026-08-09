@@ -1840,6 +1840,212 @@
 		</Abilities>
 	</UniqueUnit>
 
+	<DummyStructure Name="Kiez_Whelm_Dummy">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TOOLTIP_COMMAND_WHELM</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_EXECUTOR_HULL
+		TEXT_TOOLTIP_EXECUTOR_SHIELD
+		TEXT_TOOLTIP_EXECUTOR_MOVE
+		TEXT_TOOLTIP_EXECUTOR_SQUADRON
+		TEXT_TOOLTIP_EXECUTOR_WEAP1
+		TEXT_TOOLTIP_EXECUTOR_WEAP2
+		TEXT_TOOLTIP_EXECUTOR_WEAP3
+		TEXT_TOOLTIP_EXECUTOR_WEAP4
+		TEXT_TOOLTIP_EXECUTOR_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_kiez_ssd.tga</Icon_Name>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>30000</Build_Cost_Credits>
+		<Build_Time_Seconds>4</Build_Time_Seconds>
+
+		<Required_Special_Structures>Imperial_Proteus_Shipyard_Level_Four, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		
+		<Population_Value>217</Population_Value>
+
+		<Required_Orbiting_Units>Kiez_Empire</Required_Orbiting_Units>
+	</DummyStructure>
+
+	<UniqueUnit Name="Tharkus_Greed">
+		<Variant_Of_Existing_Type>Imperial_I_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_THARKUS</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
+		TEXT_TOOLTIP_TRAIT_UTILITY_ANTI_PARTISAN
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_THARKUS
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_GREED
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP2
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_tharkus.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Ranking_In_Category>2</Ranking_In_Category>
+		
+		<Tech_Level>99</Tech_Level>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Intel Focus -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.39</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<DummyStructure Name="Tharkus_Ambition_Dummy">
+		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_TOOLTIP_COMMAND_AMBITION</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_UPGRADE_FLAG
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
+		TEXT_TOOLTIP_TRAIT_UTILITY_ANTI_PARTISAN
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_EXECUTOR_HULL
+		TEXT_TOOLTIP_EXECUTOR_SHIELD
+		TEXT_TOOLTIP_EXECUTOR_MOVE
+		TEXT_TOOLTIP_EXECUTOR_SQUADRON
+		TEXT_TOOLTIP_EXECUTOR_WEAP1
+		TEXT_TOOLTIP_EXECUTOR_WEAP2
+		TEXT_TOOLTIP_EXECUTOR_WEAP3
+		TEXT_TOOLTIP_EXECUTOR_WEAP4
+		TEXT_TOOLTIP_EXECUTOR_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_tharkus_ssd.tga</Icon_Name>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>30000</Build_Cost_Credits>
+		<Build_Time_Seconds>4</Build_Time_Seconds>
+
+		<Required_Special_Structures>Imperial_Proteus_Shipyard_Level_Four, AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		
+		<Population_Value>217</Population_Value>
+
+		<Required_Orbiting_Units>Tharkus_Greed</Required_Orbiting_Units>
+	</DummyStructure>
+
+		<UniqueUnit Name="Tharkus_Ambition">
+		<Variant_Of_Existing_Type>Executor_Star_Dreadnought</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_THARKUS</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
+		TEXT_TOOLTIP_TRAIT_UTILITY_ANTI_PARTISAN
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_THARKUS
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_AMBITION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_EXECUTOR_HULL
+		TEXT_TOOLTIP_EXECUTOR_SHIELD
+		TEXT_TOOLTIP_EXECUTOR_MOVE
+		TEXT_TOOLTIP_EXECUTOR_SQUADRON
+		TEXT_TOOLTIP_EXECUTOR_WEAP1
+		TEXT_TOOLTIP_EXECUTOR_WEAP2
+		TEXT_TOOLTIP_EXECUTOR_WEAP3
+		TEXT_TOOLTIP_EXECUTOR_WEAP4
+		TEXT_TOOLTIP_EXECUTOR_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_tharkus_ssd.tga</Icon_Name>
+		
+		<CategoryMask> SuperCapital | AntiCapital </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		
+		<Ranking_In_Category>1</Ranking_In_Category>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Tech_Level>99</Tech_Level>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.39</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
 <!-- ============================ Ground ============================= -->
 	
 	<HeroUnit Name="Argor">
@@ -7322,6 +7528,123 @@
 		<Tactical_Build_Cost_Multiplayer>6265</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+	</HeroCompany>
+  
+  
+	<HeroUnit Name="Pollux">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_POLLUX</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_POLLUX
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_pollux.tga</Icon_Name>
+		
+		<Ranking_In_Category>10</Ranking_In_Category>
+		
+		<Affiliation>Independent_Forces</Affiliation>
+		
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit> <!-- Stealth heroes spawn in orbit -->
+		
+		<Abilities SubObjectList="Yes"> <!-- Spy -->
+			<Galactic_Stealth_Ability Name="Spy_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			<System_Spy_Ability Name="Spy_System">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>No</See_Num_Fleets>
+				<See_Fleet_Contents>No</See_Fleet_Contents>
+				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="Pollux_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_POLLUX</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_POLLUX
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_pollux.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Pollux</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+	</HeroCompany>
+
+		<HeroUnit Name="Kastor">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_KASTOR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KASTOR
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_kastor.tga</Icon_Name>
+		
+		<Ranking_In_Category>10</Ranking_In_Category>
+		
+		<Affiliation>Independent_Forces</Affiliation>
+		
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit> <!-- Stealth heroes spawn in orbit -->
+		
+		<Abilities SubObjectList="Yes"> <!-- Spy -->
+			<Galactic_Stealth_Ability Name="Spy_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			<System_Spy_Ability Name="Spy_System">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>No</See_Num_Fleets>
+				<See_Fleet_Contents>No</See_Fleet_Contents>
+				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="Kastor_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_KASTOR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_KASTOR
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_kastor.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Kastor</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+
 	</HeroCompany>
 
 </Project_Proteus_Heroes>
