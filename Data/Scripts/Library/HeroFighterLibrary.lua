@@ -855,6 +855,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"THORN", Locations = {"THORN_ASSERTOR"}},
 			}
 		},
+
 		["BENJO_ALPHA_LOCATION_SET"] = {
 			Hero_Squadron = "BENJO_ALPHA_SQUADRON",
 			PopupBody = "BENJO_ALPHA_SELECTOR_BODY",
@@ -867,6 +868,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"SHADOW_VENGEANCE", Locations = {"SHADOW_VENGEANCE_STAR_DREADNOUGHT"}},
 			}
 		},
+
 		["KILE_HANNAD_LOCATION_SET"] = {
 		 	Hero_Squadron = "PRAETORIAN_SQUADRON",
 			Factions = {"Imperial_Proteus"},
@@ -881,6 +883,7 @@ function Get_Hero_Entries(upgrade_object)
 			Enabler = "REFORM_PRAETORIAN",
 			DeathMessage = "Kile Hannad has sustained heavy injuries and needs medical treatment.",
 		},
+
 		["YARNAR_LOCATION_SET"] = {
 			Hero_Squadron = "YARNAR_SQUADRON",
 			PopupBody = "YARNAR_SELECTOR_BODY",
@@ -899,6 +902,7 @@ function Get_Hero_Entries(upgrade_object)
 				{"THORN", Locations = {"THORN_ASSERTOR"}},
 			}
 		},
+
 		["HSSISSK_LOCATION_SET"] = {
 			Hero_Squadron = "HSSISSK_SQUADRON",
 			Factions = {"Imperial_Proteus"},
@@ -912,14 +916,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"TAVIRA", Locations = {"TAVIRA_INVIDIOUS"}},
 				{"SLAGORTH", Locations = {"SLAGORTH_ARC"}},
 			}
-		},
-		["REBUILD_TAX"] = {
-			NoInit = true,
-			GroundReinforcementPerception = "Tax_In_Orbit",
-			GroundCompany = "TAXEVADER_TEAM",
-			Factions = {"Imperial_Proteus"},
-			NoSpawnFlag = "TAXEVADER_MPTL_DEAD",
-			DeathMessage = "xXTaxEvaderXx's MPTL has been destroyed and must be replaced."
 		},
 	}
 

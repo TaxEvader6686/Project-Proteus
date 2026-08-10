@@ -1137,21 +1137,4 @@
 	<TransportUnit Name="Gallofree_Transport_Commander_Hapes_Landing">
 		<Variant_Of_Existing_Type>Gallofree_Transport_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
-
-	<TransportUnits Name="Shuttle_Tyderium_Hethrir">
-		<Variant_Of_Existing_Type>Shuttle_Tyderium_Admin</Variant_Of_Existing_Type>
-	</TransportUnits>
-
-	<TransportUnit Name="Shuttle_Tyderium_X1">
-		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
-	</TransportUnit>
-	
-	<TransportUnit Name="Gallofree_Transport_TaxEvader">
-		<Variant_Of_Existing_Type>Yacht_Shuttle</Variant_Of_Existing_Type>
-		<No_Colorization_Color> 270, 100, 50, 255 </No_Colorization_Color>
-	</TransportUnit>
-
-	<TransportUnit Name="Shuttle_Tyderium_Michael">
-		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
-	</TransportUnit>
 </TransportUnits>

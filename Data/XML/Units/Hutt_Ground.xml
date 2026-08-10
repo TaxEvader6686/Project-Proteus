@@ -1724,7 +1724,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Hutt_Cartels,Imperial_Proteus</Affiliation>
+		<Affiliation>Hutt_Cartels</Affiliation>
 		<Political_Control />
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

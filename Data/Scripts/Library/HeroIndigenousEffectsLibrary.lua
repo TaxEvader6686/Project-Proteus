@@ -80,12 +80,6 @@ return {
 			RecruitingFaction = "FRIENDLY",
 			RecruitingMessage = "Merili's attack inside of the collective mind of the local populace has caused them to join our side, for the time being.",
 		},
-		THARKUS = {
-			HeroName = {"Tharkus_Greed", "Tharkus_Ambition"},
-			GroundPerception = "Tharkus_In_Orbit",
-			RecruitingFaction = "ENEMY",
-			RecruitingMessage = "High Admiral Tharkus has ordered a ruthless crackdown on civilian resistance, inciting a massive uprising against his forces.",
-		},
 	},
 	PARTISAN_SUPPRESSION = {
 		ISARD1 = {

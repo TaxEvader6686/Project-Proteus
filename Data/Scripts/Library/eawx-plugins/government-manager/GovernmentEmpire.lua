@@ -7,7 +7,6 @@ require("eawx-util/StoryUtil")
 require("eawx-util/UnitUtil")
 require("UnitSwitcherLibrary")
 require("eawx-util/Sort")
-require("eawx-util/StringUtil")
 CONSTANTS = ModContentLoader.get("GameConstants")
 
 ---@class GovernmentEmpire
@@ -220,12 +219,6 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
         ["COMEG_BELLATOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_COMEG",
         ["X1_EXECUTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_WARLORD_X1",
         ["THORN_ASSERTOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THORN",
-		["HARRSK_MEGADOR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_HARRSK",
-		["DESANNE_DOMINION"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_DESANNE",
-        ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_TAX",
-        ["MICHAEL_TERROR"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_MICHAEL",
-        ["THARKUS_AMBITION"] = "TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THARKUS",
-		
     }
 
     self.planet_values = {
@@ -253,8 +246,6 @@ function GovernmentEmpire:new(gc, absorb, dark_empire_available, id)
     crossplot:subscribe("DARK_EMPIRE_CHEAT_CHOICE_MADE", self.dark_empire_unlock, self)
     crossplot:subscribe("DARK_EMPIRE_CHOICE_MADE", self.dark_empire_choice_made, self)
     crossplot:subscribe("FACTION_DISPLAY_NAME_CHANGE", self.faction_display_name_change, self)
-    crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
-    crossplot:subscribe("KUAT_BC_CHOICE_OPTION", self.kuat_battlecruisers, self)
 
     if self.human_is_imperial == true then
         crossplot:subscribe("UPDATE_GOVERNMENT", self.UpdateDisplay, self)
@@ -549,20 +540,6 @@ function GovernmentEmpire:update()
             end
         end
     end
-
-    local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-    if proteus == "DASTA" then
-        if GlobalValue.Get("CURRENT_ERA") >= 14 then
-            local dasta = Find_First_Object("RAGEZ_DASTA_MARAUDER")
-            if TestValid(dasta) then
-                dasta.Despawn()
-                if self.PlayerImperial_Proteus.Is_Human() then
-                    StoryUtil.Multimedia("TEXT_CONQUEST_PROTEUS_DASTA_RAGEZ_RETIRE", 10, nil, "Ragez_DAsta_Loop", 0)
-                end
-                self.leader_table["FEENA_DASTA_TEAM"] = "FEENA_DASTA"
-            end
-        end
-    end
 end
 
 function GovernmentEmpire:process_pending_integrations()
@@ -734,17 +711,7 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
         self:tagge_handler(planet, game_object_type_name)
     end
 
-    local market_updates = {
-        ["DUMMY_RECRUIT_GROUP_DELURIN"] = "DRAGON",
-        ["DUMMY_RECRUIT_GROUP_WESSEX"] = "WESSEX",
-    }
-    for group, event in pairs(market_updates) do
-        if game_object_type_name == group then
-            crossplot:publish("UPDATE_MARKET",event)
-        end
-    end
-
-    if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
+	if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
         --locks first loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
             "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
@@ -756,57 +723,14 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
     elseif game_object_type_name == "SELLASAS_LOADOUT_SWAP2" then
         --locks second loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
+            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
         }, false)
         --unlocks first
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
+            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
         })
     end
 
-    if string.find(game_object_type_name, "DUMMY_RANDOM_UNIT_") then
-        local location = Find_First_Object(game_object_type_name).Get_Planet_Location().Get_Type().Get_Name()
-        self:gamble_manager(game_object_type_name, location)
-    end
-
-    if game_object_type_name == "DASTA_PROCURE_FIGHTERS" then
-        GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
-    elseif game_object_type_name == "KUAT_CHOOSE_BC" then
-        GenericPopup("KUAT_BC_CHOICE", {"PRAETOR_II_BATTLECRUISER", "PRAETOR_CARRIER_BATTLECRUISER", "COMMUNICATIONS_BATTLECRUISER", "SORANNAN_STAR_DESTROYER"}, "KUAT_BC_CHOICE_OPTION")
-    end
-end
-
-function GovernmentEmpire:dasta_fighters(choice)
-    --Logger:trace("entering GovernmentEmpire:dasta_fighters")
-    local option = string.gsub(choice, "DASTA_FIGHTER_CHOICE_", "")
-    option = string.lower(option)
-    option = CapitalizeFirstCharacterOfEachSentence(option)
-    Set_Fighter_Research("DastaFighters"..option)
-end
-
-function GovernmentEmpire:kuat_battlecruisers(choice)
-    --Logger:trace("entering GovernmentEmpire:kuat_battlecruisers")
-    crossplot:publish("UPDATE_MARKET", "KUAT_BC")
-    local battlecruiser = string.gsub(choice, "KUAT_BC_CHOICE_", "")
-    self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type(battlecruiser))
-end
-
-function GovernmentEmpire:gamble_manager(unit_type, location)
-    --Logger:trace("entering GovernmentEmpire:gamble_manager")
-    local gamble_table = require("GambleLibrary")
-    local src_obj = Find_First_Object(unit_type)
-        
-    for dummyobj, optionsdata in pairs(gamble_table) do
-        if dummyobj == unit_type then
-            local posnr = GameRandom.Free_Random(1,table.getn(optionsdata))
-            for pos, unit in pairs(optionsdata) do
-                if pos == posnr then
-                    local spawn = StoryUtil.SpawnAtSafePlanet(location, Find_Player("Imperial_Proteus"), StoryUtil.GetSafePlanetTable(), {unit}, true, false)
-                    src_obj.Despawn()
-                end
-            end
-        end
-    end
 end
 
 function GovernmentEmpire:tagge_handler(planet, game_object_type_name)

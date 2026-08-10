@@ -1,3 +1,0 @@
-return {
-	Flags = {FULLINHERIT = "PROCURATOR_BATTLECRUISER"}
-}

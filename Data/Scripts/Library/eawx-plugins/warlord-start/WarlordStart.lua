@@ -55,11 +55,9 @@ function get_value_per_era(array, year, nontable)
 		local corenne = array[1]
 		local maxevent = 0 --The order of evaluation is not guaranteed
 		for event, data in pairs(array) do
-			if type(event) == "number" then
-				if year >= event and event > maxevent then
-					maxevent = event
-					corenne = data
-				end
+			if year >= event and event > maxevent then
+				maxevent = event
+				corenne = data
 			end
 		end
 		return corenne
@@ -171,25 +169,11 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
         UnitUtil.SetLockList(self.warlord_name, get_value_per_era(initial_proteus_lock_units, year), false)
     end
 	
-	if entry.UnlockList then
-		local unlock = get_value_per_era(entry.UnlockList, year)
-		if entry.UnlockList["TimeGate"] then
-			local gated = entry.UnlockList["TimeGate"]
-			StoryUtil.ShowScreenText("Debug: TimeGate found", 15, nil, {r = 244, g = 244, b = 0})
-			for _, data in pairs(gated) do
-				if year >= data[2] then
-					StoryUtil.ShowScreenText("Debug: Unlock - "..data[1].." for "..data[2], 15, nil, {r = 244, g = 244, b = 0})
-					table.insert(unlock, data[1])
-				end
-				if data[3] then
-					Find_Player("IMPERIAL_PROTEUS").Lock_Tech(Find_Object_Type(data[3]))
-				end
-			end
-		end
-		UnitUtil.SetLockList(self.warlord_name, unlock)
-	end
 	if entry.LockList then
 		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.LockList, year), false)
+	end
+	if entry.UnlockList then
+		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.UnlockList, year))
 	end
 
 	if cosmetic ~= nil then

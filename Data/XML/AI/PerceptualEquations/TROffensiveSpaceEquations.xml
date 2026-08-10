@@ -453,8 +453,7 @@
 			Parameter_Type = "Valles_Interdictor",
 			Parameter_Type = "Krieg_Immobilizer",
 			Parameter_Type = "Commander_III_Interdictor_Star_Destroyer",
-			Parameter_Type = "DHC_Interdictor",
-			Parameter_Type = "TaxEvader_SynTax_Error"
+			Parameter_Type = "DHC_Interdictor"
 			}
 	</Has_Interdictor>
 

@@ -36,15 +36,6 @@ return {
 	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
 	["GRONN_ACULEUS_DUMMY"] = {"Gronn_Acropora","Gronn_Aculeus"},
 	["THORN_ASSERTOR_DUMMY"] = {"Thorn","Thorn_Assertor"},
-	["COMEG_BELLATOR_DUMMY"] = {"Comeg_Ostrander","Comeg_Bellator"},
-	["X1_EXECUTOR_DUMMY"] = {"X1","X1_Executor"},
-	["ROGRISS_AURORA_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Aurora"},
-	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
-	["KALE_MODERNIZED_DUMMY"] = {"Anton_Kale", "Anton_Kale_Modernized"},
-	["THARKUS_AMBITION_DUMMY"] = {"Tharkus_Greed", "Tharkus_Ambition"},
-	["KIEZ_WHELM_DUMMY"] = {"Kiez_Empire", "Kiez_Whelm"},
-	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
-	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
@@ -121,5 +112,4 @@ return {
 	["DUMMY_RECRUIT_GROUP_THORN"] = {nil,{"Thorn_Assertor"}},
 	--Unit upgrades for generics
 	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
-	["PROCURATOR_UPGRADE_DUMMY"] = {"Procurator_Battlecruiser","Modernized_Procurator",["location_check"] = true},
 }

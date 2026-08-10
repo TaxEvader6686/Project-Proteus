@@ -12433,7 +12433,7 @@ TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Squadron: 6x Theta Assault Sh
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP1,2x Fighter Laser Cannons: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP2,1x Heavy Fighter Laser Cannon: 2 / 3.0s / 1.0km
 TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Concussion Missile (AF): 2 / 12.5s / 1.8km 
-TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP4,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3,1x Fighter Assault Concussion Missile: 1 / 37.5s / 1.8km
 TEXT_STATBLOCK_TIE_AGGRESSOR_BASE,Health: 12 | Unshielded
 TEXT_STATBLOCK_TIE_AGGRESSOR_MOVE,Speed: 6.61 | Maneuverability: 3.75
 TEXT_STATBLOCK_TIE_AGGRESSOR_SQUADRON,Squadron: 12x TIE Aggressor
@@ -20858,7 +20858,8 @@ TEXT_TOOLTIP_SCAV_WEAP3,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SCHMONG,Kiara Schmong was a Sullustan arms dealer and spy who constantly switched affiliations, though she most prominently worked for the Kaarenth Dissension. Selling them illegally sourced SoroSuub hardware and scientific secrets stolen from the Brothers Teradoc, she was last seen fleeing New Republic authorities.
 TEXT_TOOLTIP_SCIMITAR,Designed by Sienar under Tomax Bren's proposal for a TIE Bomber Mark 2, the Scimitar assault bomber has improved durability, shielding and faster speed compared to the TIE Bomber at the cost of a leaner payload. It was kept in production outside off the book test models before the return of Grand Admiral Thrawn, who demanded a new generation bomber from his reading of Bren's work. Sienar then began official production on the Scimitar, with the bomber becoming a valuable asset to Thrawn's military that saw use in the Empire for decades to come.
 TEXT_TOOLTIP_SCIMITAR_RESEARCH,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber on these ships:
-TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber completely.
+TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber completely. 
+TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber completely. 
 TEXT_TOOLTIP_SCIMITAR_WHITE_DEATH,Members of the Scimitar assault wing "White Death" under the lead of Tomax Bren. Their battle name refers to the light-color of their bombers, making them difficult to spot by ground targets until they were already upon them. "White Death" pilots are highly disciplined even on dangerous missions, yet they are constantly striving to surpass their already outstanding results. Combined with their adherence to the New Order this has allowed the Scimitar wing to operate without severe scrutiny from their superiors.
 TEXT_TOOLTIP_SCORPENEK,The Annihilator Droid is the apex of Colicoid engineering, a formidable platform built on the success of the Droideka to destroy enemy tanks and troop transports that might threaten their homeworld. Though they lack the rolling mobility of their smaller cousins, Annihilators pack powerful shield generators and versatile cannons that can engage heavy armor or fire in lower power modes to defeat infantry. Too expensive to see truly mass use and seldom deployed off of Colla, the rarely seen "Scorpeneks" have become the subject of fearsome legends.
 TEXT_TOOLTIP_SCORPENEK_COMPANY,Company: 3x Scorpenek Annihilator Droid
@@ -24926,6 +24927,7 @@ TEXT_UNIT_ISB_STORMTROOPER_GRENADIER,ISB Stormtrooper Grenadier
 TEXT_UNIT_ISB_STORMTROOPER_SERGEANT,ISB Stormtrooper Sergeant
 TEXT_UNIT_ISB_STORMTROOPER_SQUAD,ISB Stormtrooper Squad
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
+TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_JANAH_BOMBER,Janah Bomber
 TEXT_UNIT_JEDI,Jedi Knight
 TEXT_UNIT_JEDI_CONSULAR,Jedi Consular
@@ -25008,6 +25010,7 @@ TEXT_UNIT_LUCREHULK_BULK_CRUISER,Lucrehulk Bulk Cruiser
 TEXT_UNIT_LUCREHULK_CORE_DESTROYER,Lucrehulk Core Destroyer
 TEXT_UNIT_LUCREHULK_TRANSPORT,Lucrehulk Transport
 TEXT_UNIT_LUCREHULKAUXILIARY,Lucrehulk Auxiliary Warship
+TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_LUXURY_BARGE,Luxury-class Sail Barge
@@ -26012,6 +26015,7 @@ TEXT_UNIT_VPOAV,V-PO-AV
 TEXT_UNIT_VPOAV_COMPANY,V-PO-AV Company
 TEXT_UNIT_VT49_DECIMATOR,VT-49 Decimator
 TEXT_UNIT_VT49_DECIMATOR_GROUP,VT-49 Decimator Group
+TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
 TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
 TEXT_UNIT_WAMPA,Wampa
 TEXT_UNIT_WAMPA_CLIFF,Cliff Wampa

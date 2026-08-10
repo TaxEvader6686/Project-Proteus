@@ -1,3 +1,0 @@
-return {
-	Flags = {FULLINHERIT = "EXECUTOR_STAR_DREADNOUGHT"}
-}

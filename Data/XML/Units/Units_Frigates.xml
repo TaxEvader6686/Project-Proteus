@@ -5564,6 +5564,70 @@
 		<Death_Clone> Damage_Normal, Acclamator_I_Death_Clone</Death_Clone>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Shadow_Acclamator_I_Carrier">
+		<Variant_Of_Existing_Type>Template_Acclamator_I_Carrier</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_SHADOW_ACCLAMATOR_I</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SHADOW_ACCLAMATOR_I
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_I_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_I_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_I_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_I_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP2 
+		TEXT_TOOLTIP_ACCLAMATOR_I_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+
+		<Space_Model_Name>shadow_ev_acclamator_i.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_SHADOW_IMPERATOR_CARRIER.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHADOW_ACCLAMATOR_CRUISER.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Death_Clone> Damage_Normal, Shadow_Acclamator_I_Death_Clone</Death_Clone>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+				<Expiration_Seconds>30.0</Expiration_Seconds>
+				<Recharge_Seconds>75.0</Recharge_Seconds>
+				<!-- <Active_By_Default>Yes</Active_By_Default> -->
+				<GUI_Activated_Ability_Name>Shadow_Acclamator_I_Carrier_Stealth</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Shadow_Acclamator_I_Carrier_Stealth">
+				<Activation_Style> User_Input </Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Stealth_Color>255, 255, 255, 235</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
+		</Abilities>
+	</SpaceUnit>
+
 	<SpaceUnit Name="Acclamator_I_Assault">
 		<Variant_Of_Existing_Type>Template_Acclamator_I_Assault</Variant_Of_Existing_Type>
 
@@ -6225,6 +6289,73 @@
 
 	</SpaceUnit>
 
+	<!--Carrier VSD-->
+
+	<SpaceUnit Name="Victory_II_Carrier">
+		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 200</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VICTORY2_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VICTORY2_HULL
+		TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER
+		TEXT_TOOLTIP_VICTORY2_MOVE
+		TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
+
+		<Shield_Points>3000</Shield_Points>
+		<Population_Value>17</Population_Value>
+		<Build_Cost_Credits>3400</Build_Cost_Credits>
+		<AI_Combat_Power>1217</AI_Combat_Power>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four | Tierfon_Shipyard_Capital,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
+		</Required_Special_Structures>
+		
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<HardPoints>
+		HP_Victory2_Carrier_LQLC_01, HP_Victory2_Carrier_LQLC_02,
+		HP_Victory2_Carrier_LSIC_01, HP_Victory2_Carrier_LSIC_02, HP_Victory2_Carrier_LSIC_03, HP_Victory2_Carrier_LSIC_04,
+		HP_Victory2_Carrier_LDTL_01, HP_Victory2_Carrier_LDTL_02, HP_Victory2_Carrier_LDTL_03, HP_Victory2_Carrier_LDTL_04,
+		HP_Victory2_Destroyer_Engines, HP_Victory2_Destroyer_Fighter_Bay
+        </HardPoints>
+		
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_gt_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_gt_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Victory_II_Destroyer_Death_Clone</Death_Clone>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>1925</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+	</SpaceUnit>
+
 	<!-- Legitimacy reward for all except Greater_Maldrood -->
 	<SpaceUnit Name="Crimson_Victory_II_Star_Destroyer">
 		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
@@ -6257,7 +6388,7 @@
 		Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four |
 		Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
 		Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
-		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four | Tierfon_Shipyard_Capital |
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
 		</Required_Special_Structures>
@@ -6391,6 +6522,7 @@
 		<Tactical_Build_Prerequisite/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
+
 
 	<SpaceUnit Name="Bulwark_I">
 		<Variant_Of_Existing_Type>Template_Bulwark_I</Variant_Of_Existing_Type>
@@ -7716,7 +7848,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Super_Transport_XI_Missile_Pirate">
+		<SpaceUnit Name="Super_Transport_XI_Missile_Pirate">
 		<Variant_Of_Existing_Type>Template_Super_Transport_XI_Missile</Variant_Of_Existing_Type>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
@@ -7730,6 +7862,34 @@
 		</Required_Special_Structures>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
+
+		<SpaceUnit Name="Refit_Venator_Star_Destroyer_Proteus">
+		<Variant_Of_Existing_Type>Template_Refit_Venator_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
+		</Required_Special_Structures>
+		<Required_Planets/>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Starting_Spawned_Units_Tech_0>Drexl_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Dunelizard_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Drexl_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Dunelizard_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Venator_Death_Clone</Death_Clone>
+
 	</SpaceUnit>
 
 <!-- Convoy hunt mission targets -->

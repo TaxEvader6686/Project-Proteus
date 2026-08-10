@@ -41,7 +41,7 @@ return {
 		"Imperial_Army_Commando_Company", "Security_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company", "PX10_Company", "New_Republic_AA5_Company", "Arrow_23_Company", "1M_Tank_Company", "JX40_Company", "Strikebreaker_Company", "Teklos_Company", "Tracked_Shield_Disabler_Company",
 		"Citadel_Cruiser_Group", "Neutron_Star", "Super_Transport_XI_Missile",
 		--Tierfon Sector added units
-		"Tartan_Patrol_Cruiser","Pursuit_Light_Cruiser","Vector_Star_Destroyer",
+		"Tartan_Patrol_Cruiser","Pursuit_Light_Cruiser",
 		"Imperial_I_Star_Destroyer_Assault","Secutor_Star_Destroyer","Praetor_II_Battlecruiser","Praetor_Carrier_Battlecruiser","Altor_Replenishment_Ship",
 		"Assertor_Star_Dreadnought",
 		"Imperial_Fleet_Commando_Company","64_Y_Swift_Repulsorlift_Sled_Company","Imperial_TX130T_Company", "Imperial_Shadow_LAAT_Company",
@@ -63,7 +63,7 @@ return {
 		"Mandator_II_Dreadnought",
 		"Dragon_Trooper_Company", "Light_Mercenary_Company", "Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "Imperial_AT_RT_Company", "Imperial_ISP_Company", "Arrow_23_Company", "AA70_Company", "Imperial_APC_Company", "SPMAT_Company", "Talon_Flamestrike_Cloud_Car_Company", "Imperial_Modified_LAAT_Company", "AT_OT_Walker_Company", "Imperial_A4_Juggernaut_Company", "CEC_HQ", "TaggeCo_HQ",
         --Tapani Sector added units
-		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier", "Proteus_A9_Research",
+		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier", "Tapani_A9_Research",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company", "Firebird_Stormtrooper_Company_Proteus",
         --Protectorate of Prakith added units 
         "Red_Police_Company", "Darksider_Company", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
@@ -105,8 +105,6 @@ return {
 		"Triumph_Star_Destroyer",
 		"DHC_Interdictor",
 		"Vindicator_Carrier",
-		"Trenchant",
-		"Imperial_II_Star_Destroyer_Sentry",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
@@ -136,12 +134,4 @@ return {
 		"Luxury_Barge_Company",
 		--Wessex added units
 		"Relgim_ATWalker_Research_Proteus", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
-		--Zsinj Remnants added units
-		"Raptor_Commando_Company",
-	    --Balmorra and Rendili added units
-	    "Marauder_Missile_Cruiser", "AAC_I_Company", "Freerunner_Assault_Company", "CC7700_E", "Aratech_Battle_Platform_Company", "MAL_Rocket_Vehicle_Company", "Modernized_DHC", "Picket_DHC", "Overracer_Speeder_Bike_Company",
-		--Imperial Hutt Space added units
-		"Victory_I_Star_Destroyer_Patrol",
-		--Secret added units
-		"Nebula_Star_Destroyer", "Vontor_Destroyer", "Mediator",
 }

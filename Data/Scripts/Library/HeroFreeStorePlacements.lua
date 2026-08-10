@@ -569,39 +569,4 @@ return {
     ,SUPER_TRANSPORT_XI_CARGO_B = {"Is_Convoy_Planet", true}
     ,ALTOR_TRANSPORT_A = {"Is_Convoy_Planet", true}
     ,ALTOR_TRANSPORT_B = {"Is_Convoy_Planet", true}
-
-    --Project Proteus
-    ,KIARA_SCHMONG = {nil, true}
-    ,T11 = {nil, true}
-    ,MAHKKAR = {nil, true}
-    ,TEZRIN_RINTONNES_FLAME = {nil, true}
-    ,BRELLAR_ONSLAUGHT = {nil, true}
-    ,KLEMP_REBUKE = {nil, true}
-    ,HARRSK_MEGADOR = {nil, true}
-    ,DESANNE_DOMINION = {nil, true}
-    ,ARGOR_TEAM = {nil, false}
-    ,MERILI_TEAM = {nil, false}
-    ,JACE_YIASO_TEAM = {nil, false}
-    ,GURNST_TEAM = {nil, false}
-    ,CARNOR_JAX_PROTEUS_TEAM = {nil, false}
-    ,DOMINA_TAGGE_TEAM = {"Is_Production_Planet", false}
-    ,DIMONE_IRRV_TEAM = {"Is_Production_Planet", false}
-    ,YEORG_CAPTISON_TEAM = {"Is_Production_Planet", false}
-    ,REE_SHALA_TEAM = {"Is_Production_Planet", false}
-    ,RBANN_TEAM = {nil, false}
-    ,MALLAT_TEAM = {"Is_Production_Planet", false}
-    ,SHARA_OR_TEAM = {nil, false}
-    ,TYIONSIS_CEX_TEAM = {nil, false}
-    ,GRUNGER_MAHLER = {nil, true}
-    ,ROEK_RECKONING = {nil, true}
-    ,JAEFFIS_PUNISHER = {nil, true}
-    ,NAMMAN_TEAM = {nil, false}
-    ,X1_TEAM = {nil, false}
-    ,GK121_TEAM = {nil, false}
-    ,HAL_RAZOR_TEAM = {nil, false}
-    ,REBUS_TEAM = {"Is_Production_Planet", false}
-    ,GRONN_ACROPORA = {nil, true}
-    ,THORN_TEAM = {nil, false}
-    ,LEZNER_TEAM = {nil, false}
-    
 }

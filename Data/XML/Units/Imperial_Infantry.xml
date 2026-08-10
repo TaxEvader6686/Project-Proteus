@@ -11731,7 +11731,7 @@
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 
 		<Armor_Type> ArmourG_Infantry </Armor_Type>
-		<Tactical_Health>18</Tactical_Health>
+		<Tactical_Health>16</Tactical_Health>
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 
 		<Damage>0.6</Damage>

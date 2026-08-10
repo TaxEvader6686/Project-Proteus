@@ -110,20 +110,7 @@ return {
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
                 "TaggeCo_HQ",
-                "GormTalquist_HQ",
-				-- Historical-only units
-				"Navy_Commando_Company",
-				"Dark_Trooper_Phase_II_Company",
-				"AT_MP_Company",
-				"AT_ST_Company",
-				"Imperial_Missile_Artillery_Company",
-				"B5_Juggernaut_Company",
-				"Imperial_AT_TE_Walker_Company",
-				"Raider_I_Corvette",
-				"Raider_II_Corvette",
-				"Gladiator_II",
-				"Acclamator_I_Carrier",
-				"Acclamator_Battleship",
+                "GormTalquist_HQ"
             }, false)
 			
 			UnitUtil.SetLockList("IMPERIAL_PROTEUS", {

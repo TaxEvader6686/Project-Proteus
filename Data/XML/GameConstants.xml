@@ -2471,7 +2471,6 @@
 		Acclamator_I_Supercruiser,						Data\ShipNames\acclamator_I.txt,
 		Venator_8X,										Data\ShipNames\Star_Destroyer.txt,
 		Procurator_Battlecruiser,						Data\ShipNames\Procurator.txt,
-		Modernized_Procurator,							Data\ShipNames\Procurator.txt,
 		Imperial_II_Star_Destroyer_Ion,					Data\ShipNames\Star_Destroyer.txt,
 		Imperial_I_Star_Destroyer_Hero_Refit_Proteus,	Data\ShipNames\Star_Destroyer.txt,
 		Bayonet_Cruiser,								Data\ShipNames\tartan_patrol_cruiser.txt,
@@ -2489,9 +2488,6 @@
 		Zeta_Strike,									Data\ShipNames\Strike_Cruiser.txt,
 		Providence_Carrier_Destroyer_Pirate,			Data\ShipNames\Providence.txt,
 		Refit_Venator_Star_Destroyer_Proteus,			Data\ShipNames\Venator.txt,
-		Vector_Star_Destroyer,							Data\ShipNames\victory_destroyer_II.txt,
-		Victory_I_Star_Destroyer_Patrol,				Data\ShipNames\Victory_Destroyer.txt,
-		Imperial_II_Star_Destroyer_Sentry,				Data\ShipNames\Star_Destroyer.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

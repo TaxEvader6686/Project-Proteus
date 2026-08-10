@@ -709,7 +709,7 @@
 		<AI_Combat_Power>2888</AI_Combat_Power>
 		<Damage>60</Damage>
 
-		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control/>
 		<Override_Bounty_SP>85</Override_Bounty_SP>
 		<Maintenance_Cost>63</Maintenance_Cost>
@@ -735,7 +735,6 @@
 		<Build_Time_Seconds>105</Build_Time_Seconds>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>
@@ -1875,6 +1874,163 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 	</SpaceUnit>
+
+	<SpaceUnit Name="Imperial_I_Star_Destroyer_Stealth">
+		<Variant_Of_Existing_Type>Template_Imperial_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_STEALTH</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STAR_DESTROYER_STEALTH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP2
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_IMPERATOR_STEALTH.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Property_Flags>Boardable</Property_Flags>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Star_Destroyer_One_Death_Clone</Death_Clone>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>3550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+				<Expiration_Seconds>18.0</Expiration_Seconds>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<!-- <Active_By_Default>Yes</Active_By_Default> -->
+				<GUI_Activated_Ability_Name>Imperial_I_Star_Destroyer_Stealth</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Imperial_I_Star_Destroyer_Stealth">
+				<Activation_Style> User_Input </Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Stealth_Color>255, 255, 255, 235</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
+		</Abilities>
+
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Shadow_Imperial_I_Star_Destroyer_Carrier">
+		<Variant_Of_Existing_Type>Template_Imperial_Star_Destroyer_Carrier</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SHADOW_STAR_DESTROYER_CARRIER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SHADOW_STAR_DESTROYER_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_WEAP2
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_WEAP5
+		TEXT_TOOLTIP_STAR_DESTROYER_CARRIER_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Space_Model_Name>shadow_imperial_class_star_destroyer_carrier.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_SHADOW_IMPERATOR_CARRIER.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Property_Flags>Boardable</Property_Flags>
+
+		<HardPoints>
+			HP_Star_Destroyer_Carrier_Weapon_01, HP_Star_Destroyer_Carrier_Weapon_02, HP_Star_Destroyer_Carrier_Weapon_03, HP_Star_Destroyer_Carrier_Weapon_04, HP_Star_Destroyer_Carrier_Weapon_05, HP_Star_Destroyer_Carrier_Weapon_06, HP_Star_Destroyer_Carrier_Weapon_07,
+			HP_Star_Destroyer_Carrier_Weapon_08, HP_Star_Destroyer_Carrier_Weapon_09, HP_Star_Destroyer_Carrier_Weapon_10, HP_Star_Destroyer_Carrier_Weapon_11, HP_Star_Destroyer_Carrier_Weapon_12, HP_Star_Destroyer_Carrier_Weapon_13, HP_Star_Destroyer_Carrier_Weapon_14,
+			HP_Star_Destroyer_Carrier_Weapon_15, HP_Star_Destroyer_Carrier_Weapon_16, HP_Star_Destroyer_Carrier_Weapon_17, HP_Star_Destroyer_Carrier_Weapon_18,  HP_Star_Destroyer_Carrier_Weapon_19, HP_Star_Destroyer_Carrier_Weapon_20,
+			HP_Star_Destroyer_Carrier_Engines, HP_Star_Destroyer_Carrier_Hangar_01, HP_Star_Destroyer_Carrier_Hangar_02,
+			<!-- HP_Star_Destroyer_Stealth_Carrier_Main_Battery_1, HP_Star_Destroyer_Stealth_Carrier_Main_Battery_2, HP_Star_Destroyer_Stealth_Carrier_Main_Battery_3, HP_Star_Destroyer_Stealth_Carrier_Main_Battery_4,
+			HP_Star_Destroyer_Stealth_Carrier_Main_Battery_5, HP_Star_Destroyer_Stealth_Carrier_Main_Battery_6, HP_Star_Destroyer_Stealth_Carrier_Main_Battery_7, HP_Star_Destroyer_Stealth_Carrier_Main_Battery_8 -->
+		</HardPoints>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron_Half, 3</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+				<Expiration_Seconds>25.0</Expiration_Seconds>
+				<Recharge_Seconds>80.0</Recharge_Seconds>
+				<!-- <Active_By_Default>Yes</Active_By_Default> -->
+				<GUI_Activated_Ability_Name>Shadow_Imperial_I_Star_Destroyer_Carrier_Stealth</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Shadow_Imperial_I_Star_Destroyer_Carrier_Stealth">
+				<Activation_Style> User_Input </Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Stealth_Color>255, 255, 255, 235</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
+		</Abilities>
+	</SpaceUnit>
 	
 	<SpaceUnit Name="Imperial_I_Star_Destroyer_Patrol">
 		<Variant_Of_Existing_Type>Template_Imperial_Star_Destroyer</Variant_Of_Existing_Type>
@@ -2198,6 +2354,96 @@
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Triumph_Star_Destroyer">
+		<Variant_Of_Existing_Type>Template_Tector_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TRIUMPH</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 480</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TRIUMPH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRIUMPH_HULL
+		TEXT_TOOLTIP_TRIUMPH_SHIELD
+		TEXT_TOOLTIP_TECTOR_MOVE
+		TEXT_TOOLTIP_TRIUMPH_WEAP1
+		TEXT_TOOLTIP_TRIUMPH_WEAP2
+		TEXT_TOOLTIP_TRIUMPH_WEAP3
+		TEXT_TOOLTIP_TRIUMPH_WEAP4
+		TEXT_TOOLTIP_TRIUMPH_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRIUMPH.tga</Icon_Name>
+
+		<Space_Model_Name>triumph_class_star_destroyer.ALO</Space_Model_Name>
+		
+		<Shield_Points>7000</Shield_Points>
+		<Tactical_Health>8580</Tactical_Health>
+
+		<AI_Combat_Power>2884</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Property_Flags>Boardable</Property_Flags>
+		<Build_Cost_Credits>5800</Build_Cost_Credits>
+		<Build_Time_Seconds>105</Build_Time_Seconds>
+		<Required_Special_Structures>
+			Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+			AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Population_Value>29</Population_Value>
+
+		<HardPoints>
+			HP_Triumph_Engines,
+			HP_Triumph_HDTL_01, HP_Triumph_HDTL_02, HP_Triumph_HDTL_03, HP_Triumph_HDTL_04, HP_Triumph_HDTL_05,
+			HP_Triumph_MDTL_01, HP_Triumph_MDTL_02, HP_Triumph_MDTL_03, HP_Triumph_MDTL_04,
+			HP_Triumph_LDTL_01, HP_Triumph_LDTL_02, HP_Triumph_LDTL_03, HP_Triumph_LDTL_04,
+			HP_Triumph_HSIC_01, HP_Triumph_HSIC_02, HP_Triumph_HSIC_03, HP_Triumph_HSIC_04,
+			HP_Triumph_ACM_01, HP_Triumph_ACM_02, HP_Triumph_ACM_03, HP_Triumph_ACM_04,
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Radar_Icon_Name>i_radar_victory.tga</Radar_Icon_Name>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Triumph_Star_Destroyer_Hero_Refit">
+		<Variant_Of_Existing_Type>Triumph_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TRIUMPH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRIUMPH_HERO_HULL
+		TEXT_TOOLTIP_TRIUMPH_HERO_SHIELD
+		TEXT_TOOLTIP_TECTOR_MOVE
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP1
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP2
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP3
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRIUMPH.tga</Icon_Name>
+		
+		<Shield_Points>8250</Shield_Points>
+		<Shield_Refresh_Rate>41.25</Shield_Refresh_Rate>
+		<Tactical_Health>8250</Tactical_Health>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Property_Flags/>
+
+		<HardPoints>
+			HP_Triumph_Engines_Hero,
+			HP_Triumph_HDTL_01_Hero, HP_Triumph_HDTL_02_Hero, HP_Triumph_HDTL_03_Hero, HP_Triumph_HDTL_04_Hero,
+			HP_Triumph_MQTL_01_Hero, HP_Triumph_MQTL_02_Hero, HP_Triumph_MQTL_03_Hero, HP_Triumph_MQTL_04_Hero,
+			HP_Triumph_MDTL_01_Hero, HP_Triumph_MDTL_02_Hero, HP_Triumph_MDTL_03_Hero, HP_Triumph_MDTL_04_Hero, HP_Triumph_MDTL_05_Hero, HP_Triumph_MDTL_06_Hero,
+			HP_Triumph_ACM_01_Hero, HP_Triumph_ACM_02_Hero, HP_Triumph_ACM_03_Hero, HP_Triumph_ACM_04_Hero, HP_Triumph_ACM_05_Hero, HP_Triumph_ACM_06_Hero, HP_Triumph_ACM_07_Hero,
+		</HardPoints>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Template_MC90">	<!-- Needs to exist so death clones aren't inherited -->
@@ -5247,7 +5493,7 @@
 		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 
-		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
@@ -5255,7 +5501,6 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Dreadnought_Category_Dummy
 		</Required_Special_Structures>
@@ -7365,6 +7610,50 @@
 
 
 		<Death_Clone>Damage_Normal, Vengeance_SSD_Death_Clone</Death_Clone>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Shadow_Vengeance_Star_Dreadnought">
+		<Variant_Of_Existing_Type>Template_Vengeance_Star_Dreadnought</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SHADOW_VENGEANCE_DREADNOUGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SHADOW_VENGEANCE_DREADNOUGHT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_HULL
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_SHIELD
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_MOVE
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_SQUADRON
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_WEAP1
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_WEAP2
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_WEAP3
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_WEAP4
+		TEXT_TOOLTIP_VENGEANCE_DREADNOUGHT_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_VENGEANCE_DREADNOUGHT
+		</Encyclopedia_Text>
+		<Space_Model_Name>EV_Shadow_Vengeance.ALO</Space_Model_Name>
+		<Icon_Name>i_button_shadow_vengeance.TGA</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Dreadnought_Category_Dummy</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Heavy_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron_Double, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Heavy_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 3</Reserve_Spawned_Units_Tech_0>
+
+		<Death_Clone>Damage_Normal, Sysco_Vengeance_Death_Clone</Death_Clone> <!-- TODO STILL -->
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>2</Build_Limit_Lifetime_Per_Player>
+
 	</SpaceUnit>
 
 	<SpaceUnit Name="Sovereign_Star_Dreadnought">

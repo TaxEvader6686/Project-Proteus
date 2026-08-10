@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Campaigns> <!-- Imperial Proteus AI Player set to none (Empire, Proteus Control)-->
+<Campaigns>
 
 	<Campaign Name="Campaign_InstantAction_Corporate_Sector">
 		<Campaign_Set> Campaign_Set_InstantAction </Campaign_Set>
@@ -106,7 +106,7 @@
 		<AI_Player_Control>Hapes_Consortium, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Hostile, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Hutt_Cartels, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
-		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
 		<AI_Player_Control>Killik_Hives, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Mandalorians, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
@@ -702,7 +702,7 @@
 		<AI_Player_Control>Hapes_Consortium, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Hostile, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Hutt_Cartels, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
-		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, SandboxHuman</AI_Player_Control>
 		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
 		<AI_Player_Control>Killik_Hives, AI_Player_UnderworldStoryOpponent</AI_Player_Control>
 		<AI_Player_Control>Mandalorians, AI_Player_UnderworldStoryOpponent</AI_Player_Control>

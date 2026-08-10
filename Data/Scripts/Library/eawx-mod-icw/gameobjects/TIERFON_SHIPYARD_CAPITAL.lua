@@ -24,7 +24,7 @@ return {
 		["SKIRMISH_PROCURSATOR_STAR_DESTROYER"] = {
 			DEFAULT = {Initial = 2, Reserve = 0}
 		},
-		["SKIRMISH_TECTOR_STAR_DESTROYER"] = {
+		["SKIRMISH_VICTORY_II_STAR_DESTROYER"] = {
 			DEFAULT = {Initial = 2, Reserve = 0}
 		},
 	},

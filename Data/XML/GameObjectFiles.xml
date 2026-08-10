@@ -94,7 +94,7 @@
 	<File>NR_Government.xml</File>
 	<File>Government_EotH.xml</File>
 	<File>Options_TR.xml</File>
-	<File>Project_Proteus_Research_Dummies.xml</File>
+	<File>Z_Research_Dummies.xml</File>
 
 	<File>Units\Probe_Droids.xml</File>
 	<File>Units\Units_Fighters.xml</File>
@@ -128,8 +128,7 @@
 	<File>Units\Militia_Companies.xml</File>
 	<File>Units\Yevetha_Ground.xml</File>
 	<File>Units\Project_Proteus_Space.xml</File>
-	<File>Units\Project_Proteus_Fighters.xml</File>
-	<File>Units\Project_Proteus_Vehicles.xml</File>
+	<File>Units\Project_Proteus_Ground.xml</File>
 	<File>Units\Project_Proteus_Infantry.xml</File>
 	<File>Units\InfluenceRewards.xml</File>
 	<File>Units\InstantAction_Bases.xml</File>

@@ -1,1 +1,5 @@
-﻿
+﻿Duplicate identifier: TEXT_STATBLOCK_THETA_ASSAULT_SHUTTLE_WEAP3
+Duplicate identifier: TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1
+Duplicate identifier: TEXT_UNIT_IXIYEN_FIGHTER
+Duplicate identifier: TEXT_UNIT_LUCREHULKBATTLESHIP
+Duplicate identifier: TEXT_UNIT_VULTURE_DROID

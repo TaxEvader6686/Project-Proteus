@@ -8738,19 +8738,19 @@
 		<Build_Cost_Credits>400</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures>I_Ground_Barracks | Z_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Required_Special_Structures>Z_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Zsinj_Empire, Imperial_Proteus</Affiliation>
+		<Affiliation>Zsinj_Empire</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -10398,7 +10398,7 @@
 
 		<Land_Model_Name>Stormtrooper.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
-		<Icon_Name>I_BUTTON_FAUX_STORMTROOPER.tga</Icon_Name>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<AI_Combat_Power>173.80</AI_Combat_Power>
 		<Affiliation>Imperial_Proteus</Affiliation>
 
@@ -10500,7 +10500,7 @@
 
 		<Create_Team_Type> Faux_Stormtrooper_Main_Container </Create_Team_Type>
 		<Max_Squad_Size> 14 </Max_Squad_Size>
-		<Company_Units> Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper_Grenadier, Imperial_Stormtrooper_Sergeant</Company_Units>
+		<Company_Units> Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Sergeant, Imperial_Stormtrooper_Sergeant</Company_Units>
 	</GroundCompany>
 
 	<GroundCompany Name="Faux_Stormtrooper_Squad">
@@ -10519,7 +10519,7 @@
 		</Encyclopedia_Text>
 
 		<Create_Team_Type> Faux_Stormtrooper_Container </Create_Team_Type>
-		<Company_Units>Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper_Sergeant</Company_Units>
+		<Company_Units> Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Grenadier, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper, Faux_Stormtrooper_Sergeant</Company_Units>
 	</GroundCompany>
 
 	<Container Name="Faux_Stormtrooper_Main_Container">

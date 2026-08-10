@@ -60,20 +60,8 @@ return {
 	["KAARENTH_DISSENSION"] ="faction_58",
 	["RESTORED_EMPIRE"] ="faction_59",
 	["PRAJI"] ="faction_60",
-	["BALMORRA"] ="faction_61",	
-	["EMPIRE_REBORN"] ="faction_62",	
-	["SECOND_IMPERIUM"] ="faction_63",
-	["VEERS"] ="faction_64",
-	["LANOX"] ="faction_65",
-	["STORM_COMMANDOS"] ="faction_66",
-	["THARKUS"] ="faction_67",
-	["GRUNGER"] ="faction_68",
-	["THORN"] ="faction_69",
-	["ALLIED_TION"] ="faction_70",
-	["RENDILI"] ="faction_71",
-	["X1"] ="faction_72",
-	["SECRET"] ="faction_75",
-	
+	["GRUNGER"] ="faction_61",
+	["THORN"] ="faction_62",
 
 	["AllFactions"] = {
 		"REBEL", --New Republic
@@ -139,19 +127,8 @@ return {
 		"KAARENTH_DISSENSION",
 		"RESTORED_EMPIRE",
 		"PRAJI",
-		"BALMORRA",	
-		"EMPIRE_REBORN",	
-		"SECOND_IMPERIUM",
-		"VEERS",
 		"GRUNGER",
 		"THORN",
-		"ALLIED_TION",
-		"RENDILI",
-		"X1",
-		"THARKUS",
-		"LANOX",
-		"STORM_COMMANDOS",
-		"SECRET",
 	},
 
 	["Era_XML_Nums"] = {

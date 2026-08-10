@@ -48,7 +48,6 @@ GameObjectLibrary = {
         "Valles_Interdictor",
 		"Commander_III_Interdictor_Star_Destroyer",
         "DHC_Interdictor",
-        "TaxEvader_SynTax_Error",
     },
     Numbers = {
         "Display_One",

@@ -1268,7 +1268,7 @@
 				<Applicable_Unit_Types> 
 				Allegiance_Battlecruiser, Secutor_Star_Destroyer, Tector_Star_Destroyer, Imperial_II_Star_Destroyer, Interdictor_Star_Destroyer, Imperial_I_Star_Destroyer, Imperial_I_Star_Destroyer_Stealth, Shadow_Imperial_I_Star_Destroyer_Carrier, Mothma_Star_Destroyer, Venator_Star_Destroyer, Refit_Venator_Star_Destroyer, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Procursator_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_II, Gladiator_I, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Proteus_Cargo_Ship, Acclamator_I_Carrier, Shadow_Acclamator_I_Carrier, Acclamator_II, Acclamator_I_Assault, Imperial_Nebulon_B, Patrol_Nebulon_B, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Ton_Falk_Escort_Carrier, Eidolon, Enforcer_Picket_Cruiser, Surveyor_Frigate, Active_Frigate, Vigil, Shadow_Vigil, Broadside_Cruiser, Pursuit_Light_Cruiser, Imperial_I_Frigate, Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, VT49_Decimator_Group, Adz_Patrol_Destroyer, Star_Galleon, Galleon, Raider_II_Corvette, Raider_I_Corvette, Lancer_Frigate, Super_Transport_XI_Modified, Ubrikkian_Cruiser_GCW, Heavy_Minstrel_Yacht, Hutt_Galleon, Ubrikkian_Frigate, Kossak_Frigate, Super_Transport_VII_Interdictor,
 				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company,
-				Imperial_II_Star_Destroyer_Sentry, Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender, Vector_Star_Destroyer, Modernized_Procurator,
+				Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender
 				Imperial_A6_Juggernaut_Company, Imperial_A4_Juggernaut_Company, AT_OT_Walker_Company, UT_AT_Speeder_Company, Imperial_Shadow_LAAT_Company, Imperial_LAAT_Company, AT_AI_Walker_Company, Imperial_AT_ACT_Walker_Company, Camo_AT_TE_Walker_Company, AT_KT_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -1280,7 +1280,7 @@
 				<Applicable_Unit_Types> 	
 				Allegiance_Battlecruiser, Secutor_Star_Destroyer, Tector_Star_Destroyer, Imperial_II_Star_Destroyer, Interdictor_Star_Destroyer, Imperial_I_Star_Destroyer, Imperial_I_Star_Destroyer_Stealth, Shadow_Imperial_I_Star_Destroyer_Carrier, Mothma_Star_Destroyer, Venator_Star_Destroyer, Refit_Venator_Star_Destroyer, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Procursator_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_II, Gladiator_I, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Proteus_Cargo_Ship, Acclamator_I_Carrier, Shadow_Acclamator_I_Carrier, Acclamator_II, Acclamator_I_Assault, Imperial_Nebulon_B, Patrol_Nebulon_B, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Ton_Falk_Escort_Carrier, Eidolon, Enforcer_Picket_Cruiser, Surveyor_Frigate, Active_Frigate, Vigil, Shadow_Vigil, Broadside_Cruiser, Pursuit_Light_Cruiser, Imperial_I_Frigate, Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, VT49_Decimator_Group, Adz_Patrol_Destroyer, Star_Galleon, Galleon, Raider_II_Corvette, Raider_I_Corvette, Lancer_Frigate, Super_Transport_XI_Modified, Ubrikkian_Cruiser_GCW, Heavy_Minstrel_Yacht, Hutt_Galleon, Ubrikkian_Frigate, Kossak_Frigate, Super_Transport_VII_Interdictor,
 				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company,
-				Imperial_II_Star_Destroyer_Sentry, Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender, Vector_Star_Destroyer, Modernized_Procurator,
+				Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender
 				Imperial_A6_Juggernaut_Company, Imperial_A4_Juggernaut_Company, AT_OT_Walker_Company, UT_AT_Speeder_Company, Imperial_Shadow_LAAT_Company, Imperial_LAAT_Company, AT_AI_Walker_Company, Imperial_AT_ACT_Walker_Company, Camo_AT_TE_Walker_Company, AT_KT_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
@@ -1337,7 +1337,7 @@
 				<Applicable_Unit_Types> <!-- (Unimplemented Units) Venator_Siege_Refit, Venator_Retrofit, Gladiator_Siege_Refit-->
 				Legator_Star_Dreadnought, Eclipse_Star_Dreadnought, Assertor_Star_Dreadnought, Executor_Star_Dreadnought, Sovereign_Star_Dreadnought, Vengeance_Star_Dreadnought, Shadow_Vengeance_Star_Dreadnought, Mandator_III_Dreadnought, Mandator_II_Dreadnought, Bellator_Star_Dreadnought, Praetor_II_Battlecruiser, Praetor_Carrier_Battlecruiser, Sorannan_Star_Destroyer, Allegiance_Battlecruiser, Secutor_Star_Destroyer, Tector_Star_Destroyer, Imperial_II_Star_Destroyer, Interdictor_Star_Destroyer, Imperial_I_Star_Destroyer, Imperial_I_Star_Destroyer_Stealth, Shadow_Imperial_I_Star_Destroyer_Carrier, Mothma_Star_Destroyer, Venator_Star_Destroyer, Refit_Venator_Star_Destroyer, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Procursator_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_II, Gladiator_I, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Proteus_Cargo_Ship, Acclamator_I_Carrier, Shadow_Acclamator_I_Carrier, Acclamator_II, Acclamator_I_Assault, Imperial_Nebulon_B, Patrol_Nebulon_B, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Ton_Falk_Escort_Carrier, Eidolon, Enforcer_Picket_Cruiser, Surveyor_Frigate, Active_Frigate, Vigil, Shadow_Vigil, Broadside_Cruiser, Pursuit_Light_Cruiser, Imperial_I_Frigate, Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, VT49_Decimator_Group, Adz_Patrol_Destroyer, Star_Galleon, Galleon, Raider_II_Corvette, Raider_I_Corvette, Lancer_Frigate, Super_Transport_XI_Modified, Ubrikkian_Cruiser_GCW, Heavy_Minstrel_Yacht, Hutt_Galleon, Ubrikkian_Frigate, Kossak_Frigate, Super_Transport_VII_Interdictor,
 				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company,
-				Imperial_II_Star_Destroyer_Sentry, Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Compellor_Battlecruiser, Impellor_Carrier, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender, Vector_Star_Destroyer, Modernized_Procurator,
+				Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Compellor_Battlecruiser, Impellor_Carrier, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender
 				Imperial_A6_Juggernaut_Company, Imperial_A4_Juggernaut_Company, AT_OT_Walker_Company, UT_AT_Speeder_Company, Imperial_Shadow_LAAT_Company, Imperial_LAAT_Company, AT_AI_Walker_Company, Imperial_AT_ACT_Walker_Company, Camo_AT_TE_Walker_Company, AT_KT_Company     
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -1349,7 +1349,7 @@
 				<Applicable_Unit_Types> 
 				Legator_Star_Dreadnought, Eclipse_Star_Dreadnought, Assertor_Star_Dreadnought, Executor_Star_Dreadnought, Sovereign_Star_Dreadnought, Vengeance_Star_Dreadnought, Shadow_Vengeance_Star_Dreadnought, Mandator_III_Dreadnought, Mandator_II_Dreadnought, Bellator_Star_Dreadnought, Praetor_II_Battlecruiser, Praetor_Carrier_Battlecruiser, Sorannan_Star_Destroyer, Allegiance_Battlecruiser, Secutor_Star_Destroyer, Tector_Star_Destroyer, Imperial_II_Star_Destroyer, Interdictor_Star_Destroyer, Imperial_I_Star_Destroyer, Imperial_I_Star_Destroyer_Stealth, Shadow_Imperial_I_Star_Destroyer_Carrier, Mothma_Star_Destroyer, Venator_Star_Destroyer, Refit_Venator_Star_Destroyer, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Procursator_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_II, Gladiator_I, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Proteus_Cargo_Ship, Acclamator_I_Carrier, Shadow_Acclamator_I_Carrier, Acclamator_II, Acclamator_I_Assault, Imperial_Nebulon_B, Patrol_Nebulon_B, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Ton_Falk_Escort_Carrier, Eidolon, Enforcer_Picket_Cruiser, Surveyor_Frigate, Active_Frigate, Vigil, Shadow_Vigil, Broadside_Cruiser, Pursuit_Light_Cruiser, Imperial_I_Frigate, Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, VT49_Decimator_Group, Adz_Patrol_Destroyer, Star_Galleon, Galleon, Raider_II_Corvette, Raider_I_Corvette, Lancer_Frigate, Super_Transport_XI_Modified, Ubrikkian_Cruiser_GCW, Heavy_Minstrel_Yacht, Hutt_Galleon, Ubrikkian_Frigate, Kossak_Frigate, Super_Transport_VII_Interdictor,
 				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company,
-				Imperial_II_Star_Destroyer_Sentry, Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Compellor_Battlecruiser, Impellor_Carrier, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender, Vector_Star_Destroyer, Modernized_Procurator,
+				Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile, Pelta_Assault, Pelta_Support, Compellor_Battlecruiser, Impellor_Carrier, Maelstrom_Battlecruiser, Procurator_Battlecruiser, Triumph_Star_Destroyer, Auxilia, Lupus_Missile_Frigate, Corona_Tender
 				Imperial_A6_Juggernaut_Company, Imperial_A4_Juggernaut_Company, AT_OT_Walker_Company, UT_AT_Speeder_Company, Imperial_Shadow_LAAT_Company, Imperial_LAAT_Company, AT_AI_Walker_Company, Imperial_AT_ACT_Walker_Company, Camo_AT_TE_Walker_Company, AT_KT_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
@@ -1950,7 +1950,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
-				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor, Imperial_Republic_Star_Destroyer, Modernized_DHC, Picket_DHC, Vector_Star_Destroyer, Dummy_Random_Unit_Rendili_VSD, Dummy_Random_Unit_Rendili_DHC, Dummy_Random_Unit_Rendili_NSBC, Dummy_Random_Unit_Rendili_GSD,
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -1960,7 +1960,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
-				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor, Imperial_Republic_Star_Destroyer, Modernized_DHC, Picket_DHC, Vector_Star_Destroyer, Dummy_Random_Unit_Rendili_VSD, Dummy_Random_Unit_Rendili_DHC, Dummy_Random_Unit_Rendili_NSBC, Dummy_Random_Unit_Rendili_GSD,
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor   
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -3035,7 +3035,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Cost_Credits>2500</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Required_Special_Structures>Imperial_Proteus_Office</Required_Special_Structures>
 
@@ -3059,12 +3059,12 @@
 
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 
-		<Build_Limit_Current_Per_Player> -1 </Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player> 1 </Build_Limit_Current_Per_Player>
 
 		<Abilities SubObjectList="Yes">
 			<Planet_Income_Bonus_Ability Name="Biscuit_Baron_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_BISCUIT_BARON</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Percentage_Income_Modifier>0.2</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
 				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
@@ -3137,107 +3137,6 @@
 				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
 			</System_Spy_Ability>
 		</Abilities>
-	</SpecialStructure>
-	
-	<SpecialStructure Name="Praji_Estates">
-		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_COMPANY_PRAJI_ESTATES</Text_ID>
-
-		<Land_Model_Name>NB_Bothan_building.alo</Land_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Build_Cost_Credits>10000</Build_Cost_Credits>
-
-		<Required_Planets>Coruscant, Kaikielius</Required_Planets>
-
-		<Icon_Name>I_BUTTON_PRAJI_ESTATE.TGA</Icon_Name>
-
-		<Encyclopedia_Text>
-		TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_COMPANY_HEALTH
-		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
-		TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1
-		TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2
-		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
-		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
-		TEXT_TOOLTIP_SEPARATOR_LOCATION_BLOCK
-		TEXT_OBJECT_STAR_SYSTEM_CORUSCANT
-		TEXT_OBJECT_STAR_SYSTEM_KAIKIELIUS
-		</Encyclopedia_Text>
-
-		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_0>Elite_Mercenary_Heavy_Squad, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Elite_Mercenary_Heavy_Squad, 1</Reserve_Spawned_Units_Tech_0>
-
-		<Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Praji_Estate_Reduce_Production_Price">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-			</Reduce_Production_Price_Ability>
-
-			<Reduce_Production_Time_Ability Name="Praji_Estate_Production_Time_Bonus">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-	</SpecialStructure>
-
-<SpecialStructure Name="Bankofthecore">
-		<Variant_Of_Existing_Type>Template_Bank_Reserve</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_COMPANY_BANKOFTHECORE</Text_ID>
-
-		<Land_Model_Name>W_Urban_CorBuild_A.alo</Land_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-		<Build_Cost_Credits>5000</Build_Cost_Credits>
-
-		<Required_Planets>Coruscant</Required_Planets>
-
-		<Icon_Name>I_BUTTON_BANKOFTHECORE.TGA</Icon_Name>
-
-		<Encyclopedia_Text>
-		TEXT_COMPANY_BANKOFTHECORE_DESCRIPTION
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_COMPANY_HEALTH
-		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
-		TEXT_TOOLTIP_RESOURCE_GARRISON
-		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_INCOME_BANKOFTHECORE
-		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
-		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
-		TEXT_TOOLTIP_SEPARATOR_LOCATION_BLOCK
-		TEXT_OBJECT_STAR_SYSTEM_CORUSCANT
-		</Encyclopedia_Text>
-
-	
-		<Abilities SubObjectList="Yes">
-			<Planet_Income_Bonus_Ability Name="Bank_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_BANK_RESERVE</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
-				<Absolute_Income_Modifier>600</Absolute_Income_Modifier> <!-- plus flat Y credits -->
-				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
-				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
-			</Planet_Income_Bonus_Ability>
-		</Abilities>
-	
-		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 	</SpecialStructure>
 	
 </SpecialStructures>

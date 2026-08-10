@@ -90,20 +90,7 @@ return {
             })
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
-                "Adz_Patrol_Destroyer",
-				-- Historical-only units
-				"Navy_Commando_Company",
-				"Dark_Trooper_Phase_II_Company",
-				"AT_MP_Company",
-				"AT_ST_Company",
-				"Imperial_Missile_Artillery_Company",
-				"B5_Juggernaut_Company",
-				"Imperial_AT_TE_Walker_Company",
-				"Raider_I_Corvette",
-				"Raider_II_Corvette",
-				"Gladiator_II",
-				"Acclamator_I_Carrier",
-				"Acclamator_Battleship",
+                "Adz_Patrol_Destroyer"
             })
 
             UnitUtil.SetLockList("GREATER_MALDROOD", {

@@ -1,3 +1,0 @@
-return {
-	Flags = {FULLINHERIT = "MOTHMA_STAR_DESTROYER"}
-}

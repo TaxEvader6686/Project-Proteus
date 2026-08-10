@@ -80,20 +80,7 @@ return {
             })
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
-                "Adz_Patrol_Destroyer",
-				-- Historical-only units
-				"Navy_Commando_Company",
-				"Dark_Trooper_Phase_II_Company",
-				"AT_MP_Company",
-				"AT_ST_Company",
-				"Imperial_Missile_Artillery_Company",
-				"B5_Juggernaut_Company",
-				"Imperial_AT_TE_Walker_Company",
-				"Raider_I_Corvette",
-				"Raider_II_Corvette",
-				"Gladiator_II",
-				"Acclamator_I_Carrier",
-				"Acclamator_Battleship",
+                "Adz_Patrol_Destroyer"
             })
 
             UnitUtil.SetLockList("GREATER_MALDROOD", {
@@ -198,22 +185,17 @@ return {
             })
 
 			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-            local ipv4_unlock = {
-                "RAYTER", "ELROOD", "ISECTOR", "TAGGE", "BAKURA", "TAPANI", "PRAKITH", "CATO_NEIMOIDIA", "ARDA", "LAMBDA"}
 			if proteus ~= nil then
-                for _, group in pairs(ipv4_unlock) do
-                    if proteus == group then
-						UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-						    "IPV4"
-					    })
-					    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-						    "IPV1"
-					    }, false)
-                    end
-                end
-				if proteus == "LUMIYA" then
+				if proteus == "RAYTER" or proteus == "ELROOD" or proteus == "ISECTOR" or proteus == "TAGGE" or proteus == "BAKURA" or proteus == "TAPANI" or proteus == "PRAKITH" or proteus == "CATO_NEIMOIDIA" or proteus == "ARDA" or proteus == "LAMBDA" then
 					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-						"Gorath_Research_Proteus"
+						"IPV4"
+					})
+					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"IPV1"
+					}, false)
+				elseif proteus == "LUMIYA" then
+					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"GORATH_RESEARCH_PROTEUS"
 					})
 				end
 			end

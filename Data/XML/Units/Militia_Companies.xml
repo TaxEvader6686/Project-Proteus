@@ -1455,9 +1455,9 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_aac.tga</Icon_Name>
 
-		<Required_Special_Structures>I_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures/>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
@@ -1467,10 +1467,10 @@
 		<Score_Cost_Credits>500</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Warlords,Imperial_Proteus</Affiliation>
+		<Affiliation>Warlords</Affiliation>
 
 		<Company_Units>AAC_1, AAC_1, AAC_1, AAC_1</Company_Units>
 
@@ -1892,9 +1892,9 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_freerunner_assault.tga</Icon_Name>
 
-		<Required_Special_Structures>I_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures/>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
@@ -1904,10 +1904,10 @@
 		<Score_Cost_Credits>500</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Warlords,Imperial_Proteus</Affiliation>
+		<Affiliation>Warlords</Affiliation>
 
 		<Company_Units>Freerunner_Assault, Freerunner_Assault, Freerunner_Assault</Company_Units>
 
@@ -2250,7 +2250,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Warlords,Imperial_Proteus,Rebel</Affiliation>
+		<Affiliation>Warlords, Rebel</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

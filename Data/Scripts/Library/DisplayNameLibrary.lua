@@ -47,7 +47,4 @@ return {
 	["SHADOW_VENGEANCE_STAR_DREADNOUGHT"] = "Shadow Vengeance",
 	["HARRSK_MEGADOR"] = "Megador (Harrsk)",
 	["DESANNE_DOMINION"] = "Dominion (Desanne)",
-	["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = "Dream of a Quiet Life (xXTaxEvaderXx)",
-	["MICHAEL_TERROR"] = "Terror (Michael)",
-	["THARKUS_AMBITION"] = "Ambition (Tharkus)",
 }

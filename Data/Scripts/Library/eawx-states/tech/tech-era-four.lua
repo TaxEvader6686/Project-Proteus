@@ -122,20 +122,7 @@ return {
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
                 "TaggeCo_HQ",
-                "GormTalquist_HQ",
-				-- Historical-only units
-				"Navy_Commando_Company",
-				"Dark_Trooper_Phase_II_Company",
-				"AT_MP_Company",
-				"AT_ST_Company",
-				"Imperial_Missile_Artillery_Company",
-				"B5_Juggernaut_Company",
-				"Imperial_AT_TE_Walker_Company",
-				"Raider_I_Corvette",
-				"Raider_II_Corvette",
-				"Gladiator_II",
-				"Acclamator_I_Carrier",
-				"Acclamator_Battleship",
+                "GormTalquist_HQ"
             }, false)
 			
 			UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
@@ -188,34 +175,6 @@ return {
                 "Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
                 "AT_ST_A_Company",
             })
-
-            local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-            if proteus ~= nil then
-                if proteus == "BALMORRA" then
-                    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                        "AT_ST_A_Company"
-                    })
-                    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                        "AT_ST_Company"
-                    }, false)
-                elseif proteus == "VEERS" then
-                    if GlobalValue.Get("SHIELDED_WALKERS") == true then
-                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                            "Shielded_Imperial_AT_AT_Walker_Turbolaser_Refit_Company"
-                        })
-                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                            "Shielded_Imperial_AT_AT_Walker_Company"
-                        }, false)
-                    else
-                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                            "Imperial_AT_AT_Walker_Turbolaser_Refit_Company"
-                        })
-                        UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                            "Imperial_AT_AT_Walker_Company"
-                        }, false)
-                    end                
-                end
-            end
         end
     end,
     on_update = function(self, state_context)

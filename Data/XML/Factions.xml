@@ -337,12 +337,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Vector_Star_Destroyer,
-			Picket_DHC,
-			Modernized_DHC,
-			Imperial_Republic_Star_Destroyer,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -1219,12 +1213,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Vector_Star_Destroyer,
-			Picket_DHC,
-			Modernized_DHC,
-			Imperial_Republic_Star_Destroyer,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
@@ -2450,12 +2438,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Vector_Star_Destroyer,
-			Picket_DHC,
-			Modernized_DHC,
-			Imperial_Republic_Star_Destroyer,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3211,8 +3193,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3986,8 +3966,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -4759,8 +4737,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -5532,8 +5508,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -6501,8 +6475,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7160,8 +7132,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7682,8 +7652,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Blue </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -9811,22 +9779,6 @@
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
 			Refit_Venator_Star_Destroyer_Proteus,
-			Vector_Star_Destroyer,
-			Comeg_Ostrander,
-			Picket_DHC,
-			Modernized_DHC,
-			Imperial_Republic_Star_Destroyer,
-			Victory_I_Star_Destroyer_Patrol,
-			Imperial_II_Star_Destroyer_Sentry,
-			Destruction1214,
-			Rook_Frostfire,
-			TaxEvader_SynTax_Error,
-			TaxEvader_Dream_Of_A_Quiet_Life,
-			Eleian_BlackHoleSun,
-			Supernova_Vibes,
-			Anton_Kale,
-			Fyyar_Doomgiver,
-			Michael_Terror,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
