@@ -105,6 +105,7 @@ return {
 			LANOX = {"CLOAKSHAPE_NEW_SQUADRON", false,
 					{"LFU", "TIE_AVENGER_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"TIE_AVENGER_SQUADRON", false},
+			THARKUS = {"TIE_V1_SQUADRON", false},
 			SECRET = {"E_WING_SQUADRON", false},
 		}
 		

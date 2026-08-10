@@ -1212,7 +1212,7 @@ return {
 				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "Imperial_TNT_Company", "Swift_Assault_5_Company", "Imperial_Missile_Artillery_Company",
 				"Imperial_A4_Juggernaut_Company", "PX4_Company", "Tracked_Shield_Disabler_Company",
 				-- Research
-				"Dummy_Research_Lannox_Fighter",
+				"Dummy_Research_Lanox_Fighter",
 			},
 			FactionOverride = "Empire",
 			StartYear = 11,
@@ -1352,14 +1352,14 @@ return {
 			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Dakova_Prefect", "Pollux_Team", "Kastor_Team"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar",
+				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
 				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
-				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought"
+				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
 
 				-- Dummies
-
+				"Tharkus_Ambition_Dummy"
 			},
 			LastYear = 4,
 			FactionOverride = "Empire",

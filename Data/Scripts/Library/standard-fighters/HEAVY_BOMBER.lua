@@ -108,6 +108,7 @@ return {
 			SECOND_IMPERIUM = {"TIE_TERROR_SQUADRON", false},
             LANOX = {"FIRESPRAY_BOMBER_SQUADRON", false},
 			STORM_COMMANDOS = {"TIE_TERROR_SQUADRON", false},
+			THARKUS = {"TIE_TERROR_SQUADRON", false},
 			SECRET = {"TIE_PUNISHER_SQUADRON", false},
 		}
 		

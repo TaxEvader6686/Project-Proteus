@@ -4959,15 +4959,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_GRUNGER.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_GRUNGER.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_THARKUS.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_THARKUS.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_67</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Tooltip_Text>
+		<Tooltip_Text>WIP--THARKUS</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -4991,15 +4991,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_GRUNGER.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_GRUNGER.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_68</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_THORN</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5023,15 +5023,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>i_button_gronn.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>i_button_gronn.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_DAYMON_THORN.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_69</Group>
-		<Tooltip_Text>WIP - Allied Tion Sector</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_THORN</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5055,15 +5055,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_RENDILI2.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_RENDILI2.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>i_button_gronn.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>i_button_gronn.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_70</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_RENDILI</Tooltip_Text>
+		<Tooltip_Text>WIP - Allied Tion Sector</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5087,15 +5087,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_X1.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_X1.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_RENDILI2.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_RENDILI2.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_71</Group>
-		<Tooltip_Text>WIP--X1</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_RENDILI</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5119,15 +5119,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_THARKUS.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_THARKUS.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_X1.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_X1.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_72</Group>
-		<Tooltip_Text>WIP--THARKUS</Tooltip_Text>
+		<Tooltip_Text>WIP--X1</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 

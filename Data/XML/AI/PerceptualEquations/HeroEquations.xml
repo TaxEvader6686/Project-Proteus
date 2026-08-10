@@ -246,4 +246,9 @@
 		+
 		Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "TaxEvader_MPTL"}
 	</Tax_In_Orbit>
+	<Tharkus_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tharkus_Greed"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Tharkus_Ambition"}
+	</Tharkus_In_Orbit>
 </Equations>

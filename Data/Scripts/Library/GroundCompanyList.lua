@@ -127,4 +127,5 @@ return {
 ["DARKSIDER_COMPANY_DUMMY"] = true,
 ["REBORN_DARK_JEDI_COMPANY_DUMMY"] = true,
 ["REBORN_SHADOWTROOPER_COMPANY_DUMMY"] = true,
+["DARK_TROOPER_PHASE_II_SQUAD_DUMMY"] = true,--Dark Troopers need spawn dummy for the field base to actually work
 }

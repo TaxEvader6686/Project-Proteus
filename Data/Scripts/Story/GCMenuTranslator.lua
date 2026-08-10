@@ -66,12 +66,12 @@ return {
 	["VEERS"] ="faction_64",
 	["LANOX"] ="faction_65",
 	["STORM_COMMANDOS"] ="faction_66",
-	["GRUNGER"] ="faction_67",
-	["THORN"] ="faction_68",
-	["ALLIED_TION"] ="faction_69",
-	["RENDILI"] ="faction_70",
-	["X1"] ="faction_71",
-	["THARKUS"] ="faction_72",
+	["THARKUS"] ="faction_67",
+	["GRUNGER"] ="faction_68",
+	["THORN"] ="faction_69",
+	["ALLIED_TION"] ="faction_70",
+	["RENDILI"] ="faction_71",
+	["X1"] ="faction_72",
 	["SECRET"] ="faction_75",
 	
 

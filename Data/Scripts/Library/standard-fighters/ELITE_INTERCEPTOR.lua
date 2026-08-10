@@ -109,6 +109,7 @@ return {
 			LANOX = {"V38_SQUADRON", false,
 					{"LFU", "TIE_X7_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"TIE_PHANTOM_SQUADRON", false},
+			THARKUS = {"ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			SECRET = {"ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 
 		}
@@ -124,7 +125,7 @@ return {
 			local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 			if proteustypes[group_name] then
 				if string.find(proteustypes[group_name][1], "GAMBLE_") then
-					local random_list = require("random-fighters/GAMBLE_FIGHTER")
+					local random_list = require("random-fighters/GAMBLE_ELITE_INTERCEPTOR")
 					if random_list[group_name] then
 						local gamble = {}
 						local year = GlobalValue.Get("GALACTIC_YEAR")

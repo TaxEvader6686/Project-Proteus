@@ -102,6 +102,7 @@ return {
 			LANOX = {"Z95_BOMBER_SQUADRON", false,
 					{"LFU", "Y_WING_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"SCIMITAR_SQUADRON", false},
+			THARKUS = {"SCIMITAR_SQUADRON", false},
 			SECRET = {"TIE_AVENGER_BOMBER_SQUADRON", false},
 		}
 
