@@ -1637,3 +1637,12 @@ TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_TROOPER1,Navy Trooper Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_TROOPER2,Navy Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC1,Stormtrooper Fireteam: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
+
+TEXT_TOOLTIP_A6_PROTOTYPE,A prototype of the A6 Juggernaut, it is rather well armed and armored than its predecessor, the A5 Juggernaut. Though stripped down version of the final product, it is still capable of handling large enemies on it own.
+TEXT_TOOLTIP_A6_PROTOTYPE_HEALTH,Health: 1300 (Heavy Vehicle)
+TEXT_TOOLTIP_A6_PROTOTYPE_WEAP1,1x Heavy AV Blaster Cannon: 3 / 2.0s / 480m
+TEXT_TOOLTIP_A6_PROTOTYPE_WEAP2,1x Heavy AI Blaster Cannon: 8 / 2.0s / 480m
+TEXT_TOOLTIP_A6_PROTOTYPE_WEAP3,2x AI Blaster Cannons (AOE): 2 / 1.0s / 320m
+TEXT_TOOLTIP_A6_PROTOTYPE_WEAP4,2x Proton Missiles: 3 / 20.0s / 480m
+TEXT_UNIT_A6_PROTOTYPE,A6 Juggernaut Prototype
+TEXT_TOOLTIP_A6_PROTOTYPE_INFANTRY_HEAL,1x Infantry Healing: 3 / 1.0s / 160m

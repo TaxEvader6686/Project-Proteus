@@ -746,7 +746,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
   
-  <GroundVehicle Name="1L_Tank">
+    <GroundVehicle Name="1L_Tank">
 
 		<Text_ID>TEXT_UNIT_1L_TANK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
@@ -2571,7 +2571,7 @@
 
 	<!-- Heavy Vehicle Factory -->
 
-  <GroundVehicle Name="Imperial_Light_Mobile_Artillery">
+    <GroundVehicle Name="Imperial_Light_Mobile_Artillery">
 		<Text_ID>TEXT_UNIT_IMPERIAL_ARTILLERY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -3701,7 +3701,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-  <GroundVehicle Name="Imperial_Heavy_Mobile_Artillery">
+    <GroundVehicle Name="Imperial_Heavy_Mobile_Artillery">
 		<Text_ID>TEXT_UNIT_IMPERIAL_HEAVY_ARTILLERY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -3895,7 +3895,7 @@
 
 	</GroundVehicle>
 
-  <GroundVehicle Name="Imperial_Missile_Artillery">
+    <GroundVehicle Name="Imperial_Missile_Artillery">
 		<Text_ID>TEXT_UNIT_IMPERIAL_MISSILE_ARTILLERY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_ARTILLERY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -4087,7 +4087,7 @@
 
 	</GroundVehicle>
 
-  <GroundVehicle Name="Imperial_APC">
+    <GroundVehicle Name="Imperial_APC">
 
 		<Text_ID>TEXT_UNIT_ROGUE_SQUADRON_APC</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TRANSPORT</Encyclopedia_Unit_Class>
@@ -4316,7 +4316,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-  <GroundVehicle Name="1M_Tank">
+    <GroundVehicle Name="1M_Tank">
 
 		<Text_ID>TEXT_UNIT_1M_TANK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
@@ -5900,7 +5900,7 @@
 		<Presence_Range>1000.0</Presence_Range>
 	</Death_Clone>
 
-  <GroundVehicle Name="1H_Tank">
+    <GroundVehicle Name="1H_Tank">
 		<Text_ID>TEXT_UNIT_1H_TANK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -6140,7 +6140,7 @@
 		</Unit_Abilities_Data>
 	</GroundVehicle>
 
-  <GroundVehicle Name="1H_Tank_Green">
+    <GroundVehicle Name="1H_Tank_Green">
 		<Variant_Of_Existing_Type>1H_Tank</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_1h_tank_green.tga</Icon_Name>
 		<Land_Model_Name>EV_1HTank_Green.ALO</Land_Model_Name>
@@ -8946,7 +8946,7 @@
 		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
 	</GroundVehicle>
 
-  <GroundVehicle Name="Heavy_Recovery_Vehicle">
+    <GroundVehicle Name="Heavy_Recovery_Vehicle">
 
 		<Text_ID>TEXT_UNIT_HRV</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>

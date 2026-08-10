@@ -885,7 +885,7 @@
 
 	</GroundCompany>
 
-  <GroundCompany Name="AT_DP_Company">
+    <GroundCompany Name="AT_DP_Company">
 
 		<Text_ID>TEXT_UNIT_AT_DP_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_WALKER</Encyclopedia_Unit_Class>
@@ -2614,7 +2614,7 @@
 	</GroundCompany>
 
 	
-  <GroundCompany Name="1H_Tank_Company">
+    <GroundCompany Name="1H_Tank_Company">
 
 		<Text_ID>TEXT_UNIT_1H_TANK_COMPANY </Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
@@ -2958,7 +2958,7 @@
 
 	</GroundCompany>
 
-  <GroundCompany Name="Nemesis_Gunship_Company">
+    <GroundCompany Name="Nemesis_Gunship_Company">
 
 		<Text_ID>TEXT_UNIT_NEMESIS_GUNSHIP</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_GUNSHIP</Encyclopedia_Unit_Class>
@@ -3100,7 +3100,7 @@
 
 	</GroundCompany>
 
-  <GroundCompany Name="PX4_Company">
+    <GroundCompany Name="PX4_Company">
 
 		<Text_ID>TEXT_UNIT_PX4_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
@@ -3170,7 +3170,7 @@
 
 	</GroundCompany>
 
-  <GroundCompany Name="Tracked_Mobile_Base_Company">
+    <GroundCompany Name="Tracked_Mobile_Base_Company">
 
 		<Text_ID>TEXT_UNIT_TRMB</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
@@ -4446,7 +4446,7 @@
 
 	</GroundCompany>
 
-  <GroundCompany Name="1H_Tank_Green_Company">	<!-- Unused -->
+    <GroundCompany Name="1H_Tank_Green_Company">	<!-- Unused -->
 		<Variant_Of_Existing_Type>1H_Tank_Company</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_1h_tank_green.tga</Icon_Name>
 

@@ -321,7 +321,7 @@
 		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- AT-OT -->
+<!-- AT-OT -->
 	
 	<HardPoint Name="HP_ATOT_TurretFrontLeft">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -491,7 +491,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- Sith Strider -->
+<!-- Sith Strider -->
 
 	<HardPoint Name="HP_Sith_Strider_TurretLeft">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -576,7 +576,7 @@
 	</HardPoint>
 
 
-	<!-- Sith War Mammoth -->
+<!-- Sith War Mammoth -->
 
 	<HardPoint Name="HP_Sith_War_Mammoth_TurretLeft">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -662,7 +662,7 @@
 		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- Sith Slayer -->
+<!-- Sith Slayer -->
 
 	<HardPoint Name="HP_Sith_Slayer_TurretLeft">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -748,7 +748,7 @@
 		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- AT-XT -->
+<!-- AT-XT -->
 		
 	<HardPoint Name="HP_ATXT_Lasers">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -831,9 +831,9 @@
 
 	</HardPoint>
 	
-	<!-- OG9 Spider Droid -->
+<!-- OG9 Spider Droid -->
 	
-		<HardPoint Name="HP_OG9_AV">
+	<HardPoint Name="HP_OG9_AV">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -931,7 +931,7 @@
 		<!-- AA Accurate -->
 	</HardPoint>
 	
-	<!-- AT-AT-IC -->
+<!-- AT-AT-IC -->
 	
 	<HardPoint Name="HP_ATAT_IC_Main">
 		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
@@ -960,7 +960,7 @@
 		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- AT-KT -->
+<!-- AT-KT -->
 	
 	<HardPoint Name="HP_ATKT_Flechette">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -1013,7 +1013,7 @@
 		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- 008 Heavy Landspeeder -->
+<!-- 008 Heavy Landspeeder -->
 
 	<HardPoint Name="HP_008_Lasers">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1093,7 +1093,7 @@
         <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> 4.0 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
 	</HardPoint>
 	
-	<!-- 1-H Heavy Repulsortank Type B -->
+<!-- 1-H Heavy Repulsortank Type B -->
 		
 	<HardPoint Name="HP_1HB_AV_Turret">
 
@@ -1275,7 +1275,7 @@
 		<Fire_Category_Restrictions> AirGunship, AirSpeeder </Fire_Category_Restrictions>
 	</HardPoint>
 	
-	<!-- SP9 -->
+<!-- SP9 -->
 	
 	<HardPoint Name="HP_SP9">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1306,7 +1306,7 @@
 		<Fire_Category_Restrictions> AirGunship, AirSpeeder </Fire_Category_Restrictions>
     </HardPoint>
 	
-	<!-- Imperial AAT -->
+<!-- Imperial AAT -->
 
 	<HardPoint Name="HP_AAT_Turret_Imperial">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1450,7 +1450,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- HAG -->
+<!-- HAG -->
 	<HardPoint Name="HP_HAG_Laser">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -1479,7 +1479,7 @@
 
 	</HardPoint>
 	
-	<!-- AT-ACT -->
+<!-- AT-ACT -->
 	<HardPoint Name="HP_ATACT_One">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -1532,7 +1532,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>		
 	</HardPoint>
 
-	<!-- AT-TE-Camo -->
+<!-- AT-TE-Camo -->
 	
 	<HardPoint Name="HP_ATTE_Main_Camo">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1584,7 +1584,7 @@
 		<!-- AA Accurate -->
 	</HardPoint>
 	
-	<!-- GAT -->
+<!-- GAT -->
 	
 	<HardPoint Name="HP_GAT_Rockets">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -1643,8 +1643,8 @@
 		<!-- AA Accuracy -->
 	</HardPoint>
 	
-	<!-- HAET -->
-		
+<!-- HAET -->
+	
 	<HardPoint Name="HP_HAET_Main">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -2059,7 +2059,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<!-- Shadow TX130 -->
+<!-- Shadow TX130 -->
 	
 	<HardPoint Name="HP_Shadow_TX130_Top_Turret">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2107,5 +2107,265 @@
 		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 0.01 </Fire_Inaccuracy_Distance>
     </HardPoint>
+
+<!-- A6 Prototype -->
+
+    <HardPoint Name="HP_A6_Prototype_Right_Dual">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>LaserAOE_00</Collision_Mesh>
+		<Attachment_Bone>LaserAOE_00</Attachment_Bone>
+
+		<Fire_Bone_A>LaserAOE_00_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>LaserAOE_00_FP_01</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>160.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_AOE_AI_Blaster_Green_Blue</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_A6_Juggernaut_AI_Fire</Fire_SFXEvent>
+
+
+		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
 	
+	<HardPoint Name="HP_A6_Prototype_Left_Dual">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>LaserAOE_01</Collision_Mesh>
+		<Attachment_Bone>LaserAOE_01</Attachment_Bone>
+
+		<Fire_Bone_A>LaserAOE_01_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>LaserAOE_01_FP_01</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>160.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_AOE_AI_Blaster_Green_Blue</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_A6_Juggernaut_AI_Fire</Fire_SFXEvent>
+
+
+		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
+		<!-- AA Accurate -->
+    </HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Right_Front_Dummy">
+		<Type> HARD_POINT_DUMMY_ART </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>LaserAOE_02</Collision_Mesh>
+		<Attachment_Bone>LaserAOE_02</Attachment_Bone>
+    </HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Right_Rear_Dummy">
+		<Type> HARD_POINT_DUMMY_ART </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>LaserAOE_03</Collision_Mesh>
+		<Attachment_Bone>LaserAOE_03</Attachment_Bone>
+    </HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Left_Front_Dummy">
+		<Type> HARD_POINT_DUMMY_ART </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>LaserAOE_04</Collision_Mesh>
+		<Attachment_Bone>LaserAOE_04</Attachment_Bone>
+    </HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Left_Rear_Dummy">
+		<Type> HARD_POINT_DUMMY_ART </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>LaserAOE_05</Collision_Mesh>
+		<Attachment_Bone>LaserAOE_05</Attachment_Bone>
+    </HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Missile_1">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>ProtonMissile_00</Collision_Mesh>
+		<Attachment_Bone>ProtonMissile_00</Attachment_Bone>
+
+		<Fire_Bone_A>ProtonMissile_00_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>ProtonMissile_00_FP_01</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>360.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones>Yes</Randomize_Between_Fire_Bones>
+		<Fire_Projectile_Type>Proj_Proton_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>20.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>600.0</Fire_Range_Distance>
+
+		<Fire_SFXEvent>Unit_A6_Juggernaut_Rocket_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Missile_2">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Collision_Mesh>ProtonMissile_01</Collision_Mesh>
+		<Attachment_Bone>ProtonMissile_01</Attachment_Bone>
+
+		<Fire_Bone_A>ProtonMissile_01_FP_00</Fire_Bone_A>
+		<Fire_Bone_B>ProtonMissile_01_FP_01</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>360.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones>Yes</Randomize_Between_Fire_Bones>
+		<Fire_Projectile_Type>Proj_Proton_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>20.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>600.0</Fire_Range_Distance>
+
+		<Fire_SFXEvent>Unit_A6_Juggernaut_Rocket_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+	<HardPoint Name="HP_A6_Prototype_Top_Turret">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>260</Health>
+
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+
+		<Model_To_Attach>a6_juggernaut_midgun.alo</Model_To_Attach>
+		<Attachment_Bone>AV_Blaster_Superheavy_00</Attachment_Bone>
+		<Collision_Mesh>AV_Blaster_Superheavy_00</Collision_Mesh>
+		<Damage_Particles>ATTACH_00</Damage_Particles>
+		
+		<Fire_Bone_A>AV_Blaster_00</Fire_Bone_A>
+		<Fire_Bone_B>AV_Blaster_00</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Height>60.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 3.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>TURRET_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARREL_00</Barrel_Bone_Name>
+
+		<Fire_Projectile_Type>Proj_Heavy_AV_Blaster_Green_Blue</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>650.0</Fire_Range_Distance>
+		<Fire_Min_Range_Distance>50.0</Fire_Min_Range_Distance>
+		<Fire_SFXEvent>Unit_A6_AV_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 30.0 </Fire_Inaccuracy_Distance>
+		<!-- AA Accurate -->
+	</HardPoint>
+	
+	<HardPoint Name="HP_A6_Prototype_Rear_Turret">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>260</Health>
+
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+
+		<Model_To_Attach>a6_juggernaut_reargun.alo</Model_To_Attach>
+		<Attachment_Bone>AV_Blaster_Heavy_00</Attachment_Bone>
+		<Collision_Mesh>AV_Blaster_Heavy_00</Collision_Mesh>
+		<Damage_Particles>ATTACH_01</Damage_Particles>
+
+		<Fire_Bone_A>AV_Blaster_01</Fire_Bone_A>
+		<Fire_Bone_B>AV_Blaster_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Height>60.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 3.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>120.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARREL_01</Barrel_Bone_Name>
+
+		<Fire_Projectile_Type>Proj_Heavy_AI_Blaster_Green_Blue</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>8</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+		<Fire_Min_Range_Distance>50.0</Fire_Min_Range_Distance>
+		<Fire_SFXEvent>Unit_A6_Juggernaut_Gatling_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Structure, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
+		<!-- AA Accurate -->
+	</HardPoint>
 </HardPoints>
