@@ -5591,5 +5591,13 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
+	<!-- Spawn Dummy because Dark Troopers refuse to spawn more than one at a time otherwise -->
+	<GroundInfantry Name="Dark_Trooper_Phase_II_Squad_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<AI_Combat_Power>1</AI_Combat_Power>
+		<Victory_Relevant>No</Victory_Relevant>
+	</GroundInfantry>
 
 </Project_Proteus_Infantry>
