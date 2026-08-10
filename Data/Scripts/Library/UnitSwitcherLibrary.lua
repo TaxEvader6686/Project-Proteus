@@ -41,6 +41,8 @@ return {
 	["ROGRISS_AURORA_DUMMY"] = {"Rogriss_Agonizer","Rogriss_Aurora"},
 	["ROGRISS_DOMINION_DUMMY2"] = {"Rogriss_Aurora", "Rogriss_Dominion"},
 	["KALE_MODERNIZED_DUMMY"] = {"Anton_Kale", "Anton_Kale_Modernized"},
+	["THARKUS_AMBITION_DUMMY"] = {"Tharkus_Greed", "Tharkus_Ambition"},
+	["KIEZ_WHELM_DUMMY"] = {"Kiez_Empire", "Kiez_Whelm"},
 	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
 	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 

@@ -1130,6 +1130,21 @@ return {
 			,["6ABY"] = true
 		}
 	},
+
+	["Tharkus"] = {
+		["FullLarge"] = {
+			["4ABY"] = true
+		}
+		,["FullMedium"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["4ABY"] = true
+		}
+	},
 	
 	["BALMORRA"] = {
 		

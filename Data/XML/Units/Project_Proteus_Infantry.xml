@@ -4886,5 +4886,718 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 	</GroundCompany>
 
+	<!--Field Base Fireteam/Medic Squad Variants-->
+
+	<!-- Army Guard -->
+	<GroundInfantry Name="Imperial_Army_Guard_Medic">
+		<Variant_Of_Existing_Type>Imperial_Army_Guard</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMYGUARD_MEDIC</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMYGUARD_HEALTH
+		TEXT_TOOLTIP_ARMYGUARD_MOVE
+		TEXT_TOOLTIP_ARMYGUARD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMY_GUARD_SUPPORT.TGA</Icon_Name>
+
+		<Land_Model_Name>EI_ARMYGUARDC_GRENADIER.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			EI_ARMYGUARDY_GRENADIER.ALO,
+			Urban, 				EI_ARMYGUARDC_GRENADIER.ALO,
+			Arctic, 			EI_ARMYGUARDSNOW_GRENADIER.ALO,
+			Volcanic, 			EI_ARMYGUARDR_GRENADIER.ALO,
+			Desert, 			EI_ARMYGUARDY_GRENADIER.ALO,
+			Forest, 			EI_ARMYGUARDG_GRENADIER.ALO,
+			Swamp, 				EI_ARMYGUARDG_GRENADIER.ALO
+		</Land_Terrain_Model_Mapping>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
+
+		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Medic_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Amount>5.0</Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Support_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Imperial_Army_Guard_Medium_Squad">
+		<Variant_Of_Existing_Type>Imperial_Army_Guard_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMYGUARD_MEDIUM_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD
+		TEXT_TOOLTIP_ARMYGUARD_HEALTH
+		TEXT_TOOLTIP_ARMYGUARD_MOVE
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMY_GUARD.TGA</Icon_Name>
+
+		<Create_Team_Type> Imperial_Army_Guard_Medium_Container </Create_Team_Type>
+		<Company_Units> Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard_Sergeant </Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Imperial_Army_Guard_Medic_Squad">
+		<Variant_Of_Existing_Type>Imperial_Army_Guard_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMYGUARD_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD
+		TEXT_TOOLTIP_ARMYGUARD_HEALTH
+		TEXT_TOOLTIP_ARMYGUARD_MOVE
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMY_GUARD_SUPPORT.TGA</Icon_Name>
+
+		<Create_Team_Type> Imperial_Army_Guard_Medic_Container </Create_Team_Type>
+		<Company_Units> Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard, Imperial_Army_Guard_Medic, Imperial_Army_Guard_Sergeant </Company_Units>
+	</GroundCompany>
+	
+	<Container Name="Imperial_Army_Guard_Medium_Container">
+
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_ARMYGUARD_MEDIUM_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD
+		TEXT_TOOLTIP_ARMYGUARD_HEALTH
+		TEXT_TOOLTIP_ARMYGUARD_MOVE
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMY_GUARD.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+	<Container Name="Imperial_Army_Guard_Medic_Container">
+
+		<Text_ID>TEXT_UNIT_ARMYGUARD_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ARMYGUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD
+		TEXT_TOOLTIP_ARMYGUARD_HEALTH
+		TEXT_TOOLTIP_ARMYGUARD_MOVE
+		TEXT_TOOLTIP_ARMYGUARD_SQUAD_MEDIUM_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ARMY_GUARD_SUPPORT.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+	</Container>
+
+	<!-- Navy Commando Fireteam and support squads for custom field base spawns -->
+	<GroundInfantry Name="Navy_Commando_Medic">
+		<Variant_Of_Existing_Type>Navy_Commando</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NAVYCOMMANDO_MEDIC</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYCOMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYCOMMANDO_HEALTH
+		TEXT_TOOLTIP_NAVYCOMMANDO_MOVE
+		TEXT_TOOLTIP_NAVYCOMMANDO_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_COMMANDO_SUPPORT.TGA</Icon_Name>
+
+		<Land_Model_Name>navycommando_grenadier.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			navycommando_grenadier.ALO,
+			Urban, 				navycommando_grenadier.ALO,
+			Arctic, 			navycommandosnow_grenadier.ALO,
+			Volcanic, 			navycommando_grenadier.ALO,
+			Desert, 			navycommando_grenadier.ALO,
+			Forest, 			navycommando_grenadier.ALO,
+			Swamp, 				navycommando_grenadier.ALO
+		</Land_Terrain_Model_Mapping>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
+
+		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Medic_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Amount>5.0</Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Support_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Navy_Commando_Sergeant_Carbine">
+		<Variant_Of_Existing_Type>Navy_Commando</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NAVYCOMMANDO_SERGEANT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYCOMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYCOMMANDO_SGT_HEALTH
+		TEXT_TOOLTIP_NAVYCOMMANDO_MOVE
+		TEXT_TOOLTIP_NAVYCOMMANDO_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>navycommando_sergeant.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			navycommando_sergeant.ALO,
+			Urban, 				navycommando_sergeant.ALO,
+			Arctic, 			navycommandosnow_sergeant.ALO,
+			Volcanic, 			navycommando_sergeant.ALO,
+			Desert, 			navycommando_sergeant.ALO,
+			Forest, 			navycommando_sergeant.ALO,
+			Swamp, 				navycommando_sergeant.ALO
+		</Land_Terrain_Model_Mapping>
+
+		<Tactical_Health>21</Tactical_Health>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Navy_Commando_Medium_Squad">
+		<Variant_Of_Existing_Type>Navy_Commando_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NAVYCOMMANDO_MEDIUM_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYCOMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD
+		TEXT_TOOLTIP_NAVYCOMMANDO_HEALTH
+		TEXT_TOOLTIP_NAVYCOMMANDO_MOVE
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1
+
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_COMMANDO.TGA</Icon_Name>
+
+		<Create_Team_Type> Navy_Commando_Medium_Container </Create_Team_Type>
+		<Company_Units> Navy_Commando_Sergeant_Carbine, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando </Company_Units>
+	</GroundCompany>
+
+	<Container Name="Navy_Commando_Medium_Container">
+
+		<Text_ID>TEXT_UNIT_NAVYCOMMANDO_MEDIUM_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYCOMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD
+		TEXT_TOOLTIP_NAVYCOMMANDO_HEALTH
+		TEXT_TOOLTIP_NAVYCOMMANDO_MOVE
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1
+
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_COMMANDO.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.1 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Navy_Commando</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+	<GroundCompany Name="Navy_Commando_Medic_Squad">
+		<Variant_Of_Existing_Type>Navy_Commando_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYCOMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD
+		TEXT_TOOLTIP_NAVYCOMMANDO_HEALTH
+		TEXT_TOOLTIP_NAVYCOMMANDO_MOVE
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_COMMANDO_SUPPORT.TGA</Icon_Name>
+
+		<Create_Team_Type> Navy_Commando_Medic_Container </Create_Team_Type>
+		<Company_Units> Navy_Commando_Sergeant_Carbine, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando, Navy_Commando_Medic </Company_Units>
+	</GroundCompany>
+	
+	<Container Name="Navy_Commando_Medic_Container">
+
+		<Text_ID>TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYCOMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD
+		TEXT_TOOLTIP_NAVYCOMMANDO_HEALTH
+		TEXT_TOOLTIP_NAVYCOMMANDO_MOVE
+		TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_COMMANDO_SUPPORT.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.1 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Navy_Commando</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<!-- Navy Trooper medic squad for field base spawns -->
+	<GroundInfantry Name="Imperial_Navy_Trooper_Medic">
+		<Variant_Of_Existing_Type>Imperial_Navy_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NAVYTROOPER_MEDIC</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYTROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYTROOPER_HEALTH
+		TEXT_TOOLTIP_NAVYTROOPER_MOVE
+		TEXT_TOOLTIP_NAVYTROOPER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_TROOPER_SUPPORT.TGA</Icon_Name>
+
+		<Land_Model_Name>EI_NAVYTROOPER_GRENADIER.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			EI_NAVYTROOPER_GRENADIER.ALO,
+			Urban, 				EI_NAVYTROOPER_GRENADIER.ALO,
+			Arctic, 			EI_NAVYTROOPER_GRENADIER.ALO,
+			Volcanic, 			EI_NAVYTROOPER_GRENADIER.ALO,
+			Desert, 			EI_NAVYTROOPER_GRENADIER.ALO,
+			Forest, 			EI_NAVYTROOPER_GRENADIER.ALO,
+			Swamp, 				EI_NAVYTROOPER_GRENADIER.ALO
+		</Land_Terrain_Model_Mapping>
+
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
+
+		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Medic_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>100.0</Heal_Range>
+				<Heal_Amount>5.0</Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Heal_Support_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry, InfantryHero, Vehicle, VehicleHero, AirGunship, AirSpeeder</Applicable_Unit_Categories>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>ROOT</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2/>
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundCompany Name="Imperial_Navy_Trooper_Medic_Squad">
+		<Variant_Of_Existing_Type>Imperial_Navy_Trooper_Main_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NAVYTROOPER_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYTROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYTROOPER_SQUAD
+		TEXT_TOOLTIP_NAVYTROOPER_HEALTH
+		TEXT_TOOLTIP_NAVYTROOPER_MOVE
+		TEXT_TOOLTIP_NAVYTROOPER_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_TROOPER_SUPPORT.TGA</Icon_Name>
+
+		<Create_Team_Type> Navy_Trooper_Medic_Container </Create_Team_Type>
+
+		<Company_Units> Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper, Imperial_Navy_Trooper_Medic, Imperial_Navy_Trooper_Sergeant</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Navy_Trooper_Medic_Container">
+
+		<Text_ID>TEXT_UNIT_NAVYTROOPER_MEDIC_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NAVYTROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NAVYTROOPER_SQUAD
+		TEXT_TOOLTIP_NAVYTROOPER_HEALTH
+		TEXT_TOOLTIP_NAVYTROOPER_MOVE
+		TEXT_TOOLTIP_NAVYTROOPER_SQUAD_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NAVY_TROOPER_SUPPORT.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
+	<!-- Spawn Dummy because Dark Troopers refuse to spawn more than one at a time otherwise -->
+	<GroundInfantry Name="Dark_Trooper_Phase_II_Squad_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<AI_Combat_Power>1</AI_Combat_Power>
+		<Victory_Relevant>No</Victory_Relevant>
+	</GroundInfantry>
 
 </Project_Proteus_Infantry>
