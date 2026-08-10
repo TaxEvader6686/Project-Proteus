@@ -552,22 +552,22 @@
 
 		</GroundCompany>
 
-		<Death_Clone Name="AT_KT_Walker_Death_Clone_00">
-			<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
-			<CategoryMask>None</CategoryMask>
-			<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-			<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
-			<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
-			<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
-			<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
-			<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
-			<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
-			<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
-			<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
-			<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
-			<Presence_Range>1000.0</Presence_Range>
-		</Death_Clone>
-		<Death_Clone Name="AT_KT_Walker_Death_Clone_01">
+	<Death_Clone Name="AT_KT_Walker_Death_Clone_00">
+	    <Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+        <Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>1000.0</Presence_Range>
+	</Death_Clone>
+	<Death_Clone Name="AT_KT_Walker_Death_Clone_01">
 			<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
 			<CategoryMask>None</CategoryMask>
 			<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -581,8 +581,8 @@
 			<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
 			<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 			<Presence_Range>1000.0</Presence_Range>
-		</Death_Clone>
-		<Death_Clone Name="AT_KT_Walker_Death_Clone_02">
+	</Death_Clone>
+	<Death_Clone Name="AT_KT_Walker_Death_Clone_02">
 			<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
 			<CategoryMask>None</CategoryMask>
 			<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -595,9 +595,9 @@
 			<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
 			<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 			<Presence_Range>1000.0</Presence_Range>
-		</Death_Clone>
+	</Death_Clone>
 
-		<GroundVehicle Name="AT_KT_Walker_Captured">
+	<GroundVehicle Name="AT_KT_Walker_Captured">
 			<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
 			
 			<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
@@ -759,7 +759,7 @@
 
 		</GroundCompany>
 		
-		<GroundVehicle Name="AV_7">
+	<GroundVehicle Name="AV_7">
 
 			<Text_ID>TEXT_UNIT_AV7</Text_ID>
 			<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_ARTILLERY</Encyclopedia_Unit_Class>
@@ -954,8 +954,8 @@
 			<Death_Clone>Damage_Normal_Deployed, AV7_Deployed_Death_Clone</Death_Clone>
 			<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 			<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
-		</GroundVehicle>
-		<GroundCompany Name="AV_7_Company">
+	</GroundVehicle>
+	<GroundCompany Name="AV_7_Company">
 
 			<Text_ID>TEXT_UNIT_AV7</Text_ID>
 			<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_ARTILLERY</Encyclopedia_Unit_Class>
@@ -1018,9 +1018,9 @@
 			<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 			<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 			<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		</GroundCompany>
+	</GroundCompany>
 
-		<Death_Clone Name="AV7_Death_Clone">
+	<Death_Clone Name="AV7_Death_Clone">
 			<Variant_Of_Existing_Type>AV_7</Variant_Of_Existing_Type>
 			<CategoryMask>None</CategoryMask>
 			<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
@@ -1034,8 +1034,8 @@
 			<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 			<IsDeathClone> true </IsDeathClone>
 			<Presence_Range>200.0</Presence_Range>
-		</Death_Clone>
-		<Death_Clone Name="AV7_Deployed_Death_Clone">
+	</Death_Clone>
+	<Death_Clone Name="AV7_Deployed_Death_Clone">
 			<Variant_Of_Existing_Type>AV_7</Variant_Of_Existing_Type>
 			<CategoryMask>None</CategoryMask>
 			<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
@@ -1050,7 +1050,7 @@
 			<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
 			<IsDeathClone> true </IsDeathClone>
 			<Presence_Range>200.0</Presence_Range>
-		</Death_Clone>
+	</Death_Clone>
 
 	<GroundVehicle Name="Shadow_TX130S">
 
@@ -1262,7 +1262,7 @@
 					<Stealth_Transition_Time>.3</Stealth_Transition_Time>
 				</Stealth_Ability>
 			</Abilities>
-		</GroundVehicle>
+	</GroundVehicle>
 	<GroundCompany Name="Shadow_Imperial_TX130S_Company">
 
 			<Text_ID>TEXT_UNIT_SHADOW_TX130S_COMPANY</Text_ID>
@@ -3351,8 +3351,8 @@
 			<!-- Enhanced sensors capability -->
 			<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
-		</GroundVehicle>
-		<GroundCompany Name="OG9_Company">
+	</GroundVehicle>
+	<GroundCompany Name="OG9_Company">
 
 			<Text_ID>TEXT_UNIT_OG9_COMPANY</Text_ID>
 			<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
@@ -3422,8 +3422,8 @@
 			<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 			<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 			<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		</GroundCompany>
-		<Death_Clone Name="OG9_Death_Clone">
+	</GroundCompany>
+	<Death_Clone Name="OG9_Death_Clone">
 			<Variant_Of_Existing_Type>OG9</Variant_Of_Existing_Type>
 			<CategoryMask>None</CategoryMask>
 			<Land_Model_Name>og-9_homing_spider_droid_dc.alo</Land_Model_Name>
