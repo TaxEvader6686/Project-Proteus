@@ -4888,7 +4888,7 @@
 
 	<!--Field Base Fireteam/Medic Squad Variants-->
 
-	<!-- Army Guard Medium & Support Squads for custom field base spawns -->
+	<!-- Army Guard -->
 	<GroundInfantry Name="Imperial_Army_Guard_Medic">
 		<Variant_Of_Existing_Type>Imperial_Army_Guard</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMYGUARD_MEDIC</Text_ID>
