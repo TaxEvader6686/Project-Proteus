@@ -106,7 +106,8 @@ return {
 			VEERS = {"TIE_X7_SQUADRON", false},
 			EMPIRE_REBORN = {"ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 			SECOND_IMPERIUM = {"TIE_PHANTOM_SQUADRON", false},
-			LANOX = {"V38_SQUADRON", false},
+			LANOX = {"V38_SQUADRON", false,
+					{"LFU", "TIE_X7_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"TIE_PHANTOM_SQUADRON", false},
 			SECRET = {"ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false},
 
@@ -123,7 +124,7 @@ return {
 			local group_name = GlobalValue.Get("PROTEUS_GROUP_NAME")
 			if proteustypes[group_name] then
 				if string.find(proteustypes[group_name][1], "GAMBLE_") then
-					local random_list = require("random-fighters/GAMBLE_ELITE_INTERCEPTOR")
+					local random_list = require("random-fighters/GAMBLE_FIGHTER")
 					if random_list[group_name] then
 						local gamble = {}
 						local year = GlobalValue.Get("GALACTIC_YEAR")
@@ -160,7 +161,7 @@ return {
 						local research = proteustypes[group_name][i][1]
 						if Get_Fighter_Research(research) then
 							fighter = proteustypes[group_name][i][2]
-							if proteustypes[group_name][i][3][1] ~= false then
+							if proteustypes[group_name][i][3] ~= false then
 								if Check_Flags(flags, "PROTEUS_OVERRIDE") then
 									fighter = proteustypes[group_name][i][3]
 								end
@@ -171,12 +172,10 @@ return {
 			end
 		end
 		
-		if double then
-			suffix = Double_Suffix(suffix)
-		end
 		if suffix then
 			fighter = fighter .. suffix
 		end
+		
 		return fighter
 	end
 }

@@ -442,7 +442,7 @@ return {
 				"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Nebulon_B_Tender", "Eidolon", "Imperial_Nebulon_B",
 				"Super_Transport_VII_Interdictor", "Pursuit_Light_Cruiser", "Acclamator_II", "Victory_I_Star_Destroyer",
 				"Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
-				"Mandator_III_Dreadnought",
+				"Allegiance_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Compforce_Assault_Company", "Imperial_74Z_Bike_Company",
 				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
@@ -1166,7 +1166,7 @@ return {
 			StartYear = 11,
 			LastYear = 14,
 			IntroText = "TEXT_CONQUEST_PROTEUS_REBORN",
-			IntroHolo = "Generic_Sith_Loop"
+			IntroHolo = "Galak_Fyyar_Loop"
 		},
 		["GRUNGER"] = {
 			FriendlyName = "Grunger's Empire",
@@ -1212,6 +1212,7 @@ return {
 				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "Imperial_TNT_Company", "Swift_Assault_5_Company", "Imperial_Missile_Artillery_Company",
 				"Imperial_A4_Juggernaut_Company", "PX4_Company", "Tracked_Shield_Disabler_Company",
 				-- Research
+				"Dummy_Research_Lannox_Fighter",
 			},
 			FactionOverride = "Empire",
 			StartYear = 11,
@@ -1341,6 +1342,29 @@ return {
 			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
+		},
+
+		["THARKUS"] = {
+			FriendlyName = "Tharkus's Empire",
+			Planets = {"CHANDRILA"},
+			LeaderTable = {"THARKUS_GREED"},
+			LeaderEndingNames = {"Emperor Tharkus"},
+			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Dakova_Prefect", "Pollux_Team", "Kastor_Team"},
+			UnlockList = {
+				-- Space
+				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Star_Galleon","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar",
+				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
+				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
+				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought"
+				-- Ground
+
+				-- Dummies
+
+			},
+			LastYear = 4,
+			FactionOverride = "Empire",
+			IntroText = "",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
 		},
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",

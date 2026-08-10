@@ -102,7 +102,8 @@ return {
 			VEERS = {"TIE_AVENGER_SQUADRON", false},
 			EMPIRE_REBORN = {"TIE_X2_SQUADRON", false},
 			SECOND_IMPERIUM = {"TOSCAN_GUNSHIP_SQUADRON", false},
-			LANOX = {"CLOAKSHAPE_NEW_SQUADRON", false},
+			LANOX = {"CLOAKSHAPE_NEW_SQUADRON", false,
+					{"LFU", "TIE_AVENGER_SQUADRON", false}}, --research 1
 			STORM_COMMANDOS = {"TIE_AVENGER_SQUADRON", false},
 			SECRET = {"E_WING_SQUADRON", false},
 		}

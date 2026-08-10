@@ -1,4 +1,14 @@
-﻿D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
+﻿TEXT_UNIT_LANNOX_FIGHTERRESEARCH,Improve Starfighters
+TEXT_TOOLTIP_LANNOX_FIGHTERRESEARCH,Most of our starfighters and bombers come from reserve stocks and the open market. Now that we are established, corporations are willing to sell us their finest craft. We must spare no expense to ensure our forces possess only the best available.
+TEXT_TOOLTIP_COMMAND_BLITZ,Victory-II Star Destroyer, Blitz
+TEXT_TOOLTIP_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a Victory II-class Star Destroyer during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.
+TEXT_HERO_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a Victory II-class Star Destroyer during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.
+TEXT_HERO_DAKOVA,Dakova
+TEXT_TOOLTIP_COMMAND_PREFECT,Imperial-II Star Destroyer, Prefect
+TEXT_TOOLTIP_DAKOVA,Admiral Dakova was an Imperial naval officer present during the chaos following the Battle of Endor. Cautious and pragmatic, Dakova was concerned by High Admiral Tharkus's determination to defy the Imperial Senate and continue the war against the New Republic, warning that doing so would make them rebels themselves. Despite his reservations, Dakova would ultimately serve among the forces gathered under Tharkus's command.
+TEXT_PROTEUS_DESCRIPTION_THARKUS,Led by the Imperial hardliner High Admiral Tharkus, this splinter faction emerged from his refusal to accept peace with the New Republic as the Empire fractured after Endor. Distrustful of politicians and civilian leadership, Tharkus gathered loyal military forces and a select group of operatives, including the shapeshifting Dioskouroi, with the goal of continuing the war and seizing control of the Empire for himself by claiming the legendary "Heart of the Jedi".
+TEXT_EVENT_WARLORD_CHOICE_THARKUS,Tharkus's Empire
+D_TEXT_TOOLTIP_DRAGON_TROOPER,Primitive reptiloid warriors fiercely loyal to Delurin and equipped with ornate metal armor and flamethrowers to more closely resemble the Dragons of ancient myth. Unacquainted with blaster weaponry and other advanced technology, they are nonetheless resilient and quick on their feet.
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY,Company: 36x Dragon Trooper
 D_TEXT_TOOLTIP_DRAGON_TROOPER_COMPANY_WEAP1,24x Blaster Carbine: 3 / 1.25s / 220m
 D_TEXT_TOOLTIP_DRAGON_TROOPER_SQUAD,Squad: 9x Dragon Trooper
@@ -48,7 +58,7 @@ TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Impe
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
-TEXT_CONQUEST_PROTEUS_REBORN,Lord Hethrir: I welcome you, Commander, to our rebirth, and the rebirth of the Empire! Once our efforts to create a new legion of force-empowered Imperial soldiers is complete, we shall take back what is rightfully ours, and purify the galaxy of the taint of rebellion once and for all! They shall all bow before the Empire! Reborn!
+TEXT_CONQUEST_PROTEUS_REBORN,Admiral Fyyar: Our final preparations are complete, Commander! My flagship is ready and loaded with the new Reborn Shadowtroopers! All my work, my ingenious designs, will finally bring about the end of the rebels and the Jedi! Lord Hethrir is correct, the Empire will be reborn - but not as he imagines it...
 TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us. Our first step should be formalizing our cooperation with Rendili StarDrive.
 TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY,Great Leader: You did not think I would be gone, did you? I will always return! Now, there is no time for hesitation! Pledge yourself to me once more, and together we shall crush the rebellion once and for all! You shall lead my armies and my new Dark Knights into battle! Return to your station, my loyal guards will relay further orders soon.
 TEXT_CONQUEST_PROTEUS_THORN,Daymon Thorn: The Emperor is dead, and I shall pick up his crown and place it upon my own head.  With the power of the Korrendum crystals, we shall build a weapon that will surpass even the Death Stars, and with it, we shall overthrow and scatter all that oppose our march. The men who laugh at the Empire's distress, and inwardly rejoice at the triumph of our enemies, will soon be confounded and trembling, for the War Dog of the Empire is on the march. There still remains much to do!
@@ -95,16 +105,16 @@ TEXT_EVENT_DASTA_FIGHTER_CHOICE_IMPERIAL,Imperial Starfighters
 TEXT_EVENT_DASTA_FIGHTER_CHOICE_REBEL,New Republic Starfighters
 TEXT_EVENT_KUAT_BC_CHOICE_BODY,Choose one Battlecruiser to be made available permanently outside the market. The other options will be removed from the market.
 TEXT_EVENT_KUAT_BC_CHOICE_COMMS_BC,Communications Battlecruiser
-TEXT_EVENT_KUAT_BC_CHOICE_HEADER,TODO ROOK - header in popup
+TEXT_EVENT_KUAT_BC_CHOICE_HEADER,Battlecruiser Choice
 TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR,Praetor-II Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_REBEL,Offer the New Republic a trade agreement and diplomatic recognition in exchange for some of their modern starfighter models.
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,TODO ROOK - select choice desc
-TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,TODO ROOK - select choice desc
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_COMMS_BC,Choose the Communications Battlecruiser. (Locks Praetor II, Praetor II Carrier, Sorannan Star Destroyer)
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR,Choose the Praetor II (Locks Praetor II Carrier, Comms Battlecruiser, Sorannan Star Destroyer)
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_PRAETOR_CARRIER,Choose the Praetor Carrier (Locks Praetor II, Comms Battlecruiser, Sorannan Star Destroyer)
+TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,Choose the Sorannan Star Destroyer (Locks Praetor II, Praetor II Carrier, Comms Battlecruiser)
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_EVENT_WARLORD_CHOICE_LANOX,Imperial Loyalist
@@ -860,7 +870,7 @@ TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter c
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by Admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KALE,An Imperial officer stationed on Kuat, Anton Kale firmly believed the Empire was the galaxy's best hope for lasting order. Fascinated by starship engineering and naval design, he personally lobbied for assignment to Kuat so he could oversee the construction and testing of the Empire's most advanced warships. Following Endor, Kale remained committed to defending Imperial rule from the Kuat Sector.
-TEXT_TOOLTIP_KASTOR,TODO
+TEXT_TOOLTIP_KASTOR,Kastor was one half of the Dioskouroi, a pair of elite shapeshifting operatives serving High Admiral Tharkus. Alongside Pollux, Kastor used his ability to assume other identities to infiltrate Tharkus's enemies and manipulate events from within, making the pair invaluable agents in the High Admiral's schemes.
 TEXT_TOOLTIP_KIEZ_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire. Like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.
 TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
@@ -871,7 +881,7 @@ TEXT_TOOLTIP_KLUCREHULK_RESEARCH,Take inspiration from the old Confederacy and u
 TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegally acquired by Kiara Schmog into production. This upgrade will replace all previous instances of the Drexl with Preybirds and all previous instances of Z-95s with Drexls.
 TEXT_TOOLTIP_KSM_RESEARCH,
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
-TEXT_TOOLTIP_KUAT_CHOOSE_BC,TODO ROOK - desc on dummy
+TEXT_TOOLTIP_KUAT_CHOOSE_BC,Lobby Kuat Drive Yards to gain one battlecruiser as a permanent buildable. (Locks other BC's from Market)
 TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
@@ -967,7 +977,7 @@ TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_HEALTH,Health: 150 (Light Vehicle)
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_MOVE,Speed: 1.25 | Turn: 4.0
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP1,1x AV Beam Cannon: 12 / 1.5s / 320m
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP2,1x Heavy AI Blaster Cannon (AOE): 1 / 0.5s / 240m
-TEXT_TOOLTIP_POLLUX,TODO
+TEXT_TOOLTIP_POLLUX,Pollux was one half of the Dioskouroi, a pair of elite shapeshifting operatives in the service of High Admiral Tharkus. Able to assume the appearance of others, Pollux used his unusual abilities to infiltrate enemy ranks, gather intelligence, and carry out covert assignments alongside his partner, Kastor.
 TEXT_TOOLTIP_PRAETOR_I,A large battleship produced before the Clone Wars to be flaunted by wealthy sectors and planets. While the vessels originally had hamstrung hyperdrives due to regulations, wartime conditions saw them upgraded out of necessity as task force leaders and response units. 
 TEXT_TOOLTIP_PRAETOR_I_HULL,Hull: 32940 (Capital)
 TEXT_TOOLTIP_PRAETOR_I_MOVE,Speed: 2.45 | Accel: 0.1 | Turn: 0.175
@@ -1184,8 +1194,7 @@ TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP3,2x Medium Laser Cannons: 2 / 0.5s / 4.
 TEXT_TOOLTIP_TAXEVADER,fxXTaxEvaderXx was the director of Project Proteus. Following a major political defeat in the Engyneering County Informer of Deer elections TaxEvader fled to a salubrious cove where he claimed the title unopposed. Following the mysterious deaths of various major figures within the cove at the hands of a demonic entity TaxEvader fled to Denmark. There he tricked two factions of a school into fighting each other because they annoyed him. During this time he developed the missile trouts and began planning the early stages of Project Proteus. TaxEvader was presumed dead after accidentally lending his flintlock to a fugitive, the Killer Girl, in one of his schemes. But they were wrong, for he will live forever.
 TEXT_TOOLTIP_TAXEVADER_UPGRADE,Upgrade: Modified Bou'Halec
 TEXT_TOOLTIP_TEZRIN,Dongal Tezrin was the captain of the light cruiser Rintonne's Flame. He was assigned to patrol the Elrood sector during the Galactic Civil War. He was known to be a very irritable person.
-TEXT_TOOLTIP_THARKUS,TODO
-TEXT_TOOLTIP_THETA_ASSAULT_SHUTTLE,A militarized variant of a venerable Cygnus design. While the original transport model is decently armed with lasers, this version packs additional warhead launchers. Famous as a VIP shuttle and a boarding transport for the 501st Stormtrooper Legion.
+TEXT_TOOLTIP_THARKUS,Once a highly respected Imperial High Admiral, Tharkus was a soldier completely loyal to the Empire following the death of Emperor Palpatine at Endor. Tharkus had always despised civil servants and politicians, and grew more and more sickened as members of the Imperial hierarchy began to negotiate peace with the New Republic. To Tharkus, it was a crime against everything the Empire had fought for, and he abandoned the last remnants of the Imperial government to carve out his own domain as an Imperial Warlord.Knowledgeable and intelligent, he trusted only a select few to assist him in his schemes, including the shape-shifting operatives known as the Dioskouroi, Pollux and Kastor. With the politicians unwilling to wage war, Tharkus planned to wage it himself, capitalising on the chaos the Empire was experiencing to carve out an empire of his own.
 TEXT_TOOLTIP_THETA_SQUADRON,TIE Bombers of the Theta Squadron, known for its effectiveness of well timed bombing runs both in space and land engagement. It was under command of Lumiya, Dark Lady of the Sith, following the decimation of her fleet in the Nagai–Tof War and assigned to EF76 Nebulon-B escort frigate "Revenant". Theta Squadron participated in the assault led by Lumiya on the Communications Research space station Epsilon Nine.
 TEXT_TOOLTIP_THORN_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_THORN_MOVE,Speed: 1.5
@@ -1356,7 +1365,7 @@ TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specifications of those formerly used by Lord Vader's elite pilots. Adds shields, weapons and SLAM capabilities at the cost of base engine speed.
 TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
-TEXT_UNIT_KUAT_CHOOSE_BC,TODO ROOK - name on dummy
+TEXT_UNIT_KUAT_CHOOSE_BC,Lobby KDY
 TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser

@@ -5109,6 +5109,38 @@
 		<Group>faction_71</Group>
 	</CommandBarComponent>
 
+	<CommandBarComponent Name="faction_72">
+		<!-- Faction Select Button 72 -->
+		<Type>TextButton</Type>
+		<Font_Name>Arial</Font_Name>
+		<Font_Point_Size>7</Font_Point_Size>
+		<Color>255 255 255 50</Color>
+		<Text_Offset>0 0</Text_Offset>
+		<Left_Justified>False</Left_Justified>
+		<Base_Layer>8</Base_Layer>
+		<Text_Outline>True</Text_Outline>
+		<Icon_Texture_Name>I_BUTTON_THARKUS.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_THARKUS.tga</Selected_Texture_Name>
+		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
+		<Toggle>False</Toggle>
+		<Selected_Alpha>True</Selected_Alpha>
+		<Tab>True</Tab>
+		<Disable_Darken>true</Disable_Darken>
+		<Group>faction_72</Group>
+		<Tooltip_Text>WIP--THARKUS</Tooltip_Text>
+		<Scale>0.75</Scale>
+	</CommandBarComponent>
+
+	<CommandBarComponent Name="disabled_faction_72">
+		<Type>TextButton</Type>
+		<Base_Layer>8</Base_Layer>
+		<Icon_Texture_Name>i_button_invisible_circle.tga</Icon_Texture_Name>
+		<Selected_Texture_Name />
+		<Toggle>False</Toggle>
+		<Tab>True</Tab>
+		<Group>faction_72</Group>
+	</CommandBarComponent>
+
 	<CommandBarComponent Name="faction_75">
 		<!-- Faction Select Button 75 -->
 		<Type>TextButton</Type>

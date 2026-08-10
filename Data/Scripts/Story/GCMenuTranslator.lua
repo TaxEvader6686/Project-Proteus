@@ -71,6 +71,7 @@ return {
 	["ALLIED_TION"] ="faction_69",
 	["RENDILI"] ="faction_70",
 	["X1"] ="faction_71",
+	["THARKUS"] ="faction_72",
 	["SECRET"] ="faction_75",
 	
 
@@ -147,6 +148,7 @@ return {
 		"ALLIED_TION",
 		"RENDILI",
 		"X1",
+		"THARKUS",
 		"LANOX",
 		"STORM_COMMANDOS",
 		"SECRET",
