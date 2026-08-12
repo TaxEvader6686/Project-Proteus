@@ -3,22 +3,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -27,22 +26,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -51,22 +49,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -75,22 +72,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -99,22 +95,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -123,22 +118,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -147,22 +141,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -171,22 +164,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -195,22 +187,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -219,22 +210,21 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
@@ -243,35 +233,45 @@ return {
 		{
 			{"CEC_Light_Cruiser", 5},
 			{"Security_Trooper_Company", 5},
-			{"Elite_Mercenary_Company", 5},
-			{"Imperial_Scout_Trooper_Company", 5},
-			{"Consular_Refit", 5},
-			{"LAC", 5},
+			{"Imperial_Navy_Trooper_Company", 5},
+			{"Imperial_Scout_Trooper_Company", 3},
+			{"Ipv1_Gunboat_Proteus", 5}, --Replace with Turbolaser Customs Corvette
 		},
 		{
-			{"Canderous_Assault_Tank_Company", 2},
 			{"Alliance_Assault_Frigate_II", 3},
+			{"Imperial_Stormtrooper_Company", 5},
 			{"Broadside_Cruiser", 3},
 			{"Strike_Cruiser", 3},
-			{"Lictor", 2},
-			{"Proficient_Tender", 2},
+			{"SPMAT_Company", 2},
 		},
 		{
-			{"Aratech_Battle_Platform_Company", 1},
 			{"Heavy_Recovery_Vehicle_Company", 2},
+			{"Nemesis_Gunship_Company", 2},
+			{"Lictor", 2},
 			{"Acclamator_Battleship", 1}, --Replace with Corellian Destroyer design
 			{"Bulwark_II", 1},
 		}
 	},
 	PDF = {
 		{		
-			{"Destroyer_Droid_II_Company", 4},	
+			{"CSA_Destroyer_Droid_Company", 4},
+			{"Consular_Refit", 5},
+			{"LAC", 5},
+			{"Imperial_Nebulon_B", 5},	
+			{"PDF_Tactical_Unit_Company", 5},	
 		},
 		{
-			{"Imperial_Nebulon_B", 5},
+			{"Scorpenek_Company_Influence", 3},
+			{"T4A_Company", 3},
+			{"MAL_Rocket_Vehicle_Company", 3},
+			{"Elite_Mercenary_Company", 3},
 		},
 		{
 			{"Imperial_AT_AP_Walker_Company", 2},
+			{"Canderous_Assault_Tank_Company", 2},
+			{"Proficient_Tender", 2},
+			{"Aratech_Battle_Platform_Company", 2},
+			{"Acclamator_Destroyer", 1},
 		}
 	}
 }

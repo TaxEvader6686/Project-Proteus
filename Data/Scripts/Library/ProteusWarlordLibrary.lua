@@ -303,7 +303,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_IMPERIAL_LIANNA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
 		},
-			["ISECTOR"] = {
+		["ISECTOR"] = {
 			FriendlyName = "I-sector",
 			Planets = {"MIRIAL","THILA","SAGMA"},
 			LeaderTable = {["SHARGAEL_TEAM"] = {"SHARGAEL_AT_TE"}},
@@ -324,7 +324,8 @@ return {
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_ISECTOR",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+            CustomRewardTable = true,
 		},
 		["JARDEEN"] = {
 			FriendlyName = "Imperial Jardeen",
@@ -1243,7 +1244,8 @@ return {
 			FactionOverride2 = "Rebel",
 			StartYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
-			IntroHolo = "Stormtrooper_Officer_Loop"
+			IntroHolo = "Stormtrooper_Officer_Loop",
+            CustomRewardTable
 		
 		},
 		["RENDILI"] = {
