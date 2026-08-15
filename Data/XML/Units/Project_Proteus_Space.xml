@@ -2660,6 +2660,51 @@
 
 <!-- Heavy Frigate -->
 
+<SpaceUnit Name="Gladiator_Demolisher">
+		<Variant_Of_Existing_Type>Template_Gladiator</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_GLADIATOR_DEMOLISHER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_GLADIATOR_DEMOLISHER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_GLADIATOR_HULL
+		TEXT_TOOLTIP_GLADIATOR_SHIELD
+		TEXT_TOOLTIP_GLADIATOR_MOVE
+		TEXT_TOOLTIP_GLADIATOR_SQUADRON 
+		TEXT_TOOLTIP_GLADIATOR_DEMOLISHER_GCW_WEAP1
+		TEXT_TOOLTIP_GLADIATOR2_WEAP2
+		TEXT_TOOLTIP_GLADIATOR_WEAP2
+		TEXT_TOOLTIP_GLADIATOR_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Sentinel_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Sentinel_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<HardPoints>
+		HP_Gladiator_Turbo01, HP_Gladiator_Turbo02, HP_Gladiator_Turbo03_Demolisher, HP_Gladiator_Turbo04_Demolisher, HP_Gladiator_Laser01, HP_Gladiator_Laser02, HP_Gladiator_Torpedo01, HP_Gladiator_Torpedo02, Gladiator_Hangar
+		</HardPoints>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>1040</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+	
 	<SpaceUnit Name="Modernized_DHC">
 		<Variant_Of_Existing_Type>Template_PDF_DHC</Variant_Of_Existing_Type>
 

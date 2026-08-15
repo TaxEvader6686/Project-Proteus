@@ -1327,6 +1327,29 @@ return {
 			IntroHolo = "Daala_Loop",
 			CustomRewardTable = true,
 		},
+		["SCREED"] = {
+			FriendlyName = "Screed's Empire",
+			Planets = {"PHINDAR"},
+			LeaderTable= {"SCREED_DEMOLISHER"},
+			LeaderEndingNames = {"Emperor Screed"},
+			HeroList = {"Screed_Demolisher"},
+			UnlockList = {
+				-- Space
+		    	"LAC", "Class_C_Frigate", "Lancer_Frigate", "Bayonet_Cruiser", "Arquitens_Refit", "Galleon_Minelayer",
+				"Gladiator_I", "Acclamator_I_Support", "Gladiator_Demolisher", "Vector_Star_Destroyer", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer", 
+				"Triumph_Star_Destroyer", "Imperial_II_Star_Destroyer_Sentry",
+				"Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "ISB_Infiltrator_Company", "Imperial_Dwarf_Spider_Droid_Company",
+				"Imperial_AT_PT_Company", "AT_XT_Company", "Imperial_Bantha_II_Skiff_Company", "AA70_Company",
+				"008_Speeder_Company", "HAET_Company", "Skyhopper_Company", "AV_7_Company",
+				"Imperial_AT_ACT_Walker_Company", "Imperial_A5_Juggernaut_Company"
+			},
+			LastYear = 6,
+			FactionOverride = "Zsinj_Empire",
+			IntroText = "TEXT_CONQUEST_SCREED",
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+		},
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
 			Planets = {"DATHOMIR", "KASHYYYK", "EBAQ"},

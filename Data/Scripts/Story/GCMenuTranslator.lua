@@ -75,6 +75,7 @@ return {
 	["CENTRALITY"] ="faction_73",
 	["ANAXES"] ="faction_74",
 	["SECRET"] ="faction_75",
+	["SCREED"] ="faction_76",
 	
 
 	["AllFactions"] = {

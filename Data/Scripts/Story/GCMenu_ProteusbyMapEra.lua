@@ -1211,24 +1211,34 @@ return {
 		   ["11ABY"] = true
 		}	
 	},
-	["STORM_COMMANDOS"] = {
+	["SCREED"] = {
 		["FullSmall"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		},
 		["FullMedium"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		},
 		["FullLarge"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		},
 		["KnownSmall"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		},
 		["KnownMedium"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		},
 		["KnownLarge"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
+		},
+		["Borderlands"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
 		}
 	},
 	["CENTRALITY"] = {

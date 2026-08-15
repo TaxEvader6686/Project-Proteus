@@ -322,6 +322,7 @@ return {
 ["GARVEDON_CAPTOR"] = true,
 ["GENDARR_RELIANCE"] = true,
 ["GEONOSIAN_CRUISER_INFLUENCE"] = true,
+["GLADIATOR_DEMOLISHER"] = true,
 ["GLADIATOR_I"] = true,
 ["GLADIATOR_II"] = true,
 ["GOLAN_COLONY_ONE"] = true,

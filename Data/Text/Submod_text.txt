@@ -1683,3 +1683,6 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_EVENT_WARLORD_CHOICE_SCREED,Screed's Empire
+TEXT_PROTEUS_DESCRIPTION_SCREED,WIP
+TEXT_CONQUEST_SCREED,WIP
