@@ -111,6 +111,7 @@ return {
 			CENTRALITY = {"EARLY_SKIPRAY_SQUADRON", false},
 			ANAXES = {"ADVANCED_SKIPRAY_SQUADRON", false},
 			SECRET = {"SKIPRAY_ION_SQUADRON", false},
+			SCREED = {"THETA_ASSAULT_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

@@ -112,6 +112,7 @@ return {
 			CENTRALITY = {"SCURRG_H6_SQUADRON", false},
 			ANAXES = {"SKIPRAY_BOMBER_SQUADRON", false},
 			SECRET = {"TIE_PUNISHER_SQUADRON", false},
+			SCREED = {"SKIPRAY_BOMBER_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

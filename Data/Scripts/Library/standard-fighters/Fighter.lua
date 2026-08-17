@@ -134,6 +134,7 @@ return {
 			CENTRALITY = {"R41_STARCHASER_SQUADRON", false},
 			ANAXES = {"Z95XT_HEADHUNTER_SQUADRON", false},
 			SECRET = {"X_WING_SQUADRON", false},
+			SCREED = {"NIMBUS_V_WING_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

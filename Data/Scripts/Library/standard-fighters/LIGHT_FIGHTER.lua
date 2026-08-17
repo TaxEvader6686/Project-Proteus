@@ -92,6 +92,7 @@ return {
 			CENTRALITY = {"MISSILE_TIE_FIGHTER_SQUADRON", false},
 			ANAXES = {"TIE_FIGHTER_SQUADRON", false},
 			SECRET = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
+			SCREED = {"TWIN_ION_ENGINE_STARFIGHTER_SQUADRON", false},
 		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then

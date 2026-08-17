@@ -93,6 +93,7 @@ return {
 			CENTRALITY = {"STARWING_ASSAULT_SQUADRON", false},
 			ANAXES = {"TIE_DEFENDER_SQUADRON", false},
 			SECRET = {"TIE_DEFENDER_SQUADRON", false},
+			SCREED = {"ARC_170_SQUADRON", false},
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

@@ -106,6 +106,7 @@ return {
 			CENTRALITY = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			ANAXES = {"BTLB_Y_WING_SQUADRON", false},
 			SECRET = {"TIE_AVENGER_BOMBER_SQUADRON", false},
+			SCREED = {"NIMBUS_V_WING_BOMBER_SQUADRON", false},
 		}
 
 		if simpletypes[owner] then

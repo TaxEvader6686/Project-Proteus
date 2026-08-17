@@ -110,6 +110,7 @@ return {
 			CENTRALITY = {"MISSILE_TIE_INTERCEPTOR_SQUADRON", false},
 			ANAXES = {"TIE_INTERCEPTOR_SQUADRON", false},
 			SECRET = {"A_WING_SQUADRON", false},
+			SCREED = {"TIE_INTERCEPTOR_SQUADRON", false},
 		}
 		
 		if simpletypes[owner] then
