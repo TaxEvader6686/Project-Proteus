@@ -45,9 +45,9 @@ TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities. Functions as a dreadnaught-level shipyard and the faction's capital, but can be relocated much cheaper and faster than other capital buildings.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an organization overseeing all aspects of various Imperial Intelligence Agencies. Their archives and surveillance facilities provide intel on nearby planets in a large radius.
-TEXT_CONQUEST_PROTEUS_ANAXES,TODO for (Supernova? Nick?)
+TEXT_CONQUEST_PROTEUS_ANAXES,Feyet Kiez: Greetings Commander, the Empire has fallen into chaos and disarray ever since our catastrophic defeat at Endor. It is our task to bring stability and security back to the galactic center before we set out to punish the insidious traitors that call themselves rebels. Our enemies will soon learn the lesson that Anaxes isn't called the Defender of the Core for nothing.
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
-TEXT_CONQUEST_PROTEUS_CENTRALITY,TODO for (Supernova? Nick?)
+TEXT_CONQUEST_PROTEUS_CENTRALITY,Sris Lehhett: Hello Commander, the galaxy has fallen into chaos ever since the Emperor died above Endor. It is our duty to preserve stability within the Centrality. For this reason we need to rebuild our fleet to fulfill the ardous task of restarting our economy. I trust you commander to complete this task.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_REBORN,Admiral Fyyar: Our final preparations are complete, Commander! My flagship is ready and loaded with the new Reborn Shadowtroopers! All my work, my ingenious designs, will finally bring about the end of the rebels and the Jedi! Lord Hethrir is correct, the Empire will be reborn - but not as he imagines it...
@@ -211,8 +211,10 @@ TEXT_NOTE,Put text changes for submods here
 TEXT_NTB_630_SQUADRON,NTB-630 Squadron
 TEXT_NTB_630_SQUADRON_HALF,NTB-630 Squadron 1/2
 TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
+TEXT_PROTEUS_DESCRIPTION_ALLIED_TION,--TODO TEXT_PROTEUS_DESCRIPTION_ALLIED_TION--
 TEXT_PROTEUS_DESCRIPTION_ANAXES,TODO for (Supernova? Nick?)
 TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist independence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
+TEXT_PROTEUS_DESCRIPTION_CARIDA,--TODO TEXT_PROTEUS_DESCRIPTION_CARIDA--
 TEXT_PROTEUS_DESCRIPTION_CENTRALITY,TODO For (Supernova? Nick?)
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
@@ -224,8 +226,6 @@ TEXT_PROTEUS_DESCRIPTION_STORM_COMMANDOS,Prior to the Battle of Endor, General W
 TEXT_PROTEUS_DESCRIPTION_THARKUS,Led by the Imperial hardliner High Admiral Tharkus, this splinter faction emerged from his refusal to accept peace with the New Republic as the Empire fractured after Endor. Distrustful of politicians and civilian leadership, Tharkus gathered loyal military forces and a select group of operatives, including the shapeshifting Dioskouroi, with the goal of continuing the war and seizing control of the Empire for himself by claiming the legendary "Heart of the Jedi".
 TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
-TEXT_PROTEUS_DESCRIPTION_CARIDA,--TODO TEXT_PROTEUS_DESCRIPTION_CARIDA--
-TEXT_PROTEUS_DESCRIPTION_ALLIED_TION,--TODO TEXT_PROTEUS_DESCRIPTION_ALLIED_TION--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
@@ -861,13 +861,19 @@ TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_FLEET_COMMANDO2,Fleet Commando Sniper S
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_INCINERATOR_STORMTROOPER1,Incinerator Stormtrooper Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_INTSEC1,IntSec Operator Squad: 1 / 5
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_INTSEC2,IntSec Operator Sniper Squad: 1 / 5
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER1,ISB Infiltrator Assault Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER2,ISB Infiltrator Sniper Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB1,ISB Infiltrator Assault Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB2,ISB Infiltrator Sniper Squad: 1 / 5
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB3,ISB Stormtrooper Squad: 1 / 5
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_NEMOIDIAN_GUARD1,Nemoidian Guard Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_NEMOIDIAN_GUARD2,Nemoidian Guard Sniper Squad: 1 / 5
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO1,PDF Tactical Unit Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO2,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL1,Defense Force Tactical Unit Squad: 4 / 20
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_REBORN_DARK_JEDI1,Reborn Dark Jedi: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_RED_POLICE1,Red Police Squad: 3 / 15
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SD101,SD-10 Battle Droid: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SHADOW_EVO1,Shadow EVO Trooper Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_WARLORD1,Army Commando Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY,A small base of operations supplied from orbit with mercenary units.
@@ -885,6 +891,10 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_LIGHT_MERCENARY2,Light Merce
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_SPECIAL_MISSIONS_RIFLEMAN1,Army Guard Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_SPECIAL_MISSIONS_RIFLEMAN2,Army Special Missions Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD1,Army Guard Squad: 4 / 20
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF2,Army Special Missions Weapons Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE2,Stormtrooper Carabineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS1,Army Special Missions Rifleman Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS2,Army Special Missions Weapons Squad: 1 / 5
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_TROOPER_DSD11,Army Trooper Anti-Personnel Squad: 2 / 10
@@ -897,6 +907,8 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_DRAGON_TROOPER1,Dragon Trooper Squad: 4
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_FORCE_CULTIST1,Local Force Cultist Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_GALACTIC_MARINE1,Galactic Marine Assault Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_GALACTIC_MARINE2,Galactic Marine Heavy Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV1,Local Military Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV2,Army Trooper Anti-Vehicle Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_PDF_HEAVY1,Local Military Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_PDF_HEAVY2,Defense Force Trooper Anti-Vehicle Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY1,Local Military Squad: 4 / 20
@@ -909,17 +921,27 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_FAUX_STORMTROOPER1,Faux St
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_FAUX_STORMTROOPER2,Stormtrooper Rifleman Squad: 1 / 5
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_GALACTIC_MARINE1,Stormtrooper Carabineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_GALACTIC_MARINE2,Galactic Marine Heavy Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT1,Stormtrooper Fireteam: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT2,Stormtrooper Weapons Specialist Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y1,Army Commando Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_OVERRACER1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_OVERRACER2,Overracer Speeder Bike Scout: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_DARKTROOPER1,Dark Trooper Phase II Squad: 3 / 9
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_EVO_64Y1,EVO Trooper Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_EVO_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
+TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y1,Scout Trooper Sniper Squad: 3 / 15
+TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_WARLORD1,Army Commando Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SCOUT_WARLORD2,74-Z Speeder Bike: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_BACKWATER_CORPORATE_SECURITY1,Backwater Soldier Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_BACKWATER_CORPORATE_SECURITY2,Corporate Security Trooper Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD61,SD-6 Hulk Infantry Droid: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD62,Local Military Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY1,Local Military Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY2,Local Military Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM1,Stormtrooper Fireteam: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM2,Navy Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_ARMY_GUARD1,Army Guard Fireteam: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_ARMY_GUARD2,Army Guard Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_ARMY_MEDIC_CORPORATE_SECURITY1,Corporate Security Trooper Squad: 1 / 5
@@ -930,6 +952,8 @@ TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_COMMANDO1,Navy Commando Fireteam: 1
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_COMMANDO2,Navy Commando Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_TROOPER1,Navy Trooper Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_NAVY_TROOPER2,Navy Trooper Medic Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1,Army Special Missions Engineer Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC1,Stormtrooper Fireteam: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FROSTFIRE_SHIELD,Shields: 5,000 / [50/R] (Capital)
@@ -946,6 +970,7 @@ TEXT_TOOLTIP_GAT_SHIELD,Shields: 50 / [6/R] (Light Vehicle)
 TEXT_TOOLTIP_GAT_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
 TEXT_TOOLTIP_GAT_WEAP2,1x Proton Missile: 1 / 10.0s / 320m
 TEXT_TOOLTIP_GHEK,Commander Ghek was a loyal Imperial naval officer serving under High Admiral Tharkus, commanding a light patrol cruiser in the aftermath of Endor. Ghek intercepted and boarded the salvage scow Entrepreneur while searching for Luke Skywalker, unknowingly playing his part in one of Tharkus's elaborate schemes.
+TEXT_TOOLTIP_GLADIATOR_DEMOLISHER,An uncommon variant of the Gladiator-I used most frequently against separatist holdouts during the Outer Rim Sieges before quickly falling out of favor. Specialized towards providing long-range fire support against larger vessels with heavy turbolasers and proton torpedo tubes.
 TEXT_TOOLTIP_GPA_RESEARCH,Using our domestic developments, replace our TIE Fighters with General-Purpose Attack Fighters.
 TEXT_TOOLTIP_GRONN_UPGRADE,Upgrade: Mandator-III
 TEXT_TOOLTIP_GRUNGER_UPGRADE,Upgrade: Executor
@@ -1403,6 +1428,16 @@ TEXT_TOOLTIP_VENATOR_8X_WEAP2,2x Medium Turbolasers: 2 / 1.67s / 6.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP3,2x Light Dual Turbolasers: 2 / 5.0s / 5.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP4,2x Heavy Dual Ion Cannons: 1 / 5.0s / 6.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP5,2x Proton Torpedoes: 2 / 20.0s / 5.2km
+TEXT_TOOLTIP_VENATOR_PATROL,Following the Clone Wars, many of the once-common Venator Star Destroyers were decommissioned, reassigned to reserve fleets, or turned to special tasks. This variant, bearing a scaled-down main battery and adjusted close defense systems, was mainly used as a patrol and response vessel in quiet areas during the Galactic Civil War, as well as non-combat tasks such as VIP transports and diplomatic missions. Still carries a strong fighter wing, but lacks the heavy weapons to threaten larger vessels by itself and is thus reliant on escorts.
+TEXT_TOOLTIP_VENATOR_PATROL_HULL,Hull: 3240 (Heavy Frigate)
+TEXT_TOOLTIP_VENATOR_PATROL_MOVE,Speed: 4.55 | Accel: 0.2 | Turn: 0.4
+TEXT_TOOLTIP_VENATOR_PATROL_SHIELD,Shields: 3000 / [30/R] (Heavy Frigate)
+TEXT_TOOLTIP_VENATOR_PATROL_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 6
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP1,4x Medium Dual Turbolasers: 2 / 5.0s / 6.2km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP2,2x Light Turbolasers: 2 / 3.33s / 5.2km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP3,2x Medium Dual Ion Cannons: 1 / 5.0s / 6.2km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.7km
+TEXT_TOOLTIP_VENATOR_PATROL_WEAP5,2x Light Concussion Missiles: 4 / 10.0s / 4.2km
 TEXT_TOOLTIP_VICTORY_PATROL,One of the many post-Clone Wars configurations of the common Victory-Class Star Destroyer. This variant stripped the missiles in favor of a light armament specialized to deal with smaller, lighter enemy craft while being less expensive to maintain and deploy as the fully loaded models. Very popular with garrisons in remote Sectors with limited resources as a result, they provided a way to project power without committing heavy assets. While not as dangerous as most other variants, they were still capable of dealing with most common pirate and rebel threats in backwater regions.
 TEXT_TOOLTIP_VICTORY2_CARRIER,A refitted star destroyer for system patrol and anti-piracy duties in remote sectors using the common Victory II-Class hull as a base. With much of the onboard cargo capacity converted to housing fighter craft and support systems, the operational range is lower than usual for patrol ships, so they mostly guard Imperial outposts and transit hubs. While the firepower is scaled back to accommodate the increased power usage of the command and control systems, this variant can still defend itself well from attackers in a lower weight class while supporting allied forces with its complement.
 TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER,Shields: 3000 / [37.5/R] (Heavy Frigate)
@@ -1493,6 +1528,7 @@ TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
 TEXT_UNIT_GAT_COMPANY,GAT Company
+TEXT_UNIT_GLADIATOR_DEMOLISHER,Gladiator-I Refit
 TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
@@ -1664,6 +1700,7 @@ TEXT_UNIT_V_WING_ESK,V-Wing "Esk"
 TEXT_UNIT_VCX820,VCX-820 Escort Freighter
 TEXT_UNIT_VECTOR,Vector Star Destroyer
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
+TEXT_UNIT_VENATOR_PATROL,Venator Patrol Destroyer
 TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
 TEXT_UNIT_VICTORY_PATROL,Patrol Victory-I Star Destroyer
 TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
@@ -1696,40 +1733,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF1,Army Special Missions Rifleman Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_HALFNHALF2,Army Special Missions Weapons Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1,Army Special Missions Engineer Squad: 1 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y1,Army Commando Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_ARMY_COMMANDO_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE1,Army Special Missions Rifleman Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE2,Stormtrooper Carabineer Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER1,ISB Infiltrator Assault Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_ISB_SNIPER2,ISB Infiltrator Sniper Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT1,Stormtrooper Fireteam: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_STORMTROOPER_HWT2,Stormtrooper Weapons Specialist Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD61,SD-6 Hulk Infantry Droid: 1 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_LOCAL_MILITARY_SD62,Local Military Medic Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SD101,SD-10 Battle Droid: 4 / 20
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM1,Stormtrooper Fireteam: 1 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_NAVY_MEDIC_STORMTROOPER_MEDIUM2,Navy Trooper Medic Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_REBORN_DARK_JEDI1,Reborn Dark Jedi: 4 / 20
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV1,Local Military Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_LOCAL_MILITARY_ARMY_AV2,Army Trooper Anti-Vehicle Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO1,PDF Tactical Unit Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_PDF_TACTICAL_ARMY_COMMANDO2,Army Commando Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y1,Scout Trooper Sniper Squad: 3 / 15
-TEXT_TOOLTIP_FIELD_BASE_SCOUT_PROTEUS_SCOUT_SNIPER_64Y2,64-Y Swift 3 Repulsor Sled: 4 / 20
-TEXT_UNIT_GLADIATOR_DEMOLISHER,Gladiator-I Refit
-TEXT_TOOLTIP_GLADIATOR_DEMOLISHER,An uncommon variant of the Gladiator-I used most frequently against separatist holdouts during the Outer Rim Sieges before quickly falling out of favor. Specialized towards providing long-range fire support against larger vessels with heavy turbolasers and proton torpedo tubes.
-TEXT_TOOLTIP_VENATOR_PATROL,Following the Clone Wars, many of the once-common Venator Star Destroyers were decommissioned, reassigned to reserve fleets, or turned to special tasks. This variant, bearing a scaled-down main battery and adjusted close defense systems, was mainly used as a patrol and response vessel in quiet areas during the Galactic Civil War, as well as non-combat tasks such as VIP transports and diplomatic missions. Still carries a strong fighter wing, but lacks the heavy weapons to threaten larger vessels by itself and is thus reliant on escorts.
-TEXT_TOOLTIP_VENATOR_PATROL_HULL,Hull: 3240 (Heavy Frigate)
-TEXT_TOOLTIP_VENATOR_PATROL_MOVE,Speed: 4.55 | Accel: 0.2 | Turn: 0.4
-TEXT_TOOLTIP_VENATOR_PATROL_SHIELD,Shields: 3000 / [30/R] (Heavy Frigate)
-TEXT_TOOLTIP_VENATOR_PATROL_SQUADRON,Fighters: 2 / 8 | Bombers: 2 / 6
-TEXT_TOOLTIP_VENATOR_PATROL_WEAP1,4x Medium Dual Turbolasers: 2 / 5.0s / 6.2km
-TEXT_TOOLTIP_VENATOR_PATROL_WEAP2,2x Light Turbolasers: 2 / 3.33s / 5.2km
-TEXT_TOOLTIP_VENATOR_PATROL_WEAP3,2x Medium Dual Ion Cannons: 1 / 5.0s / 6.2km
-TEXT_TOOLTIP_VENATOR_PATROL_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.7km
-TEXT_TOOLTIP_VENATOR_PATROL_WEAP5,2x Light Concussion Missiles: 4 / 10.0s / 4.2km
-TEXT_UNIT_VENATOR_PATROL,Venator Patrol Destroyer
