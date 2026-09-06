@@ -4359,13 +4359,13 @@
 			</Unit_Ability>
 
 			<Unit_Ability>
-			<Type>STUN</Type>
-			<Recharge_Seconds>40.0</Recharge_Seconds>
-			<GUI_Activated_Ability_Name> Razor_Stun </GUI_Activated_Ability_Name>
-			<Effective_Radius> 300.0 </Effective_Radius>
-			<Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
-			<SFXEvent_Target_Ability> Unit_Stun_Urai_Fen </SFXEvent_Target_Ability>
-			<Supports_Autofire>True</Supports_Autofire>
+				<Type>STUN</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Razor_Stun </GUI_Activated_Ability_Name>
+				<Effective_Radius> 300.0 </Effective_Radius>
+				<Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Stun_Urai_Fen </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -4410,8 +4410,8 @@
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
                 <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca </Applicable_Unit_Types>
+				<Applicable_Unit_Categories>InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types> </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Ability_Stun</SFXEvent_Activate>
 				<Owner_Particle_Effect>Stun_Ability_Particles</Owner_Particle_Effect>
 				<Owner_Particle_Bone_Name />
@@ -6877,7 +6877,7 @@
 				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
 				<Applicable_Unit_Types>
 					Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-					New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Compan
+					New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
