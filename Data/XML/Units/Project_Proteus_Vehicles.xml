@@ -6616,7 +6616,7 @@
 		<Tactical_Health>225</Tactical_Health>
 		<Shield_Points>80</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
-		<Shield_Armor_Type>ShieldG_MediumVehicle</Shield_Armor_Type>
+		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
 
 		<LandBehavior>WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,POWERED,TURRET,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI, ABILITY_COUNTDOWN,TELEKINESIS_TARGET,STUNNABLE, SQUASH, SHIELDED, AFFECTED_BY_SHIELD, DAMAGE_TRACKING</LandBehavior>
 
