@@ -1192,7 +1192,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Procurator_Battlecruiser", 
 				"Communications_Battlecruiser", "Bellator_Star_Dreadnought", 
 				-- Ground
-				"Imperial_Navy_Trooper_Company", "Customs_Patrol_Company", "Combat_Probot_Company",
+				"Imperial_Navy_Trooper_Company", "Customs_Patrol_Company", "Combat_Probot_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"TIE_Mauler_Company", "RTT_Company", "Chariot_LAV_Company",
 				"TIE_Crawler_Company", "Imperial_A5RX_Company", "Imperial_LAAT_Company", "Imperial_Missile_Artillery_Company", 
 				"B5_Juggernaut_Company", "Teklos_Company",
