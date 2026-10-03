@@ -1,6 +1,7 @@
 require("deepcore/std/class")
 require("eawx-plugins/government-manager/GovernmentNewRepublic")
 require("eawx-plugins/government-manager/GovernmentEmpire")
+require("eawx-plugins/government-manager/GovernmentProteus")
 require("eawx-plugins/government-manager/GovernmentFavour")
 require("eawx-plugins/government-manager/GovernmentHutts")
 require("eawx-plugins/government-manager/GovernmentEotH")
@@ -19,15 +20,15 @@ function GovernmentManager:new(gc, absorb, dark_empire, id, dummy_lifecycle_hand
     self.HUTTGOV = GovernmentHutts(gc, id)
     self.EOTHGOV = GovernmentEotH(gc, self.FAVOUR.FavourTables["EMPIREOFTHEHAND"])
 
+    -- Project Proteus
+    self.PROTEUSGOV = GovernmentProteus(gc, self.EMPIREGOV, self.SHIPMARKET)
+
     self.human = Find_Player("local")
     self.HuttPlayer = Find_Player("Hutt_Cartels")
     self.hutt_scum = false
     self.hutt_mobilize = false
     self.hutt_empire = false
 
-    self.market_adjustments = require("ShipMarketAdjustmentsLibrary")
-
-    crossplot:subscribe("UPDATE_MARKET", self.Market_Update, self)
     crossplot:subscribe("TEMPEST_RESEARCH_FINISHED", self.Hutt_Research_Tempest, self)
     crossplot:subscribe("CHELANDION_AVAILABLE", self.Hutt_Militarization_Chelandion, self)
     crossplot:subscribe("TARRADA_AVAILABLE", self.Hutt_Militarization_Tarrada, self)
@@ -43,24 +44,10 @@ end
 function GovernmentManager:update()
     self.NRGOV:update()
     self.EMPIREGOV:update()
+    self.PROTEUSGOV:update()
     self.SHIPMARKET:update()
     self.FAVOUR:update()
     self.HUTTGOV:update()
-end
-
-function GovernmentManager:Market_Update(tag)
-
-    if self.market_adjustments[tag] then
-        if self.market_adjustments[tag].adjustment_lists then
-            self.SHIPMARKET:adjust_ship_chance(self.market_adjustments[tag].adjustment_lists)
-        end
-        if self.market_adjustments[tag].lock_lists then
-            self.SHIPMARKET:lock_or_unlock_options(self.market_adjustments[tag].lock_lists)
-        end
-        if self.market_adjustments[tag].requirement_lists then
-            self.SHIPMARKET:adjust_ship_requirements(self.market_adjustments[tag].requirement_lists)
-        end
-    end
 end
 
 function GovernmentManager:Hutt_Research_Tempest()
@@ -126,7 +113,7 @@ function GovernmentManager:UpdateDisplayContainer()
         then
             self.EMPIREGOV:UpdateDisplay()
             if GlobalValue.Get("PROTEUS_GROUP_NAME") == "KUAT" then
-                self:UpdateProteusShipmarketDisplay()
+                self.PROTEUSGOV:UpdateProteusShipmarketDisplay()
             end
     elseif self.human == Find_Player("REBEL") then
         self.NRGOV:UpdateDisplay()
@@ -138,51 +125,6 @@ function GovernmentManager:UpdateDisplayContainer()
         self:UpdateDisplayHapes()
     elseif self.human == Find_Player("EMPIREOFTHEHAND") then
         self.EOTHGOV:OpenDisplay()
-    end
-end
-
-function GovernmentManager:UpdateProteusShipmarketDisplay()
-	local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-	if self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus] then
-		local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
-		local government_display_event = plot.Get_Event("Government_Display")
-
-        government_display_event.Set_Reward_Parameter(1, "IMPERIAL_PROTEUS")
-        -- government_display_event.Clear_Dialog_Text()
-
-        government_display_event.Add_Dialog_Text("TEXT_NONE")
-        government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_"..tostring(current_proteus))
-        government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-
-        government_display_event.Add_Dialog_Text("TEXT_NONE")
-
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_"..tostring(current_proteus))
-        government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-        government_display_event.Add_Dialog_Text("TEXT_NONE")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_01")
-        for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
-            local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
-            if ship_data.amount > 0 and ship_data.locked == false and ship_data.gc_locked == false then
-                government_display_event.Add_Dialog_Text(ship_data.readable_name .." : "..tostring(ship_data.amount) .." - [ ".. tostring(ship_data.chance/10) .."%% ]")
-            end
-        end
-        government_display_event.Add_Dialog_Text("TEXT_NONE")
-        government_display_event.Add_Dialog_Text("None on the market:")
-        for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
-            local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
-            if ship_data.amount == 0 and ship_data.locked == false and ship_data.gc_locked == false then
-                government_display_event.Add_Dialog_Text(ship_data.readable_name .." : [ ".. tostring(ship_data.chance/10) .."%% ]")
-            end
-        end
-        government_display_event.Add_Dialog_Text("TEXT_NONE")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_MODIFIERS")
-        for i, ship in ipairs(SortKeysByElement(self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list,"order","asc")) do
-            local ship_data = self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus]["SHIP_MARKET"].list[ship]
-            if string.len(ship_data.text_requirement) ~= 0 then
-                government_display_event.Add_Dialog_Text(ship_data.readable_name ..": ".. ship_data.text_requirement)
-            end
-        end
     end
 end
 
