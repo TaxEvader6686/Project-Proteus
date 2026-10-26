@@ -77,7 +77,7 @@ ModPath=Mods/Project-Proteus STEAMMOD=1125571106
 ```
 The cloned folder must be named `Project-Proteus` and placed under the game's `Mods` directory for this path to work.
 
-Edit files in the clone's `Data` folder: `XML` for game definitions, `Scripts` for Lua, `Text` for game text, and `Art` or `Audio` for assets.
+Edit files in the `Data` folder: `XML` for game definitions, `Scripts` for Lua, `Text` for game text, and `Art` or `Audio` for assets.
 
 ## Development workflow
 
@@ -100,9 +100,9 @@ Before starting, [Keep your fork current](#keep-your-fork-current) so your `Dev`
 Pushing uploads your branch to your fork, and a **pull request** asks the maintainers to merge it.
 
 1. In GitHub Desktop, review the commits and changed files.
-3. Choose **Push origin** or **Publish branch** to upload your working branch to your fork.
-4. Choose **Create Pull Request** and check that the pull request targets `TaxEvader6686/Project-Proteus` and its `Dev` branch, not `main`.
-5. Explain what changed and why.
+2. Choose **Push origin** or **Publish branch** to upload your working branch to your fork.
+3. Choose **Create Pull Request** and check that the pull request targets `TaxEvader6686/Project-Proteus` and its `Dev` branch, not `main`.
+4. Explain what changed and why.
    Link any related issue with `#` followed by the issue number.
    For visible changes, add a screenshot when useful.
 
