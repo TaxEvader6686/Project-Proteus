@@ -97,11 +97,6 @@ return {
 			ANAXES = {"TIE_GT_SQUADRON", false},
 			SECRET = {"TIE_INTERCEPTOR_ION_SQUADRON", false},
 			SCREED = {"NIMBUS_V_WING_SQUADRON", false},
-			NIVERS = {"TIE_GT_SQUADRON", false},
-			COMPNOR = {"", false},
-			MINOS = {"TIE_GT_SQUADRON", false},
-			TATOOINE = {"SCYK_HEAVY_FIGHTER_SQUADRON", false},
-			TRAX = {"", false},														
 		}
 		
 		if simpletypes[owner] then

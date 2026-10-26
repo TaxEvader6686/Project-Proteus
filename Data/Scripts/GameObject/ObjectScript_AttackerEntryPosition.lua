@@ -110,7 +110,6 @@ function State_Init(message)
 			VEERS = {"Field_Base_Pad_Veers", false},
 		--	BRANDEI = {"Field_Base_Pad_Brandei", false},--TODO
 			X1 = {"Field_Base_Pad_X1", false},
-			NIVERS = {"Field_Base_Pad_Nivers", false},
 			SECRET = {"Field_Base_Pad_Secret", false},
 			}
 		

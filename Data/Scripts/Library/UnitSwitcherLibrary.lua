@@ -123,7 +123,6 @@ return {
 	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
 	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 	["STRANG_IEC_DUMMY"] = {"Victor_Strang", "Strang_IEC"},
-	["ISARD_CLONE_LUSANKYA_DUMMY"] = {"Isard_Clone", "Isard_Clone_Lusankya"},
 	-- Proteus Unit upgrades for generics
 	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
 	["PROCURATOR_UPGRADE_DUMMY"] = {"Procurator_Battlecruiser","Modernized_Procurator",["location_check"] = true},

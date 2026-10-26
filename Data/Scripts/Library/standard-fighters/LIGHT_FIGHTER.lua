@@ -93,11 +93,6 @@ return {
 			ANAXES = {"TIE_FIGHTER_SQUADRON", false},
 			SECRET = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
 			SCREED = {"TWIN_ION_ENGINE_STARFIGHTER_SQUADRON", false},
-			NIVERS = {"TIE_FIGHTER_SQUADRON", "NIMBUS_V_WING_SQUADRON"},
-			COMPNOR = {"", false},
-			MINOS = {"NIMBUS_V_WING_ESK_SQUADRON", false},
-			TATOOINE = {"TIE_FIGHTER_SQUADRON", false},
-			TRAX = {"", false},														
 		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then

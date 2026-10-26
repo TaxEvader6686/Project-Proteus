@@ -173,7 +173,6 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
     end
 	
 	if entry.UnlockList then
-		--unlock singular unit at specific time, without a whole copy of the table
 		local unlock = get_value_per_era(entry.UnlockList, year)
 		if entry.UnlockList["TimeGate"] then
 			local gated = entry.UnlockList["TimeGate"]
@@ -181,14 +180,12 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 				if year >= data[2] then
 					table.insert(unlock, data[1])
 				end
+				if data[3] then
+					Find_Player("IMPERIAL_PROTEUS").Lock_Tech(Find_Object_Type(data[3]))
+				end
 			end
 		end
 		UnitUtil.SetLockList(self.warlord_name, unlock)
-		--For groups that have the IPV1, automatically swap to IPV4 in later eras
-		if (year >= 12 or (year >= 11 and GlobalValue.Get("GALACTIC_MONTH") >= 5)) and not Find_Object_Type("IPV1").Is_Obsolete(self.warlord_player) then
-			self.warlord_player.Lock_Tech(Find_Object_Type("IPV1"))
-			self.warlord_player.Unlock_Tech(Find_Object_Type("IPV4"))
-		end
 	end
 	if entry.LockList then
 		UnitUtil.SetLockList(self.warlord_name, get_value_per_era(entry.LockList, year), false)

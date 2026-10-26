@@ -9962,8 +9962,6 @@
 			KDY_Demonstration_Dreadnought,
 			Fel_Eviscerator,
 			Altor_Carrier,
-			Il_Raz_EmperorsDisciple,
-			Isard_Clone_Lusankya,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
