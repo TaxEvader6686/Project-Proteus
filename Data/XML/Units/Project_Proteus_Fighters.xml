@@ -13863,7 +13863,7 @@
 		<Required_Timeline/>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
-		<Affiliation>Banking_Clan, Empire</Affiliation>
+		<Affiliation>Empire</Affiliation>
 
 		<GUI_Row> 0 </GUI_Row>
 		<Build_Cost_Credits>300</Build_Cost_Credits>
@@ -14022,7 +14022,7 @@
 		<Required_Timeline/>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
-		<Affiliation>Banking_Clan, Empire</Affiliation>
+		<Affiliation>Empire</Affiliation>
 
 		<GUI_Row> 0 </GUI_Row>
 		<Build_Cost_Credits>300</Build_Cost_Credits>
@@ -14205,7 +14205,7 @@
 		<Required_Timeline/>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
-		<Affiliation>Banking_Clan, Empire</Affiliation>
+		<Affiliation>Empire</Affiliation>
 
 		<GUI_Row> 0 </GUI_Row>
 		<Build_Cost_Credits>300</Build_Cost_Credits>

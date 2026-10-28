@@ -1,6 +1,490 @@
 <?xml version='1.0' encoding='ASCII'?>
 <Project_Proteus_Vehicles>
 
+	<GroundVehicle Name="VX_AA_Droid">
+
+		<Text_ID>TEXT_UNIT_VX_AA_DROID</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VX_AA_DROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VX_AA_DROID_HEALTH
+		TEXT_TOOLTIP_VX_AA_DROID_MOVE 
+		TEXT_TOOLTIP_VX_AA_DROID_WEAP1
+		TEXT_TOOLTIP_VX_AA_DROID_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_OR_VXAA_DROID.tga</Icon_Name>
+
+		<Land_Model_Name>OR_VX_AA_Droid.alo</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>70</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.75</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> 0.1166666666666667 </OverrideAcceleration>
+		<OverrideDeceleration> 0.35 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 2 </Movement_Animation_Speed>
+
+		<Armor_Type> ArmourG_LightVehicle </Armor_Type>
+		<Tactical_Health>65</Tactical_Health>
+		<Autoresolve_Health>75</Autoresolve_Health>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>6</Damage>
+		<AI_Combat_Power>25</AI_Combat_Power>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Tracked</Type>
+		<CategoryMask> Vehicle | AntiAirGunship | AntiAirSpeeder </CategoryMask>
+		<Property_Flags>DoKite</Property_Flags>
+		<Weather_Category>Tracked</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>100</Score_Cost_Credits>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<Lua_Script/>
+		
+		<HardPoints>HP_VX_AA_Turret, HP_VX_AA_Laser</HardPoints>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> Body, Turret_Attach </Target_Bones>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_MPTL_Spotter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_MPTL_Spotter</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_MPTL_Spotter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_MPTL_Spotter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_MPTL_Spotter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_MPTL_Spotter </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_MPTL_Spotter </SFXEvent_Assist_Attack>
+		
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Null</SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_Light_Tracked_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Light_Tracked_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Vehicle_Turret_Motor</SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Tracked</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>10.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationOrder> 4 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+		
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiAir</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>60.0</Overall_Length>
+		<Overall_Width>40.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+
+		<Death_Clone>Damage_Force_Telekinesis, Medium_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Medium_Explosion_Land</Death_Clone>
+	</GroundVehicle>
+
+	<GroundCompany Name="VX_AA_Droid_Company">
+		<Text_ID>TEXT_UNIT_VX_AA_DROID_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VX_AA_DROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VX_AA_DROID_COMPANY
+		TEXT_TOOLTIP_VX_AA_DROID_HEALTH
+		TEXT_TOOLTIP_VX_AA_DROID_MOVE 
+		TEXT_TOOLTIP_VX_AA_DROID_WEAP1
+		TEXT_TOOLTIP_VX_AA_DROID_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_OR_VXAA_DROID.tga</Icon_Name>
+
+		<Autoresolve_Health>450</Autoresolve_Health>
+		<Damage>100</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>VX_AA_Droid, VX_AA_Droid, VX_AA_Droid, VX_AA_Droid</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Slice_Cost_Credits>900</Slice_Cost_Credits>
+		<Required_Special_Structures> E_Ground_Heavy_Vehicle_Factory | R_Ground_Light_Vehicle_Factory | Czerka_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_MPTL_Spotter</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Move_MPTL_Spotter</SFXEvent_Fleet_Move>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>190</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundVehicle Name="VX_Artillery_Droid">
+
+		<Text_ID>TEXT_UNIT_VX_ARTILLERY_DROID</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_ARTILLERY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_HEALTH
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_MOVE 
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_VX_ARTILLERY.tga</Icon_Name>
+
+		<Land_Model_Name>OR_VX_Artillery.alo</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>70</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> 0.1 </OverrideAcceleration>
+		<OverrideDeceleration> 0.3 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 2 </Movement_Animation_Speed>
+
+		<Armor_Type> ArmourG_LightVehicle </Armor_Type>
+		<Tactical_Health>75</Tactical_Health>
+		<Autoresolve_Health>75</Autoresolve_Health>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>6</Damage>
+		<AI_Combat_Power>19</AI_Combat_Power>
+
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Tracked</Type>
+		<CategoryMask> Vehicle | AntiInfantry | AntiStructure </CategoryMask>
+		<Property_Flags>DoKite</Property_Flags>
+		<Weather_Category>Tracked</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+
+		<Deploys>Yes</Deploys>
+		<Deployment_Anim_Rate>1.0</Deployment_Anim_Rate>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>100</Score_Cost_Credits>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Deployed_Rest_Angle>0.0, 0.0, 0.0</Turret_Deployed_Rest_Angle>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>0</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
+
+		<Projectile_Types>Proj_Proton_Missile_MPTL</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>14.81481481</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius> 40 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> TARGET_00 </Target_Bones>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Fire>Unit_SPMAT_Projectile_Fire</SFXEvent_Fire>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_MPTL_Spotter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_MPTL_Spotter</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_MPTL_Spotter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_MPTL_Spotter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_MPTL_Spotter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_MPTL_Spotter </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_MPTL_Spotter </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_Light_Tracked_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Light_Tracked_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Vehicle_Turret_Motor</SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Tracked</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>10.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationOrder> 4 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>350.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>ArtilleryMissile</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>60.0</Overall_Length>
+		<Overall_Width>40.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Track_Half</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+
+		<Death_Clone>Damage_Force_Telekinesis, Medium_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Medium_Explosion_Land</Death_Clone>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundVehicle>
+
+	<GroundCompany Name="VX_Artillery_Droid_Company">
+		<Text_ID>TEXT_UNIT_VX_ARTILLERY_DROID_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_ARTILLERY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_COMPANY
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_HEALTH
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_MOVE 
+		TEXT_TOOLTIP_VX_ARTILLERY_DROID_WEAP1
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_VX_ARTILLERY.tga</Icon_Name>
+
+		<Autoresolve_Health>450</Autoresolve_Health>
+		<Damage>100</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>675</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Slice_Cost_Credits>900</Slice_Cost_Credits>
+		<Required_Special_Structures> I_Ground_Heavy_Vehicle_Factory | Czerka_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_MPTL_Spotter</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Move_MPTL_Spotter</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>VX_Artillery_Droid, VX_Artillery_Droid</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>610</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
 	<GroundCompany Name="SD_9_Droid_Company_Generic">
 		<Variant_Of_Existing_Type>SD_9_Battle_Droid_Company</Variant_Of_Existing_Type>
 		<Tech_Level>0</Tech_Level>
@@ -1076,6 +1560,250 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 	</GroundCompany>
 	
+		<GroundVehicle Name="PAC">
+
+		<Text_ID>TEXT_UNIT_PAC</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TRANSPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PAC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PAC_HEALTH
+		TEXT_TOOLTIP_PAC_MOVE
+		TEXT_TOOLTIP_PAC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_tf_pac.tga</Icon_Name>
+
+		<Land_Model_Name>TF_PAC.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>75</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration>0.066</OverrideAcceleration>
+		<OverrideDeceleration>0.4</OverrideDeceleration>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_LightVehicle </Armor_Type>
+		<Tactical_Health>150</Tactical_Health>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>20</Damage>
+		<AI_Combat_Power>31</AI_Combat_Power>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Property_Flags> CanContainGarrison | DoKite</Property_Flags>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>200</Score_Cost_Credits>
+
+		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, GARRISON_VEHICLE, ABILITY_COUNTDOWN</LandBehavior>
+
+		<HardPoints> 
+			HP_PAC_Turret_Left,
+			HP_PAC_Turret_Right
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category> Infantry, InfantryHero </Garrison_Category>
+		<Num_Garrison_Slots>5</Num_Garrison_Slots>
+		<Garrison_Bone_Names>Garrison_00</Garrison_Bone_Names>
+		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>30</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> TARGET_00 </Target_Bones>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>No</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_b1_droid</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_b1_droid</SFXEvent_Fleet_Move>
+
+
+		<SFXEvent_Select>Unit_Select_b1_droid</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_b1_droid</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_b1_droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_b1_droid</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_b1_droid </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_b1_droid </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_b1_droid</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop></SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop></SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 28.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>true</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>250.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>50.0</Overall_Length>
+		<Overall_Width>20.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Behavior>SELECTABLE</Behavior>
+		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
+		<MovementPredictionInterval> 5.0 </MovementPredictionInterval>
+		<MovementBoxExpansionFactor> 8.0 </MovementBoxExpansionFactor>
+		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>
+		<Deploys>No</Deploys>
+		<Auto_Deploys>No</Auto_Deploys>
+		<SFXEvent_Fire>Unit_AT_AT_Fire</SFXEvent_Fire>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_AT_AT </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_AT_AT </SFXEvent_Assist_Attack>
+		<Air_Vehicle_Turret_Target> No </Air_Vehicle_Turret_Target>
+
+		<Death_Clone>Damage_Normal, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+	</GroundVehicle>
+
+	<GroundCompany Name="PAC_Company">
+		<Text_ID>TEXT_UNIT_PAC_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TRANSPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_PAC
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_PAC_COMPANY
+		TEXT_TOOLTIP_PAC_HEALTH
+		TEXT_TOOLTIP_PAC_MOVE
+		TEXT_TOOLTIP_PAC_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_tf_pac.tga</Icon_Name>
+
+		<Damage>60</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>6</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>650</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units>PAC, PAC</Company_Units>
+		<Company_Units>PAC, PAC</Company_Units>
+		<Company_Transport_Unit>Gallofree_Transport_Tanks</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_b1_droid</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_b1_droid</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>4</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>580</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+	
 	<GroundVehicle Name="AV_7">
 		<Text_ID>TEXT_UNIT_AV7</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_ARTILLERY</Encyclopedia_Unit_Class>
@@ -1351,6 +2079,343 @@
 	</Death_Clone>
 	<Death_Clone Name="AV7_Deployed_Death_Clone">
 		<Variant_Of_Existing_Type>AV_7</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED, IMPOSING_PRESENCE, LAND_OBSTACLE</LandBehavior>
+		<Obstacle_Width>40.0</Obstacle_Width>
+		<Obstacle_Height>40.0</Obstacle_Height>
+		<Obstacle_X_Offset>0.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-20.0</Obstacle_Y_Offset>
+		<Death_Persistence_Duration> 20 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathClone> true </IsDeathClone>
+		<Presence_Range>200.0</Presence_Range>
+	</Death_Clone>
+
+	<GroundVehicle Name="Template_Defoliator">
+		<Text_ID>TEXT_UNIT_DEFOLIATOR</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DEFOLIATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DEFOLIATOR_HEALTH 
+		TEXT_TOOLTIP_DEFOLIATOR_MOVE 
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP1
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP2 
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP3
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP5
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_defoliator.tga</Icon_Name>
+
+		<Land_Model_Name>Defoliator_deployment_tank.alo</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>70</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> .0333 </OverrideAcceleration>
+		<OverrideDeceleration> .2 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 2</Movement_Animation_Speed>
+
+		<Armor_Type> ArmourG_MediumVehicle </Armor_Type>
+		<Tactical_Health>300</Tactical_Health>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>6</Damage>
+		<AI_Combat_Power>83</AI_Combat_Power>
+
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiInfantry | AntiStructure </CategoryMask>
+		<Ranking_In_Category>7</Ranking_In_Category>
+		<Property_Flags>DoKite</Property_Flags>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Deploys>Yes</Deploys>
+		<Deployment_Anim_Rate>2.0</Deployment_Anim_Rate>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>100</Score_Cost_Credits>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARREL_00</Barrel_Bone_Name>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Deployed_Rest_Angle>0.0, -45.0, 0.0</Turret_Deployed_Rest_Angle>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
+		
+		<Projectile_Types>Proj_Defoliator_Artillery</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>8.333</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		<Targeting_Fire_Inaccuracy> Infantry, 180.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> AirGunship, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> AirSpeeder, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+
+		<HardPoints>
+			HP_Defoliator_Laser_1,
+			HP_Defoliator_Laser_2,
+			HP_Defoliator_Missile,
+			HP_Defoliator_Missile_Alternate,
+			HP_Defoliator_Shortrange
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> Target_00 </Target_Bones>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>Unit_Death_aat</SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_j1</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_j1</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_j1</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_j1</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_j1</SFXEvent_Guard>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Fire>Unit_HAG_Fire</SFXEvent_Fire>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_AAT_Engine_Idle </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_AAT_Engine </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_AAT_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Death_aat</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>60.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>40.0</Custom_Hard_YExtent>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationOrder> 4 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>true</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>350.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>ArtilleryLobbed</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>60.0</Overall_Length>
+		<Overall_Width>40.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+					<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP</Alternate_Name_Text>
+					<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_AAT</Alternate_Description_Text>
+					<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
+					<Recharge_Seconds> 40.0 </Recharge_Seconds>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+	</GroundVehicle>
+
+	<GroundVehicle Name="Defoliator">
+		<Variant_Of_Existing_Type>Template_Defoliator</Variant_Of_Existing_Type>
+		
+		<Affiliation>Rebel</Affiliation>
+		
+		<Death_Clone>Damage_Normal, Defoliator_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Defoliator_Deployed_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+	</GroundVehicle>
+
+	<GroundCompany Name="Defoliator_Company">
+
+		<Text_ID>TEXT_UNIT_DEFOLIATOR</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DEFOLIATOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DEFOLIATOR_COMPANY
+		TEXT_TOOLTIP_DEFOLIATOR_HEALTH 
+		TEXT_TOOLTIP_DEFOLIATOR_MOVE 
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP1
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP2 
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP3
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_DEFOLIATOR_WEAP5
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_defoliator.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>800</Build_Cost_Credits>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>I_Ground_Advanced_Vehicle_Factory | Baktoid_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Gallofree_Transport_Artillery</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_aat</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_aat</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>Defoliator</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>605</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+					<Alternate_Icon_Name>i_sa_swap_weapons.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+	</GroundCompany>
+
+	<Death_Clone Name="Defoliator_Death_Clone">
+		<Variant_Of_Existing_Type>Defoliator</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED, IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
+		<Death_Explosions_End>Medium_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Tank_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<IsDeathClone> true </IsDeathClone>
+		<Presence_Range>200.0</Presence_Range>
+	</Death_Clone>
+
+	<Death_Clone Name="Defoliator_Deployed_Death_Clone">
+		<Variant_Of_Existing_Type>Defoliator</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -3281,7 +4346,7 @@
 		<Damage>20</Damage>
 		<AI_Combat_Power>43</AI_Combat_Power>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control/>
 
 		<Type>Hover</Type>
@@ -5305,7 +6370,7 @@
 		<Damage>13</Damage>
 		<AI_Combat_Power>43</AI_Combat_Power>
 
-		<Affiliation>Rebel, Banking_Clan, Trade_Federation, Commerce_Guild, Techno_Union</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Type>Hover</Type>
@@ -5461,6 +6526,279 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
+
+		<GroundVehicle Name="MTT">
+
+		<Text_ID>TEXT_UNIT_MTT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MTT 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MTT_HEALTH
+		TEXT_TOOLTIP_MTT_MOVE 
+		TEXT_TOOLTIP_MTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_MTT_DEPLOY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_mtt.tga</Icon_Name>
+
+		<Land_Model_Name>multi-troop_transport.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>150</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed> 0.75 </Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration>0.025</OverrideAcceleration>
+		<OverrideDeceleration>0.15</OverrideDeceleration>
+		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
+		<Tactical_Health>900</Tactical_Health>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>100</Damage>
+		<AI_Combat_Power>199</AI_Combat_Power>
+
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Vehicle | AntiInfantry  </CategoryMask>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Property_Flags/>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+		
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.35</GUI_Bounds_Scale>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>1000</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+
+		<LandBehavior>SURFACE_FX,ABILITY_COUNTDOWN, DEPLOY_TROOPERS, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,AFFECTED_BY_SHIELD</LandBehavior>
+
+		<HardPoints>
+			HP_MTT_Blaster_1,
+			HP_MTT_Blaster_2
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> TARGET_00, HATCH, ATTACH_00, ATTACH_01 </Target_Bones>
+		<Ranged_Target_Z_Adjust>37.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>No</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_mtt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_mtt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_mtt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_mtt</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_mtt</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Move_mtt</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Attack_mtt</SFXEvent_Group_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Death_mtt</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_MTT_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_MTT_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_MTT_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 28.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		<FormationSpacing>1</FormationSpacing>
+		<FormationOrder>1</FormationOrder>
+		<FormationGrouping> Solo </FormationGrouping>
+		<FormationRaggedness>0.75</FormationRaggedness>
+		<MaxJiggleDistance>3.5</MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>0.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>0.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>0.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>500</SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>90.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>60.0</Overall_Length>
+		<Overall_Width>0.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Behavior>SELECTABLE</Behavior>
+		<Cache_Crusher_Boxes>No</Cache_Crusher_Boxes>
+		<Is_Supercrusher>Yes</Is_Supercrusher>
+		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
+		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
+		<Projectile_Appearance_Delay_Frames>2,1</Projectile_Appearance_Delay_Frames>
+		<Movement_Animation_Speed> 0.1366 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 0.5 </Rotation_Animation_Speed>
+		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
+		<Walk_Transition>No</Walk_Transition>
+		<Has_Pre_Turn_Anim> No </Has_Pre_Turn_Anim>
+		<Min_Speed_Fraction_For_Turn> .1 </Min_Speed_Fraction_For_Turn>
+		<MovementPredictionInterval> 5.0 </MovementPredictionInterval>
+		<MovementBoxExpansionFactor> 8.0 </MovementBoxExpansionFactor>
+		<Deploys>Yes</Deploys>
+		<Auto_Deploys>No</Auto_Deploys>
+		<Air_Vehicle_Turret_Target> No </Air_Vehicle_Turret_Target>
+		<Death_Clone>Damage_Normal, Huge_Explosion_Land</Death_Clone>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- IMPORTANT! If you modify the ability below, please make same adjustments to unit's "Captured" clone. -->
+			<!-- I know this is awkward, hopefully we'll get a chance to re-write the code to fix it.   -Oksana -->
+			<Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Spawned_Object_Type>B1_Droid_MTT_Squad</Spawned_Object_Type>
+				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects>
+				<Owner_Attachment_Bone>B_Droid1, B_Droid2, B_Droid3, B_Droid4, B_Droid5, B_Droid6, B_Droid7, B_Droid8, B_Droid9, B_Droid10, B_Droid11, B_Droid12, B_Droid13, B_Droid14, B_Droid15, B_Droid16 </Owner_Attachment_Bone>
+				<SFXEvent_GUI_Unit_Ability_Activated>deploy_squad_mtt</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_ABILITY_DEPLOY_DROID</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_DEPLOY_DROID_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>
+	</GroundVehicle>
+	
+
+	<GroundCompany Name="MTT_Company">
+
+		<Text_ID>TEXT_UNIT_MTT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MTT 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_MTT_COMPANY 
+		TEXT_TOOLTIP_MTT_HEALTH
+		TEXT_TOOLTIP_MTT_MOVE
+		TEXT_TOOLTIP_MTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_MTT_DEPLOY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_mtt.tga</Icon_Name>
+
+		<Damage>100</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>no</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>850</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>I_Ground_Advanced_Vehicle_Factory | Baktoid_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>500</Piracy_Value_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation/>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size>1</Max_Squad_Size>
+		<Company_Transport_Unit>Gozanti_Heavy_Transport_Landing_Craft_Heavy</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_mtt</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_mtt</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>MTT</Company_Units>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Spawned_Object_Type>B1_Droid_MTT_Squad</Spawned_Object_Type>
+				<Max_Num_Spawned_Objects>1</Max_Num_Spawned_Objects>
+				<Owner_Attachment_Bone>B_Droid1, B_Droid2, B_Droid3, B_Droid4, B_Droid5, B_Droid6, B_Droid7, B_Droid8, B_Droid9, B_Droid10, B_Droid11, B_Droid12, B_Droid13, B_Droid14, B_Droid15, B_Droid16 </Owner_Attachment_Bone>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>855</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
 	<GroundCompany Name="GAT_Company">
 		<Text_ID>TEXT_UNIT_GAT_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
@@ -6202,4 +7540,555 @@
 
 		<Company_Units>Shielded_AT_AP_Walker</Company_Units>
 	</GroundCompany>
+	<!-- FotR HAML and RX-200 imports. -->
+	<GroundVehicle Name="HAML">
+		<Text_ID>TEXT_UNIT_HAML</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HAML
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HAML_HEALTH
+		TEXT_TOOLTIP_HAML_MOVE
+		TEXT_TOOLTIP_HAML_WEAP1
+		TEXT_TOOLTIP_HAML_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_haml.tga</Icon_Name>
+		<Land_Model_Name>CIS_HAML.alo</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>70</Size_Value>
+		<Mass>1.0</Mass>
+		<Max_Speed>1.75</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> .05833 </OverrideAcceleration>
+		<OverrideDeceleration> .35 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Armor_Type> ArmourG_MediumVehicle </Armor_Type>
+		<Tactical_Health>200</Tactical_Health>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>6</Damage>
+		<AI_Combat_Power>64</AI_Combat_Power>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiAirGunship | AntiAirSpeeder </CategoryMask>
+		<Ranking_In_Category>7</Ranking_In_Category>
+		<Property_Flags>DoKite</Property_Flags>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>100</Score_Cost_Credits>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT,WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<HardPoints>
+			HP_HAML_Turret,
+			HP_HAML_Laser_1,
+			HP_HAML_Laser_2
+		</HardPoints>
+		<Lua_Script/>
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, BODY, TURRETATTACH </Target_Bones>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>No</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>Unit_Death_aat</SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Unit_Select_aat</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_aat</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_aat</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_aat</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_aat</SFXEvent_Guard>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Engine_Idle_Loop> Unit_AAT_Engine </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_AAT_Engine </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Death_aat</Death_SFXEvent_Start_Die>
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>14.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>14.0</Custom_Hard_YExtent>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 4 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>true</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Targeting_Priority_Set>AntiAir</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Overall_Length>20.0</Overall_Length>
+		<Overall_Width>20.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+		<Deploys>No</Deploys>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Behavior> SELECTABLE </Behavior>
+		<SFXEvent_Group_Move>Unit_Move_aat</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Attack_aat</SFXEvent_Group_Attack>
+		<Death_Clone>Damage_Normal, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+	</GroundVehicle>
+
+	<GroundCompany Name="HAML_Company">
+		<Text_ID>TEXT_UNIT_HAML_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HAML
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HAML_COMPANY
+		TEXT_TOOLTIP_HAML_HEALTH
+		TEXT_TOOLTIP_HAML_MOVE
+		TEXT_TOOLTIP_HAML_WEAP1
+		TEXT_TOOLTIP_HAML_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_haml.tga</Icon_Name>
+		<Damage>40</Damage>
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>50</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory | Baktoid_HQ</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control/>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<!-- Match the existing Proteus MTT heavy landing transport. -->
+		<Company_Transport_Unit>Gozanti_Heavy_Transport_Landing_Craft_Heavy</Company_Transport_Unit>
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_aat</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_aat</SFXEvent_Fleet_Move>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>HAML, HAML</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<Tactical_Build_Cost_Multiplayer>275</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</GroundCompany>
+
+	<GroundVehicle Name="RX200_Falchion">
+		<Text_ID>TEXT_UNIT_RX200</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_RX200
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_RX200_HEALTH
+		TEXT_TOOLTIP_RX200_MOVE
+		TEXT_TOOLTIP_RX200_WEAP1
+		TEXT_TOOLTIP_RX200_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_RX200_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_stuntank.tga</Icon_Name>
+		<Land_Model_Name>Rep_stuntank.alo</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>150</Size_Value>
+		<Mass>1.0</Mass>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .3 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 2</Movement_Animation_Speed>
+		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
+		<Tactical_Health>850</Tactical_Health>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>6</Damage>
+		<AI_Combat_Power>184</AI_Combat_Power>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiAirGunship | AntiAirSpeeder </CategoryMask>
+		<Ranking_In_Category>7</Ranking_In_Category>
+		<Property_Flags/>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Deploys>Yes</Deploys>
+		<Deployment_Anim_Rate>2.0</Deployment_Anim_Rate>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>100</Score_Cost_Credits>
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Deployed_Rest_Angle>0.0, 0.0, 0.0</Turret_Deployed_Rest_Angle>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>0</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
+		<HardPoints>
+			HP_RX200_Turret_Undeployed,
+			HP_RX200_Turret_Deployed,
+			HP_RX200_Laser_1,
+			HP_RX200_Laser_2
+		</HardPoints>
+		<Lua_Script/>
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+		<Target_Bones> Barrel_00, Turret_00, TARGET_00, TARGET_01, TARGET_02, TARGET_03 </Target_Bones>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select>Unit_Select_SPMAT</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_SPMAT</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_SPMAT</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_SPMAT</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_SPMAT </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_SPMAT </SFXEvent_Assist_Attack>
+		<SFXEvent_Fire>Unit_SPMAT_Projectile_Fire</SFXEvent_Fire>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Engine_Idle_Loop>Unit_MTT_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_MTT_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_MTT_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>10.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationOrder> 4 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>true</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>30.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Targeting_Priority_Set>AntiAirVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Overall_Length>60.0</Overall_Length>
+		<Overall_Width>40.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Wind_Disturbance_Radius>0</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>0</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.0</Wind_Disturbance_Sphere_Alpha>
+		<Death_Clone>Damage_Normal, Huge_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Force_Telekinesis, Huge_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Huge_Explosion_Land</Death_Clone>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="RX200_Falchion_Company">
+		<Text_ID>TEXT_UNIT_RX200</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_RX200
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_RX200_COMPANY
+		TEXT_TOOLTIP_RX200_HEALTH
+		TEXT_TOOLTIP_RX200_MOVE
+		TEXT_TOOLTIP_RX200_WEAP1
+		TEXT_TOOLTIP_RX200_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_RX200_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_stuntank.tga</Icon_Name>
+		<Damage>60</Damage>
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1100</Build_Cost_Credits>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Required_Special_Structures>E_Ground_Advanced_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		<Tech_Level>6</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control/>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>CR25_Landing_Craft_Heavy</Company_Transport_Unit>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_SPMAT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Company_Units>RX200_Falchion</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		<Tactical_Build_Cost_Multiplayer>790</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	</GroundCompany>
+
+	<!-- FotR MTT deployment squad and its tactical container. -->
+	<GroundInfantry Name="B1_Droid_MTT_Gunner">
+		<Variant_Of_Existing_Type>B1_Droid</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_BATTLEDROID_GUNNER_LIGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BATTLEDROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BATTLEDROID_HEALTH
+		TEXT_TOOLTIP_BATTLEDROID_MOVE
+		TEXT_TOOLTIP_BATTLEDROID_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<HardPoints> HP_E5C_LMG </HardPoints>
+		<No_Colorization_Color> 130, 130, 130, 255 </No_Colorization_Color>
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="B1_Droid_MTT_Grenadier">
+		<Variant_Of_Existing_Type>B1_Droid</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_BATTLEDROID_GRENADE</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BATTLEDROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BATTLEDROID_HEALTH
+		TEXT_TOOLTIP_BATTLEDROID_MOVE
+		TEXT_TOOLTIP_BATTLEDROID_WEAP1
+		TEXT_TOOLTIP_BATTLEDROID_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="B1_Droid_MTT_LAT">
+		<Variant_Of_Existing_Type>B1_Droid</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_BATTLEDROID_AT_LIGHT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BATTLEDROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BATTLEDROID_HEALTH
+		TEXT_TOOLTIP_BATTLEDROID_MOVE
+		TEXT_TOOLTIP_BATTLEDROID_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Land_Model_Name>b1_battledroid_launcher.ALO</Land_Model_Name>
+		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<HardPoints> HP_RPS_BattleDroid </HardPoints>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
+		<Targeting_Priority_Set> AntiVehicle </Targeting_Priority_Set>
+	</GroundInfantry>
+
+	<GroundCompany Name="B1_Droid_MTT_Squad">
+		<Text_ID>TEXT_UNIT_BATTLE_DROID_MTT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BATTLEDROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BATTLEDROID_SQUAD
+		TEXT_TOOLTIP_BATTLEDROID_HEALTH
+		TEXT_TOOLTIP_BATTLEDROID_MOVE
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP1
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP2
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP3
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_b1_weap.tga</Icon_Name>
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Create_Team_Type> B1_Droid_MTT_Container </Create_Team_Type>
+		<Max_Squad_Size> 16 </Max_Squad_Size>
+		<Company_Units>B1_Droid_MTT_Grenadier, B1_Droid, B1_Droid, B1_Droid_MTT_Gunner, B1_Droid_MTT_Grenadier, B1_Droid, B1_Droid_MTT_Gunner, B1_Droid_MTT_LAT</Company_Units>
+		<Company_Units>B1_Droid, B1_Droid_MTT_Grenadier, B1_Droid_MTT_Grenadier, B1_Droid_MTT_Gunner, B1_Droid, B1_Droid_MTT_LAT, B1_Droid, B1_Droid_MTT_Gunner</Company_Units>
+	</GroundCompany>
+
+	<Container Name="B1_Droid_MTT_Container">
+		<Text_ID>TEXT_UNIT_BATTLE_DROID_MTT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BATTLEDROID
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_BATTLEDROID_SQUAD
+		TEXT_TOOLTIP_BATTLEDROID_HEALTH
+		TEXT_TOOLTIP_BATTLEDROID_MOVE
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP1
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP2
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP3
+		TEXT_TOOLTIP_BATTLEDROID_MTT_SQUAD_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_b1_weap.tga</Icon_Name>
+		<Select_Box_Scale>90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Land_Model_Name/>
+		<Max_Speed> 0.8 </Max_Speed>
+		<OverrideAcceleration> .08 </OverrideAcceleration>
+		<OverrideDeceleration> .08 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<CategoryMask>Infantry | AntiInfantry </CategoryMask>
+		<Show_Name>No</Show_Name>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Lua_Script/>
+		<SFXEvent_Select>Null</SFXEvent_Select>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Rows </ContainerArrangement>
+		<FormationSpacing> 0.5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>250.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>250.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+	</Container>
 </Project_Proteus_Vehicles>

@@ -12,6 +12,13 @@
 		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
 
+	<SFXEvent Name="Unit_J1_Fire">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\J1\J1_Fire.wav
+		</Samples>
+	</SFXEvent>
+
 	<!-- Sounds sourced from Jedi Outcast / Academy -->
 
 	<SFXEvent Name="Unit_Flechette_Fire">

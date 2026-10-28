@@ -2477,16 +2477,72 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Telgorn_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group, Beta_Shuttle_Group, Beta_Torpedo_Boat_Group, Gamma_Shuttle_A_Group, Gamma_Shuttle_B_Group, Gamma_Personnel_Carrier_Group </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Telgorn_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group, Beta_Shuttle_Group, Beta_Torpedo_Boat_Group, Gamma_Shuttle_A_Group, Gamma_Shuttle_B_Group, Gamma_Personnel_Carrier_Group </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Czerka_HQ">
+		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_COMPANY_CZERKA</Text_ID>
+
+		<Land_Model_Name>RB_CommandCenter.alo</Land_Model_Name>
+		<Scale_Factor>0.75</Scale_Factor>
+
+		<Icon_Name>I_BUTTON_CZERKA.TGA</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+
+		<Required_Planets>Dxun, Kashyyyk, Korriban, Taris, Telos</Required_Planets>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BONUS_PRICE_TIME_COMPANY
+		TEXT_COMPANY_CZERKA_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_COMPANY_GARRISON_TAIM_BAK
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
+		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
+		TEXT_TOOLTIP_SEPARATOR_LOCATION_BLOCK
+		TEXT_OBJECT_STAR_SYSTEM_DXUN
+		TEXT_OBJECT_STAR_SYSTEM_KASHYYYK
+		TEXT_OBJECT_STAR_SYSTEM_KORRIBAN
+		TEXT_OBJECT_STAR_SYSTEM_TARIS
+		TEXT_OBJECT_STAR_SYSTEM_TELOS
+		<!-- TEXT_OBJECT_STAR_SYSTEM_TRANDOSHA -->
+		</Encyclopedia_Text>
+
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Czerka_Reduce_Production_Price">
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types> VX_AA_Droid_Company, VX_Artillery_Droid_Company </Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+			<Reduce_Production_Time_Ability Name="Czerka_Production_Time_Bonus">
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types> VX_AA_Droid_Company, VX_Artillery_Droid_Company </Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
 			</Reduce_Production_Time_Ability>
 		</Abilities>

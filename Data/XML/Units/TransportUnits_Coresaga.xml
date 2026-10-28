@@ -397,7 +397,7 @@
 		<Variant_Of_Existing_Type>Kappa_Shuttle_Landing_Craft_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 
-	<TransportUnit Name="Kappa_Shuttle_Landing_Craft_Army_Commander">
+	<TransportUnit Name="Kappa_Shuttle_Landing_Craft_Commander">
 		<Variant_Of_Existing_Type>Kappa_Shuttle_Landing_Craft</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Kappa_Shuttle_Landing_Craft_Army_Commander_Landing</Landing_Transport_Variant>
 	</TransportUnit>

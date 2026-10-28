@@ -60,7 +60,7 @@ return {
 			HeroList = {"Balrekk_Team", "Vorrel_Team"},
 			UnlockList = {
 				-- Space
-				"YE_4_Group", "Gamma_ATR_6_Group", "IPV1", "Carrack_Cruiser", "Arquitens", "Victory_II_Frigate", "Quasar", "Strike_Interdictor", 
+				"Gamma_Shuttle_A_Group", "Gamma_ATR_6_Group", "IPV1", "Carrack_Cruiser", "Arquitens", "Victory_II_Frigate", "Quasar", "Strike_Interdictor",
 				"Neutron_Star", "Gladiator_I", "Acclamator_II", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", 
 				"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser",
@@ -140,7 +140,7 @@ return {
 			HeroList = {"Erron_Irbian_Team", "TH313_Team"},
 			UnlockList = {
 				-- Space
-				"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate", "Strike_Cruiser", "Star_Galleon", "Ton_Falk_Escort_Carrier", "Munifex",
+				"Beta_Shuttle_Group", "IPV1", "Lancer_Frigate", "Strike_Cruiser", "Star_Galleon", "Ton_Falk_Escort_Carrier", "Munifex",
 				"DHC_Interdictor", "Imperial_DHC", "Alliance_Assault_Frigate_II", "Captor", "Proficient", "Victory_I_Star_Destroyer", "Lucrehulk_Core_Destroyer", "Procursator_Star_Destroyer",
 				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Lucrehulk_Auxiliary_Proteus", "Legator_Star_Dreadnought", "Executor_Star_Dreadnought",
@@ -222,7 +222,7 @@ return {
 			HeroList = {"Pryl_Thunderflare", "Zed_Stalker", "Vilis_Andal_Team", "Afren_Hul_Team", "Tezrin_Rintonnes_Flame"},
 			UnlockList = {
 				-- Space
-				"Pursuer_Enforcement_Ship_Group", "IPV1", "Lancer_Frigate_PDF", "Bayonet_Cruiser", "Strike_Cruiser_Light", "Star_Galleon", "Ton_Falk_Escort_Carrier",
+				"Gamma_Shuttle_B_Group", "IPV1", "Lancer_Frigate_PDF", "Bayonet_Cruiser", "Strike_Cruiser_Light", "Star_Galleon", "Ton_Falk_Escort_Carrier",
 				"Immobilizer_418_Refit", "Vindicator_Cruiser", "Acclamator_I_Carrier", "Victory_II_Star_Destroyer", "Venator_8X", 
 				"Imperial_II_Star_Destroyer_Ion", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier",
 				"Altor_Replenishment_Ship", "Allegiance_Battlecruiser", "Legator_Star_Dreadnought", "Assertor_Star_Dreadnought",
@@ -341,7 +341,7 @@ return {
 			LeaderEndingNames = {"Emperor Gendarr", "Emperor Lott"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Vigil", "Star_Galleon", "Eidolon", 
+				"Gamma_Shuttle_B_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Vigil", "Star_Galleon", "Eidolon",
 				"Immobilizer_Twin_Well", "Broadside_Cruiser", "Neutron_Star_Tender", "Gladiator_II", "Acclamator_I_Assault", "Victory_II_Star_Destroyer", "Procursator_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer", "Acclamator_Battleship", "Tector_Star_Destroyer", 
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
@@ -673,7 +673,7 @@ return {
 			HeroList = {"Thalassa_Executrix", "Garvedon_Captor", "Paige_Tarkin_Team"},
 			UnlockList = {
 				-- Space	
-				"Gozanti_Cruiser_Group", "LAC", "Charger_C70", "CEC_Light_Cruiser", "Carrack_Cruiser", "Galleon", "Starbolt",
+				"Trimark_VII_Group", "LAC", "Charger_C70", "CEC_Light_Cruiser", "Carrack_Cruiser", "Galleon", "Starbolt",
 				"PDF_DHC", "Rep_DHC", "DHC_Carrier", "Immobilizer_Twin_Well", "Acclamator_I_Carrier", "Victory_I_Star_Destroyer",
 				"Invincible_Cruiser", "Imperial_I_Star_Destroyer_Patrol", "Procurator_Battlecruiser",
 				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought",
@@ -719,7 +719,7 @@ return {
 			HeroList = {"Owen_Team", "Sahreel_Impending_Doom"},
 			UnlockList = {
 				-- Space	
-				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate", "Carrack_Cruiser", "CEC_Light_Cruiser", "Strike_Cruiser", "Star_Galleon",
+				"Gamma_Personnel_Carrier_Group", "IPV1", "Lancer_Frigate", "Carrack_Cruiser", "CEC_Light_Cruiser", "Strike_Cruiser", "Star_Galleon",
 				"Imperial_DHC", "Gladiator_I", "Immobilizer_418", "Bulwark_I", "Victory_I_Star_Destroyer", 
 				"Bulwark_II", "Secutor_Star_Destroyer", 
 				"Bulwark_III", "Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought",
@@ -920,7 +920,7 @@ return {
 			HeroList = {"Tzenkens_Atlas"},
 			UnlockList = {
 				-- Space	
-				"Beta_ETR_3_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Eidolon", 
+				"Beta_Torpedo_Boat_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Eidolon",
 				"Vector_Star_Destroyer", "Victory_II_Carrier", "Procursator_Star_Destroyer", 
 				"Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Ion", 
 				"Praetor_I_Battlecruiser", "Praetor_II_Battlecruiser", "Praetor_Carrier_Battlecruiser", "Altor_Replenishment_Ship", "Assertor_Star_Dreadnought", 
@@ -1097,7 +1097,7 @@ return {
 			HeroList = {"Kiez_Empire", "Wermis_Empire"},
 			UnlockList = {
 				-- Space
-				"Delta_JV7_Group", "Bayonet_Cruiser", "Lancer_Frigate", "Surveyor_Frigate", "Victory_II_Frigate",
+				"Gamma_Shuttle_A_Group", "Bayonet_Cruiser", "Lancer_Frigate", "Surveyor_Frigate", "Victory_II_Frigate",
 				"Acclamator_I_Assault", "Acclamator_I_Carrier", "Imperial_DHC", "Acclamator_I_Support", "Victory_I_Star_Destroyer", "Procursator_Star_Destroyer",
 				"Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer", "Tector_Star_Destroyer", "Invincible_Cruiser_Modernized",
 				"Allegiance_Battlecruiser", "Lucrehulk_Auxiliary_Proteus", "Praetor_II_Battlecruiser", "Mandator_II_Dreadnought", "Assertor_Star_Dreadnought",
@@ -1164,7 +1164,7 @@ return {
 			HeroList = {"Brandei_Judicator", "Dezon_Constrainer", "Harbid_Deaths_Head", "Aban_Bellicose"}, 
 			UnlockList = {
 				-- Space 
-				"Citadel_Cruiser_Group", "Imperial_CR90", "Lancer_Frigate", "Class_C_Frigate", "Quasar", "Strike_Cruiser", "Carrack_Cruiser", "Imperial_Boarding_Shuttle",
+				"Beta_Shuttle_Group", "Imperial_CR90", "Lancer_Frigate", "Class_C_Frigate", "Quasar", "Strike_Cruiser", "Carrack_Cruiser", "Imperial_Boarding_Shuttle",
 				"Acclamator_I_Carrier", "Acclamator_I_Support", "Immobilizer_Twin_Well", "Vindicator_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Refit_Venator_Star_Destroyer_Proteus",
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship",
 				"Allegiance_Battlecruiser", "Impellor_Carrier", "Praetor_II_Battlecruiser",
@@ -1637,7 +1637,7 @@ return {
 			HeroList = {"Tharkus_Greed", "Vaskor_Blitz", "Ghek_Patroller", "Dakova_Prefect", "Pollux_Team", "Kastor_Team", "Kantos_Team", "Voss_Team"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Nebulon_B_Tender","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser", 
+				"Beta_Shuttle_Group", "Customs_Corvette","CR92A", "Carrack_Cruiser","Nebulon_B_Tender","Surveyor_Frigate", "Patrol_Nebulon_B", "Quasar", "Strike_Cruiser",
 				"Pursuit_Light_Cruiser", "Modernized_DHC", "Immobilizer_418", "Imperial_II_Frigate", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Interdictor_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",

@@ -41,7 +41,7 @@ return {
 		"Imperial_Army_Commando_Company", "Security_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company", "PX10_Company", "New_Republic_AA5_Company", "Arrow_23_Company", "1M_Tank_Company", "JX40_Company", "Strikebreaker_Company", "Teklos_Company", "Tracked_Shield_Disabler_Company",
 		"Citadel_Cruiser_Group", "Neutron_Star", "Super_Transport_XI_Missile",
 		--Tierfon Sector added units
-		"Tartan_Patrol_Cruiser","Pursuit_Light_Cruiser","Vector_Star_Destroyer",
+		"Beta_Torpedo_Boat_Group", "Tartan_Patrol_Cruiser","Pursuit_Light_Cruiser","Vector_Star_Destroyer",
 		"Imperial_I_Star_Destroyer_Assault","Secutor_Star_Destroyer","Praetor_II_Battlecruiser","Praetor_Carrier_Battlecruiser","Altor_Replenishment_Ship",
 		"Assertor_Star_Dreadnought",
 		"Imperial_Fleet_Commando_Company","64_Y_Swift_Repulsorlift_Sled_Company","Imperial_TX130T_Company", "Imperial_Shadow_LAAT_Company",
@@ -76,11 +76,11 @@ return {
         --Lambda Sector added units
 		"Imperial_Scout_Trooper_Company",
 		--Imperial Arda added units
-		"Victory_II_Frigate",
+		"Victory_II_Frigate", "Gamma_Shuttle_A_Group",
 		--Protectorate added units
 		"MAAT_Company",
 		--Imperial Jardeen added units
-		"Neutron_Star_Tender",
+		"Neutron_Star_Tender", "Gamma_Shuttle_B_Group",
 		"AT_ST_A_Company", "AT_AI_WALKER_COMPANY", 
 		--Zero Command added units
 		"Acclamator_I_Support",
@@ -92,13 +92,13 @@ return {
 		"Namana_Cruiser_Proteus", "Bakura_Destroyer_Proteus", "DHC_Carrier_Upgrade",
 		"ULAV_Early_Company", "Skyhopper_Company",
 		--The Quintad added units
-		"Gozanti_Cruiser_Group", "LAC", "Procurator_Battlecruiser",
+		"Trimark_VII_Group", "LAC", "Procurator_Battlecruiser",
 		"PDF_Tactical_Unit_Company",
         --Lumiya's Sith added units
 		"Royal_Guard_Stormtrooper_Company", "Sith_Knight_Company",
 		"Gorath_Research_Proteus",
 		--Rayter Sector added units
-		"Bulwark_II", "Bulwark_III",
+		"Bulwark_II", "Bulwark_III", "Gamma_Personnel_Carrier_Group",
 		--idk for what group
 		"Victory_II_Carrier",
 		"Faux_Stormtrooper_Company",
@@ -115,6 +115,7 @@ return {
 		"Imperial_AAT_Company", "HAGM_Company",
 		--Kaarenth added units
 		"Hornet_Assault_Carrier", "Refit_Venator_Star_Destroyer_Proteus", "Super_Transport_XI_Missile_Pirate", "Carrack_Cruiser_Zeta", "Strike_Cruiser", "Crusader_Gunship_Pirate", "Providence_Carrier_Destroyer_Pirate", "Dauntless", "Liberator_Cruiser",
+		"JU9_Juggernaut_Droid_Company",
 		--Antemeridiean Sector added units
 		"X4_Gunship_Group",
 		"New_Republic_T47_Airspeeder_Company",
@@ -123,7 +124,7 @@ return {
 		--Kashyyyk
 		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "Ipv1_Gunboat_Proteus", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
 		--Imperial Neimoidia added units
-		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer", "Neimoidia_Lucrehulk_Research_Proteus",
+		"Beta_Shuttle_Group", "Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer", "Neimoidia_Lucrehulk_Research_Proteus",
 		--Tamarin Sector added units
 		"Guardian_Cruiser_Lasers_Group", "Lupus_Missile_Frigate", "Class_C_Frigate", "Auxilia", "Dauntless_Transport",
 		"HAET_Company",

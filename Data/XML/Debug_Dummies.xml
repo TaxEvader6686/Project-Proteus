@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<DebugDummies>
+
+<!-- ************************************************************************* -->
+<!-- **************** Reference by XML object in Data/Coresaga *************** -->
+<!-- ************************************************************************* -->
+
+<!-- Factions -->
+
+	<Debug_Dummy Name="Factions_Thing_To_Replace">		<!-- Referenced by future playable factions in Factions.xml  -->
+	</Debug_Dummy>
+
+<!-- Skirmish -->
+
+	<Debug_Dummy Name="Hutt_Command_Center">		<!-- Referenced in Target_Stream_Source tag in UpgradeObjectsGroundSkirmish -->
+	</Debug_Dummy>
+
+<!-- Ground -->
+
+	<Debug_Dummy Name="Darth_Vader">									<!-- Magically being referenced -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Obi_Wan_Kenobi">									<!-- Magically being referenced -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Republic_AT_PT_Walker">							<!-- Referenced by AT_PT_Walker in Templates_Ground -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Republic_AT_RT_Walker">							<!-- Referenced by AT_RT_Walker in Templates_Ground -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Shadow_Collective_Capital">						<!-- Referenced by Smuggler in Hutt_Government_Dummies -->
+	</Debug_Dummy>
+	
+	<Debug_Dummy Name="Nightsister_Sith_Witch">							<!-- Referenced by Force_Units_CoreSaga -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Jedi_Padawan">									<!-- Referenced by Force_Units_CoreSaga -->
+	</Debug_Dummy>
+	
+	<Debug_Dummy Name="Hutt_Cartels_Anti_Infantry_Turret">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Hutt_Cartels_Anti_Aircraft_Turret">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Hutt_Cartels_Anti_Vehicle_Turret">
+	</Debug_Dummy>
+	
+<!-- Space -->
+
+	<Debug_Dummy Name="Ubrikkian_Cruiser_CW">			<!-- Referenced by BH_Galactic_Ubrikkian_Cruiser_CW in Hutt_Government_Dummies -->
+	</Debug_Dummy>
+
+<!-- ************************************************************************* -->
+<!-- **************** Reference by Lua Script in Data/Coresaga *************** -->
+<!-- ************************************************************************* -->
+
+<!-- Ground -->
+
+	<Debug_Dummy Name="Ground_Infiltrator_Facility">					<!-- Referenced by BuildInfiltratorFacility -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="HAG">											<!-- Referenced by multiple LandMode lua files -->
+	</Debug_Dummy>
+
+	<!-- Defoliator imported from FotR -->								<!-- Referenced by multiple LandMode lua files -->
+
+	<Debug_Dummy Name="CIS_Defoliator">											<!-- Referenced by multiple LandMode lua files -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Tracyaat_Artillery_Platform">					<!-- Referenced by multiple LandMode lua files -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="AV7">											<!-- Referenced by multiple LandMode lua files -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Sith_Krath_Artillery">							<!-- Referenced by multiple LandMode lua files -->
+	</Debug_Dummy>
+
+	<!-- VX_Artillery_Droid imported from FotR -->						<!-- Referenced by multiple LandMode lua files -->
+
+	<Debug_Dummy Name="Morut_Gun_Platform">								<!-- Referenced by multiple LandMode lua files -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Bral_APC">										<!-- Referenced by EscortForce -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Civil_Gunship">									<!-- Referenced by EscortForce -->
+	</Debug_Dummy>
+
+	<!-- PAC imported from FotR -->										<!-- Referenced by AI_Plan_Secure_Contestable_Transport -->
+
+	<Debug_Dummy Name="MAF">											<!-- Referenced by AI_Plan_Secure_Contestable_Transport -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Galactic_Turbolaser_Tower_Defenses_Republic">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Galactic_Turbolaser_Tower_Defenses_CIS">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="UC_Hutt_Cartels_Anti_Aircraft_Turret">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="UC_Hutt_Cartels_Anti_Vehicle_Turret">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="UC_Hutt_Cartels_Anti_Infantry_Turret">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="UC_Generic_Field_Turbolaser_Emplacement_Republic">
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="UC_Generic_Field_Turbolaser_Emplacement_CIS">
+	</Debug_Dummy>
+
+<!-- Space -->
+
+	<Debug_Dummy Name="CIS_Design_Trade_Offs">							<!-- Referenced by PurchaseSpaceUpgradesGeneric -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="CIS_Secret_Hyperspace_Route">					<!-- Referenced by PurchaseSpaceUpgradesGeneric -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Republic_Ace_Cloning_Program">					<!-- Referenced by PurchaseSpaceUpgradesGeneric -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Republic_Secret_Fleets">							<!-- Referenced by PurchaseSpaceUpgradesGeneric -->
+	</Debug_Dummy>
+
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+<!-- ***************************** DO NOT REMOVE ****************************************** -->
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Debug_Dummy Name="Field_Com_Rebel_Team"> 		<!-- Crashes if removed -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Field_Com_Empire_Team">		<!-- Crashes if removed -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Fleet_Com_Rebel_Team"> 		<!-- Crashes if removed -->
+	</Debug_Dummy>
+
+	<Debug_Dummy Name="Fleet_Com_Empire_Team"> 		<!-- Crashes if removed -->
+	</Debug_Dummy>
+
+
+</DebugDummies>

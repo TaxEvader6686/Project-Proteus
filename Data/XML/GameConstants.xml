@@ -2428,7 +2428,7 @@
 		Commander_IV_Mothma_Star_Destroyer,				Data\ShipNames\Cadet_NR_Space.txt,
 		Commander_IV_Home_One_Type,					Data\ShipNames\Cadet_NR_Space.txt,
 		
-		Kappa_Shuttle_Landing_Craft_Army_Commander,				Data\ShipNames\Cadet_GE_Ground.txt,
+		Kappa_Shuttle_Landing_Craft_Commander,					Data\ShipNames\Cadet_GE_Ground.txt,
 		Shuttle_Tyderium_Commander,								Data\ShipNames\Cadet_GE_Ground.txt,
 		Imperial_Landing_Craft_Commander,						Data\ShipNames\Cadet_GE_Ground.txt,
 		Imperial_Landing_Craft_OOM,								Data\ShipNames\Cadet_B1.txt,
