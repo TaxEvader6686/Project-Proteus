@@ -1105,7 +1105,7 @@ TEXT_COMPANY_TARKIN_ESTATES_DESCRIPTION,Quintad Orbital Manufacturing maintains 
 TEXT_COMPANY_TAYANA,Tayana
 TEXT_COMPANY_TAYANA_DESCRIPTION,Tayana was one of Duro's many orbital cities. It was among the biggest stations in the system and proved a home for most of the citizens working in the nearby shipwrights.
 TEXT_COMPANY_TELGORN,Telgorn Corporation
-TEXT_COMPANY_TELGORN_DESCRIPTION,All Telgorn products: Gamma ATR-6 and Beta ETR-3.
+TEXT_COMPANY_TELGORN_DESCRIPTION,All Telgorn products: Gamma ATR-6, Beta ETR-3, and all Gamma and Beta Assault Shuttle Variants.
 TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities.
 TEXT_COMPANY_TRANSGALMEG,TransGalMeg Industries
