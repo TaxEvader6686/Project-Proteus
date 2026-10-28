@@ -28,13 +28,6 @@ function WarlordRespawn:on_galactic_hero_killed(hero_name, owner, killer)
 				StoryUtil.Multimedia("TEXT_WARLORD_RETURN_TREUTEN_TERADOC", 10, nil, "Treuten_Teradoc_Loop", 0)
 			end
 		end
-	elseif hero_name == "ROGRISS_AURORA" then
-		if owner == "IMPERIAL_PROTEUS" then
-			local spawn = StoryUtil.SpawnAtSafePlanet("KUAT", Find_Player("Imperial_Proteus"), self.safe_planets, {"Rogriss_Agonizer"}, true, false)
-			if spawn then
-				StoryUtil.Multimedia("TEXT_ROGRISS_RETURN", 10, nil, "Imperial_Naval_Officer_Loop", 0)
-			end
-		end
 	elseif hero_name == "TYBER_ZANN_MERCILESS" then
 		if owner == "ZSINJ_EMPIRE" then
 			local spawn = StoryUtil.SpawnAtSafePlanet(nil, Find_Player("Zsinj_Empire"), self.safe_planets, {"Tyber_Zann_Twilek_Dancer"}, true, false)
@@ -49,13 +42,6 @@ function WarlordRespawn:on_galactic_hero_killed(hero_name, owner, killer)
 				StoryUtil.Multimedia("TEXT_WARLORD_RETURN_ZSINJ", 10, nil, "Zsinj_Loop", 0)
 			end
 		end
-	-- elseif hero_name == "X1_EXECUTOR" then
-	-- 	if owner == "IMPERIAL_PROTEUS" then
-	-- 		local spawn = StoryUtil.SpawnAtSafePlanet(nil, Find_Player("Imperial_Proteus"), self.safe_planets, {"X1_Team"}, true, false)
-	-- 		if spawn then
-	-- 			StoryUtil.Multimedia("TEXT_WARLORD_RETURN_X1", 10, nil, "X1_Loop", 0)
-	-- 		end
-	-- 	end
 	elseif hero_name == "THRAWN_GREY_WOLF" then
 		if self.human_player.Get_Faction_Name() == "EMPIREOFTHEHAND" then
 			local obj_parck = Find_First_Object("Parck_Strikefast")
