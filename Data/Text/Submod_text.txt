@@ -43,6 +43,8 @@ TEXT_BTLA2_Y_WING_SQUADRON_HALF,BTL-A2 Y-wing Squadron 1/2
 TEXT_BTLA2_Y_WING_SQUADRON2,BTL-A2 Y-wing Squadron x2
 TEXT_COMPANY_BANKOFTHECORE,Bank of the Core
 TEXT_COMPANY_BANKOFTHECORE_DESCRIPTION,The Bank of the Core was a Coruscant-based financial institution that played a major role in galactic finance for millennia, even rivaling the Bank of Aargau and the IGBC during the reign of the Galactic Empire. The Bank was one of the sponsors of the Corporate Sector Authority and one of its major financial backers. House Praji were the majority stockholders and leveraged the Bank of the Core's wealth for political and industrial influence.
+TEXT_COMPANY_CZERKA,Czerka Arms
+TEXT_COMPANY_CZERKA_DESCRIPTION,All Czerka products: VX-series Droids
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1,Corporate Security Trooper Squad: 1 / 1
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2,Elite Mercenary Heavy Squad: 1 / 1
 TEXT_COMPANY_PRAJI_ESTATES,House Praji Estate
@@ -790,6 +792,21 @@ TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault c
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
 TEXT_TOOLTIP_BENGILA_URLAN,Bengila Urlan was the Arch-Provost of Rendili StarDrive during the Clone Wars. As Kuat Drive Yards eclipsed Rendili as the most important shipwright for the Republic, Urlan fought back as best he could, ordering spies and infochants to steal Kuati designs and secret, and poach and perhaps even eliminate key Kuat personnel.
 TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
+TEXT_TOOLTIP_BETASHUTTLE,The first of Telgorn's Assault Shuttle line, the Beta-class Assault Shuttle was an old design dating from the end of the Clone Wars. Saw a long service history despite various successor models. Can engage most targets efficiently.
+TEXT_TOOLTIP_BETASHUTTLE_GROUP,Group: 15x Beta-class Assault Shuttle
+TEXT_TOOLTIP_BETASHUTTLE_HULL,Hull: 175 (Gunship) 
+TEXT_TOOLTIP_BETASHUTTLE_MOVE,Speed: 4.5 | Accel: 0.05 | Turn 0.15
+TEXT_TOOLTIP_BETASHUTTLE_SHIELD,Shields: 145 (3.375/R) (Gunship)  
+TEXT_TOOLTIP_BETASHUTTLE_SQUADRON,Squadron: 3x Beta-class Assault Shuttle
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO,A modification of the venerable Beta-class Assault Shuttle which replaced its troop bays and much of its other systems to house a large torpedo bay for its size. This increase in firepower came at the cost of speed and shielding. Betas can defend themselves from fighters but are best utilized against capital ships.
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_GROUP,Group: 15x Beta Torpedo Boat
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_MOVE,Speed: 3.0 | Accel: 0.05 | Turn 0.15
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_SHIELD,Shields: 125 (3.30/R) (Gunship)
+TEXT_TOOLTIP_BETASHUTTLE_TORPEDO_SQUADRON,Squadron: 3x Beta Torpedo Boat
+TEXT_TOOLTIP_BETASHUTTLE_WEAP1,2x Fighter Turbolasers: 2 / 2.0s / 4.0km 
+TEXT_TOOLTIP_BETASHUTTLE_WEAP2,2x Fighter Laser Cannons: 2 / 2.0s / 2.0km
+TEXT_TOOLTIP_BETASHUTTLE_WEAP3,1x Light Concussion Missile: 1 / 30.0s / 4.0km
+TEXT_TOOLTIP_BETASHUTTLE_WEAP4,1x Light Proton Torpedo: 1 / 12.75s / 4.0km
 TEXT_TOOLTIP_BONUS_COMMS_DHC_FIGHTER,Communications Ship: 6% Combat bonus for all fighters
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2,Price: -10% | Time: -10%
 TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS_ORGANIC,Force Hunters: Reveals mines and stealth units
@@ -1162,6 +1179,21 @@ TEXT_TOOLTIP_FROSTFIRE_WEAP2,4x Medium Turbolasers: 2 / 0.75s / 6.3km
 TEXT_TOOLTIP_FROSTFIRE_WEAP3,2x Medium Dual Ion Cannons: 2 / 4.0s / 6.3km
 TEXT_TOOLTIP_FYYAR,An Imperial Admiral mainly known for his research projects rather than military campaigns. Fyyar worked on armor and shield technologies, including the Shadow Armor that the Reborn Dark Jedi would wear, empowered by Artusian crystals, as well as a mechanized battle suit for himself. Sometime after the Battle of Endor, Fyyar joined forces with Hethrir and Desann, lending his technological expertise and gaining command of the faction's advanced siege warship, the Doomgiver. However, Fyyar had little respect for the force-obsessed Hethrir and Desann and planned to take the throne for himself once the Jedi were out of the way.   
 TEXT_TOOLTIP_FYYAR_EMPEROR,TODO
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER,A variant of the versatile Gamma-class Assault Shuttle made to quickly transport troops to and from planetary surfaces. This variant stripped away much of the Gamma's offensive systems and Space Trooper launching capabilities in exchange for extra engine power and shields. Best used to intercept enemy fighters and bombers. 
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_GROUP,Group: 16x Gamma-class Light Personnel Carrier
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_MOVE,Speed: 7.5 | Accel: 0.15 | Turn: 0.15
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_SHIELD,Shields: 175 (4.0/R) (Gunship)
+TEXT_TOOLTIP_GAMMAPERSONNELCARRIER_SQUADRON,Squadron: 4x Gamma-class Light Personnel Carrier
+TEXT_TOOLTIP_GAMMASHUTTLE_GROUP,Group: 15x Gamma-class Assault Shuttle
+TEXT_TOOLTIP_GAMMASHUTTLE_MOVE,Speed: 6.5 | Accel: 0.10 | Turn: 0.15
+TEXT_TOOLTIP_GAMMASHUTTLE_SHIELD,Shield: 150 (3.375/R) (Gunship)
+TEXT_TOOLTIP_GAMMASHUTTLE_SQUADRON,Squadron: 3x Gamma-class Assault Shuttle
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP1,4x Heavy Fighter Laser Cannons: 2 / 2.0s / 3.0km
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP2,4x Fighter Turbolasers: 2 / 3.0s / 4.0km
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP3,1x Fighter Ion Cannon: 2 / 2.0s / 3.0km
+TEXT_TOOLTIP_GAMMASHUTTLE_WEAP4,1x Fighter Assault Concussion Missile: 1 / 30.0s / 1.8km
+TEXT_TOOLTIP_GAMMASHUTTLEA,The successor to the Beta-class Shuttle, the Gamma-class was a common sight among the navies of many factions galaxy wide for many decades. It was most often used to board enemy capital ships and installations while providing fire support to its complement of Spacetroopers. While it came factory equipped with a stern-mounted tractor beam, many models replaced it with an ion cannon to aid it in its boarding operations. This model is best equipped to deal with enemy fighters and other gunships.
+TEXT_TOOLTIP_GAMMASHUTTLEB,The successor to the Beta-class Shuttle, the Gamma-class was a common sight among the navies of many factions galaxy wide for many decades. It was most often used to board enemy capital ships and installations while providing fire support to its complement of Spacetroopers. While it came factory equipped with a stern-mounted tractor beam, many models replaced it with an ion cannon to aid it in its boarding operations. This model is best equipped to attack larger capital ships.
 TEXT_TOOLTIP_GAT,The Ground Armored Tank served as a shielded fast attack platform early in the war, often in opposition to the comparable Saber tanks. Due to losses and poor direct performance against loyalist assets, the design ceased production relatively quickly into the war in favour of Techno Union alternatives.
 TEXT_TOOLTIP_GAT_COMPANY,Company: 4x GAT
 TEXT_TOOLTIP_GAT_HEALTH,Health: 100 (Medium Vehicle)
@@ -1179,6 +1211,12 @@ TEXT_TOOLTIP_GLADIATOR2_CARRIER_SQUADRON,Fighters: 1.5 / 1.5 | Bombers: 1 / 1
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP1,2x Medium Dual Turbolasers: 2 / 3.33s / 6.1km
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP2,2x Medium Dual Ion Cannons: 2 / 3.33s / 6.1km
 TEXT_TOOLTIP_GLADIATOR2_CARRIER_WEAP3,2x Medium Dual Laser Cannons: 2 / 1.0s / 4.1km
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER,A refit of the classic CEC Gozanti Cruiser designs which added turbolasers, massively increasing the firepower the slow vessel could bring on target and allowing it to act as a makeshift capital ship. Such a conversion was popular with criminal groups who had no real way to access or even maintain larger warships and thus up-gunning the reliable and widely available Gozanti was their best option.
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_GROUP,Group: 15x Gozanti Cruiser Raider
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_SQUADRON,Squadron: 3x Gozanti Cruiser Raider
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP1,1x Fighter Turbolaser: 2 / 2.0s / 4.0km
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP2,4x Fighter Laser Cannon: 4 / 1.0s / 2.0km
+TEXT_TOOLTIP_GOZANTI_CRUISER_RAIDER_WEAP3,1x Light Proton Torpedo: 1 / 150.0s / 3.0km
 TEXT_TOOLTIP_GPA_RESEARCH,Using our domestic developments, replace our TIE Fighters with General-Purpose Attack Fighters.
 TEXT_TOOLTIP_GRONN_UPGRADE,Upgrade: Mandator-III
 TEXT_TOOLTIP_GRUNGER_UPGRADE,Upgrade: Executor
@@ -1200,6 +1238,12 @@ TEXT_TOOLTIP_HAG_HEALTH,Health: 100 (Medium Vehicle)
 TEXT_TOOLTIP_HAG_MOVE,Speed: 1.0 | Turn: 2.0 
 TEXT_TOOLTIP_HAG_WEAP1,1x Artillery Cannon: 1 / 8.333s / 1440m
 TEXT_TOOLTIP_HAG_WEAP2,2x AI Blaster Cannons: 2 / 3.0s / 240m
+TEXT_TOOLTIP_HAML,The Heavy Armored Missile Launcher is one of many Trade Federation products that long predate the outbreak of the Clone Wars. Though very dangerous to air units, it has little ability to protect itself from ground elements and it should never be used unescorted.
+TEXT_TOOLTIP_HAML_COMPANY,Company: 2x HAML
+TEXT_TOOLTIP_HAML_HEALTH,Health: 200 (Medium Vehicle)
+TEXT_TOOLTIP_HAML_MOVE,Speed: 1.75 | Turn: 2.0 
+TEXT_TOOLTIP_HAML_WEAP1,1x Flak Missile: 4 / 2.0s / 400m
+TEXT_TOOLTIP_HAML_WEAP2,2x Light AI Blaster Cannons: 2 / 1.0s / 240m
 TEXT_TOOLTIP_HARRSK_UPGRADE2,Upgrade: Mandator-III
 TEXT_TOOLTIP_HEAVY_PDF,Heavy fire support infantry belonging to planetary governments and private organizations affiliated with rather than directly part of galactic powers. Often formed on wealthy worlds with strong military industrial bases, these formations are well-trained and equipped with locally-produced heavy weapons to repulse armored offensives and provide fire support where heavy vehicles are not available. While the firepower each squad can bring to bear is large, their heavy gear weighs them down and makes them reliant on transports to reach destinations quickly. Vulnerable to lighter infantry and best deployed in fortifications or otherwise shielded from return fire.
 TEXT_TOOLTIP_HEAVY_PDF_COMPANY_WEAP1,4x Light Repeating Blaster: 5 / 1.0s / 240m
@@ -1272,6 +1316,17 @@ TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth P
 TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter catalog, the Ixiyen is a modular multirole fighter utilized primarily by illegal interests and local defense forces. This configuration of the Ixiyen has an armament comparable to Sienar's TIE Defender but is otherwise inferior in most respects. Able to engage any target type effectively.
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by Admiral Roek.
 TEXT_TOOLTIP_JOLLIE,A short-statured human ambassador who was attached to Grand Moff Hauser's staff in the Dustig Oversector. Hedonistic, well-connected and corrupt, Jollie was involved in at least one off-the-books venture; an illegal mining operation on M'Haeli with the planet's equally corrupt governor Grigor. When the Grand Moff began to investigate Grigor's corruption, Jollie tipped off the governor and managed to evade punishment himself while Grigor was arrested and killed. 
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID,A war droid derived from similar concepts as the Holowan IG-series, though amusingly more reminiscent of their future products than ones of a similar age. Favored by petty local warlords and mercenary forces for antivehicle support and defensive operations, they function best against heavier targets but are intended to be screened by normal infantry.
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY,Company: 25x JU-9 Juggernaut War Droid
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY_WEAP1,25x Heavy Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY_WEAP2,25x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_HEALTH,Health: 23 (Droid)
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_MOVE,Speed: 0.9 
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD,Squad: 5x JU-9 Juggernaut War Droid
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD_WEAP1,5x Heavy Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD_WEAP2,5x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_WEAP1,1x DL-44 Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_WEAP2,1x Heavy AV Missile Launcher: 1 / 9.0s / 320m
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KALE,An Imperial officer stationed on Kuat, Anton Kale firmly believed the Empire was the galaxy's best hope for lasting order. Fascinated by starship engineering and naval design, he personally lobbied for assignment to Kuat so he could oversee the construction and testing of the Empire's most advanced warships. Following Endor, Kale remained committed to defending Imperial rule from the Kuat Sector.
 TEXT_TOOLTIP_KANTOS,General Kantos was a senior Imperial Army officer and close subordinate of High Admiral Tharkus. Though initially reluctant to defy the Imperial Senate, Kantos became an enthusiastic supporter of Tharkus's pursuit of the Heart of the Jedi, encouraging the High Admiral to seize its power for himself and ultimately helping foster his ambitions to become the new Emperor.
@@ -1399,6 +1454,11 @@ TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_HEALTH,Health: 150 (Light Vehicle)
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_MOVE,Speed: 1.25 | Turn: 4.0
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP1,1x AV Beam Cannon: 12 / 1.5s / 320m
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP2,1x Heavy AI Blaster Cannon (AOE): 1 / 0.5s / 240m
+TEXT_TOOLTIP_PAC,No-frills ground transport adapted from the design of a commercial repulsorlift sled. Less protected than the larger MTT but faster and more suited to bulk transport.
+TEXT_TOOLTIP_PAC_COMPANY,Company: 4x Platoon Attack Craft
+TEXT_TOOLTIP_PAC_HEALTH,Health: 150 (Light Vehicle)
+TEXT_TOOLTIP_PAC_MOVE,Speed: 2.0 | Turn: 1.0 
+TEXT_TOOLTIP_PAC_WEAP1,2x Light AI Blaster Cannons: 4 / 1.5s / 240m
 TEXT_TOOLTIP_POLLUX,Pollux was one half of the Dioskouroi, a pair of elite shapeshifting operatives in the service of High Admiral Tharkus. Able to assume the appearance of others, Pollux used his unusual abilities to infiltrate enemy ranks, gather intelligence, and carry out covert assignments alongside his partner, Kastor.
 TEXT_TOOLTIP_PRAETOR_I,A large battleship produced before the Clone Wars to be flaunted by wealthy sectors and planets. While the vessels originally had hamstrung hyperdrives due to regulations, wartime conditions saw them upgraded out of necessity as task force leaders and response units. 
 TEXT_TOOLTIP_PRAETOR_I_HULL,Hull: 32940 (Capital)
@@ -1483,6 +1543,13 @@ TEXT_TOOLTIP_RESPAWN_ROGRISS,Tactical Retreat: Respawns in an ISD-I if defeated
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
 TEXT_TOOLTIP_ROGRISS_UPGRADE2,Upgrade: Praetor (Requires Kuat and Kuat Minor Warlord)
 TEXT_TOOLTIP_ROOK,TODO
+TEXT_TOOLTIP_RX200,Designed by Rothana Heavy Engineering, The RX-200 Falchion Class Assault Tank was a mobile direct fire artillery piece of the Grand Army of the Republic. Its large Ion beam cannon is effective against vulnerable targets such as droids, speeders and aircraft, relegating the vehicle to a specialist role.
+TEXT_TOOLTIP_RX200_COMPANY,Company: 1x RX-200 Falchion
+TEXT_TOOLTIP_RX200_HEALTH,Health: 850 (Heavy Vehicle)
+TEXT_TOOLTIP_RX200_MOVE,Speed: 1.5 | Turn: 1.0
+TEXT_TOOLTIP_RX200_WEAP1,1x Ion Beam: 16 / 2.0s / 600m
+TEXT_TOOLTIP_RX200_WEAP2,2x Heavy AI Blaster Cannons: 2 / 1.0s / 320m
+TEXT_TOOLTIP_RX200_WEAP3,1x Ion Beam: 16 / 1.0s / 600m
 TEXT_TOOLTIP_SCHMONG,Kiara Schmong was a Sullustan arms dealer and spy who constantly switched affiliations, though she most prominently worked for the Kaarenth Dissension. Selling them illegally sourced SoroSuub hardware and scientific secrets stolen from the Brothers Teradoc, she was last seen fleeing New Republic authorities.
 TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1,Finance mass production of a Sienar assault fighter based off Tomax Bren's proposed TIE Bomber MK2, replacing the TIE Bomber completely.
 TEXT_TOOLTIP_SEPARATOR_DEFAULT_BLOCK,===============DEFAULT GARRISONS===============
@@ -1765,6 +1832,17 @@ TEXT_TOOLTIP_VINDICATOR_CARRIER_WEAP4,1x Medium Laser Cannon: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_VOSS,Lieutenant Voss was a young Imperial officer and trusted aide to High Admiral Tharkus. Frequently entrusted with carrying out the High Admiral's orders, Voss commanded Imperial troops during Tharkus's operations and assisted in his efforts to track Luke Skywalker and uncover the location of the Heart of the Jedi.
 TEXT_TOOLTIP_VSHIELDED_RESEARCH,Refit Imperial walkers with shield generators inspired by the AT-XT, exchanging some hull integrity for renewable defensive protection against sustained enemy fire. (Replaces AT-ST/A, AT-AP, and AT-AT/AT-AT Turbolaser Refit)
 TEXT_TOOLTIP_VULTURE_DROID,A small droid fighter that relies on numbers and maneuverability to win dogfights. While modular enough to carry munitions, they are often replaced with extra fuel slugs to increase flight time from being minutes long. They are best used to swarm enemy fighters and bombers.
+TEXT_TOOLTIP_VX_AA_DROID,A configuration of the VX series artillery droids, armed with flak missiles to protect against aerial assaults. With its lighter frame enabling it to move faster compared to long-range artillery models and a token anti-infantry laser, this droid is aptly suited for all its users anti-air needs.
+TEXT_TOOLTIP_VX_AA_DROID_COMPANY,Company: 4x VX-6 Anti-Air Droid
+TEXT_TOOLTIP_VX_AA_DROID_HEALTH,Health: 65 (Light Vehicle)
+TEXT_TOOLTIP_VX_AA_DROID_MOVE,Speed: 1.75 | Turn: 1.0
+TEXT_TOOLTIP_VX_AA_DROID_WEAP1,1x Flak Missile: 2 / 2.0s / 400m
+TEXT_TOOLTIP_VX_AA_DROID_WEAP2,1x Light AI Blaster Cannon: 4 / 1.0s / 200m
+TEXT_TOOLTIP_VX_ARTILLERY_DROID,A simple and reliable military droid model employed and maintained for millenia which was sold to nearly everyone who would pay by Czerka Corporation. Consists of little more than a tracked base, targeting sensors, and support for racks of missiles. Useful for bombarding enemy positions at range.
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_COMPANY,Company: 2x VX-series Artillery Droid
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_HEALTH,Health: 75 (Light Vehicle)
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_MOVE,Speed: 1.5 | Turn: 1.0
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_WEAP1,1x Proton Missile: 4 / 14.8s / 1440m
 TEXT_TOOLTIP_X1_HEALTH,Health: 190 [2%/5s] (Hero)
 TEXT_TOOLTIP_X1_MOVE,Speed: 1.1
 TEXT_TOOLTIP_X1_WEAP1,1x Lightsaber: 1 / 0.1s / 1m
@@ -1803,8 +1881,8 @@ TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
-TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,
+TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
 TEXT_UNIT_AT_TE_WALKER_COMMAND,AT-TE Walker (Command Refit)
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
@@ -1815,6 +1893,12 @@ TEXT_UNIT_BAYONET,Bayonet Light Cruiser
 TEXT_UNIT_BELBULLAB22,Belbullab-22
 TEXT_UNIT_BELBULLAB23,Belbullab-23
 TEXT_UNIT_BELBULLAB24,Belbullab-24
+TEXT_UNIT_BETASHUTTLE,Beta-class Assault Shuttle
+TEXT_UNIT_BETASHUTTLE_GROUP,Beta-class Assault Shuttle Group
+TEXT_UNIT_BETASHUTTLE_SQUADRON,Beta-class Assault Shuttle Squadron
+TEXT_UNIT_BETASHUTTLE_TORPEDO,Beta Torpedo Boat
+TEXT_UNIT_BETASHUTTLE_TORPEDO_GROUP,Beta Torpedo Boat  Group
+TEXT_UNIT_BETASHUTTLE_TORPEDO_SQUADRON,Beta Torpedo Boat Squadron
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_BRAK_FLEET_RESEARCH,Brak Sector Fleet Modernization Program
 TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
@@ -1860,10 +1944,21 @@ TEXT_UNIT_FAUX_STORMTROOPER_GRENADIER,Faux Stormtrooper Grenadier
 TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
+TEXT_UNIT_GAMMAPERSONNELCARRIER,Gamma-class Personnel Carrier
+TEXT_UNIT_GAMMAPERSONNELCARRIER_SQUADRON,Gamma-class Light Personnel Carrier Squadron
+TEXT_UNIT_GAMMASHUTTLEA,Gamma-class Assault Shuttle Model A
+TEXT_UNIT_GAMMASHUTTLEA_GROUP,Gamma-class Assault Shuttle Model A Group
+TEXT_UNIT_GAMMASHUTTLEA_SQUADRON,Gamma-class Assault Shuttle Model A Squadron
+TEXT_UNIT_GAMMASHUTTLEB,Gamma-class Assault Shuttle Model B
+TEXT_UNIT_GAMMASHUTTLEB_GROUP,Gamma-class Assault Shuttle Model B Group
+TEXT_UNIT_GAMMASHUTTLEB_SQUADRON,Gamma-class Assault Shuttle Model B Squadron
 TEXT_UNIT_GAT,Ground Armored Tank
 TEXT_UNIT_GAT_COMPANY,GAT Company
 TEXT_UNIT_GLADIATOR_DEMOLISHER,Gladiator-I Refit
 TEXT_UNIT_GLADIATOR2_CARRIER,Gladiator-II Carrier
+TEXT_UNIT_GOZANTI_CRUISER_RAIDER,Gozanti Cruiser Raider
+TEXT_UNIT_GOZANTI_CRUISER_RAIDER_GROUP,Gozanti Cruiser Raider Group
+TEXT_UNIT_GOZANTI_CRUISER_RAIDER_SQUADRON,Gozanti Cruiser Raider Squadron
 TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
@@ -1879,6 +1974,9 @@ TEXT_UNIT_INVINCIBLE_TENDER,Invincible Dreadnaught Fleet Tender
 TEXT_UNIT_INVINCIBLE_UPGUNNED,Modernized Invincible Dreadnaught
 TEXT_UNIT_ION_VIGIL,Customs Refit Vigil Corvette
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
+TEXT_UNIT_JU9_JUGGERNAUT_DROID,JU-9 Juggernaut War Droid
+TEXT_UNIT_JU9_JUGGERNAUT_DROID_COMPANY,JU-9 Juggernaut War Droid Platoon
+TEXT_UNIT_JU9_JUGGERNAUT_DROID_SQUAD,JU-9 Juggernaut War Droid Squad
 TEXT_UNIT_KDY_DEMO_SHIP,KDY Demonstration Dreadnought
 TEXT_UNIT_KIHRAXZ,Kihraxz Fighter
 TEXT_UNIT_KLUCREHULK_RESEARCH,Remilitarize Lucrehulks
@@ -1899,6 +1997,7 @@ TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MILITARY_SOLDIER_MEDIC,Local Military Medic
 TEXT_UNIT_MILITARY_SOLDIER_MEDIC_SQUAD,Local Military Medic Squad
 TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator Battlecruiser
+TEXT_UNIT_MTT,Multi-Troop Transport
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NAVYCOMMANDO_MEDIC,Navy Commando Medic
 TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD,Navy Commando Medic Squad
@@ -1918,6 +2017,8 @@ TEXT_UNIT_NIVERS_AGGRESSOR_RESEARCH,Research: Aggressor Star Destroyer.
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
 TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
+TEXT_UNIT_PAC,Platoon Attack Craft
+TEXT_UNIT_PAC_COMPANY,Platoon Attack Craft Company
 TEXT_UNIT_PHASE_TWO_AT_HEAVY,Republic Surplus Trooper Heavy AT 
 TEXT_UNIT_PHASE_TWO_AT_LIGHT,Republic Surplus Trooper Light AT 
 TEXT_UNIT_PHASE_TWO_CARBINER,Republic Surplus Trooper Carbineer 
@@ -1951,6 +2052,8 @@ TEXT_UNIT_REPUBLIC_TIE,T.I.E. Starfighter
 TEXT_UNIT_REPUBLIC_Z95_HEADHUNTER,Republic Z-95 Headhunter
 TEXT_UNIT_RG_STORMTROOPER_PLATOON,Royal Guard Stormtrooper Platoon
 TEXT_UNIT_RHO_SHUTTLE,Rho-class Transport Shuttle
+TEXT_UNIT_RX200,RX-200 Falchion
+TEXT_UNIT_RX200,RX-200 Falchion
 TEXT_UNIT_SHADOW_ACCLAMATOR_I,Shadow Acclamator-I Cruiser (Carrier)
 TEXT_UNIT_SHADOW_AT_AT_WALKER,Shadow AT-AT Walker
 TEXT_UNIT_SHADOW_SCOUT_TROOPER_ASSAULT_SQUAD,Shadow Scout Trooper Carbineer Squad 
@@ -2056,6 +2159,10 @@ TEXT_UNIT_VICTORY_PATROL,Patrol Victory-I Star Destroyer
 TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
 TEXT_UNIT_VSHIELDED_RESEARCH,Shielded Walker Research
 TEXT_UNIT_VULTURE_DROID,Vulture Droid Mark 1
+TEXT_UNIT_VX_AA_DROID,VX-6 Anti-Air Droid
+TEXT_UNIT_VX_AA_DROID_COMPANY,VX-6 Anti-Air Droid Company
+TEXT_UNIT_VX_ARTILLERY_DROID,VX-series Artillery Droid
+TEXT_UNIT_VX_ARTILLERY_DROID_COMPANY,VX-series Artillery Droid Company
 TEXT_UNIT_YV929,YV-929 Armed Freighter
 TEXT_UNIT_Z95_HEADHUNTER_MODERNIZED,Modernized Z-95 Headhunter
 TEXT_V_WING_ELITE_GUARD_SQUADRON,Elite Guard V-wing Squadron
@@ -2091,5 +2198,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_NIVERS_MISSILE_FIGHTER_RESEARCH,Research: Missile TIE Fighter & V-Wing.
-TEXT_TOOLTIP_NIVERS_MISSILE_FIGHTER_RESEARCH,Equip TIE Fighters and standard V-Wings with external concussion missile racks for increased firepower.

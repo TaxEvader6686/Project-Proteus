@@ -574,4 +574,140 @@
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
+		<HardPoint Name="HP_JU9_MIssile_Launcher">
+
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<!--<Health>1000.0</Health>-->
+
+		<Fire_Bone_A>Attach_Hand_Left</Fire_Bone_A>
+		<Fire_Bone_B>Attach_Hand_Left</Fire_Bone_B>
+		<Fire_Cone_Width>120.0</Fire_Cone_Width>
+		<Fire_Cone_Height>120.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Light_Proton_Missile</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>9.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>9.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Min_Range_Distance>20.0</Fire_Min_Range_Distance>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Wrist_Rocket_Fire</Fire_SFXEvent>
+		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
+
+		<Fire_Inaccuracy_Distance> Vehicle, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
+
+		<Fire_Category_Restrictions> Infantry, InfantryHero </Fire_Category_Restrictions>
+
+	</HardPoint>
+
+		<HardPoint Name="HP_BX_Commando_Blaster">
+
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+		<Model_To_Attach>e-5_specops_blaster_rifle.alo</Model_To_Attach>
+		<Attachment_Bone>B_ATTACH_GUN</Attachment_Bone>
+
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		<Fire_Cone_Width>120.0</Fire_Cone_Width>
+		<Fire_Cone_Height>120.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Rifle_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>300.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_BX_E5_Carbine_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 60.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
+
+		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
+		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_BX_Commando_Sniper">
+
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+		<Model_To_Attach>weapon_bx_sniper.alo</Model_To_Attach>
+		<Attachment_Bone>B_ATTACH_GUN</Attachment_Bone>
+
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		<Fire_Cone_Width>60.0</Fire_Cone_Width>
+		<Fire_Cone_Height>60.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Sniper_AI_Blaster_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.00</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.00</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Min_Range_Distance>15.0</Fire_Min_Range_Distance>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_BX_Sniper_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 50.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 1.0 </Fire_Inaccuracy_Distance>
+
+	</HardPoint>
+
+	<HardPoint Name="HP_BX_Commando_Blaster_Cannon">
+
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+		<!-- Placeholder Asset -->
+		<Model_To_Attach>Weapon_PengauniCarbine.alo</Model_To_Attach>
+		<Attachment_Bone>B_ATTACH_GUN</Attachment_Bone>
+
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		<Fire_Cone_Width>120.0</Fire_Cone_Width>
+		<Fire_Cone_Height>120.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_AI_Blaster_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>300.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_BX_E5_Carbine_Fire</Fire_SFXEvent>
+
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
+
+		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
+		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+	</HardPoint>
+	
 </HardPoints>
