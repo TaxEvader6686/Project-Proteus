@@ -2,7 +2,6 @@ require("eawx-util/UnitUtil")
 require("PGStoryMode")
 require("PGSpawnUnits")
 require("SetFighterResearch")
-require("eawx-util/StoryUtil")
 
 return {
     on_enter = function(self, state_context)
@@ -199,22 +198,25 @@ return {
             })
 
 			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-            if proteus ~= nil then
-                if not Find_Object_Type("IPV1").Is_Obsolete(Find_Player("Imperial_Proteus")) then
-                    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-					   "IPV4"
-					})
-					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-					    "IPV1"
-					}, false) 
+            local ipv4_unlock = {
+                "RAYTER", "ELROOD", "ISECTOR", "TAGGE", "BAKURA", "TAPANI", "PRAKITH", "CATO_NEIMOIDIA", "ARDA", "LAMBDA"}
+			if proteus ~= nil then
+                for _, group in pairs(ipv4_unlock) do
+                    if proteus == group then
+						UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						    "IPV4"
+					    })
+					    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						    "IPV1"
+					    }, false)
+                    end
                 end
-                
-                if proteus == "LUMIYA" then
+				if proteus == "LUMIYA" then
 					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
 						"Gorath_Research_Proteus"
 					})
 				end
-            end
+			end
         end
 
     end,

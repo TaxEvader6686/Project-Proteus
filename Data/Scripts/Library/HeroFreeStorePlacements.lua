@@ -601,7 +601,7 @@ return {
     ,REBUS_TEAM = {"Is_Production_Planet", false}
     ,GRONN_ACROPORA = {nil, true}
     ,THORN_TEAM = {nil, false}
-    ,LEZNER_TEAM = {"Is_Production_Planet", false}
+    ,LEZNER_TEAM = {nil, false}
     ,FYYAR_DOOMGIVER = {nil, true}
     ,ANTON_KALE = {nil, true}
     ,ANTON_KALE_MODERNIZED = {nil, true}
@@ -643,8 +643,4 @@ return {
     ,COYOTETGT_TEAM = {nil, false}
     ,["17786_TEAM"] = {nil, false}
     ,BENGILA_URLAN_TEAM = {"Is_Production_Planet", false}
-    ,IL_RAZ_EMPERORSDISCIPLE = {nil, true}
-    ,ISARD_CLONE_LUSANKYA = {"Planet_Has_Capital_Building", true}
-    ,CRUEYA_VANDRON_TEAM = {"Is_Production_Planet", false}
-    ,ALEXANDER_JULSTAAN_TEAM = {"Is_Production_Planet", false}
 }

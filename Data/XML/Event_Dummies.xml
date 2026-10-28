@@ -955,7 +955,7 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_FURGAN.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BALAN.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
@@ -991,95 +991,6 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-	<DummyStructure Name="Warlord_Choice_Nivers">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_NIVERS</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
-			TEXT_PLANET_SEPARATOR
-			TEXT_PROTEUS_DESCRIPTION_NIVERS
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>I_BUTTON_NIVERS.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
-
-	<DummyStructure Name="Warlord_Choice_Compnor">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_COMPNOR</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
-			TEXT_PLANET_SEPARATOR
-			TEXT_PROTEUS_DESCRIPTION_COMPNOR
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>i_button_vandron.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
-
-	<DummyStructure Name="Warlord_Choice_Minos">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_MINOS</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
-			TEXT_PLANET_SEPARATOR
-			TEXT_PROTEUS_DESCRIPTION_MINOS
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>I_BUTTON_TORSCH.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
-
-	<DummyStructure Name="Warlord_Choice_Tatooine">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_TATOOINE</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
-			TEXT_PLANET_SEPARATOR
-			TEXT_PROTEUS_DESCRIPTION_TATOOINE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>i_button_julstaan.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
-
-	<DummyStructure Name="Warlord_Choice_Trax">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_TRAX</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
-			TEXT_PLANET_SEPARATOR
-			TEXT_PROTEUS_DESCRIPTION_TRAX
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>I_BUTTON_HEGGEL.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
-
-	<DummyStructure Name="Warlord_Choice_Drommel">
-		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_DROMMEL</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
-			TEXT_PLANET_SEPARATOR
-			TEXT_PROTEUS_DESCRIPTION_DROMMEL
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
-
-		<Icon_Name>i_button_drommel.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-	</DummyStructure>
 	<!-- Regime Leader Choices -->
 
 	<DummyStructure Name="Regime_Choice_Header">

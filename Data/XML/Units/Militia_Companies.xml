@@ -884,19 +884,19 @@
 		<Build_Cost_Credits>700</Build_Cost_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-	    <Required_Special_Structures>I_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures/>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>500</Score_Cost_Credits>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		<Population_Value>1</Population_Value>
 
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Independent_Forces, Imperial_Proteus</Affiliation>
+		<Affiliation>Independent_Forces</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

@@ -22,7 +22,7 @@ return {
 		"Communications_Battlecruiser", "Shadow_Vengeance_Star_Dreadnought",
 		"Shadow_Stormtrooper_Company", "Shadow_EVO_Trooper_Company", "Shadow_Imperial_Scout_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company",
 		"1L_Tank_Company", "AT_DP_Company", "Shadow_ULAV_Company",
-		"Shadow_Imperial_TX130T_Company", "AT_AA_Flak_Walker_Company", "Imperial_Dropship_Transport_Company", "SPMAG_Walker_Company", "Deathhawk_Company",
+		"Shadow_Imperial_TX130S_Company", "AT_AA_Flak_Walker_Company", "Imperial_Dropship_Transport_Company", "SPMAG_Walker_Company", "Deathhawk_Company",
 		"A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company", 
 		--Restored Empire's added units
 		"Imperial_CR90", "CR90", "Carrack_Cruiser_Laser",  "Arquitens", "Galleon_Minelayer", "Pelta_Assault", "Pelta_Support", "Rep_DHC", "Acclamator_I_Carrier", "Acclamator_I_Assault", "Maelstrom_Battlecruiser", "Acclamator_Destroyer", "Praetor_I_Battlecruiser", "Mandator_II_Dreadnought",
@@ -151,6 +151,4 @@ return {
 		"Barabbula_Frigate", "Tempest_Cruiser",
 		--Screed added units
 		"Gladiator_Demolisher",
-		--Tatooine added units
-		"Ubrikkian_Frigate",
 }

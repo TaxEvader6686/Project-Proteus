@@ -5151,8 +5151,8 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_FURGAN.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_FURGAN.tga</Selected_Texture_Name>
+		<Icon_Texture_Name>I_BUTTON_BALAN.tga</Icon_Texture_Name>
+		<Selected_Texture_Name>I_BUTTON_BALAN.tga</Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
@@ -5343,15 +5343,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_NIVERS.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_NIVERS.tga</Selected_Texture_Name>
+		<Icon_Texture_Name></Icon_Texture_Name>
+		<Selected_Texture_Name></Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_79</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_NIVERS</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5375,15 +5375,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>i_button_vandron.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>i_button_vandron.tga</Selected_Texture_Name>
+		<Icon_Texture_Name></Icon_Texture_Name>
+		<Selected_Texture_Name></Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_80</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_COMPNOR</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5407,15 +5407,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_TORSCH.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_TORSCH.tga</Selected_Texture_Name>
+		<Icon_Texture_Name></Icon_Texture_Name>
+		<Selected_Texture_Name></Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_81</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_MINOS</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5439,15 +5439,15 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>i_button_julstaan.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>i_button_julstaan.tga</Selected_Texture_Name>
+		<Icon_Texture_Name></Icon_Texture_Name>
+		<Selected_Texture_Name></Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>
 		<Tab>True</Tab>
 		<Disable_Darken>true</Disable_Darken>
 		<Group>faction_82</Group>
-		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_TATOOINE</Tooltip_Text>
+		<Tooltip_Text>TEXT_EVENT_WARLORD_CHOICE_</Tooltip_Text>
 		<Scale>0.75</Scale>
 	</CommandBarComponent>
 
@@ -5471,8 +5471,8 @@
 		<Left_Justified>False</Left_Justified>
 		<Base_Layer>8</Base_Layer>
 		<Text_Outline>True</Text_Outline>
-		<Icon_Texture_Name>I_BUTTON_HEGGEL.tga</Icon_Texture_Name>
-		<Selected_Texture_Name>I_BUTTON_HEGGEL.tga</Selected_Texture_Name>
+		<Icon_Texture_Name></Icon_Texture_Name>
+		<Selected_Texture_Name></Selected_Texture_Name>
 		<Disabled_Texture_Name>i_button_disabled_square.tga</Disabled_Texture_Name>
 		<Toggle>False</Toggle>
 		<Selected_Alpha>True</Selected_Alpha>

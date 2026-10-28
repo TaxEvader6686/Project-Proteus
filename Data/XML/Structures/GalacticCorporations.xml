@@ -2477,14 +2477,14 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Telgorn_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group, Beta_Shuttle_Group, Beta_Torpedo_Boat_Group, Gamma_Shuttle_A_Group, Gamma_Shuttle_B_Group, Gamma_Personnel_Carrier_Group </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Telgorn_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Gamma_ATR_6_Group, Beta_ETR_3_Group, Beta_Shuttle_Group, Beta_Torpedo_Boat_Group, Gamma_Shuttle_A_Group, Gamma_Shuttle_B_Group, Gamma_Personnel_Carrier_Group </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -3152,8 +3152,6 @@
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
 		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
-		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-		TEXT_TOOLTIP_BUILDLIMIT_UBIQTORATE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_UBIQTORATE_BASE.tga</Icon_Name>
 
@@ -3260,7 +3258,7 @@
 		</Abilities>
 	</SpecialStructure>
 
-    <SpecialStructure Name="Bankofthecore">
+<SpecialStructure Name="Bankofthecore">
 		<Variant_Of_Existing_Type>Template_Bank_Reserve</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_COMPANY_BANKOFTHECORE</Text_ID>

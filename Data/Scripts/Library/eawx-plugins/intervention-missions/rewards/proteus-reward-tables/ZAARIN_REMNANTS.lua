@@ -14,7 +14,7 @@ return {
             {"Army_Special_Missions_Company", 5},
             {"Imperial_Dropship_Transport_Company", 3},
             {"Vindicator_Carrier", 3},
-            {"Shadow_Imperial_TX130T_Company", 3},
+            {"Shadow_Imperial_TX130S_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -40,7 +40,7 @@ return {
             {"Army_Special_Missions_Company", 5},
             {"Imperial_Dropship_Transport_Company", 3},
             {"Vindicator_Carrier", 3},
-            {"Shadow_Imperial_TX130T_Company", 3},
+            {"Shadow_Imperial_TX130S_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -66,7 +66,7 @@ return {
             {"Army_Special_Missions_Company", 5},
             {"Imperial_Dropship_Transport_Company", 3},
             {"Vindicator_Carrier", 3},
-            {"Shadow_Imperial_TX130T_Company", 3},
+            {"Shadow_Imperial_TX130S_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -92,7 +92,7 @@ return {
             {"Army_Special_Missions_Company", 5},
             {"Imperial_Dropship_Transport_Company", 3},
             {"Vindicator_Carrier", 3},
-            {"Shadow_Imperial_TX130T_Company", 3},
+            {"Shadow_Imperial_TX130S_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {
@@ -118,7 +118,7 @@ return {
             {"Army_Special_Missions_Company", 5},
             {"Imperial_Dropship_Transport_Company", 3},
             {"Vindicator_Carrier", 3},
-            {"Shadow_Imperial_TX130T_Company", 3},
+            {"Shadow_Imperial_TX130S_Company", 3},
             {"SD_9_Assault_Droid_Company", 4},
         },
         {

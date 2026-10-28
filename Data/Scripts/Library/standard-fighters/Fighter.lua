@@ -135,11 +135,6 @@ return {
 			ANAXES = {"Z95XT_HEADHUNTER_SQUADRON", false},
 			SECRET = {"X_WING_SQUADRON", false},
 			SCREED = {"ATL_INTERCEPTOR_SQUADRON", false},
-			NIVERS = {"MODERNIZED_Z95_HEADHUNTER_SQUADRON", false},
-			COMPNOR = {"", false},
-			MINOS = {"SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON", false},
-			TATOOINE = {"NIMBUS_V_WING_ESK_SQUADRON", false},
-			TRAX = {"", false},														
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
