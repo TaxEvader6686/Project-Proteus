@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Conquest_Bases_Project_Proteus>
 
-<!------------------------------------------------->
+<!--=============================================-->
 <!--             Field Base Pads                 -->
-<!------------------------------------------------->
+<!--=============================================-->
 
 <!-- Match Order in ProteusWarlordLibrary -->
 	<!-- Antemeridian Sector -->
@@ -2199,12 +2199,11 @@
 		</Tactical_Buildable_Objects_Campaign>
 	</Tactical_Capturable>
 
-<!---------------------------------->
+<!--==============================-->
 <!-- Project Proteus Added Groups -->
-<!---------------------------------->
+<!--==============================-->
 
 	<!-- Azure Hammer Command -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Anaxes">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2361,7 +2360,6 @@
 	</Tactical_Capturable>
 
 	<!-- Thrawn Remnants -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Brandei">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2414,7 +2412,6 @@
 	</Tactical_Capturable>
 
 	<!-- Bormea Sector Command -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Bormea">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2467,7 +2464,6 @@
 	</Tactical_Capturable>
 
 	<!-- Imperial Carida -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Carida">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2521,7 +2517,6 @@
 	</Tactical_Capturable>
 
 	<!-- Imperial Centrality -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Centrality">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2575,7 +2570,6 @@
 	</Tactical_Capturable>
 
 	<!-- COMPNOR -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_COMPNOR">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2628,7 +2622,6 @@
 	</Tactical_Capturable>
 
 	<!-- Oplovis Sector -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Drommel">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2734,7 +2727,6 @@
 
 	<!-- Brentaal Houses -->
 	<!-- Awaiting Roster Implementation -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Fel">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2840,7 +2832,6 @@
 	</Tactical_Capturable>
 
 	<!-- Imperial Loyalists (LANOX) -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Lanox">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -2893,7 +2884,6 @@
 	</Tactical_Capturable>
 
 	<!-- Minos Cluster -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Minos">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -3104,7 +3094,6 @@
 	</Tactical_Capturable>
 
 	<!-- Screed's Empire -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Screed">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -3209,7 +3198,6 @@
 	</Tactical_Capturable>
 
 	<!-- Storm Commandos -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Storm_Commandos">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -3263,7 +3251,6 @@
 	</Tactical_Capturable>
 
 	<!-- Imperial Tatooine -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Tatooine">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -3369,7 +3356,6 @@
 	</Tactical_Capturable>
 
 	<!-- Tharkus's Empire -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Tharkus">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -3422,7 +3408,6 @@
 	</Tactical_Capturable>
 
 	<!-- Trax Sector -->
-	<!-- Needs Added to Build Pad Perception / Attacker Entry Position Script -->
 	<Tactical_Capturable Name="Field_Base_Pad_Trax">
 		<Variant_Of_Existing_Type>Template_Field_Base_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
@@ -3632,9 +3617,9 @@
 		</Tactical_Buildable_Objects_Campaign>
 	</Tactical_Capturable>
 
-<!---------------------------------->
+<!--==============================-->
 <!--    Regional GC Build Pads    -->
-<!---------------------------------->
+<!--==============================-->
 
 	<!-- Lambda Sector GC -->
 	<!-- Greenpire = Naboo, Maldrood = Protectorate, Zsinj = Kamino, Proteus = Lambda Sector -->
@@ -3742,9 +3727,9 @@
 		</Tactical_Buildable_Objects_Campaign>
 	</Tactical_Capturable>
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                        Proteus Military Start                             -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 	<!-- Proteus Army Guard Military FB  -->
 	<GroundBuildable Name="UC_Proteus_Army_Guard_Field_Military_Base">
@@ -5617,13 +5602,13 @@
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
 	</Marker>
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                         Proteus Military End                              -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                        Proteus Support Start                              -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 	<!-- Proteus Army Guard Support FB  -->
 	<GroundBuildable Name="UC_Proteus_Army_Guard_Field_Support_Base">
@@ -6503,13 +6488,13 @@
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
 	</Marker>
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                          Proteus Support End                              -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                       Proteus Commando Start                              -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 	<!-- Proteus Fleet Commando Commando FB  -->
 	<GroundBuildable Name="UC_Proteus_Fleet_Commando_Field_Commando_Base">
@@ -7712,14 +7697,14 @@
         <Spawned_Squadron_Delay_Seconds>30.0</Spawned_Squadron_Delay_Seconds>
 	</Marker>
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                        Proteus Commando End                               -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                        Proteus Scout Start                                -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 	<!-- Proteus Dark Trooper Scouting FB  -->
 	<GroundBuildable Name="UC_Proteus_Dark_Trooper_Field_Scout_Base">
@@ -8102,14 +8087,14 @@
 
 	</Marker>
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                         Proteus Scout End                                 -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                      Proteus Mercenary Start                              -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 	<!-- Proteus Light Mercenary FB  -->
 	<GroundBuildable Name="UC_Proteus_Light_Field_Mercenary_Base">
@@ -8626,8 +8611,8 @@
 
 	</Marker>
 
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 <!--                       Proteus Mercenary End                               -->
-<!------------------------------------------------------------------------------->
+<!--===========================================================================-->
 
 </Conquest_Bases_Project_Proteus>
