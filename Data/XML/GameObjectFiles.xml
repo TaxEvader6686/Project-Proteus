@@ -141,6 +141,7 @@
 	<File>Structures\Capturable_Barracks.xml</File>
 	<File>Structures\Capturable_Factories.xml</File>
 	<File>Structures\Conquest_Bases.xml</File>
+	<File>Structures\Conquest_Bases_Project_Proteus.xml</File>
 	<File>Structures\GroundBases.xml</File>
 	<File>Structures\GalacticCorporations.xml</File>
 	<File>Structures\MainStarbases.xml</File>
