@@ -3,7 +3,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -19,7 +19,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -29,7 +29,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -45,7 +45,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -55,7 +55,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -71,7 +71,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -81,7 +81,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -97,7 +97,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -107,7 +107,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -123,7 +123,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -133,7 +133,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -149,7 +149,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -159,7 +159,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -175,7 +175,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -185,7 +185,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -201,7 +201,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -211,7 +211,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -227,7 +227,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -237,7 +237,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -253,7 +253,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},
@@ -263,7 +263,7 @@ return {
 		{
 			{"Imperial_Navy_Trooper_Company", 5},
             {"Imperial_Stormtrooper_Company", 5},
-            {"Derriphan-class_Battleship", 5},
+            --{"Derriphan_class_Battleship", 5},
             {"Sith_Personnel_Carrier", 5},
             {"AT_ST_Company", 4},
             {"Gian_Company", 4},
@@ -279,7 +279,7 @@ return {
         {
             {"XR85_Company", 2},
             {"AT_AI_Walker_Company", 3},
-            {"C-10_Siege_Tower_Company", 2},
+            {"C10_Siege_Tower_Company", 2},
             {"A5_Juggernaut_Company", 1},
             {"Neutron_Star_Tender", 2},
             {"Imperial_I_Star_Destroyer_Assault", 1},

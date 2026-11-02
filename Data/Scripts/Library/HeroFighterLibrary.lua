@@ -916,6 +916,7 @@ function Get_Hero_Entries(upgrade_object)
 		["PHENNIR_BETA_SQUADRON_LOCATION_SET"] = {
 			Hero_Squadron = "PHENNIR_BETA_SQUADRON",
 			PopupBody = "PHENNIR_BETA_SQUADRON_SELECTOR_BODY",
+			NoInit = true,
 			Options = {
 				{"FEL", Locations = {"FEL_EVISCERATOR"}},
 				--Isard + CCOGM regime
