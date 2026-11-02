@@ -48,6 +48,23 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
         self.GovEmpire.hero_ssd_table[key] = value
     end
 
+    self.heroes_to_respawn = {
+        ["ROGRISS_AURORA"] = {
+            spawn_planet = "KUAT",
+            spawn_units = {"Rogriss_Agonizer"},
+            multimedia_text = "TEXT_ROGRISS_RETURN",
+            multimedia_loop = "Imperial_Naval_Officer_Loop"
+        },
+        --[[ Commented out for now
+        ["X1_EXECUTOR"] = {
+            spawn_planet = nil,
+            spawn_units = {"X1_Team"},
+            multimedia_text = "TEXT_WARLORD_RETURN_X1",
+            multimedia_loop = "X1_Loop"
+        }
+        --]]
+    }
+
     crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
     crossplot:subscribe("KUAT_BC_CHOICE_OPTION", self.kuat_battlecruisers, self)
     crossplot:subscribe("NIVERS_SSD_CHOICE_OPTION", self.Nivers_SSD_Choice, self)
@@ -93,25 +110,8 @@ end
 ---@param owner string
 ---@param killer string
 function GovernmentProteus:on_galactic_hero_killed(hero_name, owner, killer)
-    -- Use a table of hero names with spawn data, instead of an if-elseif chain
-    local hero_data = {
-        ["ROGRISS_AURORA"] = {
-            spawn_planet = "KUAT",
-            spawn_units = {"Rogriss_Agonizer"},
-            multimedia_text = "TEXT_ROGRISS_RETURN",
-            multimedia_loop = "Imperial_Naval_Officer_Loop"
-        },
-        --[[ Commented out for now
-        ["X1_EXECUTOR"] = {
-            spawn_planet = nil,
-            spawn_units = {"X1_Team"},
-            multimedia_text = "TEXT_WARLORD_RETURN_X1",
-            multimedia_loop = "X1_Loop"
-        }
-        --]]
-    }
-
-    local hero = hero_data[hero_name]
+    --Logger:trace("entering GovernmentProteus:on_galactic_hero_killed")
+    local hero = self.heroes_to_respawn[hero_name]
     if hero and owner == "IMPERIAL_PROTEUS" then
         local safe_planets = StoryUtil.GetSafePlanetTable()
         local spawn = StoryUtil.SpawnAtSafePlanet(hero.spawn_planet, Find_Player("Imperial_Proteus"), safe_planets, hero.spawn_units, true, false)
