@@ -19,6 +19,9 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
     self.production_finished_event = gc.Events.GalacticProductionFinished
     self.production_finished_event:attach_listener(self.on_production_finished, self)
 
+    self.herokilled_finished_event = gc.Events.GalacticHeroKilled
+    self.herokilled_finished_event:attach_listener(self.on_galactic_hero_killed, self)
+
     self.galactic_ssd_killed_event = gc.Events.GalacticSSDKilled
     self.galactic_ssd_killed_event:attach_listener(self.on_galactic_ssd_killed, self)
 
@@ -44,6 +47,23 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
     for key, value in pairs(self.hero_ssd_table) do
         self.GovEmpire.hero_ssd_table[key] = value
     end
+
+    self.heroes_to_respawn = {
+        ["ROGRISS_AURORA"] = {
+            spawn_planet = "KUAT",
+            spawn_units = {"Rogriss_Agonizer"},
+            multimedia_text = "TEXT_ROGRISS_RETURN",
+            multimedia_loop = "Imperial_Naval_Officer_Loop"
+        },
+        --[[ Commented out for now
+        ["X1_EXECUTOR"] = {
+            spawn_planet = nil,
+            spawn_units = {"X1_Team"},
+            multimedia_text = "TEXT_WARLORD_RETURN_X1",
+            multimedia_loop = "X1_Loop"
+        }
+        --]]
+    }
 
     crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
     crossplot:subscribe("KUAT_BC_CHOICE_OPTION", self.kuat_battlecruisers, self)
@@ -82,6 +102,22 @@ function GovernmentProteus:on_production_finished(planet, object_type_name)
         GenericPopup("KUAT_BC_CHOICE", {"PRAETOR_II_BATTLECRUISER", "PRAETOR_CARRIER_BATTLECRUISER", "COMMUNICATIONS_BATTLECRUISER", "SORANNAN_STAR_DESTROYER"}, "KUAT_BC_CHOICE_OPTION")
     elseif object_type_name == "DASTA_PROCURE_FIGHTERS" then
         GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
+    end
+end
+
+---Project Proteus specific hero respawn, just like WarlordRespawn
+---@param hero_name string
+---@param owner string
+---@param killer string
+function GovernmentProteus:on_galactic_hero_killed(hero_name, owner, killer)
+    --Logger:trace("entering GovernmentProteus:on_galactic_hero_killed")
+    local hero = self.heroes_to_respawn[hero_name]
+    if hero and owner == "IMPERIAL_PROTEUS" then
+        local safe_planets = StoryUtil.GetSafePlanetTable()
+        local spawn = StoryUtil.SpawnAtSafePlanet(hero.spawn_planet, Find_Player("Imperial_Proteus"), safe_planets, hero.spawn_units, true, false)
+        if spawn then
+            StoryUtil.Multimedia(hero.multimedia_text, 10, nil, hero.multimedia_loop, 0)
+        end
     end
 end
 
@@ -197,6 +233,9 @@ function GovernmentProteus:UpdateProteusShipmarketDisplay()
     end
 end
 
+---@param short_name string
+---@param owner_name string
+---@param killer_name string
 function GovernmentProteus:on_galactic_ssd_killed(short_name, owner_name, killer_name)
     --Logger:trace("entering GovernmentEmpire:on_galactic_ssd_killed")
 
