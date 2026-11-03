@@ -2874,6 +2874,382 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+	<!-- Stormtrooper Commando -->
+
+	<GroundInfantry Name="Stormtrooper_Commando_Gunner_Light">
+		<Variant_Of_Existing_Type>Imperial_Stormtrooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDO_GUNNER_LIGHT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_STORM_TROOPER_COMMANDO.tga</Icon_Name>
+
+		<Land_Model_Name>Stormtrooper_Weap.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Stormtrooper_Weap.ALO,
+			Urban, 				Stormtrooper_Weap.ALO,
+			Arctic, 			Snowtrooper_Weap.ALO,
+			Volcanic, 			Radtrooper_Weap.ALO,
+			Desert, 			Sandtrooper_Weap.ALO,
+			Forest, 			CamoStormtrooper_Weap.ALO,
+			Swamp, 				CamoSwampStormtrooper_Weap.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Shield_Armor_Type> ShieldG_Infantry </Shield_Armor_Type>
+		<Shield_Points>10</Shield_Points>
+		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>20</Tactical_Health>
+
+		<AI_Combat_Power>6</AI_Combat_Power>
+		<Affiliation/>
+
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, SHIELDED, WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, HINT</LandBehavior>
+
+		<HardPoints>HP_T21_LMG_Skilled</HardPoints>
+
+		<Garrison_Value>1</Garrison_Value>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_BF2_Stormtrooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Stormtrooper_Commando_Grenadier">
+		<Variant_Of_Existing_Type>Stormtrooper_Commando_Gunner_Light</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_STORMTROOPER_CARBINER_GRENADIER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_WEAP2
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Stormtrooper_Grenadier.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Stormtrooper_Grenadier.ALO,
+			Urban, 				Stormtrooper_Grenadier.ALO,
+			Arctic, 			Snowtrooper_Grenadier.ALO,
+			Volcanic, 			Radtrooper_Grenadier.ALO,
+			Desert, 			Sandtrooper_Grenadier.ALO,
+			Forest, 			CamoStormtrooper_Grenadier.ALO,
+			Swamp, 				CamoSwampStormtrooper_Grenadier.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		
+		<AI_Combat_Power>4</AI_Combat_Power>
+		
+		<HardPoints>HP_E11_Carbine_Skilled</HardPoints>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Stormtrooper_Commando_Sergeant">
+		<Variant_Of_Existing_Type>Stormtrooper_Commando_Gunner_Light</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDO_SERGEANT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SERGEANT_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		
+		<Land_Model_Name>Stormtrooper_Sergeant.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Stormtrooper_Sergeant.ALO,
+			Urban, 				Stormtrooper_Sergeant.ALO,
+			Arctic, 			Snowtrooper_Sergeant.ALO,
+			Volcanic, 			Radtrooper_Sergeant.ALO,
+			Desert, 			Sandtrooper_Sergeant.ALO,
+			Forest, 			CamoStormtrooper_Sergeant.ALO,
+			Swamp, 				CamoStormtrooper_Sergeant.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		
+		<Tactical_Health>23</Tactical_Health>
+
+		<AI_Combat_Power>4</AI_Combat_Power>
+		
+		<HardPoints>HP_E11_Carbine_Skilled</HardPoints>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Stormtrooper_Commando_Lieutenant">
+		<Variant_Of_Existing_Type>Stormtrooper_Commando_Gunner_Light</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDO_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_LIEUTENANT_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<Land_Model_Name>Stormtrooper_Officer.alo</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Stormtrooper_Officer.ALO,
+			Urban, 				Stormtrooper_Officer.ALO,
+			Arctic, 			Snowtrooper_Officer.ALO,
+			Volcanic, 			Radtrooper_Officer.ALO,
+			Desert, 			Sandtrooper_Officer.ALO,
+			Forest, 			CamoStormtrooper_Officer.ALO,
+			Swamp, 				CamoStormtrooper_Officer.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health>26</Tactical_Health>
+		
+		<AI_Combat_Power>6</AI_Combat_Power>
+
+		<HardPoints>HP_T21_LMG_Skilled</HardPoints>
+
+       	<Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Stormtrooper_Commando_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>Stormtrooper_Officer.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_STORM_TROOPER_COMMANDO.tga</Icon_Name>
+		<AI_Combat_Power>101.72</AI_Combat_Power>
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="Stormtrooper_Commando_Company">
+
+		<Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDO_PLATOON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_COMPANY
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_COMPANY_WEAP1
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_COMPANY_WEAP2
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_COMPANY_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_STORM_TROOPER_COMMANDO.tga</Icon_Name>
+
+		<Damage>8</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row>1</GUI_Row>
+		<Build_Cost_Credits>205</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>I_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Stormtrooper_Commando_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> Unit_Complete_BF2_Stormtrooper </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_BF2_Stormtrooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>120</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<GroundCompany Name="Stormtrooper_Commando_Main_Squad">
+		<Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDO_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD_WEAP1
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD_WEAP2
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_STORM_TROOPER_COMMANDO.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Stormtrooper_Commando_Container </Create_Team_Type>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Company_Units> Stormtrooper_Commando_Gunner_Light, Stormtrooper_Commando_Grenadier, Stormtrooper_Commando_Gunner_Light, Stormtrooper_Commando_Sergeant, Stormtrooper_Commando_Lieutenant </Company_Units>
+	</GroundCompany>
+	
+	<GroundCompany Name="Stormtrooper_Commando_Squad">
+		<Variant_Of_Existing_Type>Stormtrooper_Commando_Main_Squad</Variant_Of_Existing_Type>
+
+		<Company_Units> Stormtrooper_Commando_Gunner_Light, Stormtrooper_Commando_Grenadier, Stormtrooper_Commando_Gunner_Light, Stormtrooper_Commando_Gunner_Light, Stormtrooper_Commando_Sergeant </Company_Units>
+	</GroundCompany>
+
+	<Container Name="Stormtrooper_Commando_Container">
+
+		<Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDO_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_HEALTH
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SHIELD
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_MOVE
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD_WEAP1
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD_WEAP2
+		TEXT_TOOLTIP_STORMTROOPER_COMMANDO_SQUAD_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_STORM_TROOPER_COMMANDO.tga</Icon_Name>
+
+		<Select_Box_Scale>45</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry | AntiVehicle</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 0.5 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_BF2_Stormtrooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
 	<!-- Trandoshan Hunter -->
 	<GroundInfantry Name="Trandoshan_Hunter_Gunner_Light">
 		<Variant_Of_Existing_Type>Template_Trooper</Variant_Of_Existing_Type>

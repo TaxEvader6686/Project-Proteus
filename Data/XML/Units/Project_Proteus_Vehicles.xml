@@ -127,8 +127,8 @@
 
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_barc</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Speeders</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Complete_Scout_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Scout_Trooper</SFXEvent_Fleet_Move>
 
 		<LOD_Bias>5</LOD_Bias>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

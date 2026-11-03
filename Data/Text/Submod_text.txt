@@ -125,10 +125,14 @@ TEXT_EVENT_KUAT_BC_CHOICE_PRAETOR_CARRIER,Praetor Carrier Battlecruiser
 TEXT_EVENT_KUAT_BC_CHOICE_SORANNAN,Sorannan Star Destroyer
 TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
 TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
+TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
 TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
 TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
 TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
 TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
+TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
 TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
 TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
 TEXT_EVENT_TOOLTIP_DASTA_FIGHTER_CHOICE_IMPERIAL,Offer the Imperial Remnant logistical and financial support in return for some of their best starfighter models. 
@@ -758,6 +762,9 @@ TEXT_TOOLTIP_ATPT_SNIPER_WEAP1,1x Very Light AV Blaster Cannon: 4 / 1.0s / 320m
 TEXT_TOOLTIP_ATTE_CANONNEER,--TODO--
 TEXT_TOOLTIP_ATTE_CANONNEER_WEAP1,--TODO--
 TEXT_TOOLTIP_ATTE_CANONNEER_WEAP2,--TODO--
+TEXT_TOOLTIP_ATTE_SUPPORT,
+TEXT_TOOLTIP_ATTE_SUPPORT_COMPANY,
+TEXT_TOOLTIP_ATTE_SUPPORT_HEAL_REPAIR,
 TEXT_TOOLTIP_ATXT,Light walker produced early in the Clone Wars as an AT-RT counterpart. Unlike most walkers has shielding for extra protection, but is also slowed down by the assorted systems and poor leg design compared to other light walkers. Quickly phased out in favour of other Republic light vehicles. Best used to engage enemy light vehicles.
 TEXT_TOOLTIP_ATXT_COMPANY,Company: 4x AT-XT Walker
 TEXT_TOOLTIP_ATXT_HEALTH,Health: 125 (Light Vehicle)
@@ -794,6 +801,7 @@ TEXT_TOOLTIP_BONUS_COMMS_DHC_FIGHTER,Communications Ship: 6% Combat bonus for al
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2,Price: -10% | Time: -10%
 TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS_ORGANIC,Force Hunters: Reveals mines and stealth units
 TEXT_TOOLTIP_BONUS_FORCE_TRAINING_30_15,Force Training: 30% chance to redirect and 15% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION,Regeneration: Self Healing
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings and ARC-170s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Avenger models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRAK_FLEET_RESEARCH,The culmination of Admiral Trier's work to bring the aging Brak Sector Fleet up to modern standard by retiring a large number of leftover Clone Wars designs in favor of more modern alternatives. The process of acquiring the schematics, licenses and tooling to be able to build and maintain these warships at shipyards under our control will be expensive and time consuming, but once done, we can supplement our current forces with more powerful vessels.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
@@ -1007,6 +1015,13 @@ TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP2,2x Heavy Dual Ion Cannons: 2 / 4.0s / 7.1k
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP3,1x Heavy Laser Cannon: 2 / 0.5s / 4.6km
 TEXT_TOOLTIP_DREADNAUGHT_PICKET_WEAP4,2x Medium Quad Laser Cannons: 2 / 0.5s / 4.1km
 TEXT_TOOLTIP_DREAM_OF_A_QUIET_LIFE_WEAP,25x Missiles Trouts: 4 / 3.0s / 7.2km
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY,Company: 32x Elite Guard Stormtrooper
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP1,12x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP2,8x Light Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP3,8x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP4,4x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP4A,4x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP5,20x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_ELEIAN,TODO
 TEXT_TOOLTIP_ELITES,A cabal of rich former members of the Imperial elite who resented the New Republic and supported the Empire Reborn insurgency with money and ships, as well as engaging in slave trade and child trafficking to facilitate their dealings and Lord Hethrir's goals. The most prominent members of the group were Lord Brashaa, Lord Cnorec, Lady Ucce and Lord Qaqquqqu, though their network reached far and wide and included traitors within the New Republic and contacts with other warlords. 
 TEXT_TOOLTIP_ESCORT_COLLIN_PRAJI,2x Stormtrooper Fireteam
@@ -1066,6 +1081,8 @@ TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_REBORN_DARK_JEDI1,Reborn Dark Jedi: 4 /
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_RED_POLICE1,Red Police Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SD101,SD-10 Battle Droid: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_SHADOW_EVO1,Shadow EVO Trooper Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_STORM_COMMANDO1,Storm Commando Squad: 3 / 15
+TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_STORMTROOPER_HWT1,Stormtrooper Weapons Specialist Squad: 3 / 15
 TEXT_TOOLTIP_FIELD_BASE_COMMANDO_WARLORD1,Army Commando Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY,A small base of operations supplied from orbit with mercenary units.
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_ELITE1,Elite Mercenary Heavy Squad: 3 / 15
@@ -1074,7 +1091,10 @@ TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_LIGHT1,Light Mercenary Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_MANDALORIAN_COMMANDO1,Mandalorian Commando Squad: 3 / 9
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_MANDALORIAN_SOLDIER1,Mandalorian Soldier Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_STANDARD1,Mercenary Squad: 4 / 20
+TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_SUN_GUARD1,Sun Guard Squad: 4 / 20
 TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_TRANDOSHAN1,Trandoshan Hunter Squad: 3 / 15
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_AV_DROIDEKA1,Army Trooper Anti-Vehicle Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_AV_DROIDEKA2,Q-Series Destroyer Droid: 5 / 25
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_COMMAND1,Army Guard Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_COMMAND2,Army Guard Command Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_GUARD_LIGHT_MERCENARY1,Army Guard Squad: 2 / 10
@@ -1088,6 +1108,8 @@ TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARB
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_CARBINE2,Stormtrooper Carabineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS1,Army Special Missions Rifleman Squad: 3 / 15
@@ -1151,6 +1173,8 @@ TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC1,Ar
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER_ARMY_MEDIC2,Army Trooper Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
+TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_STORMTROOPER_MEDIUM_ARMY_MEDIC1,Stormtrooper Fireteam: 1 / 10
@@ -1295,8 +1319,6 @@ TEXT_TOOLTIP_KSM_RESEARCH,
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
 TEXT_TOOLTIP_KUAT_CHOOSE_BC,Lobby Kuat Drive Yards to gain one battlecruiser as a permanent buildable. (Locks other BC's from Market)
 TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
-TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
-TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_LAC,A semi-standard version of a modified CEC Consular-class cruiser that has long been popular with Republic Judicial Forces, serving in the Stark Hyperspace War and the Yinchorri Uprising. This specific configuration is excellent for anti-starfighter escort duty while other corvette models are more suited to missile loadouts or attacking larger ships.
 TEXT_TOOLTIP_LAC_HULL,Hull: 600 (Corvette)
 TEXT_TOOLTIP_LAC_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
@@ -1334,6 +1356,8 @@ TEXT_TOOLTIP_LUPUS_SHIELD,Shields: 700 / [12.25/R] (Corvette)
 TEXT_TOOLTIP_LUPUS_WEAP1,4x Heavy Dual Laser Cannons: 2 / 5.0s / 4.5km
 TEXT_TOOLTIP_LUPUS_WEAP2,2x Medium Laser Cannons: 2 / 5.0s / 4.0km
 TEXT_TOOLTIP_LUPUS_WEAP3,2x Concussion Missiles: 2 / 6.0s / 4.0km
+TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
+TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_MAHKKAR,A gotal crime lord who briefly allied himself with the Kaarenth Dissension. In exchange for protecting his interests in the Corva Sector, Mahk'Kar hunted the mythical Kashi Mer talisman on behalf of the Dark Jedi Durrei.
 TEXT_TOOLTIP_MALLAT,An ISB agent still in active service to the Empire by 16ABY. In that same year, he responded to a request from Grand Moff Gann of Sector 5 for information on the Yevetha.
 TEXT_TOOLTIP_MANSK,A small starship manufactured by Tallaani Shipyards in the Tapani Sector. These ships would often serve in the fleets of the Tapani Noble Houses such as that of House Melantha.
@@ -1392,6 +1416,7 @@ TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP3,1x MiniMag PTL Launcher: 1 / 9.0s / 320m
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP4,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP5,1x Neimoidian Sniper Rifle: 1 / 3.0s / 320m
 TEXT_TOOLTIP_NIVERS_AGGRESSOR_RESEARCH,Invest in production of the Aggressor Star Destroyer to replace the Imperial-II Star Destroyer.
+TEXT_TOOLTIP_NIVERS_MISSILE_FIGHTER_RESEARCH,Equip TIE Fighters and standard V-Wings with external concussion missile racks for increased firepower.
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
@@ -1611,6 +1636,7 @@ TEXT_TOOLTIP_STARBOLT_TENDER,An aging Corellian design that in its heyday was po
 TEXT_TOOLTIP_STARBOLT_TENDER_TENDER,Fleet Tender: 50 / 2.0s / 1.9km
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
 TEXT_TOOLTIP_STARWING_FIGHTER,An alternate loadout of the XG-1 StarWing equipped with proton torpedoes and anti-fighter concussion missiles. This configuration is well suited to engage nearly any target.
+TEXT_TOOLTIP_STORMTROOPER_COMMANDO_PROTEUS,Stormtrooper units specially trained and equipped to serve as elite infantry for bodyguard and commando units. Capable and intended to engage infantry and other lightly-armoured targets as opposed to the heavy assault actions of original stormtroopers.
 TEXT_TOOLTIP_STORMTROOPER_HWT_COMPANY,Company: 27x Stormtrooper Weapons Specialist
 TEXT_TOOLTIP_STORMTROOPER_HWT_COMPANY_WEAP1,15x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_STORMTROOPER_HWT_COMPANY_WEAP2,3x Rail Detonator: 1 / 6.0s / 240m
@@ -1674,6 +1700,27 @@ TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_REBORN,Agent II Spec (-20% cost to R
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_SCHMONG,Agent Spec 02 (-20% price and time on all SoroSuub and Zeta Project products),  
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% cost, -20% time)
 TEXT_TOOLTIP_TRAIT_SUPERNOVA_DESIGNER,Ship Designer (-20% Cost on Triumph, Vector, VSD Carrier, DHC Interdictor, Modernized DHC, Picket DHC, Praetor Dreadnought, Garrison Refit ISD II)
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER,Elite soldier-enforcers which served the Trandoshan slaver clans. They were also employed as mercenaries by governments known to have practiced slavery, such as the Confederacy of Independent Systems, the Hutts and the Galactic Empire. Best used against enemy infantry formations while being supported by allied armor.
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,Company: 18x Trandoshan Hunter
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP1,9x Light Repeating Slugthrower: 5 / 1.0s / 240m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP2,3x Slugthrower Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP3,3x Flamethrower: 10 / 5.5s / 220m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP4,3x Concussion Rifle: 3 / 3.0s / 240m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP5,3x Flame Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,Health: 35 [2.5%/5s] (Infantry)
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,Speed: 1.3
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SERGEANT_HEALTH,Health: 40 [2.5%/5s] (Infantry)
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD,Squad: 6x Trandoshan Hunter
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP1,3x Light Repeating Slugthrower: 5 / 1.0s / 240m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP2,1x Slugthrower Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP3,1x Flamethrower: 10 / 5.5s / 220m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP4,1x Concussion Rifle: 3 / 3.0s / 240m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP5,1x Flame Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1,1x Light Repeating Slugthrower: 5 / 1.0s / 240m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2,1x Slugthrower Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3,1x Flamethrower: 10 / 5.5s / 220m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4,1x Concussion Rifle: 3 / 3.0s / 240m
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5,1x Flame Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_TRIFIGHTER,A compact, Colicoid designed droid fighter built around a reactor and advanced droid brain. It is fast, powerful, and agile but costly enough to not be deployed in as great numbers as vultures and their derivatives. It is very well suited to dogfighting and intercepting bombers.
 TEXT_TOOLTIP_TRIUMPH,A rare capital ship that is technically part of the Imperial Star Destroyer lineage, with an obscure design and deployment history. It features elements of both Tector- and Victory-class hulls and reuses many of the weapons used in various Victory Star Destroyer loadouts, leading to rumors that these ships were assembled in Rendili yards from surplus Tector and Victory modules and components. Regardless of their true origin, their armament makes this class of Star Destroyer a dangerous frontline combatant, able to engage targets of any size at any range, but the lack of point defense cannons and an on-board starfighter complement makes them exceedingly vulnerable to small craft.
 TEXT_TOOLTIP_TRIUMPH_HERO_HULL,Hull: 8250 (Capital)
@@ -1793,6 +1840,7 @@ TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_PT_SNIPER,AT-PT/A Walker
 TEXT_UNIT_AT_TE_WALKER_CANONNEER,Cannoneer AT-TE Walker
+TEXT_UNIT_AT_TE_WALKER_SUPPORT,Support AT-TE Walker
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
@@ -1834,6 +1882,7 @@ TEXT_UNIT_DREADNAUGHT_MISSILE_PROTEUS,Dreadnaught Missile Cruiser
 TEXT_UNIT_DREADNAUGHT_MODERNIZED,Modernized Dreadnaught Heavy Cruiser
 TEXT_UNIT_DREADNAUGHT_PICKET,Dreadnaught Support Cruiser
 TEXT_UNIT_DREADNAUGHT_UPGRADE,PDF Dreadnaught Heavy Cruiser Upgrade
+TEXT_UNIT_EG_STORMTROOPER_COMPANY,Elite Guard Stormtrooper Platoon
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_ASSAULT,Assault Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_DEFENSIVE,Heavy Defense Eta-2 Actis Interceptor
@@ -1854,12 +1903,12 @@ TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
-TEXT_UNIT_HEAVY_PDF_AA,Heavy PDF AA Trooper
 TEXT_UNIT_HEAVY_PDF_OFFICER,Heavy PDF Officer
 TEXT_UNIT_HEAVY_PDF_PLATOON,Heavy PDF Platoon
 TEXT_UNIT_HEAVY_PDF_ROCKET,Heavy PDF Rocket Trooper
 TEXT_UNIT_HEAVY_PDF_SQUAD,Heavy PDF Squad
 TEXT_UNIT_HEAVY_PDF_TROOPER,Heavy PDF Trooper
+TEXT_UNIT_HEAVY_PDF_AA,Heavy PDF AA Trooper
 TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_INVINCIBLE_TENDER,Invincible Dreadnaught Fleet Tender
 TEXT_UNIT_INVINCIBLE_UPGUNNED,Modernized Invincible Dreadnaught
@@ -1873,13 +1922,13 @@ TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specif
 TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
 TEXT_UNIT_KUAT_CHOOSE_BC,Lobby KDY
 TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
-TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LANOX_FIGHTERRESEARCH,Improve Starfighters
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
 TEXT_UNIT_LUCREHULKAUXILIARY,Lucrehulk Auxiliary Warship
 TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
+TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MILITARY_SOLDIER_MEDIC,Local Military Medic
@@ -1901,6 +1950,7 @@ TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER_OFFICER,Neimoidian Guard Sniper Officer
 TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER_SQUAD,Neimoidian Guard Sniper Squad
 TEXT_UNIT_NEIMOIDIAN_GUARD_SQUAD,Neimoidian Guard Squad
 TEXT_UNIT_NIVERS_AGGRESSOR_RESEARCH,Research: Aggressor Star Destroyer.
+TEXT_UNIT_NIVERS_MISSILE_FIGHTER_RESEARCH,Research: Missile TIE Fighter & V-Wing.
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
 TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
@@ -2019,6 +2069,12 @@ TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
 TEXT_UNIT_TORRENT,V-19 Torrent
 TEXT_UNIT_TRADESTATION_DASTA,D'Asta Family Trade Port
+TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY,Trandoshan Hunter Platoon
+TEXT_UNIT_TRANDOSHAN_HUNTER_FLAMER,Trandoshan Hunter Grenadier
+TEXT_UNIT_TRANDOSHAN_HUNTER_GRENADIER,Trandoshan Hunter Grenadier
+TEXT_UNIT_TRANDOSHAN_HUNTER_GUNNER,Trandoshan Hunter Light Gunner
+TEXT_UNIT_TRANDOSHAN_HUNTER_SERGEANT,Trandoshan Hunter Alpha
+TEXT_UNIT_TRANDOSHAN_HUNTER_SQUAD,Trandoshan Hunting Pack
 TEXT_UNIT_TRIFIGHTER,Droid Tri-Fighter
 TEXT_UNIT_TRIUMPH,Triumph Star Destroyer
 TEXT_UNIT_UT_AT,UT-AT
@@ -2069,58 +2125,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE1,Army Special Missions Rifleman Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_SPECIAL_MISSIONS_STORMTROOPER_RIFLE2,Stormtrooper Rifleman Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER1,Army Special Missions Rifleman Squad: 1 / 10
-TEXT_TOOLTIP_FIELD_BASE_SUPPORT_PROTEUS_SPECIAL_MISSIONS_ENGINEER2,Army Special Missions Engineer Squad: 2 / 10
-TEXT_EVENT_NIVERS_SSD_CHOICE_HEADER,              Star Dreadnought Choice
-TEXT_EVENT_NIVERS_MANDATOR2_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-II Star Dreadnought.
-TEXT_EVENT_NIVERS_BELLATOR_CHOICE_BODY,               Choose a desgin to acquire as successor to the failed Bellator Star Dreadnought.
-TEXT_EVENT_NIVERS_MANDATOR3_CHOICE_BODY,              Choose a desgin to acquire as successor to the failed Mandator-III Star Dreadnought.
-TEXT_UNIT_NIVERS_MISSILE_FIGHTER_RESEARCH,Research: Missile TIE Fighter & V-Wing.
-TEXT_TOOLTIP_NIVERS_MISSILE_FIGHTER_RESEARCH,Equip TIE Fighters and standard V-Wings with external concussion missile racks for increased firepower.
-TEXT_UNIT_AT_TE_WALKER_SUPPORT,Support AT-TE Walker
-TEXT_TOOLTIP_ATTE_SUPPORT,
-TEXT_TOOLTIP_ATTE_SUPPORT_HEAL_REPAIR,
-TEXT_TOOLTIP_ATTE_SUPPORT_COMPANY,
-TEXT_TOOLTIP_FIELD_BASE_MERCENARY_PROTEUS_SUN_GUARD1,Sun Guard Squad: 4 / 20
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_STORM_COMMANDO1,Storm Commando Squad: 3 / 15
-TEXT_TOOLTIP_FIELD_BASE_COMMANDO_PROTEUS_STORMTROOPER_HWT1,Stormtrooper Weapons Specialist Squad: 3 / 15
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_AV_DROIDEKA1,Army Trooper Anti-Vehicle Squad: 2 / 10
-TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_ARMY_AV_DROIDEKA2,Q-Series Destroyer Droid: 5 / 25
-TEXT_UNIT_EG_STORMTROOPER_COMPANY,Elite Guard Stormtrooper Platoon
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY,Company: 32x Elite Guard Stormtrooper
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP1,12x Blaster Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP2,8x Light Repeating Blaster: 5 / 1.0s / 240m
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP3,8x Heavy AV Missile Launcher: 1 / 9.0s / 320m
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP4,4x Proton Grenade Launcher (AV): 1 / 10.0s / 240m
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP4A,4x Concussion Grenade Launcher (AI): 1 / 10.0s / 240m
-TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP5,20x Thermal Grenade: 1 / 15.0s / 200m
-TEXT_UNIT_TRANDOSHAN_HUNTER_GUNNER,Trandoshan Hunter Light Gunner
-TEXT_UNIT_TRANDOSHAN_HUNTER_GRENADIER,Trandoshan Hunter Grenadier
-TEXT_UNIT_TRANDOSHAN_HUNTER_FLAMER,Trandoshan Hunter Grenadier
-TEXT_UNIT_TRANDOSHAN_HUNTER_SERGEANT,Trandoshan Hunter Alpha
-TEXT_UNIT_TRANDOSHAN_HUNTER_SQUAD,Trandoshan Hunting Pack
-TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY,Trandoshan Hunter Platoon
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER,Elite soldier-enforcers which served the Trandoshan slaver clans. They were also employed as mercenaries by governments known to have practiced slavery, such as the Confederacy of Independent Systems, the Hutts and the Galactic Empire. Best used against enemy infantry formations while being supported by allied armor.
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,Health: 35 [2.5%/5s] (Infantry)
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,Speed: 1.3
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1,1x Light Repeating Slugthrower: 5 / 1.0s / 240m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2,1x Slugthrower Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5,1x Flame Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3,1x Flamethrower: 10 / 5.5s / 220m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4,1x Concussion Rifle: 3 / 3.0s / 240m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SERGEANT_HEALTH,Health: 40 [2.5%/5s] (Infantry)
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD,Squad: 6x Trandoshan Hunter
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP1,3x Light Repeating Slugthrower: 5 / 1.0s / 240m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP2,1x Slugthrower Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP3,1x Flamethrower: 10 / 5.5s / 220m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP4,1x Concussion Rifle: 3 / 3.0s / 240m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP5,1x Flame Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,Company: 18x Trandoshan Hunter
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP1,9x Light Repeating Slugthrower: 5 / 1.0s / 240m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP2,3x Slugthrower Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP3,3x Flamethrower: 10 / 5.5s / 220m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP4,3x Concussion Rifle: 3 / 3.0s / 240m
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP5,3x Flame Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION,Regeneration: Self Healing

@@ -750,7 +750,7 @@ return {
 				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Destroyer",
 				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought", 
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Republic_BARC_Company",  
+				"Faux_Stormtrooper_Company", "Stormtrooper_Commando_Company", "Republic_BARC_Company",  
 				"Imperial_AT_PT_Company", "Imperial_ISP_Company", "Imperial_ULAV_Company", "Imperial_AT_RT_Company", 
 				"Imperial_TX130S_Company", "AV_7_Company", "Imperial_LAAT_Company", "Imperial_AT_AP_Walker_Company", "Imperial_UT_AA_Company", 
 				"Imperial_A5_Juggernaut_Company", "Imperial_AT_TE_Walker_Company", "UT_AT_Speeder_Company",

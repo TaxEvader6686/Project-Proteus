@@ -26,7 +26,7 @@ return {
 		"A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company", 
 		--Restored Empire's added units
 		"Imperial_CR90", "CR90", "Carrack_Cruiser_Laser",  "Arquitens", "Galleon_Minelayer", "Pelta_Assault", "Pelta_Support", "Rep_DHC", "Acclamator_I_Carrier", "Acclamator_I_Assault", "Maelstrom_Battlecruiser", "Acclamator_Destroyer", "Praetor_I_Battlecruiser", "Mandator_II_Dreadnought",
-		"Clonetrooper_Phase_Two_Company", "Republic_BARC_Company", "Imperial_ISP_Company", "Imperial_AT_RT_Company", "Imperial_UT_AA_Company", "AV_7_Company", "Imperial_LAAT_Company", "Imperial_AT_AP_Walker_Company", "Imperial_AT_TE_Walker_Company","UT_AT_Speeder_Company",
+		"Stormtrooper_Commando_Company", "Clonetrooper_Phase_Two_Company", "Republic_BARC_Company", "Imperial_ISP_Company", "Imperial_AT_RT_Company", "Imperial_UT_AA_Company", "AV_7_Company", "Imperial_LAAT_Company", "Imperial_AT_AP_Walker_Company", "Imperial_AT_TE_Walker_Company","UT_AT_Speeder_Company",
 		--Imperial Kamino added units
 		"Raider_II_Corvette", "Active_Frigate", "Surveyor_Frigate", "Imperial_Nebulon_B", "Alliance_Assault_Frigate_II", "Gladiator_II", "Immobilizer_Twin_Well", "Acclamator_Battleship", "Aggressor_Star_Destroyer", "Sorannan_Star_Destroyer", "Vengeance_Star_Dreadnought",
 		"Navy_Commando_Company", "Imperial_Jumptrooper_Company", "EVO_Trooper_Company", "Dark_Trooper_Phase_II_Company", "Imperial_ULAV_Company", "AT_MP_Company", "AT_AA_Flak_Walker_Company", "Imperial_APC_Company", "Imperial_Missile_Artillery_Company", "Imperial_Modified_LAAT_Company", "Imperial_AT_TE_Walker_Company", "B5_Juggernaut_Company", "YZ_775_Freighter_Group",
