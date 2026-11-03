@@ -1,61 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <HardPoints>
-	
-	<!-- Guardian Corps CoreSaga -->
-	<HardPoint Name="HP_GuardianCorps_PulseWave">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>120.0</Fire_Cone_Width>
-		<Fire_Cone_Height>120.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_PulseWave_Rifle</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.25</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Storm_Trooper_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> VehicleHero, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> AirGunship, 40.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> AirSpeeder, 60.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
-	</HardPoint>
-
-	<HardPoint Name="HP_GuardianCorps_HeatBeam">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
-
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
-		<Fire_Cone_Width>120.0</Fire_Cone_Width>
-		<Fire_Cone_Height>120.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Heat_Beam</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.01</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>250.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_LAAT_Beam_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance> Infantry, 2.5 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> InfantryHero, 2.5 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> VehicleHero, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> AirGunship, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
 	<HardPoint Name="HP_Clone_Rifle">
 
 		<Type>HARD_POINT_WEAPON_LASER</Type>
@@ -379,7 +324,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-	<HardPoint Name="HP_Backwater_Skilled_Trandoshan_Rifle">
+	<HardPoint Name="HP_Trandoshan_Hunter_Slug_Carbine">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -393,11 +338,11 @@
 		<Fire_Cone_Width>120.0</Fire_Cone_Width>
 		<Fire_Cone_Height>120.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Slug_Carbine</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.25</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>300.0</Fire_Range_Distance>
+		<Fire_Range_Distance>275.0</Fire_Range_Distance>
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_SFXEvent>Unit_Slug_Carbine_Fire</Fire_SFXEvent>
