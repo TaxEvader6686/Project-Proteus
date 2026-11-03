@@ -327,6 +327,8 @@ return {
 				"Pirate_Base",
 				-- Fighter Heroes
 				"Ssurussk_Location_Set", "Stormtrooper_X_Location_Set", "Scarlet_Location_Set",
+				-- Research
+				"Dummy_Research_ISector_Swap_1_Dummy", 
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
@@ -400,7 +402,7 @@ return {
 				"Imperial_I_Star_Destroyer", "Acclamator_Battleship", "Aggressor_Star_Destroyer", 
 				"Sorannan_Star_Destroyer", "Vengeance_Star_Dreadnought",
 				-- Ground	
-				"Navy_Commando_Company", "Incinerator_Stormtrooper_Company", "Imperial_Jumptrooper_Company", "EVO_Trooper_Company", "Dark_Trooper_Phase_II_Company", 
+				"Navy_Commando_Company", "Incinerator_Stormtrooper_Company", "Imperial_Jumptrooper_Company", "EVO_Trooper_Company",
 				"Imperial_ULAV_Company", "AT_MP_Company", "Chariot_LAV_Company", "AT_ST_Company", 
 				"AT_AA_Flak_Walker_Company", "Imperial_APC_Company", "Imperial_Missile_Artillery_Company", "Imperial_Modified_LAAT_Company",
 				"Imperial_AT_TE_Walker_Company", "B5_Juggernaut_Company",
@@ -556,7 +558,7 @@ return {
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", 
 				"Impellor_Carrier", "Compellor_Battlecruiser", "Legator_Star_Dreadnought", "Executor_Star_Dreadnought", 
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Imperial_Galactic_Marine_Company", "Dark_Trooper_Phase_II_Company", "Imperial_74Z_Bike_Company",
+				"Imperial_Army_Trooper_Company", "Imperial_Galactic_Marine_Company", "Imperial_74Z_Bike_Company",
 				"AT_XT_Company", "Gian_Company", "AT_ST_Company",
 				"AT_AA_Missile_Walker_Company", "Imperial_TX130S_Company", "SPMAT_Company", "Imperial_Flashblind_Company", "Imperial_Dropship_Transport_Company",
 				"PX4_Company", "Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
