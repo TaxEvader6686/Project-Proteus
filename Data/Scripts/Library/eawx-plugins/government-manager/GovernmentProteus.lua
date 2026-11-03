@@ -68,6 +68,7 @@ function GovernmentProteus:new(gc, GovEmpire, ShipMarket)
     crossplot:subscribe("DASTA_FIGHTER_CHOICE_OPTION", self.dasta_fighters, self)
     crossplot:subscribe("KUAT_BC_CHOICE_OPTION", self.kuat_battlecruisers, self)
     crossplot:subscribe("NIVERS_SSD_CHOICE_OPTION", self.Nivers_SSD_Choice, self)
+    crossplot:subscribe("ISECTOR_SWAP_CHOICE_OPTION", self.ISector_Swap_Choice, self)--Note for Supernova
 end
 
 function GovernmentProteus:update()
@@ -102,7 +103,9 @@ function GovernmentProteus:on_production_finished(planet, object_type_name)
         GenericPopup("KUAT_BC_CHOICE", {"PRAETOR_II_BATTLECRUISER", "PRAETOR_CARRIER_BATTLECRUISER", "COMMUNICATIONS_BATTLECRUISER", "SORANNAN_STAR_DESTROYER"}, "KUAT_BC_CHOICE_OPTION")
     elseif object_type_name == "DASTA_PROCURE_FIGHTERS" then
         GenericPopup("DASTA_FIGHTER_CHOICE", {"IMPERIAL", "REBEL"}, "DASTA_FIGHTER_CHOICE_OPTION")
-    end
+	elseif object_type_name == "DUMMY_RESEARCH_ISECTOR_SWAP_1_DUMMY" then--Note for Supernova
+        GenericPopup("ISECTOR_SWAP_1_CHOICE", {"ACCLAMATOR_ASSAULT", "ACCLAMATOR_II"}, "ISECTOR_SWAP_CHOICE_OPTION")--keep last variable the same so it calls the same funciton for each research dummy, add elseifs for added choices
+     end
 end
 
 ---Project Proteus specific hero respawn, just like WarlordRespawn
@@ -279,5 +282,17 @@ function GovernmentProteus:Nivers_SSD_Choice(choice)
 		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))	
 	elseif choice == "NIVERS_MANDATOR3_CHOICE_ASSERTOR" then
 		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))	
+	end
+end
+
+---@param choice string Assumes all CAPS
+function GovernmentProteus:ISector_Swap_Choice(choice)--Note for Supernova
+	--Logger:trace("entering GovernmentProteus:ISector_Swap_Choice")
+	if choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_ASSAULT" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))--lock base roster unit
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_I_Assault"))--unlock chosen replacement
+	elseif choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_II" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_II"))
 	end
 end

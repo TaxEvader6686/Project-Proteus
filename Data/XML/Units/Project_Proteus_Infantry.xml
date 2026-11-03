@@ -5803,6 +5803,112 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 	</GroundCompany>
 
+	<!-- Elite Guard Stormtrooper Company Setup -->
+
+	<GroundInfantry Name="Imperial_Elite_Guard_Stormtrooper_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+
+		<Land_Model_Name>EliteGuard_Stormtrooper.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			EliteGuard_Stormtrooper.ALO,
+			Urban, 				EliteGuard_Stormtrooper.ALO,
+			Arctic, 			EliteGuard_Snowtrooper.ALO,
+			Volcanic, 			EliteGuard_Radtrooper.ALO,
+			Desert, 			EliteGuard_Sandtrooper.ALO,
+			Forest, 			EliteGuard_Stormtrooper.ALO,
+			Swamp, 				EliteGuard_Sandtrooper.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_STORM_TROOPER_ELITE_GUARD.tga</Icon_Name>
+		<AI_Combat_Power>140.00</AI_Combat_Power>
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FANATICISM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FANATICISM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_FANATICISM_EMPIRE.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="Imperial_Elite_Guard_Stormtrooper_Company">
+
+		<Text_ID>TEXT_UNIT_EG_STORMTROOPER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ELITE_GUARD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_EG_STORMTROOPER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY
+		TEXT_TOOLTIP_EG_STORMTROOPER_SQUAD
+		TEXT_TOOLTIP_EG_STORMTROOPER_HEALTH
+		TEXT_TOOLTIP_EG_STORMTROOPER_MOVE 
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP1
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP2
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP3
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP4
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP4A
+		TEXT_TOOLTIP_EG_STORMTROOPER_COMPANY_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text> 
+		<Icon_Name>I_BUTTON_STORM_TROOPER_ELITE_GUARD.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus, Independent_Forces</Affiliation>
+		<Political_Control/>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Imperial_Elite_Guard_Stormtrooper_Company_Dummy </Company_Units>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Troops</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_BF2_Stormtrooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_BF2_Stormtrooper</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>230</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</GroundCompany>
+
 	<GroundInfantry Name="Faux_Stormtrooper_Company_Dummy">
 		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
 
@@ -6800,7 +6906,7 @@
 
 		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
 
-		<Land_Model_Name>HP_SLM_Hand.alo</Land_Model_Name>
+		<Land_Model_Name>Heavy_PDF_Weap.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
 			Temperate, 			Heavy_PDF_Weap.ALO,
 			Urban, 				Heavy_PDF_Weap.ALO,
@@ -6810,7 +6916,7 @@
 			Forest, 			Heavy_PDF_Weap.ALO,
 			Swamp, 				Heavy_PDF_Weap.ALO
 		</Land_Terrain_Model_Mapping>
-		<HardPoints>HP_PLX_1_Hand</HardPoints>
+		<HardPoints>HP_SLM_Hand</HardPoints>
 		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
 
 		<AI_Combat_Power>5</AI_Combat_Power>
