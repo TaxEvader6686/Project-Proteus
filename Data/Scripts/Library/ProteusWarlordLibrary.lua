@@ -425,7 +425,7 @@ return {
 				"Communications_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Imperial_AT_AP_Walker_Company", "Trandoshan_Hunter_Company", "Imperial_Scout_Trooper_Company", "Republic_BARC_Company", 
-				"Imperial_AT_PT_Company", "Imperial_AT_RT_Company", "AT_KT_Company", "Arrow_23_Company", "Skyhopper_Antivehicle_Company",
+				"AT_PT_Sniper_Company", "Imperial_AT_RT_Company", "AT_KT_Company", "Imperial_ISP_Company", "Skyhopper_Antivehicle_Company",
 				"Imperial_Light_Mobile_Artillery_Company", "Imperial_TX130T_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Missile_Walker_Company", 
 				"Imperial_AT_AT_Walker_Company", "Camo_AT_TE_Walker_Company",
 				-- Structures

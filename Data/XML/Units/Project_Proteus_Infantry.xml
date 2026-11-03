@@ -2874,16 +2874,19 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<GroundInfantry Name="Trandoshan_Rifleman">
+	<!-- Trandoshan Hunter -->
+	<GroundInfantry Name="Trandoshan_Hunter_Gunner_Light">
 		<Variant_Of_Existing_Type>Template_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_RIFLEMAN</Text_ID>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_GUNNER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -2897,10 +2900,9 @@
 			Volcanic, 			Ni_Soldier_Trandoshan_M.Alo,
 			Desert, 			Ni_Soldier_Trandoshan_M.Alo,
 			Forest, 			Ni_Soldier_Trandoshan_M.Alo,
-			Swamp, 				Ni_Soldier_Trandoshan_M.Alo
+			Swamp, 				Ni_Soldier_Trandoshan_M.Alo,
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 		
 		<Affiliation> Imperial_Proteus </Affiliation>
 
@@ -2910,9 +2912,10 @@
 		<OverrideAcceleration> 1.1 </OverrideAcceleration>
 		<OverrideDeceleration> 1.1 </OverrideDeceleration>
 
-		<Tactical_Health>32</Tactical_Health>
+		<Tactical_Health>35</Tactical_Health>
 
-		<HardPoints> HP_Concussion_Rifle_Skilled_Hand </HardPoints>
+		<HardPoints> HP_Imperial_Heavy_Repeater_LMG_Hand_Skilled </HardPoints>
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
 
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
@@ -2940,98 +2943,49 @@
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Trandoshan_Gunner_Light">
-		<Variant_Of_Existing_Type>Trandoshan_Rifleman</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_GUNNER_LIGHT</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
-
-		<Land_Model_Name>NI_Soldier_Trandoshan_M_Orange.alo</Land_Model_Name>
-		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Orange.alo,
-			Urban, 				NI_Soldier_Trandoshan_M_Orange.alo,
-			Arctic, 			NI_Soldier_Trandoshan_M_Orange.alo,
-			Volcanic, 			NI_Soldier_Trandoshan_M_Orange.alo,
-			Desert, 			NI_Soldier_Trandoshan_M_Orange.alo,
-			Forest, 			NI_Soldier_Trandoshan_M_Orange.alo,
-			Swamp, 				NI_Soldier_Trandoshan_M_Orange.alo
-		</Land_Terrain_Model_Mapping>
 		
-		<AI_Combat_Power>6</AI_Combat_Power>
-
-		<Max_Speed>1.3</Max_Speed>
-		<OverrideAcceleration> 1.1 </OverrideAcceleration>
-		<OverrideDeceleration> 1.1 </OverrideDeceleration>
-
-		<Tactical_Health>32</Tactical_Health>
-
-		<HardPoints> HP_Backwater_Skilled_Trandoshan_Rifle </HardPoints>
-
-        <Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Trandoshan_Hunter_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.025 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Trandoshan_Hunter_Gunner_Light, Trandoshan_Hunter_Grenadier, Trandoshan_Hunter_Flamer, Trandoshan_Hunter_Sergeant</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Trandoshan_Gunner_Heavy">
-		<Variant_Of_Existing_Type>Trandoshan_Rifleman</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_GUNNER_HEAVY</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+	<GroundInfantry Name="Trandoshan_Hunter_Grenadier">
+		<Variant_Of_Existing_Type>Trandoshan_Hunter_Gunner_Light</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_GRENADIER</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
-
-		<Land_Model_Name>NI_Soldier_Trandoshan_M_Cyan.alo</Land_Model_Name>
-		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Cyan.alo,
-			Urban, 				NI_Soldier_Trandoshan_M_Cyan.alo,
-			Arctic, 			NI_Soldier_Trandoshan_M_Cyan.alo,
-			Volcanic, 			NI_Soldier_Trandoshan_M_Cyan.alo,
-			Desert, 			NI_Soldier_Trandoshan_M_Cyan.alo,
-			Forest, 			NI_Soldier_Trandoshan_M_Cyan.alo,
-			Swamp, 				NI_Soldier_Trandoshan_M_Cyan.alo
-		</Land_Terrain_Model_Mapping>
-		
-		<AI_Combat_Power>6</AI_Combat_Power>
-
-		<Tactical_Health>32</Tactical_Health>
-
-		<HardPoints> HP_Imperial_Heavy_Repeater_LMG_Hand_Skilled </HardPoints>
-
-        <Highlight_Blob_Material_Name>Highlight_Infantry_Gunner</Highlight_Blob_Material_Name>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Trandoshan_Grenadier">
-		<Variant_Of_Existing_Type>Trandoshan_Rifleman</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_GRENADIER</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Blue.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3041,38 +2995,36 @@
 			Volcanic, 			NI_Soldier_Trandoshan_M_Blue.alo,
 			Desert, 			NI_Soldier_Trandoshan_M_Blue.alo,
 			Forest, 			NI_Soldier_Trandoshan_M_Blue.alo,
-			Swamp, 				NI_Soldier_Trandoshan_M_Blue.alo
+			Swamp, 				NI_Soldier_Trandoshan_M_Blue.alo,
 		</Land_Terrain_Model_Mapping>
 
-		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
+		<AI_Combat_Power>4</AI_Combat_Power>
+		<HardPoints> HP_Trandoshan_Hunter_Slug_Carbine </HardPoints>
+
+		<Projectile_Types>Proj_Light_Flame_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
 		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>	
 
-		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
-		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>	
+        <Highlight_Blob_Material_Name>Highlight_Infantry_Grenadier</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Trandoshan_Flamer">
-		<Variant_Of_Existing_Type>Trandoshan_Rifleman</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_FLAMER</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+	<GroundInfantry Name="Trandoshan_Hunter_Flamer">
+		<Variant_Of_Existing_Type>Trandoshan_Hunter_Gunner_Light</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_FLAMER</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Red.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3082,69 +3034,164 @@
 			Volcanic, 			NI_Soldier_Trandoshan_M_Red.alo,
 			Desert, 			NI_Soldier_Trandoshan_M_Red.alo,
 			Forest, 			NI_Soldier_Trandoshan_M_Red.alo,
-			Swamp, 				NI_Soldier_Trandoshan_M_Red.alo
+			Swamp, 				NI_Soldier_Trandoshan_M_Red.alo,
 		</Land_Terrain_Model_Mapping>
 		
-		<AI_Combat_Power>6</AI_Combat_Power>
-
-		<Max_Speed>1.3</Max_Speed>
-		<OverrideAcceleration> 1.1 </OverrideAcceleration>
-		<OverrideDeceleration> 1.1 </OverrideDeceleration>
-
-		<Tactical_Health>32</Tactical_Health>
+		<AI_Combat_Power>8</AI_Combat_Power>
 
 		<HardPoints> HP_Oppressor_Flamer_B_Hand </HardPoints>
 
         <Highlight_Blob_Material_Name>Highlight_Infantry_Flamer</Highlight_Blob_Material_Name>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Trandoshan_Alpha">
-		<Variant_Of_Existing_Type>Trandoshan_Gunner_Heavy</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_ALPHA</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+	<GroundInfantry Name="Trandoshan_Hunter_Sergeant">
+		<Variant_Of_Existing_Type>Trandoshan_Hunter_Gunner_Light</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_SERGEANT</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SERGEANT_HEALTH
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD.tga</Icon_Name>
 
-		<Land_Model_Name>NI_Soldier_Trandoshan_M_Green.alo</Land_Model_Name>
+		<Land_Model_Name>NI_Soldier_Trandoshan_M_Orange.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-			Temperate, 			NI_Soldier_Trandoshan_M_Green.alo,
-			Urban, 				NI_Soldier_Trandoshan_M_Green.alo,
-			Arctic, 			NI_Soldier_Trandoshan_M_Green.alo,
-			Volcanic, 			NI_Soldier_Trandoshan_M_Green.alo,
-			Desert, 			NI_Soldier_Trandoshan_M_Green.alo,
-			Forest, 			NI_Soldier_Trandoshan_M_Green.alo,
-			Swamp, 				NI_Soldier_Trandoshan_M_Green.alo
+			Temperate, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Urban, 				NI_Soldier_Trandoshan_M_Orange.alo,
+			Arctic, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Volcanic, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Desert, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Forest, 			NI_Soldier_Trandoshan_M_Orange.alo,
+			Swamp, 				NI_Soldier_Trandoshan_M_Orange.alo,
 		</Land_Terrain_Model_Mapping>
 		
-		<AI_Combat_Power>6</AI_Combat_Power>
+		<Tactical_Health>40</Tactical_Health>
+		<AI_Combat_Power>7</AI_Combat_Power>
 
-		<Max_Speed>1.3</Max_Speed>
-		<OverrideAcceleration> 1.1 </OverrideAcceleration>
-		<OverrideDeceleration> 1.1 </OverrideDeceleration>
+		<HardPoints> HP_Concussion_Rifle_Skilled_Hand </HardPoints>
 
-		<Tactical_Health>32</Tactical_Health>
-
-		<HardPoints> HP_Imperial_Heavy_Repeater_LMG_Hand, HP_ImpHeavyRep_Concussion </HardPoints>
-
-        <Highlight_Blob_Material_Name>Highlight_Infantry_LT</Highlight_Blob_Material_Name>
+       	<Highlight_Blob_Material_Name>Highlight_Infantry_SGT</Highlight_Blob_Material_Name>
 	</GroundInfantry>
+
+	<GroundCompany Name="Trandoshan_Hunting_Pack">
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP1
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP2
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP3
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SOLDIER.TGA</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Trandoshan_Hunter_Container </Create_Team_Type>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Company_Units> Trandoshan_Hunter_Gunner_Light, Trandoshan_Hunter_Grenadier, Trandoshan_Hunter_Gunner_Light, Trandoshan_Hunter_Flamer, Trandoshan_Hunter_Gunner_Light, Trandoshan_Hunter_Sergeant </Company_Units>
+	</GroundCompany>
+
+	<Container Name="Trandoshan_Hunter_Container">
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP1
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP2
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP3
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SOLDIER.TGA</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.3 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>350.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
 
 	<GroundInfantry Name="Trandoshan_Hunter_Company_Dummy">
 		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
 
 		<Land_Model_Name>NI_SOLDIER_TRANDOSHAN_M.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
-		<AI_Combat_Power>114.11</AI_Combat_Power>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SOLDIER.TGA</Icon_Name>
+		<AI_Combat_Power>111</AI_Combat_Power>
 		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -3153,22 +3200,24 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundInfantry>
-
+	
 	<GroundCompany Name="Trandoshan_Hunter_Company">
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTING_PACK</Text_ID>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_SQUAD
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP1
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP2
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP3
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
@@ -3181,7 +3230,7 @@
 		<Is_Escort>yes</Is_Escort>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Build_Cost_Credits>260</Build_Cost_Credits>
+		<Build_Cost_Credits>275</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 
 		<Required_Special_Structures>I_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
@@ -3229,214 +3278,6 @@
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 	</GroundCompany>
-
-	<GroundCompany Name="Trandoshan_Hunting_Pack">
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTING_PACK</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD.tga</Icon_Name>
-
-		<Tech_Level>99</Tech_Level>
-		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-
-		<Create_Team_Type> Trandoshan_Hunter_Container </Create_Team_Type>
-		<Max_Squad_Size> 6 </Max_Squad_Size>
-		<Company_Units> Trandoshan_Gunner_Light, Trandoshan_Gunner_Heavy, Trandoshan_Gunner_Light, Trandoshan_Rifleman, Trandoshan_Gunner_Light, Trandoshan_Flamer </Company_Units>
-	</GroundCompany>
-
-	<GroundCompany Name="Trandoshan_Command_Pack">
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_HUNTING_PACK</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD.tga</Icon_Name>
-		<Tech_Level>99</Tech_Level>
-		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-
-		<Create_Team_Type> Trandoshan_Commander_Container </Create_Team_Type>
-		<Max_Squad_Size> 6 </Max_Squad_Size>
-		<Company_Units> Trandoshan_Gunner_Light, Trandoshan_Alpha, Trandoshan_Gunner_Light, Trandoshan_Rifleman, Trandoshan_Gunner_Light, Trandoshan_Flamer </Company_Units>
-	</GroundCompany>
-
-	<Container Name="Trandoshan_Hunter_Container">
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTING_PACK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD.tga</Icon_Name>
-
-		<Select_Box_Scale>65</Select_Box_Scale>
-		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
-
-		<Land_Model_Name/>
-
-		<Max_Speed> 1.3 </Max_Speed>
-		<OverrideAcceleration>0.1</OverrideAcceleration>
-		<OverrideDeceleration>0.1</OverrideDeceleration>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
-		<Show_Name>No</Show_Name>
-
-		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
-
-		<Lua_Script/>
-
-		<SFXEvent_Select>Null</SFXEvent_Select>
-
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
-
-		<Is_Squashable> true </Is_Squashable>
-
-		<MovementClass>Infantry</MovementClass>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<ContainerArrangement> Dartboard </ContainerArrangement>
-		<FormationSpacing> 1 </FormationSpacing>
-		<FormationOrder> 2 </FormationOrder>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>350.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>STIM_PACK</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
-
-	<Container Name="Trandoshan_Commander_Container">
-		<Text_ID>TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD.tga</Icon_Name>
-
-		<Select_Box_Scale>65</Select_Box_Scale>
-		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
-
-		<Land_Model_Name/>
-
-		<Max_Speed> 1.3 </Max_Speed>
-		<OverrideAcceleration>0.1</OverrideAcceleration>
-		<OverrideDeceleration>0.1</OverrideDeceleration>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
-		<Show_Name>No</Show_Name>
-
-		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR,TEAM_TARGETING,GARRISON_UNIT</LandBehavior>
-
-		<Lua_Script/>
-
-		<SFXEvent_Select>Null</SFXEvent_Select>
-
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
-
-		<Is_Squashable> true </Is_Squashable>
-
-		<MovementClass>Infantry</MovementClass>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<ContainerArrangement> Dartboard </ContainerArrangement>
-		<FormationSpacing> 1 </FormationSpacing>
-		<FormationOrder> 2 </FormationOrder>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>350.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>STIM_PACK</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
 	
 	<GroundCompany Name="Firebird_Stormtrooper_Company_Proteus">
 		<Text_ID>TEXT_UNIT_FIREBIRD_STORMTROOPER_PLATOON</Text_ID>
