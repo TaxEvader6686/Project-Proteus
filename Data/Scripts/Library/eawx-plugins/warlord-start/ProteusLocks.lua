@@ -108,6 +108,8 @@ return {
 		"Trenchant",
 		"Imperial_II_Star_Destroyer_Sentry",
 		"Dummy_Research_Brak_Fleet",
+        "Imperial_AT_TE_Walker_Cannoneer_Company",
+        "Imperial_AT_TE_Walker_Support_Company",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
