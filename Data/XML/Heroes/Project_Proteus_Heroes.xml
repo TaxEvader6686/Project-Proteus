@@ -7893,7 +7893,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BUREAUCRAT_IMP </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_TANNON_PRAJI_ADMIN.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TANNON_PRAJI.tga</Icon_Name>
 		
 		<Ranking_In_Category>7</Ranking_In_Category>
 		
@@ -7934,7 +7934,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BUREAUCRAT_IMP </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_TANNON_PRAJI_ADMIN.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TANNON_PRAJI.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
 		<Company_Units>Tannon_Praji</Company_Units>
