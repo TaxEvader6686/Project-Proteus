@@ -775,7 +775,7 @@
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
 		</Required_Special_Structures>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
-		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Population_Value>1</Population_Value>
 		
 		<SFXEvent_Build_Started>RHD_Researching</SFXEvent_Build_Started>
@@ -802,7 +802,7 @@
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
 		</Required_Special_Structures>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Population_Value>1</Population_Value>
 		
 		<SFXEvent_Build_Started>RHD_Researching</SFXEvent_Build_Started>
@@ -827,8 +827,8 @@
 		<Required_Special_Structures>
 		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy</Required_Special_Structures>
-		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Cost_Credits>1750</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Population_Value>1</Population_Value>
 		
 		<SFXEvent_Build_Started>RHD_Researching</SFXEvent_Build_Started>
@@ -854,7 +854,7 @@
 		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy</Required_Special_Structures>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Population_Value>1</Population_Value>
 		
 		<SFXEvent_Build_Started>RHD_Researching</SFXEvent_Build_Started>
@@ -982,7 +982,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
-		<Build_Cost_Credits>15000</Build_Cost_Credits>
+		<Build_Cost_Credits>20000</Build_Cost_Credits>
 		<Build_Time_Seconds>300</Build_Time_Seconds>
 
 		<Lua_Script/>
@@ -1687,7 +1687,7 @@
 	</DummyStructure>
 
 	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
-	<DummyStructure Name="ISector_Swap_1_Choice_Acclamator_Assault"> 
+	<DummyStructure Name="ISector_Swap_1_Choice_IPV"> 
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_ACCLAMATOR_LEVELER</Text_ID>
@@ -1713,7 +1713,102 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-	<DummyStructure Name="ISector_Swap_1_Choice_Acclamator_II">
+	<DummyStructure Name="ISector_Swap_1_Choice_Raider_I">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_II</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_II
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_II_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_II_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_II_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_II_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
+
+			<DummyStructure Name="Dummy_Research_ISector_Swap_2_Dummy"> <!-- The research option that triggers the popup -->
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_AGGRESSOR_RESEARCH.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>	
+
+	<DummyStructure Name="ISector_Swap_2_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_2_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ACCLAMATOR_PATROL.TGA</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
+	<DummyStructure Name="ISector_Swap_2_Choice_Missile_DHC"> 
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_LEVELER</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SHIELD 
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP2
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP3
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_LEVEL.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_2_Choice_Picket_DHC">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_ACCLAMATOR_II</Text_ID>
@@ -1734,6 +1829,408 @@
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+			<DummyStructure Name="Dummy_Research_ISector_Swap_3_Dummy"> <!-- The research option that triggers the popup -->
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_AGGRESSOR_RESEARCH.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>	
+
+	<!--The Dummies for the popup event-->
+	<!-- Each needs to begin with the same string (ISector_Swap_1_Choice in this case) with a header, body, and each choice -->
+	<DummyStructure Name="ISector_Swap_3_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_3_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ACCLAMATOR_PATROL.TGA</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
+	<DummyStructure Name="ISector_Swap_1_Choice_Acclamator_I"> 
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_LEVELER</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SHIELD 
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP2
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP3
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_LEVEL.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_3_Choice_Acclamator_II">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_II</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_II
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_II_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_II_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_II_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_II_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<DummyStructure Name="Dummy_Research_ISector_Swap_4_Dummy"> <!-- The research option that triggers the popup -->
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_AGGRESSOR_RESEARCH.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>	
+
+	<!--The Dummies for the popup event-->
+	<!-- Each needs to begin with the same string (ISector_Swap_1_Choice in this case) with a header, body, and each choice -->
+	<DummyStructure Name="ISector_Swap_4_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_4_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ACCLAMATOR_PATROL.TGA</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
+	<DummyStructure Name="ISector_Swap_4_Choice_Victory_Fleet_VSD"> 
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_LEVELER</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SHIELD 
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP2
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP3
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_LEVEL.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_4_VSD_II">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_II</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_II
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_II_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_II_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_II_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_II_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+		<DummyStructure Name="Dummy_Research_ISector_Swap_5_Dummy"> <!-- The research option that triggers the popup -->
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_AGGRESSOR_RESEARCH.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>	
+
+	<!--The Dummies for the popup event-->
+	<!-- Each needs to begin with the same string (ISector_Swap_1_Choice in this case) with a header, body, and each choice -->
+	<DummyStructure Name="ISector_Swap_5_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_5_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ACCLAMATOR_PATROL.TGA</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
+	<DummyStructure Name="ISector_Swap_5_Choice_Venator_Classic"> 
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_LEVELER</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SHIELD 
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP2
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP3
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_LEVEL.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_5_Venator_8X">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_II</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_II
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_II_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_II_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_II_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_II_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+					<DummyStructure Name="Dummy_Research_ISector_Swap_6_Dummy"> <!-- The research option that triggers the popup -->
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_AGGRESSOR_RESEARCH.TGA</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>	
+
+	<DummyStructure Name="ISector_Swap_6_Choice_Header">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_HEADER</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>nothing.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_6_Choice_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_ISECTOR_SWAP_1_CHOICE_BODY</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_ACCLAMATOR_PATROL.TGA</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_6_Choice_Missile_ISD"> 
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_LEVELER</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SHIELD 
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP2
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP3
+		TEXT_TOOLTIP_ACCLAMATOR_LEVELER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_LEVEL.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="ISector_Swap_6_Upgunned_ISD">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_ACCLAMATOR_II</Text_ID>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ACCLAMATOR_II
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ACCLAMATOR_II_HULL
+		TEXT_TOOLTIP_ACCLAMATOR_II_SHIELD
+		TEXT_TOOLTIP_ACCLAMATOR_II_MOVE
+		TEXT_TOOLTIP_ACCLAMATOR_II_SQUADRON
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP1
+		TEXT_TOOLTIP_ACCLAMATOR_II_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
 
 </Proteus_Research_Dummies>

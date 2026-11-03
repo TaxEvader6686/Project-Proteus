@@ -119,7 +119,7 @@ return {
 				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon", 
 				"Rep_DHC", "Gladiator_I", "Acclamator_I_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Destroyer", 
-				"Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
+				"Altor_Carrier", "Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground 
 				"Imperial_Army_Trooper_Company", "Navy_Commando_Company", "ISB_Infiltrator_Company", "Imperial_Army_74Z_Bike_Company", 
 				"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company", 
@@ -927,7 +927,7 @@ return {
 				"Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Ion", 
 				"Praetor_I_Battlecruiser", "Praetor_II_Battlecruiser", "Praetor_Carrier_Battlecruiser", "Altor_Replenishment_Ship", "Assertor_Star_Dreadnought", 
 				-- Ground
-				"Imperial_Fleet_Commando_Company", "EVO_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"Imperial_Fleet_Commando_Company", "EVO_Trooper_Company", "Imperial_Jumptrooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"Imperial_AT_RT_Company", "Imperial_ULAV_Company", 
 				"Imperial_TX130T_Company", "Deathhawk_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Missile_Walker_Company", "SPMAG_Walker_Company", "SPMAT_Company",
 				"A6_Prototype_Company", "Lancet_Air_Artillery_Company", 
@@ -1332,7 +1332,7 @@ return {
 			IntroHolo = "Galak_Fyyar_Loop"
 		},
 		["FEL"] = {
-			FriendlyName = "Brentaal Houses",
+			FriendlyName = "Imperial Brentaal",
 			Planets = {"BRENTAAL"},
 			LeaderTable = {"FEL_EVISCERATOR"},
 			LeaderEndingNames = {"Emperor Fel"},
@@ -1461,12 +1461,12 @@ return {
 			HeroList = {"Praji_Secutor", "Tannon_Praji_Team", "Collin_Praji_Team"}, 
 			UnlockList = {
 				-- Space 
-				"Guardian_Cruiser_Group", "Customs_Corvette", "Corellian_Buccaneer", "Strike_Cruiser", "Ton_Falk_Escort_Carrier", "Trenchant",
+				"Guardian_Cruiser_Group", "Customs_Corvette", "Strike_Cruiser_Gorath", "Ton_Falk_Escort_Carrier", "Trenchant",
 				"Modernized_DHC", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "MTC_Sensor", "Victory_II_Carrier", "Vector_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Sorannan_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
-				"Imperial_Galactic_Marine_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
+				"Imperial_Galactic_Marine_Company", "Imperial_Scout_Trooper_Company", "Stormtrooper_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", 
 				"AT_ST_A_Company", "AT_DP_Company", "Chariot_LAV_Company", "PX7_Company",
 				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Company", "AT_AA_Missile_Walker_Company", "Imperial_Heavy_Mobile_Artillery_Company",
 				"Imperial_AT_AT_Walker_Company", "A9_Floating_Fortress_Company", "Lancet_Air_Artillery_Company",
@@ -1535,7 +1535,7 @@ return {
 		},
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
-			Planets = {"DATHOMIR", "KASHYYYK", "EBAQ"},
+			Planets = {"EBAQ", "DATHOMIR"},
 			LeaderTable = {},
 			LeaderEndingNames = {"The Unseen Emperor"},
 			HeroList = {"Brakiss_Team"}, 
@@ -1543,8 +1543,8 @@ return {
 				-- Space 
 				"Delta_JV7_Group", "IPV1", "Trenchant", "Active_Frigate", "Victory_II_Frigate", "Eidolon", 
 				"Pursuit_Light_Cruiser", "DHC_Carrier", "Proteus_Cargo_Ship", "Acclamator_I_Assault", "Victory_II_Carrier", "Vector_Star_Destroyer",
-				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Secutor_Star_Destroyer",  
-				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Vengeance_Star_Dreadnought",
+				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Sentry", "Secutor_Star_Destroyer",  
+				"Sorannan_Star_Destroyer", "Shadow_Vengeance_Star_Dreadnought",
 				-- Ground
 				"Compforce_Assault_Company", "Imperial_Dark_Jedi_Company", "Shadow_EVO_Trooper_Company", "Imperial_Army_74Z_Bike_Company", 
 				"Imperial_ISP_Company", "Chariot_LAV_Company", "AT_DP_Company", "RTT_Company", 

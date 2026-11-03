@@ -267,7 +267,7 @@ TEXT_NOTE,Put text changes for submods here
 TEXT_NTB_630_SQUADRON,NTB-630 Squadron
 TEXT_NTB_630_SQUADRON_HALF,NTB-630 Squadron 1/2
 TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
-TEXT_PROTEUS_DESCRIPTION_ALLIED_TION,--TODO TEXT_PROTEUS_DESCRIPTION_ALLIED_TION--
+TEXT_PROTEUS_DESCRIPTION_ALLIED_TION, Based on the planet of Jaminere, Moff Gronn ruled over the Allied Tion Sector, one of the pieces the former Tion Hegemony was broken into after the Clone Wars. In order to hold on to his power in the face of warlords and New Republic incursions and secure a steady supply of fighters, Gronn had to agree to a deal with Lady Valles Santhe not to invade Lianna in exchange for continued deliveries of new TIE Fighters.
 TEXT_PROTEUS_DESCRIPTION_ANAXES,Azure Hammer Command was the name given to the First Army which was tasked with the defence of the Coruscant Sector since the Clone Wars. It's headquarter was the planet Anaxes. After the battle of Endor it became an imperial holdout in the core, lead by Admiral Feyet Kiez aboard his Executor Super Star Destroyer "Whelm". However, in 8 ABY, Kiez and his SSD vanished from the system under mysterious circumstances which lead the remaining Imperial forces to capitulate to the advancing New Republic.
 TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist independence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
 TEXT_PROTEUS_DESCRIPTION_BRANDEI,--TODO TEXT_PROTEUS_DESCRIPTION_BRANDEI--
@@ -293,7 +293,7 @@ TEXT_PROTEUS_DESCRIPTION_TRAX,TODO
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
 TEXT_PROTEUS_DESCRIPTION_X1,--TODO TEXT_PROTEUS_DESCRIPTION_X1--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
-TEXT_RECRUIT_URLAN_DESCRIPTION,TODO for Supernova
+TEXT_RECRUIT_URLAN_DESCRIPTION,Convince the former Arch-Provost of Rendili, Bengila Urlan, to serve the military administration as a figurehead to placate and negotiate with local and corporate elites. 
 TEXT_RECRUIT_URLAN_NAME,Recall Bengila Urlan from Retirement
 TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME,TODO
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
@@ -1658,7 +1658,7 @@ TEXT_TOOLTIP_SUPERCRUISER_WEAP3,2x Proton Torpedoes: 2 / 11.25s / 5.3km
 TEXT_TOOLTIP_SUPERNOVA,TODO
 TEXT_TOOLTIP_SUPERNOVA_SQUADRON,Fighters: 1 / 0
 TEXT_TOOLTIP_SYNTAX_ERROR_WEAP3,2x Light Quad Turbolasers: 2 / 5.0s / 5.3km
-TEXT_TOOLTIP_SYNTAX_ERROR_WEAP6,3x Missiles Trouts: 5 / 12.5s / 7.2km
+TEXT_TOOLTIP_SYNTAX_ERROR_WEAP6,3x Missile Trouts: 5 / 12.5s / 7.2km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
 TEXT_TOOLTIP_T11_SQUADRON,Fighters: 0.5 / 0
 TEXT_TOOLTIP_TANNON_PRAJI,The elderly patriarch of House Praji, Tannon Praji was a shrewd businessman and consummate patron of the arts who served as Coruscant's Minister of Ingress during the Separatist Crisis and the Clone Wars. Under his stewardship the Prajii continued to be a staple fixture in political, financial and military affairs in the Republic. Managing to ingratiate himself with Palpatine and his inner circle, Tannon Praji would continue his bureaucratic career under the Empire, though he faded from public view with the years. 
@@ -2113,6 +2113,7 @@ TEXT_WEAPON_A_MISSILETROUT,Missile Trout Launcher
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
+TEXT_CONQUEST_PROTEUS_DASTA_RAGEZ_RETIRE, Baron D'Asta: Old friend, the time has come. I have held on as long as I could, and I can no longer ignore the warnings of my doctors. There is still much to do, many family affairs to settle; and I must use the time I have left. As of today, I am stepping back from commanding our forces. My daughter will take my place at the helm of our efforts. Serve her as faithfully as you have served me.
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate and Corona Tender, retires Nebulon-B and Star Galleon.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.
