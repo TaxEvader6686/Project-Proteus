@@ -49,6 +49,7 @@ GW_EOTH_AAK,Hand Mobile Armor Platoon
 GW_EOTH_AAL,Hand Airborne Assault Platoon
 GW_EOTH_AAM,Hand Heavy Siege Platoon
 GW_EOTH_AAN,Hand Combined Arms Platoon
+GW_GE_ABA,Refitted Imperial Walker Assault Force
 GW_GE_AAA,Depleted Imperial Assault Platoon
 GW_GE_AAB,Imperial Garrison Outpost
 GW_GE_AAC,Imperial Army Line Platoon
@@ -74,7 +75,6 @@ GW_GE_AAV,Imperial Air Squadron
 GW_GE_AAX,Elite Imperial Walker Assault Section
 GW_GE_AAY,Dark Empire Elite Vehicle Section
 GW_GE_AAZ,Imperial Airborne Assault Platoon
-GW_GE_ABA,Refitted Imperial Walker Assault Force
 GW_GM_AAA,Greater Maldrood Army Platoon
 GW_GM_AAB,Greater Maldrood Army Detachment
 GW_GM_AAC,Greater Maldrood Light Recon Sweep
@@ -448,6 +448,15 @@ TEXT_CONQUEST_BFC_DL_INTRO_GENERIC,Nil Spaar: I am Nil Spaar, and I am the Vicer
 TEXT_CONQUEST_BFC_DL_INTRO_ONE,Nil Spaar: I am Nil Spaar, and I am the Viceroy of the Duskhan League. It is time for us to achieve our destiny and wipe the filth from the galaxy. The New Republic will die. Beginning today, their lives depend on their being useful to us. The Yevetha are not civilized, Commander. It would be a mistake to deal with us as though we were.
 TEXT_CONQUEST_BFC_NR_INTRO_ONE,Leia Organa Solo: Our peace talks with the Duskhan League have fallen through; it's time for military action. I don't think there's any question but that Nil Spaar represents more worlds, a larger population, greater material riches, and a more advanced industrial-technological base than anyone who's come to Imperial City in the last twelve years. And he probably knows it, too.
 TEXT_CONQUEST_BFC_SORANNONS_REVOLT,Sil Sorannan: This is Major Sil Sorannan of the Black Sword Command, Imperial Navy--acting captain of the Super Star Destroyer Intimidator and commodore of the Camp Pa'aal Squadron. For twelve years of torture, and too many friends, there isn't enough I can do to you, viceroy, I already know that killing you won't be satisfying. This is good-bye. We are taking back what is ours, starting with our freedom and these ships. We leave the New Republic to you.
+TEXT_CONQUEST_CRIMSONEMPIRE_EA_INTRO,Sander Delvardus: The Emperor may have yet again been defeated, but construction of the Night Hammer is complete. We must establish ourselves as the dominant Imperial force in the Core.
+TEXT_CONQUEST_CRIMSONEMPIRE_GM_INTRO,Treuten Teradoc: The Emperor is gone, but Maldrood lives. Kosh is attempting to hold our mid-rim territory, and I plan to take advantage of the disorganized forces in the core to establish our dominance.
+TEXT_CONQUEST_CRIMSONEMPIRE_NR_INTRO,Leia: The Emperor is dead, and the Imperials are fighting amongst themselves again, but we have a lot of work to do if we're going to recover from the last few years. It's like Endor all over again.
+TEXT_CONQUEST_CRIMSONEMPIRE_PA_INTRO,Elta Besk: Although Kaine is dead, the Pentastar Alignment lives on. Our losses in the last few years are proof our initial position of striking out on our own was correct. The Rebels are occupied with reclaiming the Core; I suggest you work to secure our borders while we can.
+TEXT_CONQUEST_CSA_CSA_INTRO_E1,Viceprex Vaz-Weplinn: We can no longer rely on the old agreements. Fragments of the Empire fight over our territory, hoping to steal our resources and profits, while all too many voices in the New Republic condemn our business practices. In order to preserve the Authority, the Board has authorized full mobilization of our forces. Our independence rests on your shoulders, Commander. Halt any move against it by whatever means necessary.
+TEXT_CONQUEST_CSA_CSA_INTRO_E2_3,Viceprex Vaz-Weplinn: Zsinj's illegal seizure of our resources ends now! The time to rely on agreements made with the Old Republic has ended. From now on, we will enforce our independence with fleets rather than bureaucrats.
+TEXT_CONQUEST_CSA_CSA_INTRO_E4,Viceprex Vaz-Weplinn: The Emperor may be back, but that doesn't mean a return to Imperial control. With less and less oversight and taxes, profits have soared, and the Direx Board is determined to keep things that way.
+TEXT_CONQUEST_CSA_CSA_INTRO_E5_6,Viceprex Vaz-Weplinn: The New Republic has been making overtures, but the Direx Board rejects their oversight. We don't need their ideals and taxes cutting into our returns, and they won't stomach enough war to force themselves upon us. It's time to show this new government we mean business.
+TEXT_CONQUEST_CSA_CSA_INTRO_E7,Angela Krin: Ah, good to see you commander. It's getting to be a real mess here. The plague on Endregaad is raging almost unchecked, and neither the Hutts nor the New Republic are very happy about how we're handling it. I also have reason to think this new Tempest spice may have originated from the Hutts. I don't look forward to confronting them about it, but that spice is dangerous and we need to shut down the flow.
 TEXT_CONQUEST_CAAMAS_DOCUMENT_FOUND_IR,Gilad Pellaeon: Intel combed the data tapes we recovered from the Hand of Thrawn and found an original copy of the Caamas Document. I can use this to begin treaty negotiations with the New Republic.\n[ PEACE TREATY VICTORY AVAILABLE ]
 TEXT_CONQUEST_CAAMAS_DOCUMENT_FOUND_NR,Luke Skywalker: We found an unaltered copy of the Caamas Document on Nirauan! This should put an end to the crisis on Bothawui and in the Senate. Now we have a chance to begin peace talks with Pellaeon.\n[ PEACE TREATY VICTORY AVAILABLE ]
 TEXT_CONQUEST_CAAMAS_GE_INTRO,Gilad Pellaeon: The Moff Council's vanity has brought the Empire to its lowest point yet, but there's still hope. The New Republic's present crisis may be our chance to end this war. If we can provide the New Republic with an original copy of the Caamas Document, that may earn us enough goodwill to begin peace negotiations.
@@ -471,15 +480,6 @@ TEXT_CONQUEST_CAAMAS_RETURN_PELLAEON_DEFECT,Gilad Pellaeon: Disra may think he h
 TEXT_CONQUEST_CAAMAS_RETURN_PELLAEON_DOUBT,Gilad Pellaeon: I watched Thrawn die on the bridge of the Chimaera. I scrubbed his life's blood from the tread of my boots. I don't know whose sick game this is, but I refuse to play.
 TEXT_CONQUEST_CAAMAS_THRAWN_RETURNS,Thrawn: This is Grand Admiral Thrawn. I have returned to restore Imperial rule to the galaxy. I call on all loyal subjects of the Empire, in the known galaxy and beyond, to follow me. To the leaders of the Rebellion: I urge you to surrender now and spare the galaxy further bloodshed.
 TEXT_CONQUEST_CAAMAS_VICTORY_TREATY,- [ALTERNATIVE OBJECTIVE] Control Nirauan with Pellaeon alive and zero Thrawns active (Early victory can be triggered from Political Options Menu).
-TEXT_CONQUEST_CRIMSONEMPIRE_EA_INTRO,Sander Delvardus: The Emperor may have yet again been defeated, but construction of the Night Hammer is complete. We must establish ourselves as the dominant Imperial force in the Core.
-TEXT_CONQUEST_CRIMSONEMPIRE_GM_INTRO,Treuten Teradoc: The Emperor is gone, but Maldrood lives. Kosh is attempting to hold our mid-rim territory, and I plan to take advantage of the disorganized forces in the core to establish our dominance.
-TEXT_CONQUEST_CRIMSONEMPIRE_NR_INTRO,Leia: The Emperor is dead, and the Imperials are fighting amongst themselves again, but we have a lot of work to do if we're going to recover from the last few years. It's like Endor all over again.
-TEXT_CONQUEST_CRIMSONEMPIRE_PA_INTRO,Elta Besk: Although Kaine is dead, the Pentastar Alignment lives on. Our losses in the last few years are proof our initial position of striking out on our own was correct. The Rebels are occupied with reclaiming the Core; I suggest you work to secure our borders while we can.
-TEXT_CONQUEST_CSA_CSA_INTRO_E1,Viceprex Vaz-Weplinn: We can no longer rely on the old agreements. Fragments of the Empire fight over our territory, hoping to steal our resources and profits, while all too many voices in the New Republic condemn our business practices. In order to preserve the Authority, the Board has authorized full mobilization of our forces. Our independence rests on your shoulders, Commander. Halt any move against it by whatever means necessary.
-TEXT_CONQUEST_CSA_CSA_INTRO_E2_3,Viceprex Vaz-Weplinn: Zsinj's illegal seizure of our resources ends now! The time to rely on agreements made with the Old Republic has ended. From now on, we will enforce our independence with fleets rather than bureaucrats.
-TEXT_CONQUEST_CSA_CSA_INTRO_E4,Viceprex Vaz-Weplinn: The Emperor may be back, but that doesn't mean a return to Imperial control. With less and less oversight and taxes, profits have soared, and the Direx Board is determined to keep things that way.
-TEXT_CONQUEST_CSA_CSA_INTRO_E5_6,Viceprex Vaz-Weplinn: The New Republic has been making overtures, but the Direx Board rejects their oversight. We don't need their ideals and taxes cutting into our returns, and they won't stomach enough war to force themselves upon us. It's time to show this new government we mean business.
-TEXT_CONQUEST_CSA_CSA_INTRO_E7,Angela Krin: Ah, good to see you commander. It's getting to be a real mess here. The plague on Endregaad is raging almost unchecked, and neither the Hutts nor the New Republic are very happy about how we're handling it. I also have reason to think this new Tempest spice may have originated from the Hutts. I don't look forward to confronting them about it, but that spice is dangerous and we need to shut down the flow.
 TEXT_CONQUEST_DELTA_SOURCE_INTRO,Thrawn: Delta Source, Commander, reporting all manner of valuable information right from the heart of the Rebels' fragile government. You don't have clearance to know the precise nature of our informant, but rest assured I will pass along any useful knowledge that comes through the encrypted channels.
 TEXT_CONQUEST_EMPIRE_CSA_INTRO_E1,Grand Admiral Makati: Greetings, commander. It's good to see High Command finally sending those reinforcements. The Rebel presence grows stronger every day, the Corporate Sector is getting restless, and Zsinj is proving less trustworthy than I'd hoped. It's past time some order was restored to this corner of the galaxy.
 TEXT_CONQUEST_EMPIRE_CSA_INTRO_E1_HINT,Conquer Korriban to gain Kadann (Spy) and Jedgar (Sith) as heroes!
@@ -539,9 +539,9 @@ TEXT_CONQUEST_GOVERNMENT_EOTH_JIUCHA_AVAILABLE,[Jiucha Heavy Frigate Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_KUURO_AVAILABLE,[Kuuro Gunship Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_MUQARAEA_AVAILABLE,[Muqaraea Corvette Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_NASIR_AVAILABLE,[Nasir Gunship Unlocked]
-TEXT_CONQUEST_GOVERNMENT_EOTH_PAATAATUS_SKIFF_AVAILABLE,[Paataatus Skiff Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_PACCIAN_TANK_AVAILABLE,[Paccosh Missile Tank Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_PRINCE_MILITAIRE_AVAILABLE,Prince Militaire: [Blessings upon you. The holy Paataatus shall repay your devotion to our alliance with our faith. And we do not forget that faith without works is dead.]\n[The Prince Militaire has joined your forces]
+TEXT_CONQUEST_GOVERNMENT_EOTH_PAATAATUS_SKIFF_AVAILABLE,[Paataatus Skiff Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_RAJU_AVAILABLE,[Raju Heavy Frigate Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_ROHKEA_AVAILABLE,[Rohkea Frigate Unlocked]
 TEXT_CONQUEST_GOVERNMENT_EOTH_SALVAGE_AVAILABLE,Prince Militaire: [You have forged a fraternal bond between our peoples. We shall give you the aid of our salvagers so that we may both prosper.]\n[Paataatus Hive Salvage is now active]
@@ -573,8 +573,8 @@ TEXT_CONQUEST_HUTTS_DURGA_INTRO,Durga Besadii Tai: [With my rivals out of the pi
 TEXT_CONQUEST_HUTTS_ZORBA_INTRO,Zorba Desilijic Tiure: [A-haw-haw, after so many years I'm free! The Desilijic's prestige may have been tarnished, but that will be dealt with in time. First things first, I'll get revenge on those who murdered my son!]
 TEXT_CONQUEST_INTRO_ODUMIN,Odumin: Please stop shushing me, sir; I will be heard! At issue is the survival and more importantly, profit of the Corporate Sector Authority. If you mind the books we'll all be better for it.
 TEXT_CONQUEST_INTRO_ODUMIN_E3,Odumin: With Zsinj's death, the Corporate Sector Authority can continue our business unimpeded. Just looking at the mess of sheets and balances they left make me wish we killed him. If you can mind the books, I'm sure we can recover from this and continue making a profit.
-TEXT_CONQUEST_INTRO_TAA_ONE,Ta'a Chume: It's a dangerous time for even the Consortium- I trust you will find yourself up to the task of leading our forces. Hapes can only be as strong as those who lead her, and it would be a shame to have to replace one such as yourself.
 TEXT_CONQUEST_INTRO_TENENIEL_ONE,Teneniel Djo: Greetings, friend. It is my honour as Queen Mother to greet a traveler from the stars such as yourself to Hapes. The task of protecting the Consortium will be a difficult one, but together we may face down any foe.
+TEXT_CONQUEST_INTRO_TAA_ONE,Ta'a Chume: It's a dangerous time for even the Consortium- I trust you will find yourself up to the task of leading our forces. Hapes can only be as strong as those who lead her, and it would be a shame to have to replace one such as yourself.
 TEXT_CONQUEST_ISARDSREVENGE_GE_INTRO_ONE,Delak Krennel: The New Republic may mean to make an example of the Ciutric Hegemony, but with Isard's help, we'll show them they're nothing next to the Empire's might.
 TEXT_CONQUEST_ISARDSREVENGE_GE_LUSANKYA,Ysanne Isard: No! Word has just reached me that the Rebels have deployed a new vessel: my old flagship the Lusankya. They told the galaxy it had been scrapped, but now I must face down my own command.
 TEXT_CONQUEST_ISARDSREVENGE_GE_ROGUES,Ysanne Isard: It seems we lost an entire fighter wing in the battle, but Rogue Squadron has been eliminated by my trap! A patrol nearly caught the Errant Venture snooping around the wreckage, but there can be little doubt: Wedge Antilles will no longer be a thorn in my side.
@@ -710,9 +710,9 @@ TEXT_CONQUEST_PROTEUS_HAMMERS,Zel Johans: Maintain your focus, Commander. We nee
 TEXT_CONQUEST_PROTEUS_IMPERIAL_LIANNA,Phillip Santhe: Your support has been invaluable, Commander. Now that my mother has been... convinced to retire to a clerical position, I can guide Lianna back onto the path to order!
 TEXT_CONQUEST_PROTEUS_ISECTOR,Bliss Shargael: Easy does it, commander. Our first objective is survival in this galaxy so full of fish so much larger and more ravenous than we...
 TEXT_CONQUEST_PROTEUS_JARDEEN,Arndall Lott: With the support of Captain Gendarr, my new walker tactics shall bring the New Republic to its knees!
-TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION,Ennix Devian: We cannot stand idly by while pompous fops let Palpatine's great work crumble. We are crusaders beholden to the Empire's true values, and we will not rest until all who oppose them lie buried beneath us!
 TEXT_CONQUEST_PROTEUS_KASHYYYK,Hindane Darcc: The Empire was a fine thing while it lasted, but it's finished. There is only my future to consider. First to secure these troublesome savages, then we see what can be done with the resources of this world and the good will of a Grand Admiral...
 TEXT_CONQUEST_PROTEUS_KUAT,Thichis Kuras: The center cannot hold, and until such disorder is settled Kuat must secure its safety for the sake of ourselves and the Empire as a whole.
+TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION,Ennix Devian: We cannot stand idly by while pompous fops let Palpatine's great work crumble. We are crusaders beholden to the Empire's true values, and we will not rest until all who oppose them lie buried beneath us!
 TEXT_CONQUEST_PROTEUS_LUMIYA,Lumiya: These unworthy minions shall not inherit the work of the Sith. All shall bow before their new master!
 TEXT_CONQUEST_PROTEUS_MAELSTROM,Vanko: This disorder must be brought to an end and it is only through power that order is secured. Once we have secured order in our area, we shall begin to export it. 
 TEXT_CONQUEST_PROTEUS_PRAKITH,Foga Brill: What does the galaxy offer us? So little. But we must keep it out so we can carry on our work here. Safeguard our borders, commander, so that we may appease the devourers of the life beyond. 
@@ -863,7 +863,6 @@ TEXT_DOCUMENTATION_BODY_MISSION_KASHYYYK_GM_HERO,New Hero: Peccati Syn (ISD-I) w
 TEXT_DOCUMENTATION_BODY_MISSION_KATANA_STORY,Event: Katana Fleet. - [ Capture as many Katana DHCs as you can ] [ Time-limited, Regime: Thrawn ]
 TEXT_DOCUMENTATION_BODY_MISSION_MANDALORE_NR_HERO,New Hero: Fenn Shysa (Commando) will join your forces if Mandalore is captured before any other group takes it. [ 4 ABY - 12+ ABY ]
 TEXT_DOCUMENTATION_BODY_MISSION_NJO_STORY,Event: New Jedi Order. [ Jedi Praxeum available in 11 ABY Month 4 ]
-TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_AAC3,Research: AAC-3 Hovertank. [ Research available in 10 ABY Month 3 ]
 TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_ARMORED_INTERCEPTOR,Research: Armored TIE Interceptor.
 TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_BWINGE,Research: B-wing/E. [ Research available in 10 ABY ]
 TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_CORONA,Research: Corona Frigate. [ Research available on Kuat in 10 ABY ]
@@ -887,6 +886,7 @@ TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_RSD,Research: Republic Star Destroyer. 
 TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_SCIMITAR,Research: Scimitar Assault Bomber.
 TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_VISCOUNT,Research: Viscount Star Defender. [ Research available on Mon Calamari in 10 ABY Month 8 ]
 TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_X3,Research: TIE X-3.
+TEXT_DOCUMENTATION_BODY_MISSION_RESEARCH_AAC3,Research: AAC-3 Hovertank. [ Research available in 10 ABY Month 3 ]
 TEXT_DOCUMENTATION_BODY_MISSION_SOROSUUB_CSA_HERO,New Hero: Siin Suub (Bulwark-III). [ Requires SoroSuub ]
 TEXT_DOCUMENTATION_BODY_MISSION_TAGGECO_CSA_HERO,New Hero: Ulric Tagge (Tagge BC). [ If not part of Imperial forces, Requires TaggeCo ]
 TEXT_DOCUMENTATION_BODY_MISSION_THRAWN_CLONE_STORY,Event: Thrawn Clone. [ Mitth'raaw'nuruodo (Phalanx) will automatically begin cloning if Mitth'raw'nuruodo is defeated or has joined the Galactic Empire ] [ Available to be cloned immediately in 9 ABY+ starts ]
@@ -1307,6 +1307,8 @@ TEXT_ENCYCLOPEDIA_FLAGSHIP_HAPES_AAL_UNIT_3,3 * Olanji Frigate
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HAPES_AAM_UNIT_1,1 * Star Home
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HAPES_AAM_UNIT_2,3 * Hapes Battle Dragon
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HAPES_AAM_UNIT_3,1 * Terephon Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_ABA_UNIT_1,1 * Dor'bulla Warship 
+TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_ABA_UNIT_2,4 * Karabos Destroyer
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAA_UNIT_1,2 * Scyk Fighter Squadron 
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAB_UNIT_1,3 * Z-95-ML Squadron 
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAB_UNIT_2,3 * Modern Cloakshape Fighter
@@ -1373,8 +1375,33 @@ TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAY_UNIT_4,3 * Barabbula
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAY_UNIT_5,4 * Juvard Frigate
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAZ_UNIT_1,3 * Szajin Cruiser
 TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_AAZ_UNIT_2,2 * Kossak Frigate
-TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_ABA_UNIT_1,1 * Dor'bulla Warship 
-TEXT_ENCYCLOPEDIA_FLAGSHIP_HUTTS_ABA_UNIT_2,4 * Karabos Destroyer
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABA_UNIT_1,3 * Nebula Star Destroyer
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABA_UNIT_2,1 * Endurance Star Destroyer
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABB_UNIT_1,2 * Defender Assault Carrier
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABB_UNIT_2,2 * Majestic Heavy Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABC_UNIT_1,2 * Republic Star Destroyer
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABC_UNIT_2,1 * Bothan Assault Cruiser 
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABD_UNIT_1,2 * MC90 Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABD_UNIT_2,1 * MC80B Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_1,1 * MC80B Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_2,1 * MC80 Liberty Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_3,1 * Nebulon-B Frigate
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_4,1 * Marauder Cruiser 
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_1,1 * MC80 Home One Type Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_2,2 * MC80B Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_3,2 * MC80 Liberty Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_4,3 * MC40 Light Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_5,4 * MC30C Frigate
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_6,2 * MC30A Frigate
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_1,1 * Bulwark-III Battlecruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_2,3 * Liberator Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_3,4 * Dauntless Heavy Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_4,4 * Preybird Squadrons
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABH_UNIT_1,1 * MC Heavy Carrier 
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABH_UNIT_2,2 * MC90 Cruiser
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABH_UNIT_3,2 * Republic Star Destroyer
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABI_UNIT_1,3 * MC30C Frigate
+TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABI_UNIT_2,1 * MC30A Frigate
 TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAA_UNIT_1,1 * X-wing Squadron
 TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAA_UNIT_2,2 * Z-95 Headhunter Squadron
 TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAB_UNIT_1,2 * Modern Cloakshape Fighter
@@ -1426,33 +1453,6 @@ TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAY_UNIT_1,1 * Corona Frigate
 TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAY_UNIT_2,4 * Agave Corvette
 TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAZ_UNIT_1,1 * Mothma Star Destroyer
 TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_AAZ_UNIT_2,2 * Imperial-I Star Destroyer
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABA_UNIT_1,3 * Nebula Star Destroyer
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABA_UNIT_2,1 * Endurance Star Destroyer
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABB_UNIT_1,2 * Defender Assault Carrier
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABB_UNIT_2,2 * Majestic Heavy Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABC_UNIT_1,2 * Republic Star Destroyer
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABC_UNIT_2,1 * Bothan Assault Cruiser 
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABD_UNIT_1,2 * MC90 Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABD_UNIT_2,1 * MC80B Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_1,1 * MC80B Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_2,1 * MC80 Liberty Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_3,1 * Nebulon-B Frigate
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABE_UNIT_4,1 * Marauder Cruiser 
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_1,1 * MC80 Home One Type Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_2,2 * MC80B Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_3,2 * MC80 Liberty Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_4,3 * MC40 Light Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_5,4 * MC30C Frigate
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABF_UNIT_6,2 * MC30A Frigate
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_1,1 * Bulwark-III Battlecruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_2,3 * Liberator Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_3,4 * Dauntless Heavy Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABG_UNIT_4,4 * Preybird Squadrons
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABH_UNIT_1,1 * MC Heavy Carrier 
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABH_UNIT_2,2 * MC90 Cruiser
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABH_UNIT_3,2 * Republic Star Destroyer
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABI_UNIT_1,3 * MC30C Frigate
-TEXT_ENCYCLOPEDIA_FLAGSHIP_NR_ABI_UNIT_2,1 * MC30A Frigate
 TEXT_ENCYCLOPEDIA_FLAGSHIP_PA_AAA_UNIT_1,3 * TIE Fighter Squadron
 TEXT_ENCYCLOPEDIA_FLAGSHIP_PA_AAA_UNIT_2,1 * TIE Interceptor Squadron 
 TEXT_ENCYCLOPEDIA_FLAGSHIP_PA_AAA_UNIT_3,1 * Howlrunner Squadron 
@@ -1667,6 +1667,9 @@ TEXT_ENCYCLOPEDIA_GW_EOTH_AAN_1,2 * V2-PO-Transport
 TEXT_ENCYCLOPEDIA_GW_EOTH_AAN_2,3 * Entoli LAV
 TEXT_ENCYCLOPEDIA_GW_EOTH_AAN_3,3 * O-MP-AI
 TEXT_ENCYCLOPEDIA_GW_EOTH_AAN_4,6 * Hand Phalanx Trooper Squad
+TEXT_ENCYCLOPEDIA_GW_GE_ABA_1,4 * AT-ST/A
+TEXT_ENCYCLOPEDIA_GW_GE_ABA_2,2 * AT-AT Turbolaser Refit
+TEXT_ENCYCLOPEDIA_GW_GE_ABA_3,1 * Dwarf Spider Droid Squad 
 TEXT_ENCYCLOPEDIA_GW_GE_AAA_1,2 * Dwarf Spider Droid Squad
 TEXT_ENCYCLOPEDIA_GW_GE_AAA_2,2 * Imperial Army Assault Squad
 TEXT_ENCYCLOPEDIA_GW_GE_AAB_1,4 * 74-Z Speeder Bike
@@ -1720,9 +1723,6 @@ TEXT_ENCYCLOPEDIA_GW_GE_AAZ_1,6 * Imperial Jump Stormtrooper Squad
 TEXT_ENCYCLOPEDIA_GW_GE_AAZ_2,4 * IDT
 TEXT_ENCYCLOPEDIA_GW_GE_AAZ_3,4 * Royal Guard Stormtrooper Squad
 TEXT_ENCYCLOPEDIA_GW_GE_AAZ_4,4 * Dark Stormtrooper Squad
-TEXT_ENCYCLOPEDIA_GW_GE_ABA_1,4 * AT-ST/A
-TEXT_ENCYCLOPEDIA_GW_GE_ABA_2,2 * AT-AT Turbolaser Refit
-TEXT_ENCYCLOPEDIA_GW_GE_ABA_3,1 * Dwarf Spider Droid Squad 
 TEXT_ENCYCLOPEDIA_GW_GM_AAA_1,2 * Army Trooper Anti-Vehicle Squad
 TEXT_ENCYCLOPEDIA_GW_GM_AAA_2,3 * Army Trooper Anti-Personnel Squad
 TEXT_ENCYCLOPEDIA_GW_GM_AAB_1,2 * Army Trooper Anti-Personnel Squad
@@ -2002,19 +2002,19 @@ TEXT_ENCYCLOPEDIA_SURVIVAL_GARWIAN_FAVOUR_OPTION3,Saytara Carrier (Tech Level 5)
 TEXT_ENCYCLOPEDIA_SURVIVAL_NR_CANON_OPTION,Unlocks Canon Units:
 TEXT_ENCYCLOPEDIA_SURVIVAL_NR_CANON_OPTION_1,MC75 (Tech level 3)
 TEXT_ENCYCLOPEDIA_SURVIVAL_NR_CANON_OPTION_2,Starhawk MKI (Tech level 5)
-TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION,Unlocks Paataatus Hiveborn Units:
-TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION1,Baomu Support Ship (Tech Level 2)
-TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION2,Shandian Enhanced Cruiser (Tech Level 2)
-TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION3,Jiucha Heavy Frigate (Tech Level 3)
 TEXT_ENCYCLOPEDIA_SURVIVAL_PACCIAN_FAVOUR_OPTION,Unlocks Paccian Governance Units:
 TEXT_ENCYCLOPEDIA_SURVIVAL_PACCIAN_FAVOUR_OPTION1,Kuuro Gunship (Tech Level 1)
 TEXT_ENCYCLOPEDIA_SURVIVAL_PACCIAN_FAVOUR_OPTION2,Rohkea Frigate (Tech Level 2)
 TEXT_ENCYCLOPEDIA_SURVIVAL_PACCIAN_FAVOUR_OPTION3,Raju Heavy Frigate (Tech Level 3)
+TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION,Unlocks Paataatus Hiveborn Units:
+TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION1,Baomu Support Ship (Tech Level 2)
+TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION2,Shandian Enhanced Cruiser (Tech Level 2)
+TEXT_ENCYCLOPEDIA_SURVIVAL_PAATAATUS_FAVOUR_OPTION3,Jiucha Heavy Frigate (Tech Level 3)
 TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_NR_CANON_OPTION,Unlocks the Canon Units MC75 and Starhawk-I at the Research Station. The AI cannot take this option.
 TEXT_EOTH_MENU_EMPTY_TANK,Empty Tank
 TEXT_EOTH_MENU_GARWIAN_UNITY,Garwian Unity
-TEXT_EOTH_MENU_PAATAATUS_HIVEBORN,Paataatus Hiveborn
 TEXT_EOTH_MENU_PACCIAN_GOVERNANCE,Paccian Governance
+TEXT_EOTH_MENU_PAATAATUS_HIVEBORN,Paataatus Hiveborn
 TEXT_EOTH_MENU_RANDOM_GROUP,Random Group
 TEXT_EOTH_MENU_START_CLONING,Start Cloning
 TEXT_EOTH_MENU_STORE_SAMPLE,Store Sample
@@ -2039,8 +2039,8 @@ TEXT_EVENT_JAG_127TH_SELECTOR_BODY,Jai'galaar's 127th Gunship Wing
 TEXT_EVENT_JAGGED_FEL_SELECTOR_BODY,Jagged Fel's Nssis Squadron
 TEXT_EVENT_JAKE_FARRELL_SELECTOR_BODY,Jake Farrell's Green Squadron
 TEXT_EVENT_LORRIR_SELECTOR_BODY,Lorrir's TIE Interceptor Squadron
-TEXT_EVENT_MAAREK_STELE_181ST_SELECTOR_BODY,Maarek Stele's 181st
 TEXT_EVENT_MYRSK_SELECTOR_BODY,Myrsk's Mankvim Squadron
+TEXT_EVENT_MAAREK_STELE_181ST_SELECTOR_BODY,Maarek Stele's 181st
 TEXT_EVENT_NERWAL_SELECTOR_BODY,E.C. Nerwal's Avenger Squadron
 TEXT_EVENT_OBERHAUR_SELECTOR_BODY,Jhon Oberhaur's Storm Squadron
 TEXT_EVENT_OBEROS_SELECTOR_BODY,Dalan Oberos' Squadron
@@ -2089,10 +2089,10 @@ TEXT_EVENT_WARLORD_CHOICE_HEADER,Choose a Warlord
 TEXT_EVENT_WARLORD_CHOICE_IMPERIAL_LIANNA,Imperial Lianna
 TEXT_EVENT_WARLORD_CHOICE_ISECTOR,I-sector
 TEXT_EVENT_WARLORD_CHOICE_JARDEEN,Imperial Jardeen
-TEXT_EVENT_WARLORD_CHOICE_KAARENTH_DISSENSION,Kaarenth Dissension
 TEXT_EVENT_WARLORD_CHOICE_KAMINO,Imperial Kamino
 TEXT_EVENT_WARLORD_CHOICE_KASHYYYK,Imperial Kashyyyk
 TEXT_EVENT_WARLORD_CHOICE_KUAT,Kuat Sector
+TEXT_EVENT_WARLORD_CHOICE_KAARENTH_DISSENSION,Kaarenth Dissension
 TEXT_EVENT_WARLORD_CHOICE_LAMBDA,Lambda Sector
 TEXT_EVENT_WARLORD_CHOICE_LUMIYA,Lumiya's Sith
 TEXT_EVENT_WARLORD_CHOICE_MAELSTROM,Maelstrom Command
@@ -2115,9 +2115,9 @@ TEXT_EVENT_WARLORD_CHOICE_TIERFON,Tierfon Sector
 TEXT_EVENT_WARLORD_CHOICE_VOGEL,Dustig Oversector
 TEXT_EVENT_WARLORD_CHOICE_WESSEX,Relgim Oversector
 TEXT_EVENT_WARLORD_CHOICE_WILD_SPACE,Delurin's Empire
-TEXT_EVENT_WARLORD_CHOICE_ZAARIN_REMNANTS,Zaarin Remnants
 TEXT_EVENT_WARLORD_CHOICE_ZERO_COMMAND,Zero Command
 TEXT_EVENT_WARLORD_CHOICE_ZSINJ_REMNANTS,Zsinj Remnants
+TEXT_EVENT_WARLORD_CHOICE_ZAARIN_REMNANTS,Zaarin Remnants
 TEXT_EVENT_WARLORDSTART_MORE,More options
 TEXT_EVENT_WEDGE_ANTILLES_ROGUE_SELECTOR_BODY,Wedge Antilles's Rogue Squadron
 TEXT_EVENT_WHISPER_SELECTOR_BODY,Whisper's Sigma Squadron
@@ -2159,8 +2159,6 @@ TEXT_GCMENU_BACTAWAR,Bacta War (36)
 TEXT_GCMENU_BACTAWAR_TOOLTIP,Planets: 36 | Approximate CPU Load: Low
 TEXT_GCMENU_BORDERLANDS,Borderlands Region (76)
 TEXT_GCMENU_BORDERLANDS_TOOLTIP,Planets: 76 | Approximate CPU Load: Medium - High
-TEXT_GCMENU_CAAMAS,Caamas Crisis (42)
-TEXT_GCMENU_CAAMAS_TOOLTIP,Planets: 42 | Approximate CPU Load: Medium
 TEXT_GCMENU_CORPORATEACQUISITIONS,Corporate Acquisitions (~25)
 TEXT_GCMENU_CORPORATEACQUISITIONS_TOOLTIP,Planets: ~25 (Varies) | Approximate CPU Load: Low
 TEXT_GCMENU_CRIMSON_EMPIRE,Crimson Empire (59)
@@ -2172,6 +2170,8 @@ TEXT_GCMENU_CUSTOM_LARGE,Custom GC Large (~172)
 TEXT_GCMENU_CUSTOM_MEDIUM,Custom GC Medium (~133)
 TEXT_GCMENU_CUSTOM_SMALL,Custom GC Small (~103)
 TEXT_GCMENU_CUSTOM_TOOLTIP,Planets: Selectable | Approximate CPU Load: Medium - High
+TEXT_GCMENU_CAAMAS,Caamas Crisis (42)
+TEXT_GCMENU_CAAMAS_TOOLTIP,Planets: 42 | Approximate CPU Load: Medium
 TEXT_GCMENU_DEEPCORECONFLICT,Deep Core Conflict (~16)
 TEXT_GCMENU_DEEPCORECONFLICT_TOOLTIP,Planets: ~16 (Varies) | Approximate CPU Load: Low
 TEXT_GCMENU_EMPIRES_AT_WAR,Empires at War (120)
@@ -2304,8 +2304,8 @@ TEXT_GOVERNMENT_EMPIRE_SSD_HERO_RASLAN_RAZORS_KISS,Raslan (commands Executor Sta
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_ROGRISS_DOMINION,Teren Rogriss (commands Bellator Star Dreadnought, Dominion)
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_SYSCO_VENGEANCE,Sysco (commands Vengeance Star Dreadnought, Vengeance)
 TEXT_GOVERNMENT_EMPIRE_SSD_HERO_THORN,Daymon Thorn (commands Assertor Star Dreadnought, Assertor)
-TEXT_GOVERNMENT_EMPIRE_SSD_LEADER_DAALA,Natasi Daala (commands Executor Star Dreadnought, Knight Hammer)
 TEXT_GOVERNMENT_EMPIRE_SSD_LEADER_DELVARDUS,Sander Delvardus (commands Executor Star Dreadnought, Night Hammer)
+TEXT_GOVERNMENT_EMPIRE_SSD_LEADER_DAALA,Natasi Daala (commands Executor Star Dreadnought, Knight Hammer)
 TEXT_GOVERNMENT_EMPIRE_SSD_LEADER_ISARD,Ysanne Isard (commands Executor Star Dreadnought, Lusankya)
 TEXT_GOVERNMENT_EMPIRE_SSD_LEADER_KAINE,Ardus Kaine (commands Executor Star Dreadnought, Reaper)
 TEXT_GOVERNMENT_EMPIRE_SSD_LEADER_PELLAEON_MEGADOR,Gilad Pellaeon (commands Mandator-III Star Dreadnought, Megador)
@@ -2460,6 +2460,12 @@ TEXT_GOVERNMENT_EOTH_MENU_OVERVIEW_6,by completing missions from them. To reques
 TEXT_GOVERNMENT_EOTH_MENU_OVERVIEW_7,from a specific group, select the faction’s icon. 
 TEXT_GOVERNMENT_EOTH_MENU_OVERVIEW_8,Improving your relationship will unlock new units, heroes
 TEXT_GOVERNMENT_EOTH_MENU_OVERVIEW_9,or mechanics at each available level. Hover over the 
+TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_1,Unit Unlock: Kuuro Gunship
+TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_2,Unit Unlock: Rohkea Frigate
+TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_3,Unit Unlock: Paccosh Missile Tank
+TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_4,Unit Unlock: Raju Heavy Frigate
+TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_5,Hero: Uingali foar Marocsaa | Raju Heavy Frigate
+TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_SELECT,Request Paccosh Missions
 TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_1,Unit Unlock: Paataatus Skiff
 TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_2,Unit Unlock: Baomu Fleet Tender
 TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_3,Unit Unlock: Shandian Enhanced Cruiser
@@ -2467,12 +2473,6 @@ TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_4,Unit Unlock: Jiucha Heavy Frigate
 TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_5,Hero: Prince Militaire | Jiucha Heavy Frigate
 TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_6,Faction Ability: Paataatus crews provide salvage for your faction when enemy units are killed.
 TEXT_GOVERNMENT_EOTH_MENU_PAATAATUS_SELECT,Request Paataatus Missions
-TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_1,Unit Unlock: Kuuro Gunship
-TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_2,Unit Unlock: Rohkea Frigate
-TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_3,Unit Unlock: Paccosh Missile Tank
-TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_4,Unit Unlock: Raju Heavy Frigate
-TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_5,Hero: Uingali foar Marocsaa | Raju Heavy Frigate
-TEXT_GOVERNMENT_EOTH_MENU_PACCIAN_SELECT,Request Paccosh Missions
 TEXT_GOVERNMENT_EOTH_MENU_RANDOM_SELECT,Request a Random Mission from any faction
 TEXT_GOVERNMENT_EOTH_PHALANX_DEFENSE,Call Phalanx Defense Force
 TEXT_GOVERNMENT_GENERAL_LIST,Active Ground Officers:
@@ -2569,9 +2569,9 @@ TEXT_GOVERNMENT_LEGITIMACY_GROUP_VERPALION,[ Verpalion Group Unlocked ] - Verpal
 TEXT_GOVERNMENT_LEGITIMACY_GROUP_VOGEL,[ Vogel 7 Group Unlocked ] - Lynch Hauser: I was one of the first chosen by Palpatine to restore order to the disorder of the Republic, and under your leadership I shall destroy the chaos that envelops us once more.
 TEXT_GOVERNMENT_LEGITIMACY_GROUP_WESSEX,[ Wessex Family Group Unlocked ] - Lira Wessex: Though my father is a traitor, the Wessex Family is still loyal. We will prove it by bringing my errant father before you on his knees.
 TEXT_GOVERNMENT_LEGITIMACY_GROUP_X1,[ X1's Group Unlocked ] - X1: The galaxy has become a dangerous place. Dangerous enough that I am considering an alliance with the likes of you. Don’t keep me waiting.
-TEXT_GOVERNMENT_LEGITIMACY_GROUP_ZAARIN_REMNANTS,[ Zaarin Remnants Group Unlocked ] - Raveen: Grand Admiral Zaarin understood that technology was the key to victory. We will put his tools in your hands and serve you as we did him.
 TEXT_GOVERNMENT_LEGITIMACY_GROUP_ZANN,[ Zann Consortium Group Unlocked ] - Tyber Zann: The New Republic isn't as corruptible as I hoped, and the rest of the Empire has it out for us both. Cooperation would be in our mutual interest.
 TEXT_GOVERNMENT_LEGITIMACY_GROUP_ZSINJ_REMNANTS,[ Zsinj Remnants Group Unlocked ] - Lanu Pasiq: You may appreciate my service, along with a few lackeys I collected when Zsinj fell. I have misjudged one leader: don’t prove my predictions wrong a second time.
+TEXT_GOVERNMENT_LEGITIMACY_GROUP_ZAARIN_REMNANTS,[ Zaarin Remnants Group Unlocked ] - Raveen: Grand Admiral Zaarin understood that technology was the key to victory. We will put his tools in your hands and serve you as we did him.
 TEXT_GOVERNMENT_LEGITIMACY_LUMIYA_REWARD_1,Lumiya (Sith)
 TEXT_GOVERNMENT_LEGITIMACY_LUMIYA_REWARD_2,Bethrogg (ISD-II)
 TEXT_GOVERNMENT_LEGITIMACY_LUMIYA_REWARD_3,Valek (Nebulon-B)
@@ -2768,9 +2768,9 @@ TEXT_GROUP_DESCRIPTION_VERPALION,Recruits: Rodin Hlian Verpalion
 TEXT_GROUP_DESCRIPTION_VOGEL,Recruits: Trommer and Lynch Hauser
 TEXT_GROUP_DESCRIPTION_WESSEX,Recruits: Lira Wessex and Denn Wessex
 TEXT_GROUP_DESCRIPTION_X1,Recruits: X1
-TEXT_GROUP_DESCRIPTION_ZAARIN_REMNANTS,Recruits: Raveen, "Deathfire" McDibbs
 TEXT_GROUP_DESCRIPTION_ZANN,Recruits: Tyber Zann, Urai Fen and Jerid Sykes
 TEXT_GROUP_DESCRIPTION_ZSINJ_REMNANTS,Recruits: Lanu Pasiq, Bock Nabyl, and 2 Raptor Commando teams
+TEXT_GROUP_DESCRIPTION_ZAARIN_REMNANTS,Recruits: Raveen, "Deathfire" McDibbs
 TEXT_GROUP_NAME_ANTEM,Antemeridian Sector Group
 TEXT_GROUP_NAME_ARDA,Arda-1 Group
 TEXT_GROUP_NAME_BALAN,Balan's Group
@@ -2830,9 +2830,9 @@ TEXT_GROUP_NAME_VERPALION,Verpalion Group
 TEXT_GROUP_NAME_VOGEL,Vogel 7 Group
 TEXT_GROUP_NAME_WESSEX,Wessex Family Group
 TEXT_GROUP_NAME_X1,X1's Group
-TEXT_GROUP_NAME_ZAARIN_REMNANTS,Zaarin Remnants Group
 TEXT_GROUP_NAME_ZANN,Zann Consortium Group
 TEXT_GROUP_NAME_ZSINJ_REMNANTS,Zsinj Remnants Group
+TEXT_GROUP_NAME_ZAARIN_REMNANTS,Zaarin Remnants Group
 TEXT_GUARDIAN_SQUADRON,Guardian Squadron
 TEXT_HAPAN_ALGRAY_HOUSE,AlGray House Land Title
 TEXT_HAPAN_ALGRAY_SHIPYARDS,AlGray House Shipyard
@@ -2848,7 +2848,6 @@ TEXT_HAPAN_REQUUD_SHIPYARDS,Requud House Shipyard
 TEXT_HAPAN_ROYAL_SHIPYARDS,Royal House Shipyard
 TEXT_HAPAN_THANE_HOUSE,Thane House Land Title
 TEXT_HAPAN_THANE_SHIPYARDS,Thane House Shipyard
-TEXT_HERO_AARICA_VOST,Aarica Vost
 TEXT_HERO_ABAHT,Etahn A'baht
 TEXT_HERO_ACKDOOL,Ackdool
 TEXT_HERO_ADALRIC_BRANDL,Adalric Cessius Brandl
@@ -2935,7 +2934,6 @@ TEXT_HERO_CREB,Creb
 TEXT_HERO_CRIX_MADINE,Crix Madine
 TEXT_HERO_CRONAL,Cronal
 TEXT_HERO_CRONUS,Ivan Cronus
-TEXT_HERO_DAALA,Natasi Daala
 TEXT_HERO_DAGON_NIRIZ,Dagon Niriz
 TEXT_HERO_DANGOR,Ars Dangor
 TEXT_HERO_DARCC,Hindane Darcc
@@ -2965,13 +2963,13 @@ TEXT_HERO_DURGA,Durga Besadii Tai
 TEXT_HERO_DURON_VEERTAG,Duron Veertag
 TEXT_HERO_DYRRA,Dyrra
 TEXT_HERO_DYYZ_NATAZ,Dyyz Nataz
+TEXT_HERO_DAALA,Natasi Daala
 TEXT_HERO_ELLOR,Ellor Orgraal
 TEXT_HERO_ENNIX_DEVIAN,Ennix Devian
 TEXT_HERO_ENTEL,Jor Entel
 TEXT_HERO_ERISI_DLARIT,Erisi Dlarit
 TEXT_HERO_EVIR_DERRICOTE,Evir Derricote
 TEXT_HERO_EXOV,Exov
-TEXT_HERO_FAARL,Faarl
 TEXT_HERO_FABLE_ASTIN,Fable Astin
 TEXT_HERO_FASSER,Dakka Fasser
 TEXT_HERO_FAUGHN,Shirlee Faughn
@@ -2986,6 +2984,7 @@ TEXT_HERO_FORMBI,Chaf'orm'bintrano
 TEXT_HERO_FOUC,Mandus Fouc
 TEXT_HERO_FRANGELIC,Frangelic
 TEXT_HERO_FREDJA,Fredja
+TEXT_HERO_FAARL,Faarl
 TEXT_HERO_GALNEY_COMMANDER,Galney House Fleet Commander
 TEXT_HERO_GANN,Cinzero Gann
 TEXT_HERO_GARM_BEL_IBLIS,Garm Bel Iblis
@@ -3033,7 +3032,6 @@ TEXT_HERO_IRY_DANTA,Iry Danta
 TEXT_HERO_ISARD,Ysanne Isard
 TEXT_HERO_ISOLDER,Isolder
 TEXT_HERO_IVPIKKIS,Ivpikkis
-TEXT_HERO_JAALIB_BRANDL,Jaalib Brandl
 TEXT_HERO_JACE_YIASO,Jace Yiaso
 TEXT_HERO_JAG,Jai'galaar "Jag"
 TEXT_HERO_JAGGED_FEL,Jagged Fel
@@ -3053,6 +3051,7 @@ TEXT_HERO_JOHANS,Zel Johans
 TEXT_HERO_JONUS,Jonus
 TEXT_HERO_JORUUS_CBAOTH,Joruus C'baoth
 TEXT_HERO_JOSHI,Joshi
+TEXT_HERO_JAALIB_BRANDL,Jaalib Brandl
 TEXT_HERO_KADANN,Kadann
 TEXT_HERO_KADANN_FALSE,Rajah Ubooki
 TEXT_HERO_KAEROBANI,Kaerobani
@@ -3107,7 +3106,6 @@ TEXT_HERO_LOVETT,Hesha Lovett
 TEXT_HERO_LUKE_SKYWALKER,Luke Skywalker
 TEXT_HERO_LUKE_SKYWALKER_TEAM,Luke Skywalker
 TEXT_HERO_LUMIYA,Lumiya
-TEXT_HERO_MAAREK_STELE,Maarek Stele
 TEXT_HERO_MALCOM,Malcom
 TEXT_HERO_MALCOR_BRASHIN,Malcor Brashin
 TEXT_HERO_MALURI_COMMANDER,Maluri House Fleet Commander
@@ -3131,6 +3129,7 @@ TEXT_HERO_MOXIN_TARK,Moxin Tark
 TEXT_HERO_MULLINORE,Mullinore
 TEXT_HERO_MUZZER,Muzzer
 TEXT_HERO_MYRSK,Myrsk
+TEXT_HERO_MAAREK_STELE,Maarek Stele
 TEXT_HERO_NABYL,Bock Nabyl
 TEXT_HERO_NAMMO,Nammo
 TEXT_HERO_NEOMEN,Barse Neomen
@@ -3249,7 +3248,6 @@ TEXT_HERO_STORMTROOPER_X,Stormtrooper X
 TEXT_HERO_STRANG,Victor Strang
 TEXT_HERO_SYN,Peccati Syn
 TEXT_HERO_SYSCO,Sysco
-TEXT_HERO_TAA_CHUME,Ta'a Chume
 TEXT_HERO_TAL_ASHEN,Tal Ashen
 TEXT_HERO_TAL_FRAAN,Tal Fraan
 TEXT_HERO_TALBERENINA,Imre Talberenina
@@ -3309,6 +3307,7 @@ TEXT_HERO_TYR_TASKEEN,Tyr Taskeen
 TEXT_HERO_TYRESI,Tyresi Gurtt
 TEXT_HERO_TYRUS,Tyrus
 TEXT_HERO_TZENKENS,Tzenkens
+TEXT_HERO_TAA_CHUME,Ta'a Chume
 TEXT_HERO_UINGALI,Uingali foar Marocsaa
 TEXT_HERO_ULRIC_TAGGE,Ulric Tagge
 TEXT_HERO_UMAK,Umak Leth
@@ -3370,6 +3369,7 @@ TEXT_HERO_ZAM_BASDOR,Zam Basdor
 TEXT_HERO_ZED,Akal Zed
 TEXT_HERO_ZSINJ,Zsinj
 TEXT_HERO_ZUMA,Mander Zuma
+TEXT_HERO_AARICA_VOST,Aarica Vost
 TEXT_HLAF_SQUADRON,H/LAF-500 Squadron
 TEXT_HLAF_SQUADRON_HALF,H/LAF-500 Squadron 1/2
 TEXT_HLAF_SQUADRON2,H/LAF-500 Squadron x2
@@ -3388,12 +3388,12 @@ TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_GARWIAN_SPEECH_03,Garwian Unity Lia
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: The development of civilization in these regions is dependent on proper build-up. Construct these buildings and I will funnel more supplies into this project.
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: Rightful order has been shored up in the region. You have done well, take these supplies that will not be missed.
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: This project is a wasted investment if you cannot maintain simple quotas.
-TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: This empire needs to show it has more than just a strong hand backing its rule. Develop these lands so we may see you are not simply exploiting our trust.
-TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: You have shown you have the ability to not just destroy but cultivate. Take this as an expression of gratitude.
-TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: How can you expect our support if you show so little care to your own people? Perhaps we have misjudged this alliance...
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: This empire needs to show it has more than just a strong hand backing its rule. Develop these lands so we may see you are not simply exploiting our trust.
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: You have shown you have the ability to not just destroy but cultivate. Take this as an expression of gratitude.
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: How can you expect our support if you show so little care to your own people? Perhaps we have misjudged this alliance...
+TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: This empire needs to show it has more than just a strong hand backing its rule. Develop these lands so we may see you are not simply exploiting our trust.
+TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: You have shown you have the ability to not just destroy but cultivate. Take this as an expression of gratitude.
+TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: How can you expect our support if you show so little care to your own people? Perhaps we have misjudged this alliance...
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  The Algray house is intrigued by a recent development project. Your support in this endeavor will enhance our favour for you.
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  The Algray House thanks you Commander, this will undoubtedly strengthen our house.
 TEXT_INTERVENTION_BUILDSTRUCTURESGROUND_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  Your failure to complete this project on time has affected the Algray House's credibility. Future projects may need to be placed under alternative management.
@@ -3436,12 +3436,12 @@ TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liai
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: The upkeep of our colonial affairs is at risk without proper orbital structures to maintain control. I suggest you correct this before it becomes a problem.
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: Imperial might must be strong no matter where it is present. It is good you are aware of this.
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: Your control of your territories is a disgrace to the Empire. How unfortunately unsurprising.
-TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Concerns have been raised over planets in the confederation lacking orbital support. Correcting this would please us immensely.
-TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Your answer to our request has mollified concerns over your commitments to our alliance. We shall show our commitment in turn.
-TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: How can we commit to your cause if you have no interest in protecting your people?
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: Concerns have been raised over planets in the confederation lacking orbital support. Correcting this would please us immensely.
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: Your answer to our request has mollified concerns over your commitments to our alliance. We shall show our commitment in turn.
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: How can we commit to your cause if you have no interest in protecting your people?
+TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Concerns have been raised over planets in the confederation lacking orbital support. Correcting this would please us immensely.
+TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Your answer to our request has mollified concerns over your commitments to our alliance. We shall show our commitment in turn.
+TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: How can we commit to your cause if you have no interest in protecting your people?
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  The Algray House wishes to expand the planetary facilities available in Hapan Space. Construct the necessary infrastructure and you shall be rewarded appropriately.
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  This new infrastructure has been most beneficial to the Algray House. We shall grant you additional resources to compensate your generous investment.
 TEXT_INTERVENTION_BUILDSTRUCTURESSPACE_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  Your negligence in developing orbital facilities for the Algray House is most shameful.
@@ -3485,12 +3485,12 @@ TEXT_INTERVENTION_CREDITINCOME_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: I a
 TEXT_INTERVENTION_CREDITINCOME_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: Prosperity under our order is the key to showing its success. Raise the flow of taxable income to show our work here has benefit to our sponsors.
 TEXT_INTERVENTION_CREDITINCOME_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: The reports have been filed, and they have pleased Imperial officials greatly. They have authorized the transfer of surplus units to your command.
 TEXT_INTERVENTION_CREDITINCOME_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: You will gain nothing if you cannot show your efforts have some value attached to them.
-TEXT_INTERVENTION_CREDITINCOME_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Several of our prominent merchants have expressed a desire to support our pact with you, but have concerns for your economic stability. If your prosperity grew ever greater, their concerns can be assuaged.
-TEXT_INTERVENTION_CREDITINCOME_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Our merchants are more eager than ever to commit to our pact and further trade. They have sponsored new forces for your use to show their support.
-TEXT_INTERVENTION_CREDITINCOME_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: I apologize, but the merchants' interest has petered out. New markets have taken their attention.
 TEXT_INTERVENTION_CREDITINCOME_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: Several of our prominent merchants have expressed a desire to support our pact with you, but have concerns for your economic stability. If your prosperity grew ever greater, their concerns can be assuaged.
 TEXT_INTERVENTION_CREDITINCOME_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: Our merchants are more eager than ever to commit to our pact and further trade. They have sponsored new forces for your use to show their support.
 TEXT_INTERVENTION_CREDITINCOME_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: I apologize, but the merchants' interest has petered out. New markets have taken their attention.
+TEXT_INTERVENTION_CREDITINCOME_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Several of our prominent merchants have expressed a desire to support our pact with you, but have concerns for your economic stability. If your prosperity grew ever greater, their concerns can be assuaged.
+TEXT_INTERVENTION_CREDITINCOME_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Our merchants are more eager than ever to commit to our pact and further trade. They have sponsored new forces for your use to show their support.
+TEXT_INTERVENTION_CREDITINCOME_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: I apologize, but the merchants' interest has petered out. New markets have taken their attention.
 TEXT_INTERVENTION_CREDITINCOME_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  The Algray House is expected to fall short of the projected seasonal budget. We need your help acquiring the necessary credits to alleviate this.
 TEXT_INTERVENTION_CREDITINCOME_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  Your swift actions have helped us tremendously, my thanks Commander.
 TEXT_INTERVENTION_CREDITINCOME_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  Your failure in management has caused a dire situation in the Algray House; clearly we should have done this ourselves from the beginning.
@@ -3533,12 +3533,12 @@ TEXT_INTERVENTION_CREWINCOME_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: We ha
 TEXT_INTERVENTION_CREWINCOME_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: Concern has been raised from abroad that you do not have the manpower to maintain fleet superiority in the region. You are expected to prove these concerns unfounded.
 TEXT_INTERVENTION_CREWINCOME_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: Very good, your recruit numbers have impressed certain eyes from Imperial territory that have joined us as a result.
 TEXT_INTERVENTION_CREWINCOME_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: Imperial justice is nothing without enough hands to enforce it. It is too late to impress, but I suggest you make up for your lacking results for the future.
-TEXT_INTERVENTION_CREWINCOME_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: While we desire further cooperation, your recruits seem unable to cover the depth of your own territory. We would not be swindled into an alliance where we are expected to do the heavy lifting, so I ask you prove us wrong.
-TEXT_INTERVENTION_CREWINCOME_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Your numbers impress us greatly with their quantity and skill! It would be an honor for our soldiers to fight at the side of yours!
-TEXT_INTERVENTION_CREWINCOME_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: We have not been persuaded your fleet numbers are sufficient to commit too at the current rate. We will hedge our bets at this time.
 TEXT_INTERVENTION_CREWINCOME_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: While we desire further cooperation, your recruits seem unable to cover the depth of your own territory. We would not be swindled into an alliance where we are expected to do the heavy lifting, so I ask you prove us wrong.
 TEXT_INTERVENTION_CREWINCOME_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: Your numbers impress us greatly with their quantity and skill! It would be an honor for our soldiers to fight at the side of yours!
 TEXT_INTERVENTION_CREWINCOME_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: We have not been persuaded your fleet numbers are sufficient to commit too at the current rate. We will hedge our bets at this time.
+TEXT_INTERVENTION_CREWINCOME_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: While we desire further cooperation, your recruits seem unable to cover the depth of your own territory. We would not be swindled into an alliance where we are expected to do the heavy lifting, so I ask you prove us wrong.
+TEXT_INTERVENTION_CREWINCOME_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Your numbers impress us greatly with their quantity and skill! It would be an honor for our soldiers to fight at the side of yours!
+TEXT_INTERVENTION_CREWINCOME_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: We have not been persuaded your fleet numbers are sufficient to commit too at the current rate. We will hedge our bets at this time.
 TEXT_INTERVENTION_CREWINCOME_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  The Algray House's Navy is in need of fresh recruits. Deal with this deficiency and you will be compensated properly.
 TEXT_INTERVENTION_CREWINCOME_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  It is good to have a commander who is so reliable. Here is your reward.
 TEXT_INTERVENTION_CREWINCOME_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  How is our navy supposed to function without new recruits?
@@ -3581,12 +3581,12 @@ TEXT_INTERVENTION_HUNTTARGETA_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: The 
 TEXT_INTERVENTION_HUNTTARGETA_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: Illicit cargo taken from our own surplus has been sighted. Track it down and ensure they cannot continue this insult.
 TEXT_INTERVENTION_HUNTTARGETA_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: Your swift reprisal impressed several Imperial officers I've maintained contact with. I have enlisted their support which should make up for the lost supplies.
 TEXT_INTERVENTION_HUNTTARGETA_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: How can you expect respect if you let thieves steal from you and run rampant? The Empire would not let this stand in its prime.
-TEXT_INTERVENTION_HUNTTARGETA_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: A convoy carrying supplies for one of our rivals has been sighted. If you would intercept it, we would be most gracious.
-TEXT_INTERVENTION_HUNTTARGETA_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Thank you for this, the supplies lost will hopefully make them a leaner target for our own expansion. Accept these forces as a show of our gratitude.
-TEXT_INTERVENTION_HUNTTARGETA_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: The convoy has reached its destination and our rivals are flush with food and medicine. This displeases our leaders greatly.
 TEXT_INTERVENTION_HUNTTARGETA_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: A convoy carrying supplies for one of our rivals has been sighted. If you would intercept it, we would be most gracious.
 TEXT_INTERVENTION_HUNTTARGETA_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: Thank you for this, the supplies lost will hopefully make them a leaner target for our own expansion. Accept these forces as a show of our gratitude.
 TEXT_INTERVENTION_HUNTTARGETA_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: The convoy has reached its destination and our rivals are flush with food and medicine. This displeases our leaders greatly.
+TEXT_INTERVENTION_HUNTTARGETA_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: A convoy carrying supplies for one of our rivals has been sighted. If you would intercept it, we would be most gracious.
+TEXT_INTERVENTION_HUNTTARGETA_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Thank you for this, the supplies lost will hopefully make them a leaner target for our own expansion. Accept these forces as a show of our gratitude.
+TEXT_INTERVENTION_HUNTTARGETA_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: The convoy has reached its destination and our rivals are flush with food and medicine. This displeases our leaders greatly.
 TEXT_INTERVENTION_HUNTTARGETA_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  Our intelligence has tracked an enemy supply convoy close to our front lines. Destroying it will cripple their local supply network.
 TEXT_INTERVENTION_HUNTTARGETA_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  Excellent work. Our salvage teams were able to recover some of the spilled cargo. Take this as a sign of gratitude from the Algray House.
 TEXT_INTERVENTION_HUNTTARGETA_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  You have failed to strike a blow to the enemy, and worse, put a stain on the Algray House's legacy!
@@ -3629,12 +3629,12 @@ TEXT_INTERVENTION_INFILTRATION_EOTH_GARWIAN_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_EOTH_IMPERIALS_SPEECH_01,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_EOTH_IMPERIALS_SPEECH_02,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_EOTH_IMPERIALS_SPEECH_03,  UNUSED
-TEXT_INTERVENTION_INFILTRATION_EOTH_PAATAATUS_SPEECH_01,  UNUSED
-TEXT_INTERVENTION_INFILTRATION_EOTH_PAATAATUS_SPEECH_02,  UNUSED
-TEXT_INTERVENTION_INFILTRATION_EOTH_PAATAATUS_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_EOTH_PACCIAN_SPEECH_01,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_EOTH_PACCIAN_SPEECH_02,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_EOTH_PACCIAN_SPEECH_03,  UNUSED
+TEXT_INTERVENTION_INFILTRATION_EOTH_PAATAATUS_SPEECH_01,  UNUSED
+TEXT_INTERVENTION_INFILTRATION_EOTH_PAATAATUS_SPEECH_02,  UNUSED
+TEXT_INTERVENTION_INFILTRATION_EOTH_PAATAATUS_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_INFILTRATION_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  UNUSED
 TEXT_INTERVENTION_INFILTRATION_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  UNUSED
 TEXT_INTERVENTION_INFILTRATION_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  UNUSED
@@ -3677,12 +3677,12 @@ TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_GARWIAN_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_IMPERIALS_SPEECH_01,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_IMPERIALS_SPEECH_02,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_IMPERIALS_SPEECH_03,  UNUSED
-TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PAATAATUS_SPEECH_01,  UNUSED
-TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PAATAATUS_SPEECH_02,  UNUSED
-TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PAATAATUS_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PACCIAN_SPEECH_01,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PACCIAN_SPEECH_02,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PACCIAN_SPEECH_03,  UNUSED
+TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PAATAATUS_SPEECH_01,  UNUSED
+TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PAATAATUS_SPEECH_02,  UNUSED
+TEXT_INTERVENTION_PRISONER_RESCUE_EOTH_PAATAATUS_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_NR_SPEECH_01,UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_NR_SPEECH_02,UNUSED
 TEXT_INTERVENTION_PRISONER_RESCUE_NR_SPEECH_03,UNUSED
@@ -3699,12 +3699,12 @@ TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_GARWIAN_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_IMPERIALS_SPEECH_01,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_IMPERIALS_SPEECH_02,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_IMPERIALS_SPEECH_03,  UNUSED
-TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PAATAATUS_SPEECH_01,  UNUSED
-TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PAATAATUS_SPEECH_02,  UNUSED
-TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PAATAATUS_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PACCIAN_SPEECH_01,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PACCIAN_SPEECH_02,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PACCIAN_SPEECH_03,  UNUSED
+TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PAATAATUS_SPEECH_01,  UNUSED
+TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PAATAATUS_SPEECH_02,  UNUSED
+TEXT_INTERVENTION_RAISE_INFLUENCE_EOTH_PAATAATUS_SPEECH_03,  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  UNUSED
 TEXT_INTERVENTION_RAISE_INFLUENCE_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  UNUSED
@@ -3747,12 +3747,12 @@ TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liais
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: I have clandestinely contacted a Moff who would be interested in supporting us, if not for fears our territory could be a wasted investment. Accelerate infrastructure output to ensure they know they would be getting their credits worth out of our project here.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: The Moff is impressed with the results, and has transferred some of their own reserves to our command to ensure their stake in the region. You've done well here.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: The lack of any progress has caused the Moff to back out and cut contact. All that effort, wasted by your ineptitude!
-TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: It is most concerning that your territory remains so barren. We have no interest in supporting a fragile power, and ask you assuage our concerns.
-TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Impressive, your new developments impressed our officials, who have authorized forces to be leased to your command.
-TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: You have done nothing to prove our doubters wrong. Most vexing if you wish us to continue our arrangements.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: It is most concerning that your territory remains so barren. We have no interest in supporting a fragile power, and ask you assuage our concerns.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: Impressive, your new developments impressed our officials, who have authorized forces to be leased to your command.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: You have done nothing to prove our doubters wrong. Most vexing if you wish us to continue our arrangements.
+TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: It is most concerning that your territory remains so barren. We have no interest in supporting a fragile power, and ask you assuage our concerns.
+TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: Impressive, your new developments impressed our officials, who have authorized forces to be leased to your command.
+TEXT_INTERVENTION_RAISEINFRASTRUCTURE_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: You have done nothing to prove our doubters wrong. Most vexing if you wish us to continue our arrangements.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  This war has impacted the Algray House's administrative capabilities. Reach these quotas and we will return to optimal levels.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  Many thanks Commander, you have stabilised our house sufficiently.
 TEXT_INTERVENTION_RAISEINFRASTRUCTURE_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  Your incompetence has caused the stability of the Algray House to been called into question by the other houses.
@@ -3795,12 +3795,12 @@ TEXT_INTERVENTION_RECON_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: Most disap
 TEXT_INTERVENTION_RECON_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: Intelligence in key to survive in the dangerous corners of the galaxy, and we are no exception. Send intelligence gathering units on these locations to see if anything there should concern us.
 TEXT_INTERVENTION_RECON_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: These reports will ensure our external security is maintained. I've siphoned off some forces from excess Imperial reserves as my thanks for your commitment.
 TEXT_INTERVENTION_RECON_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: Is it arrogance or stupidity that makes you think you can simply fly like a mynock beyond our territory without good prudence?
-TEXT_INTERVENTION_RECON_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: The galaxy is a wide place, and we would learn more of what danger might lie within it. We ask that you survey these locations and inform us what lies there for both of our benefit.
-TEXT_INTERVENTION_RECON_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: It is a relief to have reliable information, and a reliable ally in yourself. Let these units be a symbol of our mutual cooperation.
-TEXT_INTERVENTION_RECON_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: Most disappointing. If you see helping us as beneath you, perhaps this alliance is not worth it...
 TEXT_INTERVENTION_RECON_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: The galaxy is a wide place, and we would learn more of what danger might lie within it. We ask that you survey these locations and inform us what lies there for both of our benefit.
 TEXT_INTERVENTION_RECON_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: It is a relief to have reliable information, and a reliable ally in yourself. Let these units be a symbol of our mutual cooperation.
 TEXT_INTERVENTION_RECON_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: Most disappointing. If you see helping us as beneath you, perhaps this alliance is not worth it...
+TEXT_INTERVENTION_RECON_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: The galaxy is a wide place, and we would learn more of what danger might lie within it. We ask that you survey these locations and inform us what lies there for both of our benefit.
+TEXT_INTERVENTION_RECON_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: It is a relief to have reliable information, and a reliable ally in yourself. Let these units be a symbol of our mutual cooperation.
+TEXT_INTERVENTION_RECON_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: Most disappointing. If you see helping us as beneath you, perhaps this alliance is not worth it...
 TEXT_INTERVENTION_RECON_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  The Algray House requests that you set up surveillance on these worlds. Successful reconnaissance will aid us greatly. 
 TEXT_INTERVENTION_RECON_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  My house thanks you Commander. The intelligence gained has been invaluable.
 TEXT_INTERVENTION_RECON_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  The lack of intelligence does not bode well for our house.
@@ -3897,12 +3897,12 @@ TEXT_INTERVENTION_TAKEPLANETANY_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: Yo
 TEXT_INTERVENTION_TAKEPLANETANY_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: If we are to triumph over uncivilized hordes we must show we have the strength to squash their defiance. A nearby world is the perfect place to flex our power, and show that our empire's talons are no less sharp than our peers.
 TEXT_INTERVENTION_TAKEPLANETANY_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: Magnificent! Through this conquest we have gained the respect and support of several Imperials. You have made me proud to serve you today, commander.
 TEXT_INTERVENTION_TAKEPLANETANY_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: Your impotence in subjugating this world disappoints me. I and the Empire expected better of you...
-TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Our people fear threats from beyond. Regardless of their validity, if you would mitigate these fears by conquering this world, we would be most grateful.
-TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: You are as proficient an ally as you are a leader, commander. With this, our own influence can expand without threat. You may take this as thanks.
-TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: You ignore our concerns, so we have no choice but to snub further support for your confederation for now.
 TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: Our people fear threats from beyond. Regardless of their validity, if you would mitigate these fears by conquering this world, we would be most grateful.
 TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: You are as proficient an ally as you are a leader, commander. With this, our own influence can expand without threat. You may take this as thanks.
 TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: You ignore our concerns, so we have no choice but to snub further support for your confederation for now.
+TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Our people fear threats from beyond. Regardless of their validity, if you would mitigate these fears by conquering this world, we would be most grateful.
+TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: You are as proficient an ally as you are a leader, commander. With this, our own influence can expand without threat. You may take this as thanks.
+TEXT_INTERVENTION_TAKEPLANETANY_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: You ignore our concerns, so we have no choice but to snub further support for your confederation for now.
 TEXT_INTERVENTION_TAKEPLANETANY_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  This planet is of much interest to the Algray House. Send an expedition to assert Hapan authority over it, allowing us to advance over the other houses.
 TEXT_INTERVENTION_TAKEPLANETANY_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  Good work, Commander. The Algray House will surely surpass the rest!
 TEXT_INTERVENTION_TAKEPLANETANY_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  Your inability to secure this world has affected the Algray Houses reputation. We cannot justify supporting such failure.
@@ -3945,12 +3945,12 @@ TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: 
 TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: Imperial officers have contacted us, and designated a nearby world as an appropriate target for our expansion efforts. In exchange, they offer further support after a successful conquest.
 TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: Imperial justice remains firm even in this new empire. Your decisive conquest has earned the Empire of the Hand the allegiance of several Imperials forces.
 TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: Your lack of resolution is most disheartening to officers of the Empire. Power cannot be sustained if you cannot exercise it properly.
-TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Concerning news; a mutual threat to us both is building up forces on this world. If you remove them, it would benefit us both. 
-TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: This news is a relief, commander. Now we may begin our own expansion in the neighboring regions without concern. Take these as a sign of our mutual agreements.
-TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: How disappointing. We may have to look for more agreeable arrangements if you do not wish to maintain our alliance...
 TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: Concerning news; a mutual threat to us both is building up forces on this world. If you remove them, it would benefit us both. 
 TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: This news is a relief, commander. Now we may begin our own expansion in the neighboring regions without concern. Take these as a sign of our mutual agreements.
 TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: How disappointing. We may have to look for more agreeable arrangements if you do not wish to maintain our alliance...
+TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: Concerning news; a mutual threat to us both is building up forces on this world. If you remove them, it would benefit us both. 
+TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: This news is a relief, commander. Now we may begin our own expansion in the neighboring regions without concern. Take these as a sign of our mutual agreements.
+TEXT_INTERVENTION_TAKEPLANETENEMY_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: How disappointing. We may have to look for more agreeable arrangements if you do not wish to maintain our alliance...
 TEXT_INTERVENTION_TAKEPLANETENEMY_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  A nearby planet has contacted our house. It seems a large population is displeased with the current government and is asking for assistance in establishing a new one.
 TEXT_INTERVENTION_TAKEPLANETENEMY_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  Well done, Commander, this new government will greatly benefit the Algray House and the Hapes Consortium in turn.
 TEXT_INTERVENTION_TAKEPLANETENEMY_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  This failure is most concerning. We will need to arrange a meeting with the other house to deliberate on your ability to command our forces.
@@ -3993,12 +3993,12 @@ TEXT_INTERVENTION_UNIT_HUNT_EOTH_GARWIAN_SPEECH_03,Garwian Unity Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_EOTH_IMPERIALS_SPEECH_01,Imperial Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_EOTH_IMPERIALS_SPEECH_02,Imperial Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_EOTH_IMPERIALS_SPEECH_03,Imperial Liaison: UNUSED
-TEXT_INTERVENTION_UNIT_HUNT_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: UNUSED
-TEXT_INTERVENTION_UNIT_HUNT_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: UNUSED
-TEXT_INTERVENTION_UNIT_HUNT_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_EOTH_PACCIAN_SPEECH_01,Paccian Governance Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_EOTH_PACCIAN_SPEECH_02,Paccian Governance Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_EOTH_PACCIAN_SPEECH_03,Paccian Governance Liaison: UNUSED
+TEXT_INTERVENTION_UNIT_HUNT_EOTH_PAATAATUS_SPEECH_01,Paataatus Hiveborn Liaison: UNUSED
+TEXT_INTERVENTION_UNIT_HUNT_EOTH_PAATAATUS_SPEECH_02,Paataatus Hiveborn Liaison: UNUSED
+TEXT_INTERVENTION_UNIT_HUNT_EOTH_PAATAATUS_SPEECH_03,Paataatus Hiveborn Liaison: UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_HOUSE_ALGRAY_SPEECH_01,Algray House Representative:  UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_HOUSE_ALGRAY_SPEECH_02,Algray House Representative:  UNUSED
 TEXT_INTERVENTION_UNIT_HUNT_HOUSE_ALGRAY_SPEECH_03,Algray House Representative:  UNUSED
@@ -4133,10 +4133,10 @@ TEXT_PROTEUS_DESCRIPTION_HAMMERS,The Imperial Hammers Elite Regiment, commonly c
 TEXT_PROTEUS_DESCRIPTION_IMPERIAL_LIANNA,Lady Valles Santhe leveraged the vast industrial capacity of Santhe/Sienar Technologies to secure independence for her world, threatening to cut off the supply of TIE fighters if Lianna was provoked. But not all Lianns were satisfied with the arrangement, including her own fiercely Imperialist son...
 TEXT_PROTEUS_DESCRIPTION_ISECTOR,The Illisurevimurasi Sector (commonly called I-sector) was the petty possession of Moff Bliss Shargael deep into the Imperial Civil War, after most warlords had killed each other, fallen to the New Republic, or were murdered by Natasi Daala.
 TEXT_PROTEUS_DESCRIPTION_JARDEEN,General Arndall Lott and Captain Iolan Gendarr formed an Imperial splinter group to wage a series of raids on the New Republic. The raids made heavy use of slave-rigged drone walkers, an innovation of Lott's that would be adapted for later Imperial war droids.
-TEXT_PROTEUS_DESCRIPTION_KAARENTH_DISSENSION,Radical hardliners under the authority of self-proclaimed Supreme Commander Ennix Devian who zealously fight for the ideals of COMPNOR. Armed with experimental ion cannon technology, they plot to build a fleet that will deal with both the New Republic and other Imperials.
 TEXT_PROTEUS_DESCRIPTION_KAMINO,After the termination of the Clone Army contract, Kamino served as a site for several of Darth Vader's secret projects.
 TEXT_PROTEUS_DESCRIPTION_KASHYYYK,Kashyyyk had always been oppressed under the Empire, but after Endor the governor Hindane Darcc engaged in a lightning campaign of brutality with the aid of Trandoshan slavers and Wookiee traitors to cement his rule, while the Grand Admiral Peccati Syn used the area as a retreat as he turned to mysticism. Once the Wookiees managed to get word to the New Republic, the atrocities and meditations on the Dark Side were both ended in fire.
 TEXT_PROTEUS_DESCRIPTION_KUAT,One of the crown jewels of the Empire, Kuat is the home of Kuat Drive Yards, chief supplier of the Empire's warships. It continued to be an Imperial fortress world for years after the Battle of Endor, relying on its latest designs for self-defense as the Empire collapsed around it.
+TEXT_PROTEUS_DESCRIPTION_KAARENTH_DISSENSION,Radical hardliners under the authority of self-proclaimed Supreme Commander Ennix Devian who zealously fight for the ideals of COMPNOR. Armed with experimental ion cannon technology, they plot to build a fleet that will deal with both the New Republic and other Imperials.
 TEXT_PROTEUS_DESCRIPTION_LAMBDA,The strategically important Lambda Sector became the personal fiefdom of Moff Par Lankin, a capable and cunning military leader who commands great respect from subordinates and enemies alike. After the splintering of the Empire, Lankin managed to hold onto control of important worlds in the sector despite widespread unrest and incursions by the New Republic, creating a stable rump state from which to assemble his forces and size up the fortifications of his enemies. Driven by his own ambition and that of his subordinates, Lankin prepares to strike out and show the New Republic and the other warlords that they made a fatal mistake in thinking him contained.
 TEXT_PROTEUS_DESCRIPTION_LUMIYA,Shira Brie was one of Darth Vader's secret apprentices. After Endor, she declared herself the Dark Lady of the Sith Lumiya and carried out attacks and clandestine plots across the galaxy.
 TEXT_PROTEUS_DESCRIPTION_MAELSTROM,The Albarrio and Relgim sectors bordering the Maelstrom Nebula were driven to work closely by the pirate threats lurking in the starry mists.
@@ -4158,9 +4158,9 @@ TEXT_PROTEUS_DESCRIPTION_TIERFON,The Tierfon Sector was home to a competent flee
 TEXT_PROTEUS_DESCRIPTION_VOGEL,Lynch Hauser was appointed commander of the Dustig Oversector during the Clone Wars where he led from Vogel 7, and was promoted to Grand Moff during the Galactic Empire's reign. Hauser was eager to wipe out all traces of the Old Republic, and took control of M'haeli following the ouster of Governor Grigor.
 TEXT_PROTEUS_DESCRIPTION_WESSEX,The Relgim Oversector is the domain of Grand Moff Denn Wessex, one of the original regional governors during the Clone Wars and husband of brilliant starship engineer Lira Wessex. Lira will do anything to advance her position in the Empire, and her voice has become a feared political weapon throughout the galaxy.
 TEXT_PROTEUS_DESCRIPTION_WILD_SPACE,It was on the maiden flight of a terror design that Delurin heard the news of the Emperor's death and decided he was fit to fill the vacancy. He chose the Svekk system and its Bormterran warriors as the base of a new Empire he began carving out of Wild Space.
-TEXT_PROTEUS_DESCRIPTION_ZAARIN_REMNANTS,Grand Admiral Zaarin's audacious coup attempt left his followers as scattered fugitives hiding from the Emperor's justice. Reports are unclear as to how many might be alive and capable of coalescing into a new power base in the post-Endor reality of fragmented warlords.
 TEXT_PROTEUS_DESCRIPTION_ZERO_COMMAND,Blitzer Harrsk emerged from his wounds at Endor with madness and more ambition than ever. He left the regroup point for the prison world of Kalist and established the first warlord state of Zero Command, probably the most powerful of the Deep Core breakaways, and led its ascendancy in that petty ranking until the fateful meeting on Tsoss Beacon.
 TEXT_PROTEUS_DESCRIPTION_ZSINJ_REMNANTS,Warlord Zsinj's Empire rapidly disintegrated, but some of his loyalists refused to be annexed into the victorious Maldrood and Ruling Council expeditions. Most of these hardliners ultimately joined the Kaarenth Dissension under Ennix Devian.
+TEXT_PROTEUS_DESCRIPTION_ZAARIN_REMNANTS,Grand Admiral Zaarin's audacious coup attempt left his followers as scattered fugitives hiding from the Emperor's justice. Reports are unclear as to how many might be alive and capable of coalescing into a new power base in the post-Endor reality of fragmented warlords.
 TEXT_REFIT_ERRANT_VENTURE,Refit the Errant Venture
 TEXT_REGICIDE_DESCRIPTION_CCOGM,Regime Progression Event: Upon completion, Bertroff Hissa and the Central Committee of Grand Moffs shall lead the Empire in Trioculus' name. See the mission holocron for more details.
 TEXT_REGICIDE_DESCRIPTION_DAALA,Regime Progression Event: Upon completion, Natasi Daala will leave the Maw and attempt to reunite the Empire. See the mission log for more details.
@@ -4212,8 +4212,6 @@ TEXT_SHIELDED_TIE_RAPTOR_SQUADRON_HALF,Shielded TIE Raptor Squadron 1/2
 TEXT_SHIELDED_TIE_RAPTOR_SQUADRON2,Shielded TIE Raptor Squadron x2
 TEXT_SHIP_MARKET,Ship Market
 TEXT_SMUGGLER_PREYBIRD_SQUADRON_HALF,Illegally Modified Preybird Squadron
-TEXT_SPEECH_AAC3_RESEARCH,AAC-3 Hovertank research available.
-TEXT_SPEECH_AAC3_RESEARCH_FINISHED,AAC-3 Hovertank research completed.
 TEXT_SPEECH_CAMPAIGN_SINGLE_20_INTRO_E,The Empire's foothold in the galaxy has been compromised. Pirates have run rampant across many systems. Use your initial 3,000 credits to secure control of both the Pirate and Rebel-controlled planets.
 TEXT_SPEECH_CAMPAIGN_SINGLE_25_INTRO_E,This Rebellion has subverted many of the outlying systems of the galaxy and the Empire is in dire peril of losing Coruscant. Imperial forces have pulled back and fortified the Core Worlds, but it is only a matter of time before the Rebels begin their assault. A sum total of 9,000 credits has been made available to you. Rebuild the Imperial Navy, destroy the Rebels, and protect the Emperor at all costs.
 TEXT_SPEECH_CAMPAIGN_SINGLE_30_INTRO_E,Imperial forces have managed to flee to the fringes of the galaxy. Due to the strain of war and mismanagement by corrupt Imperial officials, you have only 5,000 credits left to retake the Core Worlds and the galaxy.
@@ -4243,6 +4241,8 @@ TEXT_SPEECH_THRAWNCLONE_RESEARCH,Voss Parck: Ten years have passed since news of
 TEXT_SPEECH_THRAWNCLONE_RESEARCH_FINISHED,Thrawn: Surprised, Commander? I have returned. Not "returned" as such, of course. I am a clone of Grand Admiral Thrawn. I would have to be extremely arrogant to have assumed that even my rather extensive ability would have put my death out of the question. There is much to prepare, you may go.
 TEXT_SPEECH_VISCOUNT_RESEARCH,Viscount research available.
 TEXT_SPEECH_VISCOUNT_RESEARCH_FINISHED,Viscount research finished.
+TEXT_SPEECH_AAC3_RESEARCH,AAC-3 Hovertank research available.
+TEXT_SPEECH_AAC3_RESEARCH_FINISHED,AAC-3 Hovertank research completed.
 TEXT_STARWING_SQUADRON,Xg-1 Star Wing Squadron
 TEXT_STARWING_SQUADRON_HALF,Xg-1 Star Wing Squadron 1/2
 TEXT_STARWING_SQUADRON2,Xg-1 Star Wing Squadron x2
@@ -4948,11 +4948,6 @@ TEXT_STORY_SHADOWHAND_CORUSCANT_1,Garm Bel Iblis: The fleet coming at Coruscant 
 TEXT_STORY_SHADOWHAND_CORUSCANT_2,We don't want Coruscant destroyed too, when all the Empire wants is to destroy us. Once we're off-planet, the populace ought to be safe.
 TEXT_STORY_SHADOWHAND_CORUSCANT_3,Our last few people on the planet are boarding their transports now. We need to buy them a few minutes, then we can get out of here too.
 TEXT_STORY_SHADOWHAND_CORUSCANT_RETREAT,Garm Bel Iblis: The last transport is away. It's time to go. This day belongs to the Empire, but we'll see about tomorrow...
-TEXT_STORY_TRANSMISSION_AAC3_OBJECTIVE,Research the AAC-3 Hovertank from your political options menu.
-TEXT_STORY_TRANSMISSION_AAC3_RESEARCH,SoroSuub Representative: We have begun work on a more powerful version of the AAC hovertank. The project has encountered some difficulties, but with support from the Senate they can doubtless be overcome.
-TEXT_STORY_TRANSMISSION_AAC3_REWARD_ONE,Unlocks: AAC-3 Hovertank
-TEXT_STORY_TRANSMISSION_AAC3_REWARD_TWO,Locks: AAC-2 Hovertank
-TEXT_STORY_TRANSMISSION_AAC3_TITLE,Research - AAC-3 Hovertank
 TEXT_STORY_TRANSMISSION_ACKBAR,Incoming Transmission from Admiral Ackbar
 TEXT_STORY_TRANSMISSION_ADALRIC_BRANDL,Incoming Transmission from Adalric Brandl
 TEXT_STORY_TRANSMISSION_BORGA,Incoming Transmission from Borga Besadii Diori
@@ -4963,10 +4958,10 @@ TEXT_STORY_TRANSMISSION_CORONA_RESEARCH,KDY Representative: We at Kuat Drive Yar
 TEXT_STORY_TRANSMISSION_CORONA_REWARD_ONE,Unlocks: Corona
 TEXT_STORY_TRANSMISSION_CORONA_REWARD_TWO,Locks: Nebulon-B
 TEXT_STORY_TRANSMISSION_CORONA_TITLE,Research - Corona Frigate
-TEXT_STORY_TRANSMISSION_DAALA,Incoming Transmission from Natasi Daala
 TEXT_STORY_TRANSMISSION_DARK_APPRENTICE,Incoming Transmission from the Dark Apprentice
 TEXT_STORY_TRANSMISSION_DELVARDUS,Incoming Transmission from Sander Delvardus
 TEXT_STORY_TRANSMISSION_DURGA,Incoming Transmission from Durga Besadii Tai
+TEXT_STORY_TRANSMISSION_DAALA,Incoming Transmission from Natasi Daala
 TEXT_STORY_TRANSMISSION_EMPEROR_PALPATINE,Incoming Transmission from Emperor Palpatine
 TEXT_STORY_TRANSMISSION_ERRANT_VENTURE_OBJECTIVE,Bring the Errant Venture to any Capital or Dreadnought Shipyard for a refit.
 TEXT_STORY_TRANSMISSION_ERRANT_VENTURE_REWARD,Restores the Errant Venture to standard ISD-II armament and gives her a shiny new paint job.
@@ -5032,11 +5027,11 @@ TEXT_STORY_TRANSMISSION_SLOANE,Incoming Transmission from Baruche Sloane
 TEXT_STORY_TRANSMISSION_SOONTIR_FEL,Incoming Transmission from Soontir Fel
 TEXT_STORY_TRANSMISSION_SOROSUUB,Incoming Transmission from SoroSuub
 TEXT_STORY_TRANSMISSION_SPAAR,Incoming Transmission from Nil Spaar
-TEXT_STORY_TRANSMISSION_TAA,Incoming Transmission from Ta'a Chume
 TEXT_STORY_TRANSMISSION_TARKIN,Incoming Transmission from Grand Moff Tarkin
 TEXT_STORY_TRANSMISSION_TENENIEL,Incoming Transmission from Teneniel Djo
 TEXT_STORY_TRANSMISSION_TERADOC,Incoming Transmission from Treuten Teradoc
 TEXT_STORY_TRANSMISSION_THRAWN,Incoming Transmission from Grand Admiral Thrawn
+TEXT_STORY_TRANSMISSION_TAA,Incoming Transmission from Ta'a Chume
 TEXT_STORY_TRANSMISSION_VIQI,Incoming Transmission from Viqi Shesh
 TEXT_STORY_TRANSMISSION_VISCOUNT_OBJECTIVE,Research the Viscount from Mon Calamari.
 TEXT_STORY_TRANSMISSION_VISCOUNT_RESEARCH,Admiral Ackbar: The existence of any remaining Star Dreadnaughts among the New Republic's enemies is one of my greatest fears. To counter such a threat, I propose a new class of Star Defender, capable of taking on any of these remaining warships. The shipyards of my home planet have expressed interest in this already, and with an investment of funds from the military are willing to design schematics along with a proof of concept prototype.
@@ -5047,6 +5042,11 @@ TEXT_STORY_TRANSMISSION_WEPLINN,Incoming Transmission from Ilm Vaz-Weplinn
 TEXT_STORY_TRANSMISSION_YZU,Incoming Transmission from Malfkla Yzu
 TEXT_STORY_TRANSMISSION_ZORBA,Incomming Transmission from Zorba Desilijic Tiure
 TEXT_STORY_TRANSMISSION_ZSINJ,Incoming Transmission from Warlord Zsinj
+TEXT_STORY_TRANSMISSION_AAC3_OBJECTIVE,Research the AAC-3 Hovertank from your political options menu.
+TEXT_STORY_TRANSMISSION_AAC3_RESEARCH,SoroSuub Representative: We have begun work on a more powerful version of the AAC hovertank. The project has encountered some difficulties, but with support from the Senate they can doubtless be overcome.
+TEXT_STORY_TRANSMISSION_AAC3_REWARD_ONE,Unlocks: AAC-3 Hovertank
+TEXT_STORY_TRANSMISSION_AAC3_REWARD_TWO,Locks: AAC-2 Hovertank
+TEXT_STORY_TRANSMISSION_AAC3_TITLE,Research - AAC-3 Hovertank
 TEXT_STORYOBJECT_CBAOTH_BLUFF,Shield Piercing Superweapon
 TEXT_STORYOBJECT_RYLCA,Research Krytos Cure
 TEXT_STORYOBJECT_RYLCA_FINAL,Rylca
@@ -5202,41 +5202,6 @@ TEXT_TOOLTIP_A_FACTORY_PA1,C-10 Siege Tower: 1 / 1
 TEXT_TOOLTIP_A_FACTORY_ZE1,A9 Floating Fortress: 1 / 1
 TEXT_TOOLTIP_A_WING,A small and fast interceptor designed to eliminate TIE fighters in dogfights and strafing attacks. It's based on the older R-22 Spearhead and completely redesigned by Alliance Underground Engineering as a modernized snubfighter. Well suited to eliminating enemy fighters and bombers.
 TEXT_TOOLTIP_A9,The newest in a series of KDY interceptors, the A-9 is used in small numbers by the Imperial Remnant and other organizations that acquired production lines. While fragile it is deceptively powerful, speedy, and, in the right hands, is superior to many other fighters.
-TEXT_TOOLTIP_AA5_TRUCK,A popular Trast Heavy Transports product, the A-A5 speeder truck is a rugged vehicle with thick plating to resist hostile environments. It was commonly modified into an APC by many organizations, including the Rebel Alliance and later the New Republic.
-TEXT_TOOLTIP_AA5_TRUCK_COMPANY,Company: 2x A-A5 Speeder Truck
-TEXT_TOOLTIP_AA5_TRUCK_HEALTH,Health: 400 (Medium Vehicle)
-TEXT_TOOLTIP_AA5_TRUCK_MOVE,Speed: 2.0 | Turn: 1.0 
-TEXT_TOOLTIP_AA5_TRUCK_WEAP1,1x AI Blaster Cannon: 4 / 1.0s / 280m
-TEXT_TOOLTIP_AA5_TRUCK_WEAP2,1x Concussion Grenade: 1 / 3.0s / 160m
-TEXT_TOOLTIP_AA70_TRUCK,Modification of the A-A5 speeder truck into a military command vehicle. Boasts improved armor, engines and energy weapons and allows decent combat protection from light targets.
-TEXT_TOOLTIP_AA70_TRUCK_COMPANY,Company: 2x AA-70 Command Speeder
-TEXT_TOOLTIP_AA70_TRUCK_HEALTH,Health: 450 (Medium Vehicle)
-TEXT_TOOLTIP_AA70_TRUCK_MOVE,Speed: 2.5 | Turn: 1.0 
-TEXT_TOOLTIP_AA70_TRUCK_WEAP1,1x AI Blaster Cannon: 6 / 1.0s / 280m
-TEXT_TOOLTIP_AAC_1,A fast and maneuverable light tank perfect for lightning strikes and harassing Imperial walkers. The AAC-1 was developed for planetary defense forces after the Clone Wars, and the blueprints made their way to the Rebel Alliance via payment in a card game.
-TEXT_TOOLTIP_AAC_1_COMPANY,Company: 4x AAC-1 Hovertank
-TEXT_TOOLTIP_AAC_1_MOVE,Speed: 4.0 | Turn: 3.0
-TEXT_TOOLTIP_AAC_2,A fast and maneuverable light tank perfect for lightning strikes and harassing Imperial walkers. The AAC-2 features added deflector shields, and while a rarer upgrade generally restricted to guarding command bases under the Rebel Alliance the larger resource base of the New Republic allows it to be standard.
-TEXT_TOOLTIP_AAC_2_COMPANY,Company: 4x AAC-2 Hovertank
-TEXT_TOOLTIP_AAC_2_MOVE,Speed: 3.75 | Turn: 3.0
-TEXT_TOOLTIP_AAC_2_SHIELD,Shields: 25 / [5/R] (Light Vehicle)
-TEXT_TOOLTIP_AAC_3,A complete redesign of the original AAC into a larger tank trading speed for power. It was caught in a difficult development process, with allegations of corruption and developer disagreements leading to the cancellation of the original project. Though the work was salvaged and a complete product delivered, the popularity never matched the second entry in the series.
-TEXT_TOOLTIP_AAC_3_COMPANY,Company: 3x AAC-3 Hovertank
-TEXT_TOOLTIP_AAC_3_HEALTH,Health: 250 (Medium Vehicle)
-TEXT_TOOLTIP_AAC_3_MOVE,Speed: 2.5 | Turn: 2.0
-TEXT_TOOLTIP_AAC_3_WEAP1,2x AV Blaster Cannons: 1 / 2.0s / 320m
-TEXT_TOOLTIP_AAC_3_WEAP2,2x Light AI Blaster Cannons: 2 / 1.0s / 240m
-TEXT_TOOLTIP_AAC_3_WEAP3,1x Concussion Missile: 2 / 4.0s / 320m
-TEXT_TOOLTIP_AAC_HEALTH,Health: 150 (Light Vehicle)
-TEXT_TOOLTIP_AAC_WEAP1,1x Light AV Blaster Cannon: 2 / 2.0s / 320m
-TEXT_TOOLTIP_AAC_WEAP2,2x Slugthrowers: 1 / 2.0s / 320m
-TEXT_TOOLTIP_AAC_WEAP3,1x Light Concussion Missile: 4 / 4.0s / 320m
-TEXT_TOOLTIP_AAC3_RESEARCH,Unlocks the AAC-3 Hovertank. Retires AAC-2 Hovertank.
-TEXT_TOOLTIP_AARICA_VOST,Intelligence and wetwork agent for the Corporate Sector Authority who often operates under the alias Bren-Aarica-Rordan. Daughter of the Head of Corporate Expansion Larin Vost.
-TEXT_TOOLTIP_AARICA_VOST_HEALTH,Health: 120 (Hero)
-TEXT_TOOLTIP_AARICA_VOST_MOVE,Speed: 1.3
-TEXT_TOOLTIP_AARICA_VOST_SHIELD,Shields: 25 / [5/R] (Infantry)
-TEXT_TOOLTIP_AARICA_VOST_WEAP1,1x Nightstinger Blaster Rifle: 1 / 3.0s / 320m
 TEXT_TOOLTIP_ABAHT,Etahn A'baht is a Dornean General who has served in the navy of the New Republic since the days of the Rebellion, and he was one of the commanders present at the battle of Endor. With the creation of the New Class ships, A'baht was assigned to the Fifth Fleet.
 TEXT_TOOLTIP_ABILITY_SUPER_LASER_DARKSABER_DESCRIPTION,A low-budget knockoff of the Death Star's superlaser designed for use against ships and space stations. [ MUST CHARGE UP FOR 60 SECONDS BEFORE FIRST USE ] [ DARKSABER GETS DAMAGE AFTER EACH USE ]
 TEXT_TOOLTIP_ABILITY_SUPER_LASER_THORN_DESCRIPTION,Falls short of Thorn's vision for a planet-cracking laser powered by the united Korendum crystals, but nonetheless deadly against ships and space stations. [ MUST CHARGE UP FOR 60 SECONDS BEFORE FIRST USE ]
@@ -5577,6 +5542,11 @@ TEXT_TOOLTIP_AST5_HEALTH,Health: 70 [2.5%/5s] (Speeder)
 TEXT_TOOLTIP_AST5_MOVE,Speed: 3.5 | Turn: 4.5 
 TEXT_TOOLTIP_AST5_WEAP1,1x AI Blaster Cannon: 4 / 1.0s / 400m
 TEXT_TOOLTIP_ASTARTA,Astarta was a Hapan privateer who would become the personal guard of the Hapan Prince Isolder and accompanied him on his hunt for the pirate king Harracan. Astarta would stay by his side until her eventual retirement, despite her unrequited love for the Prince. She was both a capable commander of ships and investigator into the plots common in Hapan noble society.
+TEXT_TOOLTIP_AT_AI_WALKER,Configuration of the AT-AA base platform topped off with a battery of general-purpose concussion missiles that make it better suited at dealing with infantry scale targets.
+TEXT_TOOLTIP_AT_AI_WALKER_COMPANY,Company: 2x AT-AA Walker (Concussion Missile)
+TEXT_TOOLTIP_AT_AI_WALKER_HEALTH,Health: 400 (Medium Vehicle)
+TEXT_TOOLTIP_AT_AI_WALKER_MOVE,Speed: 0.75 | Turn: 2.0
+TEXT_TOOLTIP_AT_AI_WALKER_WEAP1,1x Heavy Concussion Missile: 4 / 4.0s / 400m
 TEXT_TOOLTIP_AT_AA_FLAK_WALKER,Member of the four-legged support walker line that replaced various Rothana-engineered vehicles equipped with a flak laser turret. It is meant to protect armor columns from air threats with its anti-aircraft weaponry and scramble incoming munitions with a jammer suite. Relies on its bulk and other vehicles to deal with ground-based threats.
 TEXT_TOOLTIP_AT_AA_FLAK_WALKER_COMPANY,Company: 2x AT-AA Walker (Flak Laser)
 TEXT_TOOLTIP_AT_AA_FLAK_WALKER_HEALTH,Health: 400 (Medium Vehicle)
@@ -5595,11 +5565,6 @@ TEXT_TOOLTIP_AT_AA_WALKER_HEALTH,Health: 400 (Medium Vehicle)
 TEXT_TOOLTIP_AT_AA_WALKER_MOVE,Speed: 0.75 | Turn: 2.0
 TEXT_TOOLTIP_AT_AA_WALKER_WEAP1,1x Heavy Flak Cannon: 5 / 2.0s / 400m
 TEXT_TOOLTIP_AT_AA_WALKER_WEAP2,4x Blaster Rifle Slit: 1 / 1.0s / 260m
-TEXT_TOOLTIP_AT_AI_WALKER,Configuration of the AT-AA base platform topped off with a battery of general-purpose concussion missiles that make it better suited at dealing with infantry scale targets.
-TEXT_TOOLTIP_AT_AI_WALKER_COMPANY,Company: 2x AT-AA Walker (Concussion Missile)
-TEXT_TOOLTIP_AT_AI_WALKER_HEALTH,Health: 400 (Medium Vehicle)
-TEXT_TOOLTIP_AT_AI_WALKER_MOVE,Speed: 0.75 | Turn: 2.0
-TEXT_TOOLTIP_AT_AI_WALKER_WEAP1,1x Heavy Concussion Missile: 4 / 4.0s / 400m
 TEXT_TOOLTIP_ATAT,Large assault transport with forward weaponry. The current model is an Imperial derivative of an older Republic design and a notable improvement over its predecessor. It is best used in head-on assaults of enemy forces while lighter vehicles screen on its flanks. Able to deploy infantry.
 TEXT_TOOLTIP_ATAT_ASHEN_DEPLOY,Deploys: 1x Dark Trooper Phase II Squad
 TEXT_TOOLTIP_ATAT_BARGE,This barge contains a large vehicle. The slow speed and weak armor of this transport make it vulnerable to nearly every enemy threat.
@@ -5609,9 +5574,9 @@ TEXT_TOOLTIP_ATAT_HEALTH,Health: 800 (Heavy Vehicle)
 TEXT_TOOLTIP_ATAT_KLOFF_DEPLOY,Deploys: 1x Police Enforcer Heavy Squad
 TEXT_TOOLTIP_ATAT_MOVE,Speed: 0.75 | Turn: 2.5 
 TEXT_TOOLTIP_ATAT_NODA_DEPLOY,Deploys: 2x AT-PT Walker
-TEXT_TOOLTIP_ATAT_RAALK_DEPLOY,Deploys: 1x Yevethan Soldier Squad
 TEXT_TOOLTIP_ATAT_REFIT,Improved AT-AT model armed with advanced turbolaser weaponry made possible by the X-80 power cell. This variant was first deployed at the attack on New Alderaan, where it acquitted itself well against a variety of targets. Able to deploy infantry.
 TEXT_TOOLTIP_ATAT_REFIT_WEAP1,1x AV Turbolaser: 2 / 2.0s / 480m
+TEXT_TOOLTIP_ATAT_RAALK_DEPLOY,Deploys: 1x Yevethan Soldier Squad
 TEXT_TOOLTIP_ATAT_TULON_DEPLOY,Deploys: 1x Infiltrator Sniper Squad
 TEXT_TOOLTIP_ATAT_WARLORD_DEPLOY,Deploys: 1x Army Trooper Fireteam
 TEXT_TOOLTIP_ATAT_WEAP1,1x Super Heavy AV Blaster Cannon: 4 / 2.0s / 480m
@@ -6190,7 +6155,6 @@ TEXT_TOOLTIP_COMMAND_127TH,127th Gunship Wing (ARC-170s in space, Nemesis Gunshi
 TEXT_TOOLTIP_COMMAND_13X,Crimson Victory-II Star Destroyer, 13X
 TEXT_TOOLTIP_COMMAND_181ST,TIE Interceptor, 181st Wing, Saber Squadron
 TEXT_TOOLTIP_COMMAND_181ST_DEFENDER,TIE Defender, 181st Imperial Fighter Group
-TEXT_TOOLTIP_COMMAND_AA589,X-wing, AA-589
 TEXT_TOOLTIP_COMMAND_ACE_SQUADRON,TIE X-7, Ace Squadron
 TEXT_TOOLTIP_COMMAND_ACULEUS,Mandator-III Star Dreadnought, Aculeus
 TEXT_TOOLTIP_COMMAND_ADMONITOR,Imperial-I Star Destroyer, Admonitor
@@ -6296,13 +6260,13 @@ TEXT_TOOLTIP_COMMAND_EXCORIATOR,Allegiance Battlecruiser, Excoriator
 TEXT_TOOLTIP_COMMAND_EXECUTOR,Executor Star Dreadnought
 TEXT_TOOLTIP_COMMAND_EXECUTRIX,Imperial-I Star Destroyer, Executrix
 TEXT_TOOLTIP_COMMAND_FA_LOH_SUI,Modified CR90 Corvette, Fah-Loh-Sui
-TEXT_TOOLTIP_COMMAND_FAARL,DP20 Frigate, Faarlhulk
 TEXT_TOOLTIP_COMMAND_FAITHFUL_WATCHMAN,MC90 Cruiser, Faithful Watchman
 TEXT_TOOLTIP_COMMAND_FALSE_181ST,TIE Interceptor, False 181st Imperial Fighter Group
 TEXT_TOOLTIP_COMMAND_FIRESTORM,Imperial-I Star Destroyer, Firestorm
 TEXT_TOOLTIP_COMMAND_FOLLY,Victory-II Star Destroyer, Folly
 TEXT_TOOLTIP_COMMAND_FREEDOM,Imperial-II Star Destroyer, Freedom
 TEXT_TOOLTIP_COMMAND_FRONTIER,Syndic Nightdragon, Frontier
+TEXT_TOOLTIP_COMMAND_FAARL,DP20 Frigate, Faarlhulk
 TEXT_TOOLTIP_COMMAND_GALACTICVOYAGER,MC90 Cruiser, Galactic Voyager
 TEXT_TOOLTIP_COMMAND_GALAXY_DRAGON,Dragon Heavy Cruiser, Galaxy Dragon
 TEXT_TOOLTIP_COMMAND_GALNEY_BATTLEDRAGON,Galney House Hapes Battle Dragon
@@ -6420,7 +6384,6 @@ TEXT_TOOLTIP_COMMAND_PULSARS_REVENGE,Quasar Fire Escort Carrier, Pulsar's Reveng
 TEXT_TOOLTIP_COMMAND_PURITY,Communications Battlecruiser, Purity
 TEXT_TOOLTIP_COMMAND_QUASAR,Quasar Fire Escort Carrier
 TEXT_TOOLTIP_COMMAND_QUINCEYS_GIRL,Providence Carrier/Destroyer, Quincey's Girl
-TEXT_TOOLTIP_COMMAND_RAALK,Modified AT-AT Walker
 TEXT_TOOLTIP_COMMAND_RALROOST,Bothan Assault Cruiser, Ralroost
 TEXT_TOOLTIP_COMMAND_RAND_ECLIPTIC,Imperial-II Frigate, Rand Ecliptic
 TEXT_TOOLTIP_COMMAND_RAVAGOR,Imperial-II Star Destroyer, Ravagor
@@ -6447,6 +6410,7 @@ TEXT_TOOLTIP_COMMAND_ROGUE_IMPERIAL_SQUADRON,N1 Starfighter, Rogue Imperial Squa
 TEXT_TOOLTIP_COMMAND_ROGUE_SQUADRON_TYCHO,Rogue Squadron (X-wings in space, V-wings on ground)
 TEXT_TOOLTIP_COMMAND_ROGUE_SQUADRON_WEDGE,Rogue Squadron (X-wings in space, T-47s on ground)
 TEXT_TOOLTIP_COMMAND_ROYAL_BATTLEDRAGON,Royal House Hapes Battle Dragon
+TEXT_TOOLTIP_COMMAND_RAALK,Modified AT-AT Walker
 TEXT_TOOLTIP_COMMAND_SAFONNES_SWORD,CR90 Corvette, Safonne's Sword
 TEXT_TOOLTIP_COMMAND_SCARLET,Modified Firespray-31 Patrol Craft, Marauder
 TEXT_TOOLTIP_COMMAND_SCIMITAR_SQUADRON,TIE Bomber, Scimitar Squadron
@@ -6530,6 +6494,7 @@ TEXT_TOOLTIP_COMMAND_WRAITH_SQUADRON,X-wing, Wraith Squadron
 TEXT_TOOLTIP_COMMAND_XWING,X-wing
 TEXT_TOOLTIP_COMMAND_YALD,Dauntless Heavy Cruiser, Yald
 TEXT_TOOLTIP_COMMAND_YSTAVA,Raju Heavy Frigate, Ystava
+TEXT_TOOLTIP_COMMAND_AA589,X-wing, AA-589
 TEXT_TOOLTIP_COMMANDER_ARMY_SPECIAL_MISSIONS_COMPANY,1x Army Special Missions Trooper
 TEXT_TOOLTIP_COMMANDER_DARK_STORMTROOPER_HEALTH,Health: 150 [2%/5s] (Hero)
 TEXT_TOOLTIP_COMMANDER_IMPERIAL_ARMY_GUARD_COMPANY,Company: 1x Army Guard Trooper
@@ -6638,8 +6603,6 @@ TEXT_TOOLTIP_CRUSADER_GUNSHIP_PD,Point-Defense: 1 / 0.21s / 1.36km
 TEXT_TOOLTIP_CRUSADER_GUNSHIP_SHIELD,Shields: 600 / [10.5/R] (Corvette)
 TEXT_TOOLTIP_CRUSADER_GUNSHIP_WEAP1,3x Heavy Dual Rapid Laser Cannons: 6 / 5.0s / 4.0km
 TEXT_TOOLTIP_CRUSADER_GUNSHIP_WEAP2,4x Light Rapid Laser Cannons: 6 / 2.0s / 3.0km
-TEXT_TOOLTIP_DAALA,A close associate of Grand Moff Tarkin, who he assigned to guard the secret Maw Installation. She stayed incommunicado in the Maw for ten years, until the chance arrival of Han Solo. She united the Imperial forces in the Deep Core by executing their feuding leaders, but her rule of the Empire was brief; she quickly resigned in favor of Gilad Pellaeon.
-TEXT_TOOLTIP_DAALA_UPGRADE,Upgrade: Executor [Requires Eriadu Authority integration]
 TEXT_TOOLTIP_DANGOR,First Aide to the Emperor on matters of galactic security, who also took over the day to day management of the Empire at times, Ars Dangor served Palpatine loyally from his days as a senator until Palpatine’s death. Dangor would be one of the main players in the fallout of Palpatine's death, forming a new Ruling Council to keep the Empire united that found itself at odds with Sate Pestage and breakaway Warlords. When Grand Admiral Thrawn returned from the Unknown Regions, Dangor's council appointed him Supreme Commander of the Imperial Military.
 TEXT_TOOLTIP_DARCC,Once captain of Wilhuff Tarkin's Star Destroyer, Darcc settled on Kashyyyk and rose to be the local Moff. When he heard of the Emperor's death, he knew it was time to look after his own interest and he began a vicious crackdown, nearly an extermination, of the Wookiee population in conjunction with Trandoshan slavers.
 TEXT_TOOLTIP_DARILLIAN,Formerly a captain in the Imperial Navy, Darillian joined Warlord Zsinj after the Battle of Endor.
@@ -6841,6 +6804,8 @@ TEXT_TOOLTIP_DYYZ_NATAZ_HEALTH,Health: 185 (Hero)
 TEXT_TOOLTIP_DYYZ_NATAZ_MOVE,Speed: 1.2
 TEXT_TOOLTIP_DYYZ_NATAZ_WEAP1,1x CR-2 Heavy Blaster Pistol: 5 / 2.0s / 220m
 TEXT_TOOLTIP_DYYZ_NATAZ_WEAP2,1x Sonic Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_DAALA,A close associate of Grand Moff Tarkin, who he assigned to guard the secret Maw Installation. She stayed incommunicado in the Maw for ten years, until the chance arrival of Han Solo. She united the Imperial forces in the Deep Core by executing their feuding leaders, but her rule of the Empire was brief; she quickly resigned in favor of Gilad Pellaeon.
+TEXT_TOOLTIP_DAALA_UPGRADE,Upgrade: Executor [Requires Eriadu Authority integration]
 TEXT_TOOLTIP_E_WING,Extremely well-rounded interceptor reminiscent of the X-wing and similarly armed. The fighter's use was hampered by a poor first production model and teething issues with the weapons systems, but it is now one of the New Republic's most effective snubfighters. It is able to handily perform any combat role in a fleet action.
 TEXT_TOOLTIP_E_WING_PROTOTYPE,The initial production model of the well-rounded E-wing snubfighter. A well-rounded interceptor in its own right, this first model suffers from issues with its primary laser system reducing firing output until later iterations solved this.
 TEXT_TOOLTIP_EC_NERWAL,Nicknamed "Easy Nerwal" by his wingmen, E.C. Nerwal was an elite Imperial pilot at the beck and call of Task Force Vengeance at the peak of his career during the Galactic Civil War. Nerwal was known for his innovative tactics and involved himself in modifying starfighters under his command. After the destruction of the task force flagship and the squadron's home in the Star Destroyer Rage, Nerwal would return to the capital of the oversector to continue his tour of duty within the Empire.
@@ -6893,12 +6858,6 @@ TEXT_TOOLTIP_ELITE_TIE_RAPTOR,Rare, expensive Tie Raptor models used for high-pr
 TEXT_TOOLTIP_ELLOR,A cold, calculating bureaucrat from the days of the Old Republic, Ellor Orgraal used the chaos of the transition into the Empire to tamper with records, swapping the hierarchical status of a deceased politician with his own. With his new service record Orgraal continued his sycophantic ways until he reached his desired position of governorship, on the world of Ord Radama. Orgraal would crack down hard on anyone who dared speak against the Empire, and was even rumored to dispose of commanders who displeased him.
 TEXT_TOOLTIP_EMANCIPATOR_HULL,Hull: 8514 (Capital)
 TEXT_TOOLTIP_EMANCIPATOR_SHIELD,Shields: 9600 / [48/R] (Capital)
-TEXT_TOOLTIP_EMPAA,Anti-air tracked vehicle used by the Chiss Ascendancy with impressive onboard sensors and a primary flak laser turret. Serves a supportive role in planetside Household Phalanx or CEDF incursions, and is able to reconfigure its turret payload to an anti-vehicle grade if facing groundside resistance.
-TEXT_TOOLTIP_EMPAA_COMPANY,Company: 3x E-MP-AA
-TEXT_TOOLTIP_EMPAA_HEALTH,Health: 225 (Medium Vehicle)
-TEXT_TOOLTIP_EMPAA_MOVE,Speed: 1.5 | Turn: 2.0
-TEXT_TOOLTIP_EMPAA_WEAP1,1x Flak Cannon: 4 / 1.0s / 400m
-TEXT_TOOLTIP_EMPAA_WEAP2,1x AV Blaster Cannon: 1 / 2.0s / 320m
 TEXT_TOOLTIP_EMPAV,Tracked vehicle used by the Chiss Ascendancy able to be deployed and serve as a static emplacement as needed during sieges. When deployed it is able to unload the missile compartments on its back and rain heavy artillery on targets. The EMP-AVs relatively fragile frame makes it at risk under sustained fire, necessitating forward support or rapid redeployments as needed.
 TEXT_TOOLTIP_EMPAV_COMPANY,Company: 4x E-MP-AV
 TEXT_TOOLTIP_EMPAV_HEALTH,Health: 150 (Light Vehicle)
@@ -6915,6 +6874,12 @@ TEXT_TOOLTIP_EMPRESS_UPGRADE,Upgrade Golan Three to an Empress. This upgrade wil
 TEXT_TOOLTIP_EMPRESS_WEAP1,18x Medium Dual Turbolasers: 2 / 1.8s / 7.7km
 TEXT_TOOLTIP_EMPRESS_WEAP2,6x Heavy Laser Cannons: 2 / 0.5s / 6.2km
 TEXT_TOOLTIP_EMPRESS_WEAP3,6x Proton Torpedoes: 1 / 5.0s / 6.7km
+TEXT_TOOLTIP_EMPAA,Anti-air tracked vehicle used by the Chiss Ascendancy with impressive onboard sensors and a primary flak laser turret. Serves a supportive role in planetside Household Phalanx or CEDF incursions, and is able to reconfigure its turret payload to an anti-vehicle grade if facing groundside resistance.
+TEXT_TOOLTIP_EMPAA_COMPANY,Company: 3x E-MP-AA
+TEXT_TOOLTIP_EMPAA_HEALTH,Health: 225 (Medium Vehicle)
+TEXT_TOOLTIP_EMPAA_MOVE,Speed: 1.5 | Turn: 2.0
+TEXT_TOOLTIP_EMPAA_WEAP1,1x Flak Cannon: 4 / 1.0s / 400m
+TEXT_TOOLTIP_EMPAA_WEAP2,1x AV Blaster Cannon: 1 / 2.0s / 320m
 TEXT_TOOLTIP_ENDURANCE,A New Class fleet carrier with well-rounded defenses, the design has origins alongside the Nebula-class in the Defender Program before being rolled into the New Class Modernization Program. Following in the steps of the Rebel Alliance, the class represents a subtle New Republic strategic emphasis on fighter superiority rather than brute force. It is best kept in the rear of a formation for lack of firepower but is more durable than the offense-focused Nebula-class.
 TEXT_TOOLTIP_ENDURANCE_HULL,Hull: 4774 (Capital)
 TEXT_TOOLTIP_ENDURANCE_MOVE,Speed: 2.8 | Accel: 0.075 | Turn: 0.15
@@ -7057,13 +7022,13 @@ TEXT_TOOLTIP_ESCORT_EVO_TROOPER,3x EVO Trooper Squad
 TEXT_TOOLTIP_ESCORT_EXOV1,1x Stormtrooper Weapons Specialist Squad
 TEXT_TOOLTIP_ESCORT_EXOV2,1x Stormtrooper Carbineer Squad
 TEXT_TOOLTIP_ESCORT_EXOV3,2x Stormtrooper Rifleman Squad
-TEXT_TOOLTIP_ESCORT_FAARL1,2x / 3x DP20 Frigate
-TEXT_TOOLTIP_ESCORT_FAARL2,1x / 2x CR90 Corvette
 TEXT_TOOLTIP_ESCORT_FASSER,2x Security Police Squad
 TEXT_TOOLTIP_ESCORT_FAWN,3x Navy Trooper Squad
 TEXT_TOOLTIP_ESCORT_FLEET_COMMANDO1,2x Fleet Commando Assault Squad
 TEXT_TOOLTIP_ESCORT_FLEET_COMMANDO2,2x Fleet Commando Sniper Squad
 TEXT_TOOLTIP_ESCORT_FOGA_BRILL,2x Citadel Guardsman Squad
+TEXT_TOOLTIP_ESCORT_FAARL1,2x / 3x DP20 Frigate
+TEXT_TOOLTIP_ESCORT_FAARL2,1x / 2x CR90 Corvette
 TEXT_TOOLTIP_ESCORT_GARRET,3x SoroSuub Combat Speeder
 TEXT_TOOLTIP_ESCORT_GOLANDA,2x Modified Longvision LV-38 Spotter
 TEXT_TOOLTIP_ESCORT_GUARDIAN_PROTECTOR,4x Guardian Protector Squad
@@ -7278,8 +7243,6 @@ TEXT_TOOLTIP_EXOV,An Imperial Stormtrooper Captain who served in the Battle of R
 TEXT_TOOLTIP_EXOV_HEALTH,Health: 130 (Hero)
 TEXT_TOOLTIP_EXOV_MOVE,Speed: 1.1
 TEXT_TOOLTIP_EXOV_WEAP1,1x E11 Blaster Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_FAARL,"The Child Conqueror", rumored to be a noble scion of Korlings, started in vicious but small time piracy. But he quickly discovered the vulnerability of the primitive worlds in the Parthovian Cluster and carved out a slave empire based in an ancient warlord's tower. Pirates and mercenaries have flocked to his brutal regime to command his enslaved soldiers, enough that a small city has grown around Fortress Baarlos. Though a cunning warrior, Faarl prefers to direct his captured fleet from his base surrounded by personal entertainers and his extensive library.
-TEXT_TOOLTIP_FAARL_SQUADRON,Fighters: 2 / 0
 TEXT_TOOLTIP_FABLE_ASTIN,A Force-sensitive woman born during the end of the Republic, Fable Astin was leader of the Rebel Alliance's Harrier Infiltration Team. On a visit to Trulalis she saw a performance by Jaalib Brandl, and upon discovering his father was former Inquisitor Adalric Brandl, she sought him out to train her. Adalric agreed, and during his harsh training Fable and Jaalib fell in love. Fable left Trulalis following an Inquisitor's attack, but she would meet Jaalib later, fully devoting herself to him and his father, despite her inner doubts.
 TEXT_TOOLTIP_FABLE_ASTIN_HEALTH,Health: 160 [2%/5s] (Hero)
 TEXT_TOOLTIP_FABLE_ASTIN_MOVE,Speed: 1.3
@@ -7473,10 +7436,6 @@ TEXT_TOOLTIP_FREDJA_MOVE,Speed: 1.0
 TEXT_TOOLTIP_FREDJA_WEAP1,1x Stormtrooper One Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_FREDJA_WEAP2,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_FREERUNNER,Originally an open-top combat vehicle introduced after the Clone Wars, the Freerunner would see several improvements as its parent company attempted to sell the unpopular product to anyone who could pay for it. It became the standard heavy combat repulsorcraft among Rebel Alliance forces and would see use well into the New Republic.
-TEXT_TOOLTIP_FREERUNNER_AA,Modular assault vehicle introduced after the Clone Wars. This configuration of Freerunner is equipped with a weapons load dedicated to air-defense and self-protection.
-TEXT_TOOLTIP_FREERUNNER_AA_COMPANY,Company: 3x Anti-Air Armored Freerunner
-TEXT_TOOLTIP_FREERUNNER_AA_WEAP1,1x Flak Cannon: 4 / 1.0s / 400m
-TEXT_TOOLTIP_FREERUNNER_AA_WEAP2,1x AI Blaster Cannon (AOE): 4 / 1.0s / 320m
 TEXT_TOOLTIP_FREERUNNER_ASSAULT,Originally an open-top combat vehicle introduced after the Clone Wars, the Freerunner would see several improvements as its parent company attempted to sell the unpopular product to anyone who could pay for it. The modularity allows local forces to configure the vehicle for a variety of roles.
 TEXT_TOOLTIP_FREERUNNER_ASSAULT_COMPANY,Company: 3x Modified Armored Freerunner
 TEXT_TOOLTIP_FREERUNNER_ASSAULT_WEAP1,1x Heavy AV Blaster Cannon: 1 / 1.0s / 400m
@@ -7493,6 +7452,10 @@ TEXT_TOOLTIP_FREERUNNER_MOVE,Speed: 3.0 | Turn: 3.0
 TEXT_TOOLTIP_FREERUNNER_SHIELD,Shields: 100 / [8/R] (Light Vehicle)
 TEXT_TOOLTIP_FREERUNNER_WEAP1,1x AV Blaster Cannon: 2 / 1.0s / 320m
 TEXT_TOOLTIP_FREERUNNER_WEAP2,2x Light AI Blaster Cannons: 3 / 1.0s / 320m
+TEXT_TOOLTIP_FREERUNNER_AA,Modular assault vehicle introduced after the Clone Wars. This configuration of Freerunner is equipped with a weapons load dedicated to air-defense and self-protection.
+TEXT_TOOLTIP_FREERUNNER_AA_COMPANY,Company: 3x Anti-Air Armored Freerunner
+TEXT_TOOLTIP_FREERUNNER_AA_WEAP1,1x Flak Cannon: 4 / 1.0s / 400m
+TEXT_TOOLTIP_FREERUNNER_AA_WEAP2,1x AI Blaster Cannon (AOE): 4 / 1.0s / 320m
 TEXT_TOOLTIP_FRUORO,A Chiss design dating from pre-Clone Wars, although updated throughout the decades, the Fruoro is one of the primary picket vessels in service to the Ascendancy and various Household Phalanxes.
 TEXT_TOOLTIP_FRUORO_HULL,Hull: 1100 (Frigate)
 TEXT_TOOLTIP_FRUORO_MOVE,Speed: 6.3 | Accel: 0.15 | Turn: 0.5
@@ -7500,6 +7463,8 @@ TEXT_TOOLTIP_FRUORO_SHIELD,Shields: 1000 / [22/R] (Frigate)
 TEXT_TOOLTIP_FRUORO_WEAP1,2x Light Dual Megamasers: 2 / 2.5s / 5.1km
 TEXT_TOOLTIP_FRUORO_WEAP2,2x Light Dual Ion Cannons: 2 / 4.0s / 5.1km
 TEXT_TOOLTIP_FURION,A heavy Clawcraft design with a significant warhead load that is uncharacteristically slow and difficult to fly for an Empire of the Hand starfighter. It is suited to engage any target but should be kept out of dogfights.
+TEXT_TOOLTIP_FAARL,"The Child Conqueror", rumored to be a noble scion of Korlings, started in vicious but small time piracy. But he quickly discovered the vulnerability of the primitive worlds in the Parthovian Cluster and carved out a slave empire based in an ancient warlord's tower. Pirates and mercenaries have flocked to his brutal regime to command his enslaved soldiers, enough that a small city has grown around Fortress Baarlos. Though a cunning warrior, Faarl prefers to direct his captured fleet from his base surrounded by personal entertainers and his extensive library.
+TEXT_TOOLTIP_FAARL_SQUADRON,Fighters: 2 / 0
 TEXT_TOOLTIP_GANN,Grand Moff of Sector 5, Cinzero Gann would slowly lose control over the Deep Core after both of Palpatine’s deaths and Daala’s coup. Despite being one of the highest ranking survivors of the New Order, the vast majority of his underlings would answer to him in name only as they ran their own independent fiefdoms inside the Deep Core.
 TEXT_TOOLTIP_GARM,Garm Bel Iblis is a Corellian military commander and a founding member of the Rebel Alliance. Disputes with Rebel leader Mon Mothma led Bel Iblis to wage a separate war against the Empire using Dreadnaughts acquired from the Katana fleet. He rejoined the New Republic during the Thrawn Crisis.
 TEXT_TOOLTIP_GARVEDON,Garvedon was a cousin of the ever influential Tarkin family and was particularly close to the controversial militarist Ranulph. When Ranulph's rising influence led him offworld to be a senator, Garvedon took over responsibility of the military defense of the Seswenna sector.
@@ -7621,7 +7586,6 @@ TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_HEALTH,Health: 30 (Speeder)
 TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_MOVE,Speed: 4.75 | Turn: 8.0 
 TEXT_TOOLTIP_GUARDIAN_E2_SPEEDER_WEAP1,1x Light AI Blaster Cannon: 4 / 1.0s / 200m
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR,Heavy agents within the Protectorate branch of the Pentastar Alignment. Consist of promoted COMPNOR Security troopers and are enthusiastic and well equipped if not necessarily disciplined or cautious. Suited to aggressive anti-infantry actions.
-TEXT_TOOLTIP_GUARDIAN_PROTECTOR_AA_HEALTH,Health: 24 (Infantry)
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR_COMPANY,Company: 24x Guardian Protector
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR_COMPANY_WEAP1,12x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR_COMPANY_WEAP2,4x Light Repeating Blaster: 5 / 1.0s / 240m
@@ -7642,6 +7606,7 @@ TEXT_TOOLTIP_GUARDIAN_PROTECTOR_WEAP2,1x E-5C Heavy Blaster Rifle: 5 / 1.0s / 24
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR_WEAP3,1x CR-24 Flame Rifle: 10 / 5.5s / 220m
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR_WEAP4,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_GUARDIAN_PROTECTOR_WEAP5,1x SLM Rocket Launcher (AA): 1 / 9.0s / 320m
+TEXT_TOOLTIP_GUARDIAN_PROTECTOR_AA_HEALTH,Health: 24 (Infantry)
 TEXT_TOOLTIP_GUARDIAN_SQUADRON,Closely related to Rogue Squadron, pilots of Guardian Squadron tend to share some skill with the elite members of Rogue Squadron, led by bomber expert Horton Salm. Due to their similarities in skill, Guardian Squadron often finds itself working alongside Rogue Squadron to accomplish tasks that their X-wings couldn't perform on their own.
 TEXT_TOOLTIP_GUNDA_MABIN,"Gunda the Terrible" was a Quara Aqualish pirate who got her start with the Riders of the Maelstrom before making a name for herself as a brutal pirate and slaver. Her usual approach to patrol ships is a headlong charge with her whole fleet, a tactic which has served her well so far.
 TEXT_TOOLTIP_GX12,When Espo duties turn from police work to true warfare, the GX12 hovervan is the first choice of supporting vehicle. It can move a small group of troops behind thick armor and support them with grenades and heavy lasers.
@@ -8065,7 +8030,6 @@ TEXT_TOOLTIP_ISB_STORMTROOPER_WEAP2,1x DLT-19 Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_ISB_STORMTROOPER_WEAP3,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_ISOLDER,A Hapan Prince who leads the Hapan fleet from the bridge of his Battle Dragon, the Song of War.
 TEXT_TOOLTIP_IVPIKKIS,Leader of the task force that led the Ssi-ruuvi Imperium's invasion of Bakura and a respected officer among his fellow Ssi-ruuk. A member of the red-scaled military caste, Ivpikkis is one of the few with any combat experience, serving in the military for roughly half a century starting as a scout. While not eager to take part in the Shreeftut's expansionism, he carried out his orders as expected of his caste. Ivpikkis would survive the Ssi-ruuvi fleet's rout at Bakura, and fought the Alliance fleet to a standstill during their counter-invasion.
-TEXT_TOOLTIP_JAALIB_BRANDL,The son of Inquisitor Adalric Brandl, Jaalib was raised by his father following his mother's death. As he grew older, Jaalib fell in love with the Rebel agent Fable Astin, and helped her escape rather than have her become a servant of the Empire. Adalric then gave Jaalib to Inquisitor Tremayne to be trained as a Dark Jedi. Eventually Jaalib rejoined his father, and seduced Fable into joining them.
 TEXT_TOOLTIP_JADE_FIRE_HULL,Hull: 500 (Gunship)
 TEXT_TOOLTIP_JADE_FIRE_MOVE,Speed: 3.25 | Accel: 0.07 | Turn: 3.0
 TEXT_TOOLTIP_JADE_FIRE_SHIELD,Shields: 500 / [10/R] (Gunship)
@@ -8141,6 +8105,7 @@ TEXT_TOOLTIP_JX40_HEALTH,Health: 500 (Heavy Speeder)
 TEXT_TOOLTIP_JX40_MOVE,Speed: 1.5 | Turn: 3.0
 TEXT_TOOLTIP_JX40_WEAP1,2x Concussion Grenades: 1 / 2.5s / 320m
 TEXT_TOOLTIP_JX40_WEAP2,1x Concussion Grenade: 2 / 2.5s / 320m
+TEXT_TOOLTIP_JAALIB_BRANDL,The son of Inquisitor Adalric Brandl, Jaalib was raised by his father following his mother's death. As he grew older, Jaalib fell in love with the Rebel agent Fable Astin, and helped her escape rather than have her become a servant of the Empire. Adalric then gave Jaalib to Inquisitor Tremayne to be trained as a Dark Jedi. Eventually Jaalib rejoined his father, and seduced Fable into joining them.
 TEXT_TOOLTIP_K_WING,A Y-wing successor and improvement upon earlier models, the K-wing MK2 is extremely well-armed and durable with wings covered in munitions plus a pair of turrets. Its rugged nature and built-in SLAM system allows it to endure against enemy fighters when performing runs against enemy capital ships.
 TEXT_TOOLTIP_K_WING_PROTOTYPE,The successor design to the Y-wing developed by the New Republic, the K-wing sports a heavier payload compared to standard bombers. Its armament would be limited to a flechette launcher before subsequent models added on to its fighter to fighter capabilities while seeing improvements in its durability and speed. The implementation of the SLAM system also allows the K-wing to gain bursts of speed when performing runs or escaping from heavy fire.
 TEXT_TOOLTIP_K222,The zZip K-222 Aero-Interceptor is a large and powerful airspeeder that is one of the fastest in its class. Featuring powerful ion engines, it is also armed with fire-linked lasers and concussion missiles, making the K-222 one of the most dangerous vehicles produced in the Corporate Sector.
@@ -8379,14 +8344,6 @@ TEXT_TOOLTIP_LUMIYA,Formerly known as Shira Brie, Lumiya infiltrated the Rebel A
 TEXT_TOOLTIP_LUMIYA_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_LUMIYA_MOVE,Speed: 1.5
 TEXT_TOOLTIP_LUMIYA_WEAP1,1x Lightsaber Whip: 1 / 0.3s / 1m
-TEXT_TOOLTIP_MAAREK_STELE_181ST,Maarek Stele was one of the most decorated pilots of the Empire, who earned the title of Tan as well as Emperor's Hand. Among his exploits, he personally saved the Emperor's life during Zaarin's coup. Stele joined the 181st after the Battle of Endor and was given command of the unit after 12 ABY.
-TEXT_TOOLTIP_MAAT,The Multi-Altitude Assault Transport/infantry is a compact gunship developed for the Imperial Stormtrooper Corps to ferry small groups of troops between high-risk areas. Smaller than its LAAT predecessor, which lead to more common usage of the IDT instead. Capable of engaging vehicles but does need to be wary of larger threats.
-TEXT_TOOLTIP_MAAT_COMPANY,Company: 2x MAAT
-TEXT_TOOLTIP_MAAT_HEALTH,Health: 200 (Heavy Speeder)
-TEXT_TOOLTIP_MAAT_MOVE,Speed: 4.5 | Turn: 4.0
-TEXT_TOOLTIP_MAAT_SHIELD,Shields: 50 / [5/R] (Speeder)
-TEXT_TOOLTIP_MAAT_WEAP1,2x Light AV Blaster Cannons: 5 / 2.5s / 400m
-TEXT_TOOLTIP_MAAT_WEAP2,2x Proton Missiles: 1 / 15.0s / 400m
 TEXT_TOOLTIP_MABIN_SQUADRON,Squadron: 3x Citadel Cruiser | 2x Gozanti Cruiser
 TEXT_TOOLTIP_MAGNETAR,The mainstay battle carrier of the Royal Hapan Navy, The Magnetar will launch waves of fighters and bombers at extreme ranges to soften the enemy fleet while screening against enemy retaliation. The Magnetar will then slowly move in to assist its fighters at long range with its own assault concussion missile launchers. At only a few decades old, the Magnetar is a relatively new design for the insular Hapan Royal Navy.
 TEXT_TOOLTIP_MAGNETAR_HULL,Hull: 1350 (Frigate)
@@ -8695,6 +8652,14 @@ TEXT_TOOLTIP_MUQARAEA_SHIELD,Shields: 800 / [18/R] (Corvette)
 TEXT_TOOLTIP_MUQARAEA_WEAP1,5x Medium Dual Rapid Laser Cannons: 6 / 2.0s / 3.5km
 TEXT_TOOLTIP_MUZZER,Muzzer was a Grand Moff in the Central Committee of Grand Moffs who supported Trioculus’ bid for power after Endor although he would be sceptical of Trioculus’ desire to find the Glove of Darth Vader. Muzzer would also be injured by the personal bounty hunter of Zorba Desilijic Tiure when the Moffship docked with the Zorba Express.
 TEXT_TOOLTIP_MYRSK,A Nikto veteran of the Clone Wars who served with the Separatists, Myrsk is known for his disgruntled nature and dislike of nearly everybody. Wary of the Empire's xenophobia and aware he was on the losing side, Myrsk saw the Corporate Sector as his best chance and fled there at the end of the conflict. He would join the Espos and rise to the rank of Sergeant, working under Lieutenant Fasser. During Imperial agent Jahan Cross' investigation of Rossum Droidworks, Myrsk would lead the hunt for Cross after the latter was framed for murder.
+TEXT_TOOLTIP_MAAREK_STELE_181ST,Maarek Stele was one of the most decorated pilots of the Empire, who earned the title of Tan as well as Emperor's Hand. Among his exploits, he personally saved the Emperor's life during Zaarin's coup. Stele joined the 181st after the Battle of Endor and was given command of the unit after 12 ABY.
+TEXT_TOOLTIP_MAAT,The Multi-Altitude Assault Transport/infantry is a compact gunship developed for the Imperial Stormtrooper Corps to ferry small groups of troops between high-risk areas. Smaller than its LAAT predecessor, which lead to more common usage of the IDT instead. Capable of engaging vehicles but does need to be wary of larger threats.
+TEXT_TOOLTIP_MAAT_COMPANY,Company: 2x MAAT
+TEXT_TOOLTIP_MAAT_HEALTH,Health: 200 (Heavy Speeder)
+TEXT_TOOLTIP_MAAT_MOVE,Speed: 4.5 | Turn: 4.0
+TEXT_TOOLTIP_MAAT_SHIELD,Shields: 50 / [5/R] (Speeder)
+TEXT_TOOLTIP_MAAT_WEAP1,2x Light AV Blaster Cannons: 5 / 2.5s / 400m
+TEXT_TOOLTIP_MAAT_WEAP2,2x Proton Missiles: 1 / 15.0s / 400m
 TEXT_TOOLTIP_N1_ROGUE,Members of Stormtrooper X's gang, following his lead in the Rogue Imperial 5.
 TEXT_TOOLTIP_NABYL,Supply vessel captain often assigned to tend to Night Caller on missions. Famous for his crew's contraction of Bunkard Sewer Disorder and being quarantined as a result of Wraith Squadron's actions.
 TEXT_TOOLTIP_NAMANA,Light escort vessel named after a local addictive fruit. Intended to provide flank coverage to larger destroyers and support fire for other small vessels. 
@@ -9074,11 +9039,6 @@ TEXT_TOOLTIP_OTO_WEAP4,4x Proton Torpedoes: 4 / 16.0s / 6.6km
 TEXT_TOOLTIP_OTRO,An executive of Galentro Heavy Works, Wyrn Otro was raised on a Galentro family enclave in the Core like most elite members of the corporation. Otro would serve as Galentro's representative at Grand Moff Kaine's Pentastar Talks, and despite his misgivings that it was a power play by Kaine, helped ratify the Pentastar Alignment Treaty. While a member of the Alignment's Chamber of Order along with other corporates, he prioritizes Galentro over anything else, viewing the corporation as the only family he needed.
 TEXT_TOOLTIP_OTTO,A renegade Imperial General, Otto earned his rank from his political connections and friendship with Admiral Motti. Repeated defeats and rumors of spice addiction saw Otto reassigned to Lok where Motti hoped his friend would keep a low profile. Out of wanderlust Otto would abandon his post, taking an AT-ST walker to participate in Jabba the Hutt's demolition games in hopes to gain the money needed to retire to Cloud City. His obese and bumbling nature is matched only by his insane zealotry to the Emperor, granting him startling capability in combat.
 TEXT_TOOLTIP_OWEN,An extremely vain and short tempered Moff; Owen was the governor of the Rayter Sector in the Galactic Civil War. Owen would lose his position due to the scheming and treachery of his personal assistant. Relegated to the command of his ISD, Impending Doom, Owen would go on a rampage of revenge and executions to regain his honour and position in the Empire.
-TEXT_TOOLTIP_PAATAATUS_SKIFF,Light skiff used by the Paataatus Hiveborn in ground combat. It is armed with a light blaster cannon and is deployed in dense numbers that allow the Paataatus to swarm their opponents in a hail of laser fire in ideal circumstances.
-TEXT_TOOLTIP_PAATAATUS_SKIFF_COMPANY,Company: 6x Paataatus Skiff
-TEXT_TOOLTIP_PAATAATUS_SKIFF_HEALTH,Health: 160 (Light Vehicle)
-TEXT_TOOLTIP_PAATAATUS_SKIFF_MOVE,Speed: 2.5 | Turn: 3.0
-TEXT_TOOLTIP_PAATAATUS_SKIFF_WEAP1,1x Light AI Blaster Cannon: 4 / 2.0s / 320m
 TEXT_TOOLTIP_PACCIAN_MISSILE_TANK,Massive mobile missile platform utilized by the Paccian Governance. With its vast payload of concussion missiles the Paccian Missile Tank can rain down fire constantly in combat.
 TEXT_TOOLTIP_PACCIAN_MISSILE_TANK_COMPANY,Company: 1x Paccian Missile Tank
 TEXT_TOOLTIP_PACCIAN_MISSILE_TANK_HEALTH,Health: 200 (Heavy Vehicle)
@@ -9244,6 +9204,11 @@ TEXT_TOOLTIP_PX7_COMPANY,Company: 3x PX-7 Troop Transport
 TEXT_TOOLTIP_PX7_HEALTH,Health: 300 (Medium Vehicle)
 TEXT_TOOLTIP_PX7_MOVE,Speed: 2.25 | Turn: 3.0 
 TEXT_TOOLTIP_PX7_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_PAATAATUS_SKIFF,Light skiff used by the Paataatus Hiveborn in ground combat. It is armed with a light blaster cannon and is deployed in dense numbers that allow the Paataatus to swarm their opponents in a hail of laser fire in ideal circumstances.
+TEXT_TOOLTIP_PAATAATUS_SKIFF_COMPANY,Company: 6x Paataatus Skiff
+TEXT_TOOLTIP_PAATAATUS_SKIFF_HEALTH,Health: 160 (Light Vehicle)
+TEXT_TOOLTIP_PAATAATUS_SKIFF_MOVE,Speed: 2.5 | Turn: 3.0
+TEXT_TOOLTIP_PAATAATUS_SKIFF_WEAP1,1x Light AI Blaster Cannon: 4 / 2.0s / 320m
 TEXT_TOOLTIP_QUA,Chancellor Qua of the Zenox Star Cluster was a man comfortable with the upper echelons of society, able to hobnob with the likes of Thalassa Tarkin or the Most High Proctor of Thebeon 8. Though there were those who considered him an Imperial lackey, his territory was deep in strongholds of the Empire and he personally benefited handsomely from the arrangement.
 TEXT_TOOLTIP_QUASAR,A modified SoroSuub freighter that was redesigned by the Rebel Alliance to fulfil a light-carrier role. This ship is particularly fragile and bears only a light armament of anti-starfighter laser turrets.
 TEXT_TOOLTIP_QUASAR_HULL,Hull: 700 (Frigate)
@@ -10579,7 +10544,6 @@ TEXT_TOOLTIP_T4B_HEALTH,Health: 400 (Heavy Vehicle)
 TEXT_TOOLTIP_T4B_MOVE,Speed: 0.5 | Turn: 2.0
 TEXT_TOOLTIP_T4B_WEAP1,1x Heavy AV Blaster Cannon: 4 / 2.0s / 400m
 TEXT_TOOLTIP_T4B_WEAP2,1x Concussion Missile: 3 / 30.0s / 320m
-TEXT_TOOLTIP_TAA_CHUME,Ta’a Chume was Queen Mother of the Hapes Consortium during the Galactic Civil War and responsible for ending that region's long isolation from the wider galaxy. As Queen Mother Ta’a Chume proved to be utterly amoral in maintaining her grip on power, to the extent of arranging the assassination of family members including her first-born son, her second son Isolder's first fiancée, her daughter-in-law and finally an attempt on her great-granddaughter.
 TEXT_TOOLTIP_TAKEL,Miltin Takel was a veteran fleet admiral who became one of the twelve original Imperial Grand Admirals appointed by Emperor Palpatine two years before the Battle of Yavin. Known for his strong vices, the Grand Admiral was a spice-addict and womanizer of alien females from the world of Gargon. In spite of these weaknesses, Takel was a skilled commander, aided by the limited telepathy that was granted to him by the use of glitterstim. After Endor, Takel allied with The Central Committee of Grand Moffs.
 TEXT_TOOLTIP_TAL_ASHEN,Tal Ashen was a General serving in the Galactic Empire. After his innovative tactics uncovered and captured an entire spy ring led by the wife of Rebel General Rand Talor, Emperor Palpatine hand-picked Ashen to command the Coruscant Defense Forces and the Elite Force defending the Imperial Palace.
 TEXT_TOOLTIP_TAL_FRAAN,Tal Fraan was a Yevethan Proctor who commanded Yevethan forces at Morning's Bell, Preza, and at the Battle of Doornik-319. He would later go on to become Nil Spaar's personal aide and advisor throughout the majority of the Black Fleet Crisis. He commanded the EX-F, renamed Glory of Yevetha, which was a test bed for Imperial Weapon and Engine technologies.
@@ -10845,6 +10809,7 @@ TEXT_TOOLTIP_TYRESI_GURTT,Captain of Bolt Squadron, an elite clutch fighter squa
 TEXT_TOOLTIP_TYRUS,Colonel Tyrus of the Crimson Aces once worked under a man named Gikkin, defending the planet Repea. But their loyalty was questioned by local leaders, who made a deal with the Empire to wipe them out. The survivors secretly provoked Imperial retribution against Repea, before turning to a life of mercenary work in their stolen frigate. Though Gikken was killed in a sortie, Tyrus has kept the Crimson Aces a formidable force working for Hutts, Imperials, Rebels, corporate interests,  local governments, and anyone with credits to spend.
 TEXT_TOOLTIP_TYRUS_SQUADRON,Fighters: 1.5 / 1
 TEXT_TOOLTIP_TZENKENS,Tzenkens was a Fleet Admiral in the Imperial Navy and was in command of the Tierfon Sector Fleet. He was assigned this job after the "Tocan System Disaster" replacing the old Admiral who had allowed significant amounts of the Rebels to escape despite the Imperials winning the battle. Tzenkens was known to be a significantly aggressive admiral, keen on offensive actions and maintaining a high tempo of operations.
+TEXT_TOOLTIP_TAA_CHUME,Ta’a Chume was Queen Mother of the Hapes Consortium during the Galactic Civil War and responsible for ending that region's long isolation from the wider galaxy. As Queen Mother Ta’a Chume proved to be utterly amoral in maintaining her grip on power, to the extent of arranging the assassination of family members including her first-born son, her second son Isolder's first fiancée, her daughter-in-law and finally an attempt on her great-granddaughter.
 TEXT_TOOLTIP_UBRIKKIAN_FRIGATE,A small corvette designed by Ubrikkian Industries which was most commonly armed with lots of quad laser turrets along with a small cargo bay. This was an extremely popular design in Hutt service as a screening and escort vessel to fend off any pirate raids on their interests.
 TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_HULL,Hull: 900 (Frigate)
 TEXT_TOOLTIP_UBRIKKIAN_FRIGATE_MOVE,Speed: 2.8 | Accel: 0.15 | Turn: 0.55
@@ -11196,6 +11161,41 @@ TEXT_TOOLTIP_ZUMA,Mander Zuma was a Jedi archivist who learned from Tionne Solus
 TEXT_TOOLTIP_ZUMA_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_ZUMA_MOVE,Speed: 1.2
 TEXT_TOOLTIP_ZUMA_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
+TEXT_TOOLTIP_AA5_TRUCK,A popular Trast Heavy Transports product, the A-A5 speeder truck is a rugged vehicle with thick plating to resist hostile environments. It was commonly modified into an APC by many organizations, including the Rebel Alliance and later the New Republic.
+TEXT_TOOLTIP_AA5_TRUCK_COMPANY,Company: 2x A-A5 Speeder Truck
+TEXT_TOOLTIP_AA5_TRUCK_HEALTH,Health: 400 (Medium Vehicle)
+TEXT_TOOLTIP_AA5_TRUCK_MOVE,Speed: 2.0 | Turn: 1.0 
+TEXT_TOOLTIP_AA5_TRUCK_WEAP1,1x AI Blaster Cannon: 4 / 1.0s / 280m
+TEXT_TOOLTIP_AA5_TRUCK_WEAP2,1x Concussion Grenade: 1 / 3.0s / 160m
+TEXT_TOOLTIP_AA70_TRUCK,Modification of the A-A5 speeder truck into a military command vehicle. Boasts improved armor, engines and energy weapons and allows decent combat protection from light targets.
+TEXT_TOOLTIP_AA70_TRUCK_COMPANY,Company: 2x AA-70 Command Speeder
+TEXT_TOOLTIP_AA70_TRUCK_HEALTH,Health: 450 (Medium Vehicle)
+TEXT_TOOLTIP_AA70_TRUCK_MOVE,Speed: 2.5 | Turn: 1.0 
+TEXT_TOOLTIP_AA70_TRUCK_WEAP1,1x AI Blaster Cannon: 6 / 1.0s / 280m
+TEXT_TOOLTIP_AAC_1,A fast and maneuverable light tank perfect for lightning strikes and harassing Imperial walkers. The AAC-1 was developed for planetary defense forces after the Clone Wars, and the blueprints made their way to the Rebel Alliance via payment in a card game.
+TEXT_TOOLTIP_AAC_1_COMPANY,Company: 4x AAC-1 Hovertank
+TEXT_TOOLTIP_AAC_1_MOVE,Speed: 4.0 | Turn: 3.0
+TEXT_TOOLTIP_AAC_2,A fast and maneuverable light tank perfect for lightning strikes and harassing Imperial walkers. The AAC-2 features added deflector shields, and while a rarer upgrade generally restricted to guarding command bases under the Rebel Alliance the larger resource base of the New Republic allows it to be standard.
+TEXT_TOOLTIP_AAC_2_COMPANY,Company: 4x AAC-2 Hovertank
+TEXT_TOOLTIP_AAC_2_MOVE,Speed: 3.75 | Turn: 3.0
+TEXT_TOOLTIP_AAC_2_SHIELD,Shields: 25 / [5/R] (Light Vehicle)
+TEXT_TOOLTIP_AAC_3,A complete redesign of the original AAC into a larger tank trading speed for power. It was caught in a difficult development process, with allegations of corruption and developer disagreements leading to the cancellation of the original project. Though the work was salvaged and a complete product delivered, the popularity never matched the second entry in the series.
+TEXT_TOOLTIP_AAC_3_COMPANY,Company: 3x AAC-3 Hovertank
+TEXT_TOOLTIP_AAC_3_HEALTH,Health: 250 (Medium Vehicle)
+TEXT_TOOLTIP_AAC_3_MOVE,Speed: 2.5 | Turn: 2.0
+TEXT_TOOLTIP_AAC_3_WEAP1,2x AV Blaster Cannons: 1 / 2.0s / 320m
+TEXT_TOOLTIP_AAC_3_WEAP2,2x Light AI Blaster Cannons: 2 / 1.0s / 240m
+TEXT_TOOLTIP_AAC_3_WEAP3,1x Concussion Missile: 2 / 4.0s / 320m
+TEXT_TOOLTIP_AAC_HEALTH,Health: 150 (Light Vehicle)
+TEXT_TOOLTIP_AAC_WEAP1,1x Light AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_AAC_WEAP2,2x Slugthrowers: 1 / 2.0s / 320m
+TEXT_TOOLTIP_AAC_WEAP3,1x Light Concussion Missile: 4 / 4.0s / 320m
+TEXT_TOOLTIP_AAC3_RESEARCH,Unlocks the AAC-3 Hovertank. Retires AAC-2 Hovertank.
+TEXT_TOOLTIP_AARICA_VOST,Intelligence and wetwork agent for the Corporate Sector Authority who often operates under the alias Bren-Aarica-Rordan. Daughter of the Head of Corporate Expansion Larin Vost.
+TEXT_TOOLTIP_AARICA_VOST_HEALTH,Health: 120 (Hero)
+TEXT_TOOLTIP_AARICA_VOST_MOVE,Speed: 1.3
+TEXT_TOOLTIP_AARICA_VOST_SHIELD,Shields: 25 / [5/R] (Infantry)
+TEXT_TOOLTIP_AARICA_VOST_WEAP1,1x Nightstinger Blaster Rifle: 1 / 3.0s / 320m
 TEXT_TR_MAIN_MENU_THEME_CREDIT,"Beyond the Stars" by Arturo Díez Boscovich - soundcloud.com/arturoboscovich
 TEXT_TRIFOIL_SQUADRON,Trifoil Fighter Squadron
 TEXT_TRIFOIL_SQUADRON_HALF,Trifoil Fighter Squadron 1/2
@@ -11222,17 +11222,6 @@ TEXT_UNIT_A_WING_GREEN_SQUADRON,A-wing, Green Squadron
 TEXT_UNIT_A9,A-9 Vigilance
 TEXT_UNIT_A9_HALF,A-9 Vigilance 1/2
 TEXT_UNIT_A92,A-9 Vigilance x2
-TEXT_UNIT_AA5_TRUCK,A-A5 Speeder Truck
-TEXT_UNIT_AA5_TRUCK_COMPANY,A-A5 Speeder Truck Company
-TEXT_UNIT_AA70_TRUCK,AA-70 Command Speeder
-TEXT_UNIT_AA70_TRUCK_COMPANY,AA-70 Command Speeder Company
-TEXT_UNIT_AAC_1,AAC-1 Hovertank
-TEXT_UNIT_AAC_1_COMPANY,AAC-1 Hovertank Company
-TEXT_UNIT_AAC_2,AAC-2 Hovertank
-TEXT_UNIT_AAC_2_COMPANY,AAC-2 Hovertank Company
-TEXT_UNIT_AAC_3,AAC-3 Hovertank
-TEXT_UNIT_AAC_3_COMPANY,AAC-3 Hovertank Company
-TEXT_UNIT_AAC3_RESEARCH,Research AAC-3 Hovertank
 TEXT_UNIT_ACCLAMATOR_PATROL,Acclamator Patrol Cruiser
 TEXT_UNIT_ACTION_VI_REFIT,Imperial Patrol Action VI
 TEXT_UNIT_ACTIVE,Active Fast Attack Frigate
@@ -11290,12 +11279,6 @@ TEXT_UNIT_ASSAULT_STORMTROOPER_SQUAD,Stormtrooper Carbineer Squad
 TEXT_UNIT_ASSERTOR,Assertor Star Dreadnought
 TEXT_UNIT_AST5,AST-5 Armored Sentinel Transport
 TEXT_UNIT_AST5_COMPANY,AST-5 Armored Sentinel Transport Wing
-TEXT_UNIT_AT_AA_FLAK_WALKER,AT-AA Walker (Flak Laser)
-TEXT_UNIT_AT_AA_FLAK_WALKER_COMPANY,AT-AA Walker (Flak Laser) Company
-TEXT_UNIT_AT_AA_MISSILE_WALKER,AT-AA Walker (Flak Missile)
-TEXT_UNIT_AT_AA_MISSILE_WALKER_COMPANY,AT-AA Walker (Flak Missile) Company
-TEXT_UNIT_AT_AA_WALKER,AT-AA Walker (Flak Pod)
-TEXT_UNIT_AT_AA_WALKER_COMPANY,AT-AA Walker (Flak Pod) Company
 TEXT_UNIT_AT_AI_WALKER,AT-AA Walker (Concussion Missile)
 TEXT_UNIT_AT_AI_WALKER_COMPANY,AT-AA Walker (Concussion Missile) Company
 TEXT_UNIT_AT_AT_REFIT,Turbolaser Refit AT-AT Walker
@@ -11306,6 +11289,12 @@ TEXT_UNIT_AT_ST_A_WALKER,AT-ST/A Walker
 TEXT_UNIT_AT_ST_A_WALKER_COMPANY,AT-ST/A Walker Company
 TEXT_UNIT_AT_ST_WALKER,AT-ST Walker
 TEXT_UNIT_AT_ST_WALKER_COMPANY,AT-ST Walker Company
+TEXT_UNIT_AT_AA_FLAK_WALKER,AT-AA Walker (Flak Laser)
+TEXT_UNIT_AT_AA_FLAK_WALKER_COMPANY,AT-AA Walker (Flak Laser) Company
+TEXT_UNIT_AT_AA_MISSILE_WALKER,AT-AA Walker (Flak Missile)
+TEXT_UNIT_AT_AA_MISSILE_WALKER_COMPANY,AT-AA Walker (Flak Missile) Company
+TEXT_UNIT_AT_AA_WALKER,AT-AA Walker (Flak Pod)
+TEXT_UNIT_AT_AA_WALKER_COMPANY,AT-AA Walker (Flak Pod) Company
 TEXT_UNIT_B_WING,B-wing
 TEXT_UNIT_B_WINGE,B-wing/E
 TEXT_UNIT_BAC,Bothan Assault Cruiser
@@ -11439,10 +11428,10 @@ TEXT_UNIT_EG_STORMTROOPER_SERGEANT,Elite Guard Stormtrooper Sergeant
 TEXT_UNIT_EG_STORMTROOPER_SQUAD,Elite Guard Stormtrooper Squad
 TEXT_UNIT_EIDOLON,KDY Strike
 TEXT_UNIT_ELITE_TIE_RAPTOR,Elite TIE Raptor
-TEXT_UNIT_EMPAA,E-MP-AA
-TEXT_UNIT_EMPAA_COMPANY,E-MP-AA Company
 TEXT_UNIT_EMPAV,E-MP-AV
 TEXT_UNIT_EMPAV_COMPANY,E-MP-AV Company
+TEXT_UNIT_EMPAA,E-MP-AA
+TEXT_UNIT_EMPAA_COMPANY,E-MP-AA Company
 TEXT_UNIT_ENDURANCE,Endurance Star Destroyer
 TEXT_UNIT_ENFORCER_MEDIC_SQUAD,Enforcer Trooper Medic Squad
 TEXT_UNIT_ENFORCER_PICKET,Enforcer Picket Ship
@@ -11633,6 +11622,7 @@ TEXT_UNIT_FLAGSHIP_HAPES_AAJ,Hapan Heavy Task Force
 TEXT_UNIT_FLAGSHIP_HAPES_AAK,Hapan Royal Fleet Subgroup
 TEXT_UNIT_FLAGSHIP_HAPES_AAL,Hapan Reserve Force
 TEXT_UNIT_FLAGSHIP_HAPES_AAM,Hapan Royal Guardians
+TEXT_UNIT_FLAGSHIP_HUTTS_ABA,Boonta Hutta Battle Line
 TEXT_UNIT_FLAGSHIP_HUTTS_AAA,Scyk Garrison Patrol
 TEXT_UNIT_FLAGSHIP_HUTTS_AAB,Mercenary Fighter Group
 TEXT_UNIT_FLAGSHIP_HUTTS_AAC,Hutt Strike Wing
@@ -11659,7 +11649,15 @@ TEXT_UNIT_FLAGSHIP_HUTTS_AAW,Hutt Battlecruiser Fleet Element
 TEXT_UNIT_FLAGSHIP_HUTTS_AAX,Hutt Modernised War Fleet
 TEXT_UNIT_FLAGSHIP_HUTTS_AAY,Boonta Hutta Reserve Task Force 
 TEXT_UNIT_FLAGSHIP_HUTTS_AAZ,Hutt Hunter Task Force
-TEXT_UNIT_FLAGSHIP_HUTTS_ABA,Boonta Hutta Battle Line
+TEXT_UNIT_FLAGSHIP_NR_ABA,NCMP Main Battle Group
+TEXT_UNIT_FLAGSHIP_NR_ABB,NCMP Cruiser Group
+TEXT_UNIT_FLAGSHIP_NR_ABC,NR Roving Battlegroup
+TEXT_UNIT_FLAGSHIP_NR_ABD,Mon Calamari Warship Force
+TEXT_UNIT_FLAGSHIP_NR_ABE,New Republic Fleet Command
+TEXT_UNIT_FLAGSHIP_NR_ABF,Mon Calamari Line of Battle
+TEXT_UNIT_FLAGSHIP_NR_ABG,SoroSuub Heavy Assault Suite
+TEXT_UNIT_FLAGSHIP_NR_ABH,Late Mon Calamari Warfleet
+TEXT_UNIT_FLAGSHIP_NR_ABI,Mon Calamari Raider Flotilla 
 TEXT_UNIT_FLAGSHIP_NR_AAA,Local Sector Fighter sweep
 TEXT_UNIT_FLAGSHIP_NR_AAB,Local Auxiliary Fighter Sweep
 TEXT_UNIT_FLAGSHIP_NR_AAC,Long Distance Bomber Raid Group
@@ -11686,15 +11684,6 @@ TEXT_UNIT_FLAGSHIP_NR_AAW,Space Superiority Fighter Wing
 TEXT_UNIT_FLAGSHIP_NR_AAX,Defender Program Short-range Fighter Wing
 TEXT_UNIT_FLAGSHIP_NR_AAY,NCMP Patrol Task Force
 TEXT_UNIT_FLAGSHIP_NR_AAZ,New Republic Heavy Interdiction Unit
-TEXT_UNIT_FLAGSHIP_NR_ABA,NCMP Main Battle Group
-TEXT_UNIT_FLAGSHIP_NR_ABB,NCMP Cruiser Group
-TEXT_UNIT_FLAGSHIP_NR_ABC,NR Roving Battlegroup
-TEXT_UNIT_FLAGSHIP_NR_ABD,Mon Calamari Warship Force
-TEXT_UNIT_FLAGSHIP_NR_ABE,New Republic Fleet Command
-TEXT_UNIT_FLAGSHIP_NR_ABF,Mon Calamari Line of Battle
-TEXT_UNIT_FLAGSHIP_NR_ABG,SoroSuub Heavy Assault Suite
-TEXT_UNIT_FLAGSHIP_NR_ABH,Late Mon Calamari Warfleet
-TEXT_UNIT_FLAGSHIP_NR_ABI,Mon Calamari Raider Flotilla 
 TEXT_UNIT_FLAGSHIP_PA_AAA,Defensive Fighter Garrisons
 TEXT_UNIT_FLAGSHIP_PA_AAB,Planetary Suppression Bomber Groups
 TEXT_UNIT_FLAGSHIP_PA_AAC,Light Fighter Group
@@ -11902,6 +11891,7 @@ TEXT_UNIT_FLUFF_GW_EOTH_AAK,The flexibility of its armored forces and their abil
 TEXT_UNIT_FLUFF_GW_EOTH_AAL,During the Empire of the Hand's military adventures in the Unknown Regions it would frequently make alliances and joint operations with allied species. One of these major groups is the Garwian Unity which has had a strong relationship with Grand Admiral Thrawn. During joint operations the Garwian Unity has lent several of its gunships to the Hand's Stormtrooper Corps, which they would use to deploy in hostile territory. The Garwian Gunships are able to provide heavy support fire for the Stormtroopers after they have landed, making them an effective shock and awe pairing.
 TEXT_UNIT_FLUFF_GW_EOTH_AAM,One of the most powerful weapons in the Empire of the Hand's arsenal is the K-PO-Megamaser. It is an imposing repulsorcraft able to fire heavy megamasers that devastate hostile emplacements and heavy vehicles. The main weakness of it is its slow speed and fire rate, making V-PO-AV and 2-M Cheri Repulsortank support crucial to ensuring it is not overwhelmed in massed combat.
 TEXT_UNIT_FLUFF_GW_EOTH_AAN,Combined arms deployments are necessary at times against the more organized powers of the Unknown Regions. The Empire of the Hand being prepared for nearly all possibilities when facing stiff resistance deploys a large platoon consisting of V2-PO-Tranports, several Phalanx Trooper squads and supporting Entoli LAVs and O-MP-AIs. Working in harmony this platoon can guarantee complete control of zones of tactical importance while being able to redeploy as needed afterward with swift precision.
+TEXT_UNIT_FLUFF_GW_GE_ABA,In order to aid their troubled ground forces which were heavily strained by the Galactic Civil War, the portions of the Empire under the Ruling Council would seek upgraded versions of their older war gear. The infamous AT-AT would see its weapons system upgraded from laser cannons to turbolasers which provided a massive increase in firepower. The AT-ST would also see upgrades to their weaponry with the AT-ST/A variant. The Empire hopes these increases in firepower would result in better battlefield results. Shortages of manpower mean that Dwarf Spider Droids, repurposed from remaining Separatist stockpiles under Imperial control, escort the walkers over infantry; although even these droids are present in smaller numbers than before. 
 TEXT_UNIT_FLUFF_GW_GE_AAA,As the Empire crumpled after the Battle of Endor, Imperial ground forces were forced to deviate from their long held standard formations due to manpower and equipment shortages. Lacking the required Heavy Weapons Teams mandated for the formation of an Assault Platoon, old Dwarf Spider Droids were reactivated as a replacement. The DSD heavy weapons lay down destructive covering fire for the Imperial Army Assault squads to close on and destroy an enemy position. 
 TEXT_UNIT_FLUFF_GW_GE_AAB,In order to maintain control over more remote worlds the Empire needed to establish lots of small outposts. The high speed of the speeder bikes allows the garrison of the base to patrol and thus control a massive area of the planet around their base. While the Scout Troopers maintain their vigil over the remote planet, guards maintain the security of the base. However, long periods of relative inactivity and boredom have impacted their combat readiness. 
 TEXT_UNIT_FLUFF_GW_GE_AAC,Imperial doctrine before the Battle of Endor dictated the standard Order of Battle for the Imperial Army. This organisational structure was heavily disrupted by the fragmentation of the Empire following the Emperor’s death. Despite this, some forces still managed to adhere to the existing doctrine. The standard Imperial line platoon is expected to be the building block of many larger Imperial Army forces although their actual equipment could vary depending on local supply. 
@@ -11927,7 +11917,6 @@ TEXT_UNIT_FLUFF_GW_GE_AAV,A vast concentration of Imperial air power, with sever
 TEXT_UNIT_FLUFF_GW_GE_AAX,The exceptionally trained Nova Troopers are rarely seen in normal combat due to their usual duties guarding important positions. But when these locations came under attack, or the situation became desperate enough to deploy these elite soldiers, they took to the field to deadly effect. Their standard equipment makes them lethal to any infantry and light vehicles, making them perfect in close quarters assault missions or guarding the exposed underbelly of vehicles like the AT-AT or their upgraded TAT-AT variant. The latter being a refit which up-gunned the design yet was slow to roll out due to the constraints of post-Endor Imperial logistics. 
 TEXT_UNIT_FLUFF_GW_GE_AAY,With the Empire struggling for manpower, they increasingly turned to automated vehicles and droids. This resulted in designs like the XR-85 Tank Droid becoming widely adopted. These behemoth droids make for fearsome combatants in a rapid frontal assault. Following in the wake of their devastating assault came the Dark Side enhanced Dark Stormtroopers. They bring with them excessive amounts of firepower per squad compared to every other infantry formation, with heavy repeating blasters and devastating turbocannons. Anything which managed to survive the Tank Droids would be dispassionately gunned down by the artificially-enhanced Stormtroopers. 
 TEXT_UNIT_FLUFF_GW_GE_AAZ,There are a wide variety of elite Stormtrooper formations under the Empire, such as the alchemically Dark Side-infused Dark Stormtroopers and the Royal Guard Stormtroopers, bodyguards of the Emperor, both of which are rarely seen in actual combat. These forces are only deployed in the most vital or desperate battles for the Empire. In terrestrial battles these elite troops are always accompanied by supporting vehicles, like the Imperial Dropship Transport, which transport and assist them in battle. Stormtroopers utilising jetpacks can also accompany the IDTs to provide additional infantry mass to the assault. 
-TEXT_UNIT_FLUFF_GW_GE_ABA,In order to aid their troubled ground forces which were heavily strained by the Galactic Civil War, the portions of the Empire under the Ruling Council would seek upgraded versions of their older war gear. The infamous AT-AT would see its weapons system upgraded from laser cannons to turbolasers which provided a massive increase in firepower. The AT-ST would also see upgrades to their weaponry with the AT-ST/A variant. The Empire hopes these increases in firepower would result in better battlefield results. Shortages of manpower mean that Dwarf Spider Droids, repurposed from remaining Separatist stockpiles under Imperial control, escort the walkers over infantry; although even these droids are present in smaller numbers than before. 
 TEXT_UNIT_FLUFF_GW_GM_AAA,A standard platoon of Greater Maldrood Army Troopers composed of two synergistic elements. Some squads are equipped with repeater slugthrowers and rapid firing carbines to suppress enemy infantry while other squads take advantage of this base of fire to finish off the enemy with their grenade launchers. These platoons of Army Troopers are found across the breadth of the Greater Maldrood’s domain as garrison forces or serving as line soldiers for the army. 
 TEXT_UNIT_FLUFF_GW_GM_AAB,A small detachment of Imperial Army Troopers that is lightly armed, with only a single light repeater per squad to bolster the firepower of the unit's carbines and grenades. Despite lacking the numbers or firepower to do most tasks, a small detachment can still be of use by manning remote outposts across the Teradoc brothers' domains in the Mid Rim or Deep Core on the watch for the New Republic or rival warlords.
 TEXT_UNIT_FLUFF_GW_GM_AAC,The Greater Maldrood army commanders preferred doctrine for ground warfare emphasises high mobility and rapid shock action. To enable this ground commanders need good intelligence of local conditions and enemy positions. Scout Troopers mounted on 74-Z Speeder bikes are constantly sent to range out ahead of any GM ground formations to detect enemies. While the speeder bike has a weapon to enable it to harass enemy forces, it is much more preferable for the scouts to wait for the better armed AT-RT walkers to catch up and do the majority of the fighting.
@@ -12043,6 +12032,7 @@ TEXT_UNIT_FLUFF_HAPES_AAJ,The Neutron was a rare vessel in the Hapan Navy as it 
 TEXT_UNIT_FLUFF_HAPES_AAK,The mainstay of the Hapan Royal Navy, the Battle Dragon saw significant use throughout the Transitory Mists. Unique for the way the vessel shoots, the rapid stream of turbolaser and ion energy could melt through even significant enemy resistance in a matter of minutes.
 TEXT_UNIT_FLUFF_HAPES_AAL,A more conventional fleet composition deployed in serious circumstances, the firepower of the capital ship Terephon combined with the medium frigate sized Charubah and backed by the lighter Olanji, turned the tide of many battles for the Hapan Royal Navy.
 TEXT_UNIT_FLUFF_HAPES_AAM,Star Home, while imposing in size, is not really a warship. Therefore, when the ship was on the field to provide tactical and logistical support, the flying palace required heavy protection from the Hapan Royal Navy’s finest vessels, the Battle Dragon and the Terephon. To be selected to guard the Star Home was seen as an honourable, if dull, assignment.
+TEXT_UNIT_FLUFF_HUTTS_ABA,With the dawn of the Galactic Civil War and the chaos surrounding the Hutt Cartels that has affected it at times, some Hutts questioned whether it was time to assert their dominance once more. As increased tensions and inter-clan conflicts led to the perceived weakening of the galactic position of the Hutts, these voices asserted the need for remilitarization with new warships to defend the sanctity of Bootana Hutta. The massive Dor'bulla Warship would be developed as a centerpiece of Hutt fleets to deter any major Imperial invasion. As time passed, further designs such as the Karabos Destroyer would complement the Hutts offensive power, becoming a new mainline ship that could serve as respectable capital escorts to the Dor'bulla.
 TEXT_UNIT_FLUFF_HUTTS_AAA,The mass produced Scyk is a commonly seen Hutt fightercraft which is used to garrison their military installations and provide mass fighter coverage in low priority sectors in Hutt Space. While the design lacks in firepower, its mobility allows swarms of Scyk Fighters to exploit their numbers against any encroaching fighters.
 TEXT_UNIT_FLUFF_HUTTS_AAB,While the Hutts have developed and maintain their own indigenous strike fighter capabilities in the turmoil created by the Death of the Emperor at Endor, they still have maintain a need to maintain forces of mercenaries whose allegiance can be denied to the wider galactic community. The Hutts also have a cultural aversion of risking their own forces when others exist who will risk their own lives for mere currency and thus formations composed of nearly every single available on the open market can be found operating somewhere within Hutt space.   
 TEXT_UNIT_FLUFF_HUTTS_AAC,The Kimogila was developed during the Galactic Civil war to be the backbone of the Hutt’s indigenous bomber capability for situations where they have to more proactively defend their own territory from intruders. Dunelizard fighters are deployed alongside the bombers to keep them protected from enemy fighters whilst the Kimogilas make their attack runs or to supplement attack runs against unprotected targets with their own proton torpedoes. 
@@ -12072,7 +12062,15 @@ TEXT_UNIT_FLUFF_HUTTS_AAX_1,The sheer extent of the turmoil of the Galactic Civi
 TEXT_UNIT_FLUFF_HUTTS_AAX_2,Karabos Destroyers partnered with Chelandion Cruisers ensure a devastating barrage of turbolasers and assault concussion missiles at extreme ranges while groups of Batil carriers ensure the local space is swept clear of enemy fighters along with tasking waves of bombers to strike enemy vessels. All the time swarms of new Tarrada Frigates provide close in protection against any enemy strike fighters which manage to get past the formation’s air patrols or any smaller enemy vessel such as corvettes which slip past the barrage of fire unleashed by the larger vessels.
 TEXT_UNIT_FLUFF_HUTTS_AAY,For millennia the Hutts have refuted open warfare as a viable form of wielding power for their species. For millennia the Hutts maintained the image of only interested in economic and criminal influence with the barest minimal applications of military force. For millennia the Hutts have been slowly preparing for the next outbreak of galactic war with ships slowly and covertly constructed for the Boonta Hutta fleets which locked down the secretive core of Hutt space. With no warfare for many generations of Hutts, development of new warships was a low priority and thus the vast majority of the vessels in the Boonta Hutta fleet are truly ancient designs which belay their true strength.
 TEXT_UNIT_FLUFF_HUTTS_AAZ,Seeing the increasing reliance on small to mid sized vessels in the naval forces of their potential rivals, the Hutts developed the Szajin cruiser which relies on lots of rapid firing lighter turbolasers to deal its damage which necessitates very aggressive tactics when these ships are deployed. Operating in trios they can cooperate to more effectively close into range with taking a minimum of damage. The well rounded Kossak operate in pairs in the wake of the Szajins to fend off enemy snubfighter squadrons or finish off crippled vessels.
-TEXT_UNIT_FLUFF_HUTTS_ABA,With the dawn of the Galactic Civil War and the chaos surrounding the Hutt Cartels that has affected it at times, some Hutts questioned whether it was time to assert their dominance once more. As increased tensions and inter-clan conflicts led to the perceived weakening of the galactic position of the Hutts, these voices asserted the need for remilitarization with new warships to defend the sanctity of Bootana Hutta. The massive Dor'bulla Warship would be developed as a centerpiece of Hutt fleets to deter any major Imperial invasion. As time passed, further designs such as the Karabos Destroyer would complement the Hutts offensive power, becoming a new mainline ship that could serve as respectable capital escorts to the Dor'bulla.
+TEXT_UNIT_FLUFF_NR_ABA,The backbone of the New Republic’s New Class Modernization Project, the Nebula Star Destroyers and the carrier Endurance Star Destroyers were able to engage significant threats at range and also provide powerful fighter and bomber support.
+TEXT_UNIT_FLUFF_NR_ABB,Built on the same basic hull pattern, the combat-focussed Majestic and carrier-focussed Defender are early members of the New Class Modernization Project. Primarily intended for firepower and carrying capacity respectively, the group is able to effectively fight larger opponents with long-range weapons and bomber strikes while keeping itself protected from smaller vessels attempting to close range.
+TEXT_UNIT_FLUFF_NR_ABC,Comprising of mobile, hard-hitting, but fragile capital warships, this task force is intended to seek out and rapidly destroy any Imperial threat before it could react. Fast task forces such as this would often be responsible both for local rapid response operations and raids on Imperial facilities or convoys. 
+TEXT_UNIT_FLUFF_NR_ABD,The New Republic made extensive use of Mon Calamari shipyards and designs. The MC80B was the first major success they had as a dedicated warship design, and the MC90 was an ultimate refinement of that within the doctrine of more compact designs. This task force was designed to respond to large threats from Imperial and Warlord forces, providing a sense of relief and hope to beleaguered and oppressed humans and non-humans alike.
+TEXT_UNIT_FLUFF_NR_ABE,A battle group designed and used to great effect against Warlord Zsinj, this early New Republic fleet is well suited to taking on significant Imperial fleets as well as more eclectic Warlord forces.
+TEXT_UNIT_FLUFF_NR_ABF,The Mon Calamari comprised a major part of the Rebellion and New Republic Navy with them mass producing ships in all size ranges to the point task forces and even fleets composed of just Mon Calamari designs were a common occurrence especially around Mon Calamari itself. While the war often forced fleets to be dispersed into many task forces operating across many planets, they could concentrate around their flagship in times of need to form an extremely formidable collection of Mon Calamari warships. 
+TEXT_UNIT_FLUFF_NR_ABG,While the new SoroSuub Bulwark III is derived from earlier TransGalMeg Bulwark models, the new sizable ship provided the New Republic with a powerful battlecruiser that when supported with other SoroSuub ships proved to be a deadly assault force, capable of going toe-to-toe with equally fearsome Imperial fleets.
+TEXT_UNIT_FLUFF_NR_ABH,Despite originally having their start with warship design with the outbreak of the Rebellion, Mon Calamari would become a major warship supplier for the New Republic and would also enter into partnerships with other shipyards such as Rendili. As the Galactic Civil War dragged on, both Mon Calamari and Rendili would produce ever more deadly and capable warships for NR service. 
+TEXT_UNIT_FLUFF_NR_ABI,The MC30 line of warships were highly mobile and packed large amounts of fire power especially for Mon Calamari designs. The A version was packed with turbolasers while the C version of the lineage focused on delivering large amounts of proton torpedoes on target in a short amount of time. Groups composed of these warships would rapidly become the bane of Imperial convoys and isolated ships during the Rebellion and Galactic Civil war as these groups could easily destroy or flee from anything the Imperials could muster. 
 TEXT_UNIT_FLUFF_NR_AAA,A small group of Republic fighters on a local patrol responding to the growing battle. While the X Wing had grown to be the premier New Republic fighter, there were never enough of them to fulfil all the demands of the war. The ancestor of the X Wing, the Z-95, would remain a popular fighter craft in Republic service to make up numbers for low priority patrols and garrisons. 
 TEXT_UNIT_FLUFF_NR_AAB,A group of fighters from groups aligned to the NR. The New Republic expected its member worlds to maintain their own Planetary Defence Forces which could patrol their own local space and hold off or at least delay minor attacks. These local forces often used older or more obscure equipment than the main fleets of the New Republic.
 TEXT_UNIT_FLUFF_NR_AAC,An independent wing of New Republic fighters and bombers. The Rebellion era doctrine of long range groups of fighters being able to rapidly respond to any crisis or attack fleeting targets of opportunity was maintained in the early eras of the New Republic. A-wings would engage and destroy enemy fighters in a rapid strike leaving the Y Wings free to deliver their payload on the desired target.
@@ -12099,15 +12097,6 @@ TEXT_UNIT_FLUFF_NR_AAW,With the X-wing capable of keeping up with the more moder
 TEXT_UNIT_FLUFF_NR_AAX,Both REC Defenders and K-wings lack hyperdrives, intending to serve in garrison forces or as part of large fleet groups where they can be berthed on capital vessels. This shows a shift away from the Rebel Alliance focus on raid-capable snubs as the New Republic attempts to produce a more coherent structure for newer fleets and defence forces.
 TEXT_UNIT_FLUFF_NR_AAY,Modernised corvette group designed to engage smaller Imperial forces or pirate groups. The mobility of this force was capable of either holding out long enough for reinforcements to arrive or escape to report on more significant threats.
 TEXT_UNIT_FLUFF_NR_AAZ,Kuat designed ships continued to be prevalent within naval doctrine. With improvements made to the Dominator style Interdictor Star Destroyer, the Mon Mothma class was put into production. Older Imperial Star Destroyers were utilised alongside newly produced ISDs as an escort for the new interdictor battleships, in similar task forces as used by the Empire.
-TEXT_UNIT_FLUFF_NR_ABA,The backbone of the New Republic’s New Class Modernization Project, the Nebula Star Destroyers and the carrier Endurance Star Destroyers were able to engage significant threats at range and also provide powerful fighter and bomber support.
-TEXT_UNIT_FLUFF_NR_ABB,Built on the same basic hull pattern, the combat-focussed Majestic and carrier-focussed Defender are early members of the New Class Modernization Project. Primarily intended for firepower and carrying capacity respectively, the group is able to effectively fight larger opponents with long-range weapons and bomber strikes while keeping itself protected from smaller vessels attempting to close range.
-TEXT_UNIT_FLUFF_NR_ABC,Comprising of mobile, hard-hitting, but fragile capital warships, this task force is intended to seek out and rapidly destroy any Imperial threat before it could react. Fast task forces such as this would often be responsible both for local rapid response operations and raids on Imperial facilities or convoys. 
-TEXT_UNIT_FLUFF_NR_ABD,The New Republic made extensive use of Mon Calamari shipyards and designs. The MC80B was the first major success they had as a dedicated warship design, and the MC90 was an ultimate refinement of that within the doctrine of more compact designs. This task force was designed to respond to large threats from Imperial and Warlord forces, providing a sense of relief and hope to beleaguered and oppressed humans and non-humans alike.
-TEXT_UNIT_FLUFF_NR_ABE,A battle group designed and used to great effect against Warlord Zsinj, this early New Republic fleet is well suited to taking on significant Imperial fleets as well as more eclectic Warlord forces.
-TEXT_UNIT_FLUFF_NR_ABF,The Mon Calamari comprised a major part of the Rebellion and New Republic Navy with them mass producing ships in all size ranges to the point task forces and even fleets composed of just Mon Calamari designs were a common occurrence especially around Mon Calamari itself. While the war often forced fleets to be dispersed into many task forces operating across many planets, they could concentrate around their flagship in times of need to form an extremely formidable collection of Mon Calamari warships. 
-TEXT_UNIT_FLUFF_NR_ABG,While the new SoroSuub Bulwark III is derived from earlier TransGalMeg Bulwark models, the new sizable ship provided the New Republic with a powerful battlecruiser that when supported with other SoroSuub ships proved to be a deadly assault force, capable of going toe-to-toe with equally fearsome Imperial fleets.
-TEXT_UNIT_FLUFF_NR_ABH,Despite originally having their start with warship design with the outbreak of the Rebellion, Mon Calamari would become a major warship supplier for the New Republic and would also enter into partnerships with other shipyards such as Rendili. As the Galactic Civil War dragged on, both Mon Calamari and Rendili would produce ever more deadly and capable warships for NR service. 
-TEXT_UNIT_FLUFF_NR_ABI,The MC30 line of warships were highly mobile and packed large amounts of fire power especially for Mon Calamari designs. The A version was packed with turbolasers while the C version of the lineage focused on delivering large amounts of proton torpedoes on target in a short amount of time. Groups composed of these warships would rapidly become the bane of Imperial convoys and isolated ships during the Rebellion and Galactic Civil war as these groups could easily destroy or flee from anything the Imperials could muster. 
 TEXT_UNIT_FLUFF_PA_AAA,The Pentastar Alignment tended to stay isolationist. But that didn’t mean they were defenceless. Basic fighter squadrons could patrol and radio back for more advanced reinforcements if they encountered pirate, rebel, or rival raiding parties.
 TEXT_UNIT_FLUFF_PA_AAB,In order to maintain control over agitated local populations. PA fighter command assigned units designed to strike at both hard and soft targets on the ground. These units were also capable of attacking hard targets in fleet combat, providing deadly payloads to both enemy strike craft and larger ships.
 TEXT_UNIT_FLUFF_PA_AAC,Pentastar Alignment Fighter Command needed to put pilots up in space to fill any holes in their fleet engagements. For this purpose they turned to older, less popular TIE models, such as the TIE X3.
@@ -12149,14 +12138,14 @@ TEXT_UNIT_FLUFF_ZSINJ_AAS,Zsinj’s empire dominated the Corporate Sector Author
 TEXT_UNIT_FOREAS,Foreas Groundlion Carrier
 TEXT_UNIT_FORTRESS,A9 Floating Fortress
 TEXT_UNIT_FREERUNNER,Armored Freerunner
-TEXT_UNIT_FREERUNNER_AA,Anti-Air Freerunner
-TEXT_UNIT_FREERUNNER_AA_COMPANY,Anti-Air Freerunner Company
 TEXT_UNIT_FREERUNNER_ASSAULT,Modified Armored Freerunner
 TEXT_UNIT_FREERUNNER_ASSAULT_COMPANY,Modified Armored Freerunner Company
 TEXT_UNIT_FREERUNNER_COMMAND,Command Freerunner
 TEXT_UNIT_FREERUNNER_COMPANY,Armored Freerunner Company
 TEXT_UNIT_FREERUNNER_EARLY,PDF Armored Freerunner
 TEXT_UNIT_FREERUNNER_EARLY_COMPANY,PDF Armored Freerunner Company
+TEXT_UNIT_FREERUNNER_AA,Anti-Air Freerunner
+TEXT_UNIT_FREERUNNER_AA_COMPANY,Anti-Air Freerunner Company
 TEXT_UNIT_FRUORO,Fruoro Firewolf
 TEXT_UNIT_FURION,Furion
 TEXT_UNIT_GARWIAN_GUNSHIP,Garwian Gunship
@@ -12328,8 +12317,6 @@ TEXT_UNIT_LANCET_WING,Lancet Wing
 TEXT_UNIT_LEGATOR,Legator Star Dreadnought
 TEXT_UNIT_LIBERATOR,Liberator Cruiser
 TEXT_UNIT_LWHEKK,Lwhekk Manufacturing Ship
-TEXT_UNIT_MAAT,MAAT/i Gunship
-TEXT_UNIT_MAAT_COMPANY,MAAT/i Gunship Wing
 TEXT_UNIT_MAGNETAR,Magnetar Cruiser
 TEXT_UNIT_MAIN_ARMYGUARD_SQUAD,Army Guard Command Squad
 TEXT_UNIT_MAIN_ARMYSPECIAL_SQUAD,Army Special Missions Command Squad
@@ -12386,6 +12373,8 @@ TEXT_UNIT_MTC_COMBAT,Modular Taskforce Combat Cruiser
 TEXT_UNIT_MTC_SENSOR,Modular Taskforce Sensor Cruiser 
 TEXT_UNIT_MTC_SUPPORT,Modular Taskforce Support Cruiser 
 TEXT_UNIT_MUQARAEA,Muqaraea Corvette
+TEXT_UNIT_MAAT,MAAT/i Gunship
+TEXT_UNIT_MAAT_COMPANY,MAAT/i Gunship Wing
 TEXT_UNIT_N1_ROGUE,Rogue Imperial N-1 Starfighter
 TEXT_UNIT_NAMANA,Namana Light Cruiser
 TEXT_UNIT_NASIR_GUNSHIP,Nasir Gunship
@@ -12475,8 +12464,6 @@ TEXT_UNIT_OLANJI,Olanji Frigate
 TEXT_UNIT_OMPAI,O-MP-AI
 TEXT_UNIT_OMPAI_COMPANY,O-MP-AI Company
 TEXT_UNIT_ORMOS,Ormos Carrier
-TEXT_UNIT_PAATAATUS_SKIFF,Paataatus Skiff
-TEXT_UNIT_PAATAATUS_SKIFF_COMPANY,Paataatus Skiff Company
 TEXT_UNIT_PACCIAN_MISSILE_TANK,Paccian Missile Tank
 TEXT_UNIT_PACCIAN_MISSILE_TANK_COMPANY,Paccian Missile Tank Company
 TEXT_UNIT_PANTHAC,Panthac
@@ -12505,6 +12492,8 @@ TEXT_UNIT_PX4,PX-4 Mobile Command Base
 TEXT_UNIT_PX4_COMPANY,PX-4 Mobile Command Base Company
 TEXT_UNIT_PX7,PX-7 Troop Transport
 TEXT_UNIT_PX7_COMPANY,PX-7 Troop Transport Company
+TEXT_UNIT_PAATAATUS_SKIFF,Paataatus Skiff
+TEXT_UNIT_PAATAATUS_SKIFF_COMPANY,Paataatus Skiff Company
 TEXT_UNIT_RAIDER,Raider-I Corvette
 TEXT_UNIT_RAIDER_II,Raider-II Corvette
 TEXT_UNIT_RAJU,Raju Heavy Frigate
@@ -12864,6 +12853,17 @@ TEXT_UNIT_YZ_775_GROUP,YZ-775 Medium Freighter Group
 TEXT_UNIT_YZ_775_SQUADRON,YZ-775 Medium Freighter Squadron
 TEXT_UNIT_Z_TIE,Z-TIE
 TEXT_UNIT_ZSINJ_MEDIC_COMPANY,Raptor Trooper Medic Squad
+TEXT_UNIT_AA5_TRUCK,A-A5 Speeder Truck
+TEXT_UNIT_AA5_TRUCK_COMPANY,A-A5 Speeder Truck Company
+TEXT_UNIT_AA70_TRUCK,AA-70 Command Speeder
+TEXT_UNIT_AA70_TRUCK_COMPANY,AA-70 Command Speeder Company
+TEXT_UNIT_AAC_1,AAC-1 Hovertank
+TEXT_UNIT_AAC_1_COMPANY,AAC-1 Hovertank Company
+TEXT_UNIT_AAC_2,AAC-2 Hovertank
+TEXT_UNIT_AAC_2_COMPANY,AAC-2 Hovertank Company
+TEXT_UNIT_AAC_3,AAC-3 Hovertank
+TEXT_UNIT_AAC_3_COMPANY,AAC-3 Hovertank Company
+TEXT_UNIT_AAC3_RESEARCH,Research AAC-3 Hovertank
 TEXT_UPGRADE_CSA_CORPORATE_FOCUS,Corporate Focus
 TEXT_UPGRADE_CSA_CUTTING_CORNERS,Cutting Corners
 TEXT_UPGRADE_EARLY_ROSTER_NR_SWITCHER,Early NR Roster
@@ -12912,8 +12912,8 @@ TEXT_UPGRADE_SURVIVAL_CHISS_FAVOUR_OPTION,Chiss Ascendancy Favour
 TEXT_UPGRADE_SURVIVAL_DARK_EMPIRE_OPTION,Form Dark Empire
 TEXT_UPGRADE_SURVIVAL_FRACTAL_OPTION,Fractalsponge Units
 TEXT_UPGRADE_SURVIVAL_GARWIAN_FAVOUR_OPTION,Garwian Unity Favour
-TEXT_UPGRADE_SURVIVAL_PAATAATUS_FAVOUR_OPTION,Paataatus Hiveborn Favour
 TEXT_UPGRADE_SURVIVAL_PACCIAN_FAVOUR_OPTION,Paccian Governance Favour
+TEXT_UPGRADE_SURVIVAL_PAATAATUS_FAVOUR_OPTION,Paataatus Hiveborn Favour
 TEXT_UPGRADE_TOOLTIP_CSA_CORPORATE_FOCUS,All mines gain 1 base income per second. 
 TEXT_UPGRADE_TOOLTIP_CSA_CUTTING_CORNERS,Gain 2 base income per second from the starbase but decrease the defence of all ships by 5%.
 TEXT_UPGRADE_TOOLTIP_EARLY_ROSTER_NR_SWITCHER,Irreversibly switch unit Roster from a balanced representation of all periods of the New Republic to one which reflects the early periods of the New Republic. This option unlocks the ability to further switch to a Late NR roster. TAKING TECH 2 REMOVES THE ABILITY TO CHANGE ROSTER. The AI cannot take this option.
