@@ -253,7 +253,7 @@ return {
 				"Imperial_Army_Trooper_Company", "Imperial_Scout_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company",
 				"Imperial_Bantha_II_Skiff_Company", "Imperial_Gaba18_Company", "Hutt_AA_Skiff_Company", "AT_MP_Company",
 				"GAT_Company", "JX30_Company", "AV_7_Company", "TIE_Crawler_Company", "Imperial_TNT_Company",
-				"Imperial_AT_TE_Walker_Company", "Tracked_Shield_Disabler_Company", "Imperial_AT_ACT_Walker_Company",
+				"Imperial_AT_TE_Walker_Company", "Tracked_Shield_Disabler_Company", "Imperial_AT_TE_Walker_Support_Company",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
@@ -1694,7 +1694,7 @@ return {
 				"Army_Special_Missions_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
 				"AT_ST_A_Company", "Imperial_AT_PT_Company", "AT_DP_Company", 
 				"Imperial_AT_AP_Walker_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_Modified_LAAT_Company",
-				"Imperial_AT_ACT_Walker_Company", "Imperial_AT_AT_Walker_Company",
+				"Imperial_AT_TE_Walker_Support_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research
 				"Dummy_Veers_Shielded_Walkers_Research",
 			},

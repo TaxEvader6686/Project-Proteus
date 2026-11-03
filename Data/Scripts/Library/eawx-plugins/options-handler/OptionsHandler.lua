@@ -190,6 +190,11 @@ function OptionsHandler:canon_units()
         "MC75",
         "Starhawk_MK1"})
     crossplot:publish("NR_CANON_ADMIRALS")
+    -- Project_Proteus
+    local Proteus_Group = GlobalValue.Get("PROTEUS_GROUP_NAME")
+    if Proteus_Group == "GAROS" then
+        UnitUtil.SetLockList("Imperial_Proteus", {"Imperial_AT_ACT_Walker_Company"})
+    end
 end
 
 function OptionsHandler:fs_units()
