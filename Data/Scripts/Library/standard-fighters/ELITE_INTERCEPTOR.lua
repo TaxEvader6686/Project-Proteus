@@ -118,7 +118,9 @@ return {
 			COMPNOR = {"", false},
 			MINOS = {"PREYBIRD_SQUADRON", false},
 			TATOOINE = {"", false},
-			TRAX = {"", false},														
+			TRAX = {"", false},	
+			DROMMEL = {"TIE_AVENGER_SQUADRON", false},					
+			BATCH = {"TIE_PHANTOM_SQUADRON", false},												
 		}
 		
 		if owner == "REBEL" then

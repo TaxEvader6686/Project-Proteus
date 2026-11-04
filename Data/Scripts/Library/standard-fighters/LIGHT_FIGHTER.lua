@@ -98,7 +98,9 @@ return {
 			COMPNOR = {"", false},
 			MINOS = {"NIMBUS_V_WING_ESK_SQUADRON", false},
 			TATOOINE = {"TIE_FIGHTER_SQUADRON", false},
-			TRAX = {"", false},														
+			TRAX = {"", false},	
+			DROMMEL = {"TIE_FIGHTER_SQUADRON", false},				
+			BATCH = {"TIE_INTERCEPTOR_SQUADRON", false},													
 		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then

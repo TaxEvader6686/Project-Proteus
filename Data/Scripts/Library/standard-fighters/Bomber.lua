@@ -112,7 +112,9 @@ return {
 			COMPNOR = {"", false},
 			MINOS = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			TATOOINE = {"TIE_BOMBER_SQUADRON", false},
-			TRAX = {"", false},											
+			TRAX = {"", false},		
+			DROMMEL = {"TIE_BOMBER_SQUADRON", false},	
+			BATCH = {"TIE_BOMBER_SQUADRON", false},									
 		}
 		
 		if simpletypes[owner] then
