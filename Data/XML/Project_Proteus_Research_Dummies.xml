@@ -1651,8 +1651,8 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>2500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
@@ -1732,6 +1732,9 @@
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 			<DummyStructure Name="Dummy_Research_ISector_Swap_2_Dummy"> <!-- The research option that triggers the popup -->
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -1829,8 +1832,9 @@
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
-			<DummyStructure Name="Dummy_Research_ISector_Swap_3_Dummy"> <!-- The research option that triggers the popup -->
+			<DummyStructure Name="Dummy_Research_ISector_Swap_3_Dummy"> 
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_</Text_ID>
@@ -1855,9 +1859,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>	
-
-	<!--The Dummies for the popup event-->
-	<!-- Each needs to begin with the same string (ISector_Swap_1_Choice in this case) with a header, body, and each choice -->
+	
 	<DummyStructure Name="ISector_Swap_3_Choice_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -1880,7 +1882,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
+	
 	<DummyStructure Name="ISector_Swap_1_Choice_Acclamator_I"> 
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -1926,8 +1928,9 @@
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
-
+		
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 		<DummyStructure Name="Dummy_Research_ISector_Swap_4_Dummy"> <!-- The research option that triggers the popup -->
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -1955,8 +1958,7 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>	
 
-	<!--The Dummies for the popup event-->
-	<!-- Each needs to begin with the same string (ISector_Swap_1_Choice in this case) with a header, body, and each choice -->
+
 	<DummyStructure Name="ISector_Swap_4_Choice_Header">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -2027,8 +2029,6 @@
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-
-		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
 		<DummyStructure Name="Dummy_Research_ISector_Swap_5_Dummy"> <!-- The research option that triggers the popup -->
@@ -2081,7 +2081,6 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 
-	<!--These are called based on the added bit at the end ("Acclamator_Assault" in this case), those are used in the popup call in GovernmentProteus.lua-->
 	<DummyStructure Name="ISector_Swap_5_Choice_Venator_Classic"> 
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -2127,8 +2126,6 @@
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
-
-		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
@@ -2226,8 +2223,6 @@
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_II.TGA</Icon_Name>
-
-		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
