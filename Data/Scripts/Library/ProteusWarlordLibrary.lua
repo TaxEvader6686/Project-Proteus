@@ -1289,9 +1289,15 @@ return {
 			HeroList = {{"Crueya_Vandron_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
 			UnlockList = {
 				-- Space 
-				
+				"VT_49_Decimator_Group", "Ipv_1_Corvette", "CR92A", "Tartan_Patrol_Cruiser", "Star_Galleon", "Arquitens_Refit", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
+				"Immobilizer_418_Refit", "Vindicator_Cruiser", "MTC_Sensor", "MTC_Support", "Imperial_II_Frigate", "Victory_II_Star_Destroyer", "Venator_8X",
+				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
+				"Communications_Battlecruiser", "Praetor_II_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
-				
+				"Compforce_Assault_Company", "ISB_Infiltrator_Company", "CSA_Destroyer_Droid_Company", "Imperial_74Z_Bike_Company",
+				"PX10_Company", "AT_ST_A_Company", "Scorpenek_Company",
+				"TIE_Crawler_Company", "Persuader_Company", "JX40_Company", "Nemesis_Gunship_Company", "AT_AA_Laser_Walker_Company", "SPMAG_Walker_Company",
+				"A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"
 				-- Research
 				
 			},
@@ -1310,7 +1316,7 @@ return {
 			HeroList = {"Reder_Krieger", "Niclara_Pulsars_Revenge", "Drommel_Wolfs_Claw"},
 			UnlockList = {
 				-- Space 
-				"Delta_JV7_Group", "Customs_Corvette", "Ipv1_Gunboat_Proteus", "CR92A", "Tartan_Patrol_Cruiser", "Star_Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
+				"Delta_JV7_Group", "Customs_Corvette", "Ipv1_Gunboat_Proteus", "Lancer_Frigate", "Star_Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
 				"Immobilizer_418", "Vindicator_Cruiser", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Torpedo_Sphere", "Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",
@@ -1572,7 +1578,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Sentry", "Secutor_Star_Destroyer",  
 				"Sorannan_Star_Destroyer", "Shadow_Vengeance_Star_Dreadnought",
 				-- Ground
-				"Compforce_Assault_Company", "Imperial_Dark_Jedi_Company", "Shadow_EVO_Trooper_Company", "Imperial_Army_74Z_Bike_Company", 
+				"Compforce_Assault_Company", "Dark_Jedi_Company", "Shadow_EVO_Trooper_Company", "Imperial_Army_74Z_Bike_Company", 
 				"Imperial_ISP_Company", "Chariot_LAV_Company", "AT_DP_Company", "RTT_Company", 
 				"AT_AA_Flak_Walker_Company", "Imperial_Heavy_Mobile_Artillery_Company", "2M_Repulsor_Tank_Company", "MAAT_Company",
 				"A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company",
@@ -1618,14 +1624,14 @@ return {
 			UnlockList = {
 				-- Space 
 				"YE_4_Group", "Customs_Corvette", "CR90B_Gunboat", "Marauder_Picket_Cruiser", "Ubrikkian_Frigate", "Victory_I_Frigate", "Ton_Falk_Escort_Carrier", "CC7700",
-				"Neutron_Star_Tender", "Liberator_Cruiser", "Ubrikkian_Cruiser_GCW", "Victory_I_Star_Destroyer", "Victory_I_Star_Destroyer_Patrol",
+				"Neutron_Star_Tender", "Liberator_Cruiser", "Ubrikkian_Cruiser_GCW", "Victory_I_Star_Destroyer", "Victory_I_Star_Destroyer_Patrol", "Victory_II_Carrier",
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus",
-				"Torpedo_Sphere", "Praetor_I_Battlecruiser",
+				"Torpedo_Sphere", "Praetor_I_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Faux_Stormtrooper_Company", "Incinerator_Stormtrooper_Company", 
 				"AT_ST_Company", "RTT_Company", "Imperial_Bantha_II_Skiff_Company",
 				"Imperial_Modified_LAAT_Company", "Imperial_TNT_Company", "MAL_Rocket_Vehicle_Company", "Skyhopper_Company",
-				"Luxury_Barge_Company",
+				"Luxury_Barge_Company", "Imperial_AT_AT_Walker_Company", "Heavy_Recovery_Vehicle_Company",
 				-- Research
 				
 			},

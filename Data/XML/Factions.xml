@@ -695,7 +695,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -1589,7 +1589,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -2016,7 +2016,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -2080,7 +2080,7 @@
 		<Enemies />
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>    
@@ -2107,7 +2107,7 @@
 		<Enemies> Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Imperial_Proteus, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, Chiss, EmpireoftheHand, Killik_Hives, SsiRuuvi_Imperium, Mandalorians, Warlords </Enemies>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>  
@@ -2138,7 +2138,7 @@
 		<Enemies> Rebel, Empire, Underworld, Hutt_Cartels, Hostile, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Imperial_Proteus, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, Chiss, EmpireoftheHand, Killik_Hives, SsiRuuvi_Imperium, Mandalorians, Warlords </Enemies>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -2813,7 +2813,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -3596,7 +3596,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -4381,7 +4381,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -5164,7 +5164,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -5947,7 +5947,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -6374,7 +6374,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -6910,7 +6910,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -7579,7 +7579,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -8111,7 +8111,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -8538,7 +8538,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -8965,7 +8965,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -9392,7 +9392,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -9459,7 +9459,7 @@
 		<Enemies> Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Hostile, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Imperial_Proteus, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, Chiss, EmpireoftheHand, Killik_Hives, SsiRuuvi_Imperium, Warlords </Enemies>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -9490,7 +9490,7 @@
 		<Enemies> Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Hostile, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Imperial_Proteus, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, Chiss, EmpireoftheHand, Killik_Hives, SsiRuuvi_Imperium, Mandalorians </Enemies>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -10308,7 +10308,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
@@ -10737,7 +10737,7 @@
 		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 
 	<!--does stuff we care about; should be the same for all factions; do not change-->
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
+		<Space_Tactical_Unit_Cap>500</Space_Tactical_Unit_Cap> <!--Rev + FotR: 200, TR: 300-->
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Maintenance_Cost>1.0</Maintenance_Cost>
