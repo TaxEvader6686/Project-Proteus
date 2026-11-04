@@ -2920,6 +2920,104 @@
 		<Required_Orbiting_Units>Drommel_Wolfs_Claw</Required_Orbiting_Units>
 	</DummyStructure>
 
+
+	<UniqueUnit Name="Batch_Meniscus">
+		<Variant_Of_Existing_Type>Imperial_I_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero> Yes </Is_Named_Hero>
+		<Text_ID>TEXT_HERO_BATCH</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_SPACE
+		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_BATCH
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_MENISCUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOVE 
+		TEXT_TOOLTIP_STAR_DESTROYER_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP2 
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP3 
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_batch.tga</Icon_Name>
+		
+		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
+		<Property_Flags>GTSImmune</Property_Flags>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		
+		<Ranking_In_Category>2</Ranking_In_Category>
+        <SpaceBehavior> ABILITY_COUNTDOWN, STEALTH, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+
+		
+		
+		<Affiliation>Imperial_Proteus</Affiliation> <!-- Stop AI enumerating -->
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				 <Type>STEALTH</Type>
+				 <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+				 <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+				 <GUI_Activated_Ability_Name>Stealth_Meniscus</GUI_Activated_Ability_Name> 
+				 <Recharge_Seconds>60.0</Recharge_Seconds>
+				 <Expiration_Seconds>60.0</Expiration_Seconds>
+				 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+				 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Vengeance_Frigate</SFXEvent_GUI_Unit_Ability_Deactivated>
+				 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			 </Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Agent II -->
+			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.24</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.24</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Battlefield_Modifier_Ability Name="Command_Tier_08_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.24</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Agent_02_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>51</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+			<Stealth_Ability Name="Stealth_Meniscus">
+				<Activation_Style> User_Input </Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Stealth_Color>255, 255, 255, 64</Stealth_Color>
+				<Stealth_Transition_Time>.5</Stealth_Transition_Time>
+			</Stealth_Ability>
+			
+			<Galactic_Stealth_Ability Name="Agent_Tier_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			
+		</Abilities>
+	</UniqueUnit>
+
 <!-- ============================ Ground ============================= -->
 
 	<HeroUnit Name="17786">

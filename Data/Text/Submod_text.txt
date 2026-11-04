@@ -53,9 +53,11 @@ TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an organization overseeing all aspects of various Imperial Intelligence Agencies. Their archives and surveillance facilities provide intel on nearby planets in a large radius.
 TEXT_CONQUEST_PROTEUS_ANAXES,Feyet Kiez: Greetings Commander, the Empire has fallen into chaos and disarray ever since our catastrophic defeat at Endor. It is our task to bring stability and security back to the galactic center before we set out to punish the insidious traitors that call themselves rebels. Our enemies will soon learn the lesson that Anaxes isn't called the Defender of the Core for nothing.
 TEXT_CONQUEST_PROTEUS_BALMORRA,Hinch Beltane: There has never been a better moment to finally seize our freedom than now. The Emperor is dead, and his lackeys in disarray. It is time for a new course, Commander. Rally our forces and make sure that all the other galactic powers are put on notice: they can buy our products, but they cannot have us as their subjects again. As of this hour, Balmorra is once again independent and open for business - and you are free to use whatever force you deem necessary to ensure it stays that way.
+TEXT_CONQUEST_PROTEUS_BATCH,TODO
 TEXT_CONQUEST_PROTEUS_BRENTAAL,Soontir Fel: I have wrestled with it these past few days, but I cannot deny that Phennir is right. Isard is leading what's left of the Empire to an ignoble end, and I refuse to let myself and my men be dragged down with her. I can do more for the Empire as a warlord than Isard's pawn. We will show the galaxy what the Empire is still capable of.
 TEXT_CONQUEST_PROTEUS_CENTRALITY,Sris Lehhett: Hello Commander, the galaxy has fallen into chaos ever since the Emperor died above Endor. It is our duty to preserve stability within the Centrality. For this reason we need to rebuild our fleet to fulfill the ardous task of restarting our economy. I trust you commander to complete this task.
 TEXT_CONQUEST_PROTEUS_COMPNOR,TODO
+TEXT_CONQUEST_PROTEUS_DASTA_RAGEZ_RETIRE, Baron D'Asta: Old friend, the time has come. I have held on as long as I could, and I can no longer ignore the warnings of my doctors. There is still much to do, many family affairs to settle; and I must use the time I have left. As of today, I am stepping back from commanding our forces. My daughter will take my place at the helm of our efforts. Serve her as faithfully as you have served me.
 TEXT_CONQUEST_PROTEUS_DROMMEL,TODO
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_MINOS,TODO
@@ -144,6 +146,7 @@ TEXT_EVENT_TOOLTIP_KUAT_BC_CHOICE_SORANNAN,Choose the Sorannan Star Destroyer (L
 TEXT_EVENT_WARLORD_CHOICE_ALLIED_TION,Allied Tion Sector
 TEXT_EVENT_WARLORD_CHOICE_ANAXES,Azure Hammer Command
 TEXT_EVENT_WARLORD_CHOICE_BALMORRA,Independent Balmorra
+TEXT_EVENT_WARLORD_CHOICE_BATCH,Batch's Empire
 TEXT_EVENT_WARLORD_CHOICE_BRANDEI,Thrawn Remnants
 TEXT_EVENT_WARLORD_CHOICE_CARIDA,Imperial Carida
 TEXT_EVENT_WARLORD_CHOICE_CENTRALITY,The Centrality
@@ -195,6 +198,7 @@ TEXT_HERO_1214,Destruction1214
 TEXT_HERO_17786,17786
 TEXT_HERO_ABAN,Aban
 TEXT_HERO_ALEXANDER_JULSTAAN,Alexander Julstaan IV
+TEXT_HERO_BATCH,Martio Batch
 TEXT_HERO_BENGILA_URLAN,Bengila Urlan
 TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
@@ -270,6 +274,7 @@ TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
 TEXT_PROTEUS_DESCRIPTION_ALLIED_TION, Based on the planet of Jaminere, Moff Gronn ruled over the Allied Tion Sector, one of the pieces the former Tion Hegemony was broken into after the Clone Wars. In order to hold on to his power in the face of warlords and New Republic incursions and secure a steady supply of fighters, Gronn had to agree to a deal with Lady Valles Santhe not to invade Lianna in exchange for continued deliveries of new TIE Fighters.
 TEXT_PROTEUS_DESCRIPTION_ANAXES,Azure Hammer Command was the name given to the First Army which was tasked with the defence of the Coruscant Sector since the Clone Wars. It's headquarter was the planet Anaxes. After the battle of Endor it became an imperial holdout in the core, lead by Admiral Feyet Kiez aboard his Executor Super Star Destroyer "Whelm". However, in 8 ABY, Kiez and his SSD vanished from the system under mysterious circumstances which lead the remaining Imperial forces to capitulate to the advancing New Republic.
 TEXT_PROTEUS_DESCRIPTION_BALMORRA,The Planet Balmorra was occupied by the Empire and forced to produce war walkers despite the natives desire for independence. Hinch Beltane, the ruthless Imperial governor, also subscribed to that goal, leading Balmorra into mercantilist independence while maintaining full personal control as an autocrat for a time, until the armies of the Reborn Emperor forced him back into the fold. Under Beltane, the Balmorrans rebelled once more and successfully drove off the Empire for good.
+TEXT_PROTEUS_DESCRIPTION_BATCH,TODO
 TEXT_PROTEUS_DESCRIPTION_BRANDEI,--TODO TEXT_PROTEUS_DESCRIPTION_BRANDEI--
 TEXT_PROTEUS_DESCRIPTION_CARIDA,--TODO TEXT_PROTEUS_DESCRIPTION_CARIDA--
 TEXT_PROTEUS_DESCRIPTION_CENTRALITY,The Centrality is a remote Sector in the Outer Rim which bordered Hutt space. The sector was part of the Empire but largely left alone due to it's extreme remoteness. It was ruled over by the Sorcerer of Tund until he was killed by Lando Calrissian. After the Empire was defeated at Endor, the Centrality regained it's independence but otherwise had little to no influence on the galaxy. They were sceptical of the New Republic but nonetheless signed a treaty of goodwill with them.
@@ -786,6 +791,7 @@ TEXT_TOOLTIP_AV7_COMPANY,Company: 1x AV-7 Antivehicle Cannon
 TEXT_TOOLTIP_AV7_HEALTH,Health: 50 (Heavy Vehicle)
 TEXT_TOOLTIP_AV7_MOVE,Speed: 1.0 | Turn: 1.0 
 TEXT_TOOLTIP_AV7_WEAP1,1x Artillery Cannon: 1 / 8.333s / 1440m
+TEXT_TOOLTIP_BATCH,Martio Batch was one of the original twelve Grand Admirals appointed by Emperor Palpatine. Batch preferred to avoid attention and disliked Imperial court politics. As a result of his low profile, he earned the nickname the "Invisible Admiral." Following the Imperial defeat at the Battle of Yavin in 0 BBY, the Emperor tasked Batch with designing a fool-proof cloaking device on pain of death. Despite succeeding initially, the project was destroyed by the Rebels and Batch fled into hiding, fearing the Emperor's wrath, until hearing news of Palpatine's death at Endor.
 TEXT_TOOLTIP_BAYONET,An outdated Sienar light cruiser released shortly after the end of the Clone Wars. The design was never as popular as rival designs from Kuat and Damorian or even Sienar's venerable Marauder Cruiser line and was eventually supplanted by Kuat's Vigil Corvette. Despite its obsolesence, the Bayonet can still provide decent fire support against cruisers and fighters alike. 
 TEXT_TOOLTIP_BAYONET_HULL,Hull: 800 (Frigate)
 TEXT_TOOLTIP_BAYONET_MOVE,Speed: 3.0 | Accel: 0.175 | Turn: 0.3
@@ -1319,6 +1325,8 @@ TEXT_TOOLTIP_KSM_RESEARCH,
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
 TEXT_TOOLTIP_KUAT_CHOOSE_BC,Lobby Kuat Drive Yards to gain one battlecruiser as a permanent buildable. (Locks other BC's from Market)
 TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
+TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
+TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_LAC,A semi-standard version of a modified CEC Consular-class cruiser that has long been popular with Republic Judicial Forces, serving in the Stark Hyperspace War and the Yinchorri Uprising. This specific configuration is excellent for anti-starfighter escort duty while other corvette models are more suited to missile loadouts or attacking larger ships.
 TEXT_TOOLTIP_LAC_HULL,Hull: 600 (Corvette)
 TEXT_TOOLTIP_LAC_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
@@ -1356,8 +1364,6 @@ TEXT_TOOLTIP_LUPUS_SHIELD,Shields: 700 / [12.25/R] (Corvette)
 TEXT_TOOLTIP_LUPUS_WEAP1,4x Heavy Dual Laser Cannons: 2 / 5.0s / 4.5km
 TEXT_TOOLTIP_LUPUS_WEAP2,2x Medium Laser Cannons: 2 / 5.0s / 4.0km
 TEXT_TOOLTIP_LUPUS_WEAP3,2x Concussion Missiles: 2 / 6.0s / 4.0km
-TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and trades the shield generator for an enhanced EW suite, but retains the same offensive capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
-TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_MAHKKAR,A gotal crime lord who briefly allied himself with the Kaarenth Dissension. In exchange for protecting his interests in the Corva Sector, Mahk'Kar hunted the mythical Kashi Mer talisman on behalf of the Dark Jedi Durrei.
 TEXT_TOOLTIP_MALLAT,An ISB agent still in active service to the Empire by 16ABY. In that same year, he responded to a request from Grand Moff Gann of Sector 5 for information on the Yevetha.
 TEXT_TOOLTIP_MANSK,A small starship manufactured by Tallaani Shipyards in the Tapani Sector. These ships would often serve in the fleets of the Tapani Noble Houses such as that of House Melantha.
@@ -1903,12 +1909,12 @@ TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
+TEXT_UNIT_HEAVY_PDF_AA,Heavy PDF AA Trooper
 TEXT_UNIT_HEAVY_PDF_OFFICER,Heavy PDF Officer
 TEXT_UNIT_HEAVY_PDF_PLATOON,Heavy PDF Platoon
 TEXT_UNIT_HEAVY_PDF_ROCKET,Heavy PDF Rocket Trooper
 TEXT_UNIT_HEAVY_PDF_SQUAD,Heavy PDF Squad
 TEXT_UNIT_HEAVY_PDF_TROOPER,Heavy PDF Trooper
-TEXT_UNIT_HEAVY_PDF_AA,Heavy PDF AA Trooper
 TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_INVINCIBLE_TENDER,Invincible Dreadnaught Fleet Tender
 TEXT_UNIT_INVINCIBLE_UPGUNNED,Modernized Invincible Dreadnaught
@@ -1922,13 +1928,13 @@ TEXT_UNIT_KSM_RESEARCH,Refit existing TIE/Ln and In fighters to match the specif
 TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
 TEXT_UNIT_KUAT_CHOOSE_BC,Lobby KDY
 TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
+TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LANOX_FIGHTERRESEARCH,Improve Starfighters
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
 TEXT_UNIT_LUCREHULKAUXILIARY,Lucrehulk Auxiliary Warship
 TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
-TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MILITARY_SOLDIER_MEDIC,Local Military Medic
@@ -2113,7 +2119,6 @@ TEXT_WEAPON_A_MISSILETROUT,Missile Trout Launcher
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
-TEXT_CONQUEST_PROTEUS_DASTA_RAGEZ_RETIRE, Baron D'Asta: Old friend, the time has come. I have held on as long as I could, and I can no longer ignore the warnings of my doctors. There is still much to do, many family affairs to settle; and I must use the time I have left. As of today, I am stepping back from commanding our forces. My daughter will take my place at the helm of our efforts. Serve her as faithfully as you have served me.
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate and Corona Tender, retires Nebulon-B and Star Galleon.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.

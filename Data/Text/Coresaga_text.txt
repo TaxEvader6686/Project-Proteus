@@ -622,6 +622,14 @@ TEXT_TOOLTIP_A5RX_MOVE,Speed: 2.0 | Turn: 2.0
 TEXT_TOOLTIP_A5RX_WEAP1,2x AI Blaster Cannons: 2 / 0.5s / 200m
 TEXT_TOOLTIP_A5RX_WEAP2,1x AI Beam Cannon: 20 / 5.0s / 240m
 TEXT_TOOLTIP_A5RX_WEAP3,1x Light Concussion Missile: 6 / 5.0s / 400m
+TEXT_TOOLTIP_AAT,A medium repulsortank developed by Baktoid for the Trade Federation in the period before the Clone Wars as their primary armored vehicle, sister to other designs ranging from artillery to SAM launchers. While not a droid tank in itself, it is often crewed by droids when in use by Trade Federation or CIS forces and is very versatile with a heavy turret, missile launchers, and an array of anti-personnel lasers.
+TEXT_TOOLTIP_AAT_HEALTH,Health: 200 (Medium Vehicle)
+TEXT_TOOLTIP_AAT_MOVE,Speed: 1.5 | Turn: 2.0 
+TEXT_TOOLTIP_AAT_WEAP1,1x Heavy AV Blaster Cannon: 1 / 2.0s / 400m
+TEXT_TOOLTIP_AAT_WEAP2,2x AI Blaster Cannons: 2 / 1.0s / 240m
+TEXT_TOOLTIP_AAT_WEAP3,1x Light AI Blaster Cannon: 2 / 0.5s / 200m
+TEXT_TOOLTIP_AAT_WEAP4,1x Light Proton Missile: 2 / 15.0s / 320m
+TEXT_TOOLTIP_AAT_WEAP5,1x Concussion Missile: 2 / 15.0s / 320m
 TEXT_TOOLTIP_ACADEMY_GARRISON,Local Military Squad: 1 / 0
 TEXT_TOOLTIP_ACCLAMATOR_I,A large, transgalactic assault vessel that was secretly developed before the Clone Wars. While best known for carrying army groups, it is typically used as a carrier in naval duties. Carries enough turbolasers to threaten other large ships, but is not durable for the size.
 TEXT_TOOLTIP_ACCLAMATOR_I_HULL,Hull: 2200 (Frigate)
@@ -1359,6 +1367,12 @@ TEXT_TOOLTIP_HOUNDSTOOTH_SHIELD,Shields: 350 / [12/R] (Gunship)
 TEXT_TOOLTIP_HOUNDSTOOTH_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 1.0s / 2.0km
 TEXT_TOOLTIP_HOUNDSTOOTH_WEAP2,1x Fighter Ion Cannon: 4 / 2.0s / 2.0km
 TEXT_TOOLTIP_HOUNDSTOOTH_WEAP3,1x Light Concussion Missile: 1 / 50.0s / 2.0km
+TEXT_TOOLTIP_HUTT_AA_SKIFF,One of the innumerable skiff varieties used by Hutts, equipped with missiles to clear the skies of hostile aircraft.
+TEXT_TOOLTIP_HUTT_AA_SKIFF_COMPANY,Company: 3x Anti-Air Skiff
+TEXT_TOOLTIP_HUTT_AA_SKIFF_HEALTH,Health: 200 (Speeder)
+TEXT_TOOLTIP_HUTT_AA_SKIFF_MOVE,Speed: 2.0 | Turn: 3.0 
+TEXT_TOOLTIP_HUTT_AA_SKIFF_WEAP1,1x Flak Missile (AA): 3 / 2.0s / 400m
+TEXT_TOOLTIP_HUTT_AA_SKIFF_WEAP2,2x Slugthrowers: 1 / 2.0s / 320m
 TEXT_TOOLTIP_HUTT_GALLEON,Colloquially known as the 'Hutt Galleon' by observers, this Ubrikkian Industries reinterpretation of the iconic Galleon Frigate was designed as an export model for discerning buyers, primarily of which being Hutt elements. Trading shield power for armaments similar to common pirate modifications for its KDY counterpart, the Hutt Galleon excels at providing a cheap and efficient support ship, only nominally falling behind in performance to the Galleon's successor, the Star Galleon.
 TEXT_TOOLTIP_HUTT_GALLEON_HULL,Hull: 1100 (Frigate)
 TEXT_TOOLTIP_HUTT_GALLEON_MINE,Interdiction Mines: 1 / 2
@@ -1396,12 +1410,6 @@ TEXT_TOOLTIP_HUTT_GUARD_WEAP3,1x HH-15 Projectile Launcher: 1 / 9.0s / 320m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP4,1x DLT-20A Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP5,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP6,1x Sonic Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_HUTT_AA_SKIFF,One of the innumerable skiff varieties used by Hutts, equipped with missiles to clear the skies of hostile aircraft.
-TEXT_TOOLTIP_HUTT_AA_SKIFF_COMPANY,Company: 3x Anti-Air Skiff
-TEXT_TOOLTIP_HUTT_AA_SKIFF_HEALTH,Health: 200 (Speeder)
-TEXT_TOOLTIP_HUTT_AA_SKIFF_MOVE,Speed: 2.0 | Turn: 3.0 
-TEXT_TOOLTIP_HUTT_AA_SKIFF_WEAP1,1x Flak Missile (AA): 3 / 2.0s / 400m
-TEXT_TOOLTIP_HUTT_AA_SKIFF_WEAP2,2x Slugthrowers: 1 / 2.0s / 320m
 TEXT_TOOLTIP_I_BEAM,The main starfighter of Galderian Slave Traders, the origin of these fighters are assumed like the Space ARC to be from a race enslaved by the Galderians, or to have perished long ago. They are launched from tractor beam projectors which can launch up to six of these fighters, known as an A Rack, at a time. The unique design of the I-Beam gives it high maneuverability on top of decent firepower, along with its large cockpit making it a favorite of larger creatures. 
 TEXT_TOOLTIP_IFI,A medium frigate that functions tolerably as a light carrier. Original iteration of a craft intended to free up the related Acclamator-series vessels from patrol and security-focused duties for frontline use. Between the Acclamator-I and its successor Imperial-II frigates for combat functionality.
 TEXT_TOOLTIP_IFI_HULL,Hull: 2240 (Frigate)
@@ -1556,6 +1564,17 @@ TEXT_TOOLTIP_KUARI_PRINCESS_LINER_SHIELD,Shields: 1500 / [22.5/R] (Frigate)
 TEXT_TOOLTIP_KUARI_PRINCESS_LINER_SQUADRON,Fighters: 1 / 0
 TEXT_TOOLTIP_KUARI_PRINCESS_LINER_TENDER,Fleet Tender: 50 / 2.0s / 2.0km
 TEXT_TOOLTIP_KUARI_PRINCESS_LINER_WEAP1,4x Medium Turbolasers: 2 / 4.0s / 6.1km
+TEXT_TOOLTIP_LAAT,The Low Altitude Assault Transport/infantry is a heavy gunship originally developed for the Grand Army of the Republic. It is used to quickly transport infantry across the battlefield and provide them with significant fire support. It is well-rounded and useful against any target but vulnerable to anti-air emplacements.
+TEXT_TOOLTIP_LAAT_COMPANY,Company: 1x LAAT/i Gunship
+TEXT_TOOLTIP_LAAT_HEALTH,Health: 300 (Heavy Speeder)
+TEXT_TOOLTIP_LAAT_MOD,Modified LAAT setup used by Imperial-affiliated defense forces. Replaces the sensitive composite beams with easier to maintain blaster weaponry and modifies the defenses to be more geared to protection from insurgent infantry.
+TEXT_TOOLTIP_LAAT_MOD_WEAP2,4x AV Blaster Cannons: 1 / 2.0s / 400m
+TEXT_TOOLTIP_LAAT_MOVE,Speed: 5.0 | Turn: 4.0
+TEXT_TOOLTIP_LAAT_SHIELD,Shields: 50 / [3/R] (Speeder)
+TEXT_TOOLTIP_LAAT_WEAP1,3x AI Blaster Cannons: 5 / 2.5s / 400m
+TEXT_TOOLTIP_LAAT_WEAP2,4x AV Beam Cannons: 12 / 5.0s / 240m
+TEXT_TOOLTIP_LAAT_WEAP3,2x Proton Missiles: 1 / 10.0s / 400m
+TEXT_TOOLTIP_LAAT_WEAP4,1x Flak Missile (AA): 1 / 15.0s / 400m
 TEXT_TOOLTIP_LABOUR_CAMP_GARRISON,Police Enforcer Carbineer Squad: 1 / 0
 TEXT_TOOLTIP_LANCER,A slow but dangerous anti-fighter escort craft. While technically introduced a mere month after the Clone Wars, the class would not see a rise in popularity until after the first Death Star was destroyed. Ilon Drez proposed using the vessel to screen vulnerable stations and larger vessels, leading to the ship being significantly more common well into the Vong War.
 TEXT_TOOLTIP_LANCER_CW,Proof of concept vessel meant to protect stations and slower assault ships from fighter swarms. While well-armed, a variety of teething issues and design flaws will see the class a failure until several decades into the future, where an upgraded version is touted as a corporate solution to a military and political problem. Effective against fighters and other small craft.
@@ -1636,17 +1655,6 @@ TEXT_TOOLTIP_LUXURY_BARGE_HEALTH,Health: 400 (Medium Vehicle)
 TEXT_TOOLTIP_LUXURY_BARGE_MOVE,Speed: 1.25 | Turn: 1.0 
 TEXT_TOOLTIP_LUXURY_BARGE_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 400m
 TEXT_TOOLTIP_LUXURY_BARGE_WEAP2,20x Light Repeating Blasters: 5 / 1.0s / 240m
-TEXT_TOOLTIP_LAAT,The Low Altitude Assault Transport/infantry is a heavy gunship originally developed for the Grand Army of the Republic. It is used to quickly transport infantry across the battlefield and provide them with significant fire support. It is well-rounded and useful against any target but vulnerable to anti-air emplacements.
-TEXT_TOOLTIP_LAAT_COMPANY,Company: 1x LAAT/i Gunship
-TEXT_TOOLTIP_LAAT_HEALTH,Health: 300 (Heavy Speeder)
-TEXT_TOOLTIP_LAAT_MOD,Modified LAAT setup used by Imperial-affiliated defense forces. Replaces the sensitive composite beams with easier to maintain blaster weaponry and modifies the defenses to be more geared to protection from insurgent infantry.
-TEXT_TOOLTIP_LAAT_MOD_WEAP2,4x AV Blaster Cannons: 1 / 2.0s / 400m
-TEXT_TOOLTIP_LAAT_MOVE,Speed: 5.0 | Turn: 4.0
-TEXT_TOOLTIP_LAAT_SHIELD,Shields: 50 / [3/R] (Speeder)
-TEXT_TOOLTIP_LAAT_WEAP1,3x AI Blaster Cannons: 5 / 2.5s / 400m
-TEXT_TOOLTIP_LAAT_WEAP2,4x AV Beam Cannons: 12 / 5.0s / 240m
-TEXT_TOOLTIP_LAAT_WEAP3,2x Proton Missiles: 1 / 10.0s / 400m
-TEXT_TOOLTIP_LAAT_WEAP4,1x Flak Missile (AA): 1 / 15.0s / 400m
 TEXT_TOOLTIP_MAELSTROM,An impressive battlecruiser, the Maelstrom is the largest proto-Star Destroyer developed by KDY for the Republic Navy at the outset of the Clone Wars. The Maelstrom is optimized for fleet command duties, and serves just as well as a fleet carrier and planetary siege platform with its powerful defenses and weaponry. Despite these capabilities, the Maelstroms proved unpopular due to the vast amount of resources required to maintain them, and were phased out soon after introduction in favor of more innovative classes. 
 TEXT_TOOLTIP_MAELSTROM_HULL,Hull: 8618 (Capital)
 TEXT_TOOLTIP_MAELSTROM_MOVE,Speed: 3.85 | Accel: 0.05 | Turn: 0.1
@@ -2213,6 +2221,7 @@ TEXT_TOOLTIP_SECONDARY_BARRACKS_POLICE_2,Police Enforcer Heavy Squad: 2 / 0
 TEXT_TOOLTIP_SECONDARY_BARRACKS_SECURITY_TROOPER,Corporate Security Trooper Squad: 4 / 0
 TEXT_TOOLTIP_SECONDARY_BARRACKS_SUN_GUARD,Sun Guard Squad: 4 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_A4,A4 Juggernaut: 1 / 0
+TEXT_TOOLTIP_SECONDARY_FACTORY_AAT,Armored Assault Tank: 3 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_ARROW,Arrow-23 Landspeeder: 4 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_AT_PT,AT-PT Walker: 5 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_AT_TE,AT-TE Walker: 1 / 0
@@ -2225,8 +2234,8 @@ TEXT_TOOLTIP_SECONDARY_FACTORY_GABA18,Gaba-18 Airspeeder: 2 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_GIAN,Assault Gian Speeder: 4 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_GIAN_PDF,V-19 Gian Speeder: 4 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_JX30,JX30 Jailspeeder: 1 / 0
-TEXT_TOOLTIP_SECONDARY_FACTORY_LUXURY_BARGE,Luxury-class Sail Barge: 1 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_LAAT,LAAT/i Gunship: 1 / 0
+TEXT_TOOLTIP_SECONDARY_FACTORY_LUXURY_BARGE,Luxury-class Sail Barge: 1 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_PROTOCOL_LEGIONNAIRE,Protocol Legionnaire Squad: 4 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_RIOT_HAILFIRE,Hailfire Riot Control Droid: 3 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_SD6,SD-6 Hulk Infantry Droid: 6 / 0
@@ -2235,7 +2244,6 @@ TEXT_TOOLTIP_SECONDARY_FACTORY_SKYHOPPER,T-16M Skyhopper: 2 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_TNT,Treaded Neutron Torch: 3 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_ULAV_EARLY,PDF Ultra-Light Assault Vehicle: 4 / 0
 TEXT_TOOLTIP_SECONDARY_FACTORY_VAATE,VAAT/e Gunship: 1 / 0
-TEXT_TOOLTIP_SECONDARY_FACTORY_AAT,Armored Assault Tank: 3 / 0
 TEXT_TOOLTIP_SECURITYTROOPER,Infantry security forces rented out by companies such as Santhe Security for local protection and enforcement duties. While not particularly suited in training or equipment to engage military units, these technical specialists can provide an uncommon edge in convoys and vehicle support.
 TEXT_TOOLTIP_SECURITYTROOPER_CAPTAIN_HEALTH,Health: 17 (Infantry)
 TEXT_TOOLTIP_SECURITYTROOPER_COMPANY,Company: 40x Corporate Security Trooper
@@ -2577,6 +2585,13 @@ TEXT_TOOLTIP_UTAA_WEAP1,1x Flak Missile: 4 / 2.0s / 400m
 TEXT_TOOLTIP_UTAA_WEAP2,2x Light AV Blaster Cannons: 2 / 3.0s / 320m
 TEXT_TOOLTIP_V_WING,An extremely fast interceptor with a respectable armament. Developed by Walex Blissex during the Clone Wars to be launched in swarms by mainline Republic carriers, it would later be phased out after a few years of Imperial service in favour of the more cost-effective TIE series. It is best used to engage enemy fighters or respond to incoming bombers.
 TEXT_TOOLTIP_V_WING_BOMBER,Rare variant of the V-wing interceptor that adds bomber level armaments to its frame.
+TEXT_TOOLTIP_VAAT,The Variable Altitude Assault Transport/enforcement was a Rothana Heavy Engineering gunship transport design which predates the LAAT. It lacks the firepower of its successor design but provides a lot more protection to its occupants and is more resilient to incoming fire. It was seen in service in a range of local security forces including those based on Coruscant before the Clone Wars and would remain in service with law enforcement agencies even into the Galactic Civil War.
+TEXT_TOOLTIP_VAAT_COMPANY,Company: 1x VAAT/e
+TEXT_TOOLTIP_VAAT_HEALTH,Health: 400 (Heavy Speeder)
+TEXT_TOOLTIP_VAAT_HEALTH_COMMANDER,Health: 480 (Heavy Speeder)
+TEXT_TOOLTIP_VAAT_MOVE,Speed: 3.0 | Turn: 3.2
+TEXT_TOOLTIP_VAAT_WEAP1,2x AV Blaster Cannons: 2 / 2.0s / 400m
+TEXT_TOOLTIP_VAAT_WEAP2,1x Proton Missile: 1 / 5.0s / 400m
 TEXT_TOOLTIP_VALOR_HULL,Hull: 21000 (Capital)
 TEXT_TOOLTIP_VALOR_SHIELD,Shields: 22000 / [110/R] (Capital)
 TEXT_TOOLTIP_VALOR_SQUADRON,Fighters: 3 / 17 | Bombers: 2 / 13 | Corvettes: 3 / 3
@@ -2648,13 +2663,6 @@ TEXT_TOOLTIP_VORACIOUS_WEAP1,8x Heavy Dual Turbolasers: 1 / 5.0s / 7.4km
 TEXT_TOOLTIP_VORACIOUS_WEAP2,12x Medium Quad Laser Cannons: 2 / 1.0s / 4.4km
 TEXT_TOOLTIP_VULTURE_PIRATES,A pirate group who once attacked the Rebel entrepreneur Dunari but was driven off by Bandit Squadron. Vulture pilots are organized into Pirate and Fury squadrons.
 TEXT_TOOLTIP_VULTURE_SQUADRON,Bombers: 2 / 0
-TEXT_TOOLTIP_VAAT,The Variable Altitude Assault Transport/enforcement was a Rothana Heavy Engineering gunship transport design which predates the LAAT. It lacks the firepower of its successor design but provides a lot more protection to its occupants and is more resilient to incoming fire. It was seen in service in a range of local security forces including those based on Coruscant before the Clone Wars and would remain in service with law enforcement agencies even into the Galactic Civil War.
-TEXT_TOOLTIP_VAAT_COMPANY,Company: 1x VAAT/e
-TEXT_TOOLTIP_VAAT_HEALTH,Health: 400 (Heavy Speeder)
-TEXT_TOOLTIP_VAAT_HEALTH_COMMANDER,Health: 480 (Heavy Speeder)
-TEXT_TOOLTIP_VAAT_MOVE,Speed: 3.0 | Turn: 3.2
-TEXT_TOOLTIP_VAAT_WEAP1,2x AV Blaster Cannons: 2 / 2.0s / 400m
-TEXT_TOOLTIP_VAAT_WEAP2,1x Proton Missile: 1 / 5.0s / 400m
 TEXT_TOOLTIP_WLO5_TANK,The Ubrikkian WLO-5 Speeder tank was a popular choice for pirates and other factions in the Outer Rim due to their cheap price and high mobility which the driver could utilise to evade some attacks although they lacked in firepower compared to the tanks in service with the major powers. The design was also noted to be extremely easy to modify and repair which further boosted its popularity in the less wealthy areas of the galaxy.
 TEXT_TOOLTIP_WLO5_TANK_COMMANDER_HEALTH,Health: 375 (Medium Vehicle)
 TEXT_TOOLTIP_WLO5_TANK_COMPANY,Company: 3x WLO-5 Speeder Tank
@@ -2685,14 +2693,6 @@ TEXT_TOOLTIP_ZANN_STATION_WEAP1,2x Medium Quad Turbolasers: 2 / 2.0s / 7.2km
 TEXT_TOOLTIP_ZANN_STATION_WEAP2,2x Heavy Dual Laser Cannons: 2 / 0.5s / 5.1km
 TEXT_TOOLTIP_ZANN_STATION_WEAP3,2x Mass Drivers: 2 / 1.0s / 8.0km
 TEXT_TOOLTIP_ZORBA,Zorba Desilijic Tiure was a Hutt crime lord and the leader of the Desilijic kajidic. One of few Hutts to possess hair—as a result of a genetic throwback—Zorba was the brother of Jiliac, Ebor, Ziro and Pazda, father of Jabba Desilijic Tiure, and grandfather of Rotta, Gorga and Grubba Desilijic Aarrpo. Zorba was an inept leader of Desilijic, and he had few supporters in his clan due to his outlandish schemes and financial mismanagement. During the Separatist Crisis, he was apprehended by law enforcement and sentenced to prison on the planet Kip. Jiliac took over as Desilijic leader and Jabba inherited much of Zorba's holdings.
-TEXT_TOOLTIP_AAT,A medium repulsortank developed by Baktoid for the Trade Federation in the period before the Clone Wars as their primary armored vehicle, sister to other designs ranging from artillery to SAM launchers. While not a droid tank in itself, it is often crewed by droids when in use by Trade Federation or CIS forces and is very versatile with a heavy turret, missile launchers, and an array of anti-personnel lasers.
-TEXT_TOOLTIP_AAT_HEALTH,Health: 200 (Medium Vehicle)
-TEXT_TOOLTIP_AAT_MOVE,Speed: 1.5 | Turn: 2.0 
-TEXT_TOOLTIP_AAT_WEAP1,1x Heavy AV Blaster Cannon: 1 / 2.0s / 400m
-TEXT_TOOLTIP_AAT_WEAP2,2x AI Blaster Cannons: 2 / 1.0s / 240m
-TEXT_TOOLTIP_AAT_WEAP3,1x Light AI Blaster Cannon: 2 / 0.5s / 200m
-TEXT_TOOLTIP_AAT_WEAP4,1x Light Proton Missile: 2 / 15.0s / 320m
-TEXT_TOOLTIP_AAT_WEAP5,1x Concussion Missile: 2 / 15.0s / 320m
 TEXT_TOSCAN_BOMBER_SQUADRON,Toscan 8-Q Bomber Squadron
 TEXT_TOSCAN_BOMBER_SQUADRON_HALF,Toscan 8-Q Bomber Squadron 1/2
 TEXT_TOSCAN_BOMBER_SQUADRON2,Toscan 8-Q Bomber Squadron 2x
@@ -2712,6 +2712,8 @@ TEXT_UNIT_2_WARPOD,#2 Warpod
 TEXT_UNIT_74Z_SPEEDER_BIKE,74-Z Speeder Bike Scout
 TEXT_UNIT_A5RX,A5-RX Battle Tank
 TEXT_UNIT_A5RX_COMPANY,A5-RX Battle Tank Company
+TEXT_UNIT_AAT,Armored Assault Tank-1
+TEXT_UNIT_AAT_COMPANY,AAT-1 Company
 TEXT_UNIT_ACCLAMATOR_I,Acclamator-I Cruiser (Carrier)
 TEXT_UNIT_ACCLAMATOR_II,Acclamator-II Cruiser
 TEXT_UNIT_ACCLAMATOR_LEVELER,Acclamator-I Cruiser (Assault)
@@ -2883,11 +2885,11 @@ TEXT_UNIT_HEAVYSCAV_LEADER,Heavy Scavenger Sergeant
 TEXT_UNIT_HEAVYSCAV_PLATOON,Heavy Scavenger Platoon
 TEXT_UNIT_HEAVYSCAV_SQUAD,Heavy Scavenger Squad
 TEXT_UNIT_HOUNDSTOOTH,Hound's Tooth
+TEXT_UNIT_HUTT_AA_SKIFF,Anti-Air Skiff
+TEXT_UNIT_HUTT_AA_SKIFF_COMPANY,Anti-Air Skiff Company
 TEXT_UNIT_HUTT_GALLEON,Hutt Galleon Frigate
 TEXT_UNIT_HUTT_VAAT_COMMAND,Command VAAT/e Gunship
 TEXT_UNIT_HUTT_VAAT_COMMANDER,VAAT/e Gunship Commander
-TEXT_UNIT_HUTT_AA_SKIFF,Anti-Air Skiff
-TEXT_UNIT_HUTT_AA_SKIFF_COMPANY,Anti-Air Skiff Company
 TEXT_UNIT_I_BEAM,I-BEAM Star Fighter
 TEXT_UNIT_IMPERIAL_I_FRIGATE,Imperial-I Frigate
 TEXT_UNIT_INQUESTOR,InQuestor
@@ -2920,6 +2922,8 @@ TEXT_UNIT_KRAYT_GUNSHIP_SQUADRON,M22-T Krayt Gunship Squadron
 TEXT_UNIT_KRAYT_GUNSHIP_SQUADRON_HALF,M22-T Krayt Gunship Squadron 1/2
 TEXT_UNIT_KRAYT_GUNSHIP_SQUADRON2,M22-T Krayt Gunship Squadron x2
 TEXT_UNIT_KUARI_PRINCESS_LINER,Princess Transport Cruiser
+TEXT_UNIT_LAAT,LAAT/i Gunship
+TEXT_UNIT_LAAT_MOD,Modified Garrison LAAT/i Gunship
 TEXT_UNIT_LANCER,Lancer Frigate
 TEXT_UNIT_LANCER_CW,Lancer Frigate Prototype
 TEXT_UNIT_LIBERTY_LINER,Liberty Transport Cruiser
@@ -2931,8 +2935,6 @@ TEXT_UNIT_LUCREHULK_BULK_CRUISER,Lucrehulk Bulk Cruiser
 TEXT_UNIT_LUCREHULK_CORE_DESTROYER,Lucrehulk Core Destroyer
 TEXT_UNIT_LUCREHULK_TRANSPORT,Lucrehulk Transport
 TEXT_UNIT_LUXURY_BARGE,Luxury-class Sail Barge
-TEXT_UNIT_LAAT,LAAT/i Gunship
-TEXT_UNIT_LAAT_MOD,Modified Garrison LAAT/i Gunship
 TEXT_UNIT_MAELSTROM,Maelstrom Battlecruiser
 TEXT_UNIT_MAL,M.A.L.
 TEXT_UNIT_MAL_COMPANY,M.A.L. Company
@@ -3137,6 +3139,7 @@ TEXT_UNIT_V_WING_FIGHTER,V-wing
 TEXT_UNIT_V_WING_FIGHTER_BOMBER,V-wing Bomber
 TEXT_UNIT_V_WING_FIGHTER_ELITE_GUARD,Elite Guard V-wing
 TEXT_UNIT_V_WING_FIGHTER_MISSILE,Missile V-wing
+TEXT_UNIT_VAAT,VAAT/e Gunship
 TEXT_UNIT_VENATOR,Venator Star Destroyer
 TEXT_UNIT_VENATOR_REFIT,Refurbished Venator Star Destroyer
 TEXT_UNIT_VICTORY_DESTROYER_MK1,Victory-I Star Destroyer
@@ -3145,7 +3148,6 @@ TEXT_UNIT_VICTORY_DESTROYER_MK2,Victory-II Star Destroyer
 TEXT_UNIT_VICTORY_I_FRIGATE,Victory-I Frigate
 TEXT_UNIT_VONTOR,Vontor Destroyer
 TEXT_UNIT_VORACIOUS,Voracious Carrier
-TEXT_UNIT_VAAT,VAAT/e Gunship
 TEXT_UNIT_WLO5_TANK,WLO-5 Speeder Tank
 TEXT_UNIT_WLO5_TANK_COMMAND,Command WLO-5 Speeder Tank
 TEXT_UNIT_WLO5_TANK_COMMANDER,WLO-5 Speeder Tank Commander
@@ -3157,8 +3159,6 @@ TEXT_UNIT_Z95_BOMBER,Z-95 Bomber
 TEXT_UNIT_Z95_HEADHUNTER,Z-95 Headhunter
 TEXT_UNIT_Z95ML_HEADHUNTER,Z-95ML Headhunter
 TEXT_UNIT_Z95XT_HEADHUNTER,Z-95XT Headhunter
-TEXT_UNIT_AAT,Armored Assault Tank-1
-TEXT_UNIT_AAT_COMPANY,AAT-1 Company
 TEXT_UPGRADE_SURVIVAL_BOONTA_FLEET_LARGE,Bootana Hutta Fleet (Large)
 TEXT_UPGRADE_SURVIVAL_BOONTA_FLEET_MEDIUM,Bootana Hutta Fleet (Medium)
 TEXT_UPGRADE_SURVIVAL_BOONTA_FLEET_SMALL,Bootana Hutta Fleet (Small)

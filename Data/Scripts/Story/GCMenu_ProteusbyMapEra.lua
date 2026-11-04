@@ -1456,6 +1456,18 @@ return {
 		,["Empires_At_War"] = {
 			["9ABY"] = true
 		}
+	},
+	["BATCH"] = {
+		
+		["Stars_Align"] = {
+			["4ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["4ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["4ABY"] = true
+		}
 
 	},
 }

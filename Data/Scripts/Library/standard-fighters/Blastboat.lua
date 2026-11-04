@@ -116,7 +116,9 @@ return {
 			COMPNOR = {"", false},
 			MINOS = {"EARLY_SKIPRAY_SQUADRON", false},
 			TATOOINE = {"YV_929_SQUADRON", false},
-			TRAX = {"", false},			
+			TRAX = {"", false},		
+			DROMMEL = {"SKIPRAY_SQUADRON", false},		
+			BATCH = {"TIE_PHANTOM_SQUADRON", false},		
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

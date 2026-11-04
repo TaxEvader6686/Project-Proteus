@@ -727,4 +727,9 @@
 		<Alpha>true</Alpha>
 	</Movie>
 
+	<Movie Name="Batch_Loop">
+		<Movie_File>Data\Art\Movies\Binked\Batch_Loop.bik</Movie_File>
+		<Alpha>true</Alpha>
+	</Movie>
+
 </Movies>

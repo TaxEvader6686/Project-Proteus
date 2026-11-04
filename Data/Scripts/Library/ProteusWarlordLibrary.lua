@@ -1158,6 +1158,32 @@ return {
 			IntroHolo = "Imperial_Army_Officer_Loop",
 			CustomRewardTable = true,
 		},
+		["BATCH"] = {
+			FriendlyName = "Batch's Empire",
+			Planets = {"PREFSBELT"},
+			LeaderTable = {"BATCH_MENISCUS"},
+			LeaderEndingNames = {"Emperor Batch"},
+			HeroList = {"Batch_Meniscus"},
+			UnlockList = {
+				-- Space 
+				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate_Prototype", "Active_Frigate", "Quasar", "Vigil",
+				"Pursuit_Light_Cruiser", "Rep_DHC", "Neutron_Star_Tender", "Vindicator_Carrier", "Acclamator_I_Carrier", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer",
+				"Imperial_I_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Battleship", "Imperial_II_Star_Destroyer_Ion",
+				"Altor_Carrier", "Executor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Navy_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"RTT_Company", "PX10_Company", "INT4_Company",
+				"Imperial_UT_AA_Company","1M_Tank_Company", "Imperial_Missile_Artillery_Company", "Imperial_Modified_LAAT_Company",
+				"Heavy_Recovery_Vehicle_Company", "Imperial_A5_Juggernaut_Company",
+				-- Research
+				
+			},
+			FactionOverride = "Pentastar",
+			StartYear = 4,
+			LastYear = 4,
+			IntroText = "TEXT_CONQUEST_PROTEUS_BATCH",
+			IntroHolo = "Batch_Loop",
+		},
 		["BRANDEI"] = {
 			FriendlyName = "Thrawn Remnants",
 			Planets = {"JARDEEN"},
