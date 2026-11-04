@@ -1289,9 +1289,9 @@ return {
 			HeroList = {{"Crueya_Vandron_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
 			UnlockList = {
 				-- Space 
-				"VT_49_Decimator_Group", "Ipv_1_Corvette", "CR92A", "Tartan_Patrol_Cruiser", "Star_Galleon", "Arquitens_Refit", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
+				"VT_49_Decimator_Group", "IPV1", "CR92A", "Tartan_Patrol_Cruiser", "Star_Galleon", "Arquitens_Refit", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
 				"Immobilizer_418_Refit", "Vindicator_Cruiser", "MTC_Sensor", "MTC_Support", "Imperial_II_Frigate", "Victory_II_Star_Destroyer", "Venator_8X",
-				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
+				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier",
 				"Communications_Battlecruiser", "Praetor_II_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Compforce_Assault_Company", "ISB_Infiltrator_Company", "CSA_Destroyer_Droid_Company", "Imperial_74Z_Bike_Company",
