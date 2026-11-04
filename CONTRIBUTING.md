@@ -16,10 +16,11 @@ This guide covers safe workflows for proposing changes to the Project Proteus `D
 - Join the [Project Discord](https://discord.gg/HrDPn9vcuN) to discuss your idea and get help.
 - Check [GitHub Issues](https://github.com/TaxEvader6686/Project-Proteus/issues) for existing reports or plans.
 - Before editing a warlord group, check the
-[group ownership document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU)
-and coordinate changes with the group owner on Discord.
-- Vacant warlord groups that you can claim can be found [here](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU/edit?tab=t.nok4xvbwulrm#heading=h.c3b5ztpu2p4) (please try to use the groups on the upper lists first)
-- Reference the separate [player roster document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU).
+  [group ownership document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU)
+  and coordinate changes with the group owner on Discord.
+- Vacant warlord groups that you can claim can be found in
+  [Suggestions](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU/edit?tab=t.nok4xvbwulrm)
+  (please try to use the groups on the upper lists first).
 
 ## GitHub Issues
 
@@ -45,11 +46,17 @@ Issues track bugs, ideas, and tasks in the original project.
 
 ## Tools
 
-### Git and GitHub Desktop
+### GitHub Desktop
 
+GitHub Desktop is the recommended way to follow this guide if you are new to Git.
 Install [GitHub Desktop](https://desktop.github.com/) and sign in with your [GitHub account](https://github.com/signup).
-GitHub desktop is the recommended way to follow this guide if you are new to Git.
-Also see the official [Getting Started with GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
+Also see the official guide for
+[Getting Started with GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop).
+
+On Windows, you can install it from PowerShell instead of manually downloading it:
+```powershell
+winget install --id GitHub.GitHubDesktop
+```
 
 > Native Git, GitHub CLI, or VS Code's Git tools can replace GitHub Desktop if you already use them.
 > However, the rest of this guide is tailored for GitHub Desktop and VS Code.
@@ -61,18 +68,35 @@ Use a text editor to edit `xml`, `lua`, and other text-based files.
 - [Visual Studio Code](https://code.visualstudio.com/) is highly recommended because of the extensions available.
 - [Notepad++](https://notepad-plus-plus.org/) is a lightweight alternative for simple edits.
 
-When using VS Code, installing **extensions** can help with XML and Lua editing.
+On Windows, install either editor from PowerShell if you prefer:
+```powershell
+winget install --id Microsoft.VisualStudioCode
+```
+```powershell
+winget install --id Notepad++.Notepad++
+```
+
+When using VS Code, installing **extensions** can help with XML and Lua 5.0 editing.
 They provide quality-of-life features like syntax highlighting, code completion, and error checking.
 
 **VS Code Extensions:**
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) is popular for VS Code.
+- [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) by sumneko is a universal Lua Language Server.
 - [pg-starwarsgame-lsp](https://github.com/AlamoEngine-Tools/pg-starwarsgame-lsp) is a custom language server made specifically for EaW.
-- [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) by sumneko is a universal Lua Language Server
 
-> Don't enable both extensions at the same time because the language servers may conflict.
+> Having multiple language servers active at the same time may conflict in some cases.
+
+### References
+
+- [Lua 5.0 Reference Manual](https://www.lua.org/manual/5.0) for language syntax and standard functions.
+- [EaWX Lua Coding Guidelines](https://github.com/SvenMarcus/eawx-lua-coding-guidelines) for recommended coding conventions.
 
 ### Additional Tools
 
-- [TilotnyStudio](https://github.com/Vardamir117/TilotnyStudio/releases) is an experimental graphical editor for common modding tasks.
+- [Petroglyph Mod Tool](https://www.petroglyphgames.com/eawmodtool/index.html) page has the **Debug build**, terrain editor, and shader source files.
+- [AlamoEngine-Tools](https://github.com/AlamoEngine-Tools) hosts unofficial modding tools for Petroglyph's Alamo and GlyphX Engines.
+- [GlyphXTools](https://github.com/GlyphXTools) is another collection of [mod tools](https://modtools.petrolution.net/) for Petroglyph's GlyphX engine.
+- [TilotnyStudio](https://github.com/Vardamir117/TilotnyStudio/releases) is an experimental graphical editor for common EaWX modding tasks.
 - [Shared modding tools](https://drive.google.com/drive/folders/1jtvFesp7LfNVAnxubT3lde0dpA51au3e) are available for various purposes.
 
 ## One time setup
@@ -118,6 +142,9 @@ Before starting, [Keep your fork current](#keep-your-fork-current) so your `Dev`
 4. Test the change in game before marking it ready for review.
    Make a note of the scenario you tested and the result.
 
+See the official GitHub guide for more details on
+[Committing and reviewing changes](https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop).
+
 ### Open a pull request
 
 Pushing uploads your branch to your fork, and a **pull request** asks the maintainers to merge it.
@@ -131,6 +158,9 @@ Pushing uploads your branch to your fork, and a **pull request** asks the mainta
 
 **WARNING : Do not include changed/compiled binary archives commits in your PR (e.g .mtd file, .dat file).**
 
+See the official GitHub guide for more details on
+[Creating an issue or pull request](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop).
+
 ## Maintenance workflow
 
 ### Keep your fork current
@@ -139,7 +169,10 @@ Over time your fork may fall behind the original repository.
 Bring your `Dev` branch up to date before starting a new change.
 
 1. On GitHub, open your fork, select its `Dev` branch, choose **Sync fork**, then **Update branch**.
-2. In GitHub Desktop, switch to the `Dev` branch, select **Fetch origin**, then **Pull origin** if offered.
+2. In GitHub Desktop, switch to the `Dev` branch, select **Fetch origin**, then **Pull origin**.
+
+See the official GitHub guide for more details on
+[Syncing your branch](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop).
 
 ### Merging updates
 
