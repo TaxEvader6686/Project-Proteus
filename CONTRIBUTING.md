@@ -5,6 +5,7 @@ This guide covers safe workflows for proposing changes to the Project Proteus `D
 ## Index
 
 - [Before you start](#before-you-start)
+- [GitHub Issues](#github-issues)
 - [Tools](#tools)
 - [One time setup](#one-time-setup)
 - [Development workflow](#development-workflow)
@@ -19,6 +20,28 @@ This guide covers safe workflows for proposing changes to the Project Proteus `D
 and coordinate changes with the group owner on Discord.
 - Vacant warlord groups that you can claim can be found [here](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU/edit?tab=t.nok4xvbwulrm#heading=h.c3b5ztpu2p4) (please try to use the groups on the upper lists first)
 - Reference the separate [player roster document](https://docs.google.com/document/d/1kTn2ChBXyPefAGgiAWkms-F-psZa9NI5PI5U2Ns8ftU).
+
+## GitHub Issues
+
+Issues track bugs, ideas, and tasks in the original project.
+
+1. Sign in to GitHub and open [Project Proteus Issues](https://github.com/TaxEvader6686/Project-Proteus/issues).
+2. Search for an existing issue first.
+   If one already covers your report or idea, comment on it and add any new details there.
+3. Otherwise, choose **New issue** with a template if available, or a blank issue.
+4. Give it a clear title, describe the report or plan, then submit.
+
+> GitHub allows you to edit issues after submission, so you can add more details later.
+
+### Write good issues
+
+- For bugs: include mod info (version, faction, group, era, map), how to reproduce the issue, what you expected, and what happened instead.
+  Screenshots and logs can help.
+- For enhancements: explain the problem, your proposed change, and its benefit.
+- Reference related issues or pull requests with `#` followed by their number, such as `#123`.
+- For task/todo lists, put each item on its own line, starting with `- [ ]` for an open task or `- [x]` for a completed task.
+
+> **Tip:** Keep progress in the GitHub issue and link any relevant Discord discussions.
 
 ## Tools
 
