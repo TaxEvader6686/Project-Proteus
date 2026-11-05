@@ -792,6 +792,10 @@ TEXT_TOOLTIP_AV7_HEALTH,Health: 50 (Heavy Vehicle)
 TEXT_TOOLTIP_AV7_MOVE,Speed: 1.0 | Turn: 1.0 
 TEXT_TOOLTIP_AV7_WEAP1,1x Artillery Cannon: 1 / 8.333s / 1440m
 TEXT_TOOLTIP_BATCH,Martio Batch was one of the original twelve Grand Admirals appointed by Emperor Palpatine. Batch preferred to avoid attention and disliked Imperial court politics. As a result of his low profile, he earned the nickname the "Invisible Admiral." Following the Imperial defeat at the Battle of Yavin in 0 BBY, the Emperor tasked Batch with designing a fool-proof cloaking device on pain of death. Despite succeeding initially, the project was destroyed by the Rebels and Batch fled into hiding, fearing the Emperor's wrath, until hearing news of Palpatine's death at Endor.
+TEXT_TOOLTIP_BATCH_FIGHTERS_RESEARCH,TODO
+TEXT_TOOLTIP_BATCH_INFANTRY_RESEARCH,TODO
+TEXT_TOOLTIP_BATCH_SHIPS_RESEARCH,TODO
+TEXT_TOOLTIP_BATCH_VEHICLE_RESEARCH,TODO
 TEXT_TOOLTIP_BAYONET,An outdated Sienar light cruiser released shortly after the end of the Clone Wars. The design was never as popular as rival designs from Kuat and Damorian or even Sienar's venerable Marauder Cruiser line and was eventually supplanted by Kuat's Vigil Corvette. Despite its obsolesence, the Bayonet can still provide decent fire support against cruisers and fighters alike. 
 TEXT_TOOLTIP_BAYONET_HULL,Hull: 800 (Frigate)
 TEXT_TOOLTIP_BAYONET_MOVE,Speed: 3.0 | Accel: 0.175 | Turn: 0.3
@@ -1851,6 +1855,10 @@ TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_AUREK_STARFIGHTER,Modernized Aurek Strikefighter
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
+TEXT_UNIT_BATCH_FIGHTERS_RESEARCH,Starfighter Improvement Program
+TEXT_UNIT_BATCH_INFANTRY_RESEARCH,Infantry Reform Program
+TEXT_UNIT_BATCH_SHIPS_RESEARCH,Shipyard Overhaul Program
+TEXT_UNIT_BATCH_VEHICLE_RESEARCH,Ground Vehicle Reform Program
 TEXT_UNIT_BAYONET,Bayonet Light Cruiser
 TEXT_UNIT_BELBULLAB22,Belbullab-22
 TEXT_UNIT_BELBULLAB23,Belbullab-23

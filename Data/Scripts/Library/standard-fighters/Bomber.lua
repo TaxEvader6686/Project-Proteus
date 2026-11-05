@@ -114,7 +114,8 @@ return {
 			TATOOINE = {"TIE_BOMBER_SQUADRON", false},
 			TRAX = {"", false},		
 			DROMMEL = {"TIE_BOMBER_SQUADRON", false},	
-			BATCH = {"TIE_BOMBER_SQUADRON", false},									
+			BATCH = {"TIE_BOMBER_SQUADRON", false,
+					{"BatchFighters", "SCIMITAR_SQUADRON", false}}, --research 1						
 		}
 		
 		if simpletypes[owner] then
