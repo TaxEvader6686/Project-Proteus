@@ -373,7 +373,7 @@ return {
 				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer",
 				"Praetor_Carrier_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Land
-				"Imperial_Army_Guard_Company", "Light_Mercenary_Company", "Republic_BARC_Company",
+				"Imperial_Army_Guard_Company", "Light_Mercenary_Company", "Republic_BARC_Company", "Random_Infantry_Kaarenth", 
 				"Imperial_AT_PT_Company", "AT_XT_Company", "Gian_Company", "008_Speeder_Company", "Imperial_Flashblind_Company", "New_Republic_MPTL_Company",
 				"Imperial_LAAT_Company", "MZ8_Tank_Company", "AT_AI_Walker_Company",
 		 		"Canderous_Assault_Tank_Lasers_Company", "Teklos_Company",
@@ -1473,7 +1473,7 @@ return {
 				"Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Mandator_II_Dreadnought",
 				-- Ground
-				"Army_Special_Missions_Company", "EVO_Trooper_Company", "Republic_BARC_Company", --Replace EVOs with Stromtrooper Commandos when proteus version is done
+				"Army_Special_Missions_Company", "Stormtrooper_Commando_Company", "Republic_BARC_Company", 
 				"Repulsor_Scout_Company", "RTT_Company", "1L_Tank_AV_Company", "Chariot_LAV_Company", 
 				"AT_AA_Flak_Walker_Company", "SPMAG_Walker_Company", "HAET_Company", 
 				"Imperial_AT_TE_Walker_Company", "Imperial_AT_AT_Walker_Company", 

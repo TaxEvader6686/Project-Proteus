@@ -95,6 +95,7 @@ function State_Init(message)
 			ANAXES = {"Field_Base_Pad_Anaxes", false},
 			ALLIED_TION = {"Field_Base_Pad_Allied_Tion", false},
 			BALMORRA = {"Field_Base_Pad_Balmorra", false},
+			BATCH = {"Field_Base_Pad_Batch", "BatchInfantry", "Field_Base_Pad_Batch_Research"},
 			BRANDEI = {"Field_Base_Pad_Brandei", false},
 			BORMEA = {"Field_Base_Pad_Bormea", false},
 			CARIDA = {"Field_Base_Pad_Carida", false},

@@ -102,30 +102,32 @@ function GovernmentManager:Hutt_Empire_Formation()
 end
 
 function GovernmentManager:UpdateDisplayContainer()
-    if self.human == Find_Player("HUTT_CARTELS") then
-        self.HUTTGOV:UpdateDisplay(self.FAVOUR.FavourTables["HUTT_CARTELS"])
-    elseif self.human == Find_Player("EMPIRE")
-        or self.human == Find_Player("ERIADU_AUTHORITY")
-        or self.human == Find_Player("ZSINJ_EMPIRE")
-        or self.human == Find_Player("GREATER_MALDROOD")
-        or self.human == Find_Player("PENTASTAR")
-        or self.human == Find_Player("IMPERIAL_PROTEUS")
-        then
-            self.EMPIREGOV:UpdateDisplay()
-            if GlobalValue.Get("PROTEUS_GROUP_NAME") == "KUAT" then
-                self.PROTEUSGOV:UpdateProteusShipmarketDisplay()
-            end
-    elseif self.human == Find_Player("REBEL") then
-        self.NRGOV:UpdateDisplay()
-    elseif self.human == Find_Player("EMPIREOFTHEHAND") then
-        self.EOTHGOV:OpenDisplay()
-    elseif self.human == Find_Player("CORPORATE_SECTOR") then
-        self:UpdateDisplayCSA()
-    elseif self.human == Find_Player("HAPES_CONSORTIUM") then
-        self:UpdateDisplayHapes()
-    elseif self.human == Find_Player("EMPIREOFTHEHAND") then
-        self.EOTHGOV:OpenDisplay()
-    end
+	if self.human == Find_Player("HUTT_CARTELS") then
+		self.HUTTGOV:UpdateDisplay(self.FAVOUR.FavourTables["HUTT_CARTELS"])
+	elseif self.human == Find_Player("EMPIRE")
+		or self.human == Find_Player("ERIADU_AUTHORITY")
+		or self.human == Find_Player("ZSINJ_EMPIRE")
+		or self.human == Find_Player("GREATER_MALDROOD")
+		or self.human == Find_Player("PENTASTAR")
+		then
+			self.EMPIREGOV:UpdateDisplay()
+	elseif self.human == Find_Player("IMPERIAL_PROTEUS") then
+			self.EMPIREGOV:UpdateDisplay()
+			self.PROTEUSGOV:UpdateProteusMiscellaneousDisplay()
+		   if GlobalValue.Get("PROTEUS_GROUP_NAME") == "KUAT" then
+				self.PROTEUSGOV:UpdateProteusShipmarketDisplay()
+			end
+	elseif self.human == Find_Player("REBEL") then
+		self.NRGOV:UpdateDisplay()
+	elseif self.human == Find_Player("EMPIREOFTHEHAND") then
+		self.EOTHGOV:OpenDisplay()
+	elseif self.human == Find_Player("CORPORATE_SECTOR") then
+		self:UpdateDisplayCSA()
+	elseif self.human == Find_Player("HAPES_CONSORTIUM") then
+		self:UpdateDisplayHapes()
+	elseif self.human == Find_Player("EMPIREOFTHEHAND") then
+		self.EOTHGOV:OpenDisplay()
+	end
 end
 
 function GovernmentManager:UpdateDisplayCSA()
