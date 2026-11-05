@@ -1176,13 +1176,14 @@ return {
 				"Imperial_UT_AA_Company","1M_Tank_Company", "Imperial_Missile_Artillery_Company", "Imperial_Modified_LAAT_Company",
 				"Heavy_Recovery_Vehicle_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
-				
+				"Dummy_Research_Batch_Fighters", "Dummy_Research_Batch_Infantry", "Dummy_Research_Batch_Vehicles", "Dummy_Research_Batch_Ships",
 			},
 			FactionOverride = "Pentastar",
 			StartYear = 4,
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BATCH",
 			IntroHolo = "Batch_Loop",
+			CustomRewardTable = true,
 		},
 		["BRANDEI"] = {
 			FriendlyName = "Thrawn Remnants",
@@ -1316,7 +1317,7 @@ return {
 			HeroList = {"Reder_Krieger", "Niclara_Pulsars_Revenge", "Drommel_Wolfs_Claw"},
 			UnlockList = {
 				-- Space 
-				"Delta_JV7_Group", "Customs_Corvette", "Ipv1_Gunboat_Proteus", "Lancer_Frigate", "Star_Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
+				"Delta_JV7_Group", "Customs_Corvette", "CR92A", "Ipv1_Gunboat_Proteus",  "Tartan_Patrol_Cruiser", "Star_Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",
 				"Immobilizer_418", "Vindicator_Cruiser", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Torpedo_Sphere", "Sorannan_Star_Destroyer", "Executor_Star_Dreadnought",

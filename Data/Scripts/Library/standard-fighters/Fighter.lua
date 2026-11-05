@@ -141,7 +141,8 @@ return {
 			TATOOINE = {"NIMBUS_V_WING_ESK_SQUADRON", false},
 			TRAX = {"", false},	
 			DROMMEL = {"HOWLRUNNER_SQUADRON", false},				
-			BATCH = {"MISSILE_TIE_FIGHTER_SQUADRON", false},													
+			BATCH = {"MISSILE_TIE_FIGHTER_SQUADRON", false,
+					{"BatchFighters", "TIE_X1_SQUADRON", false}}, --research 1																	
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
