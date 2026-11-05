@@ -61,7 +61,7 @@ TEXT_CONQUEST_PROTEUS_DASTA_RAGEZ_RETIRE, Baron D'Asta: Old friend, the time has
 TEXT_CONQUEST_PROTEUS_DROMMEL,TODO
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_MINOS,TODO
-TEXT_CONQUEST_PROTEUS_NIVERS,TODO
+TEXT_CONQUEST_PROTEUS_NIVERS,Grand Moff Nivers: Our late Emperor has made me Grand Moff, and it seems I must remind my fellow Imperials what that title means. We will consolidate our forces, bring nearby worlds under our control, and crush all who stand in our way. All will bow to the true Empire - or suffer greatly!
 TEXT_CONQUEST_PROTEUS_PRAJI,Nahdonnis Praji: It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_REBORN,Admiral Fyyar: Our final preparations are complete, Commander! My flagship is ready and loaded with the new Reborn Shadowtroopers! All my work, my ingenious designs, will finally bring about the end of the rebels and the Jedi! Lord Hethrir is correct, the Empire will be reborn - but not as he imagines it...
 TEXT_CONQUEST_PROTEUS_RENDILI,Comeg: I'm glad you could make it, Commander. Things are dire, and it is abundantly clear that we cannot hope on any external support. I have taken steps to consolidate our position, but the local political and corporate elites are not enthusiastic about our presence. Still, they obey for now, and the resources at our fingertips are quite immense. I believe that with deliberate application of force, we can carve out a little pocket of order amidst the chaos reigning around us. Our first step should be formalizing our cooperation with Rendili StarDrive.
@@ -1759,9 +1759,9 @@ TEXT_TOOLTIP_UTAT_MOVE,Speed: 0.5 | Turn: 2.0
 TEXT_TOOLTIP_UTAT_WEAP1,1x Medium Mass Driver Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP2,2x Super Heavy AV Blaster Cannons: 1 / 2.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP3,4x AI Blaster Cannons: 5 / 2.5s / 320m
-TEXT_TOOLTIP_V_WING_ELITE_GUARD,A rare upgraded version of the Nimbus V-Wing featuring a hyperdrive, improved shielding, and concussion missiles used for escorting high value personnel.
+TEXT_TOOLTIP_V_WING_ELITE_GUARD,A particularly rare variant of the V-Wing Interceptor, boasting upgraded shields and carrying missiles, with high-grade components and aggressively tuned systems to keep them as nimble as the stock model. These expensive fighters were mainly assigned to escort details of important Senators or even the Chancellor. After the V-Wing was retired from frontline service in favor of the TIE series, these rare craft were coveted by collectors and sometimes used by moffs, advisors and warlords as escort fighters as a status symbol.
 TEXT_TOOLTIP_V_WING_ESK,V-Wing variant equipped with ion cannons to operate as a fast pursuit craft. Would often see use by groups in need of a fast interceptor with the ability to stun small ships attempting to escape.
-TEXT_TOOLTIP_V_WING_MISSILE,An extremely fast interceptor with a respectable armament. Developed by Walex Blissex during the Clone Wars to be launched in swarms by mainline Republic carriers, it would later be phased out after a few years of Imperial service in favour of the more cost-effective TIE series. It is best used to engage enemy fighters or respond to incoming bombers. This version is equipped with a limited supply of concussion missiles.
+TEXT_TOOLTIP_V_WING_MISSILE,A modified version of the V-Wing championed by starfighter tacticians such as Adar Tallon featuring external missile hardpoints that provide a stronger alpha-strike capability without compromising the interceptor's performance. Saw limited use in the Clone Wars and beyond as the V-Wing was phased out of mainline service, but fighters in this configuration are still dangerous enemies to more modern fighters.
 TEXT_TOOLTIP_VASKOR,Captain Vaskor was an Imperial naval officer who commanded a modified Victory II-class Star Destroyer equipped with an improved hyperdrive during the fragmentation of the Empire after Endor. A trusted officer within High Admiral Tharkus's forces, Vaskor and his vessel served throughout the campaign to secure the Heart of the Jedi and restore Imperial dominance over the galaxy.
 TEXT_TOOLTIP_VASKOR_SQUADRON,Fighters: 2 / 2 
 TEXT_TOOLTIP_VCX820,The VCX-820 was a heavy yet fast flying-guns platform that was designed to military specifications. As such it could easily guard convoys of otherwise defenseless bulk freighters and commerce craft. Well suited to engaging any enemy target.
@@ -2139,3 +2139,13 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS1,Super Star Destroyers are the pinnacle of Imperial military might, any design for such a ship that can be destroyed in combat is unworthy of further production and will be replaced by another.
+TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS2,Possible Replacements:
+TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS3,Mandator-II Star Dreadnought: Bellator Star Dreadnought or Mandator-III Star Dreadnought
+TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS4,Bellator Star Dreadnought: Legator Star Dreadnought or Vengeance Star Dreadnought
+TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS5,Mandator-III Star Dreadnought: Executor Star Dreadnought or Assertor Star Dreadnought
+TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS6,If a third design is destroyed, the use of Super Star Destroyers will be ceased entirely.
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_NAVY_TROOPER_NAVY_COMMANDO1,Navy Trooper Squad: 2 / 10
+TEXT_TOOLTIP_FIELD_BASE_MILITARY_PROTEUS_NAVY_TROOPER_NAVY_COMMANDO2,Navy Commando Squad: 2 / 10
+TEXT_UNIT_RANDOM_INFANTRY_KAARENTH,Random Infantry Recruitment
+TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH,Reach out to our allies and ask for recruits to aid the Kaarenth Dissension's cause. Recruits a random platoon of infantry.
