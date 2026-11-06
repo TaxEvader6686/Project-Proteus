@@ -655,6 +655,8 @@
 										,Parameter_Type = "Field_Base_Pad_Anaxes"
 										,Parameter_Type = "Field_Base_Pad_Allied_Tion"
 										,Parameter_Type = "Field_Base_Pad_Balmorra"
+										,Parameter_Type = "Field_Base_Pad_Batch"
+										,Parameter_Type = "Field_Base_Pad_Batch_Research"
 										,Parameter_Type = "Field_Base_Pad_Brandei"
 										,Parameter_Type = "Field_Base_Pad_Bormea"
 										,Parameter_Type = "Field_Base_Pad_Carida"

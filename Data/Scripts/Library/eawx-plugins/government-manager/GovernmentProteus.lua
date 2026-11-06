@@ -179,6 +179,37 @@ function GovernmentProteus:Market_Update(tag)
     end
 end
 
+function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
+	--Logger:trace("entering GovernmentProteus:UpdateProteusMiscellaneousDisplay")
+	local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+	local ProteusDisplayLibrary = require("ProteusDisplayLibrary")
+
+	if not ProteusDisplayLibrary[current_proteus] then--Temporary, will be made universal for garrisons when those are added
+		return
+	end
+
+	local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
+	local government_display_event = plot.Get_Event("Government_Display")
+
+	government_display_event.Set_Reward_Parameter(1, "IMPERIAL_PROTEUS")
+	if ProteusDisplayLibrary[current_proteus].No_Legitimacy then
+		government_display_event.Clear_Dialog_Text()--Clears the normal empire gov display
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Unique Mechanics and Garrisons:")
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+
+	if ProteusDisplayLibrary[current_proteus].GovText then
+		local GovText = ProteusDisplayLibrary[current_proteus].GovText
+		for _, text in pairs(GovText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	end
+
+	government_display_event.Add_Dialog_Text("TEXT_NONE")--Spacer
+end
+
 function GovernmentProteus:UpdateProteusShipmarketDisplay()
     --Logger:trace("entering GovernmentProteus:UpdateProteusShipmarketDisplay")
     local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
