@@ -3250,5 +3250,51 @@
 	
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 	</SpecialStructure>
+
+	<SpecialStructure Name="Lant_Mining_HQ">
+		<Variant_Of_Existing_Type>Template_Bank_Reserve</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_COMPANY_LANT_MINING_HQ</Text_ID>
+
+		<Land_Model_Name>W_Urban_CorBuild_A.alo</Land_Model_Name>
+		<Scale_Factor>1.75</Scale_Factor>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
+
+		<Required_Planets>Bacrana</Required_Planets>
+
+		<Icon_Name>I_BUTTON_BANKOFTHECORE.TGA</Icon_Name>
+
+		<Encyclopedia_Text>
+		TEXT_COMPANY_LANT_MINING_HQ_DESCRIPTION
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_RESOURCE_GARRISON
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INCOME_LANTHQ
+		TEXT_TOOLTIP_BONUS_INFLUENCE_PLUS_1
+		TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1
+		TEXT_TOOLTIP_BONUS_UNLOCK_PIRA_LEEMAD
+		TEXT_TOOLTIP_SEPARATOR_LOCATION_BLOCK
+		TEXT_OBJECT_STAR_SYSTEM_BACRANA
+		</Encyclopedia_Text>
+
+	
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Bank_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_LANT_INCOME</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>300</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
 	
 </SpecialStructures>

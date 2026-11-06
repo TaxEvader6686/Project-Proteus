@@ -6819,7 +6819,7 @@
 		<Text_ID>TEXT_HERO_COLLIN_PRAJI</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_COLLIN_PRAJI
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -6854,21 +6854,21 @@
 		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
-			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
+			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.18</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.18</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
@@ -6895,7 +6895,7 @@
 		<Text_ID>TEXT_HERO_COLLIN_PRAJI</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_COLLIN_PRAJI
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -11210,4 +11210,66 @@
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
+
+<HeroUnit Name="Pira_Leemad">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_PIRA_LEEMAD</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MEGACORP_HEAD_ADMIN
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PIRA_LEEMAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMINISTRATOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PIRA_LEEMAD.tga</Icon_Name>
+		
+		<Ranking_In_Category>7</Ranking_In_Category>
+		
+		<Affiliation>Independent_Forces</Affiliation>
+	
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Megacorp -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Megacorp_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MEGACORP_HEAD</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> 
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Pira_Leemad_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_PIRA_LEEMAD</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MEGACORP_HEAD_ADMIN
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PIRA_LEEMAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMINISTRATOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PIRA_LEEMAD.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
+		<Company_Units>Pira_Leemad</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany> 
+	
 </Project_Proteus_Heroes>

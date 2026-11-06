@@ -216,6 +216,61 @@
 		
 	</SpecialStructure>
 
+	<SpecialStructure Name="Lant_Mining_Facility_Minerals_Ground">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Ground</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+		<Text_ID>TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS</Text_ID>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINING_MINERALS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_RESOURCE_GARRISON
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INCOME_MINES
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_MINES
+		</Encyclopedia_Text>
+
+
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
+	</SpecialStructure>
+
+
+	<SpecialStructure Name="Lant_Mining_Facility_Minerals_Space">
+		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Space</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+
+<Text_ID>TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_SECONDARY_ECONOMIC</Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MINING_MINERALS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SPACE_MINING_OPERATION_HULL
+		TEXT_TOOLTIP_SPACE_MINING_OPERATION_SHIELD
+		TEXT_TOOLTIP_SPACE_MINING_OPERATION_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_RESOURCE_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INCOME_MINES
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_MINES
+		</Encyclopedia_Text>
+		
+
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</SpecialStructure>
+
 <!-- needs to be completed -->
 
 	<SpecialStructure Name="Golan_Colony_One">

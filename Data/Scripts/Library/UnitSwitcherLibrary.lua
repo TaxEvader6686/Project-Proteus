@@ -130,4 +130,5 @@ return {
 	["PROCURATOR_UPGRADE_DUMMY"] = {"Procurator_Battlecruiser","Modernized_Procurator",["location_check"] = true},
 	-- Proteus Hero Recruitment
 	["DUMMY_RECRUIT_URLAN_RENDILI"] = {nil,{"Bengila_Urlan_Team"}, Unlocks = {"Dummy_RepublicSD_Rendili"}},
+	["DUMMY_RECRUIT_PIRA_LEEMAD"] = {nil,{"Pira_Leemad_Team"}},
 }

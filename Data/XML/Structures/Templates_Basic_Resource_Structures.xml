@@ -353,7 +353,7 @@
 
 		<Required_Planets> 
 			<!-- FUNCTIONAL LIST -->
-			Alaris ,Alzoc, Ambria, Ando_Prime, Argovia, Arkania, Bandomeer, Begeren, Celwis, Christophsis, Elom, Empress_Teta, Galantos, Garos, Iol, Isiring, Jabiim, Jebble, Kip, Kirima, Makeb, Makem_Te, Moorja, Mrlsst, Mustafar, Muunilinst, Mygeeto, Naboo, Nam_Chorios, Nkllon, Obredaan, Ojom, Ord_Pardron, Polus, Prakith, Quethold, Ralltiir, Rett, Rhommamool, Sernpidal, Sunrise, Troukree, Umbara, Vanquo, Veroleem, Woteba, Wurrif
+			Alaris ,Alzoc, Ambria, Ando_Prime, Argovia, Arkania, Bandomeer, Begeren, Celwis, Christophsis, Elom, Empress_Teta, Galantos, Gargon, Garos, Iol, Isiring, Jabiim, Jebble, Kip, Kirima, Makeb, Makem_Te, Moorja, Mrlsst, Mustafar, Muunilinst, Mygeeto, Naboo, Nam_Chorios, Nkllon, Obredaan, Ojom, Ord_Pardron, Polus, Prakith, Quethold, Ralltiir, Rett, Rhommamool, Sernpidal, Sunrise, Troukree, Umbara, Vanquo, Veroleem, Woteba, Wurrif
 		</Required_Planets>
 
 		<Land_Model_Name> NB_CMC22Mining.ALO </Land_Model_Name>

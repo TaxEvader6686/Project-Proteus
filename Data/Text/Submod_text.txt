@@ -2139,6 +2139,15 @@ TEXT_WEAPON_A_MISSILETROUT,Missile Trout Launcher
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
+TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS, Lant Mining Facility
+TEXT_ECONOMY_LANT_INCOME,Corporate Kickbacks
+TEXT_TOOLTIP_INCOME_LANTHQ,300 Credits per Cycle
+TEXT_COMPANY_LANT_MINING_HQ_DESCRIPTION,The offices of Lant Mining Corporation, headquartered on Demar in the Brak Sector. Despite having its own private security force, the company worked closely with the Empire to secure their transports and mining sites as they mined minerals and ores for various corporations. As a key economic player and Imperial ally in the Brak Sector, they came under sustained attack by Rebel forces and irregulars during the Galactic Civil War. 
+TEXT_TOOLTIP_BONUS_UNLOCK_PIRA_LEEMAD, Enables the recruitment of Pira Leemad as an additional economic hero. 
+TEXT_HERO_PIRA_LEEMAD,Pira Leemad
+TEXT_TOOLTIP_PIRA_LEEMAD,The chief administrator of the Lant Mining Corporation's operations in the Brak Sector. Despite having their own corporate security force, Lant Mining operations came under increasing pressure from rebel and pirate activity, spurring on closer cooperation with the Imperial authorities in the Brak Sector. 
+TEXT_RECRUIT_PIRA_LEEMAD_NAME, Recruit Pira Leemad
+TEXT_RECRUIT_PIRA_LEEMAD_DESCRIPTION, Recruit Lant Mining Corporation Chief Administrator Pira Leemad to serve the Imperial Administration of Brak Sector.
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate and Corona Tender, retires Nebulon-B and Star Galleon.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.
