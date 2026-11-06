@@ -116,7 +116,7 @@ return {
 			HeroList = {"Ramier_Team","Trier_Secutor","Lacmar_Team","Maston_Team","Tilas_Magore_Team"},
 			UnlockList = {
 				-- Space
-				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon", 
+				"VT49_Decimator_Group", "IPV1", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon", 
 				"Rep_DHC", "Gladiator_I", "Acclamator_I_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Destroyer", 
 				"Altor_Carrier", "Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
@@ -127,7 +127,10 @@ return {
 				"B5_Juggernaut_Company", "Tracked_Mobile_Base_Company", 
 				-- Research
 				"Dummy_Research_Brak_Fighters", "Dummy_Research_Brak_Fleet",
+				-- Specials
+				"Dummy_Recruit_Pira_Leemad", "Lant_Mining_Facility_Minerals_Space", "Lant_Mining_Facility_Minerals_Ground",
 			},
+			LockList = {"Mining_Facility_Minerals_Ground", "Mining_Facility_Minerals_Space",},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_BRAK",
 			IntroHolo = "ISB_Officer_Loop"
