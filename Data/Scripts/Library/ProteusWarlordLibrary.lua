@@ -1167,7 +1167,7 @@ return {
 			UnlockList = {
 				-- Space 
 				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate_Prototype", "Active_Frigate", "Quasar", "Vigil",
-				"Pursuit_Light_Cruiser", "Rep_DHC", "Neutron_Star_Tender", "Vindicator_Carrier", "Acclamator_I_Carrier", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer",
+				"Pursuit_Light_Cruiser", "Immobilizer_418", "Neutron_Star_Tender", "Vindicator_Carrier", "Acclamator_I_Carrier", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Battleship", "Imperial_II_Star_Destroyer_Ion",
 				"Altor_Carrier", "Executor_Star_Dreadnought",
 				-- Ground
@@ -1203,7 +1203,7 @@ return {
 				"Imperial_TX130T_Company", "AT_AA_Walker_Company", "SPMAG_Walker_Company", "Imperial_LAAT_Company", "MZ8_Tank_Company", "Deathhawk_Company",
 				"Canderous_Assault_Tank_Lasers_Company", "Imperial_AT_AT_Walker_Turbolaser_Refit_Company", "Imperial_A5_Juggernaut_Company",
 				-- Research
-				"Gorath_Research_Proteus",
+				"Gorath_Research_Proteus", "Dummy_Research_Brandei_Stealth_ISD",
 			},
 			FactionOverride = "Rebel",
 			StartYear = 10,
