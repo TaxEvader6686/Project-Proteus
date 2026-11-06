@@ -643,6 +643,7 @@ return {
     ,COYOTETGT_TEAM = {nil, false}
     ,["17786_TEAM"] = {nil, false}
     ,BENGILA_URLAN_TEAM = {"Is_Production_Planet", false}
+	,PIRA_LEEMAD_TEAM = {"Is_Production_Planet", false}
     ,IL_RAZ_EMPERORSDISCIPLE = {nil, true}
     ,ISARD_CLONE_LUSANKYA = {"Planet_Has_Capital_Building", true}
     ,CRUEYA_VANDRON_TEAM = {"Is_Production_Planet", false}
