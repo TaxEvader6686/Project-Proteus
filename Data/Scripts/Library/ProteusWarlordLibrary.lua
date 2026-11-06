@@ -1167,7 +1167,7 @@ return {
 			UnlockList = {
 				-- Space 
 				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate_Prototype", "Active_Frigate", "Quasar", "Vigil",
-				"Pursuit_Light_Cruiser", "Rep_DHC", "Neutron_Star_Tender", "Vindicator_Carrier", "Acclamator_I_Carrier", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer",
+				"Pursuit_Light_Cruiser", "Immobilizer_418", "Neutron_Star_Tender", "Vindicator_Carrier", "Acclamator_I_Carrier", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Battleship", "Imperial_II_Star_Destroyer_Ion",
 				"Altor_Carrier", "Executor_Star_Dreadnought",
 				-- Ground
