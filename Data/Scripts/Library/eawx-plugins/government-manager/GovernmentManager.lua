@@ -114,7 +114,7 @@ function GovernmentManager:UpdateDisplayContainer()
 	elseif self.human == Find_Player("IMPERIAL_PROTEUS") then
 			self.EMPIREGOV:UpdateDisplay()
 			self.PROTEUSGOV:UpdateProteusMiscellaneousDisplay()
-		   if GlobalValue.Get("PROTEUS_GROUP_NAME") == "KUAT" then
+		    if self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][GlobalValue.Get("PROTEUS_GROUP_NAME")] then
 				self.PROTEUSGOV:UpdateProteusShipmarketDisplay()
 			end
 	elseif self.human == Find_Player("REBEL") then

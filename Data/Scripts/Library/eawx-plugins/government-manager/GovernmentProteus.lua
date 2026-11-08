@@ -109,9 +109,9 @@ function GovernmentProteus:on_production_finished(planet, object_type_name)
 end
 
 ---Project Proteus specific hero respawn, just like WarlordRespawn
----@param hero_name string
----@param owner string
----@param killer string
+---@param hero_name string Assumes all CAPS
+---@param owner string Assumes all CAPS
+---@param killer string Assumes all CAPS
 function GovernmentProteus:on_galactic_hero_killed(hero_name, owner, killer)
     --Logger:trace("entering GovernmentProteus:on_galactic_hero_killed")
     local hero = self.heroes_to_respawn[hero_name]
@@ -122,6 +122,34 @@ function GovernmentProteus:on_galactic_hero_killed(hero_name, owner, killer)
             StoryUtil.Multimedia(hero.multimedia_text, 10, nil, hero.multimedia_loop, 0)
         end
     end
+end
+
+---@param short_name string Assumes all CAPS
+---@param owner_name string Assumes all CAPS
+---@param killer_name string Assumes all CAPS
+function GovernmentProteus:on_galactic_ssd_killed(short_name, owner_name, killer_name)
+    --Logger:trace("entering GovernmentEmpire:on_galactic_ssd_killed")
+
+	if owner_name ~= "IMPERIAL_PROTEUS" and GlobalValue.Get("PROTEUS_GROUP_NAME") ~= "NIVERS" then
+		return
+	elseif short_name == "Mandator II" then
+		GenericPopup("NIVERS_MANDATOR2_CHOICE", {"BELLATOR", "MANDATOR_III"}, "NIVERS_SSD_CHOICE_OPTION")
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Mandator_II_Dreadnought"))
+	elseif short_name == "Bellator" then
+		GenericPopup("NIVERS_BELLATOR_CHOICE", {"LEGATOR", "VENGEANCE"}, "NIVERS_SSD_CHOICE_OPTION")
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Bellator_Star_Dreadnought"))
+	elseif short_name == "Mandator III" then
+		GenericPopup("NIVERS_MANDATOR3_CHOICE", {"EXECUTOR", "ASSERTOR"}, "NIVERS_SSD_CHOICE_OPTION")
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Mandator_III_Dreadnought"))
+	elseif short_name == "Legator" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Legator_Star_Dreadnought"))
+	elseif short_name == "Vengeance" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Vengeance_Star_Dreadnought"))
+	elseif short_name == "Executor" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))
+	elseif short_name == "Assertor" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))
+	end
 end
 
 ---@param choice string Assumes all CAPS
@@ -159,6 +187,39 @@ function GovernmentProteus:gamble_manager(unit_type)
         Spawn_Unit(unit_to_spawn, planet_object, self.PlayerImperial_Proteus)
     end
     dummy_object.Despawn()
+end
+
+---@param choice string Assumes all CAPS
+function GovernmentProteus:ISector_Swap_Choice(choice)--Note for Supernova
+	--Logger:trace("entering GovernmentProteus:ISector_Swap_Choice")
+	if choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_ASSAULT" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))--lock base roster unit
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_I_Assault"))--unlock chosen replacement
+	elseif choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_II" then
+		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_II"))
+	end
+end
+
+---@param choice string Assumes all CAPS
+function GovernmentProteus:Nivers_SSD_Choice(choice)
+	--Logger:trace("entering GovernmentProteus:Nivers_SSD_Choice")
+	--From Mandator-II
+	if choice == "NIVERS_MANDATOR2_CHOICE_BELLATOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Bellator_Star_Dreadnought"))		
+	elseif choice == "NIVERS_MANDATOR2_CHOICE_MANDATOR_III" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Mandator_III_Dreadnought"))
+	--From Bellator		
+	elseif choice == "NIVERS_BELLATOR_CHOICE_LEGATOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Legator_Star_Dreadnought"))		
+	elseif choice == "NIVERS_BELLATOR_CHOICE_VENGEANCE" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Vengeance_Star_Dreadnought"))	
+	--From Mandator-III
+	elseif choice == "NIVERS_MANDATOR3_CHOICE_EXECUTOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))	
+	elseif choice == "NIVERS_MANDATOR3_CHOICE_ASSERTOR" then
+		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))	
+	end
 end
 
 ---@param tag string
@@ -265,65 +326,4 @@ function GovernmentProteus:UpdateProteusShipmarketDisplay()
             government_display_event.Add_Dialog_Text(ship_data.readable_name ..": ".. ship_data.text_requirement)
         end
     end
-end
-
----@param short_name string
----@param owner_name string
----@param killer_name string
-function GovernmentProteus:on_galactic_ssd_killed(short_name, owner_name, killer_name)
-    --Logger:trace("entering GovernmentEmpire:on_galactic_ssd_killed")
-
-	if owner_name ~= "IMPERIAL_PROTEUS" and GlobalValue.Get("PROTEUS_GROUP_NAME") ~= "NIVERS" then
-		return
-	elseif short_name == "Mandator II" then
-		GenericPopup("NIVERS_MANDATOR2_CHOICE", {"BELLATOR", "MANDATOR_III"}, "NIVERS_SSD_CHOICE_OPTION")
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Mandator_II_Dreadnought"))
-	elseif short_name == "Bellator" then
-		GenericPopup("NIVERS_BELLATOR_CHOICE", {"LEGATOR", "VENGEANCE"}, "NIVERS_SSD_CHOICE_OPTION")
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Bellator_Star_Dreadnought"))
-	elseif short_name == "Mandator III" then
-		GenericPopup("NIVERS_MANDATOR3_CHOICE", {"EXECUTOR", "ASSERTOR"}, "NIVERS_SSD_CHOICE_OPTION")
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Mandator_III_Dreadnought"))
-	elseif short_name == "Legator" then
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Legator_Star_Dreadnought"))
-	elseif short_name == "Vengeance" then
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Vengeance_Star_Dreadnought"))
-	elseif short_name == "Executor" then
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))
-	elseif short_name == "Assertor" then
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))
-	end
-end
-
----@param choice string Assumes all CAPS
-function GovernmentProteus:Nivers_SSD_Choice(choice)
-	--Logger:trace("entering GovernmentProteus:Nivers_SSD_Choice")
-	--From Mandator-II
-	if choice == "NIVERS_MANDATOR2_CHOICE_BELLATOR" then
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Bellator_Star_Dreadnought"))		
-	elseif choice == "NIVERS_MANDATOR2_CHOICE_MANDATOR_III" then
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Mandator_III_Dreadnought"))
-	--From Bellator		
-	elseif choice == "NIVERS_BELLATOR_CHOICE_LEGATOR" then
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Legator_Star_Dreadnought"))		
-	elseif choice == "NIVERS_BELLATOR_CHOICE_VENGEANCE" then
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Vengeance_Star_Dreadnought"))	
-	--From Mandator-III
-	elseif choice == "NIVERS_MANDATOR3_CHOICE_EXECUTOR" then
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Executor_Star_Dreadnought"))	
-	elseif choice == "NIVERS_MANDATOR3_CHOICE_ASSERTOR" then
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Assertor_Star_Dreadnought"))	
-	end
-end
-
----@param choice string Assumes all CAPS
-function GovernmentProteus:ISector_Swap_Choice(choice)--Note for Supernova
-	--Logger:trace("entering GovernmentProteus:ISector_Swap_Choice")
-	if choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_ASSAULT" then
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))--lock base roster unit
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_I_Assault"))--unlock chosen replacement
-	elseif choice == "ISECTOR_SWAP_1_CHOICE_ACCLAMATOR_II" then
-		self.PlayerImperial_Proteus.Lock_Tech(Find_Object_Type("Acclamator_Patrol_Refit"))
-		self.PlayerImperial_Proteus.Unlock_Tech(Find_Object_Type("Acclamator_II"))
-	end
 end

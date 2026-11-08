@@ -30,7 +30,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_aban.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ABAN.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -241,7 +241,6 @@
 		TEXT_TOOLTIP_INTERCEPTOR1_FRIGATE_TENDER
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
-
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIME_LORD </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_MAHK'KHAR.TGA</Icon_Name>
@@ -590,7 +589,7 @@
 		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Icon_Name>I_BUTTON_HARRSK_SSD.tga</Icon_Name>
 
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 6,730</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -659,7 +658,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_desanne_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DESANNE_SSD.tga</Icon_Name>
 		
 		<CategoryMask> SuperCapital | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -702,9 +701,9 @@
 
 		<Text_ID>TEXT_TOOLTIP_COMMAND_DOMINION</Text_ID>
 		<Affiliation>Empire, Imperial_Proteus</Affiliation>
-		<Icon_Name>i_button_desanne_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DESANNE_SSD.tga</Icon_Name>
 
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,100</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,490</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -769,7 +768,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_fyyar.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_FYYAR.tga</Icon_Name>
 
 		<Space_Model_Name>Doomgiver.alo</Space_Model_Name>
 		<No_Colorization_Color/>
@@ -989,7 +988,7 @@
 		</Abilities>
 	</SpaceUnit>
 
-		<UniqueUnit Name="Fyyar_Doomgiver_Emperor">
+	<UniqueUnit Name="Fyyar_Doomgiver_Emperor">
 		<Variant_Of_Existing_Type>Fyyar_Doomgiver</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_FYYAR</Text_ID>
@@ -1014,7 +1013,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_EMPEROR </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_fyyar.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_FYYAR.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -1089,7 +1088,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kale.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KALE.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -1170,7 +1169,7 @@
 		<Text_ID>TEXT_TOOLTIP_COMMAND_STELLARHALO_MODERNIZED</Text_ID>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Icon_Name>i_button_kale.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KALE.tga</Icon_Name>
 
 		<Encyclopedia_Unit_Class></Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
@@ -1226,7 +1225,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kale.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KALE.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -1307,9 +1306,9 @@
 		<Text_ID>TEXT_TOOLTIP_COMMAND_AURORA</Text_ID>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Icon_Name>i_button_rogriss.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ROGRISS.tga</Icon_Name>
 
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 2,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 2,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -1351,7 +1350,7 @@
 
 		<Text_ID>TEXT_TOOLTIP_COMMAND_DOMINION</Text_ID>
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Icon_Name>i_button_rogriss_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ROGRISS_SSD.tga</Icon_Name>
 
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,100</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
@@ -1452,7 +1451,7 @@
 	<DummyStructure Name="Gronn_Aculeus_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_ACULEUS</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -1472,7 +1471,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_gronn_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_GRONN_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -1587,7 +1586,7 @@
 	<DummyStructure Name="Comeg_Bellator_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_COMEG</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,100</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 4,120</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -1653,7 +1652,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_grunger.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_GRUNGER.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -1706,7 +1705,7 @@
 	<DummyStructure Name="Grunger_Aggressor_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_AGGRESSOR</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -1770,7 +1769,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_roek.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ROEK.tga</Icon_Name>
 		
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
@@ -1832,7 +1831,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_jaeffis.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_JAEFFIS.tga</Icon_Name>
 		
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
@@ -1892,7 +1891,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kiez.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KIEZ.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -1956,7 +1955,7 @@
 	<DummyStructure Name="Kiez_Whelm_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_WHELM</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -1975,7 +1974,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_kiez_ssd.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KIEZ_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -2021,7 +2020,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_tharkus.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_THARKUS.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2072,7 +2071,7 @@
 	<DummyStructure Name="Tharkus_Ambition_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_AMBITION</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -2093,7 +2092,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_tharkus_ssd.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_THARKUS_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -2139,7 +2138,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_tharkus_ssd.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_THARKUS_SSD.tga</Icon_Name>
 		
 		<CategoryMask> SuperCapital | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2216,7 +2215,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_dakova.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DAKOVA.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2300,7 +2299,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_vaskor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VASKOR.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2378,7 +2377,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ghek.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_GHEK.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2455,7 +2454,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_strang.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_STRANG.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2509,7 +2508,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_strang.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_STRANG.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -2646,7 +2645,7 @@
 		
 		<Population_Value>217</Population_Value>
 
-		<Required_Orbiting_Units>Shuttle_Tyderium_Admin</Required_Orbiting_Units>
+		<Required_Orbiting_Units>Shuttle_Tyderium_Isard</Required_Orbiting_Units>
 	</DummyStructure>
 
 	<UniqueUnit Name="Isard_Clone_Lusankya">
@@ -2731,8 +2730,6 @@
 		</Abilities>
 	</UniqueUnit>
 
-	<!-- COMPNOR -->
-
 	<UniqueUnit Name="Il_Raz_EmperorsDisciple">
 		<Variant_Of_Existing_Type>Imperial_I_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -2760,7 +2757,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_il_raz.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IL_RAZ.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2846,7 +2843,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_drommel.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DROMMEL.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -2882,7 +2879,7 @@
 	<DummyStructure Name="Drommel_Guardian_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_GUARDIAN</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -2902,7 +2899,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_drommel_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DROMMEL_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -2919,7 +2916,6 @@
 
 		<Required_Orbiting_Units>Drommel_Wolfs_Claw</Required_Orbiting_Units>
 	</DummyStructure>
-
 
 	<UniqueUnit Name="Batch_Meniscus">
 		<Variant_Of_Existing_Type>Imperial_I_Star_Destroyer</Variant_Of_Existing_Type>
@@ -2949,7 +2945,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN 
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_batch.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BATCH.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -3040,7 +3036,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORMTROOPER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_17786.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_17786.tga</Icon_Name>
 		
 		<!-- Fredja Model as Placeholder -->
 		<Land_Model_Name>EI_Fredja.ALO</Land_Model_Name>
@@ -3209,7 +3205,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORMTROOPER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_17786.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_17786.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_17786</Company_Transport_Unit>
 		<Company_Units>17786</Company_Units>
@@ -3248,7 +3244,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORMTROOPER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_17786.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_17786.tga</Icon_Name>
 		<Landing_Transport_Variant>Shuttle_Tyderium_Landing</Landing_Transport_Variant>
 
 		<SpaceBehavior>LURE, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING</SpaceBehavior>
@@ -3335,7 +3331,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAJORDOMO </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_demos.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DEMOS.tga</Icon_Name>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Affiliation>Independent_Forces</Affiliation>
 		<Land_Model_Name>EI_Kadann_Real.alo</Land_Model_Name>
@@ -3472,6 +3468,7 @@
 	</HeroUnit>
 
 	<HeroCompany Name="Argor_Team">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_DEMOS</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
@@ -3491,33 +3488,15 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAJORDOMO </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_demos.tga</Icon_Name>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>50</Damage>
+		<Icon_Name>I_BUTTON_DEMOS.tga</Icon_Name>
+		
 		<Affiliation>Imperial_Proteus</Affiliation>
 		
-		<Ranking_In_Category> 1 </Ranking_In_Category>
-	
-		<Tech_Level>99</Tech_Level>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Argor</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
-
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
-		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
 		
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<Population_Value>1</Population_Value>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1315</Tactical_Build_Cost_Multiplayer>
@@ -3550,7 +3529,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_Merili.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MERILI.tga</Icon_Name>
 
 		<Land_Model_Name> ZJ_Lanu.alo </Land_Model_Name>
 		
@@ -3765,7 +3744,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_Merili.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MERILI.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Merili</Company_Units>
@@ -3807,7 +3786,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_Jace_Yiaso.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_JACE_YIASO.tga</Icon_Name>
 
 		<Land_Model_Name>Jace_Yiaso_TPM.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>Jedi.alo</Land_Model_Anim_Override_Name>
@@ -4131,7 +4110,7 @@
 	</HeroUnit>
 
 	<HeroCompany Name="Jace_Yiaso_Team">
-		<LOD_Bias>5</LOD_Bias>
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_JACE_YIASO</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -4152,18 +4131,11 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_Jace_Yiaso.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_JACE_YIASO.tga</Icon_Name>
 		
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Jace_Yiaso</Company_Units>
 		
-		<Population_Value>1</Population_Value>
-		<Tech_Level>99</Tech_Level>
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Damage>50</Damage>
 		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<SFXEvent_Build_Started/>
@@ -4308,7 +4280,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_GURNST.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_GURNST.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>GURNST</Company_Units>
@@ -4350,7 +4322,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_carnor_jax_proteus.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CARNOR_JAX_PROTEUS.tga</Icon_Name>
 		
 		<Land_Model_Name>ImperialRoyalGuard_Melee.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name> ImperialRoyalGuard_Melee.alo </Land_Model_Anim_Override_Name>
@@ -4564,7 +4536,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_carnor_jax_proteus.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CARNOR_JAX_PROTEUS.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Carnor_Jax_Proteus</Company_Units>
@@ -4600,7 +4572,7 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE </Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>Royal_Guard_Interceptor</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_carnor_jax_proteus.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CARNOR_JAX_PROTEUS.tga</Icon_Name>
 
 		<Tactical_Health>220</Tactical_Health>
 		<Shield_Points>120</Shield_Points>
@@ -4974,7 +4946,7 @@
 		TEXT_STATBLOCK_TIE_X1_WEAP2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HIGH_EMPEROR </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_x1.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_X1.tga</Icon_Name>
 		
 		<Tactical_Health>220</Tactical_Health>
 		<Shield_Points>120</Shield_Points>
@@ -5431,6 +5403,7 @@
 	</HeroUnit>
 
 	<HeroCompany Name="Hal_Razor_Team">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_HAL_RAZOR</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
@@ -5450,57 +5423,21 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIMINAL </Encyclopedia_Unit_Class>	
 		<Icon_Name>I_BUTTON_HAL_RAZOR.TGA</Icon_Name>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>80</Damage>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<GUI_Row> 1 </GUI_Row>
 		
-		<Build_Cost_Credits>3500</Build_Cost_Credits>
-		<Required_Planets></Required_Planets>
-		<Tech_Level>99</Tech_Level>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Hal_Razor</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Stealth_Company>Yes</Is_Stealth_Company>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
-
+		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Respawn_Boba_Fett</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Boba_Fett</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Boba_Fett</SFXEvent_Fleet_Move>
-
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-
-		<CategoryMask> InfantryHero | AntiInfantry </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Population_Value>1</Population_Value>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>PROXIMITY_MINES</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>STUN</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 	</HeroCompany>
 
 	<UniqueUnit Name="Razor_Arquitens">
 		<Variant_Of_Existing_Type>Template_Arquitens</Variant_Of_Existing_Type>
-		<Icon_Name>I_BUTTON_HAL_RAZOR.TGA</Icon_Name>
 		<Is_Named_Hero>No</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_HAL_RAZOR</Text_ID>
 		<Encyclopedia_Text>
@@ -5522,6 +5459,7 @@
 		TEXT_TOOLTIP_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIMINAL </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HAL_RAZOR.TGA</Icon_Name>
 
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior> ABILITY_COUNTDOWN, LURE, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
@@ -5867,17 +5805,13 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PROCURATOR_OF_JUSTICE </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_hethrir_admin.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_HETHRIR_ADMIN.tga</Icon_Name>
 		
 		<Land_Model_Name>NI_DARKSIDEADEPTS.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_DARKSIDEADEPTS.ALO</Land_Model_Anim_Override_Name>
 		<Scale_Factor>1.1</Scale_Factor> 
 		
 		<Ranking_In_Category>1</Ranking_In_Category>
-		
-		<!-- Spymaster -->
-		<Galactic_Influence_Range>200.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>200.0</Hyperspace_Fleet_Reveal_Range>
 		
 		<Affiliation>Independent_Forces</Affiliation>
 		
@@ -5959,7 +5893,7 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 
-			<Redirect_Blaster_Ability Name="Hethir_False_Redirect_Blaster">
+			<Redirect_Blaster_Ability Name="Hethir_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.3</Redirect_Chance>
@@ -6060,7 +5994,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PROCURATOR_OF_JUSTICE </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_hethrir_admin.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_HETHRIR_ADMIN.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Hethrir</Company_Transport_Unit>
 		<Company_Units>Hethrir</Company_Units>
@@ -7173,7 +7107,7 @@
 		TEXT_TOOLTIP_CAPABILITY_CRUSH
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kantos.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KANTOS.tga</Icon_Name>
 		
 		<Property_Flags>GoodInfantryCrusher | CanContainGarrison | GTSImmune </Property_Flags>
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
@@ -7229,7 +7163,7 @@
 		TEXT_TOOLTIP_CAPABILITY_CRUSH
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kantos.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KANTOS.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Imperial_ATAT_Barge</Company_Transport_Unit>
 		<Company_Units> Kantos_A5_Juggernaut </Company_Units>
@@ -7261,7 +7195,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_voss.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VOSS.tga</Icon_Name>
 		
 		<!-- Fredja Model as Placeholder -->
 		<Land_Model_Name>EI_Fredja.ALO</Land_Model_Name>
@@ -7389,7 +7323,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SERGEANT_MAJOR </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_voss.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VOSS.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Voss</Company_Units>
@@ -7656,7 +7590,7 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
 
-	<HeroUnit Name="Rebus">
+	<HeroUnit Name="Rebus"> <!--Unused rn-->
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_REBUS</Text_ID>
 		<Encyclopedia_Text>
@@ -7736,7 +7670,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_Button_Lezner.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_LEZNER_ADMIN.tga</Icon_Name>
 		
 		<Ranking_In_Category>7</Ranking_In_Category>
 		
@@ -7779,7 +7713,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_Button_Lezner.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_LEZNER_ADMIN.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
 		<Company_Units>Lezner</Company_Units>
@@ -7799,7 +7733,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_Button_Nobles.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_NOBLES_ADMIN.tga</Icon_Name>
 		
 		<Ranking_In_Category>7</Ranking_In_Category>
 		
@@ -7843,7 +7777,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE </Encyclopedia_Unit_Class>
-		<Icon_Name>I_Button_Nobles.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_NOBLES_ADMIN.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
 		<Company_Units>Nobles</Company_Units>
@@ -7991,7 +7925,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BUREAUCRAT_IMP </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_TANNON_PRAJI.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TANNON_PRAJI_ADMIN.tga</Icon_Name>
 		
 		<Ranking_In_Category>7</Ranking_In_Category>
 		
@@ -8032,7 +7966,7 @@
 		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BUREAUCRAT_IMP </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_TANNON_PRAJI.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TANNON_PRAJI_ADMIN.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
 		<Company_Units>Tannon_Praji</Company_Units>
@@ -8292,6 +8226,190 @@
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
 	</HeroCompany>
 
+	<HeroUnit Name="Pira_Leemad">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_PIRA_LEEMAD</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MEGACORP_HEAD_ADMIN
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PIRA_LEEMAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMINISTRATOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PIRA_LEEMAD_ADMIN.tga</Icon_Name>
+		
+		<Ranking_In_Category>7</Ranking_In_Category>
+		
+		<Affiliation>Independent_Forces</Affiliation>
+	
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Megacorp -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Megacorp_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MEGACORP_HEAD</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> 
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Pira_Leemad_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_PIRA_LEEMAD</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MEGACORP_HEAD_ADMIN
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_PIRA_LEEMAD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMINISTRATOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_PIRA_LEEMAD_ADMIN.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
+		<Company_Units>Pira_Leemad</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany> 
+
+	<HeroUnit Name="Crueya_Vandron">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_CRUEYA_VANDRON</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_02
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_CRUEYA_VANDRON
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_VANDRON_ADMIN.tga</Icon_Name>
+		
+		<Ranking_In_Category>1</Ranking_In_Category>
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_02 -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_02_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Admin_02_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Admin_02_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_ADMIN_02</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Crueya_Vandron_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_CRUEYA_VANDRON</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_02
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_CRUEYA_VANDRON
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_VANDRON_ADMIN.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE </Encyclopedia_Unit_Class>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
+		<Company_Units>Crueya_Vandron</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany>
+
+	<HeroUnit Name="Alexander_Julstaan">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_ALEXANDER_JULSTAAN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ALEXANDER_JULSTAAN
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOFF </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_JULSTAAN_ADMIN.tga</Icon_Name>
+		
+		<Ranking_In_Category>1</Ranking_In_Category>
+		<Affiliation>Independent_Forces</Affiliation>
+
+		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Moff -->
+			<Reduce_Production_Price_Ability Name="Admin_Tier_Moff_Reduce_Production_Price">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<Reduce_Production_Time_Ability Name="Admin_Tier_Moff_Reduce_Production_Time">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>50</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Planet_Income_Bonus_Ability Name="Admin_Tier_Moff_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MOFF</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Alexander_Julstaan_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_ALEXANDER_JULSTAAN</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_ALEXANDER_JULSTAAN
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_JULSTAAN_ADMIN.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOFF </Encyclopedia_Unit_Class>
+		
+		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
+		<Company_Units>Alexander_Julstaan</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany>
+
 <!-- ============================ Spy ============================= -->
 	
 	<HeroUnit Name="Rbann">
@@ -8304,7 +8422,7 @@
 		TEXT_TOOLTIP_RBANN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_rbann.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RBANN.tga</Icon_Name>
 		
 		<Ranking_In_Category>10</Ranking_In_Category>
 		
@@ -8343,7 +8461,7 @@
 		TEXT_TOOLTIP_RBANN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_Rbann.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RBANN.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Rbann</Company_Transport_Unit>
 		<Company_Units>Rbann</Company_Units>
@@ -8420,7 +8538,7 @@
 		TEXT_TOOLTIP_POLLUX
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_pollux.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_POLLUX.tga</Icon_Name>
 		
 		<Ranking_In_Category>10</Ranking_In_Category>
 		
@@ -8459,7 +8577,7 @@
 		TEXT_TOOLTIP_POLLUX
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_pollux.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_POLLUX.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Pollux</Company_Units>
@@ -8477,7 +8595,7 @@
 		TEXT_TOOLTIP_KASTOR
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kastor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KASTOR.tga</Icon_Name>
 		
 		<Ranking_In_Category>10</Ranking_In_Category>
 		
@@ -8516,137 +8634,10 @@
 		TEXT_TOOLTIP_KASTOR
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SPY </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_kastor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_KASTOR.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Kastor</Company_Units>
-		
-		<Affiliation>Imperial_Proteus</Affiliation>
-	</HeroCompany>
-
-	<!-- COMPNOR -->
-
-	<HeroUnit Name="Crueya_Vandron">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_CRUEYA_VANDRON</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_02
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_CRUEYA_VANDRON
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_vandron_admin.tga</Icon_Name>
-		
-		<Ranking_In_Category>1</Ranking_In_Category>
-		<Affiliation>Independent_Forces</Affiliation>
-
-		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_02 -->
-			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_02_Reduce_Production_Price">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-			</Reduce_Production_Price_Ability>
-			<Reduce_Production_Time_Ability Name="Admin_Tier_Admin_02_Reduce_Production_Time">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-			<Planet_Income_Bonus_Ability Name="Admin_Tier_Admin_02_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_ADMIN_02</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0.10</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
-			</Planet_Income_Bonus_Ability>
-		</Abilities>
-	</HeroUnit>
-
-	<HeroCompany Name="Crueya_Vandron_Team">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_CRUEYA_VANDRON</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_02
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_CRUEYA_VANDRON
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-		</Encyclopedia_Text>
-		<Icon_Name>i_button_vandron_admin.tga</Icon_Name>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_NOBLE </Encyclopedia_Unit_Class>
-		
-		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
-		<Company_Units>Crueya_Vandron</Company_Units>
-		
-		<Affiliation>Imperial_Proteus</Affiliation>
-	</HeroCompany>
-
-	<!-- TATOOINE -->
-
-	<HeroUnit Name="Alexander_Julstaan">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_ALEXANDER_JULSTAAN</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ALEXANDER_JULSTAAN
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOFF </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_julstaan_admin.tga</Icon_Name>
-		
-		<Ranking_In_Category>1</Ranking_In_Category>
-		<Affiliation>Independent_Forces</Affiliation>
-
-		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Moff -->
-			<Reduce_Production_Price_Ability Name="Admin_Tier_Moff_Reduce_Production_Price">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-			</Reduce_Production_Price_Ability>
-			<Reduce_Production_Time_Ability Name="Admin_Tier_Moff_Reduce_Production_Time">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-			<Planet_Income_Bonus_Ability Name="Admin_Tier_Moff_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_MOFF</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
-				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
-				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
-				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
-			</Planet_Income_Bonus_Ability>
-		</Abilities>
-	</HeroUnit>
-
-	<HeroCompany Name="Alexander_Julstaan_Team">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_ALEXANDER_JULSTAAN</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_ALEXANDER_JULSTAAN
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-		</Encyclopedia_Text>
-		<Icon_Name>i_button_julstaan_admin.tga</Icon_Name>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOFF </Encyclopedia_Unit_Class>
-		
-		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
-		<Company_Units>Alexander_Julstaan</Company_Units>
 		
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
@@ -8873,7 +8864,7 @@
 		<Text_ID>TEXT_HERO_BENJO</Text_ID>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Icon_Name>i_button_benjo_set.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BENJO_SET.tga</Icon_Name>
 
 		<Tech_Level>0</Tech_Level>
 		<Encyclopedia_Text> 
@@ -8912,7 +8903,7 @@
 		TEXT_STATBLOCK_TIE_FIGHTER_WEAP2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_benjo.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BENJO.tga</Icon_Name>
 
 		<HardPoints> HP_TIE_00, HP_TIE_Elite_00 </HardPoints>
 
@@ -8991,7 +8982,7 @@
 		TEXT_STATBLOCK_TIE_FIGHTER_WEAP2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_benjo.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BENJO.tga</Icon_Name>
 
 		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
 
@@ -9025,7 +9016,7 @@
 		TEXT_STATBLOCK_TIE_FIGHTER_WEAP2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_benjo.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BENJO.tga</Icon_Name>
 
 		<Create_Team_Type>Benjo_Alpha_Container</Create_Team_Type>
 		<Squadron_Units>TIE_Fighter_Alpha, TIE_Fighter_Alpha, TIE_Fighter_Alpha, TIE_Fighter_Alpha</Squadron_Units>
@@ -10019,7 +10010,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEV </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_rook.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ROOK.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -10128,7 +10119,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_taxevader.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TAXEVADER.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -10236,7 +10227,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_taxevader_leader_ssd.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TAXEVADER_LEADER_SSD.tga</Icon_Name>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
@@ -10333,7 +10324,7 @@
 	<DummyStructure Name="TaxEvader_Dream_Of_A_Quiet_Life_Dummy">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE</Text_ID>
-		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,500</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 7,020</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_UPGRADE_FLAG
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
@@ -10353,7 +10344,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_taxevader_leader_ssd.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TAXEVADER_LEADER_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
@@ -10390,7 +10381,7 @@
 		TEXT_TOOLTIP_CAPABILITY_CRUSH
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_taxevader.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TAXEVADER.tga</Icon_Name>
 
 		<Property_Flags>GTSImmune | GoodInfantryCrusher | DoKite</Property_Flags>
 		<CategoryMask> VehicleHero | AntiStructure | AntiVehicle | AntiInfantry</CategoryMask>
@@ -10454,7 +10445,7 @@
 		TEXT_TOOLTIP_CAPABILITY_CRUSH
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_taxevader.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TAXEVADER.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Gallofree_Transport_TaxEvader</Company_Transport_Unit>
 		<Company_Units> TaxEvader_MPTL </Company_Units>
@@ -10483,7 +10474,7 @@
 		<Text_ID>TEXT_HERO_REBUILD_TAX</Text_ID>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Icon_Name>i_button_MPTL_Tank.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MPTL_TANK.tga</Icon_Name>
 
 		<Lua_Script>DelayedSelfDelete</Lua_Script>
 
@@ -10755,7 +10746,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STARBORN </Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>Ei_Brakiss.ALO</Land_Model_Name>
-		<Icon_Name>i_button_michael.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MICHAEL.tga</Icon_Name>
 		
 		<Ranking_In_Category>2</Ranking_In_Category>
 		
@@ -10970,7 +10961,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STARBORN </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_michael.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MICHAEL.tga</Icon_Name>
 		
 		<Company_Transport_Unit>Shuttle_Tyderium_Michael</Company_Transport_Unit>
 		<Company_Units>Michael</Company_Units>
@@ -11210,66 +11201,5 @@
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
-
-<HeroUnit Name="Pira_Leemad">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_PIRA_LEEMAD</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MEGACORP_HEAD_ADMIN
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_PIRA_LEEMAD
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMINISTRATOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_PIRA_LEEMAD.tga</Icon_Name>
-		
-		<Ranking_In_Category>7</Ranking_In_Category>
-		
-		<Affiliation>Independent_Forces</Affiliation>
-	
-		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Megacorp -->
-			<Reduce_Production_Price_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Price">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-			</Reduce_Production_Price_Ability>
-			<Reduce_Production_Time_Ability Name="Admin_Tier_Megacorp_Reduce_Production_Time">
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Excluded_Unit_Categories>Upgrade | Wall</Excluded_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-				<Stacking_Category>50</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-			<Planet_Income_Bonus_Ability Name="Admin_Tier_Megacorp_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_MEGACORP_HEAD</Specific_Mod_Source_Text>
-				<Percentage_Income_Modifier>0.1</Percentage_Income_Modifier> 
-			</Planet_Income_Bonus_Ability>
-		</Abilities>
-	</HeroUnit>
-
-	<HeroCompany Name="Pira_Leemad_Team">
-		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_PIRA_LEEMAD</Text_ID>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MEGACORP_HEAD_ADMIN
-		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
-		TEXT_TOOLTIP_PIRA_LEEMAD
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_RESTRICTED_HYPERDRIVE
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMINISTRATOR </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_PIRA_LEEMAD.tga</Icon_Name>
-		
-		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
-		<Company_Units>Pira_Leemad</Company_Units>
-		
-		<Affiliation>Imperial_Proteus</Affiliation>
-	</HeroCompany> 
 	
 </Project_Proteus_Heroes>
