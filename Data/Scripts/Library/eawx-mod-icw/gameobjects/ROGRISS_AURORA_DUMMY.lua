@@ -1,3 +1,3 @@
 return {
-	Ship_Crew_Requirement = 2500,
+	Ship_Crew_Requirement = 2020,
 }

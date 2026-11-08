@@ -885,7 +885,7 @@ return {
 						chance = 20,
 						perception_modifier = nil,
 						association = nil,
-						readable_name =  "SPAMAT",
+						readable_name =  "SPMA-T Walker",
 						text_requirement = "",
 						order = 43,
 					},

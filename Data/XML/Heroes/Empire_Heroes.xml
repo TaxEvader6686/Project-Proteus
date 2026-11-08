@@ -1447,7 +1447,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ISARD_SPYMASTER.tga</Icon_Name>
 		
-		<Company_Transport_Unit>Shuttle_Tyderium_Admin</Company_Transport_Unit>
+		<Company_Transport_Unit>Shuttle_Tyderium_Isard</Company_Transport_Unit>
 		<Company_Units>Isard_Clone</Company_Units>
 	</HeroCompany>
 
