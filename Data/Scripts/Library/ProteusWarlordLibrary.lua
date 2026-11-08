@@ -128,7 +128,7 @@ return {
 				-- Research
 				"Dummy_Research_Brak_Fighters", "Dummy_Research_Brak_Fleet",
 				-- Specials
-				"Dummy_Recruit_Pira_Leemad", "Lant_Mining_Facility_Minerals_Space", "Lant_Mining_Facility_Minerals_Ground",
+				"Dummy_Recruit_Pira_Leemad", "Lant_Mining_Facility_Minerals_Space", "Lant_Mining_Facility_Minerals_Ground", "Lant_Mining_HQ", 
 			},
 			LockList = {"Mining_Facility_Minerals_Ground", "Mining_Facility_Minerals_Space",},
 			FactionOverride = "Empire",
