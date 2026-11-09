@@ -109,7 +109,7 @@ return {
 			SECRET = {"SHIELDED_TIE_BOMBER_SQUADRON", false},
 			SCREED = {"TIE_GT_BOMBER_SQUADRON", false},
 			NIVERS = {"STARWING_SQUADRON", false},
-			COMPNOR = {"", false},
+			COMPNOR = {"TIE_BOMBER_SQUADRON", false},
 			MINOS = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			TATOOINE = {"TIE_BOMBER_SQUADRON", false},
 			TRAX = {"", false},		
