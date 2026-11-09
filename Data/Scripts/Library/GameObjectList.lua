@@ -985,6 +985,7 @@ return {
 ["INVINCIBLE_CRUISER_TENDER"] = true,
 ["INVINCIBLE_CRUISER_MODERNIZED"] = true,
 ["TRIMARK_VII_GROUP"] = true,
+["NEBULON_B2"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,

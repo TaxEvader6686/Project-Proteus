@@ -10157,4 +10157,221 @@
 
 	</Container>
 
+	<SpaceUnit Name="Nebulon_B2">
+		<Text_ID>TEXT_UNIT_NEBULONB2</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 39</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_NEBULONB2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_NEBULONB2_HULL 
+		TEXT_TOOLTIP_NEBULONB2_SHIELD 
+		TEXT_TOOLTIP_NEBULONB2_MOVE 
+		TEXT_TOOLTIP_NEBULONB2_SQUADRON 
+		TEXT_TOOLTIP_NEBULONB2_WEAP1 
+		TEXT_TOOLTIP_NEBULONB2_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_NEBB2.TGA</Icon_Name>
+
+		<Space_Model_Name>EV_NebulonB2.alo</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+
+		<Mass>0.9995</Mass>
+		<Max_Speed>3.5</Max_Speed>
+		<Max_Thrust>1.5</Max_Thrust>
+		<OverrideAcceleration>0.175</OverrideAcceleration>
+		<OverrideDeceleration>0.35</OverrideDeceleration>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.6</Stopped_Rate_Of_Turn>
+		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Shield_Armor_Type>ShieldS_Frigate</Shield_Armor_Type>
+		<Shield_Points>900</Shield_Points>
+		<Shield_Refresh_Rate>13.5</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Frigate </Armor_Type>
+		<Tactical_Health>950</Tactical_Health>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<AI_Combat_Power>453</AI_Combat_Power>
+		<Damage>40</Damage>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Maintenance_Cost>12</Maintenance_Cost>
+
+		<Ship_Class>corvette</Ship_Class>
+		<CategoryMask> Corvette | AntiCorvette </CategoryMask>
+		<Ranking_In_Category>6</Ranking_In_Category>
+		<Property_Flags/>
+		<Formation_Priority>3</Formation_Priority>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Squadron_Capacity>12</Squadron_Capacity>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+
+		<GUI_Row> 1 </GUI_Row>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<Build_Cost_Credits>870</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		<Population_Value>5</Population_Value>
+		<Space_Override_Population_Value/>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<HardPoints>
+			HP_B2_Turbo_01, HP_B2_Turbo_02, HP_B2_Turbo_03, HP_B2_Turbo_04, HP_B2_Turbo_05, HP_B2_Turbo_06, HP_B2_Missile, HP_B2_Hangar
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<!-- <Starting_Spawned_Units_Tech_1> TIE_Fighter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_1> -->
+		<!-- <Starting_Spawned_Units_Tech_3> TriFighter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_3> -->
+		
+		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
+		
+		<!-- <Reserve_Spawned_Units_Tech_1> TIE_Fighter_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_1> -->
+		<!-- <Reserve_Spawned_Units_Tech_3> TriFighter_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_3> -->
+
+		<Target_Bones>Root</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions/>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+		<SFXEvent_Bombard_Select_Target>RHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>RHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Generic_Nebulon</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Nebulon</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Nebulon</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Nebulon</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Nebulon</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Nebulon </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Nebulon </SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Nebulon </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Nebulon </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Nebulon </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Nebulon </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Nebulon </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>1000.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1000.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>2450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiCorvette</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Death_Explosion_Particles> Medium_Explosion_Space_Trails </Death_Explosion_Particles>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>695</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.25f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.20f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Expiration_Seconds>15</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Death_Clone>Damage_Normal, Medium_Explosion_Space_Trails</Death_Clone>
+	</SpaceUnit>
+
 </Project_Proteus_Space>

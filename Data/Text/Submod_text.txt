@@ -42,6 +42,10 @@ TEXT_COMPANY_BANKOFTHECORE,Bank of the Core
 TEXT_COMPANY_BANKOFTHECORE_DESCRIPTION,The Bank of the Core was a Coruscant-based financial institution that played a major role in galactic finance for millennia, even rivaling the Bank of Aargau and the IGBC during the reign of the Galactic Empire. The Bank was one of the sponsors of the Corporate Sector Authority and one of its major financial backers. House Praji were the majority stockholders and leveraged the Bank of the Core's wealth for political and industrial influence.
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_1,Corporate Security Trooper Squad: 1 / 1
 TEXT_COMPANY_GARRISON_PRAJI_ESTATES_2,Elite Mercenary Heavy Squad: 1 / 1
+TEXT_COMPANY_ISB_HQ,ISB Headquarters
+TEXT_COMPANY_ISB_HQ_DESCRIPTION,The Imperial Security Bureau, often referred to as the ISB, was an internal security and intelligence organ of the Galactic Empire closely tied into COMPNOR. It had a bitter rivalry with Imperial Intelligence, which the ISB sought to sideline and replace. ISB agents were embedded In many formations, organizations and ship crews, ensuring loyalty and paranoia and often conducting dirty work that would create too much paperwork if handled by more institutional entities. Their intelligence gathering and black ops capabilities rivaled that of Imperial Intelligence.
+TEXT_COMPANY_LANT_MINING_HQ,Lant Mining Corporation Offices
+TEXT_COMPANY_LANT_MINING_HQ_DESCRIPTION,The offices of Lant Mining Corporation, headquartered on Demar in the Brak Sector. Despite having its own private security force, the company worked closely with the Empire to secure their transports and mining sites as they mined minerals and ores for various corporations. As a key economic player and Imperial ally in the Brak Sector, they came under sustained attack by Rebel forces and irregulars during the Galactic Civil War. 
 TEXT_COMPANY_PRAJI_ESTATES,House Praji Estate
 TEXT_COMPANY_PRAJI_ESTATES_DESCRIPTION,The massive and sprawling estate of the prominent and well-connected House Praji, who came from Kaikielius to Coruscant and became increasingly influential in finance and government. Their original Coruscant-based estate boasted luxurious residences and offices as well as gardens and parks big enough to land large starships in. During the Vong War, the Prajii relocated their estate back to Kaikielius, their ancient homeworld. Serves as a hub for House Praji's business dealings and political machinations, and allows House Praji to influence procurement and construction on the planet.
 TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
@@ -68,6 +72,7 @@ TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
 TEXT_DISPLAY_TIERFON_CAPITAL,Construction Station: Tierfon Sector Fleet HQ
 TEXT_ECONOMY_BISCUIT_BARON,Biscuit Baron - Income
+TEXT_ECONOMY_LANT_INCOME,Corporate Kickbacks
 TEXT_ENCYCLOPEDIA_BISCUIT_BARON,A popular casual dining franchise with a logo bearing the likeness of the late Baron Orman Tagge. One of the largest restaurant chains across the galaxy, Biscuit Baron is a symbol of TaggeCo's omnipresence and soft power and provides the House of Tagge with income and goodwill from the local population. Any assertions that their products can turn into ravenous bioweapons are vigorously disputed by TaggeCo's legal team.
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Ambassador
 TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE,Apprentice
@@ -196,6 +201,7 @@ TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
 TEXT_HERO_MICHAEL,Michael
 TEXT_HERO_NAMMAN,Namman Cha
+TEXT_HERO_PIRA_LEEMAD,Pira Leemad
 TEXT_HERO_POLLUX,Pollux
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_REBUILD_TAX,MPTL
@@ -255,7 +261,13 @@ TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance 
 TEXT_PROTEUS_DESCRIPTION_VEERS,After Veers broke with Sander Delvardus over the latter's mismanagement of the Seswenna campaign, he went north on his own in the wake of the New Republic sweeping through the core worlds and consolidating their power. Many other warlords distrusted Veers due to his past as Vader's favored ground commander, and so he and his loyal men drifted for a while without a power base of their own until he was contacted by a person calling themselves the Omnipotent Battle Leader.
 TEXT_PROTEUS_DESCRIPTION_X1,--TODO TEXT_PROTEUS_DESCRIPTION_X1--
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
+<<<<<<< Updated upstream
 TEXT_RECRUIT_URLAN_DESCRIPTION,TODO for Supernova
+=======
+TEXT_RECRUIT_PIRA_LEEMAD_DESCRIPTION,Recruit Lant Mining Corporation Chief Administrator Pira Leemad to serve the Imperial Administration of Brak Sector.
+TEXT_RECRUIT_PIRA_LEEMAD_NAME,Recruit Pira Leemad
+TEXT_RECRUIT_URLAN_DESCRIPTION,Convince the former Arch-Provost of Rendili, Bengila Urlan, to serve the military administration as a figurehead to placate and negotiate with local and corporate elites. 
+>>>>>>> Stashed changes
 TEXT_RECRUIT_URLAN_NAME,Recall Bengila Urlan from Retirement
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
@@ -553,6 +565,13 @@ TEXT_STATBLOCK_Z95_MODERNIZED_SQUADRON_HALF,Squadron: 6x Modernized Z-95 Headhun
 TEXT_STATBLOCK_Z95_MODERNIZED_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_Z95_MODERNIZED_WEAP2,1x Fighter Flechette Missile (AF): 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_Z95_MODERNIZED_WEAP3,1x Fighter Proton Torpedo (AC): 1 / 50.0s / 1.8km
+<<<<<<< Updated upstream
+=======
+TEXT_STORY_TRANSMISSION_CORONA_REWARD_ONE_THARKUS,Unlocks: Corona Tender
+TEXT_STORY_TRANSMISSION_CORONA_REWARD_TWO_THARKUS,Locks: Nebulon-B Tender
+TEXT_STORY_TRANSMISSION_CORONA_TITLE_THARKUS,Research - Corona Tender
+TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS, Lant Mining Facility
+>>>>>>> Stashed changes
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON,Theta Assault Shuttle Squadron
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF,Theta Assault Shuttle Squadron 1/2
 TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON2,Theta Assault Shuttle Squadron x2
@@ -735,6 +754,11 @@ TEXT_TOOLTIP_BONUS_COMMS_DHC_FIGHTER,Communications Ship: 6% Combat bonus for al
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW2,Price: -10% | Time: -10%
 TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS_ORGANIC,Force Hunters: Reveals mines and stealth units
 TEXT_TOOLTIP_BONUS_FORCE_TRAINING_30_15,Force Training: 30% chance to redirect and 15% chance to absorb infantry blaster fire
+<<<<<<< Updated upstream
+=======
+TEXT_TOOLTIP_BONUS_TRANDOSHAN_HUNTER_REGENERATION,Regeneration: Self Healing
+TEXT_TOOLTIP_BONUS_UNLOCK_PIRA_LEEMAD, Enables the recruitment of Pira Leemad as an additional economic hero. 
+>>>>>>> Stashed changes
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings and ARC-170s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Avenger models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRAK_FLEET_RESEARCH,The culmination of Admiral Trier's work to bring the aging Brak Sector Fleet up to modern standard by retiring a large number of leftover Clone Wars designs in favor of more modern alternatives. The process of acquiring the schematics, licenses and tooling to be able to build and maintain these warships at shipyards under our control will be expensive and time consuming, but once done, we can supplement our current forces with more powerful vessels.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
@@ -1186,6 +1210,7 @@ TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 4.0km
 TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_INCOME_BANKOFTHECORE,Credit Income: +600
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +10%
+TEXT_TOOLTIP_INCOME_LANTHQ,300 Credits per Cycle
 TEXT_TOOLTIP_INVINCIBLE_TENDER,An ancient Rendili-designed Battlecruiser dating back to the final Alsakan Conflict. Despite its age, it has managed to stay in limited service with various local and corporate forces around the galaxy. This version is used as a corporate merchantman, heavily armed bulk cruiser or fleet logistics vessel, carrying supplies and specialist crews along dangerous routes thanks to its massive internal cargo capacity. Its armament is weaker than many contemporary refits of the same hull, with a stronger focus on anti-fighter defenses and the addition of some ion cannons to ward off raiders. Even when not fully militarized, it can still defend itself and other convoy members with its weapons and on-board escort fighter craft, but does not compare to modern cruisers.
 TEXT_TOOLTIP_INVINCIBLE_TENDER_FLEET_TENDER,Fleet Tender: 100 / 1.0s / 5.0km
 TEXT_TOOLTIP_INVINCIBLE_TENDER_HULL,Hull: 7200 (Capital)
@@ -1211,6 +1236,10 @@ TEXT_TOOLTIP_ION_VIGIL_WEAP3,3x Heavy Quad Laser Cannons: 2 / 5.0s / 4.6km
 TEXT_TOOLTIP_ION_VIGIL_WEAP4,2x Concussion Missiles: 1 / 15.0s / 4.1km
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
+TEXT_TOOLTIP_ISB_HQ_BASE_GARRISON_3,Compforce Assault Trooper Squad: 2 / 6
+TEXT_TOOLTIP_ISB_HQ_BASE_GARRISON_4,AT-ST Walker: 2 / 2
+TEXT_TOOLTIP_ISB_HQ_GARRISON_1,ISB Operator Squad: 2 / 6
+TEXT_TOOLTIP_ISB_HQ_GARRISON_2,ISB Sniper Squad: 2 / 6
 TEXT_TOOLTIP_IXIYEN_FIGHTER,The latest entry in TransGalMeg's infamous fighter catalog, the Ixiyen is a modular multirole fighter utilized primarily by illegal interests and local defense forces. This configuration of the Ixiyen has an armament comparable to Sienar's TIE Defender but is otherwise inferior in most respects. Able to engage any target type effectively.
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by Admiral Roek.
 TEXT_TOOLTIP_JOLLIE,A short-statured human ambassador who was attached to Grand Moff Hauser's staff in the Dustig Oversector. Hedonistic, well-connected and corrupt, Jollie was involved in at least one off-the-books venture; an illegal mining operation on M'Haeli with the planet's equally corrupt governor Grigor. When the Grand Moff began to investigate Grigor's corruption, Jollie tipped off the governor and managed to evade punishment himself while Grigor was arrested and killed. 
@@ -1312,6 +1341,14 @@ TEXT_TOOLTIP_NAMMAN_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_NAMMAN_MOVE,Speed: 1.2
 TEXT_TOOLTIP_NAMMAN_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
 TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1,9x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_NEBULONB2,A short lived successor to the venerable Nebulon-B. While not as popular as preceding and succeeding Kuati frigates, the B2 still packed a respectable armament that allowed it to threaten larger and smaller vessels alike.
+TEXT_TOOLTIP_NEBULONB2_HULL,Hull: 950 (Frigate)
+TEXT_TOOLTIP_NEBULONB2_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.4
+TEXT_TOOLTIP_NEBULONB2_SHIELD,Shield: 900 (15.75r/R) (Frigate)
+TEXT_TOOLTIP_NEBULONB2_SQUADRON,Fighters: 0.5/0.5
+TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolaser: 2 / 3.33s / 3km
+TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolaser: 2 / 1.90s / 2.5km
+TEXT_TOOLTIP_NEBULONB2_WEAP3,1x Concussion Missile: 1/ 30.0s / 2.0km
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD,Neimoidian soldiers originally drawn into service defending Neimoidia and its purse worlds. These Guard units could be transferred to defending worlds where droids were unusable along with serving as protection for Separatist officials. They are drawn from all aspects of Neimoidian society including mercenaries and convicts given promise of amnesty. The capabilities of these infantry are not to be underestimated; they are heavily armed and highly motivated enough to prove doubtful claims about Neimoidian mettle false.
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY,Company: 24x Neimoidian Guard
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
@@ -1340,6 +1377,7 @@ TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_HEALTH,Health: 150 (Light Vehicle)
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_MOVE,Speed: 1.25 | Turn: 4.0
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP1,1x AV Beam Cannon: 12 / 1.5s / 320m
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP2,1x Heavy AI Blaster Cannon (AOE): 1 / 0.5s / 240m
+TEXT_TOOLTIP_PIRA_LEEMAD,The chief administrator of the Lant Mining Corporation's operations in the Brak Sector. Despite having their own corporate security force, Lant Mining operations came under increasing pressure from rebel and pirate activity, spurring on closer cooperation with the Imperial authorities in the Brak Sector. 
 TEXT_TOOLTIP_POLLUX,Pollux was one half of the Dioskouroi, a pair of elite shapeshifting operatives in the service of High Admiral Tharkus. Able to assume the appearance of others, Pollux used his unusual abilities to infiltrate enemy ranks, gather intelligence, and carry out covert assignments alongside his partner, Kastor.
 TEXT_TOOLTIP_PRAETOR_I,A large battleship produced before the Clone Wars to be flaunted by wealthy sectors and planets. While the vessels originally had hamstrung hyperdrives due to regulations, wartime conditions saw them upgraded out of necessity as task force leaders and response units. 
 TEXT_TOOLTIP_PRAETOR_I_HULL,Hull: 32940 (Capital)
@@ -1843,6 +1881,7 @@ TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD,Navy Commando Medic Squad
 TEXT_UNIT_NAVYCOMMANDO_MEDIUM_SQUAD,Navy Commando Fireteam
 TEXT_UNIT_NAVYTROOPER_MEDIC,Navy Trooper Medic
 TEXT_UNIT_NAVYTROOPER_MEDIC_SQUAD,Navy Trooper Medic Squad
+TEXT_UNIT_NEBULONB2,EF76 Nebulon B2-class Frigate
 TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
 TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT
 TEXT_UNIT_NEIMOIDIAN_GUARD_GRENADIER,Neimoidian Guard Grenadier

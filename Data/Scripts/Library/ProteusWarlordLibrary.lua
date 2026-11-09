@@ -141,7 +141,7 @@ return {
 			UnlockList = {
 				-- Space
 				"Beta_Shuttle_Group", "IPV1", "Lancer_Frigate", "Strike_Cruiser", "Star_Galleon", "Ton_Falk_Escort_Carrier", "Munifex",
-				"DHC_Interdictor", "Imperial_DHC", "Alliance_Assault_Frigate_II", "Captor", "Proficient", "Victory_I_Star_Destroyer", "Lucrehulk_Core_Destroyer", "Procursator_Star_Destroyer",
+				"DHC_Interdictor", "Imperial_DHC", "Alliance_Assault_Frigate_II", "Captor", "Victory_I_Star_Destroyer", "Lucrehulk_Core_Destroyer", "Procursator_Star_Destroyer",
 				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
 				"Lucrehulk_Auxiliary_Proteus", "Legator_Star_Dreadnought", "Executor_Star_Dreadnought",
 				-- Ground				
@@ -841,7 +841,7 @@ return {
 			HeroList = {{"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"}, [6] = {"Ulric_Tagge", "Dimone_Irrv_Team", "Shara_Or_Team"}},
 			UnlockList = {
 				-- Space
-				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", "Super_Transport_VII_Interdictor", 			
+				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Nebulon_B2", "Surveyor_Frigate", "CEC_Light_Cruiser", "Super_Transport_VII_Interdictor", 			
 				"Picket_DHC", "Pursuit_Light_Cruiser", "Super_Transport_XI_Missile", "Gladiator_I", "MTC_Support", "MTC_Sensor", "MTC_Combat", 
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
@@ -969,7 +969,7 @@ return {
 			HeroList = {"Wessex_Redoubt", "Wessex_Dauntless"},
 			UnlockList = {
 				-- Space	
-				"Guardian_Cruiser_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Victory_II_Frigate", "Arquitens", "Eidolon",
+				"Guardian_Cruiser_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Nebulon_B2", "Arquitens", "Eidolon",
 				"Pursuit_Light_Cruiser", "DHC_Carrier", "Proteus_Cargo_Ship", "Acclamator_I_Assault", "Acclamator_II", "Victory_I_Star_Destroyer", "Venator_Star_Destroyer",
 				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Allegiance_Battlecruiser", "Communications_Battlecruiser", "Executor_Star_Dreadnought",
@@ -1020,7 +1020,7 @@ return {
 			FactionOverride2 = "Pentastar",
 			UnlockList = {
 				-- Space	
-				"Beta_ETR_3_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "CR92A", "Imperial_Nebulon_B", "Ton_Falk_Escort_Carrier", "Strike_Cruiser", "Star_Galleon",
+				"Beta_ETR_3_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "CR92A", "Nebulon_B2", "Ton_Falk_Escort_Carrier", "Strike_Cruiser", "Star_Galleon",
 				"Immobilizer_418", "Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Procursator_Star_Destroyer", "Venator_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought", 
