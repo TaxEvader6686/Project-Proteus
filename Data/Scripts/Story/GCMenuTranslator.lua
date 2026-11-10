@@ -85,7 +85,8 @@ return {
 	["TATOOINE"] ="faction_82",
 	["TRAX"] ="faction_83",
 	["DROMMEL"] ="faction_84",
-	["BATCH"] ="faction_84",
+	["BATCH"] ="faction_85",
+	["IMPERIAL_CORELLIA"] ="faction_86",
 	["SECRET"] ="faction_94",
 	
 
@@ -179,6 +180,7 @@ return {
 		"TRAX",
 		"DROMMEL",
 		"BATCH",
+		"IMPERIAL_CORELLIA",
 		"SECRET",
 	},
 

@@ -1312,6 +1312,28 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_COMPNOR",
 			IntroHolo = "_Loop",
 		},
+
+	--	["IMPERIAL_CORELLIA"] = {
+			FriendlyName = "Imperial Corellia",
+			Planets = {"CORELLIA"},
+			LeaderTable = {"PITTA_TORPEDO_SPHERE"},
+			LeaderEndingNames = {"Emperor Furgan"},
+			HeroList = {"Pitta_Torpedo_Sphere"},
+			UnlockList = {
+				-- Space 
+				
+				-- Ground
+				
+				-- Research
+				
+			},
+			FactionOverride = "Corellia",
+			FactionOverride2 = "Empire",
+			StartYear = 4,
+			LastYear = 6,
+			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
+			IntroHolo = "_Loop",
+	--	},
 		["DROMMEL"] = {
 			FriendlyName = "Oplovis Sector",
 			Planets = {"KETARIS", "OPLOVIS", "SOULLEX"},

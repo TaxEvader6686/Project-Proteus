@@ -103,7 +103,8 @@ return {
 			TATOOINE = {"SCYK_HEAVY_FIGHTER_SQUADRON", false},
 			TRAX = {"", false},	
 			DROMMEL = {"TIE_GT_SQUADRON", false},				
-			BATCH = {"TIE_GT_SQUADRON", false},													
+			BATCH = {"TIE_GT_SQUADRON", false},		
+			IMPERIAL_CORELLIA = {"", false},														
 		}
 		
 		if simpletypes[owner] then

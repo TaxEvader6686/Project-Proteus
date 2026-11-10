@@ -117,7 +117,8 @@ return {
 			TATOOINE = {"TIE_INTERCEPTOR_SQUADRON", false},
 			TRAX = {"", false},		
 			DROMMEL = {"V38_SQUADRON", false},				
-			BATCH = {"", false},												
+			BATCH = {"V38_SQUADRON", false},		
+			IMPERIAL_CORELLIA = {"", false},													
 		}
 		
 		if simpletypes[owner] then

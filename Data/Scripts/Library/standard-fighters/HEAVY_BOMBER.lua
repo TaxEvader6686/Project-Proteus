@@ -120,7 +120,8 @@ return {
 			TRAX = {"", false},	
 			DROMMEL = {"TIE_HEAVY_BOMBER_SQUADRON", false},					
 			BATCH = {"TIE_HEAVY_BOMBER_SQUADRON", false,
-					{"BatchFighters", "TIE_TERROR_SQUADRON", false}}, --research 1												
+					{"BatchFighters", "TIE_TERROR_SQUADRON", false}}, --research 1
+			IMPERIAL_CORELLIA = {"", false},																	
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
