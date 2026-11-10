@@ -10,6 +10,7 @@ This guide covers safe workflows for proposing changes to the Project Proteus `D
 - [One time setup](#one-time-setup)
 - [Development workflow](#development-workflow)
 - [Maintenance workflow](#maintenance-workflow)
+- [Command-line workflow](#command-line-workflow) (advanced)
 
 ## Before you start
 
@@ -60,6 +61,8 @@ winget install --id GitHub.GitHubDesktop
 
 > Native Git, GitHub CLI, or VS Code's Git tools can replace GitHub Desktop if you already use them.
 > However, the rest of this guide is tailored for GitHub Desktop and VS Code.
+
+Prefer CLI commands? See the [Command-line workflow](#command-line-workflow) section.
 
 ### Text Editors
 
@@ -199,3 +202,150 @@ A **merge conflict** occurs when Git cannot automatically combine changes, usual
 
 > Even if Git merges successfully, XML or Lua changes may still conflict logically.
 > Always test affected features in game.
+
+## Command-line workflow
+
+Experienced contributors can use [Git](https://git-scm.com/) and [GitHub CLI](https://cli.github.com/).
+
+On Windows, install Git and GitHub CLI from PowerShell:
+```powershell
+winget install --id Git.Git
+winget install --id GitHub.cli
+```
+
+> Reopen the terminal before using `gh` and `git`.
+> If a command says "your-something", replace it with the actual value.
+
+### One-time setup
+
+Authenticate with GitHub, fork the repository, and clone your fork:
+```bash
+gh auth login
+gh auth status
+gh repo fork TaxEvader6686/Project-Proteus --clone
+cd Project-Proteus
+git remote -v
+```
+
+Ensure the repository has two remotes:
+- `origin`: Your fork.
+- `upstream`: The original Project Proteus repository.
+
+If `upstream` is missing, add it:
+```bash
+git remote add upstream https://github.com/TaxEvader6686/Project-Proteus.git
+```
+
+### GitHub Issues
+
+To look for existing issues before opening a new one:
+```bash
+gh issue list --repo TaxEvader6686/Project-Proteus
+```
+
+To create an issue interactively:
+```bash
+gh issue create --repo TaxEvader6686/Project-Proteus
+```
+
+### Syncing your fork
+
+From your cloned fork's folder, synchronize its `Dev` branch with the original repository:
+```bash
+gh repo sync --branch Dev
+git fetch upstream
+git switch Dev
+git pull --ff-only origin Dev
+```
+
+See [Resetting your branch](#resetting-your-branch) if it diverges from `upstream/Dev`.
+
+### Development workflow
+
+Create a new working branch based on `origin/Dev`:
+```bash
+git fetch origin
+git switch -c your-branch-name origin/Dev
+```
+
+Commit and push changes:
+```bash
+git status
+git diff
+git add your-changed-files
+git commit -m "Commit message describing the change"
+git push -u origin HEAD
+```
+
+Open a pull request targeting the upstream `Dev` branch:
+```bash
+gh pr create --repo TaxEvader6686/Project-Proteus --base Dev --fill
+```
+
+> Include the reason for the change and your in-game test results in the pull request description.
+
+### Merging updates
+
+First follow [Syncing your fork](#syncing-your-fork) to update your local `Dev` branch.
+Then bring those changes into your working branch:
+```bash
+git switch your-branch-name
+git merge Dev
+git push
+```
+
+If a merge reports conflicts, inspect the affected files:
+```bash
+git status
+git diff
+```
+
+Resolve the conflicting sections manually or using your editor's merge tools.
+Then complete the merge:
+```bash
+git add your-changed-files
+git merge --continue
+```
+
+To cancel an unresolved merge instead:
+```bash
+git merge --abort
+```
+
+### Rebasing updates
+
+**WARNING: This rewrites the branch git history!**
+Do not use it on a branch others are also using.
+
+To reapply your commits on top of the latest `origin/Dev`:
+```bash
+git switch Dev
+git pull --ff-only origin Dev
+git switch your-branch-name
+git rebase Dev
+```
+
+> If you already pushed this branch, update your fork with `git push --force-with-lease`.
+> Never use `--force` unless you understand the consequences (it can discard remote commits).
+
+To cancel an unresolved rebase instead:
+```bash
+git rebase --abort
+```
+
+### Resetting your branch
+
+**WARNING: This can delete your own git history!**
+Save any work you want to keep in a separate branch first:
+```bash
+git switch -c your-new-branch-name
+```
+
+To reset your `origin/Dev` branch to exactly match the `upstream/Dev` branch:
+```bash
+git fetch upstream
+git fetch origin
+git switch Dev
+git reset --hard upstream/Dev
+git push --force-with-lease origin Dev
+```
