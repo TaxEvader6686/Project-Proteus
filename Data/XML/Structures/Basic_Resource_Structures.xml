@@ -218,10 +218,7 @@
 
 	<SpecialStructure Name="Lant_Mining_Facility_Minerals_Ground">
 		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Ground</Variant_Of_Existing_Type>
-		<Tech_Level>0</Tech_Level>
-
 		<Text_ID>TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS</Text_ID>
-
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_MINING_MINERALS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
@@ -234,7 +231,8 @@
 		TEXT_TOOLTIP_BUILDLIMIT_MINES
 		</Encyclopedia_Text>
 
-
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 
@@ -245,11 +243,8 @@
 
 	<SpecialStructure Name="Lant_Mining_Facility_Minerals_Space">
 		<Variant_Of_Existing_Type>Template_Mining_Facility_Minerals_Space</Variant_Of_Existing_Type>
-		<Tech_Level>0</Tech_Level>
-
-<Text_ID>TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS</Text_ID>
+		<Text_ID>TEXT_STRUCTURE_LANT_MINING_FACILITY_MINERALS</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE_SECONDARY_ECONOMIC</Encyclopedia_Unit_Class>
-
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_MINING_MINERALS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -264,7 +259,8 @@
 		TEXT_TOOLTIP_BUILDLIMIT_MINES
 		</Encyclopedia_Text>
 		
-
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 

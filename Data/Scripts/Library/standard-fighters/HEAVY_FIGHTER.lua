@@ -111,7 +111,7 @@ return {
 			SECRET = {"E_WING_SQUADRON", false},
 			SCREED = {"CLOAKSHAPE_NEW_SQUADRON", false},
 			NIVERS = {"TIE_X2_SQUADRON", false},
-			COMPNOR = {"", false},
+			COMPNOR = {"TIE_AVENGER_ASSAULT_SQUADRON", false},
 			MINOS = {"TOSCAN_GUNSHIP_SQUADRON", false},
 			TATOOINE = {"TIE_X1_SQUADRON", false},
 			TRAX = {"", false},	

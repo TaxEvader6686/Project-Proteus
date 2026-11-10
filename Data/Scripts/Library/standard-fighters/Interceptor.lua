@@ -112,7 +112,7 @@ return {
 			SECRET = {"A_WING_SQUADRON", false},
 			SCREED = {"TIE_INTERCEPTOR_SQUADRON", false},
 			NIVERS = {"NIMBUS_V_WING_ESK_SQUADRON", false},
-			COMPNOR = {"", false},
+			COMPNOR = {"TIE_INTERCEPTOR_SQUADRON", false},
 			MINOS = {"TIE_INTERCEPTOR_ION_SQUADRON", false},
 			TATOOINE = {"TIE_INTERCEPTOR_SQUADRON", false},
 			TRAX = {"", false},		
