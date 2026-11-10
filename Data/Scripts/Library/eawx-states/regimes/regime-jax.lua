@@ -92,10 +92,16 @@ return {
                 "Cygnus_HQ"
             })
 
-			Clear_Fighter_Hero("PRAETORIAN_SQUADRON")
+            if GlobalValue.Get("PROTEUS_GROUP_NAME") == "LUMIYA" and self.regime_host_name ~= "IMPERIAL_PROTEUS" then
+			    Clear_Fighter_Hero("PRAETORIAN_SQUADRON")
+                UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                    "Kile_Hannad_Location_Set"
+                }, false)
+            end
 
             UnitUtil.DespawnList{
-                "Dummy_Regicide_Jax"
+                "Dummy_Regicide_Jax",
+                "Carnor_Jax_Proteus_Team",
             }
         end
 
