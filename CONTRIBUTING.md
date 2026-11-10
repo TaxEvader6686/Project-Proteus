@@ -127,8 +127,6 @@ ModPath=Mods/Project-Proteus STEAMMOD=1125571106
 ```
 The cloned folder must be named `Project-Proteus` and placed under the game's `Mods` directory for this path to work.
 
-Edit files in the `Data` folder: `XML` for game definitions, `Scripts` for Lua, `Text` for game text, and `Art` or `Audio` for assets.
-
 ## Development workflow
 
 ### Make a change
@@ -138,8 +136,8 @@ Before starting, [Keep your fork current](#keep-your-fork-current) so your `Dev`
 1. With `Dev` selected, choose `Branch -> New branch` to create a working branch, a separate place for your change.
    Give it a short name that describes the change, such as `fix-ship-description`.
 2. Make a focused change and follow the same patterns used in the files.
-   Ask on Discord if you are unsure about the correct approach.
-3. Commit your change in GitHub Desktop with a short descriptive message, such as `Fix missing ship description`.
+   Ask on Discord if you are unsure about the correct approach or [where to edit files](#where-to-edit-files).
+3. Stage and commit your change in GitHub Desktop with a short descriptive message, such as `Fix missing ship description`.
    A commit is a saved change set in your local Git history.
    Choose **Commit to** your working branch.
 4. Test the change in game before marking it ready for review.
@@ -148,18 +146,31 @@ Before starting, [Keep your fork current](#keep-your-fork-current) so your `Dev`
 See the official GitHub guide for more details on
 [Committing and reviewing changes](https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop).
 
+### Where to edit files
+
+Submod files live in the `Data/` folder:
+- `Art` for models, textures, and icons
+- `Audio` and `XML/SFX/SFXEvents_TR.xml` for sound events
+- `Scripts` for Lua
+- `XML` for game definitions
+- `Text` or `ShipNames` for game text, especially `Submod_text.txt`
+
+**WARNING: Do not include changed/compiled binary archives (.mtd, .dat) in your commits!**
+
+For text changes to appear in the game, run `Text/alphabetize-and-build.bat` to update the `MasterTextFile_ENGLISH.dat` file.
+
+For icons to appear in the game, run `Art/MTDEditor.exe` to import new icons into the `Textures/MT_commandbar.MTD` file.
+
 ### Open a pull request
 
 Pushing uploads your branch to your fork, and a **pull request** asks the maintainers to merge it.
 
 1. In GitHub Desktop, review the commits and changed files.
 2. Choose **Push origin** or **Publish branch** to upload your working branch to your fork.
-3. Choose **Create Pull Request** and check that the pull request targets `TaxEvader6686/Project-Proteus` and its `Dev` branch, not `main`.
-4. Explain what changed and why.
+3. Choose **Create Pull Request** and check that the pull request targets `TaxEvader6686/Project-Proteus` and its `Dev` branch, **not** `main`.
+4. Explain what changed, why, and how you tested/validated it.
    Link any related issue with `#` followed by the issue number.
    For visible changes, add a screenshot when useful.
-
-**WARNING : Do not include changed/compiled binary archives commits in your PR (e.g .mtd file, .dat file).**
 
 See the official GitHub guide for more details on
 [Creating an issue or pull request](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop).
