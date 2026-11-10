@@ -275,10 +275,6 @@ function GovernmentProteus:UpdateProteusShipmarketDisplay()
     --Logger:trace("entering GovernmentProteus:UpdateProteusShipmarketDisplay")
     local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
 
-    if not self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus] then
-        return
-    end
-
     local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
     local government_display_event = plot.Get_Event("Government_Display")
 
