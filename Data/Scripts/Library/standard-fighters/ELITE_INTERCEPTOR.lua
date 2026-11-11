@@ -120,7 +120,8 @@ return {
 			TATOOINE = {"", false},
 			TRAX = {"", false},	
 			DROMMEL = {"TIE_AVENGER_SQUADRON", false},					
-			BATCH = {"TIE_PHANTOM_SQUADRON", false},												
+			BATCH = {"TIE_PHANTOM_SQUADRON", false},
+			IMPERIAL_CORELLIA = {"", false},															
 		}
 		
 		if owner == "REBEL" then

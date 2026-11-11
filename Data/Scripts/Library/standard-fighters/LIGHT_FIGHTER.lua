@@ -100,7 +100,8 @@ return {
 			TATOOINE = {"TIE_FIGHTER_SQUADRON", false},
 			TRAX = {"", false},	
 			DROMMEL = {"TIE_FIGHTER_SQUADRON", false},				
-			BATCH = {"TIE_INTERCEPTOR_SQUADRON", false},													
+			BATCH = {"TIE_INTERCEPTOR_SQUADRON", false},	
+			IMPERIAL_CORELLIA = {"", false},															
 		}
 		
 		if alias == "IMPERIAL" or owner == "CORELLIA" then

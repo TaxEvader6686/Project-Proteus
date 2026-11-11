@@ -100,7 +100,8 @@ return {
 			TATOOINE = {"", false},
 			TRAX = {"", false},		
 			DROMMEL = {"TIE_DEFENDER_SQUADRON", false},				
-	--		BATCH = {"SCIMITAR_FIGHTERBOMBER_SQUADRON", false},												
+	--		BATCH = {"SCIMITAR_FIGHTERBOMBER_SQUADRON", false},		
+			IMPERIAL_CORELLIA = {"", false},													
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then
