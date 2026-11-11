@@ -517,7 +517,7 @@ return {
 					{"Gorath_Research_Proteus", 11},
 				}
 			},
-			LockList = {{},[11] = "Kile_Hannad_Location_Set"},
+			LockList = {{},[11] = {"Kile_Hannad_Location_Set"}},
 			FactionOverride = "Empire",
 			StartYear = 7,
 			IntroText = "TEXT_CONQUEST_PROTEUS_LUMIYA",
@@ -1312,27 +1312,26 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_COMPNOR",
 			IntroHolo = "_Loop",
 		},
-
 	--	["IMPERIAL_CORELLIA"] = {
-			FriendlyName = "Imperial Corellia",
-			Planets = {"CORELLIA"},
-			LeaderTable = {"PITTA_TORPEDO_SPHERE"},
-			LeaderEndingNames = {"Emperor Furgan"},
-			HeroList = {"Pitta_Torpedo_Sphere"},
-			UnlockList = {
+		--	FriendlyName = "Imperial Corellia",
+		--	Planets = {"CORELLIA"},
+		--	LeaderTable = {"PITTA_TORPEDO_SPHERE"},
+		--	LeaderEndingNames = {"Emperor Furgan"},
+		--	HeroList = {"Pitta_Torpedo_Sphere"},
+		--	UnlockList = {
 				-- Space 
 				
 				-- Ground
 				
 				-- Research
 				
-			},
-			FactionOverride = "Corellia",
-			FactionOverride2 = "Empire",
-			StartYear = 4,
-			LastYear = 6,
-			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
-			IntroHolo = "_Loop",
+	--		},
+		--	FactionOverride = "Corellia",
+			--FactionOverride2 = "Empire",
+		--	StartYear = 4,
+		--	LastYear = 6,
+		--	IntroText = "TEXT_CONQUEST_PROTEUS_CORELLIA",
+		--	IntroHolo = "_Loop",
 	--	},
 		["DROMMEL"] = {
 			FriendlyName = "Oplovis Sector",
@@ -1366,7 +1365,7 @@ return {
 			FriendlyName = "Empire Reborn",
 			Planets = {"VJUN", "BESPIN", "ALZOC", "CHALCEDON", "RUUSAN"},
 			LeaderTable = {"FYYAR_DOOMGIVER_EMPEROR", ["HETHRIR_TEAM"] = {"HETHRIR"}},
-			LeaderEndingNames = {"Omnipotent Master Hethrir"},
+			LeaderEndingNames = {"Emperor Fyyar the First", "Omnipotent Master Hethrir"},
 			HeroList = {"Hethrir_Team", "Fyyar_Doomgiver", "Desann_Team", "Antinnis_Tremayne_Team","Tavion_Axmis_Team", "Nobles_Team"}, 
 			UnlockList = {
 				-- Space 

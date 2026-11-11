@@ -991,7 +991,7 @@
 	<UniqueUnit Name="Fyyar_Doomgiver_Emperor">
 		<Variant_Of_Existing_Type>Fyyar_Doomgiver</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_HERO_FYYAR</Text_ID>
+		<Text_ID>TEXT_HERO_FYYAR_EMPEROR</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE
@@ -999,15 +999,15 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_FYYAR_EMPEROR
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
-		TEXT_TOOLTIP_COMMAND_DOOMGIVER
+		TEXT_TOOLTIP_COMMAND_DOOMGIVER_E
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_DOOMGIVER_HULL
-		TEXT_TOOLTIP_DOOMGIVER_SHIELD
+		TEXT_TOOLTIP_DOOMGIVER_SHIELD_E
 		TEXT_TOOLTIP_DOOMGIVER_MOVE
-		TEXT_TOOLTIP_DOOMGIVER_SQUADRON
-		TEXT_TOOLTIP_DOOMGIVER_WEAP1
+		TEXT_TOOLTIP_DOOMGIVER_EMPEROR_SQUADRON
+		TEXT_TOOLTIP_DOOMGIVER_WEAP1E
 		TEXT_TOOLTIP_DOOMGIVER_WEAP2
-		TEXT_TOOLTIP_DOOMGIVER_WEAP3
+		TEXT_TOOLTIP_DOOMGIVER_WEAP3E
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
@@ -1019,9 +1019,13 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->		
 		<Ranking_In_Category>1</Ranking_In_Category>
-		
-		<Tech_Level>99</Tech_Level>
 
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+		<Shield_Points>15000</Shield_Points>
+		<Shield_Refresh_Rate>112.5</Shield_Refresh_Rate>
+		<Max_Speed>4.2</Max_Speed>
+		<Tech_Level>99</Tech_Level>
+		<Population_Value>95</Population_Value>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
@@ -1063,6 +1067,15 @@
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 		</Abilities>
+
+			<HardPoints>
+			HP_Doomgiver_Engine1, HP_Doomgiver_Engine2,
+			HP_Doomgiver_Hangar,
+			HP_Doomgiver_HOTurbo01, HP_Doomgiver_HOTurbo02, HP_Doomgiver_HOTurbo03,
+			HP_Doomgiver_LDTurbo01E, HP_Doomgiver_LDTurbo02E, HP_Doomgiver_LDTurbo03E, HP_Doomgiver_LDTurbo04E,
+			HP_Doomgiver_MTurbo1, HP_Doomgiver_MTurbo2, HP_Doomgiver_MTurbo3, HP_Doomgiver_MTurbo4, HP_Doomgiver_MTurbo5, HP_Doomgiver_MTurbo6
+		</HardPoints>
+
 	</UniqueUnit>
 
 	<UniqueUnit Name="Anton_Kale">
