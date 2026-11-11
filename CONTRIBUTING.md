@@ -1,6 +1,9 @@
 # Contributing
 
-This guide covers safe workflows for proposing changes to the Project Proteus `Dev` branch.
+Thanks for helping with Project Proteus!
+
+This guide covers workflows for proposing changes to the Project Proteus `Dev` branch.
+You can also report an issue or suggest an idea without editing files or learning Git.
 
 ## Index
 
@@ -43,7 +46,8 @@ Issues track bugs, ideas, and tasks in the original project.
 - Reference related issues or pull requests with `#` followed by their number, such as `#123`.
 - For task/todo lists, put each item on its own line, starting with `- [ ]` for an open task or `- [x]` for a completed task.
 
-> **Tip:** Keep progress in the GitHub issue and link any relevant Discord discussions.
+> [!TIP]
+> Keep progress in the GitHub issue and link any relevant Discord discussions.
 
 ## Tools
 
@@ -87,6 +91,7 @@ They provide quality-of-life features like syntax highlighting, code completion,
 - [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) by sumneko is a universal Lua Language Server.
 - [pg-starwarsgame-lsp](https://github.com/AlamoEngine-Tools/pg-starwarsgame-lsp) is a custom language server made specifically for EaW.
 
+> [!WARNING]
 > Having multiple language servers active at the same time may conflict in some cases.
 
 ### References
@@ -155,7 +160,8 @@ Submod files live in the `Data/` folder:
 - `XML` for game definitions
 - `Text` or `ShipNames` for game text, especially `Submod_text.txt`
 
-**WARNING: Do not include changed/compiled binary archives (.mtd, .dat) in your commits!**
+> [!WARNING]
+> **Do not include changed/compiled binary archives (.mtd, .dat) in your commits!**
 
 For text changes to appear in the game, run `Text/alphabetize-and-build.bat` to update the `MasterTextFile_ENGLISH.dat` file.
 
@@ -202,7 +208,8 @@ While you work, other contributors may update `Dev`.
 
 A **merge conflict** occurs when Git cannot automatically combine changes, usually because two contributors edited the same part of a file.
 
-> **Do not blindly overwrite changes.**
+> [!CAUTION]
+> Do not blindly overwrite changes.
 > Accepting one version may discard the work of another contributor.
 > If an update reports a conflict you do not understand, stop and ask for help on Discord.
 
@@ -211,6 +218,7 @@ A **merge conflict** occurs when Git cannot automatically combine changes, usual
 3. Save the files and complete the merge in GitHub Desktop.
 4. Test your changes in game, then push your branch.
 
+> [!IMPORTANT]
 > Even if Git merges successfully, XML or Lua changes may still conflict logically.
 > Always test affected features in game.
 
@@ -293,6 +301,7 @@ Open a pull request targeting the upstream `Dev` branch:
 gh pr create --repo TaxEvader6686/Project-Proteus --base Dev --fill
 ```
 
+> [!IMPORTANT]
 > Include the reason for the change and your in-game test results in the pull request description.
 
 ### Merging updates
@@ -325,8 +334,9 @@ git merge --abort
 
 ### Rebasing updates
 
-**WARNING: This rewrites the branch git history!**
-Do not use it on a branch others are also using.
+> [!WARNING]
+> **This rewrites the branch git history!**
+> Do not use it on a branch others are also using.
 
 To reapply your commits on top of the latest `origin/Dev`:
 ```bash
@@ -336,6 +346,7 @@ git switch your-branch-name
 git rebase Dev
 ```
 
+> [!CAUTION]
 > If you already pushed this branch, update your fork with `git push --force-with-lease`.
 > Never use `--force` unless you understand the consequences (it can discard remote commits).
 
@@ -346,7 +357,9 @@ git rebase --abort
 
 ### Resetting your branch
 
-**WARNING: This can delete your own git history!**
+> [!WARNING]
+> **This can delete your own git history!**
+
 Save any work you want to keep in a separate branch first:
 ```bash
 git switch -c your-new-branch-name

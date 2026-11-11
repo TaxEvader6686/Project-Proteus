@@ -28,17 +28,19 @@ See the [player roster document](https://docs.google.com/document/d/1O1PfMpgP9tF
 
 ### Play the released submod
 
-1. Subscribe to [Project Proteus on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3711433343)
-2. Subscribe to [Thrawn's Revenge](https://steamcommunity.com/sharedfiles/filedetails/?id=1125571106)
-3. In Steam Library, right-click the game, choose `Properties -> General`, and enter these Launch Options to start Forces of Corruption:
+1. Subscribe to [Project Proteus on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3711433343).
+2. Subscribe to [Thrawn's Revenge](https://steamcommunity.com/sharedfiles/filedetails/?id=1125571106) and wait for Steam to download both mods.
+3. In your Steam Library, right-click **Empire at War**, choose `Properties -> General`, and enter the following **Launch Options**:
    ```
    STEAMMOD=3711433343 STEAMMOD=1125571106
    ```
+4. Launch **Forces of Corruption**.
 
 ### Sub-submods
 
 - [Megamap submod](https://steamcommunity.com/sharedfiles/filedetails/?id=3711566915) is a sandbox-style Galactic Conquest Map.
 
+> [!NOTE]
 > Anybody can create their own sub-submods with credit.
 
 ## License
