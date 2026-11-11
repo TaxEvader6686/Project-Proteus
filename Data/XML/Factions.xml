@@ -354,6 +354,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -1246,6 +1247,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
@@ -2487,6 +2489,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3254,6 +3257,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -4039,6 +4043,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -4822,6 +4827,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -5605,6 +5611,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -6584,6 +6591,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7253,6 +7261,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7785,6 +7794,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Blue </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -9929,6 +9939,7 @@
 			Starbolt_Tender,
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
+			Nebulon_B2,
 			Destruction1214,
 			Rook_Frostfire,
 			TaxEvader_SynTax_Error,

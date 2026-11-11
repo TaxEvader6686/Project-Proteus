@@ -2174,3 +2174,41 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
+TEXT_UNIT_TIE_OPPRESSOR_MISSILE,Missile TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3,1x Fighter Assault Concussion Missile: 2 / 50.0s / 1.8km
+TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON,Missile TIE Oppressor Squadron
+TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE,Blame Supernova if this is still in at release.
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON,Squadron: 12x Missile TIE Oppressor
+TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON2,Missile TIE Oppressor Squadron x2
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile TIE Oppressor
+TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF,Missile TIE Oppressor Squadron 1/2
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF,Squadron: 6x Missile TIE Oppressor
+TEXT_UNIT_TIE_OPPRESSOR_TORPEDO,Torpedo TIE Oppressor
+TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO,Blame Supernova if this is still in at release.
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3,1x Fighter Proton Torpedo: 2 / 30.0s / 1.8km
+TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON,Torpedo TIE Oppressor Squadron
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON,Squadron: 12x Torpedo TIE Oppressor
+TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON2,Torpedo TIE Oppressor Squadron x2
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_DOUBLE,Squadron: 24x Torpedo TIE Oppressor
+TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF,Torpedo TIE Oppressor Squadron 1/2
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF,Squadron: 6x Torpedo TIE Oppressor
+TEXT_UNIT_TIE_DEFENDER_BOMBER,TIE Defender Bomber
+TEXT_TOOLTIP_TIE_DEFENDER_BOMBER,A variant of the TIE Defender that mounts bomber-grade munitions with only a minor reduction to flight performance.
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE,Speed: 7.5 | Maneuverability: 5.0
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3,1x Proton Rocket (AC): 1 / 18.75s / 3.0km
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4,1x Concussion Bomb (AC): 1 / 25.0s / 0.8km
+TEXT_TIE_DEFENDER_BOMBER_SQUADRON,TIE Defender Bomber Squadron
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON,Squadron: 12x TIE Defender Bomber
+TEXT_TIE_DEFENDER_BOMBER_SQUADRON2,TIE Defender Bomber Squadron x2
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_DOUBLE,Squadron: 24x TIE Defender Bomber
+TEXT_TIE_DEFENDER_BOMBER_SQUADRON_HALF,TIE Defender Bomber Squadron 1/2
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_HALF,Squadron: 6x TIE Defender Bomber
+TEXT_TOOLTIP_NEBULONB2,A short lived successor to the venerable Nebulon-B. While not as popular as preceding and succeeding Kuati frigates, the B2 still packed a respectable armament that allowed it to threaten larger and smaller vessels alike.
+TEXT_TOOLTIP_NEBULONB2_HULL,Hull: 950 (Frigate)
+TEXT_TOOLTIP_NEBULONB2_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.4
+TEXT_TOOLTIP_NEBULONB2_SHIELD,Shield: 900 (15.75r/R) (Frigate)
+TEXT_TOOLTIP_NEBULONB2_SQUADRON,Fighters: 0.5/0.5
+TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolaser: 2 / 3.33s / 3km
+TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolaser: 2 / 1.90s / 2.5km
+TEXT_TOOLTIP_NEBULONB2_WEAP3,1x Concussion Missile: 1/ 30.0s / 2.0km
+TEXT_UNIT_NEBULONB2,EF76 Nebulon B2-class Frigate

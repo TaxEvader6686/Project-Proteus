@@ -983,6 +983,7 @@ return {
 ["KIARA_SCHMONG"] = true,
 ["DROMMEL_WOLFS_CLAW"] = true,
 ["DROMMEL_GUARDIAN_DUMMY"] = true,
+["NEBULON_B2"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,

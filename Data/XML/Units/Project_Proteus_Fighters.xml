@@ -15655,4 +15655,493 @@
 		</Unit_Abilities_Data>
 	</Container>
 
+	<!-- TIE Oppressor Missile Fighter-Bomber -->
+	<SpaceUnit Name="TIE_Oppressor_FB_Missile">
+		<Variant_Of_Existing_Type>TIE_Oppressor</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_OPPRESSOR_MISSILE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE.TGA</Icon_Name>
+
+		<AI_Combat_Power>6.34</AI_Combat_Power>
+		<Affiliation>Independent_Forces</Affiliation>
+		<HardPoints>
+			HP_Oppressor_00, HP_Oppressor_01, HP_Oppressor_Missile
+		</HardPoints>
+
+	</SpaceUnit>
+
+	<Squadron Name="TIE_Oppressor_FB_Missile_Squadron">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE_ONE.TGA</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Oppressor_FB_Missile_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Oppressor_FB_Missile_Squadron_Container">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE_ONE.TGA</Icon_Name>
+	</Container>
+
+	<Squadron Name="TIE_Oppressor_FB_Missile_Squadron_Double">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Double</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE_TWO.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Oppressor_FB_Missile_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Oppressor_FB_Missile_Squadron_Double_Container">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Double_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE_TWO.tga</Icon_Name>
+	</Container>
+
+	<Squadron Name="TIE_Oppressor_FB_Missile_Squadron_Half">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Half</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE_HALF.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Oppressor_FB_Missile_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile, TIE_Oppressor_FB_Missile</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Oppressor_FB_Missile_Squadron_Half_Container">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Half_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_MISSILE_HALF.tga</Icon_Name>
+	</Container>
+
+	<!--TIE Oppressor Torpedo Fighter-Bomber -->
+	<SpaceUnit Name="TIE_Oppressor_FB_Torpedo">
+		<Variant_Of_Existing_Type>TIE_Oppressor</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_OPPRESSOR_TORPEDO</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO.TGA</Icon_Name>
+
+		<AI_Combat_Power>5.60</AI_Combat_Power>
+		<Affiliation>Independent_Forces</Affiliation>
+		<HardPoints>
+			HP_Oppressor_00, HP_Oppressor_01, HP_Oppressor_Torpedo
+		</HardPoints>
+
+	</SpaceUnit>
+
+	<Squadron Name="TIE_Oppressor_FB_Torpedo_Squadron">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO_ONE.TGA</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Oppressor_FB_Torpedo_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Oppressor_FB_Torpedo_Squadron_Container">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO_ONE.TGA</Icon_Name>
+	</Container>
+
+	<Squadron Name="TIE_Oppressor_FB_Torpedo_Squadron_Double">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Double</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO_TWO.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Oppressor_FB_Torpedo_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Oppressor_FB_Torpedo_Squadron_Double_Container">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Double_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO_TWO.tga</Icon_Name>
+	</Container>
+
+	<Squadron Name="TIE_Oppressor_FB_Torpedo_Squadron_Half">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Half</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO_HALF.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Oppressor_FB_Torpedo_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+		<Squadron_Units>TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo, TIE_Oppressor_FB_Torpedo</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Oppressor_FB_Torpedo_Squadron_Half_Container">
+		<Variant_Of_Existing_Type>TIE_Oppressor_Squadron_Half_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FB </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_OPPRESSOR_BASE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_MOVE
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP1
+		TEXT_STATBLOCK_TIE_OPPRESSOR_WEAP2
+		TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_OPPRESSOR_TORPEDO_HALF.tga</Icon_Name>
+	</Container>
+
+	<!-- TIE Defender Bomber -->
+	<SpaceUnit Name="TIE_Defender_Bomber">
+		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_DEFENDER_BOMBER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER.TGA</Icon_Name>
+
+		<Max_Speed>7.5</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		<Max_Thrust>5.63</Max_Thrust>
+		<OverrideAcceleration>5.63</OverrideAcceleration>
+		<OverrideDeceleration>2.81</OverrideDeceleration>
+		<Max_Lift>5.63</Max_Lift>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<AI_Combat_Power>24.21</AI_Combat_Power>
+		<Affiliation>Independent_Forces</Affiliation>
+		<HardPoints>
+			HP_TIE_DEFENDER_LASER_00,
+			HP_TIE_DEFENDER_LASER_01,
+			HP_TIE_DEFENDER_ION_00,
+			HP_TIE_DEFENDER_BOMBER_01,
+			HP_TIE_DEFENDER_BOMBER_02
+		</HardPoints>
+
+	</SpaceUnit>
+
+	<Squadron Name="TIE_Defender_Bomber_Squadron">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_DEFENDER_BOMBER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER_ONE.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Defender_Bomber_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Defender_Bomber_Squadron_Container">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_DEFENDER_BOMBER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER_ONE.tga</Icon_Name>
+		<!-- Same as unit -->
+		<Max_Speed>7.5</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+	</Container>
+
+	<Squadron Name="TIE_Defender_Bomber_Squadron_Double">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron_Double</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_DEFENDER_BOMBER_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER_TWO.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Defender_Bomber_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Defender_Bomber_Squadron_Double_Container">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron_Double_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_DEFENDER_BOMBER_SQUADRON2</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER_TWO.tga</Icon_Name>
+		<!-- Same as unit -->
+		<Max_Speed>7.5</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+	</Container>
+
+	<Squadron Name="TIE_Defender_Bomber_Squadron_Half">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron_Half</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_DEFENDER_BOMBER_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER_HALF.tga</Icon_Name>
+
+		<Affiliation>Independent_Forces</Affiliation>
+		<Create_Team_Type>TIE_Defender_Bomber_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+		<Squadron_Units>TIE_Defender_Bomber, TIE_Defender_Bomber, TIE_Defender_Bomber</Squadron_Units>
+	</Squadron>
+
+	<Container Name="TIE_Defender_Bomber_Squadron_Half_Container">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron_Half_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_DEFENDER_BOMBER_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_BOMBERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_DEFENDER_BOMBER 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER_BOMBER_HALF.tga</Icon_Name>
+		<!-- Same as unit -->
+		<Max_Speed>7.5</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+	</Container>
+
 </Project_Proteus_Fighters>

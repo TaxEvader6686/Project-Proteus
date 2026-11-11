@@ -2512,6 +2512,7 @@
 		Starbolt_Tender, 								Data\ShipNames\Starbolt.txt,
 		Invincible_Cruiser_Tender, 						Data\ShipNames\Invincible.txt,
 		Invincible_Cruiser_Modernized, 					Data\ShipNames\Invincible.txt,
+		Nebulon_B2, 									Data\ShipNames\Nebulon_B_Frigate.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->
