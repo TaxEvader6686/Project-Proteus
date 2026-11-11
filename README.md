@@ -38,10 +38,18 @@ See the [player roster document](https://docs.google.com/document/d/1O1PfMpgP9tF
 
 ### Sub-submods
 
-- [Megamap submod](https://steamcommunity.com/sharedfiles/filedetails/?id=3711566915) is a sandbox-style Galactic Conquest Map.
+- [Proteus Megamap](https://steamcommunity.com/sharedfiles/filedetails/?id=3711566915) is a sandbox-style Galactic Conquest Map.
+- [Unique Shipyard Garrisons & Field Bases](https://steamcommunity.com/sharedfiles/filedetails/?id=3739968809)
+- [Project Proteus Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3749044347) features minor edits to rosters, mission rewards, and unit abilities.
+- [Project Proteus Zaarin's Return](https://steamcommunity.com/sharedfiles/filedetails/?id=3722456540) adds Grand Admiral Zaarin.
+- [Project Proteus Zaarin Unbound](https://steamcommunity.com/sharedfiles/filedetails/?id=3752811939) also adds the "Glory Class" Star Destroyer.
+- [What if Proteus](https://steamcommunity.com/sharedfiles/filedetails/?id=3825103880) adds multiple new minor proteus factions.
+- [GGC What if Proteus](https://steamcommunity.com/sharedfiles/filedetails/?id=3830018589)
+- [Proteus Two](https://steamcommunity.com/sharedfiles/filedetails/?id=3827691707) allows up to two active Proteus factions on the map.
+- [Proteus Two Compat Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3827663557)
 
 > [!NOTE]
-> Anybody can create their own sub-submods with credit.
+> Anybody can create their own sub-submods and compatibility patches.
 
 ## License
 
