@@ -95,7 +95,7 @@ return {
 			SECRET = {"TIE_DEFENDER_SQUADRON", false},
 			SCREED = {"ARC_170_SQUADRON", false},
 			NIVERS = {"TIE_AVENGER_ASSAULT_SQUADRON", false},
-			COMPNOR = {"", false},
+			COMPNOR = {"TIE_DEFENDER_SQUADRON", false},
 			MINOS = {"ARC_170_SQUADRON", false},
 			TATOOINE = {"", false},
 			TRAX = {"", false},		

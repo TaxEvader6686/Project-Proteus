@@ -846,7 +846,7 @@ return {
 			HeroList = {{"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"}, [6] = {"Ulric_Tagge", "Dimone_Irrv_Team", "Shara_Or_Team"}},
 			UnlockList = {
 				-- Space
-				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", "Super_Transport_VII_Interdictor", 			
+				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Nebulon_B2", "Surveyor_Frigate", "CEC_Light_Cruiser", "Super_Transport_VII_Interdictor", 			
 				"Picket_DHC", "Pursuit_Light_Cruiser", "Super_Transport_XI_Missile", "Gladiator_I", "MTC_Support", "MTC_Sensor", "MTC_Combat", 
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
@@ -1301,9 +1301,10 @@ return {
 				"Compforce_Assault_Company", "ISB_Infiltrator_Company", "CSA_Destroyer_Droid_Company", "Imperial_74Z_Bike_Company",
 				"PX10_Company", "AT_ST_A_Company", "Scorpenek_Company",
 				"TIE_Crawler_Company", "Persuader_Company", "JX40_Company", "Nemesis_Gunship_Company", "AT_AA_Laser_Walker_Company", "SPMAG_Walker_Company",
-				"A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"
+				"A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company",
 				-- Research
-				
+				-- Structures
+				"ISB_HQ",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",
