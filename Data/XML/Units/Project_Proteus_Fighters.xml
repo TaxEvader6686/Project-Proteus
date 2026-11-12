@@ -16144,4 +16144,100 @@
 		<Min_Speed>1.5</Min_Speed>
 	</Container>
 
+	<Squadron Name="Mixed_TIE_Defender_Interceptor_Squadron">
+
+		<Text_ID>TEXT_MIXED_TIE_DEFENDER_INTERCEPTOR_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_MIXED_TIE_DEFENDER_INTERCEPTOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_DEFENDER_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_DEFENDER_BASE
+		TEXT_STATBLOCK_TIE_DEFENDER_MOVE
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP1
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP2
+		TEXT_STATBLOCK_TIE_DEFENDER_WEAP3
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_MOVE 
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_MIXED_DEFENDER_INTERCEPTOR_SQUADRON.tga</Icon_Name> <!-- unique icon? -->
+
+		<Autoresolve_Health>400</Autoresolve_Health>
+		<Damage>1</Damage>
+		
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures>AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Bribe_Cost>600</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 1000</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		
+		<Lua_Script/>
+
+		<Max_Squad_Size> 12 </Max_Squad_Size>
+
+		<Squadron_Units>TIE_Defender, TIE_Defender, TIE_Defender, TIE_Interceptor</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor, TIE_Interceptor, TIE_Defender, TIE_Defender</Squadron_Units>
+		<Squadron_Units>TIE_Defender, TIE_Interceptor, TIE_Interceptor, TIE_Interceptor</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Defender</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>80.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
 </Project_Proteus_Fighters>

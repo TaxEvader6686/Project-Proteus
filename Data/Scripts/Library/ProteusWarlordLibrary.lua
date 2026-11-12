@@ -1166,7 +1166,7 @@ return {
 			Planets = {"PREFSBELT"},
 			LeaderTable = {"BATCH_MENISCUS"},
 			LeaderEndingNames = {"Emperor Batch"},
-			HeroList = {"Batch_Meniscus"},
+			HeroList = {"Batch_Meniscus", "Agamar_Mephitis"},
 			UnlockList = {
 				-- Space 
 				"Gamma_ATR_6_Group", "IPV1", "Lancer_Frigate_Prototype", "Active_Frigate", "Quasar", "Vigil",
@@ -1380,6 +1380,7 @@ return {
 				"TIE_Crawler_Company", "AV_7_Company", "Imperial_Shadow_LAAT_Company", "AT_AA_Flak_Walker_Company",
 				"A9_Floating_Fortress_Company", "AT_AT_Walker_IC_Company", 
 				-- Dummies
+				"Fyyar_Regime_Dummy",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Rebel",

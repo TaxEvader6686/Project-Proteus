@@ -898,6 +898,7 @@ return {
 ["ACCLAMATOR_DESTROYER"] = true,
 ["ACCLAMATOR_I_SUPERCRUISER"] = true,
 ["ACCLAMATOR_I_SUPPORT"] = true,
+["AGAMAR_MEPHITIS"] = true,
 ["BAYONET_CRUISER"] = true,
 ["CARRACK_CRUISER_LASER"] = true,
 ["CARRACK_CRUISER_ZETA"] = true,
@@ -984,6 +985,7 @@ return {
 ["DROMMEL_WOLFS_CLAW"] = true,
 ["DROMMEL_GUARDIAN_DUMMY"] = true,
 ["NEBULON_B2"] = true,
+["MINI_CARRACK"] = true,
 -- Project Proteus Dev Heroes
 ["TAXEVADER_SYNTAX_ERROR"] = true,
 ["TAXEVADER_DREAM_OF_A_QUIET_LIFE"] = true,

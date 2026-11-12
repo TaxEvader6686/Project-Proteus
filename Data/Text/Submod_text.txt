@@ -315,7 +315,7 @@ TEXT_RECRUIT_PIRA_LEEMAD_DESCRIPTION,Recruit Lant Mining Corporation Chief Admin
 TEXT_RECRUIT_PIRA_LEEMAD_NAME,Recruit Pira Leemad
 TEXT_RECRUIT_URLAN_DESCRIPTION,Convince the former Arch-Provost of Rendili, Bengila Urlan, to serve the military administration as a figurehead to placate and negotiate with local and corporate elites. 
 TEXT_RECRUIT_URLAN_NAME,Recall Bengila Urlan from Retirement
-TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME,TODO
+TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME,Assist Galak Fyyar in overthrowing both Hethrir and Desann and taking full control of the Reborn and the Valley of the Jedi's energies for himself. Emperor Fyyar will siphon the energies of the Valley to fuel his technology even further, and rule the Empire Reborn as a soldier, not a mad wizard.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_HALF,Republic Z-95 Squadron 1/2
@@ -547,6 +547,12 @@ TEXT_STATBLOCK_TIE_AVENGER_WEAP4,1x Fighter Assault Concussion Missile: 1 / 50.0
 TEXT_STATBLOCK_TIE_AVENGER_WEAP5,1x Proton Rocket (AC): 1 / 50.0s / 3.0km
 TEXT_STATBLOCK_TIE_AVENGER_WEAP6,1x Light Concussion Bomb (AC): 1 / 37.5s / 0.8km
 TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE,Health: 225 | Unshielded
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE,Speed: 7.5 | Maneuverability: 5.0
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON,Squadron: 12x TIE Defender Bomber
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_DOUBLE,Squadron: 24x TIE Defender Bomber
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_HALF,Squadron: 6x TIE Defender Bomber
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3,1x Proton Rocket (AC): 1 / 18.75s / 3.0km
+TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4,1x Concussion Bomb (AC): 1 / 25.0s / 0.8km
 TEXT_STATBLOCK_TIE_DEFENDER_RED_STAR_MOVE,Speed: 8.66 | Maneuverability: 5.5
 TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON,12x Special Mission Refit TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE,24x Special Mission Refit TIE Fighter
@@ -581,6 +587,14 @@ TEXT_STATBLOCK_TIE_LIGHT_BOMBER_SQUADRON_DOUBLE,Squadron: 24x TIE Light  Bomber
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_SQUADRON_HALF,Squadron: 6x TIE Light  Bomber
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_WEAP3,1x Proton Rocket (AC): 1 / 20.0s / 3.0km
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_WEAP4,1x Concussion Bomb (AC): 1 / 20.0s / 0.8km
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON,Squadron: 12x Missile TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF,Squadron: 6x Missile TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3,1x Fighter Assault Concussion Missile: 2 / 50.0s / 1.8km
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON,Squadron: 12x Torpedo TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_DOUBLE,Squadron: 24x Torpedo TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF,Squadron: 6x Torpedo TIE Oppressor
+TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3,1x Fighter Proton Torpedo: 2 / 30.0s / 1.8km
 TEXT_STATBLOCK_TRIFIGHTER_BASE,Health: 10 | Unshielded
 TEXT_STATBLOCK_TRIFIGHTER_MOVE,Speed: 7.4 | Maneuverability: 5.65
 TEXT_STATBLOCK_TRIFIGHTER_SQUADRON,Squadron: 12x Droid Tri-Fighter
@@ -658,6 +672,9 @@ TEXT_TIE_AVENGER_BOMBER_SQUADRON2,TIE Avenger Bomber Squadron x2
 TEXT_TIE_AVENGER_TORPS_SQUADRON,Torpedo TIE Avenger Squadron
 TEXT_TIE_AVENGER_TORPS_SQUADRON_HALF,Torpedo TIE Avenger Squadron 1/2
 TEXT_TIE_AVENGER_TORPS_SQUADRON2,Torpedo TIE Avenger Squadron x2
+TEXT_TIE_DEFENDER_BOMBER_SQUADRON,TIE Defender Bomber Squadron
+TEXT_TIE_DEFENDER_BOMBER_SQUADRON_HALF,TIE Defender Bomber Squadron 1/2
+TEXT_TIE_DEFENDER_BOMBER_SQUADRON2,TIE Defender Bomber Squadron x2
 TEXT_TIE_FIGHTER_BF2_SQUADRON,Special Mission Refit TIE Fighter Squadron
 TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF,Special Mission Refit TIE Fighter Squadron 1/2
 TEXT_TIE_FIGHTER_BF2_SQUADRON2,Special Mission Refit TIE Fighter Squadron x2
@@ -679,6 +696,12 @@ TEXT_TIE_INTERCEPTOR_ION_SQUADRON2,Ion Refit TIE Interceptor Squadron x2
 TEXT_TIE_LIGHT_BOMBER_SQUADRON,TIE Light Bomber Squadron
 TEXT_TIE_LIGHT_BOMBER_SQUADRON_HALF,TIE Light Bomber Squadron 1/2
 TEXT_TIE_LIGHT_BOMBER2_SQUADRON,TIE Light Bomber Squadron x2
+TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON,Missile TIE Oppressor Squadron
+TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF,Missile TIE Oppressor Squadron 1/2
+TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON2,Missile TIE Oppressor Squadron x2
+TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON,Torpedo TIE Oppressor Squadron
+TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF,Torpedo TIE Oppressor Squadron 1/2
+TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON2,Torpedo TIE Oppressor Squadron x2
 TEXT_TOOLTIP_008_SPEEDER,A model of heavy combat repulsorlift released during the height of the Galactic Civil War. The 008 was popular with remote Imperial garrisons in the Rim as well as mercenary units who acquire the vehicles through questionable means. While it proved a potent combatant, its service history and reputation was marred by a design flaw that caused the craft to become unstable if both weapons were fired simultaneously.
 TEXT_TOOLTIP_008_SPEEDER_COMPANY,Company: 2x 008 Heavy Landspeeder
 TEXT_TOOLTIP_008_SPEEDER_HEALTH,Health: 250 (Medium Vehicle)
@@ -928,6 +951,7 @@ TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
 TEXT_TOOLTIP_COMMAND_MAHKKAR,Interceptor I-class Frigate
 TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_MARATHON,Imperial Escort Carrier, Marathon
+TEXT_TOOLTIP_COMMAND_MEPHITIS,Nebulon-B Frigate, Mephitis
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
 TEXT_TOOLTIP_COMMAND_OSTRANDER,Imperial-I Star Destroyer Command Refit, Ostrander
 TEXT_TOOLTIP_COMMAND_PATROLLER,Carrack Cruiser, Patroller
@@ -1408,6 +1432,7 @@ TEXT_TOOLTIP_MANSK_SHIELD,Shields: 720 / [16.2/R] (Corvette)
 TEXT_TOOLTIP_MANSK_WEAP1,1x Light Ion Cannon: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_MANSK_WEAP2,6x Light Dual Rapid Laser Cannons: 6 / 5.0s / 3.0km
 TEXT_TOOLTIP_MANTA_FIGHTER,Tapani Assault starfighter favored all over the Tapani Sector. The Manta Fighter was designed to defend against pirates and is thus not well suited to strikes against capital ships, however its impressive speed makes it great at chasing down enemy fighters.
+TEXT_TOOLTIP_MEPHITIS_SQUADRON,Fighters: 2 / 0
 TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of the Dark Side and later became one half of the Emperor's Eyes. Her training with esoteric Force techniques under various masters, including Cronal and his daughter Sariss, drove her to insanity. Following the Emperor's apparent death over Endor, she was assigned to watch over Grand Admiral Pecatti Syn to keep him in line.
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
@@ -1415,6 +1440,14 @@ TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
 TEXT_TOOLTIP_MICHAEL,TODO
 TEXT_TOOLTIP_MICHAEL_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_MILITARY_SOLDIER_MEDIC_SQUAD_WEAP1,10 Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_MINI_CARRACK,A heavily modified Carrack Cruiser which reduced the vessel to less than half its length. This model was used as a landing barge or a shuttle for officers entering hostile space, but could also be utilized as a screening ship. This unit is best used against enemy fighters.
+TEXT_TOOLTIP_MINI_CARRACK_HULL,Hull: 700 (Corvette)
+TEXT_TOOLTIP_MINI_CARRACK_MOVE,TODO
+TEXT_TOOLTIP_MINI_CARRACK_PD,Point-Defense: 1 / 0.26s / 1.75km
+TEXT_TOOLTIP_MINI_CARRACK_SHIELD,Shields: 700 / [14/R] (Corvette)
+TEXT_TOOLTIP_MINI_CARRACK_SQUADRON,Fighters: 0.33 / 0
+TEXT_TOOLTIP_MINI_CARRACK_WEAP1,2x Heavy Rapid Laser Cannons: 6 / 1.25s / 4.0km
+TEXT_TOOLTIP_MINI_CARRACK_WEAP2,1x Light Anti-Fighter Ion Cannon: 2 / 3.33s / 4.0km 
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR,The original Procurator hulls were deliberately undergunned to comply with the Ruusan Reformation rules regarding battlecruisers, but following the outbreak of the Clone Wars, some of these older models saw their armament and combat support systems drastically increased, taking full advantage of their for the time advanced reactors. However, the later and bigger Praetor series would see most of the combat assignments during the Clone Wars and the early Imperial period, leaving the Procurator to languish in reserve fleets and Imperial-aligned private arsenals. In the post-Endor period, a number of these older vessels would be reactivated and further upgraded, though they would never achieve prominence owing to their limited production run and aging hulls. While not as powerful as modern battlecruisers, they can deal with most Star Destroyer-level threats.
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_SHIELD,Shields: 12000 / [30/R] (Capital)
 TEXT_TOOLTIP_MODERNIZED_PROCURATOR_UPGRADE,Upgrade the Procurator to a Post-Ruusan Armament.
@@ -1434,6 +1467,14 @@ TEXT_TOOLTIP_NAMMAN_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_NAMMAN_MOVE,Speed: 1.2
 TEXT_TOOLTIP_NAMMAN_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
 TEXT_TOOLTIP_NAVYCOMMANDO_SQUAD_MEDIC_WEAP1,9x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_NEBULONB2,A short lived successor to the venerable Nebulon-B. While not as popular as preceding and succeeding Kuati frigates, the B2 still packed a respectable armament that allowed it to threaten larger and smaller vessels alike.
+TEXT_TOOLTIP_NEBULONB2_HULL,Hull: 950 (Frigate)
+TEXT_TOOLTIP_NEBULONB2_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.4
+TEXT_TOOLTIP_NEBULONB2_SHIELD,Shield: 900 (15.75r/R) (Frigate)
+TEXT_TOOLTIP_NEBULONB2_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolaser: 2 / 3.33s / 3km
+TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolaser: 2 / 1.90s / 2.5km
+TEXT_TOOLTIP_NEBULONB2_WEAP3,1x Concussion Missile: 1 / 30.0s / 2.0km
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD,Neimoidian soldiers originally drawn into service defending Neimoidia and its purse worlds. These Guard units could be transferred to defending worlds where droids were unusable along with serving as protection for Separatist officials. They are drawn from all aspects of Neimoidian society including mercenaries and convicts given promise of amnesty. The capabilities of these infantry are not to be underestimated; they are heavily armed and highly motivated enough to prove doubtful claims about Neimoidian mettle false.
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY,Company: 24x Neimoidian Guard
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
@@ -1728,6 +1769,7 @@ TEXT_TOOLTIP_THORN_WEAP1,1x Lightsaber: 1 / 0.3s / 1m
 TEXT_TOOLTIP_TIE_AVENGER_ASSAULT,An alternate loadout of the TIE Avenger equipped with assault concussion missiles instead of standard concussion missiles. Well equipped for facing clustered groups of enemy fighters or assisting bombers in actions against frigates and capital ships. Larger munitions lead to fewer missiles carried than on the standard model.
 TEXT_TOOLTIP_TIE_AVENGER_BOMBER,TIE Avenger model outfitted with as many rockets and light bombs as possible for bomber duties without sacrificing the Avenger's impressive speed and manuverability. While not directly as effective as other bombers its impressive speed gives it a unique ability to excel in hit-and-run attacks on enemy capital ships.
 TEXT_TOOLTIP_TIE_AVENGER_TORPS,An alternate loadout of the TIE Avenger equipped with proton torpedoes instead of concussion missiles. Still well suited for all situations.
+TEXT_TOOLTIP_TIE_DEFENDER_BOMBER,A variant of the TIE Defender that mounts bomber-grade munitions with only a minor reduction to flight performance.
 TEXT_TOOLTIP_TIE_DEFENDER_RED_STAR,Created a year after the disaster at Endor, Red Star Squadron was formed by starfighter ace Iran Ryad along with like-minded pilots who shared Ryad's idea of a zero-tolerance border policy. These Imperial pilots would relentlessly pursue any starships that entered Imperial space without permission.
 TEXT_TOOLTIP_TIE_FIGHTER_BF2,A rare ad-hoc modification of the ubiquitous TIE Fighter, almost always operating from the equally rare Imperial Carrier Conversion Star Destroyers. It featured shields and a small proton torpedo magazine to keep up with the heavier X-Wings of the Rebellion and be a more versatile platform in carrier-to-carrier combat and anti-insurgency missions. However, despite upgraded components and the engineers' best tuning efforts, the additional systems impacted the flight performance significantly, making the normally nimble craft much more sluggish. The increased cost, reduced agility, and susceptibility to component sabotage made this variant a rare sight outside its original duties. Most famous for its service with naval forces attached to the 501st Legion.
 TEXT_TOOLTIP_TIE_FIGHTER_MISSILE,A modern iteration of a Clone Wars-era modification of earlier T.I.E. models. Due to its thinner frame, the TIE/ln can only carry a few missiles on external hardpoints, limiting the effectiveness of the upgrade but providing a modest improvement without affecting performance in other categories like a more extensive refit would. Originally rare sight, this configuration has become more common after the Battle of Endor; with Warlords scrambling to get the most out of their aging TIE fleets.
@@ -1736,6 +1778,8 @@ TEXT_TOOLTIP_TIE_GT_TORPS,An alternate loadout of the TIE/gt equipped with heavy
 TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2,A rare modification of the TIE Interceptor made to complement the equally rare Special Mission Refit TIE/Ln that due to Imperial priorities ended up being fielded before the standard model of its class. Based on a modification of the TIE X3, this version of the TIE Interceptor carried added missiles, shields and an engine boost capability at the cost of the vessel's base speed. Very good at engaging enemy fighters and bombers, but vulnerable to sabotage. Most famous for its service with naval forces attached to the 501st Legion.
 TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Interceptor, replacing the nose-mounted secondary lasers with fighter-grade ion cannons and upgrading the frame's power systems to compensate for the increased power draw. The end result is better at tackling shielded fighters and larger targets but otherwise retains the performance of the stock configuration. While undeniably an upgrade over the base model, the increased cost and maintenance load makes it a rare sight.
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
+TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE,Blame Supernova if this is still in at release.
+TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO,Blame Supernova if this is still in at release.
 TEXT_TOOLTIP_TILAS_MAGORE,A minor Imperial Advisor, Magore was in charge of Subjugating the Brak Sector. Moff Lesan Ramier reported to him, and Magore in turn to Palpatine. However, Ramier was ultimately running the Imperial affairs in the sector itself, simply reporting any good news to Magore so the latter could gain influence at the Imperial court.
 TEXT_TOOLTIP_TORRENT,A maneuverable mainline fighter, this craft was originally designed for the Clone Wars where it was one of the most common Republic fighter models. Imperial service saw it replaced by the TIE Series and relegated to the Outer Rim where it would begin to see use by other groups.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_REBORN,Agent II Spec (-20% cost to Reborn Shadowtroopers)
@@ -1980,6 +2024,7 @@ TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MILITARY_SOLDIER_MEDIC,Local Military Medic
 TEXT_UNIT_MILITARY_SOLDIER_MEDIC_SQUAD,Local Military Medic Squad
+TEXT_UNIT_MINI_CARRACK,Long Range Assault Shuttle
 TEXT_UNIT_MODERNIZED_PROCURATOR,Modernized Procurator Battlecruiser
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NAVYCOMMANDO_MEDIC,Navy Commando Medic
@@ -1987,6 +2032,7 @@ TEXT_UNIT_NAVYCOMMANDO_MEDIC_SQUAD,Navy Commando Medic Squad
 TEXT_UNIT_NAVYCOMMANDO_MEDIUM_SQUAD,Navy Commando Fireteam
 TEXT_UNIT_NAVYTROOPER_MEDIC,Navy Trooper Medic
 TEXT_UNIT_NAVYTROOPER_MEDIC_SQUAD,Navy Trooper Medic Squad
+TEXT_UNIT_NEBULONB2,EF76 Nebulon B2-class Frigate
 TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
 TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT
 TEXT_UNIT_NEIMOIDIAN_GUARD_GRENADIER,Neimoidian Guard Grenadier
@@ -2106,6 +2152,7 @@ TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
 TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
 TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger
 TEXT_UNIT_TIE_BOMBER_THETA,TIE Bomber, Theta Squadron
+TEXT_UNIT_TIE_DEFENDER_BOMBER,TIE Defender Bomber
 TEXT_UNIT_TIE_DEFENDER_RED_STAR,Modified TIE Defender, Red Star Squadron
 TEXT_UNIT_TIE_FIGHTER_ALPHA,TIE Fighter, Alpha Squadron
 TEXT_UNIT_TIE_FIGHTER_BF2,Special Mission Refit TIE Fighter
@@ -2115,6 +2162,8 @@ TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
 TEXT_UNIT_TIE_INTERCEPTOR_BF2,Special Mission Refit TIE Interceptor
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
+TEXT_UNIT_TIE_OPPRESSOR_MISSILE,Missile TIE Oppressor
+TEXT_UNIT_TIE_OPPRESSOR_TORPEDO,Torpedo TIE Oppressor
 TEXT_UNIT_TORRENT,V-19 Torrent
 TEXT_UNIT_TRADESTATION_DASTA,D'Asta Family Trade Port
 TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY,Trandoshan Hunter Platoon
@@ -2174,41 +2223,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_TIE_OPPRESSOR_MISSILE,Missile TIE Oppressor
-TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_WEAP3,1x Fighter Assault Concussion Missile: 2 / 50.0s / 1.8km
-TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON,Missile TIE Oppressor Squadron
-TEXT_TOOLTIP_TIE_OPPRESSOR_MISSILE,Blame Supernova if this is still in at release.
-TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON,Squadron: 12x Missile TIE Oppressor
-TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON2,Missile TIE Oppressor Squadron x2
-TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile TIE Oppressor
-TEXT_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF,Missile TIE Oppressor Squadron 1/2
-TEXT_STATBLOCK_TIE_OPPRESSOR_MISSILE_SQUADRON_HALF,Squadron: 6x Missile TIE Oppressor
-TEXT_UNIT_TIE_OPPRESSOR_TORPEDO,Torpedo TIE Oppressor
-TEXT_TOOLTIP_TIE_OPPRESSOR_TORPEDO,Blame Supernova if this is still in at release.
-TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_WEAP3,1x Fighter Proton Torpedo: 2 / 30.0s / 1.8km
-TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON,Torpedo TIE Oppressor Squadron
-TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON,Squadron: 12x Torpedo TIE Oppressor
-TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON2,Torpedo TIE Oppressor Squadron x2
-TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_DOUBLE,Squadron: 24x Torpedo TIE Oppressor
-TEXT_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF,Torpedo TIE Oppressor Squadron 1/2
-TEXT_STATBLOCK_TIE_OPPRESSOR_TORPEDO_SQUADRON_HALF,Squadron: 6x Torpedo TIE Oppressor
-TEXT_UNIT_TIE_DEFENDER_BOMBER,TIE Defender Bomber
-TEXT_TOOLTIP_TIE_DEFENDER_BOMBER,A variant of the TIE Defender that mounts bomber-grade munitions with only a minor reduction to flight performance.
-TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_MOVE,Speed: 7.5 | Maneuverability: 5.0
-TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP3,1x Proton Rocket (AC): 1 / 18.75s / 3.0km
-TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_WEAP4,1x Concussion Bomb (AC): 1 / 25.0s / 0.8km
-TEXT_TIE_DEFENDER_BOMBER_SQUADRON,TIE Defender Bomber Squadron
-TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON,Squadron: 12x TIE Defender Bomber
-TEXT_TIE_DEFENDER_BOMBER_SQUADRON2,TIE Defender Bomber Squadron x2
-TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_DOUBLE,Squadron: 24x TIE Defender Bomber
-TEXT_TIE_DEFENDER_BOMBER_SQUADRON_HALF,TIE Defender Bomber Squadron 1/2
-TEXT_STATBLOCK_TIE_DEFENDER_BOMBER_SQUADRON_HALF,Squadron: 6x TIE Defender Bomber
-TEXT_TOOLTIP_NEBULONB2,A short lived successor to the venerable Nebulon-B. While not as popular as preceding and succeeding Kuati frigates, the B2 still packed a respectable armament that allowed it to threaten larger and smaller vessels alike.
-TEXT_TOOLTIP_NEBULONB2_HULL,Hull: 950 (Frigate)
-TEXT_TOOLTIP_NEBULONB2_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.4
-TEXT_TOOLTIP_NEBULONB2_SHIELD,Shield: 900 (15.75r/R) (Frigate)
-TEXT_TOOLTIP_NEBULONB2_SQUADRON,Fighters: 0.5/0.5
-TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolaser: 2 / 3.33s / 3km
-TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolaser: 2 / 1.90s / 2.5km
-TEXT_TOOLTIP_NEBULONB2_WEAP3,1x Concussion Missile: 1/ 30.0s / 2.0km
-TEXT_UNIT_NEBULONB2,EF76 Nebulon B2-class Frigate
