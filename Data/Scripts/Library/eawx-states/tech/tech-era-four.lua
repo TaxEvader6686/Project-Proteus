@@ -219,6 +219,11 @@ return {
 						"Tharkus_Corona_Tender_Research"
 					})
                 Story_Event("THARKUS_CORONA_RESEARCH_STARTED")
+                elseif proteus == "JARDEEN" then
+					    UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"Imperial_AT_AT_Walker_Turbolaser_Refit_Company",
+                        "AT_ST_A_Company"
+					})
                 end
             end
         end
