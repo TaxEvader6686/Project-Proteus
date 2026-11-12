@@ -62,7 +62,7 @@ return {
 				-- Space
 				"YE_4_Group", "Gamma_ATR_6_Group", "IPV1", "Carrack_Cruiser", "Arquitens", "Victory_II_Frigate", "Quasar", "Strike_Interdictor", 
 				"Neutron_Star", "Gladiator_I", "Acclamator_II", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Battleship",
 				"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser",
 				-- Fighter Hero
 				"TAM_BLACKSTAR_DARK_BLADE_LOCATION_SET",
@@ -347,14 +347,14 @@ return {
 			UnlockList = {
 				-- Space
 				"YZ_775_Freighter_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Vigil", "Star_Galleon", "Eidolon", 
-				"Immobilizer_Twin_Well", "Broadside_Cruiser", "Neutron_Star_Tender", "Gladiator_II", "Acclamator_I_Assault", "Victory_II_Star_Destroyer", "Procursator_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer", "Acclamator_Battleship", "Tector_Star_Destroyer", 
+				"Immobilizer_Twin_Well", "Broadside_Cruiser", "Neutron_Star_Tender", "Modernized_DHC", "Acclamator_I_Assault", "Victory_II_Star_Destroyer", "Procursator_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer", "Acclamator_Destroyer", "Tector_Star_Destroyer", 
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Army_Special_Missions_Company", 
-				"Imperial_AT_PT_Company", "AT_ST_A_Company", "AT_DP_Company", "INT4_Company", 
+				"Imperial_AT_PT_Company", "Slave_Rigged_AT_ST_Company", "AT_DP_Company", "INT4_Company", 
 				"Imperial_AT_AP_Walker_Company", "AT_AI_Walker_Company", "SPMAG_Walker_Company", "AT_AA_Missile_Walker_Company", "MAAT_Company", 
-				"Imperial_AT_AT_Walker_Company", "Imperial_AT_TE_Walker_Company", 
+				"Slave_Rigged_AT_AT_Walker_Company", "Imperial_AT_TE_Walker_Company", 
 				-- Structure
 				"CEC_HQ",
 			},

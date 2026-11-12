@@ -6330,4 +6330,142 @@
 
 		<Company_Units>Shielded_AT_AP_Walker</Company_Units>
 	</GroundCompany>
+
+	<GroundVehicle Name="Slave_Rigged_AT_ST_Walker">
+		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SLAVE_RIGGED_AT_ST_WALKER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AT_ST_HEALTH
+		TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_MOVE
+		TEXT_TOOLTIP_ATST_WEAP1
+		TEXT_TOOLTIP_ATST_WEAP2
+		TEXT_TOOLTIP_ATST_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ATST_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_slave_rigged_atst.tga</Icon_Name>
+
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration>1.2</OverrideAcceleration>
+		<OverrideDeceleration>1.2</OverrideDeceleration>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<HardPoints>
+				HP_SR_ATST_Lasers,
+				HP_SR_ATST_Conc,
+				HP_SR_ATST_Conc_Alternate,
+				HP_SR_ATST_Side
+		</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_TIE_Droid</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Droid</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Enemy_Health_Low_TIE_Droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Droid</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_TIE_Droid</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Health_Low_TIE_Droid </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Health_Low_TIE_Droid </SFXEvent_Assist_Attack>
+	</GroundVehicle>
+
+	<GroundCompany Name="Slave_Rigged_AT_ST_Company">
+		<Variant_Of_Existing_Type>AT_ST_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SLAVE_RIGGED_AT_ST_WALKER_COMPANY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_COMPANY
+		TEXT_TOOLTIP_AT_ST_HEALTH
+		TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_MOVE 
+		TEXT_TOOLTIP_ATST_WEAP1 
+		TEXT_TOOLTIP_ATST_WEAP2
+		TEXT_TOOLTIP_ATST_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ATST_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_slave_rigged_atst.tga</Icon_Name>
+		<Build_Cost_Credits>750</Build_Cost_Credits>
+		<Required_Special_Structures> I_Ground_Light_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap | Balmorran_Arms_HQ</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Company_Units>Slave_Rigged_AT_ST_Walker, Slave_Rigged_AT_ST_Walker, Slave_Rigged_AT_ST_Walker, Slave_Rigged_AT_ST_Walker, Slave_Rigged_AT_ST_Walker, Slave_Rigged_AT_ST_Walker</Company_Units>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_TIE_Droid</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Move_TIE_Droid</SFXEvent_Fleet_Move>
+	</GroundCompany>
+
+	<GroundVehicle Name="Slave_Rigged_AT_AT_Walker">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SLAVE_RIGGED_ATAT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_ATAT_HEALTH
+		TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_MOVE
+		TEXT_TOOLTIP_ATAT_WEAP1
+		TEXT_TOOLTIP_ATAT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ATAT_WARLORD_DEPLOY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_slave_rigged_atat.tga</Icon_Name>
+		<Max_Speed>0.50</Max_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<HardPoints>
+				HP_SR_ATAT_Main,
+				HP_SR_ATAT_Side,
+		</HardPoints>
+
+		<SFXEvent_Select>Unit_Select_TIE_Droid</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Droid</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Enemy_Health_Low_TIE_Droid</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Droid</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_TIE_Droid</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Health_Low_TIE_Droid </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Health_Low_TIE_Droid </SFXEvent_Assist_Attack>
+	</GroundVehicle>
+
+	<GroundCompany Name="Slave_Rigged_AT_AT_Walker_Company">
+		<Variant_Of_Existing_Type>Imperial_AT_AT_Walker_Company</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SLAVE_RIGGED_ATAT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_COMPANY
+		TEXT_TOOLTIP_ATAT_HEALTH
+		TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_MOVE 
+		TEXT_TOOLTIP_ATAT_WEAP1 
+		TEXT_TOOLTIP_ATAT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_ABILITY_BLOCK
+		TEXT_TOOLTIP_ATAT_WARLORD_DEPLOY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_slave_rigged_atat.tga</Icon_Name>
+		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Required_Special_Structures>I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Population_Value>2</Population_Value>
+		<Company_Units>Slave_Rigged_AT_AT_Walker, Slave_Rigged_AT_AT_Walker</Company_Units>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_TIE_Droid</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Move_TIE_Droid</SFXEvent_Fleet_Move>
+	</GroundCompany>
 </Project_Proteus_Vehicles>
