@@ -3,6 +3,7 @@ require("PGBase")
 require("PGStoryMode")
 require("PGSpawnUnits")
 require("SetFighterResearch")
+require("eawx-util/UnitUtil")
 
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
@@ -20,7 +21,9 @@ function State_Init(message)
 
         local owner = Object.Get_Owner()
         owner.Lock_Tech(Find_Object_Type("Lictor"))
+        owner.Lock_Tech(Find_Object_Type("Trenchant"))
         owner.Unlock_Tech(Find_Object_Type("Acclamator_I_Support"))
+         owner.Unlock_Tech(Find_Object_Type("Surveyor_Frigate"))       
 
 		Set_Fighter_Research("FyyarFighters")
 
@@ -37,10 +40,10 @@ function State_Init(message)
                 obj.Despawn()
             end
         end
-
         local fyyar = Find_First_Object("Fyyar_Doomgiver")
+
         if TestValid(fyyar) then
-            ReplaceAtLocation("Fyyar_Doomgiver", "Fyyar_Doomgiver_Emperor")
+            UnitUtil.ReplaceAtLocation("Fyyar_Doomgiver", "Fyyar_Doomgiver_Emperor")
         end
 		
         Object.Despawn()

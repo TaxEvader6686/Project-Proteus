@@ -315,7 +315,7 @@ TEXT_RECRUIT_PIRA_LEEMAD_DESCRIPTION,Recruit Lant Mining Corporation Chief Admin
 TEXT_RECRUIT_PIRA_LEEMAD_NAME,Recruit Pira Leemad
 TEXT_RECRUIT_URLAN_DESCRIPTION,Convince the former Arch-Provost of Rendili, Bengila Urlan, to serve the military administration as a figurehead to placate and negotiate with local and corporate elites. 
 TEXT_RECRUIT_URLAN_NAME,Recall Bengila Urlan from Retirement
-TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME,TODO
+TEXT_REGICIDE_DESCRIPTION_FYYAR_REGIME,Assist Galak Fyyar in overthrowing both Hethrir and Desann and taking full control of the Reborn and the Valley of the Jedi's energies for himself. Emperor Fyyar will siphon the energies of the Valley to fuel his technology even further, and rule the Empire Reborn as a soldier, not a mad wizard.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_HALF,Republic Z-95 Squadron 1/2
@@ -1440,7 +1440,7 @@ TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
 TEXT_TOOLTIP_MICHAEL,TODO
 TEXT_TOOLTIP_MICHAEL_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_MILITARY_SOLDIER_MEDIC_SQUAD_WEAP1,10 Blaster Rifle: 1 / 1.0s / 240m
-TEXT_TOOLTIP_MINI_CARRACK,TODO
+TEXT_TOOLTIP_MINI_CARRACK,A heavily modified Carrack Cruiser which reduced the vessel to less than half its length. This model was used as a landing barge or a shuttle for officers entering hostile space, but could also be utilized as a screening ship. This unit is best used against enemy fighters.
 TEXT_TOOLTIP_MINI_CARRACK_HULL,Hull: 700 (Corvette)
 TEXT_TOOLTIP_MINI_CARRACK_MOVE,TODO
 TEXT_TOOLTIP_MINI_CARRACK_PD,Point-Defense: 1 / 0.26s / 1.75km
