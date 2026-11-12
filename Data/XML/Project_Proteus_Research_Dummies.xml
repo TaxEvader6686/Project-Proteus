@@ -1655,7 +1655,7 @@
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
 		<Build_Cost_Credits>5000</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
-
+		<Lua_Script>FyyarRegime</Lua_Script>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>

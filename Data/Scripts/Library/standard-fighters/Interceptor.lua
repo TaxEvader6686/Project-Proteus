@@ -101,7 +101,8 @@ return {
 					{"ProteusA9", "A9_SQUADRON", false}},
 			RENDILI = {"UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", "T_WING_SQUADRON"},
 			VEERS = {"V38_SQUADRON", false},
-			EMPIRE_REBORN = {"TIE_X3_SQUADRON", false},
+			EMPIRE_REBORN = {"TIE_X3_SQUADRON", false,
+						{"FyyarFighters", "TIE_DROID_SQUADRON", false}}, --research 1
 			SECOND_IMPERIUM = {"TIE_INTERCEPTOR_ION_SQUADRON", false},
 			LANOX = {"A9_SQUADRON", false,
 					{"LFU", "ION_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON", false}}, --research 1

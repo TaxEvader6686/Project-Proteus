@@ -355,6 +355,7 @@
 			Invincible_Cruiser_Tender,
 			Invincible_Cruiser_Modernized,
 			Nebulon_B2,
+			Agamar_Mephitis,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
