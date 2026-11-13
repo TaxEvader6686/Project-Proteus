@@ -1736,7 +1736,8 @@
 		TEXT_TOOLTIP_NEBULONB2_MOVE 
 		TEXT_TOOLTIP_NEBULONB2_SQUADRON 
 		TEXT_TOOLTIP_NEBULONB2_WEAP1 
-		TEXT_TOOLTIP_NEBULONB2_WEAP2 
+		TEXT_TOOLTIP_NEBULONB2_WEAP2
+		TEXT_TOOLTIP_NEBULONB2_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
@@ -1752,12 +1753,12 @@
 		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 
 		<Mass>0.9995</Mass>
-		<Max_Speed>3.5</Max_Speed>
+		<Max_Speed>4.2</Max_Speed>
 		<Max_Thrust>1.5</Max_Thrust>
 		<OverrideAcceleration>0.175</OverrideAcceleration>
 		<OverrideDeceleration>0.35</OverrideDeceleration>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>0.6</Stopped_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.8</Stopped_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.0</Min_Speed_Fraction_For_Turn>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
@@ -1766,14 +1767,14 @@
 
 		<Shield_Armor_Type>ShieldS_Frigate</Shield_Armor_Type>
 		<Shield_Points>900</Shield_Points>
-		<Shield_Refresh_Rate>13.5</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>15.75</Shield_Refresh_Rate>
 		<Armor_Type> ArmourS_Frigate </Armor_Type>
 		<Tactical_Health>950</Tactical_Health>
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-		<AI_Combat_Power>453</AI_Combat_Power>
+		<AI_Combat_Power>549</AI_Combat_Power>
 		<Damage>40</Damage>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -1798,8 +1799,8 @@
 
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
-		<Build_Cost_Credits>870</Build_Cost_Credits>
-		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Cost_Credits>1070</Build_Cost_Credits>
+		<Build_Time_Seconds>19</Build_Time_Seconds>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 
 		<Required_Special_Structures>
@@ -1814,14 +1815,14 @@
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		<Piracy_Value_Credits>1</Piracy_Value_Credits>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
-		<Population_Value>5</Population_Value>
+		<Population_Value>6</Population_Value>
 		<Space_Override_Population_Value/>
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
 		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
 		<HardPoints>
-			HP_B2_Turbo_01, HP_B2_Turbo_02, HP_B2_Turbo_03, HP_B2_Turbo_04, HP_B2_Turbo_05, HP_B2_Turbo_06, HP_B2_Missile, HP_B2_Hangar
+			HP_B2_Turbo_01, HP_B2_Turbo_02, HP_B2_Turbo_03, HP_B2_Turbo_04, HP_B2_Turbo_05, HP_B2_Turbo_06, HP_B2_Missile_01, HP_B2_Missile_02, HP_B2_Hangar
 		</HardPoints>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
@@ -1929,12 +1930,9 @@
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Expiration_Seconds>15</Expiration_Seconds>
-
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 		<Death_Clone>Damage_Normal, Medium_Explosion_Space_Trails</Death_Clone>
 	</SpaceUnit>
 
