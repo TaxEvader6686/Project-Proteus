@@ -14,6 +14,7 @@ require("StandardFighterFunctions")
 -- [4] *required* = string, unit to replace if research found complete, replaces [1]
 -- [5] *required* = false or string, similar setup to [2] 
 -- later order research priotised, research table Y replaces research X if research complete where Y > X
+-- Use PROTEUS_OVERRIDE_GROUPNAME to override all slots on a ship with their alt or PROTEUS_SLOTNAME_OVERRIDE_GROUPNAME to override only the specified slots (each slot needs its own flag in this case)
 -- 
 -- Random Spawns, Proteus specific and independent to the EAWX random fighter pool system
 -- set [1] as "GAMBLE_BLASTBOAT" to enable random spawns, needs a proteus specific list in /random-fighters/GAMBLE_BLASTBOAT.lua
@@ -146,7 +147,7 @@ return {
 					fighter = proteustypes[group_name][1]
 				end
 				if proteustypes[group_name][2] ~= false then
-					if Check_Flags(flags, "PROTEUS_OVERRIDE_"..group_name) then
+					if Check_Flags(flags, "PROTEUS_OVERRIDE_"..group_name) or Check_Flags(flags, "PROTEUS_LIGHT_FIGHTERBOMBER_OVERRIDE_"..group_name) then
 						fighter = proteustypes[group_name][2]
 					end
 				end
@@ -156,7 +157,7 @@ return {
 						if Get_Fighter_Research(research) then
 							fighter = proteustypes[group_name][i][2]
 							if proteustypes[group_name][i][3] ~= false then
-								if Check_Flags(flags, "PROTEUS_OVERRIDE_"..group_name) then
+								if Check_Flags(flags, "PROTEUS_OVERRIDE_"..group_name) or Check_Flags(flags, "PROTEUS_LIGHT_FIGHTERBOMBER_OVERRIDE_"..group_name) then
 									fighter = proteustypes[group_name][i][3]
 								end
 							end

@@ -9,6 +9,6 @@ return {
 		}
 	},
 	Native = "IMPERIAL",
-	FighterFlags = {"PROTEUS_OVERRIDE_NIVERS"},
+	FighterFlags = {"PROTEUS_LIGHT_FIGHTER_OVERRIDE_NIVERS"},
 	Scripts = {"multilayer", "fighter-spawn", "single-unit-retreat"}
 }

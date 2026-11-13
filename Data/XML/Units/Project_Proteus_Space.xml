@@ -249,7 +249,6 @@
 		<Scale_Factor>0.2143</Scale_Factor>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Affiliation>Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -267,7 +266,7 @@
 		<Armor_Type> ArmourS_Corvette </Armor_Type>
 		<Tactical_Health>700</Tactical_Health>
 		<Build_Cost_Credits>370</Build_Cost_Credits>
-		<Build_Time_Seconds>6.5</Build_Time_Seconds>
+		<Build_Time_Seconds>6</Build_Time_Seconds>
 		<Population_Value>1</Population_Value>
 		<Space_Layer> Corvette </Space_Layer>
 
@@ -1827,14 +1826,10 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
-		<!-- <Starting_Spawned_Units_Tech_1> TIE_Fighter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_1> -->
-		<!-- <Starting_Spawned_Units_Tech_3> TriFighter_Squadron_Half, 1 </Starting_Spawned_Units_Tech_3> -->
-		
+		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
-		<!-- <Reserve_Spawned_Units_Tech_1> TIE_Fighter_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_1> -->
-		<!-- <Reserve_Spawned_Units_Tech_3> TriFighter_Squadron_Half, 1 </Reserve_Spawned_Units_Tech_3> -->
-
 		<Target_Bones>Root</Target_Bones>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
