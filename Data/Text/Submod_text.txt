@@ -1472,9 +1472,9 @@ TEXT_TOOLTIP_NEBULONB2_HULL,Hull: 950 (Frigate)
 TEXT_TOOLTIP_NEBULONB2_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.4
 TEXT_TOOLTIP_NEBULONB2_SHIELD,Shield: 900 (15.75r/R) (Frigate)
 TEXT_TOOLTIP_NEBULONB2_SQUADRON,Fighters: 0.5 / 0.5
-TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolaser: 2 / 3.33s / 3km
-TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolaser: 2 / 1.90s / 2.5km
-TEXT_TOOLTIP_NEBULONB2_WEAP3,1x Concussion Missile: 1 / 30.0s / 2.0km
+TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolasers: 2 / 3.33s / 3.1km
+TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolasers: 2 / 1.90s / 2.6km
+TEXT_TOOLTIP_NEBULONB2_WEAP3,2x Concussion Missiles: 1 / 6.0s / 2.1km
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD,Neimoidian soldiers originally drawn into service defending Neimoidia and its purse worlds. These Guard units could be transferred to defending worlds where droids were unusable along with serving as protection for Separatist officials. They are drawn from all aspects of Neimoidian society including mercenaries and convicts given promise of amnesty. The capabilities of these infantry are not to be underestimated; they are heavily armed and highly motivated enough to prove doubtful claims about Neimoidian mettle false.
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY,Company: 24x Neimoidian Guard
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
