@@ -122,7 +122,8 @@ return {
 			DROMMEL = {"TIE_HEAVY_BOMBER_SQUADRON", false},					
 			BATCH = {"TIE_HEAVY_BOMBER_SQUADRON", false,
 					{"BatchFighters", "TIE_TERROR_SQUADRON", false}}, --research 1
-			IMPERIAL_CORELLIA = {"", false},																	
+			IMPERIAL_CORELLIA = {"", false},	
+			ALLIED_TION = {"SCURRG_H6_PROTOTYPE_SQUADRON", false},																			
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

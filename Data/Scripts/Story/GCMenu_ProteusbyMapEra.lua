@@ -1502,4 +1502,14 @@ return {
 		}
 
 	},
+
+	["ALLIED_TION"] = {
+		["CorporateAcquisitions"] = {
+			["4ABY"] = true
+			,["9ABY"] = true
+		}
+		,["Empires_At_War"] = {
+			["9ABY"] = true
+		}
+	},
 }

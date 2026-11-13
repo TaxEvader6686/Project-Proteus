@@ -115,7 +115,8 @@ return {
 			TRAX = {"", false},	
 			DROMMEL = {"STARWING_SQUADRON", false},					
 			BATCH = {"TIE_OPPRESSOR_SQUADRON", false},	
-			IMPERIAL_CORELLIA = {"", false},											
+			IMPERIAL_CORELLIA = {"", false},	
+			ALLIED_TION = {"TOSCAN_BOMBER_SQUADRON", false},													
 		}
 
 		if simpletypes[owner] then

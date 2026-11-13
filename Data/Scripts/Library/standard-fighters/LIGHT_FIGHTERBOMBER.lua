@@ -106,7 +106,8 @@ return {
 			DROMMEL = {"TIE_GT_SQUADRON", false},				
 			BATCH = {"TIE_GT_SQUADRON", false,
 					{"BatchFighters", "TIE_OPPRESSOR_FB_MISSILE_SQUADRON", false}}, --research 1				
-			IMPERIAL_CORELLIA = {"", false},														
+			IMPERIAL_CORELLIA = {"", false},
+			ALLIED_TION = {"Z95ML_HEADHUNTER_SQUADRON", false},																	
 		}
 		
 		if simpletypes[owner] then
