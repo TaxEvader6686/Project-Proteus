@@ -1472,7 +1472,7 @@ TEXT_TOOLTIP_NEBULONB2_HULL,Hull: 950 (Frigate)
 TEXT_TOOLTIP_NEBULONB2_MOVE,Speed: 4.2 | Accel: 0.175 | Turn: 0.4
 TEXT_TOOLTIP_NEBULONB2_SHIELD,Shield: 900 (15.75r/R) (Frigate)
 TEXT_TOOLTIP_NEBULONB2_SQUADRON,Fighters: 0.5 / 0.5
-TEXT_TOOLTIP_NEBULONB2_WEAP1,1x Medium Dual Turbolasers: 2 / 3.33s / 3.1km
+TEXT_TOOLTIP_NEBULONB2_WEAP1,2x Medium Dual Turbolasers: 2 / 3.33s / 3.1km
 TEXT_TOOLTIP_NEBULONB2_WEAP2,4x Light Turbolasers: 2 / 1.90s / 2.6km
 TEXT_TOOLTIP_NEBULONB2_WEAP3,2x Concussion Missiles: 1 / 6.0s / 2.1km
 TEXT_TOOLTIP_NEIMOIDIAN_GUARD,Neimoidian soldiers originally drawn into service defending Neimoidia and its purse worlds. These Guard units could be transferred to defending worlds where droids were unusable along with serving as protection for Separatist officials. They are drawn from all aspects of Neimoidian society including mercenaries and convicts given promise of amnesty. The capabilities of these infantry are not to be underestimated; they are heavily armed and highly motivated enough to prove doubtful claims about Neimoidian mettle false.
@@ -2233,3 +2233,18 @@ TEXT_TOOLTIP_SLAVE_RIGGED_ATAT,An AT-AT that has been outiftted with prototype s
 TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_MOVE,Speed: 0.50 | Turn: 2.0 
 TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_COMPANY,Company: 2x Slave-Rigged AT-AT Walker
 TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER_COMPANY,Slave-Rigged AT-AT Walker Company
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR2,Interceptor-III Frigate: 3 / 3
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR3,Munificent C3 Star Frigate: 1 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR4,Space ARC Star Cruiser: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR5,Refurbished Venator Star Destroyer: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH2,Crusader Corvette: 3 / 3
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH3,Kaloth Battlecruiser: 4 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH4,Super Transport XI Missile Barge: 4 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH5,Providence Carrier/Destroyer: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK2,Interceptor IV Frigate: 3 / 3
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK3,Kaloth Battlecruiser: 4 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK4,Space ARC Star Cruiser: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK5,Modified Super Transport XI: 2 / 0

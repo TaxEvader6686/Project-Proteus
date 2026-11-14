@@ -244,27 +244,202 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 	--Logger:trace("entering GovernmentProteus:UpdateProteusMiscellaneousDisplay")
 	local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
 	local ProteusDisplayLibrary = require("ProteusDisplayLibrary")
-
-	if not ProteusDisplayLibrary[current_proteus] then--Temporary, will be made universal for garrisons when those are added
-		return
+	local ownerName = "IMPERIAL_PROTEUS"
+	local TechLevel = GlobalValue.Get("CURRENT_ERA")
+	local regime = GlobalValue.Get("REGIME_INDEX")
+	local is_main_empire = false
+	if GlobalValue.Get("IMPERIAL_REGIME_HOST") == ownerName then
+		is_main_empire = true
 	end
+	local StandardList
+	StandardList = require("standard-fighters/LIGHT_FIGHTER")
+	local lightfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/Fighter")
+	local fighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_FIGHTER")
+	local heavyfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/Interceptor")
+	local interceptor = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/Bomber")
+	local bomber = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/GUNSHIP")
+	local gunship = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/CORVETTE")
+	local corvette = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)[1]
+
+	StandardList = require("standard-fighters/HEAVY_CORVETTE")
+	local heavycorvette1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_CORVETTE2")
+	local heavycorvette2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/FRIGATE")
+	local frigate1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/FRIGATE2")
+	local frigate2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_FRIGATE")
+	local heavyfrigate1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/HEAVY_FRIGATE2")
+	local heavyfrigate2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/CAPITAL")
+	local capital1 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
+
+	StandardList = require("standard-fighters/CAPITAL2")
+	local capital2 = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
 
 	local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
 	local government_display_event = plot.Get_Event("Government_Display")
 
 	government_display_event.Set_Reward_Parameter(1, "IMPERIAL_PROTEUS")
-	if ProteusDisplayLibrary[current_proteus].No_Legitimacy then
+	
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].No_Legitimacy then
 		government_display_event.Clear_Dialog_Text()--Clears the normal empire gov display
 	end
 	government_display_event.Add_Dialog_Text("TEXT_NONE")
 	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Unique Mechanics and Garrisons:")
 	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-
-	if ProteusDisplayLibrary[current_proteus].GovText then
+----Group Info----
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].GovText then
 		local GovText = ProteusDisplayLibrary[current_proteus].GovText
 		for _, text in pairs(GovText) do
 			government_display_event.Add_Dialog_Text(text)
+		end
+		government_display_event.Add_Dialog_Text("TEXT_NONE")--Spacer
+	end
+----Pirate Base----
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].PirateBaseText then
+		local PirateBaseText = ProteusDisplayLibrary[current_proteus].PirateBaseText
+		government_display_event.Add_Dialog_Text("Pirate Base Garrisons:")
+		for _, text in pairs(PirateBaseText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+		government_display_event.Add_Dialog_Text("TEXT_NONE")
+	end
+----Level 1 Shipyard----
+	government_display_event.Add_Dialog_Text("Light Frigate Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardOneText then
+		local ShipyardOneText = ProteusDisplayLibrary[current_proteus].ShipyardOneText
+		for _, text in pairs(ShipyardOneText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(lightfighter))
+		government_display_event.Add_Dialog_Text("%s: 1 / 2", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(gunship[1]), tostring(gunship[2]*2))
+		government_display_event.Add_Dialog_Text("%s: 2 / 2", Find_Object_Type(corvette))
+		if heavycorvette1[1] == heavycorvette2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]+heavycorvette2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]))
+		end
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Level 2 Shipyard----
+	government_display_event.Add_Dialog_Text("Heavy Frigate Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardTwoText then
+		local ShipyardTwoText = ProteusDisplayLibrary[current_proteus].ShipyardTwoText
+		for _, text in pairs(ShipyardTwoText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(lightfighter))
+		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(corvette))
+		if heavycorvette1[1] == heavycorvette2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring((heavycorvette1[2])+(heavycorvette2[2])))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]))
+		end
+
+		if frigate1[1] == frigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]+frigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate2[1]), tostring(frigate2[2]))
+		end
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Level 3 Shipyard----
+	government_display_event.Add_Dialog_Text("Capital Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardThreeText then
+		local ShipyardThreeText = ProteusDisplayLibrary[current_proteus].ShipyardThreeText
+		for _, text in pairs(ShipyardThreeText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 3 / ∞", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(fighter))
+		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(corvette))
+		if heavycorvette1[1] == heavycorvette2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]+heavycorvette2[2]*2))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]*2))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]*2))
+		end
+
+		if frigate1[1] == frigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]+frigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate2[1]), tostring(frigate2[2]))
+		end
+
+		if heavyfrigate1[1] == heavyfrigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]+heavyfrigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate2[1]), tostring(heavyfrigate2[2]))
+		end
+	end
+	government_display_event.Add_Dialog_Text("TEXT_NONE")
+----Level 4 Shipyard----
+	government_display_event.Add_Dialog_Text("Dreadnought Shipyard Garrisons:")
+	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardFourText then
+		local ShipyardFourText = ProteusDisplayLibrary[current_proteus].ShipyardFourText
+		for _, text in pairs(ShipyardFourText) do
+			government_display_event.Add_Dialog_Text(text)
+		end
+	else
+		government_display_event.Add_Dialog_Text("%s: 3 / ∞", Find_Object_Type(interceptor))
+		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(heavyfighter))
+		government_display_event.Add_Dialog_Text("%s: 4 / 8", Find_Object_Type(bomber))
+		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(corvette))
+
+		if frigate1[1] == frigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]+frigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate1[1]), tostring(frigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(frigate2[1]), tostring(frigate2[2]))
+		end
+
+		if heavyfrigate1[1] == heavyfrigate2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]+heavyfrigate2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate1[1]), tostring(heavyfrigate1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavyfrigate2[1]), tostring(heavyfrigate2[2]))
+		end
+
+		if capital1[1] == capital2[1] then
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(capital1[1]), tostring(capital1[2]+capital2[2]))
+		else
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(capital1[1]), tostring(capital1[2]))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(capital2[1]), tostring(capital2[2]))
 		end
 	end
 
