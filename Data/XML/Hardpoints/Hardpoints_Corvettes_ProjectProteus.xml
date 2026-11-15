@@ -1894,7 +1894,7 @@
 
 	<!-- Nebulon B2 -->
 
-		<HardPoint Name="HP_B2_Hangar">
+	<HardPoint Name="HP_B2_Hangar">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1908,9 +1908,8 @@
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
  
-
-        <Fire_Bone_A>TURBO_04</Fire_Bone_A>
-        <Fire_Bone_B>TURBO_05</Fire_Bone_B>
+        <Fire_Bone_A>TURBO_00</Fire_Bone_A>
+        <Fire_Bone_B>TURBO_00</Fire_Bone_B>
         <Fire_Cone_Width>190.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Light</Fire_Projectile_Type>
@@ -1938,9 +1937,8 @@
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
  
-
-        <Fire_Bone_A>LASER_02</Fire_Bone_A>
-        <Fire_Bone_B>LASER_03</Fire_Bone_B>
+        <Fire_Bone_A>TURBO_01</Fire_Bone_A>
+        <Fire_Bone_B>TURBO_01</Fire_Bone_B>
         <Fire_Cone_Width>190.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Light</Fire_Projectile_Type>
@@ -1968,9 +1966,8 @@
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
  
-
-        <Fire_Bone_A>LASER_00</Fire_Bone_A>
-        <Fire_Bone_B>LASER_00</Fire_Bone_B>
+        <Fire_Bone_A>TURBO_02</Fire_Bone_A>
+        <Fire_Bone_B>TURBO_02</Fire_Bone_B>
         <Fire_Cone_Width>190.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Light</Fire_Projectile_Type>
@@ -1993,14 +1990,13 @@
 
     </HardPoint>
 
-		<HardPoint Name="HP_B2_Turbo_04">
+	<HardPoint Name="HP_B2_Turbo_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
- 
 
-        <Fire_Bone_A>LASER_01</Fire_Bone_A>
-        <Fire_Bone_B>LASER_01</Fire_Bone_B>
+        <Fire_Bone_A>TURBO_03</Fire_Bone_A>
+        <Fire_Bone_B>TURBO_03</Fire_Bone_B>
         <Fire_Cone_Width>190.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Light</Fire_Projectile_Type>
@@ -2028,8 +2024,8 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>TURBO_03</Fire_Bone_A>
-		<Fire_Bone_B>TURBO_02</Fire_Bone_B>
+		<Fire_Bone_A>TURBO_04</Fire_Bone_A>
+		<Fire_Bone_B>LASER_02</Fire_Bone_B>
 		<Fire_Cone_Width>220.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Medium</Fire_Projectile_Type>
@@ -2037,7 +2033,7 @@
 		<Fire_Max_Recharge_Seconds>3.33</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>3050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Munificent_Turbolaser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
@@ -2057,8 +2053,8 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>TURBO_00</Fire_Bone_A>
-		<Fire_Bone_B>TURBO_01</Fire_Bone_B>
+		<Fire_Bone_A>TURBO_05</Fire_Bone_A>
+		<Fire_Bone_B>LASER_03</Fire_Bone_B>
 		<Fire_Cone_Width>220.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Medium</Fire_Projectile_Type>
@@ -2066,7 +2062,7 @@
 		<Fire_Max_Recharge_Seconds>3.33</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>3050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Munificent_Turbolaser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
@@ -2081,21 +2077,42 @@
 
    </HardPoint>
 
-   	<HardPoint Name="HP_B2_Missile">
+   	<HardPoint Name="HP_B2_Missile_01">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
 
-        <Fire_Bone_A>ENGINES_00</Fire_Bone_A>
-        <Fire_Bone_B>ENGINES_00</Fire_Bone_B>
-        <Fire_Cone_Width>110</Fire_Cone_Width>
+        <Fire_Bone_A>LASER_00</Fire_Bone_A>
+        <Fire_Bone_B>LASER_00</Fire_Bone_B>
+        <Fire_Cone_Width>120</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2050.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
+	    <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+
+    </HardPoint>
+
+   	<HardPoint Name="HP_B2_Missile_02">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+
+        <Fire_Bone_A>LASER_01</Fire_Bone_A>
+        <Fire_Bone_B>LASER_01</Fire_Bone_B>
+        <Fire_Cone_Width>120</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Full_Salvo_Weapon_Delay_Multiplier>.25</Full_Salvo_Weapon_Delay_Multiplier>
 	    <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
