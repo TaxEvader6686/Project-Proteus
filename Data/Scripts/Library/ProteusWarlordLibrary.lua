@@ -1590,7 +1590,7 @@ return {
 				"YZ_775_Freighter_Group", "LAC", "Class_C_Frigate", "Lancer_Frigate_Prototype", "Bayonet_Cruiser", "Arquitens_Refit", "Galleon_Minelayer",
 				"Gladiator_II", "Acclamator_I_Support", "Gladiator_Demolisher", "Vector_Star_Destroyer", "Victory_II_Carrier", "Victory_I_Fleet_Star_Destroyer", 
 				"Triumph_Star_Destroyer", "Imperial_II_Star_Destroyer_Sentry",
-				"Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought",
+				"Sorannan_Star_Destroyer", "Imperial_Leviathan",
 				-- Ground
 				"Imperial_Navy_Trooper_Company", "ISB_Infiltrator_Company", "Imperial_Dwarf_Spider_Droid_Company",
 				"Imperial_AT_PT_Company", "AT_XT_Company", "Imperial_Bantha_II_Skiff_Company", "AA70_Company", "Skyhopper_Company",
@@ -1647,7 +1647,9 @@ return {
 				"Storm_Commando_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company",
 				"Imperial_AT_PT_Company", "AT_ST_Company", "Chariot_LAV_Company",
 				"1HB_Tank_Company", "Imperial_APC_Company", "AT_AA_Flak_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company", 
-				"A9_Floating_Fortress_Company", "Teklos_Company"
+				"A9_Floating_Fortress_Company", "Teklos_Company",
+				-- Research
+				"Dummy_Research_Conqueror"
 			},
 			LastYear = 4,
 			FactionOverride = "Corellia",

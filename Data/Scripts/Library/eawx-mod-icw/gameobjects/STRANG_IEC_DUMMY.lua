@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "IMPERIAL_ESCORT_CARRIER"}
+}
