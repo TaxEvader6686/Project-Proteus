@@ -121,6 +121,7 @@ return {
 			DROMMEL = {"SKIPRAY_SQUADRON", false},		
 			BATCH = {"TIE_PHANTOM_SQUADRON", false},	
 			IMPERIAL_CORELLIA = {"", false},		
+			ALLIED_TION = {"FIRESPRAY_GUNSHIP_SQUADRON", false},	
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

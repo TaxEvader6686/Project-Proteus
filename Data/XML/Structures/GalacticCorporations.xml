@@ -903,14 +903,14 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Damorian_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser, Carrack_Cruiser_Laser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser, Carrack_Cruiser_Laser, Mini_Carrack </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Damorian_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser, Carrack_Cruiser_Laser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser, Carrack_Cruiser_Laser, Mini_Carrack </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

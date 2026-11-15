@@ -102,7 +102,8 @@ return {
 			TRAX = {"", false},		
 			DROMMEL = {"TIE_DEFENDER_SQUADRON", false},				
 	--		BATCH = {"SCIMITAR_FIGHTERBOMBER_SQUADRON", false},		
-			IMPERIAL_CORELLIA = {"", false},													
+			IMPERIAL_CORELLIA = {"", false},	
+			ALLIED_TION = {"ARC_170_SQUADRON", false},															
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

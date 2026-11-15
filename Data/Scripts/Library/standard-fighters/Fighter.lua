@@ -144,7 +144,8 @@ return {
 			DROMMEL = {"HOWLRUNNER_SQUADRON", false},				
 			BATCH = {"MISSILE_TIE_FIGHTER_SQUADRON", false,
 					{"BatchFighters", "TIE_X1_SQUADRON", false}}, --research 1		
-			IMPERIAL_CORELLIA = {"", false},																				
+			IMPERIAL_CORELLIA = {"", false},
+			ALLIED_TION = {"HOWLRUNNER_SQUADRON", false},																							
 		}
 		
 		if owner == "IMPERIAL_PROTEUS" then

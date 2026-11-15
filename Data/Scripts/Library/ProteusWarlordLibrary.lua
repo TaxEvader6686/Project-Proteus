@@ -1120,16 +1120,29 @@ return {
 		},
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
-			Planets = {},
+			Planets = {"JAMINERE"},
 			LeaderTable = {"GRONN_ACROPORA"},
 			LeaderEndingNames = {"Emperor Gronn"},
 			HeroList = {"Gronn_Acropora"},
 			UnlockList = {
 				-- Space
-
+				"Crusader_Gunship", "Ipv1_Gunboat_Proteus", "Trenchant", "Nebulon_B_Tender", "CC7700", "Victory_I_Frigate", "Victory_II_Frigate",
+				"DHC_Gunboat", "Neutron_Star_Tender", "Super_Transport_XI_Missile", "Procursator_Star_Destroyer", "Vector_Star_Destroyer",
+				"Tector_Star_Destroyer", "Triumph_Star_Destroyer",
+				"Allegiance_Battlecruiser", 
 				-- Ground
+				"Imperial_Navy_Trooper_Company", "Imperial_Army_Guard_Company", "SD_6_Droid_Company_Generic",
+				"PX10_Company", "AT_DP_Company", "Imperial_AT_RT_Company",
+				"AT_AA_Walker_Company", "SPMAT_Company", "SPMAG_Company", "T4A_Company",
+				"Imperial_A5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Imperial_AT_AT_Walker_Company",
 
 			},
+			LockList = {"SD_6_Droid_Company"},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Independent_Forces",
+			FactionOverride3 = "Zsinj_Empire",			
+			StartYear = 4,
+			LastYear = 10,
 			IntroText = "",
 			IntroHolo = "",
 		},
