@@ -2538,6 +2538,9 @@
 		<Population_Value>8</Population_Value>
 
 		<Required_Orbiting_Units>Shuttle_Tyderium_Strang</Required_Orbiting_Units>
+
+	<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>
 
 	<SpaceUnit Name="Strang_Conqueror">
@@ -2565,7 +2568,6 @@
 		TEXT_TOOLTIP_ECLIPSE_WEAP4
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_strang_conqueror.tga</Icon_Name>
@@ -2668,7 +2670,7 @@
 			HP_Conqueror_Missile_03
 		</HardPoints>
 
-		<Lua_Script/>
+		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Starting_Spawned_Units_Tech_0>TIE_Oppressor_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Hunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -2763,7 +2765,7 @@
 			<Unit_Ability>
 				<Type>SUPER_LASER</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name>Super_Laser_Attack_Ability</GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name>Super_Laser_Attack_Ability_Strang</GUI_Activated_Ability_Name> 
 				<Recharge_Seconds>180</Recharge_Seconds>
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<SFXEvent_Target_Ability>Unit_Barrage_Interdictor</SFXEvent_Target_Ability>
@@ -2772,7 +2774,7 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Super_Laser_Ability Name="Super_Laser_Attack_Ability">
+			<Super_Laser_Ability Name="Super_Laser_Attack_Ability_Strang">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories> SpaceHero | SuperCapital | Capital | Frigate | Structure | SpaceStructure </Applicable_Unit_Categories>
 				<Applicable_Unit_Types/>
@@ -2848,9 +2850,12 @@
 		</Required_Special_Structures>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		
-		<Population_Value>8</Population_Value>
+		<Population_Value>32</Population_Value>
 
 		<Required_Orbiting_Units>Strang_IEC</Required_Orbiting_Units>
+
+	<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 	</DummyStructure>
 
 	<HeroUnit Name="Fel_Eviscerator">

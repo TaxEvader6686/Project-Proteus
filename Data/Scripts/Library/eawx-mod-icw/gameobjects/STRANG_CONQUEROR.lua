@@ -9,6 +9,6 @@ return {
 		}
 	},
 	Native = "IMPERIAL",
-	Scripts = {"multilayer", "fighter-spawn"},
+	Scripts = {"multilayer", "fighter-spawn", "tactical-superlaser"},
 	Flags = {HANGAR = true}
 }

@@ -123,6 +123,7 @@ return {
 	["TAXEVADER_DREAM_OF_A_QUIET_LIFE_DUMMY"] = {"TaxEvader_SynTax_Error", "TaxEvader_Dream_of_a_Quiet_Life"},
 	["MICHAEL_TERROR_DUMMY"] = {"Michael", "Michael_Terror"},
 	["STRANG_IEC_DUMMY"] = {"Victor_Strang", "Strang_IEC"},
+	["STRANG_CONQUEROR_DUMMY"] = {"Strang_IEC", "Strang_Conqueror"},
 	["ISARD_CLONE_LUSANKYA_DUMMY"] = {"Isard_Clone", "Isard_Clone_Lusankya"},
 	["DROMMEL_GUARDIAN_DUMMY"] = {"Drommel_Wolfs_Claw", "Drommel_Guardian"},
 	-- Proteus Unit upgrades for generics
