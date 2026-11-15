@@ -1127,7 +1127,7 @@ return {
 			UnlockList = {
 				-- Space
 				"Crusader_Gunship", "Ipv1_Gunboat_Proteus", "Trenchant", "Nebulon_B_Tender", "CC7700", "Victory_I_Frigate", "Victory_II_Frigate",
-				"DHC_Gunboat", "Neutron_Star_Tender", "Procursator_Star_Destroyer", "Vector_Star_Destroyer",
+				"DHC_Gunboat", "Neutron_Star_Tender", "Super_Transport_XI_Missile", "Procursator_Star_Destroyer", "Vector_Star_Destroyer",
 				"Tector_Star_Destroyer", "Triumph_Star_Destroyer",
 				"Allegiance_Battlecruiser", 
 				-- Ground
