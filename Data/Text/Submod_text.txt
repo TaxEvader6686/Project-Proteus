@@ -175,6 +175,7 @@ TEXT_EVENT_WARLORD_CHOICE_TRAX,Trax Sector
 TEXT_EVENT_WARLORD_CHOICE_VEERS,Blizzard Force
 TEXT_EVENT_WARLORD_CHOICE_X1,X1's Empire
 TEXT_FIELD_BASE_MERCENARY,Mercenary Field Base
+TEXT_FYYAR_REGIME_COMPLETE,TODO For Supernova
 TEXT_GAMBLE_RENDILI_DHC_DESCRIPTION,Commission a Dreadnaught-class Cruiser directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
 TEXT_GAMBLE_RENDILI_DHC_NAME,Rendili Priority Order: Dreadnaught-class Cruiser
 TEXT_GAMBLE_RENDILI_GSD_DESCRIPTION,Commission a Gladiator-class Star Destroyer directly from the Rendili StarDrive slipways and stockpiles. Rendili vessels come in many configurations and the many associated shipyards are always experimenting with alternate loadouts and modifications.
@@ -196,6 +197,21 @@ TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS5,Mandator-III Star Dreadnought: Executor 
 TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS6,If a third design is destroyed, the use of Super Star Destroyers will be ceased entirely.
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR2,Interceptor-III Frigate: 3 / 3
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR3,Munificent C3 Star Frigate: 1 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR4,Space ARC Star Cruiser: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR5,Refurbished Venator Star Destroyer: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH2,Crusader Corvette: 3 / 3
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH3,Kaloth Battlecruiser: 4 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH4,Super Transport XI Missile Barge: 4 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH5,Providence Carrier/Destroyer: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK2,Interceptor IV Frigate: 3 / 3
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK3,Kaloth Battlecruiser: 4 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK4,Space ARC Star Cruiser: 2 / 0
+TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK5,Modified Super Transport XI: 2 / 0
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
 TEXT_GROUND_SLAVE_BARRACKS,Slave Soldier Firebase
 TEXT_GROUND_SLAVE_MARKET,Slave Market
@@ -941,6 +957,7 @@ TEXT_TOOLTIP_COMMAND_BELLICOSE,Imperial-I Star Destroyer, Bellicose
 TEXT_TOOLTIP_COMMAND_BLACKHOLESUN,Communications Battlecruiser, Black Hole Sun
 TEXT_TOOLTIP_COMMAND_BLITZ,Modified Victory-II Star Destroyer, Blitz
 TEXT_TOOLTIP_COMMAND_BULWARK,Imperial-II Star Destroyer, Bulwark
+TEXT_TOOLTIP_COMMAND_CONQUEROR,Conqueror Star Destroyer, Conqueror
 TEXT_TOOLTIP_COMMAND_DOOMGIVER_E,Upgraded Orbital Assault Platform, Doomgiver
 TEXT_TOOLTIP_COMMAND_DREAM_OF_A_QUIET_LIFE,Bou'Halec Star Dreadnought, Dream of a Quiet Life
 TEXT_TOOLTIP_COMMAND_EVISCERATOR_FEL,Imperial-II Star Destroyer, Eviscerator
@@ -981,6 +998,16 @@ TEXT_TOOLTIP_COMMS_DHC_WEAP1,2x Medium Dual Turbolasers: 2 / 4.0s / 6.1km
 TEXT_TOOLTIP_COMMS_DHC_WEAP2,2x Light Anti-Fighter Ion Cannons: 2 / 2.0s / 3.1km
 TEXT_TOOLTIP_COMMS_DHC_WEAP3,2x Heavy Laser Cannons: 2 / 1.0s / 4.6km
 TEXT_TOOLTIP_COMMS_DHC_WEAP4,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_CONQUEROR,An Imperial Star Destroyer that has been heavily modified to mount a superlaser, conceived as a way to recoup the Empire's fear and power projection that was lost with the first Death Star. Many compromises had to be made to fit the beam generators and the experimental power system that supplies them, including reduced armor, weaker shielding, and the gutting of multiple weapon systems.
+TEXT_TOOLTIP_CONQUEROR_HULL,Hull: 7980 (Capital)
+TEXT_TOOLTIP_CONQUEROR_RESEARCH,Salvage the schematics for the Conqueror's superlaser from the Imperial Weapon Research Facility on Naboo.
+TEXT_TOOLTIP_CONQUEROR_SHIELD,Shields: 7750 / [38.75/R] (Capital)
+TEXT_TOOLTIP_CONQUEROR_WEAP1,4x Heavy Quad Turbolasers: 2 / 5.0s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP2,4x Heavy Turbolasers: 2 / 2.5s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP3,2x Heavy Quad Ion Cannons: 2 / 5.0s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP4,2x Heavy Ion Cannons: 2 / 2.5s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP5,3x Heavy Quad Laser Cannons: 2 / 0.5s / 4.7km
+TEXT_TOOLTIP_CONQUEROR_WEAP6,3x Assault Concussion Missiles: 5 / 15s / 7.4km
 TEXT_TOOLTIP_CONSULAR_HULL,Hull: 550 (Corvette)
 TEXT_TOOLTIP_CONSULAR_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
 TEXT_TOOLTIP_CONSULAR_REFIT,A common armed configuration for the Consular cruiser, equipped with turbolasers and missiles to engage other large ships rather than emphasizing a fighter screening role.
@@ -1325,6 +1352,15 @@ TEXT_TOOLTIP_HORNET_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.5km
 TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 4.0km
 TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_IL_RAZ,Ishin-Il-Raz was promoted by Emperor Palpatine to be one of the original twelve Grand Admirals in spite of having no military training and his appointment was met with much criticism. A fanatical supporter of the New Order and its core precepts, Il-Raz began to idolize Palpatine, and initiated a series of bloody massacres in an attempt to win favor with the Emperor. After Palpatine died at Endor, Il-Raz became increasingly deranged and depressed, attacking worlds at random.
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN,A Gargantuan factory ship and predecessor to the Dark Empire's World Devastators, these vessels were most often seen on newly-annexed Imperial worlds, collecting minerals, metals, battle detritus, and other resources to manufacture war materiel for the Imperial war machine. Lacking the powerful tractor beams of their more notorious relatives, large amounts of internal space must be set aside for logistical chains and shuttles to ferry in resources manually, reducing the potential hangar space and weapons complement of the vessel.
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_HULL,Hull: 26384 (Capital)
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_PRODUCTION,Factory: -20% cost / build time for all units and structures
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_SHIELD,Shields: 25840 / [64.5/R] (Capital)
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_SQUADRON,Fighters: 4 / 8 | Bombers: 2 / 4
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_TENDER,Huge Fleet Tender: 100 / 2.0s / 7.8km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP1,15x Heavy Turbolasers: 2 / 5.0s / 7.7km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP2,5x Light Turbolasers: 2 / 5.0s / 5.7km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP3,10x Heavy Ion Cannons: 2 / 5.0s / 7.7km
 TEXT_TOOLTIP_INCOME_BANKOFTHECORE,Credit Income: +600
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +10%
 TEXT_TOOLTIP_INCOME_LANTHQ,300 Credits per Cycle
@@ -1694,6 +1730,12 @@ TEXT_TOOLTIP_SLAVE_BARRACKS_SE3,Desert Sail 20: 4 / 8
 TEXT_TOOLTIP_SLAVE_BARRACKS_SE4,WLO-5 Speeder Tank: 2 / 4
 TEXT_TOOLTIP_SLAVE_BARRACKS_SE5,AT-AP Walker: 1 / 3
 TEXT_TOOLTIP_SLAVE_MARKET,This facility acts as a local hub for the Imperial slave trade. Humans and non-humans who dare to stand up to the Empire are put in chains and shipped here to await purchase by any number of unsavory clients, netting the Empire a tidy profit.
+TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST,A Variant of the AT-ST that eschews the pilot and gunner for a prototype slave circuitry system developed by General Arndall Lott. Entire companies of walkers can be piloted by a single pilot/gunner pair from the safety of a remote base, while mechanically-assisted targeting grants substantially increase accuracy for all weapons. The top speed of these walkers has also been capped to mitigate issues with control difficulty.
+TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_COMPANY,Company: 6x Slave-Rigged AT-ST Walker
+TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_MOVE,Speed: 1.0 | Turn: 3.0 
+TEXT_TOOLTIP_SLAVE_RIGGED_ATAT,An AT-AT that has been outiftted with prototype slave-rigging technology courtesy of General Arndall Lott, allowing multiple walkers to be piloted remotely by a single pair of drivers while mechanically-assisted targeting grants substantially increase accuracy for all weapons. The top speed of these walkers has also been capped to mitigate issues with control difficulty.
+TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_COMPANY,Company: 2x Slave-Rigged AT-AT Walker
+TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_MOVE,Speed: 0.50 | Turn: 2.0 
 TEXT_TOOLTIP_SOONTIR_FEL_WARLORD,
 TEXT_TOOLTIP_SP9,The mobile version of Golan Arms' iconic DF.9 Anti-Infantry Battery. Like its stationary counterpart, the SP.9 saw service under multiple governments over the decades. Most prominently, it was used by the Empire, Rebellion and their various successor states. Best used against infantry formations. 
 TEXT_TOOLTIP_SP9_COMPANY,Company: 4x SP9 Anti Infantry Artillery Platform
@@ -1957,6 +1999,8 @@ TEXT_UNIT_CLONE_P2_SQUAD,Clone Trooper Fireteam (Phase II)
 TEXT_UNIT_CLONETROOPER_LT_P2,Clone Trooper Lieutenant (Phase II)
 TEXT_UNIT_CLONETROOPER_SERGEANT_P2,Clone Trooper Sergeant (Phase II)
 TEXT_UNIT_COMMS_DHC,Dreadnaught Communications Cruiser
+TEXT_UNIT_CONQUEROR,Conqueror Star Destroyer
+TEXT_UNIT_CONQUEROR_RESEARCH,Revive the Conqueror Project
 TEXT_UNIT_CONSULAR,Consular Transport Cruiser
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
 TEXT_UNIT_CORONA_TENDER,Corona Tender
@@ -2001,6 +2045,7 @@ TEXT_UNIT_HEAVY_PDF_ROCKET,Heavy PDF Rocket Trooper
 TEXT_UNIT_HEAVY_PDF_SQUAD,Heavy PDF Squad
 TEXT_UNIT_HEAVY_PDF_TROOPER,Heavy PDF Trooper
 TEXT_UNIT_HORNET,Hornet Carrier
+TEXT_UNIT_IMPERIAL_LEVIATHAN,Imperial Leviathan
 TEXT_UNIT_INVINCIBLE_TENDER,Invincible Dreadnaught Fleet Tender
 TEXT_UNIT_INVINCIBLE_UPGUNNED,Modernized Invincible Dreadnaught
 TEXT_UNIT_ION_VIGIL,Customs Refit Vigil Corvette
@@ -2134,6 +2179,10 @@ TEXT_UNIT_SKIPRAYZ,Skipray Blastboat GAT-12z
 TEXT_UNIT_SKIPRAYZ_SQUADRON,Skipray Blastboat GAT-12z Squadron
 TEXT_UNIT_SKIPRAYZ_SQUADRON_HALF,Skipray Blastboat GAT-12z Squadron 1/2
 TEXT_UNIT_SKIPRAYZ_SQUADRON2,Skipray Blastboat GAT-12z Squadron x2
+TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER,Slave-Rigged AT-AT Walker
+TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER_COMPANY,Slave-Rigged AT-AT Walker Company
+TEXT_UNIT_SLAVE_RIGGED_AT_ST_WALKER,Slave-Rigged AT-ST Walker
+TEXT_UNIT_SLAVE_RIGGED_AT_ST_WALKER_COMPANY,Slave-Rigged AT-ST Walker Company
 TEXT_UNIT_SP9,SP.9 Anti-Infantry Artillery Platform
 TEXT_UNIT_SP9_COMPANY,SP.9 Anti-Infantry Artillery Platform Company
 TEXT_UNIT_STAR_DESTROYER_STEALTH,Stealth Imperial-I Star Destroyer
@@ -2223,52 +2272,3 @@ Z_TEXT_UNIT_GORATH_RESEARCH,Reverse-engineer the Gorath Strike Cruiser
 Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
-TEXT_UNIT_SLAVE_RIGGED_AT_ST_WALKER,Slave-Rigged AT-ST Walker
-TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST,A Variant of the AT-ST that eschews the pilot and gunner for a prototype slave circuitry system developed by General Arndall Lott. Entire companies of walkers can be piloted by a single pilot/gunner pair from the safety of a remote base, while mechanically-assisted targeting grants substantially increase accuracy for all weapons. The top speed of these walkers has also been capped to mitigate issues with control difficulty.
-TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_MOVE,Speed: 1.0 | Turn: 3.0 
-TEXT_TOOLTIP_SLAVE_RIGGED_AT_ST_COMPANY,Company: 6x Slave-Rigged AT-ST Walker
-TEXT_UNIT_SLAVE_RIGGED_AT_ST_WALKER_COMPANY,Slave-Rigged AT-ST Walker Company
-TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER,Slave-Rigged AT-AT Walker
-TEXT_TOOLTIP_SLAVE_RIGGED_ATAT,An AT-AT that has been outiftted with prototype slave-rigging technology courtesy of General Arndall Lott, allowing multiple walkers to be piloted remotely by a single pair of drivers while mechanically-assisted targeting grants substantially increase accuracy for all weapons. The top speed of these walkers has also been capped to mitigate issues with control difficulty.
-TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_MOVE,Speed: 0.50 | Turn: 2.0 
-TEXT_TOOLTIP_SLAVE_RIGGED_ATAT_COMPANY,Company: 2x Slave-Rigged AT-AT Walker
-TEXT_UNIT_SLAVE_RIGGED_AT_AT_WALKER_COMPANY,Slave-Rigged AT-AT Walker Company
-TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
-TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR2,Interceptor-III Frigate: 3 / 3
-TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR3,Munificent C3 Star Frigate: 1 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR4,Space ARC Star Cruiser: 2 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_ISECTOR5,Refurbished Venator Star Destroyer: 2 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH2,Crusader Corvette: 3 / 3
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH3,Kaloth Battlecruiser: 4 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH4,Super Transport XI Missile Barge: 4 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KAARENTH5,Providence Carrier/Destroyer: 2 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK1,Rihkxyrk Assault Fighter Squadron: 4 / ∞
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK2,Interceptor IV Frigate: 3 / 3
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK3,Kaloth Battlecruiser: 4 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK4,Space ARC Star Cruiser: 2 / 0
-TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK5,Modified Super Transport XI: 2 / 0
-TEXT_TOOLTIP_CONQUEROR,An Imperial Star Destroyer that has been heavily modified to mount a superlaser, conceived as a way to recoup the Empire's fear and power projection that was lost with the first Death Star. Many compromises had to be made to fit the beam generators and the experimental power system that supplies them, including reduced armor, weaker shielding, and the gutting of multiple weapon systems.
-TEXT_TOOLTIP_CONQUEROR_HULL,Hull: 7980 (Capital)
-TEXT_TOOLTIP_CONQUEROR_SHIELD,Shields: 7750 / [38.75/R] (Capital)
-TEXT_TOOLTIP_CONQUEROR_WEAP1,4x Heavy Quad Turbolasers: 2 / 5.0s / 7.4km
-TEXT_TOOLTIP_CONQUEROR_WEAP2,4x Heavy Turbolasers: 2 / 2.5s / 7.4km
-TEXT_TOOLTIP_CONQUEROR_WEAP3,2x Heavy Quad Ion Cannons: 2 / 5.0s / 7.4km
-TEXT_TOOLTIP_CONQUEROR_WEAP4,2x Heavy Ion Cannons: 2 / 2.5s / 7.4km
-TEXT_TOOLTIP_CONQUEROR_WEAP5,3x Heavy Quad Laser Cannons: 2 / 0.5s / 4.7km
-TEXT_TOOLTIP_CONQUEROR_WEAP6,3x Assault Concussion Missiles: 5 / 15s / 7.4km
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN,A Gargantuan factory ship and predecessor to the Dark Empire's World Devastators, these vessels were most often seen on newly-annexed Imperial worlds, collecting minerals, metals, battle detritus, and other resources to manufacture war materiel for the Imperial war machine. Lacking the powerful tractor beams of their more notorious relatives, large amounts of internal space must be set aside for logistical chains and shuttles to ferry in resources manually, reducing the potential hangar space and weapons complement of the vessel.
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_HULL,Hull: 26384 (Capital)
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_PRODUCTION,Factory: -20% cost / build time for all units and structures
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_SHIELD,Shields: 25840 / [64.5/R] (Capital)
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_SQUADRON,Fighters: 4 / 8 | Bombers: 2 / 4
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_TENDER,Huge Fleet Tender: 100 / 2.0s / 7.8km
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP1,15x Heavy Turbolasers: 2 / 5.0s / 7.7km
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP2,5x Light Turbolasers: 2 / 5.0s / 5.7km
-TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP3,10x Heavy Ion Cannons: 2 / 5.0s / 7.7km
-TEXT_UNIT_CONQUEROR,Conqueror Star Destroyer
-TEXT_UNIT_IMPERIAL_LEVIATHAN,Imperial Leviathan
-TEXT_UNIT_CONQUEROR_RESEARCH,Revive the Conqueror Project
-TEXT_TOOLTIP_CONQUEROR_RESEARCH,Salvage the schematics for the Conqueror's superlaser from the Imperial Weapon Research Facility on Naboo.
-TEXT_TOOLTIP_COMMAND_CONQUEROR,Conqueror Star Destroyer, Conqueror
-

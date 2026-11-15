@@ -51,4 +51,5 @@ return {
 	["MICHAEL_TERROR"] = "Terror (Michael)",
 	["THARKUS_AMBITION"] = "Ambition (Tharkus)",
 	["KDY_DEMONSTRATION_DREADNOUGHT"] = "KDY Demonstration Dreadnought",
+	["STRANG_CONQUEROR"] = "Conqueror (Strang)",
 }
