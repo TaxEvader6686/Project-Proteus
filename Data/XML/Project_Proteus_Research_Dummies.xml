@@ -2397,4 +2397,35 @@
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
 
+	<!--Storm Commandos-->
+
+	<DummyStructure Name="Dummy_Research_Conqueror">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_CONQUEROR_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_CONQUEROR_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_TECTOR.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>15000</Build_Cost_Credits>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
+		<Required_Planets>Naboo</Required_Planets>
+
+		<Lua_Script>ResearchConqueror</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
 </Proteus_Research_Dummies>

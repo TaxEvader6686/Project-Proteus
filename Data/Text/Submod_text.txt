@@ -2248,3 +2248,27 @@ TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK2,Interceptor IV Frigate: 3 / 3
 TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK3,Kaloth Battlecruiser: 4 / 0
 TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK4,Space ARC Star Cruiser: 2 / 0
 TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK5,Modified Super Transport XI: 2 / 0
+TEXT_TOOLTIP_CONQUEROR,An Imperial Star Destroyer that has been heavily modified to mount a superlaser, conceived as a way to recoup the Empire's fear and power projection that was lost with the first Death Star. Many compromises had to be made to fit the beam generators and the experimental power system that supplies them, including reduced armor, weaker shielding, and the gutting of multiple weapon systems.
+TEXT_TOOLTIP_CONQUEROR_HULL,Hull: 7980 (Capital)
+TEXT_TOOLTIP_CONQUEROR_SHIELD,Shields: 7750 / [38.75/R] (Capital)
+TEXT_TOOLTIP_CONQUEROR_WEAP1,4x Heavy Quad Turbolasers: 2 / 5.0s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP2,4x Heavy Turbolasers: 2 / 2.5s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP3,2x Heavy Quad Ion Cannons: 2 / 5.0s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP4,2x Heavy Ion Cannons: 2 / 2.5s / 7.4km
+TEXT_TOOLTIP_CONQUEROR_WEAP5,3x Heavy Quad Laser Cannons: 2 / 0.5s / 4.7km
+TEXT_TOOLTIP_CONQUEROR_WEAP6,3x Assault Concussion Missiles: 5 / 15s / 7.4km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN,A Gargantuan factory ship and predecessor to the Dark Empire's World Devastators, these vessels were most often seen on newly-annexed Imperial worlds, collecting minerals, metals, battle detritus, and other resources to manufacture war materiel for the Imperial war machine. Lacking the powerful tractor beams of their more notorious relatives, large amounts of internal space must be set aside for logistical chains and shuttles to ferry in resources manually, reducing the potential hangar space and weapons complement of the vessel.
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_HULL,Hull: 26384 (Capital)
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_PRODUCTION,Factory: -20% cost / build time for all units and structures
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_SHIELD,Shields: 25840 / [64.5/R] (Capital)
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_SQUADRON,Fighters: 4 / 8 | Bombers: 2 / 4
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_TENDER,Huge Fleet Tender: 100 / 2.0s / 7.8km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP1,15x Heavy Turbolasers: 2 / 5.0s / 7.7km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP2,5x Light Turbolasers: 2 / 5.0s / 5.7km
+TEXT_TOOLTIP_IMPERIAL_LEVIATHAN_WEAP3,10x Heavy Ion Cannons: 2 / 5.0s / 7.7km
+TEXT_UNIT_CONQUEROR,Conqueror Star Destroyer
+TEXT_UNIT_IMPERIAL_LEVIATHAN,Imperial Leviathan
+TEXT_UNIT_CONQUEROR_RESEARCH,Revive the Conqueror Project
+TEXT_TOOLTIP_CONQUEROR_RESEARCH,Salvage the schematics for the Conqueror's superlaser from the Imperial Weapon Research Facility on Naboo.
+TEXT_TOOLTIP_COMMAND_CONQUEROR,Conqueror Star Destroyer, Conqueror
+

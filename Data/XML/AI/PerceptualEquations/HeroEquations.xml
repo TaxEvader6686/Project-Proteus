@@ -257,6 +257,8 @@
 	<Strang_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Strang_IEC"}
 		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Strang_Conqueror"}
+		+
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Victor_Strang_Deployed"}
 	</Strang_In_Orbit>
 </Equations>

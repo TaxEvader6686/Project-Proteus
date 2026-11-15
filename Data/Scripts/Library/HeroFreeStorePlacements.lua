@@ -628,6 +628,7 @@ return {
     ,TILAS_MAGORE_TEAM = {"Is_Production_Planet", false}
     ,ABAN_BELLICOSE = {nil, true}
     ,STRANG_IEC = {nil, true}
+    ,STRANG_CONQUEROR = {nil, true}
     ,FEL_EVISCERATOR = {nil, true}
     ,RAZOR_ARQUITENS = {nil, true}
     ,MENG_LA_TEAM = {"Is_Production_Planet", false}
