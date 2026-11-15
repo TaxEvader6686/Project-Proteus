@@ -2544,7 +2544,6 @@
 	</DummyStructure>
 
 	<SpaceUnit Name="Strang_Conqueror">
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_STRANG</Text_ID>
 		<Encyclopedia_Text> 
@@ -2570,7 +2569,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_strang_conqueror.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_STRANG.tga</Icon_Name>
 
 		<Space_Model_Name>conqueror_star_destroyer.ALO</Space_Model_Name>
 		<No_Colorization_Color/>
