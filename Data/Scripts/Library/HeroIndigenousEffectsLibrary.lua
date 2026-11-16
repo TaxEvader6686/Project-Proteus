@@ -135,6 +135,12 @@ return {
 			GroundPerception = "Foga_Brill_In_Orbit",
 			RecruitingFaction = "DISABLE",
 			RecruitingMessage = "Moff Brill's reign of terror has forced the local partisans into hiding.",
+		},
+		HAX = {
+			HeroName = "POLLUX_HAX",
+			GroundPerception = "Hax_In_Orbit",
+			RecruitingFaction = "DISABLE",
+			RecruitingMessage = "Pollux Hax's relentless COMPNOR propaganda campaigns have silenced local dissent and driven partisan movements into obscurity.",
 		}
 	},
 	ANIMAL_ALLEGIANCE = {
