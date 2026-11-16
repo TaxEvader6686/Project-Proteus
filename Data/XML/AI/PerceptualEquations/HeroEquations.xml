@@ -261,4 +261,7 @@
 		+
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Victor_Strang_Deployed"}
 	</Strang_In_Orbit>
+	<Hax_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Pollux_Hax"}
+	</Hax_In_Orbit>
 </Equations>

@@ -1303,7 +1303,7 @@ return {
 			Planets = {"BRENTAAL", "ALSAKAN", "IXTLAR"},
 			LeaderTable = {["CRUEYA_VANDRON_TEAM"] = {"CRUEYA_VANDRON"}},
 			LeaderEndingNames = {"Emperor Vandron"},
-			HeroList = {{"Crueya_Vandron_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
+			HeroList = {{"Crueya_Vandron_Team", "Pollux_Hax_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
 			UnlockList = {
 				-- Space 
 				"VT_49_Decimator_Group", "IPV1", "CR92A", "Tartan_Patrol_Cruiser", "Star_Galleon", "Arquitens_Refit", "Ton_Falk_Escort_Carrier", "Strike_Cruiser",

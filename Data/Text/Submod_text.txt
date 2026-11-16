@@ -97,6 +97,7 @@ TEXT_ENCYCLOPEDIA_CLASS_INFORMER_OF_DEER,Informer of Deer
 TEXT_ENCYCLOPEDIA_CLASS_OUTSPOKEN_MANAGER,Outspoken Manager
 TEXT_ENCYCLOPEDIA_CLASS_PRIME_MINISTER,Prime Minister 
 TEXT_ENCYCLOPEDIA_CLASS_PROCURATOR_OF_JUSTICE,Procurator Of Justice
+TEXT_ENCYCLOPEDIA_CLASS_PROPAGANDIST,Propagandist
 TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_DIRECTOR,Research Director
 TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT,Second Lieutenant
 TEXT_ENCYCLOPEDIA_CLASS_SECURITY_OFFICER,Security Officer
@@ -262,6 +263,7 @@ TEXT_HERO_MICHAEL,Michael
 TEXT_HERO_NAMMAN,Namman Cha
 TEXT_HERO_PIRA_LEEMAD,Pira Leemad
 TEXT_HERO_POLLUX,Pollux
+TEXT_HERO_POLLUX_HAX,Pollux Hax
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_REBUILD_TAX,MPTL
 TEXT_HERO_RED_STAR,Iran Ryad
@@ -1543,6 +1545,7 @@ TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP1,1x AV Beam Cannon: 12 / 1.5s / 320m
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_WEAP2,1x Heavy AI Blaster Cannon (AOE): 1 / 0.5s / 240m
 TEXT_TOOLTIP_PIRA_LEEMAD,The chief administrator of the Lant Mining Corporation's operations in the Brak Sector. Despite having their own corporate security force, Lant Mining operations came under increasing pressure from rebel and pirate activity, spurring on closer cooperation with the Imperial authorities in the Brak Sector. 
 TEXT_TOOLTIP_POLLUX,Pollux was one half of the Dioskouroi, a pair of elite shapeshifting operatives in the service of High Admiral Tharkus. Able to assume the appearance of others, Pollux used his unusual abilities to infiltrate enemy ranks, gather intelligence, and carry out covert assignments alongside his partner, Kastor.
+TEXT_TOOLTIP_POLLUX_HAX,Pollux Hax was among the Emperor Palpatine's closest advisers and the longtime head of the Imperial Propaganda Dissemination Division of COMPNOR. As an ardent advocate of the New Order, Hax spent his entire career spreading propaganda in favor of the Emperor and his ideology. His expertise in information control and political indoctrination aided the suppression of dissent across the galaxy.
 TEXT_TOOLTIP_PRAETOR_I,A large battleship produced before the Clone Wars to be flaunted by wealthy sectors and planets. While the vessels originally had hamstrung hyperdrives due to regulations, wartime conditions saw them upgraded out of necessity as task force leaders and response units. 
 TEXT_TOOLTIP_PRAETOR_I_HULL,Hull: 32940 (Capital)
 TEXT_TOOLTIP_PRAETOR_I_MOVE,Speed: 2.45 | Accel: 0.1 | Turn: 0.175

@@ -649,4 +649,5 @@ return {
     ,ISARD_CLONE_LUSANKYA = {"Planet_Has_Capital_Building", true}
     ,CRUEYA_VANDRON_TEAM = {"Is_Production_Planet", false}
     ,ALEXANDER_JULSTAAN_TEAM = {"Is_Production_Planet", false}
+    ,POLLUX_HAX_TEAM = {"Is_Production_Planet", false}
 }
