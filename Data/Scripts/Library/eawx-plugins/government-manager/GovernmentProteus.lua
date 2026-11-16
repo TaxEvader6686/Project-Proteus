@@ -247,25 +247,26 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 	local ownerName = "IMPERIAL_PROTEUS"
 	local TechLevel = GlobalValue.Get("CURRENT_ERA")
 	local regime = GlobalValue.Get("REGIME_INDEX")
+	local flags = {"GARRISON"}
 	local is_main_empire = false
 	if GlobalValue.Get("IMPERIAL_REGIME_HOST") == ownerName then
 		is_main_empire = true
 	end
 	local StandardList
 	StandardList = require("standard-fighters/LIGHT_FIGHTER")
-	local lightfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+	local lightfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
 
 	StandardList = require("standard-fighters/Fighter")
-	local fighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+	local fighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
 
 	StandardList = require("standard-fighters/HEAVY_FIGHTER")
-	local heavyfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+	local heavyfighter = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
 
 	StandardList = require("standard-fighters/Interceptor")
-	local interceptor = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+	local interceptor = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
 
 	StandardList = require("standard-fighters/Bomber")
-	local bomber = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,nil,is_main_empire)
+	local bomber = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
 
 	StandardList = require("standard-fighters/GUNSHIP")
 	local gunship = StandardList.Evaluate_Fighters(nil,nil,ownerName,nil,TechLevel,regime,nil,is_main_empire)
@@ -306,17 +307,21 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 		government_display_event.Clear_Dialog_Text()--Clears the normal empire gov display
 	end
 	government_display_event.Add_Dialog_Text("TEXT_NONE")
-	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Unique Mechanics and Garrisons:")
-	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 ----Group Info----
 	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].GovText then
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Unique Mechanics:")
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 		local GovText = ProteusDisplayLibrary[current_proteus].GovText
 		for _, text in pairs(GovText) do
 			government_display_event.Add_Dialog_Text(text)
 		end
 		government_display_event.Add_Dialog_Text("TEXT_NONE")--Spacer
 	end
+----Garrison Info----
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
+	government_display_event.Add_Dialog_Text(tostring(GlobalValue.Get("PROTEUS_CURRENT_DISPLAY_NAME")) .. " Shipyard Garrisons:")
+	government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 ----Pirate Base----
 	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].PirateBaseText then
 		local PirateBaseText = ProteusDisplayLibrary[current_proteus].PirateBaseText
