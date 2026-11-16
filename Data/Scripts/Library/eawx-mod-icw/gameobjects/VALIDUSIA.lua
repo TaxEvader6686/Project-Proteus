@@ -89,5 +89,6 @@ return {
 			ZSINJ_EMPIRE = {Initial = 3, Reserve = 3}
 		}
 	},
+	FighterFlags = {"GARRISON"},
 	Scripts = {"fighter-spawn"}
 }

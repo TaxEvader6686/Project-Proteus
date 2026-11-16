@@ -53,6 +53,7 @@ return {
 			DASTA = {"2_WARPOD_SQUADRON", false,
 					{"DastaFightersImperial", "SCIMITAR_SQUADRON", false},
 					{"DastaFightersRebel", "B_WING_SQUADRON", false}},
+			DASTA_GARRISON = {"TOSCAN_BOMBER_SQUADRON", false},
 			ELROOD = {"TIE_BOMBER_SQUADRON", false,
 					{"ELRSC", "SCIMITAR_SQUADRON", false}}, --research 1
 			GAROS = {"TIE_GT_BOMBER_SQUADRON", false},
@@ -78,6 +79,7 @@ return {
 			RESTORED_EMPIRE = {"BTLB_Y_WING_SQUADRON", false},
 			SECTOR_5 = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			SELLASAS = {"STARWING_SQUADRON", false},
+			SELLASAS_GARRISON = {"SHIELDED_TIE_BOMBER_SQUADRON", false},
 			SHADOWSPAWN = {"TIE_BOMBER_SQUADRON", false},
 			TAGGE = {"TIE_GT_BOMBER_SQUADRON", false},
 			TAMARIN = {"TIE_BOMBER_SQUADRON", false},
