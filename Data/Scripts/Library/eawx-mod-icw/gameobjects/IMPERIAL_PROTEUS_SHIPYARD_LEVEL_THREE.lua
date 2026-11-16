@@ -31,6 +31,7 @@ return {
 			DEFAULT = {Initial = 1, Reserve = 0},
 		},
 	},
+	FighterFlags = {"GARRISON"},
 	Scripts = {"fighter-spawn"},
 	Flags = {SHIPYARD = true, HANGAR = true}
 }

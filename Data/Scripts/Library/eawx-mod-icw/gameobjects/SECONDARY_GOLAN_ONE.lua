@@ -71,5 +71,6 @@ return {
 			EMPIREOFTHEHAND = {Initial = 1, Reserve = 1}
 		}
 	},
+	FighterFlags = {"GARRISON"},
 	Scripts = {"turn-station", "fighter-spawn"}
 }

@@ -81,5 +81,6 @@ return {
 			HUTT_CARTELS = {Initial = 2, Reserve = 2}
 		}
 	},
+	FighterFlags = {"GARRISON"},
 	Scripts = {"turn-station", "fighter-spawn"}
 }

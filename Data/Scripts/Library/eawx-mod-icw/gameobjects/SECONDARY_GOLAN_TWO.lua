@@ -44,7 +44,11 @@ return {
 		},
 		["BOMBER"] = {
 			IMPERIAL = {Initial = 1, Reserve = 1},
-			INDEPENDENT_FORCES = {Initial = 1, Reserve = 1}
+			INDEPENDENT_FORCES = {Initial = 1, Reserve = 1},
+			NIVERS = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)}
+		},
+		["HEAVY_BOMBER"] = {
+			NIVERS = {Initial = 1, Reserve = 1},
 		},
 		["Y_WING_SQUADRON"] = {
 			REBEL = {Initial = 1, Reserve = 1}
@@ -90,5 +94,6 @@ return {
 			EMPIREOFTHEHAND = {Initial = 1, Reserve = 1}
 		}
 	},
+	FighterFlags = {"GARRISON"},
 	Scripts = {"turn-station", "fighter-spawn"}
 }
