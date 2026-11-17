@@ -9,7 +9,11 @@ return {
 			WARLORDS = {Initial = 1, Reserve = 1}
 		},
 		["LIGHT_FIGHTER_HALF"] = {
-			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 1}
+			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 1},
+			SELLASAS = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)}
+		},
+		["FIGHTER_HALF"] = {
+			SELLASAS = {Initial = 1, Reserve = 1}
 		},
 		["SHIELDED_TIE_FIGHTER_SQUADRON_HALF"] = {
 			ERIADU_AUTHORITY = {Initial = 1, Reserve = 1, ResearchType = "EATIEShields"}
