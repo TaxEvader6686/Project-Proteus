@@ -18,7 +18,11 @@ return {
 			WARLORDS = {Initial = 1, Reserve = 2}
 		},
 		["LIGHT_FIGHTER_DOUBLE"] = {
-			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 2}
+			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 2},
+			SELLASAS = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
+		},
+		["FIGHTER_DOUBLE"] = {
+			SELLASAS = {Initial = 1, Reserve = 2}
 		},
 		["TIE_DROID_SQUADRON_DOUBLE"] = {
 			EMPIRE = {Initial = 1, Reserve = 2, TechLevel = IsOneOf({4, 5})}

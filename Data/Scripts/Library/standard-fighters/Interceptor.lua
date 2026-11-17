@@ -85,6 +85,7 @@ return {
 			SELLASAS_GARRISON = {"SHIELDED_TIE_INTERCEPTOR_SQUADRON", false},
 			SHADOWSPAWN = {"TIE_PHANTOM_SQUADRON", false},
 			TAGGE = {"T_WING_SQUADRON", false},
+			TAGGE_GARRISON = {"TIE_POD_SQUADRON", false},
 			TAMARIN = {"NIMBUS_V_WING_SQUADRON", false},
 			TAPANI = {"TIE_INTERCEPTOR_SQUADRON", false,
 					{"ProteusA9", "A9_SQUADRON", false}}, --research 1

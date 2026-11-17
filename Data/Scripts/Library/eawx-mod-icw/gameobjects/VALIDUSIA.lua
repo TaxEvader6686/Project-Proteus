@@ -12,7 +12,11 @@ return {
 			WARLORDS = {Initial = 1, Reserve = 5}
 		},
 		["INTERCEPTOR_DOUBLE"] = {
-			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 5}
+			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 5},
+			SELLASAS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
+		},
+		["LIGHT_FIGHTERBOMBER_DOUBLE"] = {
+			SELLASAS = {Initial = 1, Reserve = 5},
 		},
 		["SHIELDED_TIE_INTERCEPTOR_SQUADRON_DOUBLE"] = {
 			ERIADU_AUTHORITY = {Initial = 1, Reserve = 5, ResearchType = "EATIEShields"}
@@ -55,13 +59,17 @@ return {
 		},
 		["BOMBER_DOUBLE"] = {
 			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 5},
-			NIVERS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)}
+			NIVERS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
+			SELLASAS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
 		},
 		["BOMBER"] = {
 			NIVERS = {Initial = 1, Reserve = 5},
 		},
 		["HEAVY_BOMBER"] = {
 			NIVERS = {Initial = 1, Reserve = 5},
+		},
+		["BOMBER2_DOUBLE"] = {
+			SELLASAS = {Initial = 1, Reserve = 5},
 		},
 		["SCIMITAR_SQUADRON_DOUBLE"] = {
 			EMPIRE = {Initial = 1, Reserve = 5, TechLevel = EqualTo(3)}
