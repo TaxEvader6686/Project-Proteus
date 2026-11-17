@@ -610,12 +610,12 @@ return {
 				-- Space
 				"Guardian_Cruiser_Group", "Customs_Corvette", "Lancer_Frigate", "CEC_Light_Cruiser", "Victory_I_Frigate", "Galleon", 
 				"Rep_DHC", "DHC_Gunboat", "Imperial_I_Frigate", "Victory_II_Star_Destroyer", 
-				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Procurator_Battlecruiser", "Maelstrom_Battlecruiser", 
-				"Torpedo_Sphere", "Sorannan_Star_Destroyer", "Compellor_Battlecruiser", "Assertor_Star_Dreadnought",
+				"Interdictor_Star_Destroyer", "Tector_Star_Destroyer", "Procurator_Battlecruiser", "Maelstrom_Battlecruiser", 
+				"Torpedo_Sphere", "Sorannan_Star_Destroyer", "Altor_Carrier", "Assertor_Star_Dreadnought",
 				-- Ground	
 				"CSA_Destroyer_Droid_Company", "Imperial_Army_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", 
-				"Repulsor_Scout_Company", "Scorpenek_Utility_Company", 
-				"OG9_Company", "Persuader_Company", "CA_Artillery_Company", "Nemesis_Gunship_Company", "Imperial_VAAT_Company", 
+				"Repulsor_Scout_Company", "Scorpenek_Utility_Company", "OG9_Company", 
+				"Imperial_UT_AA_Company", "Persuader_Company", "CA_Artillery_Company", "Nemesis_Gunship_Company", "Imperial_VAAT_Company", 
 				"C10_Siege_Tower_Company", "Tracked_Mobile_Base_Company", 
 				-- Structure
 				"Rossum_HQ", "Baktoid_HQ", "Mekuun_HQ", "Colicoid_HQ", "Cygnus_HQ",
