@@ -10,16 +10,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_2 = {
@@ -33,16 +34,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_3 = {
@@ -56,16 +58,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_4 = {
@@ -79,16 +82,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_5 = {
@@ -102,16 +106,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_6 = {
@@ -125,16 +130,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_7 = {
@@ -148,16 +154,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_8 = {
@@ -171,16 +178,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_9 = {
@@ -194,16 +202,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_10 = {
@@ -217,16 +226,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	Era_11 = {
@@ -240,16 +250,17 @@ return {
 		{
 			{"Imperial_Stormtrooper_Company", 5},
 			{"B2_Droid_Company", 5},
-			{"Imperial_Army_Commando_Company", 5},		
+			{"Imperial_Scout_Trooper_Company", 5},		
 			{"Acclamator_I_Carrier", 3},
-			{"Vindicator_Cruiser", 3},
+			{"Imperial_TX130S_Company", 3},
 		},
 		{
-			{"XR85_Company", 2},  --Placehold for unique 2 pop ground unit
-			{"IntSec_Operator_Company", 4},
+			{"XR85_Company", 2}, 
+			{"Destroyer_Droid_II_Hunter", 4},
 			{"Immobilizer_418_Refit", 4},
-			{"AT_AA_Walker_Company", 3},
+			{"Destroyer_Droid_II_Turret", 4},
 			{"SD_9_Assault_Droid_Company", 4},
+			{"Modernized_Procurator", 1},
 		}
 	},
 	PDF = {
