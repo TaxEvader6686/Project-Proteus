@@ -77,7 +77,7 @@ return {
 			--Project Proteus
 			ANAXES = {"SKIRMISH_IPV1", 1},
 			ALLIED_TION = {"CRUSADER_GUNSHIP", 1},--Based on Dev Doc
-			BALMORRA = {"SKIRMISH_IPV1", 1},
+			BALMORRA = {"IMPERIAL_CR90", 1},
 			BATCH = {"SKIRMISH_IPV1", 1},																
 			BRANDEI = {"IMPERIAL_CR90", 1},
 			BORMEA = {"CUSTOMS_CORVETTE", 1},
