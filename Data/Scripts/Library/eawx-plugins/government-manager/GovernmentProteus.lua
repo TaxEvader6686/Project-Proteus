@@ -336,7 +336,21 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardOneText then
 		local ShipyardOneText = ProteusDisplayLibrary[current_proteus].ShipyardOneText
 		for _, text in pairs(ShipyardOneText) do
-			government_display_event.Add_Dialog_Text(text)
+			if type(text) ~= "table" then
+				government_display_event.Add_Dialog_Text(text)
+			else
+				StandardList = require("standard-fighters/"..text[1])
+				local displayunit = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+				if type(displayunit) ~= "table" then
+					government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit), text[2])
+				else
+					if table.getn(text) == 3 then--multipliers only apply to non-fighters, and those always have 0 reserves, so do it this way to get around %s limit
+						government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(displayunit[1]), tostring(displayunit[2] * text[2]))
+					else--Corvettes have reserves and multipliers, but fixed spawns
+						government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit[1]), text[2])
+					end
+				end
+			end
 		end
 	else
 		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(lightfighter))
@@ -357,7 +371,21 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardTwoText then
 		local ShipyardTwoText = ProteusDisplayLibrary[current_proteus].ShipyardTwoText
 		for _, text in pairs(ShipyardTwoText) do
-			government_display_event.Add_Dialog_Text(text)
+			if type(text) ~= "table" then
+				government_display_event.Add_Dialog_Text(text)
+			else
+				StandardList = require("standard-fighters/"..text[1])
+				local displayunit = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+				if type(displayunit) ~= "table" then
+					government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit), text[2])
+				else
+					if table.getn(text) == 3 then--multipliers only apply to non-fighters, and those always have 0 reserves, so do it this way to get around %s limit
+						government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(displayunit[1]), tostring(displayunit[2] * text[2]))
+					else--Corvettes have reserves and multipliers, but fixed spawns
+						government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit[1]), text[2])
+					end
+				end
+			end
 		end
 	else
 		government_display_event.Add_Dialog_Text("%s: 2 / ∞", Find_Object_Type(lightfighter))
@@ -384,7 +412,21 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardThreeText then
 		local ShipyardThreeText = ProteusDisplayLibrary[current_proteus].ShipyardThreeText
 		for _, text in pairs(ShipyardThreeText) do
-			government_display_event.Add_Dialog_Text(text)
+			if type(text) ~= "table" then
+				government_display_event.Add_Dialog_Text(text)
+			else
+				StandardList = require("standard-fighters/"..text[1])
+				local displayunit = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+				if type(displayunit) ~= "table" then
+					government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit), text[2])
+				else
+					if table.getn(text) == 3 then--multipliers only apply to non-fighters, and those always have 0 reserves, so do it this way to get around %s limit
+						government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(displayunit[1]), tostring(displayunit[2] * text[2]))
+					else--Corvettes have reserves and multipliers, but fixed spawns
+						government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit[1]), text[2])
+					end
+				end
+			end
 		end
 	else
 		government_display_event.Add_Dialog_Text("%s: 3 / ∞", Find_Object_Type(interceptor))
@@ -418,7 +460,21 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 	if ProteusDisplayLibrary[current_proteus] and ProteusDisplayLibrary[current_proteus].ShipyardFourText then
 		local ShipyardFourText = ProteusDisplayLibrary[current_proteus].ShipyardFourText
 		for _, text in pairs(ShipyardFourText) do
-			government_display_event.Add_Dialog_Text(text)
+			if type(text) ~= "table" then
+				government_display_event.Add_Dialog_Text(text)
+			else
+				StandardList = require("standard-fighters/"..text[1])
+				local displayunit = StandardList.Evaluate_Fighters(nil,nil,ownerName,"IMPERIAL",TechLevel,regime,flags,is_main_empire)
+				if type(displayunit) ~= "table" then
+					government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit), text[2])
+				else
+					if table.getn(text) == 3 then--multipliers only apply to non-fighters, and those always have 0 reserves, so do it this way to get around %s limit
+						government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(displayunit[1]), tostring(displayunit[2] * text[2]))
+					else--Corvettes have reserves and multipliers, but fixed spawns
+						government_display_event.Add_Dialog_Text("%s: %s", Find_Object_Type(displayunit[1]), text[2])
+					end
+				end
+			end
 		end
 	else
 		government_display_event.Add_Dialog_Text("%s: 3 / ∞", Find_Object_Type(interceptor))
