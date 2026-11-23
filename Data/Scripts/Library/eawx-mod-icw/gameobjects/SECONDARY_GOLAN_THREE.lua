@@ -45,10 +45,14 @@ return {
 		["BOMBER"] = {
 			IMPERIAL = {Initial = 1, Reserve = 1},
 			INDEPENDENT_FORCES = {Initial = 1, Reserve = 1},
-			NIVERS = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)}
+			NIVERS = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
+			RENDILI = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
 		},
 		["HEAVY_BOMBER"] = {
 			NIVERS = {Initial = 1, Reserve = 1},
+		},
+		["BOMBER2"] = {
+			RENDILI = {Initial = 1, Reserve = 1},
 		},
 		["Y_WING_SQUADRON"] = {
 			REBEL = {Initial = 1, Reserve = 1}

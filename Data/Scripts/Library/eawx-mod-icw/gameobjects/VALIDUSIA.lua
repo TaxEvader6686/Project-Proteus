@@ -61,12 +61,11 @@ return {
 			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 5},
 			NIVERS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
 			SELLASAS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
+			RENDILI = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
 		},
-		["BOMBER"] = {
+		["HEAVY_BOMBER_DOUBLE"] = {
 			NIVERS = {Initial = 1, Reserve = 5},
-		},
-		["HEAVY_BOMBER"] = {
-			NIVERS = {Initial = 1, Reserve = 5},
+			RENDILI = {Initial = 1, Reserve = 5},
 		},
 		["BOMBER2_DOUBLE"] = {
 			SELLASAS = {Initial = 1, Reserve = 5},
