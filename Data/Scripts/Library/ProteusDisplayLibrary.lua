@@ -47,6 +47,26 @@ return {
 			"TEXT_GOVERNMENT_PROTEUS_PIRATE_KASHYYYK5",
 			},
 		},
+		["RENDILI"] = {
+			ShipyardOneText = {
+			{"LIGHT_FIGHTER", "2 / ∞"},
+			{"ELITE_INTERCEPTOR", "1 / 2"},
+			{"BOMBER", "2 / 4"},
+			{"CORVETTE", "2 / 2"},
+			"TEXT_GOVERNMENT_PROTEUS_SHIPYARD_DISPLAY_RENDILI1", 
+			{"HEAVY_CORVETTE2", 1, true},
+			},
+			ShipyardTwoText = {
+			{"LIGHT_FIGHTER", "2 / ∞"},
+			{"ELITE_INTERCEPTOR", "2 / ∞"},
+			{"BOMBER", "2 / 4"},
+			{"CORVETTE", "2 / 4"},
+			{"HEAVY_CORVETTE", 2, true},
+			{"HEAVY_CORVETTE2", 2, true},
+			{"FRIGATE", 1, true},
+			{"FRIGATE2", 1, true},
+			},
+		},
 		["NIVERS"] = {
 			GovText = {
 			"TEXT_GOVERNMENT_PROTEUS_DISPLAY_NIVERS1", 
