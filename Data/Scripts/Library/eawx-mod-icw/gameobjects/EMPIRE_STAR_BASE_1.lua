@@ -33,7 +33,11 @@ return {
 		["BOMBER"] = {
 			IMPERIAL = {Initial = 1, Reserve = 1},
 			INDEPENDENT_FORCES = {Initial = 1, Reserve = 1},
-			WARLORDS = {Initial = 1, Reserve = 1}
+			WARLORDS = {Initial = 1, Reserve = 1},
+			RENDILI = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
+		},
+		["BOMBER2"] = {
+			RENDILI = {Initial = 1, Reserve = 1},
 		},
 		["SKIRMISH_CUSTOMS_CORVETTE"] = {
 			GREATER_MALDROOD = {Initial = 1, Reserve = 0}
