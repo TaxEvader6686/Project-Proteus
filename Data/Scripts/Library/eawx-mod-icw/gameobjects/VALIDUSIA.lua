@@ -14,9 +14,11 @@ return {
 		["INTERCEPTOR_DOUBLE"] = {
 			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 5},
 			SELLASAS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
+			TIERFON = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
 		},
 		["LIGHT_FIGHTERBOMBER_DOUBLE"] = {
 			SELLASAS = {Initial = 1, Reserve = 5},
+			TIERFON = {Initial = 1, Reserve = 5},
 		},
 		["SHIELDED_TIE_INTERCEPTOR_SQUADRON_DOUBLE"] = {
 			ERIADU_AUTHORITY = {Initial = 1, Reserve = 5, ResearchType = "EATIEShields"}
@@ -61,14 +63,18 @@ return {
 			IMPERIAL_PROTEUS = {Initial = 1, Reserve = 5},
 			NIVERS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
 			SELLASAS = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
-			RENDILI = {Initial = 1, Reserve = 1, TechLevel = GreaterOrEqualTo(99)},
+			RENDILI = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
+			TIERFON = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
+		--	DASTA = {Initial = 1, Reserve = 5, TechLevel = GreaterOrEqualTo(99)},
 		},
 		["HEAVY_BOMBER_DOUBLE"] = {
 			NIVERS = {Initial = 1, Reserve = 5},
 			RENDILI = {Initial = 1, Reserve = 5},
+		--	DASTA = {Initial = 1, Reserve = 5},--Need to give random bomber pool in this slot
 		},
 		["BOMBER2_DOUBLE"] = {
 			SELLASAS = {Initial = 1, Reserve = 5},
+			TIERFON = {Initial = 1, Reserve = 5},
 		},
 		["SCIMITAR_SQUADRON_DOUBLE"] = {
 			EMPIRE = {Initial = 1, Reserve = 5, TechLevel = EqualTo(3)}

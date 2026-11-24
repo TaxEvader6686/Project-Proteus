@@ -91,6 +91,7 @@ return {
 			TAPANI = {"TIE_INTERCEPTOR_SQUADRON", false,
 					{"ProteusA9", "A9_SQUADRON", false}}, --research 1
 			TIERFON = {"V38_SQUADRON", false},
+			TIERFON_GARRISON = {"TIE_X1_SQUADRON", false},
 			VOGEL = {"TIE_INTERCEPTOR_SQUADRON", false},
 			VOGEL_GARRISON = {"TIE_X3_SQUADRON", false},
 			WESSEX = {"A9_SQUADRON", false},

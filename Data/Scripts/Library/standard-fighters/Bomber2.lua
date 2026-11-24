@@ -53,6 +53,7 @@ return {
 			DASTA = {"Z95_BOMBER_SQUADRON", false,
 					{"DastaFightersImperial", "STARWING_SQUADRON", false},
 					{"DastaFightersRebel", "H60_TEMPEST_SQUADRON", false}},
+			DASTA_GARRISON = {"BTLS1_Y_WING_SQUADRON", false},
 			ELROOD = {"STARWING_SQUADRON", false},
 			GAROS = {"TIE_LIGHT_BOMBER_SQUADRON", false},
 			HAMMERS = {"TIE_BOMBER_SQUADRON", false},
