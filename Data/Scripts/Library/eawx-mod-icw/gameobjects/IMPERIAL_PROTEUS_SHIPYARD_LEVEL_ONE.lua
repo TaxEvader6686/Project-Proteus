@@ -4,7 +4,11 @@ return {
 			DEFAULT = {Initial = 1, Reserve = 99}
 		},
 		["INTERCEPTOR"] = {
-			DEFAULT = {Initial = 1, Reserve = 2}
+			DEFAULT = {Initial = 1, Reserve = 2},
+			RENDILI = {Initial = 1, Reserve = 2, TechLevel = GreaterOrEqualTo(99)},
+		},
+		["ELITE_INTERCEPTOR"] = {
+			RENDILI = {Initial = 1, Reserve = 2},
 		},
 		["BOMBER_DOUBLE"] = {
 			DEFAULT = {Initial = 1, Reserve = 2}

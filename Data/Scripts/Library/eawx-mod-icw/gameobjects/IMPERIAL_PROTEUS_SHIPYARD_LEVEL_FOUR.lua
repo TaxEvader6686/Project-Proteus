@@ -1,7 +1,11 @@
 return {
 	Fighters = {
 		["INTERCEPTOR"] = {
-			DEFAULT = {Initial = 3, Reserve = 99}
+			DEFAULT = {Initial = 3, Reserve = 99},
+			TIERFON = {Initial = 3, Reserve = 99, TechLevel = GreaterOrEqualTo(99)},
+		},
+		["ELITE_INTERCEPTOR"] = {
+			TIERFON = {Initial = 3, Reserve = 99},
 		},
 		["HEAVY_FIGHTER"] = {
 			DEFAULT = {Initial = 3, Reserve = 6}

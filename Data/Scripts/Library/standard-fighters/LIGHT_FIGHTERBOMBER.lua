@@ -76,6 +76,7 @@ return {
 			TAMARIN = {"TIE_GT_SQUADRON", false},
 			TAPANI = {"Z95ML_HEADHUNTER_SQUADRON", false},
 			TIERFON = {"TIE_X2_SQUADRON", false},
+			TIERFON_GARRISON = {"TIE_AVENGER_SQUADRON", false},
 			VOGEL = {"TIE_GT_SQUADRON", false},
 			WESSEX = {"TIE_GT_TORPS_SQUADRON", false},
 			WILD_SPACE = {"TIE_GT_TORPS_SQUADRON", false},

@@ -434,7 +434,7 @@ function GovernmentProteus:UpdateProteusMiscellaneousDisplay()
 		government_display_event.Add_Dialog_Text("%s: 3 / 6", Find_Object_Type(bomber))
 		government_display_event.Add_Dialog_Text("%s: 2 / 4", Find_Object_Type(corvette))
 		if heavycorvette1[1] == heavycorvette2[1] then
-			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]+heavycorvette2[2]*2))
+			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring((heavycorvette1[2]+heavycorvette2[2])*2))
 		else
 			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette1[1]), tostring(heavycorvette1[2]*2))
 			government_display_event.Add_Dialog_Text("%s: %s / 0", Find_Object_Type(heavycorvette2[1]), tostring(heavycorvette2[2]*2))
