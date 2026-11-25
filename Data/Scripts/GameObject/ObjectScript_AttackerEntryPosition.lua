@@ -49,79 +49,6 @@ function State_Init(message)
 			"Reinforcement_Point_Plus3_Cap",
 			}
 		
-		local proteustypes = {--{"Alternate field base pad for the group", "false or fighter research to switch to alternate pad", "Alternate field base pad"}
-			ANTEMERIDIAS = {"Field_Base_Pad_Antemeridias", false},
-			ARDA = {"Field_Base_Pad_Arda", false},
-			BAKURA = {"Field_Base_Pad_Bakura", false},
-			BRAK = {"Field_Base_Pad_Brak", false},
-			CATO_NEIMOIDIA = {"Field_Base_Pad_Neimoidia", false},
-			CIUTRIC_HEGEMONY = {"Field_Base_Pad_Ciutric", false},
-			DASTA = {"Field_Base_Pad_Dasta", false},
-			ELROOD = {"Field_Base_Pad_Elrood", false},
-			GAROS = {"Field_Base_Pad_Garos", false},
-			HAMMERS = {"Field_Base_Pad_Hammers", false},
-			IMPERIAL_LIANNA = {"Field_Base_Pad_Imperial_Lianna", false},
-			ISECTOR = {"Field_Base_Pad_Isector", false},
-			JARDEEN = {"Field_Base_Pad_Jardeen", false},
-			KAARENTH_DISSENSION = {"Field_Base_Pad_Kaarenth", false},
-			KAMINO = {"Field_Base_Pad_Kamino", false},
-			KASHYYYK = {"Field_Base_Pad_Kashyyyk", false},
-			KUAT = {"Field_Base_Pad_Kuat", false},
-			LAMBDA = {"Field_Base_Pad_Lambda", "IMPERIAL_NABOO", "Field_Base_Pad_Regional_LambdaSector"},--using the research for the lambda Sector GC, so no research for the groups present there without doing some specific setup below (and making a bunch of new field base pads)
-			LUMIYA = {"Field_Base_Pad_Lumiya", false},
-			MAELSTROM = {"Field_Base_Pad_Maelstrom", false},
-			NABOO = {"Field_Base_Pad_Naboo", false},
-			PRAKITH = {"Field_Base_Pad_Prakith", false},
-			PRENTIOCH = {"Field_Base_Pad_Prentioch", false},
-			PROPHETS = {"Field_Base_Pad_Prophets", false},
-			PROTECTORATE = {"Field_Base_Pad_Protectorate", false},
-			QUINTAD = {"Field_Base_Pad_Quintad", false},
-			RADAMA = {"Field_Base_Pad_Radama", false},
-			RAYTER = {"Field_Base_Pad_Rayter", false},
-			RESTORED_EMPIRE = {"Field_Base_Pad_Restored_Empire", false},
-			SECTOR_5 = {"Field_Base_Pad_Sector_5", "V38", "Field_Base_Pad_Regional_DeepCoreConflict"},--using the research for the Deep Core Conflict GC, so no research for the groups present there without doing some specific setup below (and making a bunch of new field base pads)
-			SELLASAS = {"Field_Base_Pad_Sellasas", false},
-			SHADOWSPAWN = {"Field_Base_Pad_Shadowspawn", false},
-			TAGGE = {"Field_Base_Pad_Tagge", false},
-			TAMARIN = {"Field_Base_Pad_Tamarin", false},
-			TAPANI = {"Field_Base_Pad_Tapani", false},
-			TIERFON = {"Field_Base_Pad_Tierfon", false},
-			VOGEL = {"Field_Base_Pad_Vogel", false},
-			WESSEX = {"Field_Base_Pad_Wessex", false},
-			WILD_SPACE = {"Field_Base_Pad_Wild_Space", false},
-			ZAARIN_REMNANTS = {"Field_Base_Pad_Zaarin", false},
-			ZERO_COMMAND = {"Field_Base_Pad_Zero_Command", false},
-			ZSINJ_REMNANTS = {"Field_Base_Pad_Zsinj_Remnants", false},
-			ANAXES = {"Field_Base_Pad_Anaxes", false},
-			ALLIED_TION = {"Field_Base_Pad_Allied_Tion", false},
-			BALMORRA = {"Field_Base_Pad_Balmorra", false},
-			BATCH = {"Field_Base_Pad_Batch", "BatchInfantry", "Field_Base_Pad_Batch_Research"},
-			BRANDEI = {"Field_Base_Pad_Brandei", false},
-			BORMEA = {"Field_Base_Pad_Bormea", false},
-			CARIDA = {"Field_Base_Pad_Carida", false},
-			CENTRALITY = {"Field_Base_Pad_Centrality", false},
-			COMPNOR = {"Field_Base_Pad_COMPNOR", false},
-			DROMMEL = {"Field_Base_Pad_Drommel", false},
-			EMPIRE_REBORN = {"Field_Base_Pad_Empire_Reborn", false},
-			FEL = {"Field_Base_Pad_Fel", false},
-			GRUNGER = {"Field_Base_Pad_Grunger", false},
-			LANOX = {"Field_Base_Pad_Lanox", false},
-			MINOS = {"Field_Base_Pad_Minos", false},
-			NIVERS = {"Field_Base_Pad_Nivers", false},
-			PRAJI = {"Field_Base_Pad_Praji", false},
-			RENDILI = {"Field_Base_Pad_Rendili", false},
-			SCREED = {"Field_Base_Pad_Screed", false},
-			SECOND_IMPERIUM = {"Field_Base_Pad_Second_Imperium", false},
-			STORM_COMMANDOS = {"Field_Base_Pad_Storm_Commandos", false},
-			TATOOINE = {"Field_Base_Pad_Tatooine", false},
-			THORN = {"Field_Base_Pad_Thorn", false},
-			THARKUS = {"Field_Base_Pad_Tharkus", false},
-			TRAX = {"Field_Base_Pad_Trax", false},
-			VEERS = {"Field_Base_Pad_Veers", false},
-			X1 = {"Field_Base_Pad_X1", false},
-			SECRET = {"Field_Base_Pad_Secret", false},
-			}
-		
 		local p_neutral = Find_Player("Neutral")
 		
 		for _, point_type in pairs(reinforcementPointTypes) do
@@ -130,17 +57,16 @@ function State_Init(message)
 			
 			if reinforcementPoints ~= nil then
 				local unit = Find_Object_Type("Field_Base_Pad")
-				if GlobalValue.Get("PROTEUS_GROUP_NAME") ~= nil then
-					local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-					if proteustypes[proteus] then
-						unit = Find_Object_Type(proteustypes[proteus][1])
-						if proteustypes[proteus][2] ~= false then
-							if Get_Fighter_Research(proteustypes[proteus][2]) then
-								unit = Find_Object_Type(proteustypes[proteus][3])
-							end
-						end
+				if GlobalValue.Get("PROTEUS_FIELD_BASE_PAD") then
+					if Find_Object_Type(GlobalValue.Get("PROTEUS_FIELD_BASE_PAD")) ~= nil then
+						unit = Find_Object_Type(GlobalValue.Get("PROTEUS_FIELD_BASE_PAD"))
 					end
 				end
+				if GlobalValue.Get("PROTEUS_FIELD_BASE_PAD_OVERRIDE") then
+					if Find_Object_Type(GlobalValue.Get("PROTEUS_FIELD_BASE_PAD_OVERRIDE")) ~= nil then
+						unit = Find_Object_Type(GlobalValue.Get("PROTEUS_FIELD_BASE_PAD_OVERRIDE"))
+					end
+				end				
 				--DebugMessage("Spawning field base pads at point type %s", point_type)
 				for _, point in pairs(reinforcementPoints) do
 					Create_Generic_Object(unit, point.Get_Position(), p_neutral)

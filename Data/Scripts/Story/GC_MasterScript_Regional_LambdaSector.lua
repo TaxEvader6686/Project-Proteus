@@ -46,6 +46,7 @@ function State_Determine_Faction(message)
 	if message == OnEnter then
 		Set_Fighter_Research("Raptorless")
 		Set_Fighter_Research("IMPERIAL_NABOO")
+		GlobalValue.Set("PROTEUS_FIELD_BASE_PAD_OVERRIDE","Field_Base_Pad_Regional_LambdaSector")
 
 		local tech_unit
 

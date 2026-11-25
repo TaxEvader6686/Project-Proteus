@@ -2,7 +2,6 @@ require("PGBase")
 require("PGStateMachine")
 require("PGStoryMode")
 require("PGSpawnUnits")
-require("SetFighterResearch")
 
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
@@ -21,7 +20,7 @@ function State_Init(message)
         
         owner.Unlock_Tech(Find_Object_Type("Navy_Commando_Company"))
         owner.Unlock_Tech(Find_Object_Type("Imperial_Fleet_Commando_Company"))
-		Set_Fighter_Research("BatchInfantry")
+		GlobalValue.Set("PROTEUS_FIELD_BASE_PAD","Field_Base_Pad_Batch_Research")
         
         Object.Despawn()
         ScriptExit()

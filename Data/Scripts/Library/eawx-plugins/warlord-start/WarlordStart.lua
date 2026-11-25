@@ -278,6 +278,10 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 	if entry.CustomRewardTable then
 		GlobalValue.Set("CUSTOM_PROTEUS_REWARDS",true)
 	end
+	
+	if entry.CustomFieldBasePad then
+		GlobalValue.Set("PROTEUS_FIELD_BASE_PAD",entry.CustomFieldBasePad)
+	end
 
 	crossplot:publish("INITIALIZE_PROTEUS_LEGITIMACY", entry.LeaderTable)
 	crossplot:publish("INITIALIZE_AI", "empty")

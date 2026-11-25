@@ -23,7 +23,7 @@
 	--ShipyardCapitalOverride gives the faction a space based capital structure, put "Imperial_Proteus_Capital" on the LockList and the new one one the UnlockList
 	--CapitalOverride works the same for ground
 	--CustomRewardTable : Allows the group to have its own mission reward pool
-	--CustomFieldBaseSpawn : Same thing for Field Base ; **may not use in the end
+	--CustomFieldBasePad : Name of alternate field base pad to spawn for the group, must defined in Conquest_Bases_Project_Proteus
 
 	--as part of the UnlockList, putting ' ["TimeGate"] = {{"object1", year}, ...} ' behind the List, will add "object1" to the UnlockList if the Start Year is >= 'year'.
 	--This is a smaller variant of the Era Specific UnlockList (see Line 18-19) supposed to be used for just a handful of Objects, w/o having to duplicate the entire UnlockList for basically no changes.
@@ -51,6 +51,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_ANTEM",
 			IntroHolo = "Tol_Getelles_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Antemeridias",
 		},
 		["ARDA"] = {
 			FriendlyName = "Imperial Arda",
@@ -79,6 +80,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_ARDA",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Arda",
 		},
 		["BAKURA"] = {
 			FriendlyName = "Imperial Bakura",
@@ -107,6 +109,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_BAKURA",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Bakura",
 		},
 		["BRAK"] = {
 			FriendlyName = "Brak Sector",
@@ -133,7 +136,8 @@ return {
 			LockList = {"Mining_Facility_Minerals_Ground", "Mining_Facility_Minerals_Space",},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_BRAK",
-			IntroHolo = "ISB_Officer_Loop"
+			IntroHolo = "ISB_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Brak",
 		},
 		["CATO_NEIMOIDIA"] = {
 			FriendlyName = "Imperial Neimoidia",
@@ -155,7 +159,8 @@ return {
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_CATO_NEIMOIDIA",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Neimoidia",
 		},
 		["CIUTRIC_HEGEMONY"] = {
 			FriendlyName = "Ciutric Hegemony",
@@ -185,6 +190,7 @@ return {
 			IntroText = {"TEXT_CONQUEST_PROTEUS_CIUTRIC_HEGEMONY", [9] = "TEXT_CONQUEST_ISARDSREVENGE_GE_INTRO_ONE"},
 			IntroHolo = "Krennel_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Ciutric",
 		},
 		["DASTA"] = {
 			FriendlyName = "D'Astan Sector",
@@ -215,7 +221,8 @@ return {
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = {"TEXT_CONQUEST_PROTEUS_DASTA", [12] = "TEXT_CONQUEST_PROTEUS_DASTA_E7"},
-			IntroHolo = "Ragez_DAsta_Loop"
+			IntroHolo = "Ragez_DAsta_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Dasta",
 		},
 		["ELROOD"] = {
 			FriendlyName = "Elrood Sector",
@@ -238,7 +245,8 @@ return {
 				"ELR_Dummy_Research_Scimitar", "ELR_Dummy_Research_Armored_Interceptor",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ELROOD",
-			IntroHolo = "Afren_Hul_Loop"
+			IntroHolo = "Afren_Hul_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Elrood",
 		},
 		["GAROS"] = {
 			FriendlyName = "Imperial Garos",
@@ -261,7 +269,8 @@ return {
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GAROS",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Garos",
 		},
 		["HAMMERS"] = {
 			FriendlyName = "Imperial Hammers",
@@ -282,7 +291,8 @@ return {
 				"PX4_Company", "Imperial_A5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_HAMMERS",
-			IntroHolo = "Arndall_Lott_Loop"
+			IntroHolo = "Arndall_Lott_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Hammers",
 		},
 		["IMPERIAL_LIANNA"] = {
 			FriendlyName = "Imperial Lianna",
@@ -305,7 +315,8 @@ return {
 			},
 			LockList = {"GormTalquist_HQ"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_IMPERIAL_LIANNA",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Imperial_Lianna",
 		},
 		["ISECTOR"] = {
 			FriendlyName = "I-sector",
@@ -338,6 +349,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_ISECTOR",
 			IntroHolo = "Nigel_Nivers_Loop",
             CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Isector",
 		},
 		["JARDEEN"] = {
 			FriendlyName = "Imperial Jardeen",
@@ -362,6 +374,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_JARDEEN",
 			IntroHolo = "Arndall_Lott_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Jardeen",
 		},
 		["KAARENTH_DISSENSION"] = {
 			FriendlyName = "Kaarenth Dissension",
@@ -391,6 +404,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION",
 			IntroHolo = "Ennix_Devian_Loop",
 			PlanetParticle = "Kaarenth_Allies",
+			CustomFieldBasePad = "Field_Base_Pad_Kaarenth",
 		},
 		["KAMINO"] = {
 			FriendlyName = "Imperial Kamino",
@@ -412,7 +426,8 @@ return {
 			},
 			FactionOverride = "Independent_Forces",
 			IntroText = "TEXT_CONQUEST_LAMBDASECTOR_KAMINO_INTRO_ONE",
-			IntroHolo = "Dark_Apprentice_Loop"
+			IntroHolo = "Dark_Apprentice_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Kamino",
 		},
 		["KASHYYYK"] = {
 			FriendlyName = "Imperial Kashyyyk",
@@ -443,6 +458,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_KASHYYYK",
 			IntroHolo = "Darcc_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Kashyyyk",
 		},
 		["KUAT"] = {
 			FriendlyName = "Kuat Sector",
@@ -468,6 +484,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Kuat",
 		},
 		["LAMBDA"] = {
 			FriendlyName = "Lambda Sector",
@@ -491,6 +508,7 @@ return {
 			IntroText = "TEXT_CONQUEST_LAMBDASECTOR_LAMBDA_INTRO_ONE",
 			IntroHolo = "Par_Lankin_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Lambda",
 		},
 		["LUMIYA"] = {
 			FriendlyName = "Lumiya's Sith",
@@ -521,7 +539,8 @@ return {
 			FactionOverride = "Empire",
 			StartYear = 7,
 			IntroText = "TEXT_CONQUEST_PROTEUS_LUMIYA",
-			IntroHolo = "Lumiya_Loop"
+			IntroHolo = "Lumiya_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Lumiya",
 		},
 		["MAELSTROM"] = {
 			FriendlyName = "Maelstrom Command",
@@ -545,7 +564,8 @@ return {
 			FactionOverride = "Empire",
 			FactionOverride2 = "Pentastar",
 			IntroText = "TEXT_CONQUEST_PROTEUS_MAELSTROM",
-			IntroHolo = "Nigel_Nivers_Loop"
+			IntroHolo = "Nigel_Nivers_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Maelstrom",
 		},
 		["NABOO"] = {
 			FriendlyName = "Imperial Naboo",
@@ -573,6 +593,7 @@ return {
 			IntroText = "TEXT_CONQUEST_LAMBDASECTOR_NABOO_INTRO_ONE",
 			IntroHolo = "Quarsh_Panaka_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Naboo",
 		},
 		["PRAKITH"] = { --Shynne, Voba Dokrett, Ors Dogot, Gegak?
 			FriendlyName = "Protectorate of Prakith",
@@ -598,7 +619,8 @@ return {
 			StartYear = 12,
 			LastYear = 18,
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAKITH",
-			IntroHolo = "Foga_Brill_Loop"
+			IntroHolo = "Foga_Brill_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Prakith",
 		},
 		["PRENTIOCH"] = {
 			FriendlyName = "Prentioch's Dominion",
@@ -624,6 +646,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRENTIOCH",
 			IntroHolo = "Utoxx_Prentioch_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Prentioch",
 		},
 		["PROPHETS"] = {
 			FriendlyName = "Prophets of the Dark Side",
@@ -648,6 +671,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_PROPHETS",
 			IntroHolo = "Kadann_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Prophets",
 		},
 		["PROTECTORATE"] = {
 			FriendlyName = "The Protectorate",
@@ -668,7 +692,8 @@ return {
 				"Imperial_A5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_PROTECTORATE",
-			IntroHolo = "Adalric_Brandl_Loop"
+			IntroHolo = "Adalric_Brandl_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Protectorate",
 		},
 		["QUINTAD"] = {
 			FriendlyName = "The Quintad",
@@ -691,7 +716,8 @@ return {
 				"CEC_HQ","Tarkin_Estates",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_QUINTAD",
-			IntroHolo = "Mon_Mothma_Loop"
+			IntroHolo = "Mon_Mothma_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Quintad",
 		},
 		["RADAMA"] = {
 			FriendlyName = "Imperial Ord Radama",
@@ -714,7 +740,8 @@ return {
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_RADAMA",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Radama",
 		},
 		["RAYTER"] = {
 			FriendlyName = "Rayter Sector",
@@ -738,7 +765,8 @@ return {
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_RAYTER_SECTOR",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Rayter",
 		},
 		["RESTORED_EMPIRE"] = {
 			FriendlyName = "Restored Empire",
@@ -763,6 +791,7 @@ return {
 			IntroHolo = "Ennix_Devian_Loop",
 			PlanetParticle = "Restored_Allies",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Restored_Empire",
 		},
 		["SECTOR_5"] = { --Zeven Mallat? ; It's in now
 			FriendlyName = "Sector 5",
@@ -787,6 +816,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_SECTOR_5",
 			IntroHolo = "Malfkla_Yzu_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Sector_5",
 		},
 		["SELLASAS"] = {
 			FriendlyName = "Imperial Sellasas",
@@ -813,7 +843,8 @@ return {
 			LockList = {"SD_6_Droid_Company"},
 			FactionOverride = "Eriadu_Authority",
 			IntroText = "TEXT_CONQUEST_PROTEUS_SELLASAS",
-			IntroHolo = "Imperial_Army_Officer_Loop"
+			IntroHolo = "Imperial_Army_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Sellasas",
 		},
 		["SHADOWSPAWN"] = {
 			FriendlyName = "Shadow Realm",
@@ -837,6 +868,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_REALM",
 			IntroHolo = "Shadowspawn_Loop",
 			PlanetParticle = "Shadowspawn_Allies",
+			CustomFieldBasePad = "Field_Base_Pad_Shadowspawn",
 		},
 		["TAGGE"] = {
 			FriendlyName = "House of Tagge",
@@ -864,6 +896,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAGGE",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Tagge",
 		},
 		["TAMARIN"] = {
 			FriendlyName = "Tamarin Sector",
@@ -886,7 +919,8 @@ return {
 				"TAM_Dummy_Research_Scimitar",
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAMARIN",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Tamarin",
 		},
 		["TAPANI"] = {
 			FriendlyName = "Tapani Sector",
@@ -915,7 +949,8 @@ return {
 			LockList = {"Firebird_Stormtrooper_Company"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAPANI",
-			IntroHolo = "Imperial_Army_Officer_Loop"
+			IntroHolo = "Imperial_Army_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Tapani",
 		},
 		["TIERFON"] = {
 			FriendlyName = "Tierfon Sector",
@@ -939,7 +974,8 @@ return {
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_TIERFON",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
-			ShipyardCapitalOverride = "Tierfon_Shipyard_Capital"
+			ShipyardCapitalOverride = "Tierfon_Shipyard_Capital",
+			CustomFieldBasePad = "Field_Base_Pad_Tierfon",
 		},
 		["VOGEL"] = {
 			FriendlyName = "Dustig Oversector",
@@ -964,7 +1000,8 @@ return {
 			FactionOverride = "Empire",
 			FactionOverride2 = "Eriadu_Authority",
 			IntroText = "TEXT_CONQUEST_PROTEUS_VOGEL_7",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Vogel",
 		},
 		["WESSEX"] = {
 			FriendlyName = "Relgim Oversector",
@@ -988,7 +1025,8 @@ return {
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_WESSEX",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Wessex",
 		},
 		["WILD_SPACE"] = {
 			FriendlyName = "Delurin's Empire",
@@ -1013,6 +1051,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_WILD_SPACE",
 			IntroHolo = "Delurin_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Wild_Space",
 		},
 		["ZAARIN_REMNANTS"] = {
 			FriendlyName = "Zaarin Remnants",
@@ -1044,6 +1083,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_ZAARIN_REMNANTS",
 			IntroHolo = "Raveen_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Zaarin",
 		},
 		["ZERO_COMMAND"] = {
 			FriendlyName = "Zero Command",
@@ -1068,7 +1108,8 @@ return {
 			LastYear = 11,
 			FactionOverride = "Empire",
 			IntroText = {"TEXT_CONQUEST_HARRSK_DEEPCORE_E1_3", [5] = "TEXT_CONQUEST_HARRSK_DEEPCORE_E4", [11] = "TEXT_CONQUEST_HARRSK_DEEPCORE_E6"},
-			IntroHolo = "Harrsk_Loop"
+			IntroHolo = "Harrsk_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Zero_Command",
 		},
 		["ZSINJ_REMNANTS"] = { --Shenanigans in the main plugin mean you can also use this with Zsinj's faction slot
 			FriendlyName = "Zsinj Remnants",
@@ -1092,6 +1133,7 @@ return {
 			IntroText = "TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3",
 			IntroHolo = "Llon_Banjeer_Loop",
 			PlanetParticle = "ZE_Allies",
+			CustomFieldBasePad = "Field_Base_Pad_Zsinj_Remnants",
 		},
 	-- Project Proteus Original
 		["ANAXES"] = {
@@ -1117,6 +1159,7 @@ return {
 			LastYear = 8,
 			IntroText = "TEXT_CONQUEST_PROTEUS_ANAXES",
 			IntroHolo = "Feyet_Kiez_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Anaxes",
 		},
 		["ALLIED_TION"] = {
 			FriendlyName = "Allied Tion Sector",
@@ -1145,6 +1188,7 @@ return {
 			LastYear = 10,
 			IntroText = "",
 			IntroHolo = "",
+			CustomFieldBasePad = "Field_Base_Pad_Allied_Tion",
 		},
 		["BALMORRA"] = {
 			FriendlyName = "Independent Balmorra",
@@ -1173,6 +1217,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_BALMORRA",
 			IntroHolo = "Imperial_Army_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Balmorra",
 		},
 		["BATCH"] = {
 			FriendlyName = "Batch's Empire",
@@ -1200,6 +1245,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_BATCH",
 			IntroHolo = "Batch_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Batch",
 		},
 		["BRANDEI"] = {
 			FriendlyName = "Thrawn Remnants",
@@ -1225,6 +1271,7 @@ return {
 			StartYear = 10,
 			IntroText = "",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Brandei",
 		},
 		["BORMEA"] = {
 			FriendlyName = "Bormea Sector Command",
@@ -1252,6 +1299,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_BORMEA",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Bormea",
 		},
 		["CARIDA"] = {
 			FriendlyName = "Imperial Carida",
@@ -1272,6 +1320,7 @@ return {
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_CARIDA",
 			IntroHolo = "_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Carida",
 		},
 		["CENTRALITY"] = {
 			FriendlyName = "Imperial Centrality",
@@ -1297,6 +1346,7 @@ return {
 			StartYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_CENTRALITY",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Centrality",
 		},
 		["COMPNOR"] = {
 			FriendlyName = "COMPNOR",
@@ -1325,6 +1375,7 @@ return {
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_COMPNOR",
 			IntroHolo = "_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_COMPNOR",
 		},
 	--	["IMPERIAL_CORELLIA"] = {
 		--	FriendlyName = "Imperial Corellia",
@@ -1346,6 +1397,7 @@ return {
 		--	LastYear = 6,
 		--	IntroText = "TEXT_CONQUEST_PROTEUS_CORELLIA",
 		--	IntroHolo = "_Loop",
+		--	CustomFieldBasePad = "Field_Base_Pad_Corellia",--TODO
 	--	},
 		["DROMMEL"] = {
 			FriendlyName = "Oplovis Sector",
@@ -1374,6 +1426,7 @@ return {
 			LastYear = 16,
 			IntroText = "TEXT_CONQUEST_PROTEUS_DROMMEL",
 			IntroHolo = "Drommel_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Drommel",
 		},
 		["EMPIRE_REBORN"] = {
 			FriendlyName = "Empire Reborn",
@@ -1401,7 +1454,8 @@ return {
 			StartYear = 11,
 			LastYear = 14,
 			IntroText = "TEXT_CONQUEST_PROTEUS_REBORN",
-			IntroHolo = "Galak_Fyyar_Loop"
+			IntroHolo = "Galak_Fyyar_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Empire_Reborn",
 		},
 		["FEL"] = {
 			FriendlyName = "Imperial Brentaal",
@@ -1416,6 +1470,7 @@ return {
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BRENTAAL",
 			IntroHolo = "",
+			CustomFieldBasePad = "Field_Base_Pad_Fel",
 		},
 		["GRUNGER"] = {
 			FriendlyName = "Grunger's Empire",
@@ -1442,6 +1497,7 @@ return {
 			FactionOverride = "Mandalorians",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
 			IntroHolo = "Grunger_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Grunger",
 		},
 		["LANOX"] = {
 			FriendlyName = "Imperial Loyalists",
@@ -1466,7 +1522,8 @@ return {
 			FactionOverride = "Empire",
 			StartYear = 11,
 			IntroText = "",
-			IntroHolo = "Imperial_Naval_Officer_Loop"
+			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Lanox",
 		},
 		["MINOS"] = {
 			FriendlyName = "Minos Cluster",
@@ -1485,10 +1542,6 @@ return {
 				"Imperial_ISP_Company", "Chariot_LAV_Company", "Imperial_ULAV_Company", "PX7_Company",
 				"008_Speeder_Company", "Imperial_Light_Mobile_Artillery_Company", "Imperial_Modified_LAAT_Company", "Imperial_UT_AA_Company", "HAET_Company", "Imperial_AT_AP_Walker_Company",
 				"Imperial_A5_Juggernaut_Company", "PX4_Company", "Heavy_Recovery_Vehicle_Company",
-
-
-
-
 				-- Research
 				"Dummy_Research_C_MDHC"
 			},
@@ -1498,6 +1551,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_MINOS",
 			IntroHolo = "_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Minos",
 		},
 		["NIVERS"] = {
 			FriendlyName = "Nivers' Empire",
@@ -1521,9 +1575,10 @@ return {
 			},
 			FactionOverride = "Zsinj_Empire",
 			LastYear = 4,
-			IntroText = "TEXT_CONQUEST_PROTEUS_NIVERS",--TODO
+			IntroText = "TEXT_CONQUEST_PROTEUS_NIVERS",
 			IntroHolo = "Nigel_Nivers_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Nivers",
 		},
 		["PRAJI"] = {
 			FriendlyName = "Imperial Kaikielius",
@@ -1551,7 +1606,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
 			IntroHolo = "Stormtrooper_Officer_Loop",
 			CustomRewardTable = true,
-		
+			CustomFieldBasePad = "Field_Base_Pad_Praji",		
 		},
 		["RENDILI"] = {
 			FriendlyName = "Imperial Rendili",
@@ -1578,6 +1633,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_RENDILI",
 			IntroHolo = "Daala_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Rendili",		
 		},
 		["SCREED"] = {
 			FriendlyName = "Screed's Empire",
@@ -1604,6 +1660,7 @@ return {
 			IntroText = "TEXT_CONQUEST_SCREED",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Screed",		
 		},
 		["SECOND_IMPERIUM"] = {
 			FriendlyName = "Second Imperium",
@@ -1630,6 +1687,7 @@ return {
 			--LastYear = 23,
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_ACADEMY",
 			IntroHolo = "Generic_Sith_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Second_Imperium",		
 		},
 		["STORM_COMMANDOS"] = {
 			FriendlyName = "Storm Commandos",
@@ -1656,6 +1714,7 @@ return {
 			IntroText = "TEXT_CONQUEST_STORM_COMMANDOS",
 			IntroHolo = "Stormtrooper_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Storm_Commandos",		
 		},
 		["TATOOINE"] = {
 			FriendlyName = "Imperial Tatooine",
@@ -1683,6 +1742,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_TATOOINE",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Tatooine",		
 		},
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",
@@ -1705,6 +1765,7 @@ return {
 			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
 			IntroHolo = "Generic_Sith_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Thorn",		
 		},
 		["THARKUS"] = {
 			FriendlyName = "Tharkus's Empire",
@@ -1731,6 +1792,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_THARKUS",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
 			CustomRewardTable = true,
+			CustomFieldBasePad = "Field_Base_Pad_Tharkus",		
 		},
 		["TRAX"] = {
 			FriendlyName = "Trax Sector",
@@ -1751,6 +1813,7 @@ return {
 			LastYear = 10,
 			IntroText = "TEXT_CONQUEST_PROTEUS_TRAX",
 			IntroHolo = "Imperial_Naval_Officer_Loop",
+			CustomFieldBasePad = "Field_Base_Pad_Trax",		
 		},
 		["VEERS"] = {
 			FriendlyName = "Blizzard Force",
@@ -1778,7 +1841,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_VEERS",
 			IntroHolo = "Veers_Loop",
 			CustomRewardTable = true,
-
+			CustomFieldBasePad = "Field_Base_Pad_Veers", 
 		},
 		["X1"] = {
 			FriendlyName = "X1's Empire",
@@ -1805,7 +1868,7 @@ return {
 			--StartYear = 11, (implement later once the map situation is clear)
 			IntroText = "TEXT_CONQUEST_PROTEUS_X1_FACTION",
 			IntroHolo = "",
-		
+			CustomFieldBasePad = "Field_Base_Pad_X1", 
 		},
 	
 		-- Secret Dev Faction
@@ -1831,5 +1894,6 @@ return {
 		-- 	FactionOverride2 = "Rebel",
 		-- 	IntroText = "",
 		-- 	IntroHolo = "",
+		--	CustomFieldBasePad = "Field_Base_Pad_Secret", 
 		--},
 }
