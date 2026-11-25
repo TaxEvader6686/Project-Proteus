@@ -591,34 +591,269 @@
 		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
 	</DummyStructure>
-	
-	<DummyStructure Name="Dummy_Research_KSpecialMissions">
+
+	<UniqueUnit Name="Random_Infantry_Kaarenth">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RANDOM_INFANTRY_KAARENTH</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
+		</Encyclopedia_Text>
+	<!--	<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
+		TEXT_UNIT_HUTT_GUARD_PLATOON
+		TEXT_UNIT_GAMORREAN_GUARD_COMPANY
+		TEXT_UNIT_ARMORED_HUTT_PLATOON
+		TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY
+		TEXT_UNIT_AILON_NOVA_GUARD_PLATOON
+		TEXT_UNIT_SUN_GUARD_PLATOON
+		TEXT_UNIT_NIMBUS_COMMANDO_PLATOON
+		TEXT_UNIT_MANDALORIAN_SOLDIER_PLATOON
+		TEXT_UNIT_MANDALORIAN_COMMANDO_PLATOON
+		TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON
+		TEXT_UNIT_MERCENARY_PHALANX_TROOPER_PLATOON
+		TEXT_UNIT_DESTROYER_DROID_MK1_Q_COMPANY
+		TEXT_UNIT_BATTLE_DROID_PLATOON
+		TEXT_UNIT_B2_BATTLE_DROID_COMPANY
+		TEXT_UNIT_BACKWATER_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_SOLDIER_PLATOON
+		TEXT_UNIT_MILITARY_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON
+		TEXT_UNIT_HEAVY_PDF_PLATOON
+		TEXT_UNIT_SCAV_PLATOON
+		TEXT_UNIT_HEAVYSCAV_PLATOON
+		TEXT_UNIT_NAVYTROOPER_PLATOON
+		TEXT_UNIT_ARMYTROOPER_PLATOON
+		TEXT_UNIT_FAUX_STORMTROOPER_PLATOON
+		TEXT_UNIT_NAVYCOMMANDO_PLATOON
+		</Encyclopedia_Text> -->
+		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
 
-		<Text_ID>TEXT_UNIT_KSM_RESEARCH</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_KSM_RESEARCH </Encyclopedia_Text>
+		<Population_Value>1</Population_Value>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Icon_Name>I_BUTTON_RESEARCH_KSM.tga</Icon_Name>
-		<GUI_Row>1</GUI_Row>
-
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
 		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>Kaarenth_Rally_Center</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> no </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
-		<Build_Cost_Credits>5000</Build_Cost_Credits>
-		<Build_Time_Seconds>45</Build_Time_Seconds>
+		<CategoryMask> Infantry </CategoryMask>
+		<Lua_Script>RandomInfantryKaarenth</Lua_Script>
 
-		<Lua_Script>ResearchKSM</Lua_Script>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Random_LightVehicle_Kaarenth">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RANDOM_INFANTRY_KAARENTH</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
+		TEXT_UNIT_HUTT_GUARD_PLATOON
+		TEXT_UNIT_GAMORREAN_GUARD_COMPANY
+		TEXT_UNIT_ARMORED_HUTT_PLATOON
+		TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY
+		TEXT_UNIT_AILON_NOVA_GUARD_PLATOON
+		TEXT_UNIT_SUN_GUARD_PLATOON
+		TEXT_UNIT_NIMBUS_COMMANDO_PLATOON
+		TEXT_UNIT_MANDALORIAN_SOLDIER_PLATOON
+		TEXT_UNIT_MANDALORIAN_COMMANDO_PLATOON
+		TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON
+		TEXT_UNIT_MERCENARY_PHALANX_TROOPER_PLATOON
+		TEXT_UNIT_DESTROYER_DROID_MK1_Q_COMPANY
+		TEXT_UNIT_BATTLE_DROID_PLATOON
+		TEXT_UNIT_B2_BATTLE_DROID_COMPANY
+		TEXT_UNIT_BACKWATER_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_SOLDIER_PLATOON
+		TEXT_UNIT_MILITARY_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON
+		TEXT_UNIT_HEAVY_PDF_PLATOON
+		TEXT_UNIT_SCAV_PLATOON
+		TEXT_UNIT_HEAVYSCAV_PLATOON
+		TEXT_UNIT_NAVYTROOPER_PLATOON
+		TEXT_UNIT_ARMYTROOPER_PLATOON
+		TEXT_UNIT_FAUX_STORMTROOPER_PLATOON
+		TEXT_UNIT_NAVYCOMMANDO_PLATOON
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
 
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		
-		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
-	</DummyStructure>
+		<Population_Value>1</Population_Value>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>Kaarenth_Rally_Center</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> no </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask> Infantry </CategoryMask>
+		<Lua_Script>RandomLightVehicleKaarenth</Lua_Script>
+
+	</UniqueUnit>
+
+		<UniqueUnit Name="Random_HeavyVehicle_Kaarenth">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RANDOM_INFANTRY_KAARENTH</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
+		TEXT_UNIT_HUTT_GUARD_PLATOON
+		TEXT_UNIT_GAMORREAN_GUARD_COMPANY
+		TEXT_UNIT_ARMORED_HUTT_PLATOON
+		TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY
+		TEXT_UNIT_AILON_NOVA_GUARD_PLATOON
+		TEXT_UNIT_SUN_GUARD_PLATOON
+		TEXT_UNIT_NIMBUS_COMMANDO_PLATOON
+		TEXT_UNIT_MANDALORIAN_SOLDIER_PLATOON
+		TEXT_UNIT_MANDALORIAN_COMMANDO_PLATOON
+		TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON
+		TEXT_UNIT_MERCENARY_PHALANX_TROOPER_PLATOON
+		TEXT_UNIT_DESTROYER_DROID_MK1_Q_COMPANY
+		TEXT_UNIT_BATTLE_DROID_PLATOON
+		TEXT_UNIT_B2_BATTLE_DROID_COMPANY
+		TEXT_UNIT_BACKWATER_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_SOLDIER_PLATOON
+		TEXT_UNIT_MILITARY_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON
+		TEXT_UNIT_HEAVY_PDF_PLATOON
+		TEXT_UNIT_SCAV_PLATOON
+		TEXT_UNIT_HEAVYSCAV_PLATOON
+		TEXT_UNIT_NAVYTROOPER_PLATOON
+		TEXT_UNIT_ARMYTROOPER_PLATOON
+		TEXT_UNIT_FAUX_STORMTROOPER_PLATOON
+		TEXT_UNIT_NAVYCOMMANDO_PLATOON
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
+
+		<Population_Value>1</Population_Value>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>Kaarenth_Rally_Center</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> no </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask> Infantry </CategoryMask>
+		<Lua_Script>RandomHeavyVehicleKaarenth</Lua_Script>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Random_AdvancedVehicle_Kaarenth">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RANDOM_INFANTRY_KAARENTH</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
+		TEXT_UNIT_HUTT_GUARD_PLATOON
+		TEXT_UNIT_GAMORREAN_GUARD_COMPANY
+		TEXT_UNIT_ARMORED_HUTT_PLATOON
+		TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY
+		TEXT_UNIT_AILON_NOVA_GUARD_PLATOON
+		TEXT_UNIT_SUN_GUARD_PLATOON
+		TEXT_UNIT_NIMBUS_COMMANDO_PLATOON
+		TEXT_UNIT_MANDALORIAN_SOLDIER_PLATOON
+		TEXT_UNIT_MANDALORIAN_COMMANDO_PLATOON
+		TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON
+		TEXT_UNIT_MERCENARY_PHALANX_TROOPER_PLATOON
+		TEXT_UNIT_DESTROYER_DROID_MK1_Q_COMPANY
+		TEXT_UNIT_BATTLE_DROID_PLATOON
+		TEXT_UNIT_B2_BATTLE_DROID_COMPANY
+		TEXT_UNIT_BACKWATER_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_SOLDIER_PLATOON
+		TEXT_UNIT_MILITARY_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON
+		TEXT_UNIT_HEAVY_PDF_PLATOON
+		TEXT_UNIT_SCAV_PLATOON
+		TEXT_UNIT_HEAVYSCAV_PLATOON
+		TEXT_UNIT_NAVYTROOPER_PLATOON
+		TEXT_UNIT_ARMYTROOPER_PLATOON
+		TEXT_UNIT_FAUX_STORMTROOPER_PLATOON
+		TEXT_UNIT_NAVYCOMMANDO_PLATOON
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
+
+		<Population_Value>1</Population_Value>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>Kaarenth_Rally_Center</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> no </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask> Infantry </CategoryMask>
+		<Lua_Script>RandomAdvancedVehicleKaarenth</Lua_Script>
+
+	</UniqueUnit>
+
+	<UniqueUnit Name="Random_AirSpeeder_Kaarenth">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RANDOM_INFANTRY_KAARENTH</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
+		TEXT_UNIT_HUTT_GUARD_PLATOON
+		TEXT_UNIT_GAMORREAN_GUARD_COMPANY
+		TEXT_UNIT_ARMORED_HUTT_PLATOON
+		TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY
+		TEXT_UNIT_AILON_NOVA_GUARD_PLATOON
+		TEXT_UNIT_SUN_GUARD_PLATOON
+		TEXT_UNIT_NIMBUS_COMMANDO_PLATOON
+		TEXT_UNIT_MANDALORIAN_SOLDIER_PLATOON
+		TEXT_UNIT_MANDALORIAN_COMMANDO_PLATOON
+		TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON
+		TEXT_UNIT_MERCENARY_PHALANX_TROOPER_PLATOON
+		TEXT_UNIT_DESTROYER_DROID_MK1_Q_COMPANY
+		TEXT_UNIT_BATTLE_DROID_PLATOON
+		TEXT_UNIT_B2_BATTLE_DROID_COMPANY
+		TEXT_UNIT_BACKWATER_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_SOLDIER_PLATOON
+		TEXT_UNIT_MILITARY_SOLDIER_PLATOON
+		TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON
+		TEXT_UNIT_HEAVY_PDF_PLATOON
+		TEXT_UNIT_SCAV_PLATOON
+		TEXT_UNIT_HEAVYSCAV_PLATOON
+		TEXT_UNIT_NAVYTROOPER_PLATOON
+		TEXT_UNIT_ARMYTROOPER_PLATOON
+		TEXT_UNIT_FAUX_STORMTROOPER_PLATOON
+		TEXT_UNIT_NAVYCOMMANDO_PLATOON
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
+
+		<Population_Value>1</Population_Value>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures>Kaarenth_Rally_Center</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> no </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask> Infantry </CategoryMask>
+		<Lua_Script>RandomAirspeederKaarenth</Lua_Script>
+
+	</UniqueUnit>
 
 	<DummyStructure Name="Sorosuub_Research_Proteus">
 		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
@@ -666,6 +901,36 @@
 
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+
+	<!-- Kashyyyk -->
+
+		<DummyStructure Name="Dummy_Research_KSpecialMissions">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_KSM_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KSM_RESEARCH </Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_KSM.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
+
+		<Lua_Script>ResearchKSM</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		
 		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>

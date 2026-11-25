@@ -7372,59 +7372,725 @@
 		</Unit_Abilities_Data>
 	</Container>
 
-	<UniqueUnit Name="Random_Infantry_Kaarenth">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_RANDOM_INFANTRY_KAARENTH</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
-		</Encyclopedia_Text>
-	<!--	<Encyclopedia_Text> 
-		TEXT_TOOLTIP_RANDOM_INFANTRY_KAARENTH
-		TEXT_UNIT_HUTT_GUARD_PLATOON
-		TEXT_UNIT_GAMORREAN_GUARD_COMPANY
-		TEXT_UNIT_ARMORED_HUTT_PLATOON
-		TEXT_UNIT_TRANDOSHAN_HUNTER_COMPANY
-		TEXT_UNIT_AILON_NOVA_GUARD_PLATOON
-		TEXT_UNIT_SUN_GUARD_PLATOON
-		TEXT_UNIT_NIMBUS_COMMANDO_PLATOON
-		TEXT_UNIT_MANDALORIAN_SOLDIER_PLATOON
-		TEXT_UNIT_MANDALORIAN_COMMANDO_PLATOON
-		TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON
-		TEXT_UNIT_MERCENARY_PHALANX_TROOPER_PLATOON
-		TEXT_UNIT_DESTROYER_DROID_MK1_Q_COMPANY
-		TEXT_UNIT_BATTLE_DROID_PLATOON
-		TEXT_UNIT_B2_BATTLE_DROID_COMPANY
-		TEXT_UNIT_BACKWATER_SOLDIER_PLATOON
-		TEXT_UNIT_PDF_SOLDIER_PLATOON
-		TEXT_UNIT_MILITARY_SOLDIER_PLATOON
-		TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON
-		TEXT_UNIT_HEAVY_PDF_PLATOON
-		TEXT_UNIT_SCAV_PLATOON
-		TEXT_UNIT_HEAVYSCAV_PLATOON
-		TEXT_UNIT_NAVYTROOPER_PLATOON
-		TEXT_UNIT_ARMYTROOPER_PLATOON
-		TEXT_UNIT_FAUX_STORMTROOPER_PLATOON
-		TEXT_UNIT_NAVYCOMMANDO_PLATOON
-		</Encyclopedia_Text> -->
-		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
+		<!-- Skakoan Combat Engineer -->
 
-		<Population_Value>1</Population_Value>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<GroundInfantry Name="Skakoan_Combat_Engineer_Sapper">
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_SAPPER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER.tga</Icon_Name>
+
+		<Land_Model_Name>Skakoan_Combat_Engineer.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Skakoan_Combat_Engineer.ALO,
+			Urban, 				Skakoan_Combat_Engineer.ALO,
+			Arctic, 			Skakoan_Combat_Engineer.ALO,
+			Volcanic, 			Skakoan_Combat_Engineer.ALO,
+			Desert, 			Skakoan_Combat_Engineer.ALO,
+			Forest, 			Skakoan_Combat_Engineer.ALO,
+			Swamp, 				Skakoan_Combat_Engineer.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name/>
+		<Scale_Factor>1.1</Scale_Factor>
+		<Select_Box_Scale>12</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Size_Value>10</Size_Value>
+
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .40 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.0</Max_Speed>
+		<OverrideAcceleration> 1.0 </OverrideAcceleration>
+		<OverrideDeceleration> 1.0 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_Infantry </Armor_Type>
+		<Tactical_Health>18</Tactical_Health>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+
+		<Damage>0.6</Damage>
+		<AI_Combat_Power>8</AI_Combat_Power>
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<Type>Walk</Type>
+		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<Weather_Category>Infantry</Weather_Category>
+		<Deploys>No</Deploys>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SELF_DESTRUCT, LANDING, SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DEMOLITION</LandBehavior>
+
+		<HardPoints>HP_Skakoan_Wrist_Rifle, HP_Skakoan_Wrist_Blaster, HP_ARC_RPS</HardPoints>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+
+		<Target_Bones>Target_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.25f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Suit Explosion for Skakoans -->
+		<Death_Explosions>Small_Explosion_Land, Organic_Infantry_Blood_Cyan_Explosion</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Select>Unit_Select_Storm_Commando</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Commando</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Commando</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Commando</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Commando</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Storm_Commando</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Storm_Commando</SFXEvent_Assist_Attack>
+
+		<Death_SFXEvent_Start_Die>Unit_Storm_Commando_Death</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, null</SFXEvent_Hardpoint_Destroyed>
+
+		<MovementClass> Infantry </MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<CanCellStack>yes</CanCellStack>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationSpacing> .3 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Sensor_Range>20</Sensor_Range>
+
+		<Land_FOW_Reveal_Range>350</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiInfantryVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>9000.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Property_Flags>Fodder</Property_Flags>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Rocket</Highlight_Blob_Material_Name>
+
+		<!-- 3 av mines per 5 ability squad company -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Skakoan_Sapper_Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability>Unit_Detonate_Storm_Commando</SFXEvent_Target_Ability>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Spawned_Object_Type> Land_Self_Destruct_Small </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Skakoan_Sapper_Proximity_Mines_AV">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antivehicle</Mine_Type>
+				<Trigger_Radius>5</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Skakoan_Combat_Engineer_Specialist">
+		<Variant_Of_Existing_Type>Skakoan_Combat_Engineer_Sapper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_SPECIALIST</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP4
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>8</AI_Combat_Power>
+
+		<HardPoints>HP_Skakoan_Wrist_Rifle, HP_Skakoan_Disruptor, HP_Skakoan_Slug_Carbine</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Special</Highlight_Blob_Material_Name>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>AREA_EFFECT_STUN</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> 
+				<Spawned_Object_Type> Proj_Special_Han_Solo_Stun_Blast </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Spawned_Object_Type> Land_Self_Destruct_Small </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundInfantry>
+
+	<GroundInfantry Name="Skakoan_Combat_Engineer_Assault">
+		<Variant_Of_Existing_Type>Skakoan_Combat_Engineer_Sapper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_ASSAULT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP6
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_WEAP7
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>7</AI_Combat_Power>
+
+		<HardPoints>HP_Skakoan_Wrist_Rifle, HP_ARC_Wrist_Flamer, HP_ARC_Grenade</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Infantry_Flamer</Highlight_Blob_Material_Name>
+		
+		<Targeting_Priority_Set> AntiInfantryStructure </Targeting_Priority_Set>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Sprint_Storm_Commando </SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Spawned_Object_Type> Land_Self_Destruct_Small </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Skakoan_Combat_Engineer_Company_Dummy">
+		<Variant_Of_Existing_Type> Infantry_Dummy_Template </Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER.tga</Icon_Name>
+
+		<Land_Model_Name>Skakoan_Combat_Engineer.ALO</Land_Model_Name>
+		<AI_Combat_Power>112.26</AI_Combat_Power>
+		<Affiliation>Techno_Union, Rebel</Affiliation>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>AREA_EFFECT_STUN</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundCompany Name="Skakoan_Combat_Engineer_Company">
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_PLATOON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP3
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP4
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP5
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP6
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_COMPANY_WEAP7
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER.tga</Icon_Name>
+
+		<Damage>18</Damage>
+
+		<Ship_Class>infantry</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Cost_Credits>195</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Required_Special_Structures>I_Ground_Barracks | Cloning_HQ</Required_Special_Structures>
-		<Build_Time_Reduced_By_Multiple_Factories> no </Build_Time_Reduced_By_Multiple_Factories>
+		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Population_Value>1</Population_Value>
+
 		<Tech_Level>0</Tech_Level>
-		<CategoryMask> Infantry </CategoryMask>
-		<Lua_Script>RandomInfantryKaarenth</Lua_Script>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-	</UniqueUnit>
+		<Affiliation>Techno_Union, Rebel</Affiliation>
+		<Political_Control/>
 
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units> Skakoan_Combat_Engineer_Company_Dummy</Company_Units>
+		<Company_Transport_Unit>Sheathipede_B_Type_Landing_Craft_Commando</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Commando</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Commando</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<!--<MULTIPLAYER SKEAMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>225</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+
+	</GroundCompany>
+
+	<GroundCompany Name="Skakoan_Combat_Engineer_Sapper_Squad">
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_SAPPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD1_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD1_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER_SAPPER.tga</Icon_Name>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+
+		<Create_Team_Type> Skakoan_Combat_Engineer_Sapper_Container </Create_Team_Type>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Company_Units> Skakoan_Combat_Engineer_Sapper, Skakoan_Combat_Engineer_Sapper, Skakoan_Combat_Engineer_Sapper, Skakoan_Combat_Engineer_Sapper, Skakoan_Combat_Engineer_Sapper</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Skakoan_Combat_Engineer_Specialist_Squad">
+		<Variant_Of_Existing_Type>Skakoan_Combat_Engineer_Sapper_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_SPECIALIST_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD2_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD2_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD2_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER_SPECIALIST.tga</Icon_Name>
+
+		<Create_Team_Type> Skakoan_Combat_Engineer_Specialist_Container </Create_Team_Type>
+		<Company_Units> Skakoan_Combat_Engineer_Specialist, Skakoan_Combat_Engineer_Specialist, Skakoan_Combat_Engineer_Specialist, Skakoan_Combat_Engineer_Specialist, Skakoan_Combat_Engineer_Specialist</Company_Units>
+	</GroundCompany>
+
+	<GroundCompany Name="Skakoan_Combat_Engineer_Assault_Squad">
+		<Variant_Of_Existing_Type>Skakoan_Combat_Engineer_Sapper_Squad</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD3_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD3_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD3_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER_ASSAULT.tga</Icon_Name>
+
+		<Create_Team_Type> Skakoan_Combat_Engineer_Assault_Container </Create_Team_Type>
+		<Company_Units> Skakoan_Combat_Engineer_Assault, Skakoan_Combat_Engineer_Assault, Skakoan_Combat_Engineer_Assault, Skakoan_Combat_Engineer_Assault, Skakoan_Combat_Engineer_Assault</Company_Units>
+	</GroundCompany>
+
+	<Container Name="Skakoan_Combat_Engineer_Sapper_Container">
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_SAPPER_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD1_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD1_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD1_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER_SAPPER.tga</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>275.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Skakoan_Sapper_Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability>Unit_Detonate_Storm_Commando</SFXEvent_Target_Ability>
+				<Area_Effect_Decal_Distance>120.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 80.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Spawned_Object_Type> Land_Self_Destruct_Small </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Skakoan_Sapper_Proximity_Mines_AV">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antivehicle</Mine_Type>
+				<Trigger_Radius>5</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+	</Container>
+
+	<Container Name="Skakoan_Combat_Engineer_Specialist_Container">
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_SPECIALIST_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD2_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD2_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD2_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER_SPECIALIST.tga</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>AREA_EFFECT_STUN</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Container Name="Skakoan_Combat_Engineer_Assault_Container">
+		<Text_ID>TEXT_UNIT_SKAKOAN_COMBAT_ENGINEER_ASSAULT_SQUAD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_HEALTH
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_MOVE
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD3_WEAP1
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD3_WEAP2
+		TEXT_TOOLTIP_SKAKOAN_COMBAT_ENGINEER_SQUAD3_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SKAKOAN_COMBAT_ENGINEER_ASSAULT.tga</Icon_Name>
+
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Land_Model_Name/>
+
+		<Max_Speed> 1.0 </Max_Speed>
+		<OverrideAcceleration>0.1</OverrideAcceleration>
+		<OverrideDeceleration>0.1</OverrideDeceleration>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+
+		<CategoryMask>Infantry</CategoryMask>
+		<Show_Name>No</Show_Name>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Lua_Script/>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Squashable> true </Is_Squashable>
+
+		<MovementClass>Infantry</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 2 </FormationOrder>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>275.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>275.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+	
 </Project_Proteus_Infantry>

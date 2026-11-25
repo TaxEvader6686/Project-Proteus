@@ -3365,5 +3365,44 @@
 	
 		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 1</Starting_Spawned_Units_Tech_0>
 	</SpecialStructure>
-	
+
+		<SpecialStructure Name="Kaarenth_Rally_Center">
+		<Variant_Of_Existing_Type>Template_Galactic_Company</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_GROUND_KAARENTH_RALLY_CENTER</Text_ID>
+
+		<Encyclopedia_Text>
+		TEXT_ENCYCLOPEDIA_KAARENTH_RALLY_CENTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_COMPANY_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_CANTINA_GARRISON
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_KAARENTH_RALLY_CENTER_BONUS
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_KAARENTH_RALLY_CENTER
+		</Encyclopedia_Text>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Required_Planets></Required_Planets>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Required_Special_Structures>Imperial_Proteus_Office</Required_Special_Structures>
+
+		<Icon_Name>I_BUTTON_KAARENTH_DISSENSION.tga</Icon_Name>
+		<Land_Model_Name> W_CANTINATAT.alo </Land_Model_Name>
+		<Scale_Factor>0.60</Scale_Factor>
+		
+		<Obstacle_Proxy_Type> Ground_Mining_Facility_Build_Pad </Obstacle_Proxy_Type>
+
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Build_Limit_Current_Per_Player> 5 </Build_Limit_Current_Per_Player>
+
+		<Starting_Spawned_Units_Tech_0>Light_Mercenary_Squad, 1</Starting_Spawned_Units_Tech_0>
+
+	</SpecialStructure>
+
 </SpecialStructures>
