@@ -100,6 +100,7 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Starting_Spawned_Units_Tech_1>Schmong_Spawner, 1</Starting_Spawned_Units_Tech_1>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -145,6 +146,12 @@
     			<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 		</Abilities>
+		
+	</UniqueUnit>
+
+	<UniqueUnit Name="Schmong_Spawner">
+		<Variant_Of_Existing_Type>Z95_Headhunter</Variant_Of_Existing_Type>
+		<Lua_Script>SchmongSpawn</Lua_Script>
 	</UniqueUnit>
 
 	<UniqueUnit Name="T11">

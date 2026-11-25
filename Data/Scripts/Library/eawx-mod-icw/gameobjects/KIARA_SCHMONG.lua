@@ -1,7 +1,7 @@
 return {
 	Fighters = {
-		["RNEEKII_SPAWNER"] = {
-			DEFAULT = {Initial = 1, Reserve = 0}
+		["SCHMONG_SPAWNER"] = {
+			DEFAULT = {Initial = 3, Reserve = 2}
 		},
 	},
 	Scripts = {"multilayer", "fighter-spawn"},
