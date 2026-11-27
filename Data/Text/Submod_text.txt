@@ -2276,3 +2276,96 @@ Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
 TEXT_GOVERNMENT_PROTEUS_SHIPYARD_DISPLAY_RENDILI1,Customs Corvette Gunboat: 4 / 0
+TEXT_UNIT_JU9_JUGGERNAUT_DROID,JU-9 Juggernaut War Droid
+TEXT_UNIT_JU9_JUGGERNAUT_DROID_COMPANY,JU-9 Juggernaut War Droid Platoon
+TEXT_UNIT_JU9_JUGGERNAUT_DROID_SQUAD,JU-9 Juggernaut War Droid Squad
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID,A war droid derived from similar concepts as the Holowan IG-series, though amusingly more reminiscent of their future products than ones of a similar age. Favored by petty local warlords and mercenary forces for antivehicle support and defensive operations, they function best against heavier targets but are intended to be screened by normal infantry.
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY,Company: 25x JU-9 Juggernaut War Droid
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY_WEAP1,25x Heavy Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_COMPANY_WEAP2,25x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_HEALTH,Health: 23 (Droid)
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_MOVE,Speed: 0.9 
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD,Squad: 5x JU-9 Juggernaut War Droid
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD_WEAP1,5x Heavy Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_SQUAD_WEAP2,5x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_WEAP1,1x DL-44 Blaster Pistol: 1 / 1.5s / 220m
+TEXT_TOOLTIP_JU9_JUGGERNAUT_DROID_WEAP2,1x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_UNIT_BX_COMMANDO,BX Commando Droid
+TEXT_UNIT_BX_COMMANDO_AT_LIGHT,BX Commando Droid Light AT
+TEXT_UNIT_BX_COMMANDO_GRENADIER,BX Commando Droid Grenadier
+TEXT_UNIT_BX_COMMANDO_GUNNER,BX Commando Droid Gunner
+TEXT_UNIT_BX_COMMANDO_OFFICER,BX Commando Droid Officer
+TEXT_UNIT_BX_COMMANDO_SNIPER,BX Commando Droid Sniper
+TEXT_TOOLTIP_BX_COMMANDO,Highly advanced battle droids with enhanced armor, reflexes, and sophisticated combat and infiltration protocols. They are substantially faster and stronger than a B1 unit in performance but too expensive for line infantry. They are suitable for raiding, anti-infantry duties, and guarding VIP's.
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY,Company: 24x BX Commando Droid
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP1,6x Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP2,8x Blaster Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP3,6x Light AV Missile Launcher: 1 / 9.0s / 280m
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP4,2x Blaster Cannon: 1 / 1.0s / 240m
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP5,2x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP6,8x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_COMPANY_WEAP7,2x Wrist Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_HEALTH,Health: 24 (Droid)
+TEXT_TOOLTIP_BX_COMMANDO_MOVE,Speed: 1.4 
+TEXT_TOOLTIP_BX_COMMANDO_OFFICER,Officer-marked BX intended to lead teams of the commando units in operations. It is slightly more protected than other members of the squad.
+TEXT_TOOLTIP_BX_COMMANDO_OFFICER_HEALTH,Health: 28 (Droid)
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD,Squad: 4x BX Commando Droid
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD1_WEAP1,4x Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD1_WEAP2,1x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD1_WEAP3,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD2_WEAP1,4x Blaster Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD3_WEAP1,1x Blaster Cannon: 1 / 1.0s / 240m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD3_WEAP2,3x Light AV Missile Launcher: 1 / 9.0s / 280m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD3_WEAP3,3x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_SQUAD3_WEAP4,1x Wrist Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP1,1x Modified E-5 Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP2,1x Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP3,1x RPS-6 Rocket Launcher: 1 / 9.0s / 280m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP4,1x BX Blaster Cannon: 1 / 1.0s / 240m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP5,1x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_BX_COMMANDO_WEAP7,1x Wrist Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_UNIT_VX_AA_DROID,VX-6 Anti-Air Droid
+TEXT_UNIT_VX_AA_DROID_COMPANY,VX-6 Anti-Air Droid Company
+TEXT_UNIT_VX_ARTILLERY_DROID,VX-series Artillery Droid
+TEXT_UNIT_VX_ARTILLERY_DROID_COMPANY,VX-series Artillery Droid Company
+TEXT_TOOLTIP_VX_AA_DROID,A configuration of the VX series artillery droids, armed with flak missiles to protect against aerial assaults. With its lighter frame enabling it to move faster compared to long-range artillery models and a token anti-infantry laser, this droid is aptly suited for all its users anti-air needs.
+TEXT_TOOLTIP_VX_AA_DROID_COMPANY,Company: 4x VX-6 Anti-Air Droid
+TEXT_TOOLTIP_VX_AA_DROID_HEALTH,Health: 65 (Light Vehicle)
+TEXT_TOOLTIP_VX_AA_DROID_MOVE,Speed: 1.75 | Turn: 1.0
+TEXT_TOOLTIP_VX_AA_DROID_WEAP1,1x Flak Missile: 2 / 2.0s / 400m
+TEXT_TOOLTIP_VX_AA_DROID_WEAP2,1x Light AI Blaster Cannon: 4 / 1.0s / 200m
+TEXT_TOOLTIP_VX_ARTILLERY_DROID,A simple and reliable military droid model employed and maintained for millenia which was sold to nearly everyone who would pay by Czerka Corporation. Consists of little more than a tracked base, targeting sensors, and support for racks of missiles. Useful for bombarding enemy positions at range.
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_COMPANY,Company: 2x VX-series Artillery Droid
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_HEALTH,Health: 75 (Light Vehicle)
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_MOVE,Speed: 1.5 | Turn: 1.0
+TEXT_TOOLTIP_VX_ARTILLERY_DROID_WEAP1,1x Proton Missile: 4 / 14.8s / 1440m
+TEXT_UNIT_PAC,Platoon Attack Craft
+TEXT_UNIT_PAC_COMPANY,Platoon Attack Craft Company
+TEXT_TOOLTIP_PAC,No-frills ground transport adapted from the design of a commercial repulsorlift sled. Less protected than the larger MTT but faster and more suited to bulk transport.
+TEXT_TOOLTIP_PAC_COMPANY,Company: 4x Platoon Attack Craft
+TEXT_TOOLTIP_PAC_HEALTH,Health: 150 (Light Vehicle)
+TEXT_TOOLTIP_PAC_MOVE,Speed: 2.0 | Turn: 1.0 
+TEXT_TOOLTIP_PAC_WEAP1,2x Light AI Blaster Cannons: 4 / 1.5s / 240m
+TEXT_UNIT_DEFOLIATOR,Defoliator Deployment Tank
+TEXT_TOOLTIP_DEFOLIATOR,An unusual artillery piece designed by Lok Durd to fit onto an AAT chasis. Specialty munitions use a chain-reaction incendiary energy type to cause effective wide-area damage against less-protected organic infantry and operators, but little against shielded or armoured targets. This model being built atop an AAT-1 provides the artillery with the defensive capabilities of the base design.
+TEXT_TOOLTIP_DEFOLIATOR_COMPANY,Company: 1x Defoliator Deployment Tank
+TEXT_TOOLTIP_DEFOLIATOR_HEALTH,Health: 300 (Medium Vehicle)
+TEXT_TOOLTIP_DEFOLIATOR_MOVE,Speed: 1.0 | Turn: 2.0 
+TEXT_TOOLTIP_DEFOLIATOR_WEAP1,1x Defoliator Artillery Cannon: 1 / 8.333s / 1440m
+TEXT_TOOLTIP_DEFOLIATOR_WEAP2,2x AI Blaster Cannons: 2 / 1.0s / 240m
+TEXT_TOOLTIP_DEFOLIATOR_WEAP3,1x Light AI Blaster Cannon: 2 / 0.5s / 200m
+TEXT_TOOLTIP_DEFOLIATOR_WEAP4,1x Light Proton Missile: 2 / 15.0s / 320m
+TEXT_TOOLTIP_DEFOLIATOR_WEAP5,1x Concussion Missile: 2 / 15.0s / 320m
+TEXT_UNIT_MTT,Multi-Troop Transport
+TEXT_TOOLTIP_MTT,The Multi-Troop Transport is a ponderous and heavily armored transport vehicle. Though only lightly armed, the MTT can carry 112 battle droids through a battlefield and rapidly deploy them via a hydraulic rack.
+TEXT_TOOLTIP_MTT_CARGO,A version of the Multi-Troop Transport used for supply lines. Its inner droid racks have been gutted, instead using the space to transport massive loads of cargo within its bulky frame.
+TEXT_TOOLTIP_MTT_CARGO_COMPANY,Company: 1x Cargo Multi-Troop Transport
+TEXT_TOOLTIP_MTT_COMPANY,Company: 1x Multi-Troop Transport
+TEXT_TOOLTIP_MTT_DEPLOY,Deploys: 1x B1 Battle Droid Assault Squad
+TEXT_TOOLTIP_MTT_HEALTH,Health: 900 (Heavy Vehicle)
+TEXT_TOOLTIP_MTT_MOVE,Speed: 0.75 | Turn: 1.0 
+TEXT_TOOLTIP_MTT_WEAP1,2x Heavy AI Blaster Cannons: 4 / 1.0s / 320m
+TEXT_UNIT_BATTLEDROID_GRENADE,B1 Battle Droid Grenadier
+TEXT_UNIT_BATTLEDROID_AT_LIGHT,B1 Battle Droid Light AT
+TEXT_UNIT_BATTLE_DROID_MTT_SQUAD,B1 Battle Droid Assault Squad
